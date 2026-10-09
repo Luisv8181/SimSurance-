@@ -27,6 +27,8 @@ The Learning Lab teaches the system through metaphors, visual explanations, work
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
 - [Plain-language glossary](docs/LEARNING_LAB_GLOSSARY.md)
 - [Learning Lab implementation plan](docs/LEARNING_LAB_IMPLEMENTATION_PLAN.md)
+- [Structured lesson catalog](learning-lab/lessons.json) — lesson IDs, audience levels, status labels, source references, and objectives.
+- [Lesson authoring template](learning-lab/LESSON_TEMPLATE.md) — common format with source provenance, metaphor limitations, and accessibility checks.
 - [Interactive claim decisions lesson](learning-lab/claim-decisions.html) — a toy adjudication explorer showing paid, not-approved, and needs-review outcomes without encoding real plan rules.
 - [Implementation issue #3](https://github.com/Luisv8181/SimSurance-/issues/3)
 
