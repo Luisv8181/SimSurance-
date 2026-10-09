@@ -1,53 +1,34 @@
 # SimSurance
 
-**A research platform for simulating mental-health policy, insurance rules, Medicaid financing, service delivery, and population outcomes.**
+**A research platform for simulating behavioral-health policy, insurance rules, Medicaid financing, service delivery, and population outcomes.**
 
-SimSurance is envisioned as an auditable virtual-county laboratory. Researchers can encode documented policy rules, construct a synthetic population calibrated to public evidence, model provider capacity and payment flows, and compare a baseline system with proposed policy scenarios.
+SimSurance is an auditable virtual-county laboratory connecting official policy sources to explicit rules, synthetic populations, provider networks, service events, financial flows, and comparative policy experiments.
 
-The core question:
-
-> Under what conditions do alternative behavioral-health financing and service-delivery policies improve access, outcomes, equity, and financial sustainability compared with the existing system?
+**Core question:** Under what conditions do alternative behavioral-health financing and service-delivery policies improve access, outcomes, equity, and financial sustainability compared with a documented baseline?
 
 ## Product pillars
-
-1. **Medicaid Policy Explorer** — searchable primary sources, acronyms, definitions, effective dates, source passages, policy relationships, and uncertainty labels.
-2. **Virtual County** — synthetic individuals and households, provider organizations, service capacity, referral pathways, and access barriers calibrated to published data.
-3. **Policy and Coverage Engine** — versioned, explicit rules for eligibility, covered services, authorization, provider qualifications, and reimbursement.
-4. **Financial Engine** — auditable claims, payments, budgets, operating costs, payer-level expenditure, and cash-flow accounting.
-5. **Simulation Lab** — reproducible baseline and policy scenarios, repeated runs, sensitivity analysis, and uncertainty intervals.
-6. **Outcomes Dashboard** — access, wait times, unmet need, continuity, clinical outcomes, equity, workforce capacity, and financial sustainability.
-7. **Research Learning Loop** — source → model → simulate → validate → compare → refine, with assumptions and limitations attached to every result.
+1. **Medicaid Policy Explorer** — searchable primary sources, acronyms, definitions, effective dates, source passages, policy relationships and uncertainty labels.
+2. **Virtual County** — synthetic population, provider organizations, service capacity, referral pathways and access barriers.
+3. **Policy Engine** — versioned rules for eligibility, covered services, authorization, provider qualifications and reimbursement.
+4. **Financial Ledger** — auditable claims, payments, budgets, provider costs, payer-level expenditure and cash-flow accounting.
+5. **Simulation Lab** — reproducible baseline and policy scenarios, repeated runs, sensitivity analysis and uncertainty intervals.
+6. **Outcomes Dashboard** — access, wait times, unmet need, continuity, outcomes, equity, workforce capacity and financial sustainability.
+7. **Research Learning Loop** — source → model → simulate → validate → compare → refine.
 
 ## Research principles
+- Policy rules link to authoritative sources, passages, jurisdictions and effective dates.
+- Distinguish verified rules, derived values, estimated parameters, expert assumptions and hypothetical scenarios.
+- Record model/data/code versions, configuration and random seed for each run.
+- Begin with synthetic records calibrated to public aggregate evidence; do not use identifiable client data in the prototype.
+- Report uncertainty and limitations. Simulation results are conditional estimates, not proof of real-world causal effects or guaranteed savings.
+- This is a research and education tool, not an official policy determination, coverage decision, clinical recommendation or legal advice.
+- AI agents may research, code and critique; they may not silently invent policy rules, data, citations or results.
 
-- **Source-grounded:** policy rules must link to authoritative sources, specific passages, jurisdictions, and effective dates.
-- **Auditable:** every modeled decision and financial transaction should be explainable and traceable.
-- **Reproducible:** record model version, data version, configuration, random seed, and run metadata.
-- **Explicit about uncertainty:** distinguish observed data, estimated parameters, expert assumptions, and hypothetical policy choices.
-- **Synthetic by default:** begin with synthetic records calibrated to aggregate public data. Do not use identifiable client records in the prototype.
-- **No false precision:** simulated outcomes are conditional estimates, not proof that a policy will work in the real world.
-- **Policy/legal boundary:** the platform supports research and education; it does not determine individual eligibility, make coverage decisions, or provide legal advice.
-- **Human accountability:** AI agents may help research, code, summarize, and critique. They may not silently invent policy rules, data, citations, or model results.
+## Getting started
+Read [AGENTS.md](AGENTS.md), [the Deep Research Report](docs/DEEP_RESEARCH_REPORT.md), [Product Requirements](docs/PRODUCT_REQUIREMENTS.md), [Code Roadmap](docs/CODE_ROADMAP.md), [Architecture](docs/ARCHITECTURE.md), [Agent Roles](docs/AGENT_ROLES.md), [Research Plan](docs/RESEARCH_PLAN.md), [Source Register](docs/SOURCE_REGISTER.md), [Glossary](docs/GLOSSARY.md), [Assumptions Register](docs/ASSUMPTIONS_REGISTER.md), [Validation Plan](docs/VALIDATION_PLAN.md), [Security/Privacy/Governance](docs/SECURITY_PRIVACY_GOVERNANCE.md), [Decision Log](docs/DECISIONS.md), and the [Agent Execution Prompt](docs/AGENT_EXECUTION_PROMPT.md).
 
 ## Initial scope
-
-Start with Pennsylvania Medicaid behavioral health and a deliberately small, transparent county model. The first experiment should compare a documented baseline with a clearly labeled hypothetical care-coordination pilot. Do not model every insurer or every service before the baseline is validated.
-
-## Suggested repository map
-
-- `AGENTS.md` — instructions for coding and research agents
-- `docs/AGENT_ROLES.md` — multidisciplinary expert perspectives and review duties
-- `docs/ARCHITECTURE.md` — system boundaries, components, and data flow
-- `docs/RESEARCH_PLAN.md` — research questions, first experiment, validation, and limitations
-- `docs/SOURCE_REGISTER.md` — primary-source inventory and source-quality rules
-- `docs/GLOSSARY.md` — acronym and concept dictionary
-- `src/` — application and simulation code (to be established after stack selection)
-- `tests/` — unit, integration, accounting-invariant, and reproducibility tests
+Begin with Pennsylvania Medicaid behavioral health and a small synthetic county. First compare a documented baseline against one clearly labeled hypothetical care-coordination/community-service pilot. Avoid expanding to every insurer and service before baseline validation.
 
 ## Status
-
-Early-stage concept and research scaffold. A functioning simulator, validated policy engine, calibrated population, and empirical findings should not be claimed until implemented and tested.
-
-## Working agreement
-
-See [AGENTS.md](AGENTS.md) and the documents in [docs/](docs/) before implementing features.
+Research scaffold and roadmap committed; implementation, policy verification, calibration and validation are still in progress. Do not claim a functioning simulator or validated policy model until tests and independent review establish it.
