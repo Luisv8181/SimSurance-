@@ -14,6 +14,18 @@ SimSurance is an auditable virtual-county laboratory connecting official policy 
 5. **Simulation Lab** — reproducible baseline and policy scenarios, repeated runs, sensitivity analysis and uncertainty intervals.
 6. **Outcomes Dashboard** — access, wait times, unmet need, continuity, outcomes, equity, workforce capacity and financial sustainability.
 7. **Research Learning Loop** — source → model → simulate → validate → compare → refine.
+8. **Learning Lab** — plain-language education about mental-health insurance and financing, designed for high-school learners through practitioners and policy researchers.
+
+## Learning Lab
+The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions.
+
+- [Learning Lab vision and curriculum](docs/LEARNING_LAB.md)
+- [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
+- [Plain-language glossary](docs/LEARNING_LAB_GLOSSARY.md)
+- [Learning Lab implementation plan](docs/LEARNING_LAB_IMPLEMENTATION_PLAN.md)
+- [Implementation issue #3](https://github.com/Luisv8181/SimSurance-/issues/3)
+
+The learning content is a committed foundation, not yet a deployed interactive website. All amounts in the sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
 
 ## Research principles
 - Policy rules link to authoritative sources, passages, jurisdictions and effective dates.
