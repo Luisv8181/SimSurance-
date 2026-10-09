@@ -34,3 +34,16 @@ This register is the starting point for primary-source research. Each source mus
 - `hypothetical_scenario`: a proposed policy or value used for experimentation, not an assertion about current law.
 
 Never mark a source as verified merely because an AI model supplied a citation. Open and inspect the source.
+
+
+## Dated source verification snapshot
+
+See [SOURCE_VERIFICATION_2026-10-08.md](SOURCE_VERIFICATION_2026-10-08.md) for the official Pennsylvania DHS pages checked on 2026-10-08 and the precise limits of what was verified.
+
+Initial official-source findings:
+- DHS's Behavioral HealthChoices overview describes county contracting with BH-MCOs and member assignment by county of residence: https://www.pa.gov/agencies/dhs/resources/medicaid/bhc
+- The current publications index lists the PS&R and appendices, 2026 Financial Reporting Requirements, ASAM rates effective January 1, 2026, the 2026 member handbook, and 2025-2026/2024-2025 annual technical reports: https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications
+- The county/MCO mapping is published separately: https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos
+- OMHSAS Systems Management describes its role in managing BH claims/encounter data and business intelligence: https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management
+
+These findings verify official source pages and index contents, not the precise applicability of individual coverage, rate, or contract rules. Do not encode a policy rule until its source document version, effective period, exact passage, and applicability have been reviewed.
