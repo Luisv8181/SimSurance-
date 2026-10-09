@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a2c">
+<title>Follow the Money | SimSurance Learning Lab</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#111d30;--panel2:#17263c;--ink:#eef4ff;--muted:#b3c1d6;--line:#2e405a;--blue:#7db8ff;--mint:#89e0ce;--gold:#f0c879;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#1b3453,transparent 45%),var(--bg);color:var(--ink);line-height:1.6}a{color:var(--blue)}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.wrap{width:min(1020px,calc(100% - 32px));margin:auto}.head{padding:24px 0;border-bottom:1px solid var(--line)}.brand{font-weight:850;letter-spacing:.05em}.brand span{color:var(--mint)}.hero{padding:48px 0 28px}.eyebrow{font-size:.78rem;color:var(--mint);letter-spacing:.14em;font-weight:800;text-transform:uppercase}.hero h1{font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.04;letter-spacing:-.04em;margin:.3em 0}.lede{max-width:75ch;color:var(--muted);font-size:1.1rem}.panel{background:linear-gradient(150deg,var(--panel),#0f1929);border:1px solid var(--line);border-radius:20px;padding:22px;margin:16px 0}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.actor{padding:18px;border:1px solid var(--line);background:var(--panel2);border-radius:16px;min-height:160px}.actor .n{color:var(--mint);font-weight:850;font-size:.8rem;letter-spacing:.1em}.actor h3{margin:.3em 0}.actor p{margin:0;color:var(--muted);font-size:.95rem}.arr{display:block;text-align:center;color:var(--mint);font-weight:800;padding-top:8px}.chooser{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}.chooser button{border:1px solid var(--line);border-radius:99px;background:var(--panel2);color:var(--ink);padding:10px 14px;font:inherit;cursor:pointer}.chooser button[aria-pressed=true]{border-color:var(--mint);box-shadow:inset 0 0 0 1px var(--mint)}.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.math{background:#091421;border:1px solid var(--line);border-radius:16px;padding:20px}.row{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:9px 0}.row:last-child{border:0}.number{font-size:1.8rem;font-weight:850;color:var(--mint);font-variant-numeric:tabular-nums}.callout{border-left:3px solid var(--gold);background:#242119;color:#f5e7bf;padding:12px 14px;border-radius:0 12px 12px 0;margin:14px 0}.muted{color:var(--muted)}.small{font-size:.9rem}.quiz button{display:block;width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;background:var(--panel2);color:var(--ink);padding:12px;margin:8px 0;font:inherit;cursor:pointer}.feedback{min-height:3em;color:var(--mint)}footer{border-top:1px solid var(--line);margin-top:44px;padding:24px 0;color:var(--muted)}
+@media(max-width:760px){.flow,.statgrid{grid-template-columns:1fr}.actor{min-height:0}.hero{padding-top:36px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="head"><div class="wrap"><div class="brand">SIM<span>SURANCE</span> / LEARNING LAB</div><p class="small"><a href="./index.html">← Back to Learning Lab home</a></p></div></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Interactive lesson / 04</div><h1>Follow the money.</h1><p class="lede">Mental-health financing can involve several organizations and many transactions. The important question is not only "how much money moved?" but also "what did this payment represent?"</p></section>
+<section class="panel"><h2>Who does what?</h2><p class="muted">Simplified example. Actual funding arrangements depend on the program, contract, service, and time period.</p>
+<div class="flow">
+<div class="actor"><div class="n">01 / PUBLIC FUNDING</div><h3>Government</h3><p>Provides program funding under applicable state and federal arrangements.</p></div>
+<div class="actor"><div class="n">02 / PROGRAM ADMIN</div><h3>Health plan</h3><p>May receive a prospective payment for a defined population and covered scope.</p><span class="arr" aria-hidden="true">↓ coordinates covered care</span></div>
+<div class="actor"><div class="n">03 / CARE DELIVERY</div><h3>Provider</h3><p>Clinicians and organizations deliver covered services and submit claims or encounter records.</p><span class="arr" aria-hidden="true">↑ may receive service payment</span></div>
+<div class="actor"><div class="n">04 / CARE RECEIVED</div><h3>Member</h3><p>The person receives care when the service, provider, practical access, and applicable requirements align.</p></div>
+</div>
+<div class="callout"><strong>Careful:</strong> this is a conceptual map, not a complete flow of funds. A member does not necessarily send money directly to every actor. Contract structures vary.</div></section>
+<section class="panel"><h2>Choose the transaction you are looking at</h2><p class="muted">Same system, different questions. Choose a lens to learn what the transaction tells you and what it does not.</p>
+<div class="chooser" role="group" aria-label="Transaction type"><button data-lens="capitation" aria-pressed="true">Prospective payment</button><button data-lens="claim" aria-pressed="false">Service claim</button><button data-lens="transfer" aria-pressed="false">Funding transfer</button></div>
+<div id="lensText" aria-live="polite" class="panel" style="margin:0"><h3>Prospective payment (often called capitation)</h3><p>A plan may receive a set payment for a defined population and period, under contract terms. It is not the same transaction as a provider's claim for a visit.</p><p class="small muted">Ask: which population, service scope, period, adjustments, and contract terms apply?</p></div></section>
+<section class="panel"><h2>A simple claim example</h2><p class="muted">Fictional values only. This example shows arithmetic, not a real Pennsylvania rate or coverage decision.</p>
+<div class="statgrid"><div><label for="charge">Submitted billed charge</label><input id="charge" type="range" min="50" max="300" step="10" value="150" style="width:100%;accent-color:var(--mint)"><output class="number" id="chargeOut">$150</output><label for="allowed">Allowed amount under the invented example rule</label><input id="allowed" type="range" min="0" max="300" step="10" value="90" style="width:100%;accent-color:var(--mint)"><output class="number" id="allowedOut">$90</output></div>
+<div class="math" aria-live="polite"><div class="row"><span>Billed charge</span><strong id="chargeRow">$150.00</strong></div><div class="row"><span>Allowed amount</span><strong id="allowedRow">$90.00</strong></div><div class="row"><span>Illustrative payer payment*</span><strong id="paidRow">$90.00</strong></div><div class="row"><span>Charge less allowed amount</span><strong id="differenceRow">$60.00</strong></div><p class="small muted">*Assumes the claim passed applicable checks and fictional member responsibility is $0.</p></div></div>
+<div class="callout"><strong>Do not infer member debt from subtraction alone.</strong> The difference between billed charge and allowed amount is not automatically the member's responsibility. Real results depend on applicable coverage, contracts, policy, and case facts.</div></section>
+<section class="panel"><h2>The double-counting trap</h2><p>Suppose a health plan receives a prospective payment, then pays a clinic for a service. If you add both amounts together and label that sum "the cost of the service," you may count two steps in the funding chain as though they were two separate final costs.</p><p>The correct treatment depends on the research question and accounting perspective. At minimum, name the entity whose spending you are measuring, the time period, and whether you are tracking transfers, service payments, administrative costs, or consolidated system expenditures.</p>
+<div class="quiz"><h3>Quick check</h3><p>Why should capitation and a clinic's payment not automatically be added as two independent costs for the same care?</p><button data-answer="wrong">Because the clinic's payment is not real money.</button><button data-answer="right">Because they may represent different stages in the funding chain; combining them without a defined accounting perspective can double-count.</button><button data-answer="wrong">Because a plan never pays providers.</button><div class="feedback" aria-live="polite"></div></div></section>
+<section class="panel"><h2>Questions to ask in any real analysis</h2><ol><li>Who is the payer and who receives the payment?</li><li>What does this transaction represent: funding transfer, prospective payment, claim payment, grant, or administrative expense?</li><li>What period, population, services, and contract terms apply?</li><li>Is this gross spending, a transfer between organizations, or consolidated system cost?</li><li>Which source establishes the rule, and what is its effective date?</li></ol><p class="small muted">SimSurance is a research and education project, not an official policy determination, coverage decision, clinical recommendation, or legal advice.</p></section>
+</main>
+<footer><div class="wrap"><a href="./index.html">Learning Lab home</a> · <a href="../docs/LEARNING_LAB.md">Curriculum and principles</a> · <a href="../docs/SOURCE_REGISTER.md">Source register</a></div></footer>
+<script>
+(function(){
+const content={
+capitation:{title:"Prospective payment (often called capitation)",body:"A plan may receive a set payment for a defined population and period, under contract terms. It is not the same transaction as a provider's claim for a visit.",ask:"Ask: which population, service scope, period, adjustments, and contract terms apply?"},
+claim:{title:"A provider claim",body:"A provider submits structured information about a service and requests payment under applicable terms. The claim can be paid, adjusted, denied, or left unresolved for review.",ask:"Ask: what service and date are involved, which payment terms apply, and what explains the adjudication result?"},
+transfer:{title:"A funding transfer",body:"Money may move between public agencies or organizations to fund a program. That transfer is not automatically the final cost of the care ultimately delivered.",ask:"Ask: is this an internal transfer in a larger system, or an expense to an entity outside the accounting boundary?"}
+};
+document.querySelectorAll("[data-lens]").forEach(button=>button.addEventListener("click",()=>{
+document.querySelectorAll("[data-lens]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
+const item=content[button.dataset.lens],box=document.getElementById("lensText");
+box.innerHTML="<h3>"+item.title+"</h3><p>"+item.body+"</p><p class='small muted'>"+item.ask+"</p>";
+}));
+const charge=document.getElementById("charge"),allowed=document.getElementById("allowed");
+function update(){let c=Number(charge.value),a=Math.min(Number(allowed.value),c);document.getElementById("chargeOut").textContent="$"+c;document.getElementById("allowedOut").textContent="$"+a;document.getElementById("chargeRow").textContent="$"+c.toFixed(2);document.getElementById("allowedRow").textContent="$"+a.toFixed(2);document.getElementById("paidRow").textContent="$"+a.toFixed(2);document.getElementById("differenceRow").textContent="$"+(c-a).toFixed(2);}
+charge.addEventListener("input",update);allowed.addEventListener("input",update);update();
+document.querySelectorAll("[data-answer]").forEach(button=>button.addEventListener("click",()=>{
+const fb=button.parentElement.querySelector(".feedback");const ok=button.dataset.answer==="right";
+fb.textContent=ok?"Correct. Track each transaction's meaning and define the accounting boundary before combining totals.":"Not quite. The issue is how transactions are classified and combined, not whether the payments are real.";
+fb.style.color=ok?"var(--mint)":"var(--gold)";
+}));
+})();
+</script>
+</body></html>
