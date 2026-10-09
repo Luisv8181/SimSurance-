@@ -94,3 +94,18 @@ Do not treat role labels as credentials. High-stakes policy, legal, actuarial, c
 9. Broader agent behaviors, additional payers, and more complex clinical transitions only after validation.
 
 Avoid premature multi-agent complexity. Build the smallest valid model first, then expand.
+
+
+## Current implementation references
+Before implementing, also read:
+- docs/DEEP_RESEARCH_REPORT.md
+- docs/PRODUCT_REQUIREMENTS.md
+- docs/CODE_ROADMAP.md
+- docs/ASSUMPTIONS_REGISTER.md
+- docs/VALIDATION_PLAN.md
+- docs/SECURITY_PRIVACY_GOVERNANCE.md
+- docs/DECISIONS.md
+- docs/AGENT_EXECUTION_PROMPT.md
+- docs/THERAPY_IN_BITS_EPISODE.md
+
+Follow the staged roadmap. Start by auditing the real codebase and source data; do not claim the simulator is implemented until it is built and tested.
