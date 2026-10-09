@@ -62,5 +62,25 @@ class LearningLabSmokeTests(unittest.TestCase):
         self.assertIn("Needs review", content)
         self.assertIn("not real insurance policy", content)
 
+    def test_lesson_catalog_exists_and_has_expected_statuses(self):
+        import json
+        catalog_path = ROOT / "learning-lab" / "lessons.json"
+        self.assertTrue(catalog_path.exists())
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        self.assertGreaterEqual(len(catalog["lessons"]), 5)
+        valid_statuses = set(catalog["status_legend"])
+        for lesson in catalog["lessons"]:
+            with self.subTest(lesson=lesson["id"]):
+                self.assertIn(lesson["status"], valid_statuses)
+                self.assertIn("source_refs", lesson)
+                self.assertIn("objectives", lesson)
+
+    def test_lesson_template_requires_source_provenance(self):
+        template = (ROOT / "learning-lab" / "LESSON_TEMPLATE.md").read_text(encoding="utf-8")
+        self.assertIn("Version and effective date", template)
+        self.assertIn("Jurisdiction and applicability", template)
+        self.assertIn("exact passage", template)
+        self.assertIn("Where it breaks down", template)
+
 if __name__ == "__main__":
     unittest.main()
