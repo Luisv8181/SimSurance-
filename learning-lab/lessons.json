@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Index of Learning Lab lessons. Metadata separates educational examples from source-verified policy content.",
+  "status_legend": {
+    "illustrative": "Invented scenario or example; not an actual Pennsylvania rule or payment rate.",
+    "planned": "Outlined but not yet implemented.",
+    "source_review_required": "Requires source extraction and applicability review before any policy conclusion can be taught as factual.",
+    "source_verified": "May only be used when source version, effective date, section, applicability, and reviewer have been recorded."
+  },
+  "lessons": [
+    {
+      "id": "care-journey",
+      "title": "Insurance isn't an appointment",
+      "path": "index.html#case-access",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "coverage",
+        "provider-network",
+        "appointment-capacity"
+      ],
+      "policy_claims": false,
+      "source_refs": [],
+      "objectives": [
+        "Separate insurance coverage from actual appointment availability.",
+        "Name missing facts without inventing a policy answer."
+      ]
+    },
+    {
+      "id": "money-flow",
+      "title": "Follow the money",
+      "path": "money-flow.html",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "capitation",
+        "claims",
+        "funding-transfers",
+        "double-counting"
+      ],
+      "policy_claims": false,
+      "source_refs": [],
+      "objectives": [
+        "Distinguish funding transfers, prospective payments, and service claims.",
+        "Explain why accounting boundaries matter before combining totals."
+      ]
+    },
+    {
+      "id": "claim-decisions",
+      "title": "A claim is a question, not a payment",
+      "path": "claim-decisions.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "claim-adjudication",
+        "needs-review",
+        "authorization",
+        "provider-participation"
+      ],
+      "policy_claims": false,
+      "source_refs": [],
+      "objectives": [
+        "Distinguish paid, not-approved, and needs-review toy outcomes.",
+        "Explain why missing information is not proof that care is uncovered."
+      ]
+    },
+    {
+      "id": "insurance-vocabulary",
+      "title": "Insurance words without the jargon",
+      "path": "index.html#glossary",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "eligibility",
+        "benefit",
+        "network",
+        "allowed-amount",
+        "appeal"
+      ],
+      "policy_claims": false,
+      "source_refs": [],
+      "objectives": [
+        "Explain key terms in plain language.",
+        "Recognize that actual meanings depend on governing program and contract documents."
+      ]
+    },
+    {
+      "id": "reading-policy",
+      "title": "How to read a policy source",
+      "path": "../docs/SOURCE_REGISTER.md",
+      "audience": [
+        "investigate"
+      ],
+      "status": "planned",
+      "concepts": [
+        "source-version",
+        "effective-date",
+        "applicability",
+        "provenance"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "source-register"
+      ],
+      "objectives": [
+        "Locate title, publisher, version, effective date, section, applicability, and exact passage.",
+        "Identify what evidence is still missing before encoding a rule."
+      ]
+    },
+    {
+      "id": "pennsylvania-behavioral-health-financing",
+      "title": "Pennsylvania behavioral-health financing",
+      "path": "../docs/SOURCE_VERIFICATION_2026-10-08.md",
+      "audience": [
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "PA-HealthChoices",
+        "BH-MCO",
+        "PS-R",
+        "financial-reporting"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-overview",
+        "pa-dhs-bhc-publications",
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "Understand the broad program structure.",
+        "Distinguish pages that have been located from detailed payment rules that remain unverified."
+      ]
+    }
+  ]
+}
