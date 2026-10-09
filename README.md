@@ -21,7 +21,7 @@ SimSurance is an auditable virtual-county laboratory connecting official policy 
 
 The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions.
 
-**Open the first interactive prototype:** [SimSurance Learning Lab](learning-lab/index.html). It includes learning-level paths, a care-journey map, a toy claim calculator, guided case studies, knowledge checks, and a plain-language glossary. It is a static prototype; GitHub Pages must be enabled/configured before treating it as publicly deployed.
+**Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/learning-lab/). The compact visual-first experience includes a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, toy claim calculator, guided cases, knowledge checks, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
 
 - [Learning Lab vision and curriculum](docs/LEARNING_LAB.md)
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
@@ -32,7 +32,7 @@ The Learning Lab teaches the system through metaphors, visual explanations, work
 - [Interactive claim decisions lesson](learning-lab/claim-decisions.html) — a toy adjudication explorer showing paid, not-approved, and needs-review outcomes without encoding real plan rules.
 - [Implementation issue #3](https://github.com/Luisv8181/SimSurance-/issues/3)
 
-The interactive static prototype and six smoke tests are committed. The Python and Learning Lab checks pass in GitHub Actions. The Pages deployment workflow currently fails because the connected GitHub integration cannot create the Pages site (`Resource not accessible by integration`). A repository owner must enable Pages and select GitHub Actions in repository settings; until then, the page is available in source form but is not confirmed live. All amounts in sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
+The static site is deployed through GitHub Pages. Visual refresh work is ongoing; the diagrams are explanatory and fictional claim outcomes are not Pennsylvania coverage determinations. The Pages deployment workflow currently fails because the connected GitHub integration cannot create the Pages site (`Resource not accessible by integration`). A repository owner must enable Pages and select GitHub Actions in repository settings; until then, the page is available in source form but is not confirmed live. All amounts in sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
 
 ## Research principles
 - Policy rules link to authoritative sources, passages, jurisdictions and effective dates.
