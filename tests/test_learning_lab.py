@@ -46,5 +46,13 @@ class LearningLabSmokeTests(unittest.TestCase):
             with self.subTest(control=label_for):
                 self.assertIn(label_for, ids)
 
+    def test_money_flow_lesson_exists(self):
+        money_page = ROOT / "learning-lab" / "money-flow.html"
+        self.assertTrue(money_page.exists())
+        content = money_page.read_text(encoding="utf-8")
+        self.assertIn("The double-counting trap", content)
+        self.assertIn("data-lens", content)
+        self.assertIn("Fictional values only", content)
+
 if __name__ == "__main__":
     unittest.main()
