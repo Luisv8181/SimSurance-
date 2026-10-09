@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "learning-lab/**"
+      - "tests/**"
       - ".github/workflows/deploy-learning-lab.yml"
   workflow_dispatch:
 
@@ -23,17 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate static Learning Lab
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -s learning-lab/index.html
-          grep -q '<html lang="en">' learning-lab/index.html
-          grep -q 'name="viewport"' learning-lab/index.html
-          grep -q 'id="allowed"' learning-lab/index.html
-          grep -q 'id="case-access"' learning-lab/index.html
-          grep -q 'id="glossary"' learning-lab/index.html
-          echo "Learning Lab static content checks passed."
+      - name: Validate Learning Lab
+        run: python -m unittest tests/test_learning_lab.py -v
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
