@@ -27,6 +27,7 @@ The Learning Lab teaches the system through metaphors, visual explanations, work
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
 - [Plain-language glossary](docs/LEARNING_LAB_GLOSSARY.md)
 - [Learning Lab implementation plan](docs/LEARNING_LAB_IMPLEMENTATION_PLAN.md)
+- [Interactive claim decisions lesson](learning-lab/claim-decisions.html) — a toy adjudication explorer showing paid, not-approved, and needs-review outcomes without encoding real plan rules.
 - [Implementation issue #3](https://github.com/Luisv8181/SimSurance-/issues/3)
 
 The interactive static prototype and six smoke tests are committed. The Python and Learning Lab checks pass in GitHub Actions. The Pages deployment workflow currently fails because the connected GitHub integration cannot create the Pages site (`Resource not accessible by integration`). A repository owner must enable Pages and select GitHub Actions in repository settings; until then, the page is available in source form but is not confirmed live. All amounts in sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
