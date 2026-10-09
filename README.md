@@ -31,4 +31,4 @@ Read [AGENTS.md](AGENTS.md), [the Deep Research Report](docs/DEEP_RESEARCH_REPOR
 Begin with Pennsylvania Medicaid behavioral health and a small synthetic county. First compare a documented baseline against one clearly labeled hypothetical care-coordination/community-service pilot. Avoid expanding to every insurer and service before baseline validation.
 
 ## Status
-Research scaffold and roadmap committed; implementation, policy verification, calibration and validation are still in progress. Do not claim a functioning simulator or validated policy model until tests and independent review establish it.
+The initial Python financial-ledger prototype and seven unit tests are committed. The test suite passed locally on 2026-10-08; GitHub Actions is configured to run the tests on pushes and pull requests. A dated source-page verification note is available at [SOURCE_VERIFICATION_2026-10-08.md](docs/SOURCE_VERIFICATION_2026-10-08.md). This is not yet a complete simulator: detailed PS&R/contract rule extraction, source review, calibration, and independent validation remain in progress.
