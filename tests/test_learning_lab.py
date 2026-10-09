@@ -54,5 +54,13 @@ class LearningLabSmokeTests(unittest.TestCase):
         self.assertIn("data-lens", content)
         self.assertIn("Fictional values only", content)
 
+    def test_claim_decisions_lesson_exists(self):
+        claim_page = ROOT / "learning-lab" / "claim-decisions.html"
+        self.assertTrue(claim_page.exists())
+        content = claim_page.read_text(encoding="utf-8")
+        self.assertIn("A claim is a question, not a payment.", content)
+        self.assertIn("Needs review", content)
+        self.assertIn("not real insurance policy", content)
+
 if __name__ == "__main__":
     unittest.main()
