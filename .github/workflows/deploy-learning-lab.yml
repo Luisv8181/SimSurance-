@@ -20,14 +20,24 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate static Learning Lab
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s learning-lab/index.html
+          grep -q '<html lang="en">' learning-lab/index.html
+          grep -q 'name="viewport"' learning-lab/index.html
+          grep -q 'id="allowed"' learning-lab/index.html
+          grep -q 'id="case-access"' learning-lab/index.html
+          grep -q 'id="glossary"' learning-lab/index.html
+          echo "Learning Lab static content checks passed."
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
@@ -35,3 +45,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
