@@ -17,6 +17,8 @@ SimSurance is an auditable virtual-county laboratory connecting official policy 
 8. **Learning Lab** — plain-language education about mental-health insurance and financing, designed for high-school learners through practitioners and policy researchers.
 
 ## Learning Lab
+**Interactive lessons:** [Learning Lab home](learning-lab/index.html) · [Follow the money](learning-lab/money-flow.html). The money-flow lesson lets learners switch between prospective payments, provider claims, and funding transfers, with a hypothetical calculator and a double-counting exercise.
+
 The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions.
 
 **Open the first interactive prototype:** [SimSurance Learning Lab](learning-lab/index.html). It includes learning-level paths, a care-journey map, a toy claim calculator, guided case studies, knowledge checks, and a plain-language glossary. It is a static prototype; GitHub Pages must be enabled/configured before treating it as publicly deployed.
