@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simsurance"
+version = "0.1.0"
+description = "Auditable behavioral-health policy and financing simulation research core"
+requires-python = ">=3.11"
+license = { text = "License to be determined" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
