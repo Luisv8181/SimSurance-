@@ -206,6 +206,33 @@
         "Compare client access, net revenue, credentialing, contract requirements, and administrative burden.",
         "Identify which facts must be verified before evaluating a real insurer contract."
       ]
+    },
+    {
+      "id": "payer-evaluation-worksheet",
+      "title": "Evaluate a payer without guessing",
+      "path": "index.html#payer-decision-lab",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "payer-review",
+        "source-provenance",
+        "network-verification",
+        "contract-checklist",
+        "unknowns"
+      ],
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-providers",
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "Capture the exact payer product and coverage lane.",
+        "Separate confirmed facts from assumptions and unknowns.",
+        "Identify contract, network, credentialing, and billing evidence gaps."
+      ]
     }
   ]
 }
