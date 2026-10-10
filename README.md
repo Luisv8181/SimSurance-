@@ -35,6 +35,10 @@ The Learning Lab teaches the system through metaphors, visual explanations, work
 
 The static site is deployed through GitHub Pages. Visual refresh work is ongoing; the diagrams are explanatory and fictional claim outcomes are not Pennsylvania coverage determinations. The Pages deployment workflow currently fails because the connected GitHub integration cannot create the Pages site (`Resource not accessible by integration`). A repository owner must enable Pages and select GitHub Actions in repository settings; until then, the page is available in source form but is not confirmed live. All amounts in sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
 
+## Pennsylvania insurance landscape
+
+- [Pennsylvania insurance landscape guide](docs/PA_INSURANCE_LANDSCAPE.md) — separates commercial/Marketplace plans, Medicaid physical HealthChoices, Medicaid Behavioral HealthChoices, CHIP, Medicare, and EAP arrangements; links to official state directories and explains what a practice must verify before treating a plan as in-network.
+
 ## Research principles
 - Policy rules link to authoritative sources, passages, jurisdictions and effective dates.
 - Distinguish verified rules, derived values, estimated parameters, expert assumptions and hypothetical scenarios.
