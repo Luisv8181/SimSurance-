@@ -21,7 +21,7 @@ SimSurance is an auditable virtual-county laboratory connecting official policy 
 
 The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions.
 
-**Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/learning-lab/). The compact visual-first experience includes a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, toy claim calculator, guided cases, knowledge checks, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
+**Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/). The compact visual-first experience includes a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, toy claim calculator, guided cases, knowledge checks, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
 
 - [Learning Lab vision and curriculum](docs/LEARNING_LAB.md)
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
