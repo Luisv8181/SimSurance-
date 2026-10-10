@@ -51,6 +51,8 @@ The static site is deployed through GitHub Pages. Visual refresh work is ongoing
 - AI agents may research, code and critique; they may not silently invent policy rules, data, citations or results.
 
 ## Getting started
+Read [the structured official-source registry](docs/sources.registry.json) alongside the [Source Register](docs/SOURCE_REGISTER.md) for stable source IDs and scope/review metadata.
+
 Read [AGENTS.md](AGENTS.md), [the Deep Research Report](docs/DEEP_RESEARCH_REPORT.md), [Product Requirements](docs/PRODUCT_REQUIREMENTS.md), [Code Roadmap](docs/CODE_ROADMAP.md), [Architecture](docs/ARCHITECTURE.md), [Agent Roles](docs/AGENT_ROLES.md), [Research Plan](docs/RESEARCH_PLAN.md), [Source Register](docs/SOURCE_REGISTER.md), [Glossary](docs/GLOSSARY.md), [Assumptions Register](docs/ASSUMPTIONS_REGISTER.md), [Validation Plan](docs/VALIDATION_PLAN.md), [Security/Privacy/Governance](docs/SECURITY_PRIVACY_GOVERNANCE.md), [Decision Log](docs/DECISIONS.md), and the [Agent Execution Prompt](docs/AGENT_EXECUTION_PROMPT.md).
 
 ## Initial scope
