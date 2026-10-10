@@ -75,6 +75,16 @@ class LearningLabSmokeTests(unittest.TestCase):
                 self.assertIn("source_refs", lesson)
                 self.assertIn("objectives", lesson)
 
+
+    def test_payer_evaluation_worksheet(self):
+        self.assertIn('id="payer-decision-lab"', self.html)
+        self.assertIn('id="payer-worksheet"', self.html)
+        self.assertIn('function pwData()', self.html)
+        self.assertIn('id="pw-export"', self.html)
+        self.assertIn('data-pw-evidence', self.html)
+        self.assertIn('Do not enter client names', self.html)
+        self.assertIn("Download review as text", self.html)
+
     def test_lesson_template_requires_source_provenance(self):
         template = (ROOT / "learning-lab" / "LESSON_TEMPLATE.md").read_text(encoding="utf-8")
         self.assertIn("Version and effective date", template)
