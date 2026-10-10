@@ -181,13 +181,14 @@
       "jurisdiction": "United States",
       "program": "Medicaid managed care",
       "source_type": "official_federal_guidance",
-      "status": "document_review_required",
+      "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Federal guidance; confirm which rating period and authority apply to the modeled analysis.",
       "supports": [
         "managed_care_rate_development_context"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/cms-rate-guidance-2026-10-10.md"
     },
     {
       "id": "pa-dhs-bhc-service-access",
