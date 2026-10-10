@@ -136,5 +136,21 @@ class SourceRegistryTests(unittest.TestCase):
                 with self.subTest(lesson=lesson["id"], source=source_id):
                     self.assertTrue(source_id in known or source_id == "source-register")
 
+    def test_multi_journey_lesson_has_three_contrasting_cases(self):
+        page = ROOT / "learning-lab" / "journeys.html"
+        self.assertTrue(page.exists())
+        content = page.read_text(encoding="utf-8")
+        for phrase in ("A member seeking care", "A practice choosing plans", "A claim needing review", "data-journey", "needs review"):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, content)
+        self.assertIn("aria-pressed", content)
+        self.assertIn("role=\"status\"", content)
+
+    def test_learning_design_document_has_research_anchors_and_evaluation(self):
+        content = (ROOT / "docs" / "LEARNING_DESIGN_RESEARCH.md").read_text(encoding="utf-8")
+        for phrase in ("National Academies", "CAST Universal Design for Learning", "Retrieval practice", "Multiple journeys", "Delayed recall", "Source-verified rule"):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, content)
+
 if __name__ == "__main__":
     unittest.main()
