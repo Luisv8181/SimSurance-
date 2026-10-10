@@ -23,6 +23,10 @@ The Learning Lab makes the financing and operation of the mental health insuranc
 
 These are depth settings, not judgments about ability. Learners can switch levels.
 
+## Learning-science implementation
+
+See [Learning Design Research](LEARNING_DESIGN_RESEARCH.md) for research anchors, practical design rules, and evaluation criteria. The interactive [Multiple Journeys lesson](../learning-lab/journeys.html) contrasts a member seeking care, a private practice evaluating plans, and a claim needing review. These are fictional cases; the lesson asks learners to identify facts, unknowns, and next evidence rather than infer real policy outcomes.
+
 ## Core modules
 1. **The care journey:** need for help → find a provider → check coverage and network → appointment availability → service → claim or encounter → payment or follow-up. Real journeys are not always linear.
 2. **Who is who?** Member, clinician, provider organization, behavioral health managed care organization (BH-MCO), state Medicaid agency, and federal funding.
