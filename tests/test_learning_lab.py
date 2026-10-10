@@ -85,7 +85,7 @@ class LearningLabSmokeTests(unittest.TestCase):
 
     def test_pa_access_pathway_lesson(self):
         self.assertIn('id="pa-access-pathway"', self.html)
-        self.assertIn('pa-dhs-bhc-mcos', self.html)
+        self.assertIn('https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos', self.html)
         self.assertIn('id="pa-access-check"', self.html)
         self.assertIn('name="pa-access-answer"', self.html)
         self.assertIn('appointment availability', self.html.lower())
