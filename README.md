@@ -24,6 +24,7 @@ The Learning Lab teaches the system through metaphors, visual explanations, work
 **Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/). The compact visual-first experience includes a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, toy claim calculator, guided cases, knowledge checks, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
 
 - [Learning Lab vision and curriculum](docs/LEARNING_LAB.md)
+- [Source-linked Learning Lab design](docs/SOURCE_LINKED_LEARNING_LAB.md) — evidence panels, exact quotations, source registry, audience pathways, and mastery-based lesson loop.
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
 - [Plain-language glossary](docs/LEARNING_LAB_GLOSSARY.md)
 - [Learning Lab implementation plan](docs/LEARNING_LAB_IMPLEMENTATION_PLAN.md)
