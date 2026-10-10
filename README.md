@@ -37,6 +37,7 @@ The static site is deployed through GitHub Pages. Visual refresh work is ongoing
 
 ## Pennsylvania insurance landscape
 
+- [How practices decide which insurance plans to accept](learning-lab/index.html#practice-payer-decisions) — a practical learning module on client demand, net revenue, credentialing, contract burden, network participation, and ongoing review.
 - [Pennsylvania insurance landscape guide](docs/PA_INSURANCE_LANDSCAPE.md) — separates commercial/Marketplace plans, Medicaid physical HealthChoices, Medicaid Behavioral HealthChoices, CHIP, Medicare, and EAP arrangements; links to official state directories and explains what a practice must verify before treating a plan as in-network.
 
 ## Research principles
