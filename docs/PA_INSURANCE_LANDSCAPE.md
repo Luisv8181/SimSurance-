@@ -116,3 +116,47 @@ Do not fill reimbursement rates or claim rules from generic web summaries. Captu
 - [Pennie: Pennsylvania's official health insurance marketplace](https://pennie.com/)
 
 This guide is educational and intended to support further verification. It is not a provider-network directory, contract interpretation, legal advice, or a guarantee of coverage or payment.
+
+
+## 8. How a private practice decides which plans to accept
+
+There is no single universal decision formula. A practice owner, administrator, or credentialing/billing team generally evaluates a mix of client access, expected net revenue, provider requirements, operational workload, contract risk, and organizational strategy. Which person makes the final decision depends on the practice's structure and existing agreements.
+
+### Six decision dimensions
+
+1. **Client and community demand.** Which plans do current and prospective clients use? Would participation expand access for populations the practice intends to serve? Is there enough qualified clinician capacity to accept the likely referrals?
+2. **Net revenue and cash flow.** Compare the contracted payment for the exact service code and provider type with clinician compensation, billing labor, documentation, claim corrections, denials, payment delays, cancellations, and other costs. Gross payment per session is not the same as net return.
+3. **Credentialing and enrollment.** Verify license/provider type, individual and group enrollment requirements, credentialing status, malpractice or other participation requirements, and whether the network is currently accepting providers.
+4. **Contract terms and administration.** Review covered services, billing requirements, authorizations, referrals, timely filing, audits, recoupment rights, appeals, recordkeeping, and applicable contract deadlines.
+5. **Strategic and clinical fit.** Consider referral patterns, continuity, capacity, waitlists, practice mission, geographic reach, payer concentration, and whether the contract supports a sustainable service model.
+6. **Ongoing performance review.** Track claims submitted and paid, denial reasons, days to payment, staff hours per claim, referral flow, completed visits, access measures, and contract changes. Review aggregate, de-identified data rather than identifiable client records.
+
+### Example: rate alone is not the decision
+
+The comparison below is **fictional** and makes no claim about real insurer rates or performance.
+
+| Factor | Plan A | Plan B |
+|---|---:|---:|
+| Payment per completed session | $110 | $85 |
+| Administrative workload | Higher | Lower |
+| Illustrative payment delay | 45 days | 15 days |
+| Client demand / referrals | Moderate | High |
+
+The facts are not sufficient to select a plan. The decision-maker would estimate net revenue, cash-flow effects, likely access benefits, eligibility requirements, and contract obligations, then identify missing information. A defensible decision is specific to the practice and the plan product.
+
+### Pennsylvania Medicaid: two different participation checks
+
+For Behavioral HealthChoices, distinguish participation in Pennsylvania Medicaid from credentialing/contracting with the BH-MCO serving the member's county. Also distinguish behavioral HealthChoices from physical HealthChoices. Current participation and requirements must be confirmed against the member's exact program, county, clinician credentials, service, and contract.
+
+Official sources:
+- [PA DHS: Behavioral HealthChoices for Providers](https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers)
+- [PA DHS: Behavioral HealthChoices MCOs and counties](https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos)
+
+### Practice discovery questions
+
+- Which exact payer products does the practice participate in? Is each agreement held by the group, the individual clinician, or both?
+- How are reimbursement, claim-denial patterns, time-to-payment, and billing labor measured?
+- How does the practice verify the provider, service, member, and payer product are all eligible for the intended billing arrangement?
+- What criteria trigger applying to, renewing, or ending a network contract? What notice and termination terms apply?
+
+Do not assume that every practice uses the same workflow. Treat this section as an educational framework and verify all requirements against applicable contracts, current payer manuals, and governing program sources.
