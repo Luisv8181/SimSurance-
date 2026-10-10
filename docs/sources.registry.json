@@ -112,10 +112,11 @@
       "title": "CHIP Insurance Companies",
       "issuer": "Pennsylvania Department of Human Services",
       "url": "https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies",
+      "snapshot": "docs/source-snapshots/chip-companies-2026-10-10.md",
       "jurisdiction": "Pennsylvania",
       "program": "Children's Health Insurance Program",
       "source_type": "official_plan_directory",
-      "status": "document_review_required",
+      "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Check current county availability and exact plan/product.",
       "supports": [
