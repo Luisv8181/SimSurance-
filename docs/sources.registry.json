@@ -19,7 +19,10 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "High-level program description and county-assigned BH-MCO context; not a complete rule or rate source.",
-      "supports": ["program_structure", "behavioral_health_mco_context"],
+      "supports": [
+        "program_structure",
+        "behavioral_health_mco_context"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -33,7 +36,10 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Provider-facing overview; verify exact product, provider type, county, service, and current contract before applying a statement to a case.",
-      "supports": ["provider_context", "BH_MCO_context"],
+      "supports": [
+        "provider_context",
+        "BH_MCO_context"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -47,7 +53,9 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Use as a dated county-to-BH-MCO lookup. A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
-      "supports": ["county_to_BH_MCO_mapping"],
+      "supports": [
+        "county_to_BH_MCO_mapping"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -61,7 +69,9 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Index for PS&R, appendices, financial reporting requirements, ASAM rates and member handbook. Review the linked item and its effective date before encoding anything.",
-      "supports": ["source_document_discovery"],
+      "supports": [
+        "source_document_discovery"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -75,7 +85,10 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Resource discovery for encounter systems and operational materials; not evidence that nonpublic data are available to this project.",
-      "supports": ["encounter_data_discovery", "operational_materials"],
+      "supports": [
+        "encounter_data_discovery",
+        "operational_materials"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -89,7 +102,9 @@
       "status": "document_review_required",
       "last_checked": "2026-10-10",
       "scope_note": "Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs.",
-      "supports": ["physical_health_mco_directory"],
+      "supports": [
+        "physical_health_mco_directory"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -103,7 +118,9 @@
       "status": "document_review_required",
       "last_checked": "2026-10-10",
       "scope_note": "Check current county availability and exact plan/product.",
-      "supports": ["CHIP_plan_directory"],
+      "supports": [
+        "CHIP_plan_directory"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -117,7 +134,10 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement.",
-      "supports": ["market_availability", "commercial_market_research"],
+      "supports": [
+        "market_availability",
+        "commercial_market_research"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -131,7 +151,9 @@
       "status": "historical_snapshot",
       "last_checked": "2026-10-10",
       "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory.",
-      "supports": ["2026_individual_market_plan_area"],
+      "supports": [
+        "2026_individual_market_plan_area"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -145,7 +167,9 @@
       "status": "document_review_required",
       "last_checked": "2026-10-10",
       "scope_note": "Use for current individual-plan shopping and availability; do not infer provider participation from marketplace availability.",
-      "supports": ["marketplace_plan_discovery"],
+      "supports": [
+        "marketplace_plan_discovery"
+      ],
       "review_required_before_encoding": true
     },
     {
@@ -159,7 +183,27 @@
       "status": "document_review_required",
       "last_checked": "2026-10-10",
       "scope_note": "Federal guidance; confirm which rating period and authority apply to the modeled analysis.",
-      "supports": ["managed_care_rate_development_context"],
+      "supports": [
+        "managed_care_rate_development_context"
+      ],
+      "review_required_before_encoding": true
+    },
+    {
+      "id": "pa-dhs-bhc-service-access",
+      "title": "Request Behavioral HealthChoices Program Services",
+      "issuer": "Pennsylvania Department of Human Services",
+      "url": "https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services",
+      "jurisdiction": "Pennsylvania",
+      "program": "Medicaid Behavioral HealthChoices",
+      "source_type": "official_member_access_guidance",
+      "status": "official_page_reviewed",
+      "last_checked": "2026-10-10",
+      "scope_note": "Member-facing explanation of access routes, county mental-health offices, BH-MCOs, provider directories and help when access is difficult. Not a full benefit specification or provider contract.",
+      "supports": [
+        "member_access_pathway",
+        "provider_search",
+        "access_barriers"
+      ],
       "review_required_before_encoding": true
     }
   ]
