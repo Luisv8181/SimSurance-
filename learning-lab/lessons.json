@@ -233,6 +233,35 @@
         "Separate confirmed facts from assumptions and unknowns.",
         "Identify contract, network, credentialing, and billing evidence gaps."
       ]
+    },
+    {
+      "id": "pa-medicaid-access-pathway",
+      "title": "Why can someone have Medicaid and still struggle to find a therapist?",
+      "path": "index.html#pa-access-pathway",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "coverage-vs-access",
+        "county-assignment",
+        "BH-MCO",
+        "provider-network",
+        "appointment-capacity"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-bhc-service-access",
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "Trace the difference between coverage, managed-care assignment, provider participation, and appointment capacity.",
+        "Use official Pennsylvania DHS guidance to identify next steps without assuming the cause of an access barrier.",
+        "Identify the exact facts needed before making a policy or contract conclusion."
+      ]
     }
   ]
 }
