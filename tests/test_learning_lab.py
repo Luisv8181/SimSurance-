@@ -76,6 +76,12 @@ class LearningLabSmokeTests(unittest.TestCase):
                 self.assertIn("objectives", lesson)
 
 
+
+    def test_source_library_navigation(self):
+        self.assertIn('id="source-library"', self.html)
+        self.assertIn('docs/sources.registry.json', self.html)
+        self.assertIn('bhc-publications', self.html)
+
     def test_payer_evaluation_worksheet(self):
         self.assertIn('id="payer-decision-lab"', self.html)
         self.assertIn('id="payer-worksheet"', self.html)
