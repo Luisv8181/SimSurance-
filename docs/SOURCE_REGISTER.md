@@ -47,3 +47,10 @@ Initial official-source findings:
 - OMHSAS Systems Management describes its role in managing BH claims/encounter data and business intelligence: https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management
 
 These findings verify official source pages and index contents, not the precise applicability of individual coverage, rate, or contract rules. Do not encode a policy rule until its source document version, effective period, exact passage, and applicability have been reviewed.
+
+
+## Structured source registry
+
+The machine-readable registry at [`sources.registry.json`](sources.registry.json) gives each source a stable ID, issuer, URL, jurisdiction, program, source type, review date, scope note, and explicit review gate. It is intended for tooling and the Learning Lab, not as a claim that every source's legal content has been verified.
+
+Update records when a page or document is checked. For a rule-bearing source, append the exact document version/effective date, section/page/passage, reviewed applicability, and reviewer before marking the rule verified. Historical market-availability snapshots must remain distinct from current directories and never be treated as provider-network evidence.
