@@ -52,7 +52,7 @@
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
-      "scope_note": "Use as a dated county-to-BH-MCO lookup. A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
+      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-10.md (verified 2026-10-10: covers PA's 67 counties exactly once). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],

@@ -66,3 +66,25 @@ No live executable rule should be created from this page review alone. For every
 - A published service-specific ASAM rate does not imply a uniform fee schedule across the entire BH benefit.
 - Public financial reports and encounter measures may use different accounting boundaries and denominators; reconcile definitions before calibration.
 - This review is not legal advice and does not certify that any proposed pilot is authorized or reimbursable.
+
+---
+
+# Follow-up: 2026-10-10 — SRC-PA-BHC-003 snapshot re-verified
+
+**Checked:** 2026-10-10 (rotation run, scheduled unit: verify one source-register
+entry against its official page)
+**Source:** SRC-PA-BHC-003 / registry `pa-dhs-bhc-mcos` —
+https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos
+
+- Page is live; its five-MCO county-assignment table is unchanged in structure
+  from the 2026-10-08 review. Full dated snapshot preserved at
+  `docs/source-snapshots/bhc-mcos-2026-10-10.md`.
+- Integrity check on the observed county lists: 67 listed, 67 unique, 0
+  duplicates, 0 missing, 0 extras against Pennsylvania's 67 counties — the
+  mapping covers every county exactly once.
+- Page states each consumer is assigned a BH-MCO by county of residence and then
+  chooses providers within that MCO's network; no "effective as of" date is
+  displayed on the page.
+- Status remains page-level verification only: does not establish credentialing,
+  network status, benefits, or reimbursement. Re-verify the page again before any
+  simulation run uses the mapping.
