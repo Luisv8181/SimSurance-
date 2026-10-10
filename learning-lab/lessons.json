@@ -144,6 +144,39 @@
         "Understand the broad program structure.",
         "Distinguish pages that have been located from detailed payment rules that remain unverified."
       ]
+    },
+    {
+      "id": "pennsylvania-insurance-landscape",
+      "title": "Who are the insurance plans in Pennsylvania?",
+      "path": "../docs/PA_INSURANCE_LANDSCAPE.md",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "commercial-insurance",
+        "Medicaid-HealthChoices",
+        "BH-MCO",
+        "physical-health-MCO",
+        "CHIP",
+        "Medicare",
+        "network-participation"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-physical-hc-mco",
+        "pa-dhs-chip-companies",
+        "pa-insurance-department-aca-filings",
+        "pennie"
+      ],
+      "objectives": [
+        "Distinguish commercial insurance, Medicaid physical HealthChoices, Behavioral HealthChoices, CHIP, and Medicare.",
+        "Find the official current directory for each coverage lane.",
+        "Explain why a plan's existence does not prove a specific clinician is in network."
+      ]
     }
   ]
 }
