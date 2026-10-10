@@ -99,7 +99,7 @@
       "jurisdiction": "Pennsylvania",
       "program": "Medicaid physical HealthChoices",
       "source_type": "official_plan_directory",
-      "status": "document_review_required",
+      "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
       "scope_note": "Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs.",
       "supports": [
