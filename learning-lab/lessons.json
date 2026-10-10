@@ -262,6 +262,34 @@
         "Use official Pennsylvania DHS guidance to identify next steps without assuming the cause of an access barrier.",
         "Identify the exact facts needed before making a policy or contract conclusion."
       ]
+    },
+    {
+      "id": "multiple-journeys",
+      "title": "One system, different journeys",
+      "path": "journeys.html",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "coverage-vs-access",
+        "provider-network",
+        "payer-selection",
+        "claim-review",
+        "source-provenance"
+      ],
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-providers",
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "Compare the decisions facing a member, private practice, and claim reviewer.",
+        "Distinguish known facts from missing information and assumptions.",
+        "Choose a defensible next step without claiming more than the evidence supports."
+      ]
     }
   ]
 }
