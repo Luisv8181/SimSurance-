@@ -160,3 +160,10 @@ Official sources:
 - What criteria trigger applying to, renewing, or ending a network contract? What notice and termination terms apply?
 
 Do not assume that every practice uses the same workflow. Treat this section as an educational framework and verify all requirements against applicable contracts, current payer manuals, and governing program sources.
+
+
+## 9. Payer evaluation worksheet
+
+SimSurance includes a non-submitting browser worksheet in the [Learning Lab payer evaluation section](../learning-lab/index.html#payer-decision-lab). It records the exact product, coverage lane, service/provider type, county/service area, optional verified rate and estimated administrative time, source-backed facts, assumptions, unknowns, and evidence categories reviewed. It can export a plain-text review record.
+
+The evidence checklist is a process aid, not an automated approval or contracting recommendation. Missing evidence must remain an unknown, not be converted into an assumed rule. Never enter identifiable client information. Validate conclusions against the current applicable contract and authoritative payer/program documents.
