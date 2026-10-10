@@ -98,5 +98,35 @@ class LearningLabSmokeTests(unittest.TestCase):
         self.assertIn("exact passage", template)
         self.assertIn("Where it breaks down", template)
 
+
+class SourceRegistryTests(unittest.TestCase):
+    def test_registry_has_unique_ids_and_required_metadata(self):
+        import json
+        registry_path = ROOT / "docs" / "sources.registry.json"
+        self.assertTrue(registry_path.exists())
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+        self.assertGreaterEqual(len(registry["sources"]), 8)
+        ids = [source["id"] for source in registry["sources"]]
+        self.assertEqual(len(ids), len(set(ids)))
+        for source in registry["sources"]:
+            with self.subTest(source=source["id"]):
+                self.assertTrue(source["title"])
+                self.assertTrue(source["issuer"])
+                self.assertTrue(source["url"].startswith("https://"))
+                self.assertTrue(source["jurisdiction"])
+                self.assertTrue(source["status"])
+                self.assertIn("scope_note", source)
+                self.assertTrue(source["review_required_before_encoding"])
+
+    def test_lesson_source_refs_resolve_to_registry(self):
+        import json
+        registry = json.loads((ROOT / "docs" / "sources.registry.json").read_text(encoding="utf-8"))
+        known = {source["id"] for source in registry["sources"]}
+        catalog = json.loads((ROOT / "learning-lab" / "lessons.json").read_text(encoding="utf-8"))
+        for lesson in catalog["lessons"]:
+            for source_id in lesson.get("source_refs", []):
+                with self.subTest(lesson=lesson["id"], source=source_id):
+                    self.assertTrue(source_id in known or source_id == "source-register")
+
 if __name__ == "__main__":
     unittest.main()
