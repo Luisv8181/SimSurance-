@@ -177,6 +177,35 @@
         "Find the official current directory for each coverage lane.",
         "Explain why a plan's existence does not prove a specific clinician is in network."
       ]
+    },
+    {
+      "id": "private-practice-payer-decisions",
+      "title": "Why does a private practice accept some plans and not others?",
+      "path": "index.html#practice-payer-decisions",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "client-demand",
+        "net-revenue",
+        "credentialing",
+        "network-participation",
+        "contract-risk",
+        "administrative-burden"
+      ],
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-providers",
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "Explain why reimbursement alone does not determine whether to accept a payer.",
+        "Compare client access, net revenue, credentialing, contract requirements, and administrative burden.",
+        "Identify which facts must be verified before evaluating a real insurer contract."
+      ]
     }
   ]
 }
