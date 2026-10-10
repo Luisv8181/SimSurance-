@@ -82,6 +82,14 @@ class LearningLabSmokeTests(unittest.TestCase):
         self.assertIn('docs/sources.registry.json', self.html)
         self.assertIn('bhc-publications', self.html)
 
+
+    def test_pa_access_pathway_lesson(self):
+        self.assertIn('id="pa-access-pathway"', self.html)
+        self.assertIn('pa-dhs-bhc-mcos', self.html)
+        self.assertIn('id="pa-access-check"', self.html)
+        self.assertIn('name="pa-access-answer"', self.html)
+        self.assertIn('appointment availability', self.html.lower())
+
     def test_payer_evaluation_worksheet(self):
         self.assertIn('id="payer-decision-lab"', self.html)
         self.assertIn('id="payer-worksheet"', self.html)
