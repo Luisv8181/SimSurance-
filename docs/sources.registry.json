@@ -227,6 +227,23 @@
       ],
       "review_required_before_encoding": true,
       "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-11.md"
+    },
+    {
+      "id": "cms-mh-parity",
+      "title": "The Mental Health Parity and Addiction Equity Act (MHPAEA)",
+      "issuer": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity",
+      "jurisdiction": "United States",
+      "program": "Private health insurance; group and individual markets",
+      "source_type": "official_federal_guidance",
+      "status": "official_page_reviewed",
+      "last_checked": "2026-10-11",
+      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule.",
+      "supports": [
+        "mh_parity_requirements_context"
+      ],
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-11.md"
     }
   ]
 }

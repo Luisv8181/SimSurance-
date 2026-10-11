@@ -450,6 +450,34 @@
         "Test parametric sweeps of provider appointment capacity and proactive care coordination.",
         "Verify statutory ledger invariants directly against simulated transaction streams."
       ]
+    },
+    {
+      "id": "mental-health-parity",
+      "title": "Does my plan have to cover mental health the same as physical health?",
+      "path": "index.html#mental-health-parity",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "mental-health-parity",
+        "mhpaea",
+        "quantitative-treatment-limitation",
+        "non-quantitative-treatment-limitation",
+        "six-benefit-classifications",
+        "nqtl-comparative-analysis"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "Explain that MHPAEA requires no less favorable benefit limitations on MH/SUD benefits a plan covers, without requiring plans to cover MH/SUD benefits at all.",
+        "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative ones (pre-authorization, step therapy, medical management, network standards).",
+        "Describe the six benefit classifications and the predominant / substantially-all test used for comparison.",
+        "Name what the CMS page does not establish: any plan-specific coverage or compliance determination, state-specific parity rules, and Medicaid MCO/CHIP modeling (not encoded)."
+      ]
     }
   ]
 }
