@@ -1,0 +1,104 @@
+{
+  "config_id": "toy-county-v1",
+  "label": "Riverbend County (fictional teaching county)",
+  "disclaimer": "Every value in this file is invented for teaching and software testing. None is a Pennsylvania rate, caseload, prevalence estimate, network size, or policy rule. Results are conditional on these assumptions and are not forecasts or causal findings.",
+  "weeks": 52,
+  "parameters": {
+    "population": {
+      "value": 5000,
+      "unit": "enrolled people",
+      "provenance": "hypothetical_scenario",
+      "note": "Small fictional enrolled population chosen so runs are fast and readable."
+    },
+    "weekly_need_onset_rate": {
+      "value": 0.0015,
+      "unit": "new care-seeking episodes per enrolled person per week",
+      "provenance": "hypothetical_scenario",
+      "note": "Produces roughly 7-8 new people seeking outpatient therapy per week. Not calibrated to any real prevalence or utilization data."
+    },
+    "sessions_needed_min": {
+      "value": 6,
+      "unit": "sessions",
+      "provenance": "hypothetical_scenario",
+      "note": "Lower bound of a uniform draw for episode length. Not a clinical standard."
+    },
+    "sessions_needed_max": {
+      "value": 14,
+      "unit": "sessions",
+      "provenance": "hypothetical_scenario",
+      "note": "Upper bound of a uniform draw for episode length. Not a clinical standard."
+    },
+    "provider_count": {
+      "value": 4,
+      "unit": "participating outpatient providers",
+      "provenance": "hypothetical_scenario",
+      "note": "Fictional network size chosen so baseline is capacity-constrained and a waitlist forms."
+    },
+    "weekly_caseload_min": {
+      "value": 10,
+      "unit": "weekly appointment slots per provider",
+      "provenance": "hypothetical_scenario",
+      "note": "Each provider receives a fixed number of weekly slots drawn between min and max."
+    },
+    "weekly_caseload_max": {
+      "value": 18,
+      "unit": "weekly appointment slots per provider",
+      "provenance": "hypothetical_scenario",
+      "note": "Upper bound for fictional provider capacity."
+    },
+    "no_show_probability": {
+      "value": 0.15,
+      "unit": "probability per scheduled session",
+      "provenance": "hypothetical_scenario",
+      "note": "A missed session uses the slot but produces no claim."
+    },
+    "weekly_waitlist_dropout": {
+      "value": 0.04,
+      "unit": "probability per week while waiting",
+      "provenance": "hypothetical_scenario",
+      "note": "Chance a waiting person stops seeking care through this network in a given week. Leaving the waitlist is counted as unmet need in the model, not as recovery."
+    },
+    "weekly_treatment_dropout": {
+      "value": 0.03,
+      "unit": "probability per week while in care",
+      "provenance": "hypothetical_scenario",
+      "note": "Chance an active client stops attending before the planned episode ends."
+    },
+    "allowed_amount_cents_per_session": {
+      "value": 9000,
+      "unit": "integer cents per attended session",
+      "provenance": "hypothetical_scenario",
+      "note": "Toy allowed amount ($90.00) used by the toy adjudication rule. Not a fee schedule."
+    },
+    "capitation_pmpm_cents": {
+      "value": 4000,
+      "unit": "integer cents per enrolled person per month",
+      "provenance": "hypothetical_scenario",
+      "note": "Toy prospective payment from the fictional state program to the fictional managed-care organization. Recorded as a transfer and never counted as a system cost."
+    },
+    "coordinator_weekly_cost_cents": {
+      "value": 0,
+      "unit": "integer cents per week",
+      "provenance": "hypothetical_scenario",
+      "note": "Baseline has no care-coordination program."
+    }
+  },
+  "scenarios": {
+    "baseline": {
+      "label": "Baseline (no pilot)",
+      "provenance": "hypothetical_scenario",
+      "description": "The fictional county as configured above.",
+      "overrides": {}
+    },
+    "care_coordination_pilot": {
+      "label": "The Waitlist Check-In Pilot",
+      "provenance": "hypothetical_scenario",
+      "description": "A fictional coordinator sends reminders and checks in with people on the waitlist. The assumed effects below are invented to show how a model works; they are not evidence that any real program has these effects.",
+      "overrides": {
+        "no_show_probability": 0.09,
+        "weekly_waitlist_dropout": 0.02,
+        "coordinator_weekly_cost_cents": 160000
+      }
+    }
+  }
+}

@@ -117,3 +117,23 @@ test('visual journey includes offline fallback data and 16-bit expressive assets
   assert.ok(fs.existsSync(path.join(root, 'learning-lab/assets/riverbend-world.svg')));
 });
 
+test('pyodide in-browser python bundle loads valid Simsurance sources', () => {
+  const { bundle, mountSimsurance } = require('../learning-lab/py-simsurance.js');
+  assert.ok(bundle && bundle.files);
+  assert.equal(typeof mountSimsurance, 'function');
+  assert.ok(bundle.files['simsurance/__init__.py']);
+  assert.ok(bundle.files['simsurance/county.py']);
+  assert.ok(bundle.files['simsurance/ledger.py']);
+  assert.ok(bundle.files['simsurance/policy.py']);
+  assert.ok(bundle.files['simsurance/runner.py']);
+  assert.ok(bundle.files['simsurance/simulator.py']);
+  assert.ok(bundle.files['config/toy_county.json']);
+
+  const livePage = fs.readFileSync(path.join(root, 'learning-lab/live-simulation.html'), 'utf8');
+  assert.match(livePage, /The Live Python Policy Lab/);
+  assert.match(livePage, /py-simsurance\.js/);
+  assert.match(livePage, /py-runner\.js/);
+  assert.match(livePage, /SimSurancePyRunner/);
+});
+
+

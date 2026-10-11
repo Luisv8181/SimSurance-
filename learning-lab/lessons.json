@@ -397,6 +397,33 @@
         "Name the documented Medicaid application routes (COMPASS, county assistance office, mail, phone) and crisis help (988).",
         "Identify what the page does not establish: a specific person's enrollment, provider network status, or appointment availability."
       ]
+    },
+    {
+      "id": "live-python-simulation",
+      "title": "Live In-Browser Python Policy Lab",
+      "path": "live-simulation.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "discrete-event-simulation",
+        "monte-carlo",
+        "webassembly",
+        "pyodide",
+        "ledger-invariants"
+      ],
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-bhc-service-access"
+      ],
+      "objectives": [
+        "Execute genuine Python discrete-event simulations in the browser using Pyodide WebAssembly.",
+        "Test parametric sweeps of provider appointment capacity and proactive care coordination.",
+        "Verify statutory ledger invariants directly against simulated transaction streams."
+      ]
     }
   ]
 }

@@ -210,7 +210,34 @@ class SourceRegistryTests(unittest.TestCase):
         home_html = PAGE.read_text(encoding="utf-8")
         self.assertIn("Riverbend Pixel World", home_html)
 
+    def test_live_python_simulation_page_and_bundle(self):
+        page_path = ROOT / "learning-lab" / "live-simulation.html"
+        self.assertTrue(page_path.exists())
+        content = page_path.read_text(encoding="utf-8")
+        self.assertIn("The Live Python Policy Lab", content)
+        self.assertIn("py-simsurance.js", content)
+        self.assertIn("py-runner.js", content)
+        self.assertIn("SimSurancePyRunner", content)
+        self.assertIn("lab-shell.js", content)
+        self.assertIn("HYPOTHETICAL SCENARIO", content)
 
+        bundle_path = ROOT / "learning-lab" / "py-simsurance.js"
+        self.assertTrue(bundle_path.exists())
+        bundle_text = bundle_path.read_text(encoding="utf-8")
+        self.assertIn("SIMSURANCE_PYTHON_BUNDLE", bundle_text)
+        self.assertIn("mountSimsurance", bundle_text)
+        self.assertIn("simsurance/__init__.py", bundle_text)
+        self.assertIn("simsurance/simulator.py", bundle_text)
+        self.assertIn("config/toy_county.json", bundle_text)
+
+        runner_path = ROOT / "learning-lab" / "py-runner.js"
+        self.assertTrue(runner_path.exists())
+        runner_text = runner_path.read_text(encoding="utf-8")
+        self.assertIn("SimSurancePyRunner", runner_text)
+        self.assertIn("mountSimsurance", runner_text)
+
+        home_html = PAGE.read_text(encoding="utf-8")
+        self.assertIn("live-simulation.html", home_html)
 
 
 if __name__ == "__main__":
