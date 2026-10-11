@@ -5,7 +5,7 @@ const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'learning-lab/data/county-sim.json'), 'utf8'));
-const { selectView, scoreAnswers } = require('../learning-lab/visual-journey.js');
+const { selectView, scoreAnswers, compareOutcomes } = require('../learning-lab/visual-journey.js');
 
 test('week scrubber reads the selected exported run rather than inventing a result', () => {
   const run = data.runs.find((item) => item.scenario_id === 'baseline' && item.capacity_multiplier === 1);
@@ -45,12 +45,31 @@ test('invalid or incomplete exported selections stop without a fabricated fallba
   assert.throws(() => selectView(data, 'baseline', 1.1, 1), /capacity/);
   assert.throws(() => selectView(data, 'baseline', 1, 0), /week/);
   assert.throws(() => selectView(data, 'baseline', 1, 53), /week/);
+  const corrupted = structuredClone(data);
+  const run = corrupted.runs.find((item) => item.scenario_id === 'baseline' && item.capacity_multiplier === 1);
+  run.weekly_waitlist_mean[5] = null;
+  assert.throws(() => selectView(corrupted, 'baseline', 1, 6), /weekly simulation values/);
 });
 
 test('the learning check counts correct answers and leaves unanswered questions wrong', () => {
   assert.equal(scoreAnswers(['b', 'a', 'c'], ['b', '', 'c']), 2);
   assert.equal(scoreAnswers(['b', 'a', 'c'], ['b', 'a', 'c']), 3);
   assert.equal(scoreAnswers(['b', 'a', 'c'], ['a', 'b', 'a']), 0);
+});
+
+test('the pilot can help completion while making a constrained queue larger', () => {
+  const comparison = compareOutcomes(data, 0.75);
+  assert.ok(comparison.completedDelta > 0);
+  assert.ok(comparison.waitlistDelta > 0);
+  assert.equal(comparison.baseline.weekly.waitlist, selectView(data, 'baseline', 0.75, 52).weekly.waitlist);
+  assert.equal(comparison.pilot.weekly.waitlist, selectView(data, 'care_coordination_pilot', 0.75, 52).weekly.waitlist);
+});
+
+test('adding clinician capacity reduces the week-52 pilot queue in exported runs', () => {
+  const constrained = selectView(data, 'care_coordination_pilot', 0.75, 52);
+  const expanded = selectView(data, 'care_coordination_pilot', 1.25, 52);
+  assert.ok(expanded.weekly.waitlist < constrained.weekly.waitlist);
+  assert.ok(expanded.annual.completed.mean > constrained.annual.completed.mean);
 });
 
 test('the lesson is discoverable from home and the catalog', () => {
@@ -60,6 +79,9 @@ test('the lesson is discoverable from home and the catalog', () => {
   assert.match(page, /A year of care, in motion/);
   assert.match(page, /visual-journey\.js/);
   assert.match(page, /hypothetical_scenario/);
+  assert.match(page, /assets\/riverbend-world\.svg/);
+  assert.match(page, /assets\/glim-guide\.svg/);
+  assert.match(page, /id="vj-journal"/);
   assert.match(home, /visual-journey\.html/);
   assert.ok(catalog.lessons.some((lesson) => lesson.path === 'visual-journey.html' && lesson.status === 'illustrative'));
 });
