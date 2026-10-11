@@ -295,6 +295,31 @@
       ]
     },
     {
+      "id": "visual-simulation-journey",
+      "title": "A year of care, in motion",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "coverage-vs-access",
+        "appointment-capacity",
+        "waitlist-dynamics",
+        "capitation",
+        "system-cost"
+      ],
+      "policy_claims": false,
+      "source_refs": [],
+      "objectives": [
+        "Watch fictional weekly waitlist and in-care means change across a 52-week model year.",
+        "Compare pilot and capacity settings without treating simulated changes as real-world predictions.",
+        "Explain why capitation transfers are separate from downstream system costs."
+      ]
+    },
+    {
       "id": "virtual-county-simulator",
       "title": "A budget isn't a waiting room: Virtual county & capacity simulator",
       "path": "county-lab.html",
