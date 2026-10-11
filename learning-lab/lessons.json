@@ -322,6 +322,31 @@
         "Explain why reducing waitlist dropout can raise average wait times unless appointment capacity also expands.",
         "Separate upstream capitation transfers from consolidated system service and coordination costs."
       ]
+    },
+    {
+      "id": "school-based-services",
+      "title": "How Medicaid can pay for school-based services",
+      "path": "index.html#school-based-services",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "administrative-claiming",
+        "cost-pools",
+        "state-plan-amendment"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "Name the four money concepts behind school-based Medicaid payment: state-plan authority, documented services, administrative claiming, and cost pools.",
+        "Describe what the CMS School-Based Services Resources index lists and what it does not establish.",
+        "Identify what evidence is still missing before any school-based reimbursement rule can be taught as factual."
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "research_snapshot_date": "2026-10-10",
+  "research_snapshot_date": "2026-10-11",
   "purpose": "Dated navigational registry for source discovery. Listing a source does not mean all rules on that page have been verified or are applicable to every member, provider, county, service, or plan.",
   "status_legend": {
     "official_page_reviewed": "An official landing/index page has been opened and checked for the described purpose.",
@@ -208,6 +208,24 @@
         "access_barriers"
       ],
       "review_required_before_encoding": true
+    },
+    {
+      "id": "cms-school-based-services",
+      "title": "CMS School-Based Services Resources",
+      "issuer": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources",
+      "jurisdiction": "United States",
+      "program": "Medicaid school-based services",
+      "source_type": "official_federal_guidance",
+      "status": "official_page_reviewed",
+      "last_checked": "2026-10-11",
+      "scope_note": "Federal index of school-based-services technical-assistance resources: TAC resources, 2023 Comprehensive Guide and informational bulletins, sample SPAs/TSIPs/cost reports. Page-level verification only; linked documents not reviewed this run. Do not generalize any state's SPA approach to another state.",
+      "supports": [
+        "school_based_services_context",
+        "administrative_claiming_context"
+      ],
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-11.md"
     }
   ]
 }
