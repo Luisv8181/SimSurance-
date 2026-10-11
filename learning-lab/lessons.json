@@ -374,6 +374,32 @@
       ]
     },
     {
+      "id": "managed-care-rates",
+      "title": "How Medicaid managed-care rates are set",
+      "path": "index.html#managed-care-rates",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "capitation",
+        "actuarial-soundness",
+        "rate-development-guide",
+        "rating-period",
+        "rate-certification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "Describe capitation as a prospective per-person rate and the federal actuarial-soundness standard that applies to it.",
+        "Name the current CMS rate development guide (2026-2027, released February 2026) and the rating periods it covers (starting July 1, 2026 through June 30, 2027).",
+        "Identify what the CMS index page does not establish: any plan-, state-, or provider-specific rate, and any Pennsylvania contract rule."
+      ]
+    },
+    {
       "id": "requesting-services",
       "title": "How to request behavioral-health services in Pennsylvania",
       "path": "index.html#requesting-services",
