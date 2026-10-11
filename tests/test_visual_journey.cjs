@@ -136,4 +136,46 @@ test('pyodide in-browser python bundle loads valid Simsurance sources', () => {
   assert.match(livePage, /SimSurancePyRunner/);
 });
 
+test('pixel world town features 8 interactive chambers and discovery seals', () => {
+  const { BUILDINGS, adjudicateToyClaim } = require('../learning-lab/visual-journey.js');
+  assert.ok(BUILDINGS, 'BUILDINGS dictionary must be exported');
+  const keys = ['coverage', 'wait', 'clinic', 'finance', 'claims', 'terminal', 'archives', 'crossroads'];
+  keys.forEach((key, idx) => {
+    assert.ok(BUILDINGS[key], `Building ${key} must exist`);
+    assert.equal(BUILDINGS[key].num, idx + 1);
+    assert.ok(BUILDINGS[key].name);
+    assert.ok(BUILDINGS[key].sealTitle);
+  });
+
+  const paid = adjudicateToyClaim('valid', 'in_network', 'valid', 'valid');
+  assert.equal(paid.status, 'paid');
+  assert.equal(paid.amountCents, 9000);
+
+  const deniedIneligible = adjudicateToyClaim('inactive', 'in_network', 'valid', 'valid');
+  assert.equal(deniedIneligible.status, 'denied');
+
+  const deniedOon = adjudicateToyClaim('valid', 'out_network', 'valid', 'valid');
+  assert.equal(deniedOon.status, 'denied');
+
+  const reviewAuth = adjudicateToyClaim('valid', 'in_network', 'missing', 'valid');
+  assert.equal(reviewAuth.status, 'review');
+
+  const reviewData = adjudicateToyClaim('valid', 'in_network', 'valid', 'invalid');
+  assert.equal(reviewData.status, 'review');
+
+  const page = fs.readFileSync(path.join(root, 'learning-lab/visual-journey.html'), 'utf8');
+  assert.match(page, /id="vj-chamber"/);
+  assert.match(page, /id="vj-chamber-title"/);
+  assert.match(page, /id="vj-chamber-body"/);
+  assert.match(page, /id="vj-chamber-claim"/);
+  assert.match(page, /vj-town-nav/);
+  keys.forEach((key) => {
+    assert.match(page, new RegExp(`data-vj-place="${key}"`));
+    assert.match(page, new RegExp(`data-vj-stamp="${key}"`));
+  });
+  assert.match(page, /py-simsurance\.js/);
+  assert.match(page, /py-runner\.js/);
+});
+
+
 

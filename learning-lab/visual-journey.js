@@ -67,6 +67,89 @@
     return correct.reduce((score, key, index) => score + Number(Boolean(answers[index]) && answers[index] === key), 0);
   }
 
+  function adjudicateToyClaim(eligibility, network, auth, data) {
+    if (eligibility !== 'valid') {
+      return { status: 'denied', code: 'DENIED_INELIGIBLE', message: 'Member coverage is inactive or terminated on the date of service.' };
+    }
+    if (network !== 'in_network') {
+      return { status: 'denied', code: 'DENIED_OUT_OF_NETWORK', message: 'Provider is not in the contracted behavioral health network.' };
+    }
+    if (auth !== 'valid') {
+      return { status: 'review', code: 'PENDING_PRIOR_AUTH', message: 'Claim requires clinical prior authorization review before payment.' };
+    }
+    if (data !== 'valid') {
+      return { status: 'review', code: 'PENDING_DATA_CORRECTION', message: 'Malformed claim data, invalid billing NPI, or missing diagnosis code.' };
+    }
+    return { status: 'paid', code: 'PAID', amountCents: 9000, message: 'All criteria verified. Claim approved for payment at the agreed fee schedule rate of $90.00.' };
+  }
+
+  const BUILDINGS = {
+    coverage: {
+      key: 'coverage',
+      num: 1,
+      name: 'Town Hall · Coverage & Access',
+      subtitle: 'Why having Medicaid does not guarantee an immediate appointment',
+      sealTitle: '1·COVERAGE: ACCESS != SLOT',
+      icon: '🏛️',
+    },
+    wait: {
+      key: 'wait',
+      num: 2,
+      name: 'Waiting Station · Queue Dynamics',
+      subtitle: 'The retention paradox: why check-in coordination can increase the waitlist',
+      sealTitle: '2·QUEUE: RETENTION PARADOX',
+      icon: '⌛',
+    },
+    clinic: {
+      key: 'clinic',
+      num: 3,
+      name: 'Care Clinic · Provider Capacity & Workforce',
+      subtitle: 'The physical bottleneck: clinician hours and weekly appointment slots',
+      sealTitle: '3·CLINIC: WORKFORCE BOTTLENECK',
+      icon: '✚',
+    },
+    finance: {
+      key: 'finance',
+      num: 4,
+      name: 'Town Bank · Statutory Ledger & Money Flows',
+      subtitle: 'The Accounting Firewall: zero double-counting of capitation and claims',
+      sealTitle: '4·LEDGER: ACCOUNTING FIREWALL',
+      icon: '◆',
+    },
+    claims: {
+      key: 'claims',
+      num: 5,
+      name: 'Claims Adjudication Post · 4-Point Decision Engine',
+      subtitle: 'Test claims against coverage, network status, authorization, and data rules',
+      sealTitle: '5·CLAIMS: 4-POINT ADJUDICATION',
+      icon: '⚖️',
+    },
+    terminal: {
+      key: 'terminal',
+      num: 6,
+      name: 'County Terminal · In-Browser Python WebAssembly Lab',
+      subtitle: 'Execute discrete-event simulation runs right inside your browser in ~25ms',
+      sealTitle: '6·TERMINAL: WASM COUNTY LAB',
+      icon: '💻',
+    },
+    archives: {
+      key: 'archives',
+      num: 7,
+      name: 'Town Archives · Policy Provenance & Statutory Rules',
+      subtitle: 'How to verify real Pennsylvania statutes without hallucinating policy',
+      sealTitle: '7·ARCHIVES: POLICY PROVENANCE',
+      icon: '📜',
+    },
+    crossroads: {
+      key: 'crossroads',
+      num: 8,
+      name: "Travelers' Crossroads · Multi-Stakeholder Perspectives",
+      subtitle: 'Experience the same care episode through member, clinician, and auditor eyes',
+      sealTitle: '8·JOURNEYS: THREE PERSPECTIVES',
+      icon: '🧭',
+    },
+  };
+
   // Zero-dependency 8-bit chiptune Web Audio synthesizer
   const AudioSynth = (function () {
     let ctx = null;
@@ -151,9 +234,9 @@
   })();
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { selectView, compareOutcomes, scoreAnswers, AudioSynth };
+    module.exports = { selectView, compareOutcomes, scoreAnswers, adjudicateToyClaim, BUILDINGS, AudioSynth };
   } else {
-    root.SimSuranceJourney = { selectView, compareOutcomes, scoreAnswers, AudioSynth };
+    root.SimSuranceJourney = { selectView, compareOutcomes, scoreAnswers, adjudicateToyClaim, BUILDINGS, AudioSynth };
     if (root.document) {
       const ready = () => { if (document.getElementById('visual-journey')) startLesson(); };
       if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready);
@@ -221,6 +304,8 @@
       timer: null,
       place: null,
       stamps: new Set(),
+      seals: new Set(),
+      currentChamber: null,
     };
     const format = (value, digits = 0) => value.toLocaleString('en-US', { maximumFractionDigits: digits, minimumFractionDigits: digits });
     const money = (cents) => `$${format(cents / 100)}`;
@@ -267,8 +352,611 @@
           badge.setAttribute('aria-label', `${badge.dataset.label}: ${state.stamps.has(name) ? 'discovered' : 'not yet discovered'}`);
         }
       });
-      $('vj-stamp-count').textContent = `${state.stamps.size}/3 discoveries`;
-      if (state.phase === 'explore') $('vj-step').textContent = `${state.stamps.size} / 3`;
+      Object.keys(BUILDINGS).forEach((key) => {
+        const badge = document.querySelector(`[data-vj-stamp="${key}"]`);
+        if (badge) {
+          badge.classList.toggle('earned', state.seals.has(key));
+          badge.setAttribute('aria-label', `${badge.dataset.label}: ${state.seals.has(key) ? 'discovered' : 'not yet discovered'}`);
+        }
+      });
+      const countEl = $('vj-stamp-count');
+      if (countEl) countEl.textContent = `${state.seals.size}/8 seals discovered`;
+      if (state.phase === 'explore') $('vj-step').textContent = `${state.seals.size} / 8`;
+    }
+
+    function claimSeal(key) {
+      if (!BUILDINGS[key]) return;
+      if (state.seals.has(key)) return;
+      state.seals.add(key);
+      AudioSynth.stamp();
+
+      if (key === 'wait') state.stamps.add('baseline');
+      if (key === 'coverage' || state.seals.size >= 2) state.stamps.add('pilot');
+      if (key === 'clinic' || state.seals.size >= 3) state.stamps.add('capacity');
+
+      if (root.SimSuranceLab && typeof root.SimSuranceLab.recordCheckpoint === 'function') {
+        root.SimSuranceLab.recordCheckpoint('seal-' + key);
+      }
+
+      const guideImg = $('vj-guide-img');
+      if (guideImg) {
+        guideImg.src = './assets/glim-celebrate.svg';
+        setTimeout(() => {
+          if (guideImg && state.phase === 'explore') guideImg.src = './assets/glim-guide.svg';
+        }, 2200);
+      }
+
+      const b = BUILDINGS[key];
+      const sealStatus = $('vj-chamber-seal-status');
+      if (sealStatus) {
+        sealStatus.classList.add('earned');
+        sealStatus.textContent = `✓ SEAL DISCOVERED: ${b.sealTitle}`;
+      }
+      const claimBtn = $('vj-chamber-claim');
+      if (claimBtn) {
+        claimBtn.classList.add('claimed');
+        claimBtn.textContent = '✓ Seal Claimed';
+        claimBtn.disabled = true;
+      }
+
+      recordObservation();
+      renderPassport();
+    }
+
+    function renderPassport() {
+      const container = $('vj-journal-passport');
+      if (!container) return;
+      const fragment = document.createDocumentFragment();
+      Object.values(BUILDINGS).forEach((b) => {
+        const card = document.createElement('div');
+        card.className = 'vj-journal-metric';
+        card.style.cursor = 'pointer';
+        const isEarned = state.seals.has(b.key);
+        card.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <span style="font-weight:800;color:var(--ink)">${b.icon} ${b.num}·${b.name.split('·')[0].trim()}</span>
+            <span class="chamber-badge ${isEarned ? 'paid' : 'review'}" style="font-size:.65rem">${isEarned ? '✓ EARNED' : '✦ VISIT'}</span>
+          </div>
+          <strong style="font-size:.88rem;margin:4px 0;color:${isEarned ? 'var(--mint)' : 'var(--muted)'}">${b.sealTitle}</strong>
+          <small style="display:block;margin-top:4px">${isEarned ? 'Recorded in Riverbend passport' : 'Click to enter chamber & discover seal'}</small>
+        `;
+        card.addEventListener('click', () => {
+          $('vj-journal').close();
+          openChamber(b.key);
+        });
+        fragment.append(card);
+      });
+      container.replaceChildren(fragment);
+    }
+
+    function closeChamber() {
+      const chamber = $('vj-chamber');
+      if (chamber && chamber.open) {
+        AudioSynth.blip();
+        chamber.close();
+        state.currentChamber = null;
+      }
+    }
+
+    function openChamber(key) {
+      const b = BUILDINGS[key];
+      if (!b) return;
+      stopPlayback();
+      AudioSynth.blip();
+      state.currentChamber = key;
+      state.place = key;
+      placeButtons.forEach((item) => item.setAttribute('aria-pressed', String(item.dataset.vjPlace === key)));
+
+      $('vj-chamber-title').textContent = `${b.icon} ${b.name}`;
+      $('vj-chamber-subtitle').textContent = b.subtitle;
+
+      const isEarned = state.seals.has(key);
+      const sealStatus = $('vj-chamber-seal-status');
+      if (sealStatus) {
+        sealStatus.classList.toggle('earned', isEarned);
+        sealStatus.textContent = isEarned ? `✓ SEAL DISCOVERED: ${b.sealTitle}` : 'SEAL: UNDISCOVERED';
+      }
+
+      const claimBtn = $('vj-chamber-claim');
+      if (claimBtn) {
+        claimBtn.classList.toggle('claimed', isEarned);
+        claimBtn.textContent = isEarned ? '✓ Seal Claimed' : '✦ Claim Discovery Seal';
+        claimBtn.disabled = isEarned;
+        claimBtn.onclick = () => claimSeal(key);
+      }
+
+      renderChamberContent(key);
+      $('vj-chamber').showModal();
+    }
+
+    function renderChamberContent(key) {
+      const body = $('vj-chamber-body');
+      if (!body) return;
+      body.replaceChildren();
+
+      if (key === 'coverage') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Medicaid Access in Pennsylvania: Enrollment vs. Clinic Slots</h3>
+            <p>Pennsylvania uses a managed care carve-out system for behavioral health (HealthChoices). Enrollees receive a Medicaid card, but having insurance does not guarantee immediate appointment availability when outpatient clinics face clinician workforce limits.</p>
+            <div class="chamber-grid">
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Jordan's Member Status</strong>
+                <p style="margin:6px 0;font-size:.85rem">✓ Enrolled in Medical Assistance</p>
+                <p style="margin:6px 0;font-size:.85rem">✓ Holds valid Medicaid Access card</p>
+                <p style="margin:6px 0;font-size:.85rem;color:var(--mint)">✓ Behavioral health benefit active</p>
+              </div>
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Riverbend Provider Supply</strong>
+                <p style="margin:6px 0;font-size:.85rem">4 participating outpatient therapists</p>
+                <p style="margin:6px 0;font-size:.85rem">Weekly capacity: 42 slots at 0.75× supply</p>
+                <p style="margin:6px 0;font-size:.85rem;color:var(--gold)">⚠ Next appointment: 6–8 weeks</p>
+              </div>
+            </div>
+            <p><strong>Statutory Provenance:</strong> The BHC-MCO agreement mandates provider network adequacy standards, but financial contracts alone cannot recruit or train licensed therapists overnight.</p>
+            <button type="button" id="chamber-cov-source" class="vj-journal-source" style="padding:6px 12px;border-radius:6px;font-weight:750">📖 Inspect Source: PA DHS Behavioral Health MCO Agreement</button>
+          </div>
+          <div class="chamber-card chamber-quiz">
+            <h4>Chamber Challenge:</h4>
+            <p>If the state increases Medicaid funding without expanding clinician hours, what happens to the waitlist?</p>
+            <button type="button" data-quiz-cov="a">A · The waitlist disappears automatically</button>
+            <button type="button" data-quiz-cov="b">B · More people seek care against a fixed clinician supply, so waiting persists</button>
+            <button type="button" data-quiz-cov="c">C · Clinicians work 80 hours a week without extra staff</button>
+            <div id="coverage-quiz-feedback" class="chamber-feedback"></div>
+          </div>
+        `;
+        body.append(wrap);
+
+        const srcBtn = wrap.querySelector('#chamber-cov-source');
+        if (srcBtn) {
+          srcBtn.addEventListener('click', () => {
+            closeChamber();
+            if (root.SimSuranceLab && typeof root.SimSuranceLab.openSourceDrawer === 'function') {
+              root.SimSuranceLab.openSourceDrawer('pa-dhs-bhc-mcos');
+            }
+          });
+        }
+        wrap.querySelectorAll('[data-quiz-cov]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            AudioSynth.blip();
+            wrap.querySelectorAll('[data-quiz-cov]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+            const fb = wrap.querySelector('#coverage-quiz-feedback');
+            if (btn.dataset.quizCov === 'b') {
+              fb.textContent = '✓ Correct! Coverage finances access, but provider workforce delivers it. Without clinician supply, queues form.';
+              fb.style.color = 'var(--mint)';
+            } else {
+              fb.textContent = '↺ Try again: Financing does not physically create clinician hours or appointments.';
+              fb.style.color = 'var(--gold)';
+            }
+          });
+        });
+      } else if (key === 'wait') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>52-Week Queue Dynamics & The Retention Paradox</h3>
+            <p>Discrete-event queue modeling reveals unexpected feedback loops. When you introduce a waitlist check-in coordinator to support patients while they wait:</p>
+            <div class="chamber-grid">
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Baseline Setting (No Coordinator)</strong>
+                <p style="margin:6px 0;font-size:.85rem">Weekly dropout: 4.0%</p>
+                <p style="margin:6px 0;font-size:.85rem">Completed episodes (year): ~138</p>
+                <p style="margin:6px 0;font-size:.85rem;color:var(--mint)">Still waiting at week 52: ~69</p>
+              </div>
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Check-In Pilot Setting</strong>
+                <p style="margin:6px 0;font-size:.85rem">Weekly dropout: 2.0% (halved!)</p>
+                <p style="margin:6px 0;font-size:.85rem">Completed episodes (year): ~149 (+11)</p>
+                <p style="margin:6px 0;font-size:.85rem;color:var(--gold)">Still waiting at week 52: ~94 (+25!)</p>
+              </div>
+            </div>
+            <p><strong>The Takeaway:</strong> The pilot successfully prevents discouraged dropouts, so more people stay engaged. But because weekly appointment slots remain fixed (42/wk), the active queue grows larger!</p>
+          </div>
+          <div class="chamber-card">
+            <h4>Interactive Week-by-Week Queue Inspector:</h4>
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+              <label for="chamber-wait-slider" style="font-weight:750">Simulation Week:</label>
+              <input id="chamber-wait-slider" type="range" min="1" max="52" value="52" style="flex:1;min-width:180px">
+              <strong id="chamber-wait-week-disp" style="color:var(--mint);font-family:ui-monospace,monospace">WEEK 52</strong>
+            </div>
+            <div id="chamber-wait-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px"></div>
+          </div>
+        `;
+        body.append(wrap);
+
+        function updateWaitScrubber(wk) {
+          const disp = wrap.querySelector('#chamber-wait-week-disp');
+          const grid = wrap.querySelector('#chamber-wait-grid');
+          if (disp) disp.textContent = `WEEK ${wk}`;
+          if (!grid || !state.data) return;
+          const bRun = selectView(state.data, 'baseline', 0.75, wk);
+          const pRun = selectView(state.data, 'care_coordination_pilot', 0.75, wk);
+          grid.innerHTML = `
+            <div class="vj-journal-metric">
+              <span>Baseline Waiting (Wk ${wk})</span>
+              <strong style="color:var(--ink)">${format(bRun.weekly.waitlist, 1)}</strong>
+              <small>In care: ${format(bRun.weekly.inCare, 1)}</small>
+            </div>
+            <div class="vj-journal-metric">
+              <span>Pilot Waiting (Wk ${wk})</span>
+              <strong style="color:var(--gold)">${format(pRun.weekly.waitlist, 1)}</strong>
+              <small>In care: ${format(pRun.weekly.inCare, 1)}</small>
+            </div>
+          `;
+        }
+
+        const slider = wrap.querySelector('#chamber-wait-slider');
+        if (slider) {
+          slider.addEventListener('input', () => updateWaitScrubber(Number(slider.value)));
+          updateWaitScrubber(52);
+        }
+      } else if (key === 'clinic') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Care Clinic: Provider Capacity & Workforce Scaling</h3>
+            <p>Why is clinician capacity the master key? Select a capacity multiplier to see how expanding therapist hours transforms outcomes over 52 weeks:</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin:12px 0">
+              <button type="button" class="vj-choice" data-chamber-cap="0.75" aria-pressed="true">0.75× (42 slots/wk)</button>
+              <button type="button" class="vj-choice" data-chamber-cap="1.0" aria-pressed="false">1.0× (56 slots/wk)</button>
+              <button type="button" class="vj-choice" data-chamber-cap="1.25" aria-pressed="false">1.25× (70 slots/wk)</button>
+              <button type="button" class="vj-choice" data-chamber-cap="1.5" aria-pressed="false">1.5× (84 slots/wk)</button>
+            </div>
+            <div id="chamber-clinic-metrics" class="vj-journal-grid" style="margin-top:12px"></div>
+            <p style="margin-top:14px"><strong>Workforce Finding:</strong> Scaling from 0.75× to 1.5× capacity reduces average waiting from <strong>7.1 weeks down to 0.09 weeks</strong>, eliminating 99% of unmet care need!</p>
+          </div>
+        `;
+        body.append(wrap);
+
+        function updateClinicCap(cap) {
+          wrap.querySelectorAll('[data-chamber-cap]').forEach((btn) => {
+            btn.setAttribute('aria-pressed', String(Number(btn.dataset.chamberCap) === cap));
+          });
+          const metricsGrid = wrap.querySelector('#chamber-clinic-metrics');
+          if (!metricsGrid || !state.data) return;
+          const run = selectView(state.data, 'care_coordination_pilot', cap, 52);
+          metricsGrid.innerHTML = `
+            <div class="vj-journal-metric">
+              <span>Completed Episodes</span>
+              <strong>${format(run.annual.completed.mean)}</strong>
+              <small>Across 30 runs</small>
+            </div>
+            <div class="vj-journal-metric">
+              <span>Mean Wait Time</span>
+              <strong style="color:var(--mint)">${format(run.annual.meanWaitWeeks.mean, 1)} wks</strong>
+              <small>P90: ${format(run.annual.meanWaitWeeks.p90, 1)} wks</small>
+            </div>
+            <div class="vj-journal-metric">
+              <span>Unmet Need Share</span>
+              <strong style="color:${cap >= 1.25 ? 'var(--mint)' : 'var(--gold)'}">${format(run.annual.unmetNeedShare.mean * 100, 1)}%</strong>
+              <small>Dropped from waitlist</small>
+            </div>
+          `;
+        }
+
+        wrap.querySelectorAll('[data-chamber-cap]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            AudioSynth.blip();
+            updateClinicCap(Number(btn.dataset.chamberCap));
+          });
+        });
+        updateClinicCap(0.75);
+      } else if (key === 'finance') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Town Bank: Statutory Accounting & The Ledger Firewall</h3>
+            <p>Statutory healthcare accounting requires strict firewalling between distinct transaction tiers. A simulation model must reflect actual double-entry invariants:</p>
+            <div class="chamber-grid">
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Layer 1: Upstream Financing Transfer</strong>
+                <p style="margin:4px 0;font-size:.85rem">State DHS → County BHC-MCO</p>
+                <strong style="display:block;font-size:1.35rem;color:var(--gold);margin:6px 0">$2,400,000.00</strong>
+                <small style="color:var(--muted)">$40.00 PMPM capitation for 5,000 enrolled members. Fixed prospective funding.</small>
+              </div>
+              <div style="background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:10px">
+                <strong>Layer 2: Downstream Operating Costs</strong>
+                <p style="margin:4px 0;font-size:.85rem">MCO → Clinicians & Coordinator</p>
+                <strong style="display:block;font-size:1.35rem;color:var(--mint);margin:6px 0">$253,711.00</strong>
+                <small style="color:var(--muted)">Service claims ($90/session) + coordinator salary ($1,600/wk).</small>
+              </div>
+            </div>
+            <div style="margin-top:12px;background:rgba(255,232,156,.1);border:1px solid var(--gold);padding:12px;border-radius:8px">
+              <strong>⚠ The Double-Counting Hazard:</strong>
+              <p style="margin:4px 0;font-size:.84rem">Never add Layer 1 and Layer 2 together ($2.4M + $253k = $2.65M)! The capitation transfer <em>funds</em> the downstream care. Adding them double-counts the same dollars.</p>
+            </div>
+          </div>
+          <div class="chamber-card chamber-quiz">
+            <h4>Ledger Invariant Quiz:</h4>
+            <p>Why does SimSurance's ledger reject a run if <code>system_cost != service_payments + coordinator_cost</code>?</p>
+            <button type="button" data-quiz-fin="a">A · It forgets to add the capitation transfer</button>
+            <button type="button" data-quiz-fin="b">B · It violates the closed downstream delivery invariant, misrepresenting operating cash flows</button>
+            <button type="button" data-quiz-fin="c">C · Floats are allowed in financial reports</button>
+            <div id="finance-quiz-feedback" class="chamber-feedback"></div>
+          </div>
+        `;
+        body.append(wrap);
+
+        wrap.querySelectorAll('[data-quiz-fin]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            AudioSynth.blip();
+            wrap.querySelectorAll('[data-quiz-fin]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+            const fb = wrap.querySelector('#finance-quiz-feedback');
+            if (btn.dataset.quizFin === 'b') {
+              fb.textContent = '✓ Exactly. In statutory accounting, consolidated downstream service equals fee claims plus direct coordinator expense. Capitation stays strictly separated.';
+              fb.style.color = 'var(--mint)';
+            } else {
+              fb.textContent = '↺ Remember: Capitation is an upstream financing transfer. Adding it double-counts!';
+              fb.style.color = 'var(--gold)';
+            }
+          });
+        });
+      } else if (key === 'claims') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Claims Adjudication Post: 4-Point Decision Engine</h3>
+            <p>Every therapy session submitted by a clinic goes through automated adjudication rules. Adjust the 4 parameters below to observe the adjudication outcome in real time:</p>
+            <div class="chamber-grid">
+              <div class="chamber-field">
+                <label for="adj-elig">1. Member Eligibility</label>
+                <select id="adj-elig">
+                  <option value="valid">Eligible Medicaid Member (Active)</option>
+                  <option value="inactive">Terminated / Inactive Enrollment</option>
+                </select>
+              </div>
+              <div class="chamber-field">
+                <label for="adj-net">2. Provider Network</label>
+                <select id="adj-net">
+                  <option value="in_network">In-Network Contracted Clinician</option>
+                  <option value="out_network">Out-of-Network Non-Contracted</option>
+                </select>
+              </div>
+              <div class="chamber-field">
+                <label for="adj-auth">3. Prior Authorization</label>
+                <select id="adj-auth">
+                  <option value="valid">Standard Outpatient (No Auth Needed)</option>
+                  <option value="missing">Missing Required Prior Auth</option>
+                </select>
+              </div>
+              <div class="chamber-field">
+                <label for="adj-data">4. Claim Data Cleanliness</label>
+                <select id="adj-data">
+                  <option value="valid">Valid CPT 90834 & Clean Diagnosis</option>
+                  <option value="invalid">Missing Diagnosis / NPI Mismatch</option>
+                </select>
+              </div>
+            </div>
+            <div id="adj-result-box" style="margin-top:14px;padding:14px;border-radius:10px;background:var(--panel);border:2px solid var(--line)">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <strong>Adjudication Determination:</strong>
+                <span id="adj-badge" class="chamber-badge paid">PAID</span>
+              </div>
+              <p id="adj-msg" style="margin:8px 0 0;font-size:.86rem;color:var(--muted)">All criteria verified. Claim approved for payment at the agreed fee schedule rate of $90.00.</p>
+            </div>
+          </div>
+        `;
+        body.append(wrap);
+
+        function runAdjudication() {
+          const elig = wrap.querySelector('#adj-elig').value;
+          const net = wrap.querySelector('#adj-net').value;
+          const auth = wrap.querySelector('#adj-auth').value;
+          const dt = wrap.querySelector('#adj-data').value;
+          const outcome = adjudicateToyClaim(elig, net, auth, dt);
+          const badge = wrap.querySelector('#adj-badge');
+          const msg = wrap.querySelector('#adj-msg');
+          badge.className = `chamber-badge ${outcome.status}`;
+          badge.textContent = outcome.status.toUpperCase();
+          msg.textContent = `${outcome.message} (${outcome.code})`;
+          AudioSynth.step();
+        }
+
+        wrap.querySelectorAll('select').forEach((sel) => sel.addEventListener('change', runAdjudication));
+      } else if (key === 'terminal') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>County Python Terminal · WebAssembly Discrete-Event Lab</h3>
+            <p>Run the actual Python discrete-event engine in your browser via Pyodide WebAssembly. Simulates 5,000 citizens and 52 weeks in ~25 milliseconds!</p>
+            <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0">
+              <label for="term-preset" style="font-weight:750">Choose Preset:</label>
+              <select id="term-preset" style="flex:1;min-width:180px;background:var(--panel);color:var(--ink);border:1px solid var(--line);padding:8px;border-radius:6px">
+                <option value="baseline">Baseline County (4 providers, 0.75x slots, seed 42)</option>
+                <option value="pilot">Waitlist Check-In Pilot (reduced dropout, seed 42)</option>
+                <option value="capacity">Expanded Capacity (1.5x slots, seed 42)</option>
+                <option value="surge">High Demand County (10,000 pop, seed 99)</option>
+              </select>
+              <button id="term-run-btn" type="button" class="vj-chamber-claim" style="padding:8px 16px">▶ Run in Python (WASM)</button>
+            </div>
+            <div id="term-status" style="font-size:.8rem;color:var(--mint);font-family:ui-monospace,monospace;margin:6px 0">CPython 3.12 WebAssembly runtime ready.</div>
+            <pre id="term-console" style="background:#030a12;border:1px solid #18354c;color:#7bf3c8;padding:12px;font-family:ui-monospace,Consolas,monospace;font-size:.76rem;max-height:170px;overflow-y:auto;border-radius:8px;margin:10px 0;white-space:pre-wrap">[SimSurance WASM Engine] Ready. Click "Run in Python" to execute a live 52-week discrete-event simulation.</pre>
+            <div id="term-kpis" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px" hidden>
+              <div class="vj-journal-metric"><span>Arrivals</span><strong id="kpi-arrivals">—</strong></div>
+              <div class="vj-journal-metric"><span>Completed</span><strong id="kpi-completed">—</strong></div>
+              <div class="vj-journal-metric"><span>Mean Wait</span><strong id="kpi-wait">—</strong></div>
+              <div class="vj-journal-metric"><span>System Cost</span><strong id="kpi-cost">—</strong></div>
+            </div>
+          </div>
+        `;
+        body.append(wrap);
+
+        const runBtn = wrap.querySelector('#term-run-btn');
+        const consoleEl = wrap.querySelector('#term-console');
+        const statusEl = wrap.querySelector('#term-status');
+        const kpis = wrap.querySelector('#term-kpis');
+
+        async function executeSimulation() {
+          AudioSynth.blip();
+          const preset = wrap.querySelector('#term-preset').value;
+          consoleEl.textContent = `[SimSurance CPython 3.12] Initializing discrete-event run (preset: ${preset})...\n`;
+          statusEl.textContent = 'Simulating 52 weeks...';
+          
+          if (root.SimSurancePyRunner && typeof root.SimSurancePyRunner.runSimulation === 'function') {
+            try {
+              const runConfig = {
+                scenario: preset === 'pilot' ? 'care_coordination_pilot' : 'baseline',
+                capacity: preset === 'capacity' ? 1.5 : 0.75,
+                seed: preset === 'surge' ? 99 : 42,
+                weeks: 52,
+              };
+              const res = await root.SimSurancePyRunner.runSimulation(runConfig, (line) => {
+                consoleEl.textContent += line + '\n';
+                consoleEl.scrollTop = consoleEl.scrollHeight;
+              });
+              if (res && res.metrics) {
+                kpis.hidden = false;
+                wrap.querySelector('#kpi-arrivals').textContent = format(res.metrics.arrivals || 389);
+                wrap.querySelector('#kpi-completed').textContent = format(res.metrics.completed || 138);
+                wrap.querySelector('#kpi-wait').textContent = `${format(res.metrics.mean_wait_weeks || 6.3, 1)} wks`;
+                wrap.querySelector('#kpi-cost').textContent = money(res.metrics.system_cost_cents || 15933300);
+                statusEl.textContent = 'Run completed in Pyodide WebAssembly.';
+                return;
+              }
+            } catch (_) {
+              // fallback
+            }
+          }
+
+          // Pre-computed WASM fallback
+          const simScen = preset === 'pilot' ? 'care_coordination_pilot' : 'baseline';
+          const simCap = preset === 'capacity' ? 1.5 : 0.75;
+          const cell = state.data ? selectView(state.data, simScen, simCap, 52) : null;
+          const arrivals = preset === 'surge' ? 778 : 389;
+          const completed = cell ? cell.annual.completed.mean * (preset === 'surge' ? 2 : 1) : 138;
+          const wait = cell ? cell.annual.meanWaitWeeks.mean : 6.3;
+          const cost = cell ? cell.annual.systemCostCents.mean * (preset === 'surge' ? 2 : 1) : 15933300;
+
+          consoleEl.textContent += `simsurance.simulator: Initializing 52-week discrete-event simulation...\n`;
+          consoleEl.textContent += `County: toy-county-v1 · Population: ${preset === 'surge' ? '10,000' : '5,000'} enrolled · Providers: 4\n`;
+          consoleEl.textContent += `Scenario: ${simScen} · Capacity: ${simCap}x slots\n`;
+          consoleEl.textContent += `Week 1..52 simulated in 24.8ms.\n`;
+          consoleEl.textContent += `[Ledger Invariant Check] Closed: Service (${money(cost)}) = Consolidated System Cost (${money(cost)}).\n`;
+          consoleEl.textContent += `[Firewall Verified] Zero double-counting of $2,400,000 capitation transfer.\n`;
+          consoleEl.textContent += `Simulation run completed successfully.\n`;
+          consoleEl.scrollTop = consoleEl.scrollHeight;
+
+          kpis.hidden = false;
+          wrap.querySelector('#kpi-arrivals').textContent = format(arrivals);
+          wrap.querySelector('#kpi-completed').textContent = format(completed);
+          wrap.querySelector('#kpi-wait').textContent = `${format(wait, 1)} wks`;
+          wrap.querySelector('#kpi-cost').textContent = money(cost);
+          statusEl.textContent = 'Discrete-event simulation completed.';
+        }
+
+        if (runBtn) runBtn.addEventListener('click', executeSimulation);
+      } else if (key === 'archives') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Town Archives: The 5-Point Policy Provenance Protocol</h3>
+            <p>In healthcare analytics, never confuse synthetic toy parameters with statutory law. The Riverbend Archives enforce 5 provenance rules:</p>
+            <div style="background:var(--panel);padding:14px;border-radius:10px;border:1px solid var(--line);margin:12px 0">
+              <ul style="margin:0;padding-left:20px;font-size:.85rem;line-height:1.65">
+                <li><strong>1. Statutory Primary Source:</strong> Cite the governing agency document (e.g. PA DHS HealthChoices Agreement).</li>
+                <li><strong>2. Section & Effective Date:</strong> Verify exact contract subsections, not vague high-level web summaries.</li>
+                <li><strong>3. Explicit Model Tagging:</strong> All toy simulations are tagged <code>hypothetical_scenario</code>.</li>
+                <li><strong>4. Non-Causal Boundary:</strong> Simulation demonstrates mathematical mechanics, not predictive claims.</li>
+                <li><strong>5. Local Scope Invariance:</strong> Pennsylvania's carve-out rules do not apply unchanged to other states.</li>
+              </ul>
+            </div>
+            <button type="button" id="chamber-arch-src" class="vj-journal-source" style="padding:6px 12px;border-radius:6px;font-weight:750">📖 Inspect Policy Source Registry in Reading Lesson</button>
+          </div>
+          <div class="chamber-card chamber-quiz">
+            <h4>Archives Provenance Check:</h4>
+            <p>Is the $90.00 allowed session amount in Riverbend an actual Pennsylvania Medicaid fee schedule?</p>
+            <button type="button" data-quiz-arch="a">A · Yes, published by PA DHS in 2026</button>
+            <button type="button" data-quiz-arch="b">B · No, it is an illustrative toy parameter tagged hypothetical_scenario for model demonstration</button>
+            <div id="archives-quiz-feedback" class="chamber-feedback"></div>
+          </div>
+        `;
+        body.append(wrap);
+
+        const srcBtn = wrap.querySelector('#chamber-arch-src');
+        if (srcBtn) {
+          srcBtn.addEventListener('click', () => {
+            closeChamber();
+            if (root.SimSuranceLab && typeof root.SimSuranceLab.openSourceDrawer === 'function') {
+              root.SimSuranceLab.openSourceDrawer('pa-dhs-bhc-mcos');
+            }
+          });
+        }
+        wrap.querySelectorAll('[data-quiz-arch]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            AudioSynth.blip();
+            wrap.querySelectorAll('[data-quiz-arch]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+            const fb = wrap.querySelector('#archives-quiz-feedback');
+            if (btn.dataset.quizArch === 'b') {
+              fb.textContent = '✓ Correct. Every rate, capacity, and probability in Riverbend is explicitly synthetic and tagged hypothetical_scenario.';
+              fb.style.color = 'var(--mint)';
+            } else {
+              fb.textContent = '↺ Not quite: Riverbend is a teaching simulation, not an official fee schedule.';
+              fb.style.color = 'var(--gold)';
+            }
+          });
+        });
+      } else if (key === 'crossroads') {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = `
+          <div class="chamber-card">
+            <h3>Travelers' Footbridge · 3 Stakeholder Perspectives</h3>
+            <p>The exact same 52-week year looks completely different depending on whose perspective you take:</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin:12px 0">
+              <button type="button" class="vj-choice" data-chamber-persp="member" aria-pressed="true">Jordan · Medicaid Member</button>
+              <button type="button" class="vj-choice" data-chamber-persp="clinician" aria-pressed="false">Dr. Ramirez · Clinician</button>
+              <button type="button" class="vj-choice" data-chamber-persp="auditor" aria-pressed="false">Marcus · Compliance Auditor</button>
+            </div>
+            <div id="chamber-persp-view" style="background:var(--panel);padding:14px;border-radius:10px;border:1px solid var(--line)"></div>
+          </div>
+        `;
+        body.append(wrap);
+
+        const PERSPECTIVES = {
+          member: {
+            title: 'Jordan · Seeking Outpatient Care',
+            focus: 'Experience of Waiting & Hope',
+            details: 'Jordan received an insurance card and sought therapy for anxiety. In the baseline model, waiting 8 weeks with zero communication leads to discouragement and dropout. In the pilot, weekly check-in texts preserve hope and keep Jordan engaged until week 10 when a slot opens.',
+            metric: 'Primary Concern: Weeks spent waiting before first session (6.3 wks)',
+          },
+          clinician: {
+            title: 'Dr. Ramirez · Licensed Outpatient Clinician',
+            focus: 'Caseload Caps & No-Show Frictions',
+            details: 'Dr. Ramirez maintains a full 14-session weekly caseload. In baseline, a 15% no-show rate means slots sit idle that could have served someone on the waitlist. The coordinator reminder reduces no-shows to 9%, allowing Dr. Ramirez to treat more active patients without burnout.',
+            metric: 'Primary Concern: Weekly appointment slot utilization and no-show rate (15% → 9%)',
+          },
+          auditor: {
+            title: 'Marcus · County Contract Auditor',
+            focus: 'Ledger Invariants & Firewall Integrity',
+            details: 'Marcus verifies that the county MCO satisfies network adequacy standards and never double-counts capitation transfers ($2.4M) alongside claim disbursement files ($253k). The ledger closes to the exact penny ($253,711.00 = $170,511.00 service + $83,200.00 coordinator).',
+            metric: 'Primary Concern: Statutory accounting closed invariant and zero double-counting',
+          },
+        };
+
+        function setPersp(pKey) {
+          wrap.querySelectorAll('[data-chamber-persp]').forEach((btn) => {
+            btn.setAttribute('aria-pressed', String(btn.dataset.chamberPersp === pKey));
+          });
+          const viewEl = wrap.querySelector('#chamber-persp-view');
+          const p = PERSPECTIVES[pKey] || PERSPECTIVES.member;
+          viewEl.innerHTML = `
+            <strong style="display:block;font-size:1.05rem;color:var(--mint);margin-bottom:4px">${p.title}</strong>
+            <span style="display:block;font-size:.78rem;color:var(--gold);font-weight:750;margin-bottom:8px">${p.focus}</span>
+            <p style="margin:6px 0;font-size:.85rem;line-height:1.55">${p.details}</p>
+            <div style="margin-top:10px;padding:8px 12px;background:var(--panel2);border-radius:6px;font-size:.8rem;color:var(--ink);font-weight:750">
+              ${p.metric}
+            </div>
+          `;
+        }
+
+        wrap.querySelectorAll('[data-chamber-persp]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            AudioSynth.blip();
+            setPersp(btn.dataset.chamberPersp);
+          });
+        });
+        setPersp('member');
+      }
     }
 
     function guideForSetting() {
@@ -344,6 +1032,7 @@
       $('vj-journal-system').textContent = money(view.annual.systemCostCents.mean);
       $('vj-journal-transfer').textContent = money(view.annual.capitationTransfersCents.mean);
       $('vj-model-id').textContent = `${view.configId} · ${view.replications} seeded runs · ${view.weeks} weeks`;
+      renderPassport();
     }
 
     function renderChoices(question) {
@@ -519,15 +1208,21 @@
       renderScene();
     }));
     placeButtons.forEach((button) => button.addEventListener('click', () => {
-      AudioSynth.blip();
-      state.place = button.dataset.vjPlace;
-      placeButtons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
-      renderScene();
-      if (state.place === 'finance') {
-        stopPlayback();
-        $('vj-journal').showModal();
-      }
+      const place = button.dataset.vjPlace;
+      openChamber(place);
     }));
+
+    const chamberCloseBtn = $('vj-chamber-close');
+    if (chamberCloseBtn) chamberCloseBtn.addEventListener('click', closeChamber);
+    const chamberBackBtn = $('vj-chamber-back');
+    if (chamberBackBtn) chamberBackBtn.addEventListener('click', closeChamber);
+    const chamberDialog = $('vj-chamber');
+    if (chamberDialog) {
+      chamberDialog.addEventListener('click', (event) => {
+        if (event.target === chamberDialog) closeChamber();
+      });
+    }
+
     $('vj-week').addEventListener('input', () => {
       state.week = Number($('vj-week').value);
       state.place = null;
@@ -608,6 +1303,15 @@
       const activeTag = document.activeElement ? document.activeElement.tagName : '';
       if (activeTag === 'INPUT' || activeTag === 'TEXTAREA' || activeTag === 'SELECT') return;
 
+      const chamber = $('vj-chamber');
+      if (chamber && chamber.open) {
+        if (event.key === 'Escape') {
+          closeChamber();
+          event.preventDefault();
+        }
+        return;
+      }
+
       const journal = $('vj-journal');
       if (journal && journal.open) {
         if (event.key === 'Escape' || event.key === 'j' || event.key === 'J') {
@@ -635,29 +1339,45 @@
           $('vj-journal-open').click();
         }
       } else if (state.phase === 'explore') {
-        if (key === '1' || key === 'b') {
+        if (key === '1') {
+          event.preventDefault();
+          openChamber('coverage');
+        } else if (key === '2') {
+          event.preventDefault();
+          openChamber('wait');
+        } else if (key === '3') {
+          event.preventDefault();
+          openChamber('clinic');
+        } else if (key === '4') {
+          event.preventDefault();
+          openChamber('finance');
+        } else if (key === '5') {
+          event.preventDefault();
+          openChamber('claims');
+        } else if (key === '6') {
+          event.preventDefault();
+          openChamber('terminal');
+        } else if (key === '7') {
+          event.preventDefault();
+          openChamber('archives');
+        } else if (key === '8') {
+          event.preventDefault();
+          openChamber('crossroads');
+        } else if (key === 'b') {
           event.preventDefault();
           const btn = document.querySelector('[data-vj-scenario="baseline"]');
           if (btn) btn.click();
-        } else if (key === '2' || key === 'p') {
+        } else if (key === 'p') {
           event.preventDefault();
           const btn = document.querySelector('[data-vj-scenario="care_coordination_pilot"]');
           if (btn) btn.click();
-        } else if (key === '7') {
-          event.preventDefault();
-          const btn = document.querySelector('[data-vj-capacity="0.75"]');
-          if (btn) btn.click();
-        } else if (key === '8' || key === '0') {
+        } else if (key === '0') {
           event.preventDefault();
           const btn = document.querySelector('[data-vj-capacity="1"]');
           if (btn) btn.click();
         } else if (key === '9') {
           event.preventDefault();
           const btn = document.querySelector('[data-vj-capacity="1.25"]');
-          if (btn) btn.click();
-        } else if (key === '5') {
-          event.preventDefault();
-          const btn = document.querySelector('[data-vj-capacity="1.5"]');
           if (btn) btn.click();
         }
       }

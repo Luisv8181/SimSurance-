@@ -209,6 +209,11 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertTrue((ROOT / "learning-lab" / "assets" / "glim-celebrate.svg").exists())
         home_html = PAGE.read_text(encoding="utf-8")
         self.assertIn("Riverbend Pixel World", home_html)
+        self.assertIn('id="vj-chamber"', content)
+        self.assertIn("vj-town-nav", content)
+        for place in ["coverage", "wait", "clinic", "finance", "claims", "terminal", "archives", "crossroads"]:
+            self.assertIn(f'data-vj-place="{place}"', content)
+            self.assertIn(f'data-vj-stamp="{place}"', content)
 
     def test_live_python_simulation_page_and_bundle(self):
         page_path = ROOT / "learning-lab" / "live-simulation.html"
