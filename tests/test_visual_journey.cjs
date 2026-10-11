@@ -85,3 +85,35 @@ test('the lesson is discoverable from home and the catalog', () => {
   assert.match(home, /visual-journey\.html/);
   assert.ok(catalog.lessons.some((lesson) => lesson.path === 'visual-journey.html' && lesson.status === 'illustrative'));
 });
+
+test('audio synthesizer operates safely in headless environments', () => {
+  const { AudioSynth } = require('../learning-lab/visual-journey.js');
+  assert.ok(AudioSynth);
+  assert.equal(typeof AudioSynth.isMuted, 'function');
+  assert.equal(typeof AudioSynth.toggleMute, 'function');
+  assert.doesNotThrow(() => AudioSynth.blip());
+  assert.doesNotThrow(() => AudioSynth.chirp());
+  assert.doesNotThrow(() => AudioSynth.stamp());
+  assert.doesNotThrow(() => AudioSynth.step());
+  assert.doesNotThrow(() => AudioSynth.celebrate());
+});
+
+test('visual journey includes offline fallback data and 16-bit expressive assets', () => {
+  const page = fs.readFileSync(path.join(root, 'learning-lab/visual-journey.html'), 'utf8');
+  assert.match(page, /id="county-sim-fallback"/);
+  assert.match(page, /id="vj-sound-toggle"/);
+  assert.match(page, /id="vj-crt-toggle"/);
+
+  const fallbackMatch = page.match(/<script id="county-sim-fallback" type="application\/json">([\s\S]*?)<\/script>/);
+  assert.ok(fallbackMatch, 'Fallback JSON script tag must be present');
+  const embeddedData = JSON.parse(fallbackMatch[1]);
+  assert.equal(embeddedData.manifest.config_id, data.manifest.config_id);
+  assert.equal(embeddedData.manifest.weeks, 52);
+  assert.equal(embeddedData.runs.length, data.runs.length);
+
+  assert.ok(fs.existsSync(path.join(root, 'learning-lab/assets/glim-guide.svg')));
+  assert.ok(fs.existsSync(path.join(root, 'learning-lab/assets/glim-think.svg')));
+  assert.ok(fs.existsSync(path.join(root, 'learning-lab/assets/glim-celebrate.svg')));
+  assert.ok(fs.existsSync(path.join(root, 'learning-lab/assets/riverbend-world.svg')));
+});
+

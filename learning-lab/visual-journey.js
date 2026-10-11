@@ -67,10 +67,93 @@
     return correct.reduce((score, key, index) => score + Number(Boolean(answers[index]) && answers[index] === key), 0);
   }
 
+  // Zero-dependency 8-bit chiptune Web Audio synthesizer
+  const AudioSynth = (function () {
+    let ctx = null;
+    let muted = true; // default muted for accessible autoplay compliance
+
+    function getContext() {
+      if (muted) return null;
+      if (typeof window === 'undefined') return null;
+      const AudioCtx = root.AudioContext || root.webkitAudioContext;
+      if (!AudioCtx) return null;
+      if (!ctx) {
+        try {
+          ctx = new AudioCtx();
+        } catch (_) {
+          return null;
+        }
+      }
+      if (ctx && ctx.state === 'suspended') {
+        ctx.resume().catch(() => {});
+      }
+      return ctx;
+    }
+
+    function playTone(freq, type, duration, startTime, gainLevel = 0.08) {
+      const c = getContext();
+      if (!c) return;
+      try {
+        const osc = c.createOscillator();
+        const gain = c.createGain();
+        const t0 = startTime !== undefined ? startTime : c.currentTime;
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, t0);
+        gain.gain.setValueAtTime(gainLevel, t0);
+        gain.gain.exponentialRampToValueAtTime(0.0001, t0 + duration);
+        osc.connect(gain);
+        gain.connect(c.destination);
+        osc.start(t0);
+        osc.stop(t0 + duration);
+      } catch (_) {
+        // Safe fallback for browsers with restricted audio policy
+      }
+    }
+
+    return {
+      isMuted: () => muted,
+      setMuted: (val) => { muted = Boolean(val); },
+      toggleMute: () => {
+        muted = !muted;
+        if (!muted) getContext();
+        return muted;
+      },
+      blip: () => {
+        playTone(520, 'square', 0.045);
+      },
+      chirp: () => {
+        const c = getContext();
+        if (!c) return;
+        const now = c.currentTime;
+        playTone(660, 'square', 0.04, now);
+        playTone(880, 'square', 0.06, now + 0.04);
+      },
+      stamp: () => {
+        const c = getContext();
+        if (!c) return;
+        const now = c.currentTime;
+        playTone(523.25, 'triangle', 0.08, now);
+        playTone(659.25, 'triangle', 0.08, now + 0.08);
+        playTone(783.99, 'square', 0.16, now + 0.16);
+      },
+      step: () => {
+        playTone(220, 'triangle', 0.02, undefined, 0.03);
+      },
+      celebrate: () => {
+        const c = getContext();
+        if (!c) return;
+        const now = c.currentTime;
+        [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+          playTone(freq, 'square', 0.12, now + i * 0.09, 0.06);
+        });
+      },
+    };
+  })();
+
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { selectView, compareOutcomes, scoreAnswers };
+    module.exports = { selectView, compareOutcomes, scoreAnswers, AudioSynth };
   } else {
-    root.SimSuranceJourney = { selectView, compareOutcomes, scoreAnswers };
+    root.SimSuranceJourney = { selectView, compareOutcomes, scoreAnswers, AudioSynth };
     if (root.document) {
       const ready = () => { if (document.getElementById('visual-journey')) startLesson(); };
       if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready);
@@ -83,7 +166,7 @@
     const scenarioButtons = [...document.querySelectorAll('[data-vj-scenario]')];
     const capacityButtons = [...document.querySelectorAll('[data-vj-capacity]')];
     const placeButtons = [...document.querySelectorAll('[data-vj-place]')];
-    const reducedMotion = root.matchMedia('(prefers-reduced-motion: reduce)');
+    const reducedMotion = root.matchMedia ? root.matchMedia('(prefers-reduced-motion: reduce)') : { matches: false, addEventListener: () => {} };
     const beforeQuestions = [
       {
         prompt: 'A person has insurance, but cannot book therapy. What might be missing?',
@@ -152,11 +235,12 @@
 
     function renderActors(id, value, type) {
       const container = $(id);
+      if (!container) return;
       const count = Math.round(value / 5);
       const fragment = document.createDocumentFragment();
       for (let i = 0; i < count; i += 1) {
         const actor = document.createElement('span');
-        actor.className = `vj-actor vj-actor-${type}`;
+        actor.className = `vj-actor vj-actor-${type} char-${i % 4}`;
         actor.style.left = `${type === 'wait' ? 34 + (i % 8) * 2.9 : 69 + (i % 6) * 2.7}%`;
         actor.style.top = `${73 + Math.floor(i / (type === 'wait' ? 8 : 6)) * 5}%`;
         actor.style.animationDelay = `${(i % 7) * -0.13}s`;
@@ -167,15 +251,21 @@
     }
 
     function recordObservation() {
+      const prevCount = state.stamps.size;
       if (state.week === state.data.manifest.weeks) {
         if (state.scenario === 'baseline' && state.capacity === 0.75) state.stamps.add('baseline');
         if (state.scenario === 'care_coordination_pilot' && state.capacity === 0.75) state.stamps.add('pilot');
         if (state.scenario === 'care_coordination_pilot' && state.capacity >= 1.25) state.stamps.add('capacity');
       }
+      if (state.stamps.size > prevCount) {
+        AudioSynth.stamp();
+      }
       ['baseline', 'pilot', 'capacity'].forEach((name) => {
         const badge = document.querySelector(`[data-vj-stamp="${name}"]`);
-        badge.classList.toggle('earned', state.stamps.has(name));
-        badge.setAttribute('aria-label', `${badge.dataset.label}: ${state.stamps.has(name) ? 'discovered' : 'not yet discovered'}`);
+        if (badge) {
+          badge.classList.toggle('earned', state.stamps.has(name));
+          badge.setAttribute('aria-label', `${badge.dataset.label}: ${state.stamps.has(name) ? 'discovered' : 'not yet discovered'}`);
+        }
       });
       $('vj-stamp-count').textContent = `${state.stamps.size}/3 discoveries`;
       if (state.phase === 'explore') $('vj-step').textContent = `${state.stamps.size} / 3`;
@@ -215,7 +305,7 @@
       const season = ['spring', 'summer', 'autumn', 'winter'][Math.min(3, Math.floor((state.week - 1) / 13))];
       $('vj-world').dataset.season = season;
       $('vj-season-label').textContent = `${season.toUpperCase()} · WEEK ${state.week}`;
-      $('vj-time-fill').style.width = `${state.week / view.weeks * 100}%`;
+      $('vj-time-fill').style.width = `${(state.week / view.weeks) * 100}%`;
       $('vj-wait-number').textContent = format(view.weekly.waitlist, 1);
       $('vj-care-number').textContent = format(view.weekly.inCare, 1);
       $('vj-slot-number').textContent = format(view.weekly.slots, 1);
@@ -267,6 +357,7 @@
         button.dataset.answer = String.fromCharCode(97 + index);
         button.setAttribute('aria-pressed', String(state.selected === button.dataset.answer));
         button.addEventListener('click', () => {
+          AudioSynth.blip();
           state.selected = button.dataset.answer;
           [...list.children].forEach((choice) => choice.setAttribute('aria-pressed', String(choice === button)));
           $('vj-action').disabled = false;
@@ -307,6 +398,22 @@
       $('vj-phase-label').textContent = ({ intro: 'ARRIVAL', before: 'PREDICTION', explore: 'EXPLORE', after: 'TRANSFER', results: 'DEBRIEF' })[phase];
       const action = $('vj-action');
       action.disabled = false;
+
+      // Swap expressive Glim avatar based on learning phase
+      const guideImg = $('vj-guide-img');
+      if (guideImg) {
+        if (phase === 'before' || phase === 'after') {
+          guideImg.src = './assets/glim-think.svg';
+          guideImg.alt = 'Glim in deep thought, analyzing the challenge';
+        } else if (phase === 'results') {
+          guideImg.src = './assets/glim-celebrate.svg';
+          guideImg.alt = 'Glim celebrating your completed quest';
+        } else {
+          guideImg.src = './assets/glim-guide.svg';
+          guideImg.alt = 'Glim, the friendly pixel firefly guide';
+        }
+      }
+
       if (phase === 'intro') {
         $('vj-prompt').textContent = 'Can a town have coverage and still wait for care?';
         $('vj-copy').textContent = 'Meet Glim. Together, you will run one fictional year, change what the town can do, and see what you learned.';
@@ -344,11 +451,16 @@
         $('vj-choice-list').replaceChildren();
         renderResults();
         action.textContent = 'Explore the town again →';
+        if (root.SimSuranceLab && typeof root.SimSuranceLab.recordCheckpoint === 'function') {
+          root.SimSuranceLab.recordCheckpoint('quest-riverbend-world');
+        }
+        AudioSynth.celebrate();
       }
       $('vj-step').textContent = phase === 'before' || phase === 'after' ? `${state.index + 1} / 3` : phase === 'explore' ? `${state.stamps.size} / 3` : phase === 'results' ? 'COMPLETE' : 'READY';
     }
 
     $('vj-action').addEventListener('click', () => {
+      AudioSynth.chirp();
       if (state.phase === 'intro') {
         state.phase = 'before';
         state.index = 0;
@@ -378,6 +490,7 @@
     });
 
     $('vj-restart').addEventListener('click', () => {
+      AudioSynth.blip();
       stopPlayback();
       state.phase = 'intro';
       state.before = [];
@@ -394,16 +507,19 @@
     });
 
     scenarioButtons.forEach((button) => button.addEventListener('click', () => {
+      AudioSynth.blip();
       state.scenario = button.dataset.vjScenario;
       state.place = null;
       renderScene();
     }));
     capacityButtons.forEach((button) => button.addEventListener('click', () => {
+      AudioSynth.blip();
       state.capacity = Number(button.dataset.vjCapacity);
       state.place = null;
       renderScene();
     }));
     placeButtons.forEach((button) => button.addEventListener('click', () => {
+      AudioSynth.blip();
       state.place = button.dataset.vjPlace;
       placeButtons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
       renderScene();
@@ -420,6 +536,7 @@
     $('vj-play').addEventListener('click', () => {
       if (state.timer) {
         stopPlayback();
+        AudioSynth.blip();
         return;
       }
       if (reducedMotion.matches) {
@@ -427,6 +544,7 @@
         $('vj-motion-note').hidden = false;
         return;
       }
+      AudioSynth.blip();
       state.week = 1;
       state.place = null;
       $('vj-play').textContent = '❚❚ Pause';
@@ -434,6 +552,7 @@
       renderScene();
       state.timer = root.setInterval(() => {
         state.week += 1;
+        AudioSynth.step();
         renderScene();
         if (state.week >= state.data.manifest.weeks) stopPlayback();
       }, 110);
@@ -445,19 +564,121 @@
       if (reducedMotion.matches) $('vj-motion-note').textContent = 'Motion is reduced on this device. Use the week slider to explore.';
     });
 
+    const soundToggle = $('vj-sound-toggle');
+    if (soundToggle) {
+      soundToggle.addEventListener('click', () => {
+        const isMuted = AudioSynth.toggleMute();
+        soundToggle.setAttribute('aria-pressed', String(!isMuted));
+        soundToggle.textContent = isMuted ? '🔇 Sound off' : '🔊 Sound on';
+        if (!isMuted) {
+          AudioSynth.blip();
+        }
+      });
+    }
+
+    const crtToggle = $('vj-crt-toggle');
+    if (crtToggle) {
+      crtToggle.addEventListener('click', () => {
+        const world = $('vj-world');
+        if (world) {
+          const isActive = world.classList.toggle('crt-active');
+          crtToggle.setAttribute('aria-pressed', String(isActive));
+          crtToggle.textContent = isActive ? '📺 CRT on' : '📺 CRT off';
+          AudioSynth.blip();
+        }
+      });
+    }
+
     $('vj-journal-open').addEventListener('click', () => {
       stopPlayback();
+      AudioSynth.blip();
       $('vj-journal').showModal();
     });
-    $('vj-journal-close').addEventListener('click', () => $('vj-journal').close());
-    $('vj-journal').addEventListener('click', (event) => { if (event.target === $('vj-journal')) $('vj-journal').close(); });
+    $('vj-journal-close').addEventListener('click', () => {
+      AudioSynth.blip();
+      $('vj-journal').close();
+    });
+    $('vj-journal').addEventListener('click', (event) => {
+      if (event.target === $('vj-journal')) $('vj-journal').close();
+    });
     $('vj-journal').querySelector('[data-source-id]').addEventListener('click', () => $('vj-journal').close());
+
+    // Keyboard Shortcuts
+    document.addEventListener('keydown', (event) => {
+      const activeTag = document.activeElement ? document.activeElement.tagName : '';
+      if (activeTag === 'INPUT' || activeTag === 'TEXTAREA' || activeTag === 'SELECT') return;
+
+      const journal = $('vj-journal');
+      if (journal && journal.open) {
+        if (event.key === 'Escape' || event.key === 'j' || event.key === 'J') {
+          journal.close();
+          event.preventDefault();
+        }
+        return;
+      }
+
+      const key = event.key.toLowerCase();
+      if (event.code === 'Space' || event.key === ' ') {
+        if (state.phase === 'explore' && document.activeElement !== $('vj-action')) {
+          event.preventDefault();
+          $('vj-play').click();
+        }
+      } else if (key === 'm') {
+        event.preventDefault();
+        if (soundToggle) soundToggle.click();
+      } else if (key === 'c') {
+        event.preventDefault();
+        if (crtToggle) crtToggle.click();
+      } else if (key === 'j') {
+        event.preventDefault();
+        if (state.phase === 'explore' || state.phase === 'after' || state.phase === 'results') {
+          $('vj-journal-open').click();
+        }
+      } else if (state.phase === 'explore') {
+        if (key === '1' || key === 'b') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-scenario="baseline"]');
+          if (btn) btn.click();
+        } else if (key === '2' || key === 'p') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-scenario="care_coordination_pilot"]');
+          if (btn) btn.click();
+        } else if (key === '7') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-capacity="0.75"]');
+          if (btn) btn.click();
+        } else if (key === '8' || key === '0') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-capacity="1"]');
+          if (btn) btn.click();
+        } else if (key === '9') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-capacity="1.25"]');
+          if (btn) btn.click();
+        } else if (key === '5') {
+          event.preventDefault();
+          const btn = document.querySelector('[data-vj-capacity="1.5"]');
+          if (btn) btn.click();
+        }
+      }
+    });
 
     async function loadData() {
       try {
-        const response = await root.fetch('./data/county-sim.json');
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
+        let data = null;
+        const fallbackTag = $('county-sim-fallback');
+        if (fallbackTag && fallbackTag.textContent && fallbackTag.textContent.trim().length > 100) {
+          try {
+            data = JSON.parse(fallbackTag.textContent);
+          } catch (_) {
+            data = null;
+          }
+        }
+        if (!data) {
+          const response = await root.fetch('./data/county-sim.json');
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          data = await response.json();
+        }
         for (const scenarioId of Object.keys(data.manifest.scenarios)) {
           for (const capacity of data.manifest.capacity_multipliers) {
             for (let week = 1; week <= data.manifest.weeks; week += 1) selectView(data, scenarioId, capacity, week);

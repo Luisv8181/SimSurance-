@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Glim celebrating a discovery and successful learning transfer" shape-rendering="crispEdges">
+  <!-- Body Silhouette / Shadow Outline -->
+  <rect x="14" y="14" width="36" height="36" fill="#10243f"/>
+  <rect x="10" y="20" width="44" height="24" fill="#10243f"/>
+  
+  <!-- Antennae Spread Wide in Excitement -->
+  <rect x="15" y="6" width="10" height="10" fill="#10243f"/>
+  <rect x="39" y="6" width="10" height="10" fill="#10243f"/>
+  <rect x="15" y="0" width="4" height="10" fill="#10243f"/>
+  <rect x="45" y="0" width="4" height="10" fill="#10243f"/>
+  <!-- Glowing Golden Antenna Stars -->
+  <rect x="12" y="0" width="10" height="5" fill="#ffe28a"/>
+  <rect x="42" y="0" width="10" height="5" fill="#ffe28a"/>
+
+  <!-- Fluttering Celebration Wings (High & Sparkling) -->
+  <rect x="1" y="12" width="14" height="12" fill="#bcf5e5"/>
+  <rect x="0" y="22" width="16" height="14" fill="#7be1ce"/>
+  <rect x="49" y="12" width="14" height="12" fill="#bcf5e5"/>
+  <rect x="48" y="22" width="16" height="14" fill="#7be1ce"/>
+
+  <!-- Head & Cheeks -->
+  <rect x="17" y="14" width="30" height="26" fill="#427b86"/>
+  <rect x="14" y="21" width="36" height="16" fill="#427b86"/>
+  <rect x="21" y="20" width="22" height="18" fill="#c0ece0"/>
+  <rect x="19" y="26" width="26" height="10" fill="#c0ece0"/>
+
+  <!-- Happy Closed "Smile" Eyes (^ ^) -->
+  <path d="M22 28l3-3 3 3 M36 28l3-3 3 3" fill="none" stroke="#10243f" stroke-width="2"/>
+  <!-- Rosy Cheeks -->
+  <rect x="19" y="29" width="4" height="3" fill="#ff9aa0"/>
+  <rect x="41" y="29" width="4" height="3" fill="#ff9aa0"/>
+
+  <!-- Big Joyful Open Mouth -->
+  <rect x="27" y="32" width="10" height="6" fill="#c96769"/>
+  <rect x="29" y="33" width="6" height="3" fill="#ff858a"/>
+  <rect x="29" y="36" width="6" height="2" fill="#ffffff"/>
+
+  <!-- Raised Cheering Hands -->
+  <rect x="11" y="20" width="5" height="5" fill="#c0ece0"/>
+  <rect x="48" y="20" width="5" height="5" fill="#c0ece0"/>
+
+  <!-- Radiant Golden Abdomen (Full Glow) -->
+  <rect x="22" y="39" width="20" height="12" fill="#ffd066"/>
+  <rect x="18" y="43" width="28" height="10" fill="#ffd066"/>
+  <rect x="23" y="47" width="18" height="10" fill="#ffe292"/>
+  <rect x="27" y="55" width="10" height="6" fill="#fff4be"/>
+
+  <!-- Legs -->
+  <rect x="13" y="42" width="7" height="10" fill="#10243f"/>
+  <rect x="44" y="42" width="7" height="10" fill="#10243f"/>
+  <rect x="23" y="57" width="7" height="6" fill="#10243f"/>
+  <rect x="34" y="57" width="7" height="6" fill="#10243f"/>
+
+  <!-- Celebration Confetti / Sparkles -->
+  <rect x="6" y="4" width="4" height="4" fill="#ffd178"/>
+  <rect x="54" y="4" width="4" height="4" fill="#ffd178"/>
+  <rect x="2" y="44" width="3" height="3" fill="#7ce4cf"/>
+  <rect x="58" y="44" width="3" height="3" fill="#7ce4cf"/>
+  <rect x="29" y="0" width="6" height="2" fill="#ffd178"/>
+  <rect x="31" y="2" width="2" height="3" fill="#ffd178"/>
+</svg>

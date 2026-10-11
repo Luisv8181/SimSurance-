@@ -193,6 +193,25 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertIn('html[data-theme="contrast"]', theme)
         self.assertIn(".source-drawer", theme)
 
+    def test_visual_journey_pixel_world_assets_and_integration(self):
+        vj_path = ROOT / "learning-lab" / "visual-journey.html"
+        self.assertTrue(vj_path.exists())
+        content = vj_path.read_text(encoding="utf-8")
+        self.assertIn("A year of care, in motion: Riverbend Pixel World", content)
+        self.assertIn("assets/riverbend-world.svg", content)
+        self.assertIn("assets/glim-guide.svg", content)
+        self.assertIn("county-sim-fallback", content)
+        self.assertIn("vj-sound-toggle", content)
+        self.assertIn("vj-crt-toggle", content)
+        self.assertTrue((ROOT / "learning-lab" / "assets" / "riverbend-world.svg").exists())
+        self.assertTrue((ROOT / "learning-lab" / "assets" / "glim-guide.svg").exists())
+        self.assertTrue((ROOT / "learning-lab" / "assets" / "glim-think.svg").exists())
+        self.assertTrue((ROOT / "learning-lab" / "assets" / "glim-celebrate.svg").exists())
+        home_html = PAGE.read_text(encoding="utf-8")
+        self.assertIn("Riverbend Pixel World", home_html)
+
+
+
 
 if __name__ == "__main__":
     unittest.main()

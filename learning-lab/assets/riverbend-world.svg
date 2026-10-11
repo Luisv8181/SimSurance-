@@ -1,46 +1,278 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Pixel-art town with a coverage office, waiting station, clinic, and finance kiosk" shape-rendering="crispEdges">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Pixel-art town of Riverbend featuring the coverage office, waiting station, care clinic, Riverbend river, and finance desk" shape-rendering="crispEdges">
   <defs>
-    <pattern id="sky" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#15385a"/><rect x="0" y="0" width="24" height="24" fill="#174063"/><rect x="24" y="24" width="24" height="24" fill="#174063"/></pattern>
-    <pattern id="grass" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#22765e"/><rect x="0" y="0" width="20" height="20" fill="#287f64"/><rect x="20" y="20" width="20" height="20" fill="#287f64"/><rect x="7" y="31" width="6" height="4" fill="#69bb78"/></pattern>
-    <pattern id="brick" width="32" height="24" patternUnits="userSpaceOnUse"><rect width="32" height="24" fill="#36798c"/><path d="M0 12h32M16 0v12M0 12v12M32 12v12" stroke="#245e77" stroke-width="3"/></pattern>
-    <pattern id="road" width="56" height="56" patternUnits="userSpaceOnUse"><rect width="56" height="56" fill="#374663"/><rect x="0" y="0" width="28" height="28" fill="#40516d"/><rect x="28" y="28" width="28" height="28" fill="#40516d"/></pattern>
+    <pattern id="sky" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect width="48" height="48" fill="#143454"/>
+      <rect x="0" y="0" width="24" height="24" fill="#183d61"/>
+      <rect x="24" y="24" width="24" height="24" fill="#183d61"/>
+    </pattern>
+    <pattern id="grass" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="32" height="32" fill="#206e57"/>
+      <rect x="0" y="0" width="16" height="16" fill="#267860"/>
+      <rect x="16" y="16" width="16" height="16" fill="#267860"/>
+      <rect x="6" y="24" width="4" height="3" fill="#60b370"/>
+      <rect x="22" y="8" width="4" height="3" fill="#58a867"/>
+    </pattern>
+    <pattern id="brick" width="24" height="18" patternUnits="userSpaceOnUse">
+      <rect width="24" height="18" fill="#327588"/>
+      <path d="M0 9h24M12 0v9M0 9v9M24 9v9" stroke="#225b6c" stroke-width="2"/>
+    </pattern>
+    <pattern id="road" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect width="48" height="48" fill="#35445e"/>
+      <rect x="0" y="0" width="24" height="24" fill="#3e4e6b"/>
+      <rect x="24" y="24" width="24" height="24" fill="#3e4e6b"/>
+      <rect x="8" y="16" width="6" height="4" fill="#293549"/>
+      <rect x="32" y="40" width="6" height="4" fill="#293549"/>
+    </pattern>
+    <pattern id="water" width="36" height="18" patternUnits="userSpaceOnUse">
+      <rect width="36" height="18" fill="#21648a"/>
+      <rect x="0" y="0" width="18" height="9" fill="#287199"/>
+      <rect x="18" y="9" width="18" height="9" fill="#287199"/>
+      <rect x="4" y="4" width="8" height="2" fill="#68c4e0"/>
+      <rect x="22" y="13" width="8" height="2" fill="#68c4e0"/>
+    </pattern>
   </defs>
-  <rect width="960" height="260" fill="url(#sky)"/>
-  <rect x="0" y="210" width="90" height="50" fill="#1d5570"/><rect x="90" y="190" width="100" height="70" fill="#1d5570"/><rect x="190" y="220" width="80" height="40" fill="#1d5570"/><rect x="270" y="180" width="120" height="80" fill="#1d5570"/><rect x="390" y="210" width="130" height="50" fill="#1d5570"/><rect x="520" y="185" width="110" height="75" fill="#1d5570"/><rect x="630" y="205" width="140" height="55" fill="#1d5570"/><rect x="770" y="175" width="110" height="85" fill="#1d5570"/><rect x="880" y="215" width="80" height="45" fill="#1d5570"/>
-  <rect x="742" y="45" width="42" height="42" fill="#ffd16e"/><rect x="734" y="53" width="58" height="26" fill="#ffd16e"/><rect x="750" y="37" width="26" height="58" fill="#ffd16e"/>
-  <g fill="#e5f7ed"><rect x="86" y="62" width="102" height="16"/><rect x="102" y="46" width="70" height="16"/><rect x="110" y="78" width="66" height="12"/><rect x="468" y="54" width="98" height="16"/><rect x="484" y="38" width="66" height="16"/><rect x="484" y="70" width="74" height="12"/></g>
-  <rect y="250" width="960" height="270" fill="url(#grass)"/>
-  <path d="M0 390h960v130H0z" fill="url(#road)"/><rect y="385" width="960" height="10" fill="#b4b690"/><rect y="496" width="960" height="7" fill="#687189"/><g fill="#e9cc89"><rect x="40" y="447" width="70" height="7"/><rect x="160" y="447" width="70" height="7"/><rect x="280" y="447" width="70" height="7"/><rect x="400" y="447" width="70" height="7"/><rect x="520" y="447" width="70" height="7"/><rect x="640" y="447" width="70" height="7"/><rect x="760" y="447" width="70" height="7"/><rect x="880" y="447" width="70" height="7"/></g>
+
+  <!-- Sky & Horizon -->
+  <rect width="960" height="250" fill="url(#sky)"/>
+
+  <!-- Distant Mountains & Pine Ridges -->
+  <polygon points="0,210 50,170 120,215 190,160 260,210 340,150 420,220 500,165 580,215 670,140 760,220 860,155 960,210 960,250 0,250" fill="#16435c"/>
+  <polygon points="30,220 90,190 160,225 240,180 320,230 400,185 480,225 570,175 660,225 750,170 830,225 910,180 960,210 960,250 0,250" fill="#1b546e"/>
+
+  <!-- Rising Sun & Morning Radiance -->
+  <rect x="740" y="32" width="46" height="46" fill="#ffd16e"/>
+  <rect x="732" y="40" width="62" height="30" fill="#ffd16e"/>
+  <rect x="748" y="24" width="30" height="62" fill="#ffd16e"/>
+  <rect x="752" y="44" width="22" height="22" fill="#fff3b0"/>
+
+  <!-- Pixel Clouds -->
+  <g fill="#e8f7ee">
+    <rect x="70" y="48" width="112" height="18"/><rect x="90" y="32" width="76" height="18"/><rect x="98" y="66" width="72" height="12"/>
+    <rect x="440" y="42" width="108" height="18"/><rect x="460" y="26" width="74" height="18"/><rect x="460" y="60" width="82" height="12"/>
+  </g>
+
+  <!-- Soaring Birds -->
+  <g fill="#173452">
+    <path d="M220 68h4v2h-4z M224 66h4v2h-4z M228 68h4v2h-4z M232 66h4v2h-4z M236 68h4v2h-4z"/>
+    <path d="M250 56h3v2h-3z M253 54h3v2h-3z M256 56h3v2h-3z M259 54h3v2h-3z M262 56h3v2h-3z"/>
+    <path d="M640 48h4v2h-4z M644 46h4v2h-4z M648 48h4v2h-4z M652 46h4v2h-4z M656 48h4v2h-4z"/>
+  </g>
+
+  <!-- Ground Terrain (Lush Riverbend Meadow) -->
+  <rect y="240" width="960" height="280" fill="url(#grass)"/>
+
+  <!-- The Riverbend River (Waterway flowing under footbridge) -->
+  <g id="riverbend-river">
+    <!-- River Banks -->
+    <path d="M570 240 Q 560 310, 580 380 Q 600 450, 585 520 L 635 520 Q 650 450, 630 380 Q 610 310, 620 240 Z" fill="#184f6e"/>
+    <!-- River Water Stream -->
+    <path d="M576 240 Q 566 310, 586 380 Q 606 450, 591 520 L 629 520 Q 644 450, 624 380 Q 604 310, 614 240 Z" fill="url(#water)"/>
+    <!-- River Shimmer Highlights -->
+    <rect x="588" y="270" width="14" height="3" fill="#a4ecf7"/>
+    <rect x="580" y="325" width="16" height="3" fill="#a4ecf7"/>
+    <rect x="596" y="410" width="18" height="3" fill="#a4ecf7"/>
+    <rect x="604" y="475" width="14" height="3" fill="#a4ecf7"/>
+  </g>
+
+  <!-- Main Cobblestone Road -->
+  <path d="M0 388h960v132H0z" fill="url(#road)"/>
+  <rect y="382" width="960" height="8" fill="#a8aa82"/>
+  <rect y="500" width="960" height="7" fill="#5f6980"/>
+  <!-- Road Center Dashes -->
+  <g fill="#ecd48c">
+    <rect x="30" y="448" width="60" height="6"/><rect x="140" y="448" width="60" height="6"/><rect x="250" y="448" width="60" height="6"/><rect x="360" y="448" width="60" height="6"/><rect x="470" y="448" width="60" height="6"/><rect x="580" y="448" width="60" height="6"/><rect x="690" y="448" width="60" height="6"/><rect x="800" y="448" width="60" height="6"/><rect x="910" y="448" width="60" height="6"/>
+  </g>
+
+  <!-- Wooden Footbridge over Riverbend River (at path intersection) -->
+  <g id="wooden-footbridge">
+    <!-- Bridge Planks Deck -->
+    <rect x="562" y="368" width="80" height="26" fill="#754728"/>
+    <rect x="564" y="372" width="76" height="18" fill="#9e663d"/>
+    <path d="M570 372v18 M582 372v18 M594 372v18 M606 372v18 M618 372v18 M630 372v18" stroke="#5c361c" stroke-width="2"/>
+    <!-- Bridge Handrails -->
+    <rect x="560" y="362" width="84" height="6" fill="#bc8352"/>
+    <rect x="560" y="394" width="84" height="6" fill="#bc8352"/>
+    <!-- Handrail Posts -->
+    <rect x="564" y="356" width="6" height="46" fill="#5c361c"/>
+    <rect x="598" y="356" width="6" height="46" fill="#5c361c"/>
+    <rect x="634" y="356" width="6" height="46" fill="#5c361c"/>
+  </g>
+
+  <!-- Chimney Smoke Puffs (Animated in CSS) -->
+  <g id="coverage-smoke" fill="#e2edf5" opacity="0.85">
+    <rect x="86" y="96" width="14" height="10" rx="3"/>
+    <rect x="92" y="82" width="18" height="12" rx="4"/>
+    <rect x="100" y="66" width="22" height="14" rx="5"/>
+  </g>
+  <g id="clinic-smoke" fill="#e2edf5" opacity="0.85">
+    <rect x="864" y="80" width="14" height="10" rx="3"/>
+    <rect x="870" y="66" width="18" height="12" rx="4"/>
+    <rect x="878" y="50" width="22" height="14" rx="5"/>
+  </g>
+
+  <!-- BUILDING 1: Coverage Office (Medicaid & Plan Enrollment) -->
   <g id="coverage-office">
-    <rect x="58" y="164" width="254" height="214" fill="#152f4f"/><rect x="66" y="172" width="238" height="198" fill="#e4dfbb"/>
-    <rect x="82" y="145" width="206" height="35" fill="#76c9b3"/><rect x="96" y="129" width="178" height="17" fill="#a0e5c5"/><rect x="114" y="118" width="142" height="12" fill="#d4f3c9"/>
-    <rect x="99" y="194" width="174" height="46" fill="#24496d"/><rect x="105" y="200" width="162" height="34" fill="#e9f1d5"/>
-    <path d="M186 203l22 7v11c0 9-10 16-22 21-12-5-22-12-22-21v-11z" fill="#167e78"/><path d="M174 220l9 8 15-19" fill="none" stroke="#f7e7a8" stroke-width="6"/>
-    <rect x="89" y="268" width="60" height="72" fill="#32788d"/><rect x="96" y="275" width="46" height="56" fill="#9bd5ca"/><rect x="219" y="268" width="60" height="72" fill="#32788d"/><rect x="226" y="275" width="46" height="56" fill="#9bd5ca"/>
-    <rect x="163" y="286" width="42" height="84" fill="#263a60"/><rect x="170" y="294" width="28" height="76" fill="#6a8aa0"/><rect x="191" y="329" width="5" height="5" fill="#f9d788"/>
-    <rect x="55" y="370" width="260" height="12" fill="#c7bc96"/><rect x="45" y="382" width="280" height="7" fill="#25395e"/>
+    <!-- Chimney -->
+    <rect x="84" y="110" width="18" height="54" fill="#1b3f5e"/>
+    <rect x="80" y="106" width="26" height="8" fill="#e9c878"/>
+    <!-- Building Base -->
+    <rect x="58" y="160" width="254" height="218" fill="#142c4b"/>
+    <rect x="66" y="168" width="238" height="202" fill="#e6e1bc"/>
+    <!-- Roof with Layered Shingles -->
+    <rect x="80" y="142" width="210" height="36" fill="#6ebfa9"/>
+    <rect x="94" y="126" width="182" height="18" fill="#96dfbf"/>
+    <rect x="112" y="115" width="146" height="13" fill="#caf0c3"/>
+    <!-- Enrollment Signboard -->
+    <rect x="99" y="188" width="174" height="48" fill="#204263"/>
+    <rect x="105" y="194" width="162" height="36" fill="#ebf3d8"/>
+    <!-- Shield Emblem (Coverage / Protection) -->
+    <path d="M186 198l22 7v12c0 9-10 17-22 22-12-5-22-13-22-22v-12z" fill="#157c76"/>
+    <path d="M174 216l8 8 16-18" fill="none" stroke="#f7e7a8" stroke-width="5"/>
+    <!-- Windows with Flowered Planter Boxes -->
+    <rect x="89" y="262" width="60" height="74" fill="#2e7085"/><rect x="96" y="269" width="46" height="58" fill="#92d0c4"/>
+    <rect x="219" y="262" width="60" height="74" fill="#2e7085"/><rect x="226" y="269" width="46" height="58" fill="#92d0c4"/>
+    <!-- Window Flower Boxes -->
+    <rect x="86" y="328" width="66" height="10" fill="#7d5538"/>
+    <rect x="90" y="324" width="8" height="6" fill="#ff7690"/><rect x="102" y="324" width="8" height="6" fill="#ffd369"/><rect x="114" y="324" width="8" height="6" fill="#ffffff"/><rect x="126" y="324" width="8" height="6" fill="#ff7690"/><rect x="138" y="324" width="8" height="6" fill="#ffd369"/>
+    <rect x="216" y="328" width="66" height="10" fill="#7d5538"/>
+    <rect x="220" y="324" width="8" height="6" fill="#ffd369"/><rect x="232" y="324" width="8" height="6" fill="#ff7690"/><rect x="244" y="324" width="8" height="6" fill="#ffffff"/><rect x="256" y="324" width="8" height="6" fill="#ffd369"/><rect x="268" y="324" width="8" height="6" fill="#ff7690"/>
+    <!-- Double Entrance Doors -->
+    <rect x="162" y="280" width="44" height="92" fill="#223558"/><rect x="169" y="288" width="30" height="84" fill="#628298"/>
+    <rect x="191" y="325" width="5" height="5" fill="#f9d788"/>
+    <!-- Foundation Stone -->
+    <rect x="54" y="370" width="262" height="12" fill="#c3b892"/>
+    <rect x="44" y="382" width="282" height="6" fill="#213354"/>
   </g>
+
+  <!-- Town Notice Board (PA HealthChoices Guidance) -->
+  <g id="notice-board">
+    <rect x="24" y="326" width="32" height="36" fill="#694326"/>
+    <rect x="26" y="328" width="28" height="30" fill="#d9aa6f"/>
+    <rect x="28" y="332" width="12" height="12" fill="#ffffff"/>
+    <rect x="42" y="335" width="10" height="10" fill="#f5eed2"/>
+    <rect x="36" y="362" width="8" height="24" fill="#4d2f17"/>
+  </g>
+
+  <!-- BUILDING 2: Waiting Station & Caseload Pavilion (Town Clock Tower) -->
   <g id="wait-station">
-    <rect x="354" y="215" width="224" height="16" fill="#112a49"/><rect x="370" y="176" width="192" height="39" fill="#f1b761"/><rect x="386" y="161" width="160" height="15" fill="#ffd286"/><rect x="374" y="231" width="18" height="149" fill="#284461"/><rect x="540" y="231" width="18" height="149" fill="#284461"/>
-    <rect x="393" y="236" width="145" height="95" fill="#acd7be"/><rect x="403" y="247" width="125" height="71" fill="#508e91"/><rect x="415" y="258" width="100" height="48" fill="#193c5c"/>
-    <rect x="425" y="269" width="80" height="9" fill="#e4f0ce"/><rect x="425" y="286" width="54" height="7" fill="#e4f0ce"/>
-    <rect x="398" y="331" width="132" height="14" fill="#d6aa70"/><rect x="411" y="345" width="12" height="26" fill="#7d5b5b"/><rect x="504" y="345" width="12" height="26" fill="#7d5b5b"/>
-    <rect x="350" y="374" width="232" height="10" fill="#c7bc96"/>
+    <!-- Clock Tower Arch -->
+    <rect x="432" y="112" width="68" height="64" fill="#142e4e"/>
+    <rect x="438" y="118" width="56" height="52" fill="#ebdcb0"/>
+    <!-- Clock Face -->
+    <rect x="444" y="124" width="44" height="40" fill="#ffffff"/>
+    <rect x="464" y="132" width="4" height="14" fill="#142e4e"/>
+    <rect x="464" y="142" width="10" height="4" fill="#142e4e"/>
+    <rect x="464" y="142" width="4" height="4" fill="#c75244"/>
+    <!-- Pavilion Roof -->
+    <rect x="350" y="210" width="232" height="18" fill="#102642"/>
+    <rect x="366" y="172" width="200" height="40" fill="#edb158"/>
+    <rect x="382" y="158" width="168" height="16" fill="#ffcd7e"/>
+    <!-- Pavilion Columns -->
+    <rect x="372" y="226" width="18" height="152" fill="#243e59"/>
+    <rect x="538" y="226" width="18" height="152" fill="#243e59"/>
+    <!-- Interior Waiting Room Back Wall -->
+    <rect x="390" y="232" width="148" height="98" fill="#a4d1b8"/>
+    <rect x="400" y="242" width="128" height="74" fill="#4b8689"/>
+    <!-- Departure & Queue Progress Board -->
+    <rect x="412" y="252" width="104" height="52" fill="#163654"/>
+    <rect x="422" y="262" width="84" height="8" fill="#dff0ca"/>
+    <rect x="422" y="278" width="60" height="6" fill="#dff0ca"/>
+    <rect x="422" y="290" width="72" height="6" fill="#ffd178"/>
+    <!-- Waiting Benches -->
+    <rect x="396" y="328" width="136" height="14" fill="#cf9f65"/>
+    <rect x="408" y="342" width="12" height="28" fill="#755252"/>
+    <rect x="502" y="342" width="12" height="28" fill="#755252"/>
+    <!-- Floor Plinth -->
+    <rect x="346" y="372" width="240" height="10" fill="#c3b892"/>
   </g>
+
+  <!-- BUILDING 3: Finance Kiosk / Ledger Station (Capitation vs Claims) -->
   <g id="finance-kiosk">
-    <rect x="292" y="298" width="55" height="72" fill="#162f4e"/><rect x="298" y="304" width="43" height="64" fill="#e9c178"/>
-    <rect x="287" y="285" width="64" height="19" fill="#2d7181"/><rect x="293" y="276" width="52" height="9" fill="#77d2b3"/>
-    <rect x="303" y="316" width="31" height="26" fill="#143d5e"/><rect x="313" y="319" width="10" height="19" fill="#ffe08c"/><rect x="309" y="324" width="18" height="9" fill="#ffe08c"/>
-    <rect x="307" y="349" width="23" height="19" fill="#415b70"/><rect x="289" y="370" width="61" height="8" fill="#c7bc96"/>
+    <rect x="290" y="292" width="58" height="78" fill="#142c48"/>
+    <rect x="296" y="298" width="46" height="70" fill="#e6bd70"/>
+    <rect x="285" y="280" width="68" height="20" fill="#296a79"/>
+    <rect x="291" y="270" width="56" height="10" fill="#6fcca9"/>
+    <!-- Golden Ledger Symbol -->
+    <rect x="301" y="310" width="34" height="28" fill="#123756"/>
+    <rect x="312" y="314" width="10" height="20" fill="#ffdc84"/>
+    <rect x="308" y="319" width="18" height="10" fill="#ffdc84"/>
+    <!-- Ledger Shelf & Plinth -->
+    <rect x="305" y="344" width="26" height="20" fill="#3c556b"/>
+    <rect x="287" y="368" width="64" height="8" fill="#c3b892"/>
   </g>
+
+  <!-- BUILDING 4: Care Clinic & Therapy Suites (Outpatient Caseloads) -->
   <g id="clinic">
-    <rect x="636" y="143" width="276" height="230" fill="#142b49"/><rect x="645" y="152" width="258" height="218" fill="url(#brick)"/>
-    <rect x="663" y="116" width="222" height="38" fill="#f1c17b"/><rect x="685" y="97" width="178" height="19" fill="#ffe29a"/><rect x="713" y="85" width="122" height="12" fill="#fff0b4"/>
-    <rect x="735" y="168" width="80" height="64" fill="#f1f3d4"/><rect x="766" y="177" width="18" height="47" fill="#c35d6a"/><rect x="751" y="192" width="48" height="18" fill="#c35d6a"/>
-    <g fill="#163552"><rect x="665" y="252" width="56" height="67"/><rect x="827" y="252" width="56" height="67"/></g><g fill="#a6d6cc"><rect x="672" y="259" width="42" height="53"/><rect x="834" y="259" width="42" height="53"/></g>
-    <rect x="746" y="272" width="56" height="99" fill="#162b4b"/><rect x="753" y="279" width="42" height="92" fill="#8cc3bd"/><rect x="786" y="326" width="5" height="6" fill="#f7d28a"/>
-    <rect x="632" y="370" width="284" height="12" fill="#c7bc96"/><rect x="621" y="382" width="306" height="7" fill="#25395e"/>
+    <!-- Clinic Chimney -->
+    <rect x="862" y="90" width="20" height="60" fill="#1a3a58"/>
+    <rect x="858" y="86" width="28" height="8" fill="#e9c878"/>
+    <!-- Main Clinic Brickwork -->
+    <rect x="636" y="140" width="276" height="234" fill="#122744"/>
+    <rect x="645" y="148" width="258" height="222" fill="url(#brick)"/>
+    <!-- Mansard Roof with Golden Dormer -->
+    <rect x="660" y="112" width="228" height="40" fill="#ecba72"/>
+    <rect x="682" y="94" width="184" height="20" fill="#ffdc92"/>
+    <rect x="710" y="82" width="128" height="13" fill="#ffeaac"/>
+    <!-- Clinic Signboard with Medical Care Cross -->
+    <rect x="732" y="164" width="86" height="68" fill="#edf1d0"/>
+    <rect x="765" y="174" width="20" height="48" fill="#c05562"/>
+    <rect x="751" y="188" width="48" height="20" fill="#c05562"/>
+    <!-- Upper Clinic Caseload Windows (4 suites for 4 providers) -->
+    <g fill="#14314e">
+      <rect x="663" y="246" width="58" height="68"/>
+      <rect x="825" y="246" width="58" height="68"/>
+    </g>
+    <g fill="#9fd1c6">
+      <rect x="670" y="253" width="44" height="54"/>
+      <rect x="832" y="253" width="44" height="54"/>
+    </g>
+    <!-- Window Flower Boxes on Clinic -->
+    <rect x="660" y="310" width="64" height="8" fill="#694326"/>
+    <rect x="664" y="306" width="8" height="5" fill="#ffffff"/><rect x="676" y="306" width="8" height="5" fill="#ff7690"/><rect x="688" y="306" width="8" height="5" fill="#ffd369"/><rect x="700" y="306" width="8" height="5" fill="#ffffff"/><rect x="712" y="306" width="8" height="5" fill="#ff7690"/>
+    <rect x="822" y="310" width="64" height="8" fill="#694326"/>
+    <rect x="826" y="306" width="8" height="5" fill="#ffd369"/><rect x="838" y="306" width="8" height="5" fill="#ff7690"/><rect x="850" y="306" width="8" height="5" fill="#ffffff"/><rect x="862" y="306" width="8" height="5" fill="#ffd369"/><rect x="874" y="306" width="8" height="5" fill="#ff7690"/>
+    <!-- Clinic Double Entry Doors -->
+    <rect x="744" y="268" width="58" height="102" fill="#142644"/>
+    <rect x="751" y="275" width="44" height="95" fill="#84bdb7"/>
+    <rect x="786" y="322" width="6" height="6" fill="#f7d28a"/>
+    <!-- Foundation Stone -->
+    <rect x="630" y="370" width="288" height="12" fill="#c3b892"/>
+    <rect x="620" y="382" width="310" height="6" fill="#213354"/>
   </g>
-  <g id="trees"><rect x="28" y="285" width="18" height="101" fill="#6b514d"/><rect x="12" y="275" width="50" height="18" fill="#225e55"/><rect x="5" y="253" width="64" height="22" fill="#3c9c6f"/><rect x="15" y="231" width="44" height="22" fill="#59b579"/><rect x="929" y="286" width="17" height="100" fill="#6b514d"/><rect x="916" y="274" width="43" height="19" fill="#225e55"/><rect x="909" y="250" width="51" height="24" fill="#3c9c6f"/><rect x="920" y="229" width="40" height="21" fill="#59b579"/></g>
-  <g fill="#dbf28d"><rect x="333" y="346" width="8" height="8"/><rect x="591" y="314" width="8" height="8"/><rect x="607" y="334" width="6" height="6"/><rect x="321" y="310" width="6" height="6"/><rect x="579" y="361" width="6" height="6"/></g>
+
+  <!-- Street Lanterns (Warm Night Lighting) -->
+  <g id="street-lamps">
+    <!-- Left Lamp (by coverage office) -->
+    <rect x="330" y="328" width="5" height="56" fill="#1c2c3d"/>
+    <rect x="325" y="322" width="15" height="7" fill="#1c2c3d"/>
+    <rect x="327" y="315" width="11" height="9" fill="#ffdf7b"/>
+    <rect x="324" y="312" width="17" height="4" fill="#32495e"/>
+    <!-- Right Lamp (by clinic bridge) -->
+    <rect x="646" y="328" width="5" height="56" fill="#1c2c3d"/>
+    <rect x="641" y="322" width="15" height="7" fill="#1c2c3d"/>
+    <rect x="643" y="315" width="11" height="9" fill="#ffdf7b"/>
+    <rect x="640" y="312" width="17" height="4" fill="#32495e"/>
+  </g>
+
+  <!-- Pine and Deciduous Trees -->
+  <g id="trees">
+    <!-- Left Tree Grove -->
+    <rect x="24" y="280" width="18" height="106" fill="#634944"/>
+    <rect x="8" y="268" width="52" height="20" fill="#1d554d"/>
+    <rect x="2" y="246" width="66" height="24" fill="#369267"/>
+    <rect x="12" y="224" width="46" height="24" fill="#52ab71"/>
+    <!-- Right Tree Grove -->
+    <rect x="930" y="280" width="18" height="106" fill="#634944"/>
+    <rect x="914" y="268" width="46" height="20" fill="#1d554d"/>
+    <rect x="906" y="244" width="54" height="26" fill="#369267"/>
+    <rect x="918" y="222" width="42" height="23" fill="#52ab71"/>
+  </g>
+
+  <!-- Wildflower Tufts & Meadow Flora -->
+  <g fill="#d8ee88">
+    <rect x="16" y="400" width="6" height="6"/><rect x="22" y="396" width="4" height="4"/>
+    <rect x="340" y="340" width="7" height="7"/><rect x="348" y="336" width="5" height="5"/>
+    <rect x="548" y="344" width="6" height="6"/><rect x="554" y="340" width="5" height="5"/>
+    <rect x="660" y="348" width="6" height="6"/><rect x="666" y="344" width="5" height="5"/>
+  </g>
 </svg>
