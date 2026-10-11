@@ -17,23 +17,25 @@ SimSurance is an auditable virtual-county laboratory connecting official policy 
 8. **Learning Lab** — plain-language education about mental-health insurance and financing, designed for high-school learners through practitioners and policy researchers.
 
 ## Learning Lab
-**Interactive lessons:** [Learning Lab home](learning-lab/index.html) · [Follow the money](learning-lab/money-flow.html). The money-flow lesson lets learners switch between prospective payments, provider claims, and funding transfers, with a hypothetical calculator and a double-counting exercise.
+**Interactive lessons:** [Learning Lab home](learning-lab/index.html) · [Follow the money](learning-lab/money-flow.html) · [Claim decisions](learning-lab/claim-decisions.html) · [Compare journeys](learning-lab/journeys.html) · [How to read a policy source](learning-lab/reading-policy.html) · [Virtual County & Capacity Simulator](learning-lab/county-lab.html).
 
-The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions.
+The Learning Lab teaches the system through metaphors, visual explanations, worked examples, and synthetic cases. It explicitly separates official-source-backed rules from illustrative assumptions, includes a slide-out **Source Evidence Drawer** backed by [`docs/sources.registry.json`](docs/sources.registry.json), supports **Light / Dark / High-Contrast** accessibility themes, and tracks learner mastery across 8 interactive checkpoints.
 
-**Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/). The compact visual-first experience includes a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, toy claim calculator, guided cases, knowledge checks, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
+**Open the live Learning Lab:** [SimSurance Learning Lab](https://luisv8181.github.io/SimSurance-/). The compact visual-first experience includes role-based entry points (*Member/Family*, *Clinician/Practice*, *Advocate/Student*, *Policy Researcher*), a care-journey map, interactive money-flow lesson, fictional claim-decision pathway, 6-part policy provenance inspector, 52-week virtual county queue & ledger simulator, payer evaluation worksheet, and a plain-language glossary. Source files remain available in [`learning-lab/`](learning-lab/).
 
 - [Learning Lab vision and curriculum](docs/LEARNING_LAB.md)
 - [Source-linked Learning Lab design](docs/SOURCE_LINKED_LEARNING_LAB.md) — evidence panels, exact quotations, source registry, audience pathways, and mastery-based lesson loop.
+- [Virtual County & Simulation Model (M4–M7)](docs/SIMULATION_MODEL.md) — synthetic population, provider slot queues, Common Random Numbers (CRN) counterfactual comparison, and accounting invariants.
 - [Synthetic case studies](docs/LEARNING_LAB_CASES.md)
 - [Plain-language glossary](docs/LEARNING_LAB_GLOSSARY.md)
 - [Learning Lab implementation plan](docs/LEARNING_LAB_IMPLEMENTATION_PLAN.md)
 - [Structured lesson catalog](learning-lab/lessons.json) — lesson IDs, audience levels, status labels, source references, and objectives.
 - [Lesson authoring template](learning-lab/LESSON_TEMPLATE.md) — common format with source provenance, metaphor limitations, and accessibility checks.
 - [Interactive claim decisions lesson](learning-lab/claim-decisions.html) — a toy adjudication explorer showing paid, not-approved, and needs-review outcomes without encoding real plan rules.
-- [Implementation issue #3](https://github.com/Luisv8181/SimSurance-/issues/3)
+- [Interactive policy-reading lesson](learning-lab/reading-policy.html) — inspect real PA DHS source records and test provenance boundaries before encoding rules.
+- [Interactive virtual county simulator](learning-lab/county-lab.html) — explore 52-week queue dynamics and capitation vs. claim accounting across 30 replications.
 
-The static site is deployed through GitHub Pages. Visual refresh work is ongoing; the diagrams are explanatory and fictional claim outcomes are not Pennsylvania coverage determinations. The Pages deployment workflow currently fails because the connected GitHub integration cannot create the Pages site (`Resource not accessible by integration`). A repository owner must enable Pages and select GitHub Actions in repository settings; until then, the page is available in source form but is not confirmed live. All amounts in sample cases are illustrative and must not be treated as Pennsylvania reimbursement rates or real coverage decisions.
+All amounts in sample cases and virtual county runs are illustrative (`hypothetical_scenario`) and must not be treated as Pennsylvania reimbursement rates, empirical prevalence estimates, or real coverage decisions.
 
 ## Pennsylvania insurance landscape
 
@@ -54,10 +56,16 @@ The static site is deployed through GitHub Pages. Visual refresh work is ongoing
 ## Getting started
 Read [the structured official-source registry](docs/sources.registry.json) alongside the [Source Register](docs/SOURCE_REGISTER.md) for stable source IDs and scope/review metadata.
 
-Read [AGENTS.md](AGENTS.md), [the Deep Research Report](docs/DEEP_RESEARCH_REPORT.md), [Product Requirements](docs/PRODUCT_REQUIREMENTS.md), [Code Roadmap](docs/CODE_ROADMAP.md), [Architecture](docs/ARCHITECTURE.md), [Agent Roles](docs/AGENT_ROLES.md), [Research Plan](docs/RESEARCH_PLAN.md), [Source Register](docs/SOURCE_REGISTER.md), [Glossary](docs/GLOSSARY.md), [Assumptions Register](docs/ASSUMPTIONS_REGISTER.md), [Validation Plan](docs/VALIDATION_PLAN.md), [Security/Privacy/Governance](docs/SECURITY_PRIVACY_GOVERNANCE.md), [Decision Log](docs/DECISIONS.md), and the [Agent Execution Prompt](docs/AGENT_EXECUTION_PROMPT.md).
+Read [AGENTS.md](AGENTS.md), [the Deep Research Report](docs/DEEP_RESEARCH_REPORT.md), [Product Requirements](docs/PRODUCT_REQUIREMENTS.md), [Code Roadmap](docs/CODE_ROADMAP.md), [Architecture](docs/ARCHITECTURE.md), [Simulation Model](docs/SIMULATION_MODEL.md), [Agent Roles](docs/AGENT_ROLES.md), [Research Plan](docs/RESEARCH_PLAN.md), [Source Register](docs/SOURCE_REGISTER.md), [Glossary](docs/GLOSSARY.md), [Assumptions Register](docs/ASSUMPTIONS_REGISTER.md), [Validation Plan](docs/VALIDATION_PLAN.md), [Security/Privacy/Governance](docs/SECURITY_PRIVACY_GOVERNANCE.md), [Decision Log](docs/DECISIONS.md), and the [Agent Execution Prompt](docs/AGENT_EXECUTION_PROMPT.md).
 
-## Initial scope
-Begin with Pennsylvania Medicaid behavioral health and a small synthetic county. First compare a documented baseline against one clearly labeled hypothetical care-coordination/community-service pilot. Avoid expanding to every insurer and service before baseline validation.
+## Running tests & regenerating simulation data
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -p "test_*.py" -v
+PYTHONPATH=src python scripts/export_lab_data.py
+```
 
 ## Status
-The initial Python financial ledger, source-aware policy registry, toy claim adjudicator, and 14 unit tests are committed. The 14-test suite passed locally; GitHub Actions is configured to run tests on pushes and pull requests, and the policy/ledger test runs have succeeded. A dated source-page verification note is available at [SOURCE_VERIFICATION_2026-10-08.md](docs/SOURCE_VERIFICATION_2026-10-08.md), and the hand-calculated hypothetical example is documented in [TOY_ADJUDICATION.md](docs/TOY_ADJUDICATION.md). This is not yet a complete simulator: detailed PS&R/contract rule extraction, source review, calibration, and independent validation remain in progress.
+Milestones **M0–M7** are implemented and verified by a **40-test suite** (`tests/test_policy.py`, `tests/test_ledger.py`, `tests/test_county_simulation.py`, and `tests/test_learning_lab.py`):
+- **Policy & Ledger Core (`src/simsurance/policy.py`, `src/simsurance/ledger.py`)**: Date-versioned rule resolution with `NEEDS_REVIEW` uncertainty handling and integer-cent accounting that strictly separates upstream `CAPITATION` transfers from downstream `SERVICE_PAYMENT` and `ADMINISTRATIVE_COST` system costs.
+- **Virtual County & 52-Week Discrete-Event Simulator (`src/simsurance/county.py`, `src/simsurance/simulator.py`, `src/simsurance/runner.py`)**: Seeded synthetic population and provider network (`config/toy_county.json`) using Common Random Numbers (CRN) across 30 replications and 4 capacity multipliers (`0.75x`–`1.5x`) to compare baseline operations against a hypothetical care-coordination pilot (`learning-lab/data/county-sim.json`).
+- **Source-Linked Learning Lab (`learning-lab/`)**: Six interactive HTML modules with Light/Dark/High-Contrast themes, slide-out Source Evidence Drawer, role-based entry points, inline SVG diagrams, and persistent mastery tracking. Detailed PS&R/contract clause extraction and external calibration (M8) remain gated on human policy review.

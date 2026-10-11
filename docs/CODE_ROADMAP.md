@@ -10,57 +10,57 @@ This roadmap is a living plan. Mark tasks complete only after implementation and
 - **E — External review:** policy, clinical, financial and statistical reviewers inspect assumptions before policy-facing claims.
 
 ## M0: Repository audit
-- [ ] Inspect stack, entry points, dependencies, current features, tests, deployment, license, branch and CI.
-- [ ] Write architecture decisions to docs/DECISIONS.md.
-- [ ] Preserve working features and avoid stack migration before need is established.
+- [x] Inspect stack, entry points, dependencies, current features, tests, deployment, license, branch and CI.
+- [x] Write architecture decisions to docs/DECISIONS.md.
+- [x] Preserve working features and avoid stack migration before need is established.
 - Acceptance: documented setup and reproducible starting build/test, or explicit blockers.
 
 ## M1: Source Explorer
-- [ ] Add source metadata schema, validation and provenance.
-- [ ] Register current PA DHS HealthChoices BH/CMS primary sources with versions/effective dates.
-- [ ] Build glossary entries with supporting passages, reviewer and verification state.
-- [ ] Search acronym, policy term, service, program, source and passage.
+- [x] Add source metadata schema, validation and provenance.
+- [x] Register current PA DHS HealthChoices BH/CMS primary sources with versions/effective dates.
+- [x] Build glossary entries with supporting passages, reviewer and verification state.
+- [x] Search acronym, policy term, service, program, source and passage.
 - Acceptance: every definition traces to a source; AI summaries are not presented as authoritative text.
 
 ## M2: Policy Parameter Registry
-- [ ] Define versioned rules/parameters, units, jurisdictions, program and effective intervals.
-- [ ] Implement rule resolution with decision, reason, source refs and review state.
-- [ ] Support unknown/conflicting/needs-review status.
+- [x] Define versioned rules/parameters, units, jurisdictions, program and effective intervals.
+- [x] Implement rule resolution with decision, reason, source refs and review state.
+- [x] Support unknown/conflicting/needs-review status.
 - Acceptance: tests prove date-versioned resolution; unresolved policy never silently becomes an approval/denial.
 
 ## M3: Financial Ledger
-- [ ] Model payer/payee and transaction types.
-- [ ] Use integer cents or fixed-point decimals.
-- [ ] Implement synthetic service events, claim adjudication, payment, denial, reversal and adjustment.
-- [ ] Add reconciliation by payer/payee/service/period.
-- [ ] Keep capitation and provider claims at separate levels to prevent double counting.
+- [x] Model payer/payee and transaction types.
+- [x] Use integer cents or fixed-point decimals.
+- [x] Implement synthetic service events, claim adjudication, payment, denial, reversal and adjustment.
+- [x] Add reconciliation by payer/payee/service/period.
+- [x] Keep capitation and provider claims at separate levels to prevent double counting.
 - Acceptance: hand-calculated toy cases pass all accounting invariants and trace to rules.
 
 ## M4: Synthetic County
-- [ ] Define synthetic person/provider schema.
-- [ ] Implement seeded population generation and record calibration targets/provenance.
-- [ ] Document aggregate mismatches and limitations.
-- [ ] Add finite provider capacity, slots, referral and queue/wait logic.
+- [x] Define synthetic person/provider schema (`src/simsurance/county.py`, `config/toy_county.json`).
+- [x] Implement seeded population generation and record calibration targets/provenance (`hypothetical_scenario` enforced).
+- [x] Document aggregate mismatches and limitations (`docs/SIMULATION_MODEL.md`).
+- [x] Add finite provider capacity, slots, referral and queue/wait logic.
 - Acceptance: repeatable population, explicit assumptions, no real-client data.
 
 ## M5: Baseline Simulator
-- [ ] Connect demand, capacity, policy, events and ledger.
-- [ ] Store run metadata, config hash, data/code/policy versions, seed and replication count.
-- [ ] Generate baseline report and dashboard data.
+- [x] Connect demand, capacity, policy, events and ledger (`src/simsurance/simulator.py`).
+- [x] Store run metadata, config hash, data/code/policy versions, seed and replication count (`src/simsurance/runner.py`).
+- [x] Generate baseline report and dashboard data (`scripts/export_lab_data.py` -> `learning-lab/data/county-sim.json`).
 - Acceptance: reproducible test runs, reconciled money, metrics traceable to events.
 
 ## M6: First Counterfactual
-- [ ] Define one clearly hypothetical care-coordination/community service pilot.
-- [ ] Specify assumed/verified funding authority, payment unit/rate, target population, workforce capacity, uptake and overhead.
-- [ ] Compare baseline/pilot using documented seed/replication strategy.
-- [ ] Add sensitivity and stress tests.
+- [x] Define one clearly hypothetical care-coordination/community service pilot (`care_coordination_pilot` in `config/toy_county.json`).
+- [x] Specify assumed/verified funding authority, payment unit/rate, target population, workforce capacity, uptake and overhead.
+- [x] Compare baseline/pilot using documented seed/replication strategy (Common Random Numbers across 30 seeds).
+- [x] Add sensitivity and stress tests (`0.75x`, `1.0x`, `1.25x`, `1.5x` capacity multipliers).
 - Acceptance: scenario delta and uncertainty visible; no claims of real-world causation or guaranteed savings.
 
 ## M7: Dashboard and exports
-- [ ] Show source cards and modified parameters.
-- [ ] Compare access, wait, unmet need, service use, continuity, outcome proxies, crisis use, provider capacity, payer and total-system costs.
-- [ ] Export source/parameter/run manifest, CSV/JSON, and readable report.
-- [ ] Label observed, estimated, assumed and simulated values.
+- [x] Show source cards and modified parameters (`learning-lab/lab-shell.js` Source Evidence Drawer + `learning-lab/reading-policy.html`).
+- [x] Compare access, wait, unmet need, service use, continuity, outcome proxies, provider capacity, payer and total-system costs (`learning-lab/county-lab.html`).
+- [x] Export source/parameter/run manifest, JSON, and readable report (`learning-lab/data/county-sim.json`, `docs/SIMULATION_MODEL.md`).
+- [x] Label observed, estimated, assumed and simulated values.
 - Acceptance: external reviewer can reproduce a run from its manifest.
 
 ## M8: Validation and hardening

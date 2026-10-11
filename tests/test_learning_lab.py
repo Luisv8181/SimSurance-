@@ -152,5 +152,48 @@ class SourceRegistryTests(unittest.TestCase):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, content)
 
+    def test_reading_policy_lesson_exists_and_teaches_provenance(self):
+        page = ROOT / "learning-lab" / "reading-policy.html"
+        self.assertTrue(page.exists())
+        content = page.read_text(encoding="utf-8")
+        for phrase in (
+            "How to read a policy source without over-claiming",
+            "Title &amp; Publisher",
+            "Version &amp; Effective Date",
+            "Applicability Scope",
+            "data-source-id=\"pa-dhs-bhc-mcos\"",
+            "lab-shell.js",
+        ):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, content)
+
+    def test_county_lab_lesson_exists_and_separates_capitation_from_system_cost(self):
+        page = ROOT / "learning-lab" / "county-lab.html"
+        self.assertTrue(page.exists())
+        content = page.read_text(encoding="utf-8")
+        for phrase in (
+            "A budget isn't a waiting room",
+            "HYPOTHETICAL SCENARIO",
+            "Riverbend County",
+            "SERVICE_PAYMENT",
+            "Consolidated system cost",
+            "care_coordination_pilot",
+            "lab-shell.js",
+        ):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, content)
+
+    def test_lab_shell_and_theme_support_drawer_and_themes(self):
+        shell = (ROOT / "learning-lab" / "lab-shell.js").read_text(encoding="utf-8")
+        theme = (ROOT / "learning-lab" / "theme.css").read_text(encoding="utf-8")
+        self.assertIn("SimSuranceLab", shell)
+        self.assertIn("openSourceDrawer", shell)
+        self.assertIn("recordCheckpoint", shell)
+        self.assertIn('html[data-theme="light"]', theme)
+        self.assertIn('html[data-theme="contrast"]', theme)
+        self.assertIn(".source-drawer", theme)
+
+
 if __name__ == "__main__":
     unittest.main()
+

@@ -100,11 +100,12 @@
     {
       "id": "reading-policy",
       "title": "How to read a policy source",
-      "path": "../docs/SOURCE_REGISTER.md",
+      "path": "reading-policy.html",
       "audience": [
+        "understand",
         "investigate"
       ],
-      "status": "planned",
+      "status": "illustrative",
       "concepts": [
         "source-version",
         "effective-date",
@@ -113,7 +114,9 @@
       ],
       "policy_claims": true,
       "source_refs": [
-        "source-register"
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-bhc-service-access",
+        "pa-dhs-bhc-publications"
       ],
       "objectives": [
         "Locate title, publisher, version, effective date, section, applicability, and exact passage.",
@@ -289,6 +292,35 @@
         "Compare the decisions facing a member, private practice, and claim reviewer.",
         "Distinguish known facts from missing information and assumptions.",
         "Choose a defensible next step without claiming more than the evidence supports."
+      ]
+    },
+    {
+      "id": "virtual-county-simulator",
+      "title": "A budget isn't a waiting room: Virtual county & capacity simulator",
+      "path": "county-lab.html",
+      "audience": [
+        "explore",
+        "understand",
+        "investigate"
+      ],
+      "status": "illustrative",
+      "concepts": [
+        "appointment-capacity",
+        "waitlist-dynamics",
+        "care-coordination",
+        "capitation",
+        "system-cost",
+        "common-random-numbers"
+      ],
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-bhc-service-access"
+      ],
+      "objectives": [
+        "Explore how provider slot capacity and waitlist dropout interact over 52 weeks in a fictional county.",
+        "Explain why reducing waitlist dropout can raise average wait times unless appointment capacity also expands.",
+        "Separate upstream capitation transfers from consolidated system service and coordination costs."
       ]
     }
   ]

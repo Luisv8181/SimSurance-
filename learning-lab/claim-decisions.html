@@ -50,7 +50,8 @@
 <div class="step"><div class="num">4</div><div><strong>Keep human rights in view.</strong><br><span class="muted">Actual decisions may have notice, correction, grievance, or appeal pathways. The responsible official materials determine what applies.</span></div></div></section>
 <section class="panel quiz"><h2>Quick check</h2><p>A claim record is missing a field. What conclusion is safest?</p><button data-answer="wrong">The service is definitely not covered.</button><button data-answer="correct">The system should identify what is missing and resolve it before making unsupported conclusions.</button><button data-answer="wrong">The claim must be paid anyway.</button><div id="quizFeedback" class="feedback" aria-live="polite"></div></section>
 <section class="panel"><h2>What is source-backed in this lesson?</h2><p>Nothing about the outcome of the selectable claim scenarios represents an actual Pennsylvania rule. The lesson demonstrates the product principle: missing or conflicting information should be visible, and the system should not invent a policy answer. For context about the planned model, read the <a href="../docs/LEARNING_LAB.md">Learning Lab curriculum</a>, <a href="../docs/VALIDATION_PLAN.md">validation plan</a>, and <a href="../docs/SECURITY_PRIVACY_GOVERNANCE.md">privacy and governance plan</a>.</p></section>
-</main><footer><div class="wrap"><a href="./index.html">Learning Lab home</a> · <a href="./money-flow.html">Follow the money</a> · <a href="../">SimSurance repository</a></div></footer>
+</main><footer><div class="wrap"><a href="./index.html">Learning Lab home</a> · <a href="./money-flow.html">Follow the money</a> · <a href="./reading-policy.html">How to read a policy source</a> · <a href="./county-lab.html">Virtual County Simulator</a> · <a href="../">SimSurance repository</a></div></footer>
+<script src="./lab-shell.js"></script>
 <script>
 (function(){
 const fields=["eligibility","network","authorization","data"];
@@ -83,6 +84,6 @@ const box=document.getElementById("resultSteps");box.replaceChildren();
 reasons.forEach(reason=>{const p=document.createElement("p");p.textContent="• "+reason;box.appendChild(p);});
 }
 fields.forEach(k=>document.getElementById(k).addEventListener("change",evaluate));evaluate();
-document.querySelectorAll("[data-answer]").forEach(button=>button.addEventListener("click",()=>{const right=button.dataset.answer==="correct";const fb=document.getElementById("quizFeedback");fb.textContent=right?"Correct. Missing information should lead to clarification or review, not an invented policy conclusion.":"That answer goes beyond what the scenario establishes. Keep uncertainty visible and check the applicable rules.";fb.style.color=right?"var(--mint)":"var(--gold)";}));
+document.querySelectorAll("[data-answer]").forEach(button=>button.addEventListener("click",()=>{const right=button.dataset.answer==="correct";const fb=document.getElementById("quizFeedback");fb.textContent=right?"Correct. Missing information should lead to clarification or review, not an invented policy conclusion.":"That answer goes beyond what the scenario establishes. Keep uncertainty visible and check the applicable rules.";fb.style.color=right?"var(--mint)":"var(--gold)";if(right&&window.SimSuranceLab)window.SimSuranceLab.recordCheckpoint("quiz-claim-decisions");}));
 })();
 </script></body></html>

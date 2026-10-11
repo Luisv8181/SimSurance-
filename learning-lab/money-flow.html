@@ -56,7 +56,8 @@
 <div class="quiz"><h3>Quick check</h3><p>Why should capitation and a clinic's payment not automatically be added as two independent costs for the same care?</p><button data-answer="wrong">Because the clinic's payment is not real money.</button><button data-answer="right">Because they may represent different stages in the funding chain; combining them without a defined accounting perspective can double-count.</button><button data-answer="wrong">Because a plan never pays providers.</button><div class="feedback" aria-live="polite"></div></div></section>
 <section class="panel"><h2>Questions to ask in any real analysis</h2><ol><li>Who is the payer and who receives the payment?</li><li>What does this transaction represent: funding transfer, prospective payment, claim payment, grant, or administrative expense?</li><li>What period, population, services, and contract terms apply?</li><li>Is this gross spending, a transfer between organizations, or consolidated system cost?</li><li>Which source establishes the rule, and what is its effective date?</li></ol><p class="small muted">SimSurance is a research and education project, not an official policy determination, coverage decision, clinical recommendation, or legal advice.</p></section>
 </main>
-<footer><div class="wrap"><a href="./index.html">Learning Lab home</a> · <a href="../docs/LEARNING_LAB.md">Curriculum and principles</a> · <a href="../docs/SOURCE_REGISTER.md">Source register</a></div></footer>
+<footer><div class="wrap"><a href="./index.html">Learning Lab home</a> · <a href="./claim-decisions.html">Claim decisions</a> · <a href="./reading-policy.html">How to read a policy source</a> · <a href="./county-lab.html">Virtual County Simulator</a> · <a href="../docs/LEARNING_LAB.md">Curriculum and principles</a> · <a href="../docs/SOURCE_REGISTER.md">Source register</a></div></footer>
+<script src="./lab-shell.js"></script>
 <script>
 (function(){
 const content={
@@ -76,6 +77,7 @@ document.querySelectorAll("[data-answer]").forEach(button=>button.addEventListen
 const fb=button.parentElement.querySelector(".feedback");const ok=button.dataset.answer==="right";
 fb.textContent=ok?"Correct. Track each transaction's meaning and define the accounting boundary before combining totals.":"Not quite. The issue is how transactions are classified and combined, not whether the payments are real.";
 fb.style.color=ok?"var(--mint)":"var(--gold)";
+if(ok&&window.SimSuranceLab)window.SimSuranceLab.recordCheckpoint("quiz-money-flow");
 }));
 })();
 </script>
