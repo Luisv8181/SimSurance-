@@ -91,7 +91,7 @@
       "overrides": {}
     },
     "care_coordination_pilot": {
-      "label": "Hypothetical care-coordination pilot",
+      "label": "The Waitlist Check-In Pilot",
       "provenance": "hypothetical_scenario",
       "description": "A fictional coordinator sends reminders and checks in with people on the waitlist. The assumed effects below are invented to show how a model works; they are not evidence that any real program has these effects.",
       "overrides": {

@@ -20,5 +20,14 @@
 - Reviewer: Luis Vasquez (owner).
 - Revisit when: the simulator has a named first scenario tied to a decision it informs, or a Lab lesson requires modeled scenarios beyond the toy ledger — at that point rebalance explicitly instead of drifting.
 
+## 2026-10-11 — First scenario named: The Waitlist Check-In Pilot
+- Decision: the simulator's first scenario (`care_coordination_pilot` in `config/toy_county.json`) is now named **The Waitlist Check-In Pilot** across config, `docs/SIMULATION_MODEL.md`, and the Learning Lab's Virtual County page (scenario pill + fallback data). Slug unchanged; no code logic touched.
+- Alternatives considered: (a) leave the generic "Hypothetical care-coordination pilot" label; (b) rename the slug too (rejected — tests and scripts reference the slug; churn with no value).
+- Rationale: standing working rule — name the first scenario before more generic infrastructure; narrative name matches the Lab's case convention ("The appointment that is not there") and gives the simulator's counterfactual a face learners can reason about.
+- Evidence: `learning-lab/data/county-sim.json` regenerated via `scripts/export_lab_data.py` (numbers unchanged — label-only change; 8 cells × 30 seeds); fallback JSON in `county-lab.html` re-embedded; manifest sha verified against the config loader.
+- Risk: a named scenario invites over-reading as a real program; mitigated by keeping the `hypothetical_scenario` provenance tag and the invented-effects disclaimer everywhere the name appears.
+- Reviewer: none yet — naming is Lab-facing copy; Luis retains the decision to tie any future scenario to a real decision it informs.
+- Revisit when: a Lab lesson needs a new modeled scenario, or Luis asks to ground a scenario in a real policy question.
+
 ## Decision protocol
 Record date, decision, alternatives, rationale, evidence, risk, reviewer and revisit criteria for every material change.

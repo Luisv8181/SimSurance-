@@ -30,7 +30,11 @@ This document describes the synthetic county and weekly discrete-event simulator
      7. **Session Delivery & Adjudication**: Each active client either misses their scheduled slot (`no_show_probability`, consuming the slot without generating a claim) or attends, generating a `Claim` adjudicated via `adjudicate_claim()` and recorded in `Ledger` as `TransactionType.SERVICE_PAYMENT` (`include_in_system_total=True`).
 
 4. **Replication Runner & Export (`src/simsurance/runner.py`, `scripts/export_lab_data.py`)**:
-   - Runs 30 seeded replications (`seeds 1..30`) across 4 capacity multipliers (`0.75x`, `1.0x`, `1.25x`, `1.5x`) and 2 scenarios (`baseline`, `care_coordination_pilot`).
+   - Runs 30 seeded replications (`seeds 1..30`) across 4 capacity multipliers (`0.75x`, `1.0x`, `1.25x`, `1.5x`) and 2 scenarios: `baseline` and `care_coordination_pilot`.
+
+## Named first scenario
+
+The simulator's first scenario is **The Waitlist Check-In Pilot** (slug `care_coordination_pilot`). The question it poses: *if a fictional care coordinator sent reminders and checked in with people on the waitlist, what happens to missed sessions, waitlist dropout, and total system cost?* The assumed effects are invented to demonstrate how a model works — they are not evidence that any real program has these effects. Tying a future scenario to a real decision it informs (per docs/DECISIONS.md) is an owner call; until then, all scenarios stay tagged `hypothetical_scenario`.
    - Computes mean, p10, p50 (median), and p90 across replications.
    - Exports [`learning-lab/data/county-sim.json`](../learning-lab/data/county-sim.json) for the interactive Virtual County Lab.
 

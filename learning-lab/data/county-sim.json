@@ -4,7 +4,7 @@
  "disclaimer": "Every value in this file is invented for teaching and software testing. None is a Pennsylvania rate, caseload, prevalence estimate, network size, or policy rule. Results are conditional on these assumptions and are not forecasts or causal findings.",
  "manifest": {
   "config_id": "toy-county-v1",
-  "config_sha256": "e9b38e5a3a800335a69c636dcc4b6a55008fa9f20de6c76424d3f0ddd095781b",
+  "config_sha256": "a0d8bc9f9f2a09866bbe52cad8a4663e9ec65c94b15dd6da228ff36dbdd72b69",
   "scenarios": {
    "baseline": {
     "label": "Baseline (no pilot)",
@@ -13,7 +13,7 @@
     "overrides": {}
    },
    "care_coordination_pilot": {
-    "label": "Hypothetical care-coordination pilot",
+    "label": "The Waitlist Check-In Pilot",
     "provenance": "hypothetical_scenario",
     "description": "A fictional coordinator sends reminders and checks in with people on the waitlist. The assumed effects below are invented to show how a model works; they are not evidence that any real program has these effects.",
     "overrides": {
@@ -63,9 +63,9 @@
   ],
   "weeks": 52,
   "code_version": "0.2.0",
-  "git_commit": "87bb037",
-  "python_version": "3.12.10",
-  "generated_at_utc": "2026-10-11T04:50:49+00:00"
+  "git_commit": "476c482",
+  "python_version": "3.12.3",
+  "generated_at_utc": "2026-10-11T09:56:24+00:00"
  },
  "parameters": {
   "population": {
