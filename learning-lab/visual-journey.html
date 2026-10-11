@@ -142,6 +142,121 @@ a:hover{text-decoration:underline;}
 .cursor-blink{display:inline-block;width:8px;height:14px;background:#378add;vertical-align:middle;margin-left:2px;animation:blink 0.8s step-end infinite;}
 @keyframes blink{50%{opacity:0;}}
 
+/* STATUTORY POLICY CITATION CARDS */
+.citation-card {
+  margin-top: 14px;
+  background: #091726;
+  border: 1px solid #1a3f66;
+  border-left: 4px solid var(--mint);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+}
+.citation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.citation-tag {
+  font-size: 10px;
+  color: var(--mint);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.citation-statute {
+  font-size: 11px;
+  color: var(--gold);
+  font-weight: 600;
+  font-family: var(--pixel);
+}
+.citation-title {
+  font-size: 12px;
+  color: var(--ink);
+  font-weight: 700;
+  font-family: var(--sans);
+  margin-bottom: 6px;
+}
+.citation-quote {
+  font-size: 12px;
+  color: #c8dde8;
+  font-style: italic;
+  line-height: 1.6;
+  background: rgba(0,0,0,0.25);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 6px 0 10px;
+  border-left: 2px solid var(--cyan);
+  font-family: var(--sans);
+}
+.citation-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.citation-pill {
+  background: rgba(0,180,216,0.12);
+  border: 1px solid var(--cyan);
+  color: var(--cyan);
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 99px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.citation-pill:hover {
+  background: var(--cyan);
+  color: #080C1A;
+  text-decoration: none;
+}
+
+/* FURTHER READING CHIPS */
+.further-reading-bar {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+.further-reading-label {
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.further-reading-chip {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.12s;
+  font-family: var(--sans);
+}
+.further-reading-chip:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+  text-decoration: none;
+  background: rgba(127,225,189,0.1);
+}
+
 /* CONTENT PANELS */
 .content-panel{
   background:var(--panel3);
@@ -493,6 +608,10 @@ a:hover{text-decoration:underline;}
             <span id="typed-text"></span><span class="cursor-blink" id="cursor"></span>
           </div>
         </div>
+        <!-- Glim's Direct Statutory Policy Citation Box -->
+        <div id="vj-citation-card" class="citation-card" style="display:none;" aria-label="Statutory Policy Citation"></div>
+        <!-- Further Reading on SimSurance GitHub Pages -->
+        <div id="vj-further-reading" class="further-reading-bar" style="display:none;" aria-label="Further Reading Links"></div>
       </div>
     </div>
 

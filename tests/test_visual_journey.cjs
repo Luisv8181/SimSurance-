@@ -177,5 +177,76 @@ test('pixel world town features 8 interactive chambers and discovery seals', () 
   assert.match(page, /py-runner\.js/);
 });
 
+test('glim master curriculum covers all 7 units with statutory citations and complete graph integrity', () => {
+  const { WORKBOOK } = require('../learning-lab/visual-journey.js');
+  assert.ok(Array.isArray(WORKBOOK), 'WORKBOOK must be exported as an array');
+  assert.ok(WORKBOOK.length >= 25, 'WORKBOOK must have a comprehensive set of scenes');
+
+  // Verify all 7 units are present
+  const expectedUnits = [
+    'Unit I · The 5 Players',
+    'Unit II · Member Gauntlet',
+    'Unit III · Provider Realities',
+    'Unit IV · Inpatient & Crisis',
+    'Unit V · Statutory Ledgers',
+    'Unit VI · Parity Mirage',
+    'Unit VII · Solutions & Mastery',
+  ];
+  const presentUnits = new Set(WORKBOOK.map((s) => s.part));
+  expectedUnits.forEach((unit) => {
+    assert.ok(presentUnits.has(unit), `Unit "${unit}" must exist in WORKBOOK`);
+  });
+
+  // Verify scene IDs and graph transitions
+  const sceneIds = new Set(WORKBOOK.map((s) => s.id));
+  assert.equal(sceneIds.size, WORKBOOK.length, 'Every scene ID must be unique');
+
+  WORKBOOK.forEach((scene) => {
+    assert.ok(scene.id, 'Scene must have an id');
+    assert.ok(scene.part, `Scene ${scene.id} must have a part`);
+    assert.ok(scene.chapter, `Scene ${scene.id} must have a chapter`);
+    assert.ok(scene.text, `Scene ${scene.id} must have text`);
+
+    // Verify citation structure when present
+    if (scene.citation) {
+      assert.ok(scene.citation.title, `Scene ${scene.id} citation must have a title`);
+      assert.ok(scene.citation.statute, `Scene ${scene.id} citation must have a statute`);
+      assert.ok(scene.citation.quote, `Scene ${scene.id} citation must have a quote`);
+      assert.ok(scene.citation.url, `Scene ${scene.id} citation must have a url`);
+      assert.match(
+        scene.citation.url,
+        /^https:\/\/(www\.)?(pa\.gov|medicaid\.gov|cms\.gov|insurance\.pa\.gov|finance\.senate\.gov)/,
+        `Citation URL in ${scene.id} must be an official domain`,
+      );
+    }
+
+    // Verify further reading structure when present
+    if (scene.furtherReading) {
+      assert.ok(Array.isArray(scene.furtherReading), `furtherReading in ${scene.id} must be an array`);
+      scene.furtherReading.forEach((chip) => {
+        assert.ok(chip.label, `furtherReading chip in ${scene.id} must have a label`);
+        assert.ok(chip.url, `furtherReading chip in ${scene.id} must have a url`);
+      });
+    }
+
+    // Verify transition links exist
+    if (scene.next) {
+      assert.ok(sceneIds.has(scene.next), `Scene ${scene.id} next target "${scene.next}" must exist`);
+    }
+    if (scene.choices) {
+      assert.ok(Array.isArray(scene.choices), `choices in ${scene.id} must be an array`);
+      scene.choices.forEach((choice) => {
+        assert.ok(choice.text, `choice in ${scene.id} must have text`);
+        assert.ok(sceneIds.has(choice.next), `Choice target "${choice.next}" in ${scene.id} must exist`);
+      });
+    }
+  });
+
+  // Verify visual-journey.html includes the citation card and further reading containers
+  const page = fs.readFileSync(path.join(root, 'learning-lab/visual-journey.html'), 'utf8');
+  assert.match(page, /id="vj-citation-card"/, 'Citation card container must exist in HTML');
+  assert.match(page, /id="vj-further-reading"/, 'Further reading container must exist in HTML');
+});
+
 
 

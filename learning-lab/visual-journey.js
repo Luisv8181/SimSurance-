@@ -226,401 +226,602 @@
 
   const WORKBOOK = [
     // -------------------------------------------------------------
-    // PART I: GROUND TRUTH & THE ACCESS ILLUSION
+    // UNIT I: THE 5 PLAYERS IN THE SYSTEM
     // -------------------------------------------------------------
     {
       id: 'intro',
-      part: 'Part I · Access',
-      chapter: 'Ch 1 · Welcome to Riverbend',
-      text: "Hello! I'm Glim, your policy sprite and field guide. Welcome to Riverbend County. You're about to discover how managed care, Medicaid financing, and clinical delivery actually work together. Let's begin with someone you might meet in any county: Jordan.",
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 1 · Meet Glim & The 5-Player Ecosystem',
+      text: "Hello! I'm Glim, your policy guide and firefly sprite. Welcome to Riverbend County! Most people think health insurance is a simple vending machine: you insert a premium card, and an appointment comes out. But health insurance is actually an interdependent ecosystem of five distinct players with competing statutory rules and financial incentives. Let's inspect each player.",
       advantage: false,
-      next: 'p1c1a',
+      citation: {
+        title: 'Pennsylvania HealthChoices Behavioral Health Agreement (2023–2025)',
+        statute: 'PA DHS BHC-MCO Agreement § 1 · Program Purpose & Scope',
+        quote: 'The HealthChoices Behavioral Health Program is a mandatory managed care program established under Pennsylvania Department of Human Services oversight to provide quality, accessible mental health and drug and alcohol services to Medical Assistance recipients.',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/healthchoices.html',
+        urlLabel: 'PA DHS HealthChoices Program Overview',
+      },
+      furtherReading: [
+        { label: 'Compare Member & Provider Journeys', url: './journeys.html' },
+        { label: 'SimSurance Source Registry', url: './reading-policy.html' },
+      ],
+      next: 'u1_p1',
     },
     {
-      id: 'p1c1a',
-      part: 'Part I · Access',
-      chapter: 'Ch 1 · Jordan and the Medicaid Card',
-      text: "Jordan is 28 years old and just received an active Pennsylvania HealthChoices card in the mail. They need behavioral health support and call Riverbend Community Clinic for an intake appointment. What do you think happens next?",
+      id: 'u1_p1',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 1 · Player 1: The Member (Patient)',
+      text: "First, meet Jordan, our community member. In commercial insurance, members face high deductibles—often $1,500 to $6,000 in out-of-pocket spending before insurance pays a penny. In Medicaid, cost-sharing is legally capped at near-zero. But having zero copays doesn't guarantee access if no clinic has an open door.",
+      advantage: true,
+      advantageText: 'Member Rule: Cost-Sharing != Access',
+      citation: {
+        title: 'Federal Medicaid Cost-Sharing Exemptions',
+        statute: '42 CFR § 447.56 · Limitations on Cost Sharing',
+        quote: 'No cost sharing may be imposed on individuals with family income at or below 100 percent of the FPL... and total cost sharing incurred by all individuals in the family may not exceed 5 percent of family income.',
+        url: 'https://www.medicaid.gov/medicaid/cost-sharing/index.html',
+        urlLabel: 'Medicaid.gov Cost Sharing Rules',
+      },
+      furtherReading: [
+        { label: "Jordan's Care Journey Case Study", url: './journeys.html' },
+      ],
+      next: 'u1_p2',
+    },
+    {
+      id: 'u1_p2',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 2 · Player 2: The Outpatient Clinician',
+      text: "Next, meet Dr. Ramirez, an outpatient therapist. Why do nearly 40% of licensed behavioral health clinicians refuse to take insurance? Becoming paneled requires 90 to 180 days of unpaid credentialing (CAQH), claims can be rejected for minor coding discrepancies, and statutory fee schedules often pay 50% below commercial market rates.",
       advantage: false,
+      citation: {
+        title: 'PA Act 68 Provider Credentialing Protections',
+        statute: '40 P.S. § 991.2111 · Credentialing & Network Participation',
+        quote: 'A managed care plan shall establish a credentialing committee... and shall conclude its review within 45 days after receiving a completed application.',
+        url: 'https://www.insurance.pa.gov/Consumers/Pages/Act-68-Appeals.aspx',
+        urlLabel: 'PA Insurance Dept Credentialing Protections',
+      },
       choices: [
-        { text: "They get scheduled for an appointment this Thursday.", next: 'p1c1b_myth' },
-        { text: "They're told the next available intake slot is 14 weeks away.", next: 'p1c1b_reality' },
+        { text: 'Why do therapists drop out of insurance networks?', next: 'u1_p2_dropout' },
+        { text: 'What does a paneled practice look like financially?', next: 'u1_p2_paneled' },
       ],
     },
     {
-      id: 'p1c1b_myth',
-      part: 'Part I · Access',
-      chapter: 'Ch 1 · The Commercial Myth',
-      text: "You'd think so, wouldn't you? In commercial health insurance marketing, having an insurance card feels like holding an all-access ticket. But in public managed care, coverage is not an appointment slot.",
+      id: 'u1_p2_dropout',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 2 · Outpatient Realities: Dropout Friction',
+      text: "When a clinician spends 10 hours a week on unpaid prior-authorization appeals, electronic billing software, and credentialing audits, private cash-pay practice becomes tempting. But cash practices exclude working families who cannot afford $150 to $200 per session out of pocket.",
       advantage: true,
-      advantageText: 'Policy Insight: Coverage != Access',
-      next: 'p1c1c',
-    },
-    {
-      id: 'p1c1b_reality',
-      part: 'Part I · Access',
-      chapter: 'Ch 1 · The Access Reality',
-      text: "Spot on. 14 weeks. Jordan has active Medicaid, zero co-pays, and a contracted clinic in town. But there are physically no open clinician hours on the calendar. Coverage guarantees payment; it does not fabricate provider hours.",
-      advantage: true,
-      advantageText: 'Policy Insight: Coverage != Access',
-      next: 'p1c1c',
-    },
-    {
-      id: 'p1c1c',
-      part: 'Part I · Access',
-      chapter: 'Ch 1 · The Riverbend Town Map',
-      text: "Take a look at Riverbend County below. Jordan lives on the left; the Waiting Station is in the center; Riverbend Community Clinic is on the hill. Tap any landmark or fast-travel pill to inspect its policy chamber.",
-      advantage: false,
-      panel: { type: 'town' },
-      next: 'p1c1d',
-    },
-    {
-      id: 'p1c1d',
-      part: 'Part I · Access',
-      chapter: 'Ch 2 · Commercial vs Statutory Reality',
-      text: "Under Pennsylvania's BHC-MCO agreement, HealthChoices plans must meet network adequacy standards on paper. But paper contracts cannot create clinical hours if providers are booked to capacity. Compare the two mental models below:",
-      advantage: true,
-      advantageText: 'Statutory Reality: The Network Fallacy',
+      advantageText: 'Provider Dilemma: Administrative Friction',
       panel: {
         type: 'beforeafter',
-        before: "COMMERCIAL INSURANCE ASSUMPTION:\n- If you have an active card, you can book care.\n- Supply naturally expands to meet paying demand.\n- Cost-sharing (deductibles, co-pays) is the main barrier.",
-        after: "STATUTORY MEDICAID REALITY:\n- Zero cost-sharing removes financial barriers for the member.\n- But provider supply is bounded by statutory fee schedules.\n- Wait queues become the true rationing mechanism.",
-        note: "Notice: An insurance contract does not employ clinicians; it only reimburses them according to fee schedules.",
+        before: "CASH-PAY PRIVATE PRACTICE:\n- Client Fee: $150–$200 per 50-minute session.\n- Payment: Paid immediately by client at time of service.\n- Overhead: Zero billing claims, no prior auth forms.\n- Equity Barrier: Excludes lower-income families who rely on insurance.",
+        after: "INSURANCE-PANELED PRACTICE:\n- Fee Schedule: $90 per 45-minute CPT 90834.\n- Payment: 30–45 day adjudication delay; clawback risk.\n- Overhead: $30–$45/hr billing staff, EHR software, appeal filings.\n- Community Impact: Serves Medicaid & insured families, but operates near break-even.",
+        note: "Clinicians weigh community mission against practice solvency. When administrative friction is too severe, providers exit insurance panels.",
       },
-      next: 'p1c1_ex',
+      next: 'u1_p3',
     },
     {
-      id: 'p1c1_ex',
-      part: 'Part I · Access',
-      chapter: 'Ch 2 · Exercise 1.1: The Access Gap',
-      text: "Let's capture this foundational truth. Before we examine queues, record your clinical or administrative takeaway below. Your notes are automatically saved to your browser.",
+      id: 'u1_p2_paneled',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 2 · Outpatient Realities: The Fee Schedule',
+      text: "In an insurance-paneled clinic, the clinic bills $150, but the contracted fee schedule pays only $90. After subtracting facility rent, billing overhead, and health record licenses ($45/hr), the clinician nets $45/hr. Compare the models below:",
+      advantage: true,
+      advantageText: 'Provider Dilemma: The Overhead Squeeze',
+      panel: {
+        type: 'beforeafter',
+        before: "CASH-PAY PRIVATE PRACTICE:\n- Client Fee: $150–$200 per 50-minute session.\n- Payment: Paid immediately by client at time of service.\n- Overhead: Zero billing claims, no prior auth forms.\n- Equity Barrier: Excludes lower-income families who rely on insurance.",
+        after: "INSURANCE-PANELED PRACTICE:\n- Fee Schedule: $90 per 45-minute CPT 90834.\n- Payment: 30–45 day adjudication delay; clawback risk.\n- Overhead: $30–$45/hr billing staff, EHR software, appeal filings.\n- Community Impact: Serves Medicaid & insured families, but operates near break-even.",
+        note: "Clinicians weigh community mission against practice solvency. When administrative friction is too severe, providers exit insurance panels.",
+      },
+      next: 'u1_p3',
+    },
+    {
+      id: 'u1_p3',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 3: Inpatient & Crisis Facilities',
+      text: "When a person enters acute crisis, they arrive at an inpatient psychiatric hospital or emergency room. While outpatient therapy costs ~$90 a session, an inpatient psychiatric bed costs $1,200 to $2,500 per day! Because beds are scarce, patients in crisis frequently wait days in emergency room hallways—a crisis known as ER boarding.",
+      advantage: true,
+      advantageText: 'System Invariant: Acute Cost Disparity',
+      citation: {
+        title: 'Pennsylvania Mental Health Procedures Act',
+        statute: '50 P.S. § 7302 (Act 147) · Involuntary Emergency Examination',
+        quote: 'A person who is severely mentally disabled and in need of immediate treatment may be taken to a facility for emergency examination... examination shall take place within two hours of arrival.',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/mental-health.html',
+        urlLabel: 'PA Mental Health Procedures Act Overview',
+      },
+      furtherReading: [
+        { label: 'Hospital Capacity & Workforce Case', url: '#case-capacity' },
+      ],
+      next: 'u1_p4',
+    },
+    {
+      id: 'u1_p4',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4: The Managed Care Organization (MCO)',
+      text: "Pennsylvania uses a special 'carve-out' model for Medicaid: physical health is handled by one plan, but behavioral health is carved out to county-specific Behavioral Health MCOs (like CCBH or Magellan). The MCO receives a fixed monthly payment per member (capitation) and bears the financial risk if claims exceed the budget.",
+      advantage: false,
+      citation: {
+        title: 'PA HealthChoices Behavioral Health Carve-Out Agreement',
+        statute: 'PA DHS BHC-MCO § 3 · Risk-Bearing Capitation Responsibilities',
+        quote: 'The Primary Contractor shall operate on a risk-bearing capitated basis, administering a comprehensive network of behavioral health providers while maintaining financial reserves required by Pennsylvania law.',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/healthchoices.html',
+        urlLabel: 'PA DHS BHC-MCO Contract Agreement',
+      },
+      furtherReading: [
+        { label: 'Follow the Money Flow', url: './money-flow.html' },
+      ],
+      next: 'u1_p5',
+    },
+    {
+      id: 'u1_p5',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5: Regulators (CMS & State Agencies)',
+      text: "Finally, the fifth player: State and Federal Regulators. The federal Centers for Medicare & Medicaid Services (CMS) provides matching funds (FMAP). Pennsylvania DHS oversees HealthChoices, and the Pennsylvania Insurance Department (PID) enforces federal parity laws (MHPAEA) and Act 68 quality standards.",
+      advantage: true,
+      advantageText: 'Oversight: Parity & MLR Mandates',
+      citation: {
+        title: 'Federal Medicaid Managed Care Regulations',
+        statute: '42 CFR Part 438 · Managed Care State Oversight & MLR',
+        quote: 'The State must ensure through its contracts that each MCO maintains an adequate network, complies with parity requirements under MHPAEA, and meets minimum Medical Loss Ratio (MLR) standards of 85 percent.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/index.html',
+        urlLabel: 'Medicaid.gov 42 CFR Part 438 Regulations',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Why does Pennsylvania use a "carve-out" structure for Medicaid behavioral health?',
+        opts: [
+          'A) To hide insurance profits from public audits.',
+          'B) To dedicate specialized county-level management and funding specifically to mental health and addiction services without competing against physical health hospital deficits.',
+          'C) Because federal law prohibits physical health doctors from treating patients with mental illness.',
+        ],
+        answer: 1,
+        explanation: "Correct! Pennsylvania's HealthChoices carve-out was specifically architected to guarantee that dedicated county-level funds could not be diverted away from behavioral health into physical hospital shortfalls.",
+      },
+      next: 'u2_p1',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT II: THE MEMBER GAUNTLET (ACCESS VS COVERAGE)
+    // -------------------------------------------------------------
+    {
+      id: 'u2_p1',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 4 · The Access Illusion: Coverage != Slot',
+      text: "Now let's follow Jordan through the Member Gauntlet. Jordan has active Pennsylvania HealthChoices coverage. They call Riverbend Community Clinic for an intake. But the receptionist says: 'Our next intake slot is 14 weeks from today.' Why does an active insurance card not get Jordan into a chair this week?",
+      advantage: false,
+      choices: [
+        { text: "Because the clinic refused to accept Jordan's Medicaid card.", next: 'u2_p1_myth' },
+        { text: 'Because all clinician calendar hours are already booked with current patients.', next: 'u2_p1_truth' },
+      ],
+    },
+    {
+      id: 'u2_p1_myth',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 4 · The Administrative Fallacy',
+      text: "Actually, Riverbend Clinic is contracted and accepts Jordan's card! Jordan owes $0. The roadblock isn't financial authorization—it's calendar physics. There are only 40 staffed hours in a therapist's workweek.",
+      advantage: true,
+      advantageText: 'Access Reality: Calendar Physics',
+      next: 'u2_p1_map',
+    },
+    {
+      id: 'u2_p1_truth',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 4 · Calendar Physics & Network Adequacy',
+      text: "Exactly. The clinic wants to see Jordan, but clinician schedules are completely full. Pennsylvania contracts require routine care within 7 business days, yet statewide waitlists regularly exceed 10 to 16 weeks. A card guarantees payment; it does not fabricate clinician time.",
+      advantage: true,
+      advantageText: 'Access Reality: Calendar Physics',
+      next: 'u2_p1_map',
+    },
+    {
+      id: 'u2_p1_map',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 4 · Explore Riverbend Town',
+      text: "Look at Riverbend Town below. Jordan's house is near Town Hall on the left. The clinic is on the hill to the northeast. Tap the landmarks to see how county resources are divided.",
+      advantage: false,
+      citation: {
+        title: 'PA HealthChoices Timely Access Standard',
+        statute: 'PA DHS BHC-MCO § Appendix F · Network Adequacy Benchmarks',
+        quote: 'Routine outpatient appointments must be made available within seven (7) business days of request. Urgent care must be made available within twenty-four (24) hours.',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/healthchoices.html',
+        urlLabel: 'PA DHS Appointment Timeliness Standards',
+      },
+      panel: { type: 'town' },
+      next: 'u2_p2',
+    },
+    {
+      id: 'u2_p2',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 5 · Ghost Networks & Phantom Directories',
+      text: "What if Jordan tries calling other therapists listed in the insurer's provider directory? In 2023, the US Senate Finance Committee conducted secret-shopper calls across managed care directories: over 80% of listed providers were 'ghosts'—unreachable, no longer practicing, or not taking new Medicaid patients.",
+      advantage: true,
+      advantageText: 'Directory Audit: Ghost Networks',
+      citation: {
+        title: 'US Senate Committee on Finance Investigation (May 2023)',
+        statute: 'Senate Finance Staff Report · Ghost Networks in Managed Care',
+        quote: 'Secret shopper calls to 336 behavioral health providers across 12 health plans revealed that 82% of listed in-network providers were ghost entries that could not provide an in-network appointment.',
+        url: 'https://www.finance.senate.gov/chairmans-news/finance-committee-report-reveals-widespread-ghost-networks-in-medicare-advantage',
+        urlLabel: 'US Senate Finance Committee Ghost Networks Report',
+      },
+      furtherReading: [
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
+      next: 'u2_p3',
+    },
+    {
+      id: 'u2_p3',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 5 · Redetermination Churn & The Coverage Cliff',
+      text: "Even worse: while waiting 14 weeks on the waitlist, Jordan might receive a renewal packet in the mail. If a form is missed or an address changes, coverage is abruptly terminated—an administrative event called 'churn'. The member drops off Medicaid, loses their spot on the waitlist, and the cycle resets.",
+      advantage: false,
+      citation: {
+        title: 'CMS Medicaid Unwinding & Renewal Protections',
+        statute: '42 CFR § 435.916 · Periodic Redetermination of Eligibility',
+        quote: 'The agency must make a redetermination of eligibility without requiring information from the individual if able to do so based on reliable information contained in the account or other databases.',
+        url: 'https://www.medicaid.gov/resources-for-states/coronavirus-disease-2019-covid-19/unwinding-and-returning-to-regular-operations-after-covid-19/index.html',
+        urlLabel: 'Medicaid.gov Redetermination Guidance',
+      },
+      panel: {
+        type: 'exercise',
+        title: 'Exercise 2.1: The Member Journey Audit',
+        steps: [
+          'Identify the two distinct failure modes Jordan faces (calendar scarcity vs paperwork churn).',
+          'Explain why fixing directory accuracy alone does not shorten clinic wait times without expanding clinical hours.',
+        ],
+        fields: [{ label: 'Reflect on how Jordan experiences the difference between coverage and care:', id: 'ex2_gauntlet' }],
+      },
+      next: 'u2_p4',
+    },
+    {
+      id: 'u2_p4',
+      part: 'Unit II · Member Gauntlet',
+      chapter: 'Ch 6 · The Retention Paradox (52-Week Queue Scrubber)',
+      text: "Riverbend tried launching a 'Care Coordination Pilot' to help Jordan. The coordinator called members and drove appointment attendance up from 68% to 89%! But look what happened: because patients stayed in therapy, appointment slots stayed full, and the waitlist for new patients spiked from 13 to 22 people! Scrub through 52 weeks below:",
+      advantage: true,
+      advantageText: 'System Paradox: The Retention Trap',
+      panel: { type: 'scrubber' },
+      furtherReading: [
+        { label: 'Explore Virtual County Lab', url: './county-lab.html' },
+      ],
+      next: 'u3_p1',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT III: THE OUTPATIENT PROVIDER REALITY & BILLING
+    // -------------------------------------------------------------
+    {
+      id: 'u3_p1',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 7 · The Credentialing Desert (CAQH & 180 Days)',
+      text: "Now let's switch perspectives to Dr. Ramirez. When a newly licensed clinical psychologist or social worker joins Riverbend Clinic, they cannot simply start billing Medicaid. First comes Credentialing: submitting 50-page applications through CAQH, verifying transcripts, malpractice coverage, and board certifications.",
+      advantage: false,
+      citation: {
+        title: 'Pennsylvania Act 68 Credentialing Standards',
+        statute: '40 P.S. § 991.2111(b) · Managed Care Credentialing Timeline',
+        quote: "A managed care plan shall establish a credentialing committee and shall notify a health care provider within 45 days after receiving a complete application of the committee's determination.",
+        url: 'https://www.insurance.pa.gov/Consumers/Pages/Act-68-Appeals.aspx',
+        urlLabel: 'PA Act 68 Credentialing Provisions',
+      },
+      choices: [
+        { text: 'Can clinicians see patients while waiting for credentialing?', next: 'u3_p1_incident' },
+        { text: 'Why does credentialing take so long in practice?', next: 'u3_p1_delay' },
+      ],
+    },
+    {
+      id: 'u3_p1_incident',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 7 · The Incident-To Trap',
+      text: "Under commercial and Medicaid rules, if an uncredentialed clinician provides care independently, the claim will be denied as 'Out-of-Network' or 'Unregistered Provider'. Billing under a supervisor's NPI without meeting strict 'incident-to' criteria is considered billing fraud. So providers sit idle for months!",
+      advantage: true,
+      advantageText: 'Compliance Hazard: Billing NPI Rules',
+      next: 'u3_p2',
+    },
+    {
+      id: 'u3_p1_delay',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 7 · Primary Source Verification Backlogs',
+      text: "In practice, although Act 68 mandates 45 days for completed files, insurers frequently pause the clock by requesting supplemental documentation. The real-world delay averages 90 to 180 days across Pennsylvania, choking off workforce recruitment.",
+      advantage: true,
+      advantageText: 'Administrative Friction: Workforce Stalls',
+      next: 'u3_p2',
+    },
+    {
+      id: 'u3_p2',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 8 · Billing Lifecycle: CPT Codes to EDI 835',
+      text: "When Dr. Ramirez conducts a session, how does it become income? Clinical care is translated into standardized HIPAA EDI transactions: CPT 90791 (Diagnostic Evaluation), CPT 90834 (45-min Therapy), or CPT 90837 (60-min Therapy). The clinic transmits an EDI 837P electronic claim, and weeks later receives an EDI 835 Electronic Remittance Advice.",
+      advantage: false,
+      citation: {
+        title: 'HIPAA Administrative Simplification Standards',
+        statute: '45 CFR § 162.1102 · Electronic Health Care Claims (EDI ASC X12 837P / 835)',
+        quote: 'Covered entities must use the standard transaction formats adopted by the Secretary for electronic transmission of health care claims and remittance advice notifications.',
+        url: 'https://www.cms.gov/regulations-and-guidance/administrative-simplification/hipaa-aca',
+        urlLabel: 'CMS HIPAA EDI Transactions Standards',
+      },
+      furtherReading: [
+        { label: 'Interactive Claims Lab', url: './claim-decisions.html' },
+      ],
+      next: 'u3_p3',
+    },
+    {
+      id: 'u3_p3',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 8 · The Interactive 4-Gate Claim Terminal',
+      text: "Here is Glim's Claims Adjudication Terminal. A claim is never an automatic check—it is an auditable legal inquiry. Toggle the 4 gates below: Eligibility, Network, Prior Auth, and Data Coding. See how each affects payment in real time:",
+      advantage: true,
+      advantageText: 'Clean Claim: Deterministic Adjudication',
+      panel: { type: 'claims' },
+      next: 'u3_p4',
+    },
+    {
+      id: 'u3_p4',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 9 · Fee Schedules, Overhead & Act 68 Appeals',
+      text: "Even when a claim is approved, look at the arithmetic: Billed charge: $150. Contracted allowed amount: $90. Practice overhead (rent, billing staff, software, insurance): $45/hr. The net take-home is just $45/hr. If a claim is wrongly denied, PA Act 68 grants a 2-level grievance and external independent review.",
+      advantage: true,
+      advantageText: 'Statutory Defense: Prompt Pay & Appeals',
+      citation: {
+        title: 'Pennsylvania Act 68 Prompt Pay and Grievance Statute',
+        statute: '40 P.S. § 991.2161 & § 991.2162 · Grievance System & Prompt Payment',
+        quote: 'A clean claim shall be paid within 45 days... Failure to pay within 45 days requires interest at ten percent (10%) per year. An enrollee or provider may file a grievance regarding medical necessity.',
+        url: 'https://www.insurance.pa.gov/Consumers/Pages/Act-68-Appeals.aspx',
+        urlLabel: 'PA Act 68 Prompt Pay & Grievance Rights',
+      },
+      next: 'u4_p1',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT IV: INPATIENT, CRISIS & SEVERE MENTAL ILLNESS
+    // -------------------------------------------------------------
+    {
+      id: 'u4_p1',
+      part: 'Unit IV · Inpatient & Crisis',
+      chapter: 'Ch 10 · The Crisis Gateway & Act 302 Commitment',
+      text: "Now let's examine acute inpatient care. When a person is experiencing severe psychosis or active suicidal intent, Pennsylvania's Mental Health Procedures Act governs involuntary admission under Section 302 (Act 147). A county Mental Health Delegate must authorize emergency evaluation within 2 hours of facility arrival.",
+      advantage: false,
+      citation: {
+        title: 'Pennsylvania Mental Health Procedures Act (Act 147)',
+        statute: '50 P.S. § 7302 · Involuntary Emergency Examination and Treatment',
+        quote: 'Upon written application by a physician or county delegate, a person who is severely mentally disabled may be taken to a facility for examination. Emergency treatment may continue for up to 120 hours.',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/mental-health.html',
+        urlLabel: 'PA DHS Mental Health Procedures Act Guidelines',
+      },
+      choices: [
+        { text: 'What happens after the 120-hour emergency hold expires?', next: 'u4_p1_303' },
+        { text: 'Who pays for emergency psychiatric evaluations?', next: 'u4_p1_payer' },
+      ],
+    },
+    {
+      id: 'u4_p1_303',
+      part: 'Unit IV · Inpatient & Crisis',
+      chapter: 'Ch 10 · Section 303 & Extended Commitment',
+      text: "If the treatment team determines the individual remains in acute danger, a formal judicial hearing is held under Section 303 for an extended 20-day involuntary commitment. The patient is represented by legal counsel before a Mental Health Review Officer.",
+      advantage: true,
+      advantageText: 'Legal Guardrail: Due Process in Commitment',
+      next: 'u4_p2',
+    },
+    {
+      id: 'u4_p1_payer',
+      part: 'Unit IV · Inpatient & Crisis',
+      chapter: 'Ch 10 · Emergency Mandate & EMTALA',
+      text: "Under the federal Emergency Medical Treatment and Labor Act (EMTALA) and PA Act 68, hospitals cannot refuse emergency stabilization based on inability to pay. Medicaid or commercial insurance must cover emergency evaluation without requiring prior authorization.",
+      advantage: true,
+      advantageText: 'Statutory Shield: Emergency Coverage Mandate',
+      next: 'u4_p2',
+    },
+    {
+      id: 'u4_p2',
+      part: 'Unit IV · Inpatient & Crisis',
+      chapter: 'Ch 11 · ASAM Levels of Care & Medical Necessity',
+      text: "For addiction and substance use disorders, Pennsylvania HealthChoices requires providers to evaluate members using the American Society of Addiction Medicine (ASAM) Criteria. Levels range from 1.0 (Outpatient) to 3.5 (Clinically Managed Residential) and 4.0 (Medically Managed Inpatient). Payers frequently deny residential claims citing 'lack of medical necessity for 24-hour nursing'.",
+      advantage: true,
+      advantageText: 'Clinical Framework: ASAM Multidimensional Triage',
+      citation: {
+        title: 'PA DHS Medical Assistance Bulletin on ASAM Placement',
+        statute: 'PA MAB 08-20-12 · Standardized ASAM Criteria Placement Guidelines',
+        quote: 'Providers must utilize ASAM criteria to assess Dimension 1 (Intoxication), Dimension 2 (Biomedical), Dimension 3 (Emotional), Dimension 4 (Readiness), Dimension 5 (Relapse), and Dimension 6 (Recovery Environment).',
+        url: 'https://www.pa.gov/en/agencies/dhs/resources/healthchoices.html',
+        urlLabel: 'PA Medical Assistance Bulletin: ASAM Placement',
+      },
+      next: 'u4_p3',
+    },
+    {
+      id: 'u4_p3',
+      part: 'Unit IV · Inpatient & Crisis',
+      chapter: 'Ch 11 · Emergency Room Boarding & Bed Scarcity',
+      text: "Why are psychiatric beds so hard to find in Pennsylvania? Inpatient psychiatric beds operate on razor-thin margins. Medicaid bed-day per diems often fall below staffed nursing costs, leading hospitals to decommission psychiatric units. As a result, patients in crisis sit in medical ERs for days waiting for bed placement.",
       advantage: false,
       panel: {
         type: 'exercise',
-        title: 'Exercise 1.1: The Access Gap',
+        title: 'Exercise 4.1: Crisis Resource Allocation',
         steps: [
-          'Articulate why an active insurance card cannot guarantee timely care.',
-          'Identify what serves as the rationing mechanism when price is removed.',
+          'Calculate the cost trade-off: 1 inpatient bed day ($1,800) equals 20 outpatient therapy sessions ($90).',
+          'Explain why hospital ER boarding increases when outpatient clinic waitlists are long.',
         ],
-        fields: [{ label: 'Why does coverage not equal access in Riverbend?', id: 'ex1_access' }],
+        fields: [{ label: 'Reflect on how outpatient appointment shortages feed the hospital boarding crisis:', id: 'ex4_crisis' }],
       },
-      next: 'p2c1a',
+      next: 'u5_p1',
     },
 
     // -------------------------------------------------------------
-    // PART II: THE RETENTION PARADOX & 52-WEEK QUEUE FLOW
+    // UNIT V: STATUTORY LEDGERS & CLOSED ACCOUNTING
     // -------------------------------------------------------------
     {
-      id: 'p2c1a',
-      part: 'Part II · Queues',
-      chapter: 'Ch 3 · The Waiting Station',
-      text: "Now, let's step into the County Waiting Station. Riverbend County decided to launch an innovation: the 'Care Coordination Pilot'. What did it do?",
-      advantage: false,
-      next: 'p2c1b',
-    },
-    {
-      id: 'p2c1b',
-      part: 'Part II · Queues',
-      chapter: 'Ch 3 · The Coordination Innovation',
-      text: "The pilot hired a dedicated care coordinator to call members, send reminders, resolve transportation hurdles, and support attendance. Attendance shot up from 68% to 89%! Completed therapy courses surged. An undeniable clinical triumph, right?",
-      advantage: false,
-      choices: [
-        { text: "Yes! Better attendance means the whole system is succeeding.", next: 'p2c1c_triumph' },
-        { text: "Wait... what happened to the people waiting in line?", next: 'p2c1c_queue' },
-      ],
-    },
-    {
-      id: 'p2c1c_triumph',
-      part: 'Part II · Queues',
-      chapter: 'Ch 4 · The Hidden Cost',
-      text: "Clinically, absolutely! Members in therapy stayed in therapy and achieved their clinical goals. But here comes the paradox: the intake waitlist exploded from 14 weeks to over 22 weeks!",
+      id: 'u5_p1',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · County Treasury: Capitation vs Claims',
+      text: "Let's visit the County Treasury. In health economics, mixing up cash flows is the number one source of false claims. In Riverbend County, the state transfers $2,400,000 in annual capitation to the MCO ($40 PMPM x 5,000 members x 12 months). Meanwhile, downstream clinical claims totaled $170,511, plus $83,200 for the coordinator ($253,711 system cost). Look at the ledger below:",
       advantage: true,
-      advantageText: 'System Paradox: The Retention Trap',
-      next: 'p2c1d',
-    },
-    {
-      id: 'p2c1c_queue',
-      part: 'Part II · Queues',
-      chapter: 'Ch 4 · The Systems Insight',
-      text: "You have the instincts of a true systems architect! When existing patients attend all their sessions, they occupy the clinic's appointment slots for longer. With zero slot turnover, new patients like Jordan are locked out even longer.",
-      advantage: true,
-      advantageText: 'System Paradox: The Retention Trap',
-      next: 'p2c1d',
-    },
-    {
-      id: 'p2c1d',
-      part: 'Part II · Queues',
-      chapter: 'Ch 4 · Interactive 52-Week Scrubber',
-      text: "I've mounted the 52-Week Queue Scrubber right into your console. Scrub through all 52 weeks and toggle between Baseline and the Care Coordination Pilot. Watch the waitlist curve climb!",
-      advantage: false,
-      panel: { type: 'scrubber' },
-      next: 'p2c1e',
-    },
-    {
-      id: 'p2c1e',
-      part: 'Part II · Queues',
-      chapter: 'Ch 5 · Pre vs Post Pilot Comparison',
-      text: "Look at week 52. In Baseline, the waitlist hovered around 13 people. In the Pilot, with 1.0x capacity, the waitlist climbed to over 22 people! Here is the stark contrast:",
-      advantage: true,
-      advantageText: 'System Paradox: Queue Accumulation',
-      panel: {
-        type: 'beforeafter',
-        before: "BASELINE SCENARIO (Week 52):\n- Attendance Rate: ~68%\n- Waitlist: ~13 members\n- Dropouts: Higher due to disengagement\n- New Intakes: Churn creates slot turnover",
-        after: "CARE COORDINATION PILOT (Week 52):\n- Attendance Rate: ~89%\n- Waitlist: ~22 members\n- Dropouts: Dramatically lower\n- New Intakes: Frozen out because existing slots are full",
-        note: "Improving clinical retention without expanding clinical capacity inevitably lengthens intake wait queues.",
+      advantageText: 'Accounting Invariant: The Firewall Principle',
+      citation: {
+        title: 'Federal Medicaid Managed Care Financial Standards',
+        statute: '42 CFR § 438.602 · Financial Auditing & Actuarial Soundness',
+        quote: 'The State agency must ensure that all payments to MCOs are actuarially sound... and that capitation payments are maintained in separate auditable risk pools from provider fee-for-service disbursements.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/index.html',
+        urlLabel: 'Medicaid.gov Actuarial Soundness Regulations',
       },
-      next: 'p2c1_quiz',
-    },
-    {
-      id: 'p2c1_quiz',
-      part: 'Part II · Queues',
-      chapter: 'Ch 5 · Knowledge Check: Retention Paradox',
-      text: "Test your understanding of the Retention Paradox with this quick evaluation:",
-      advantage: false,
-      panel: {
-        type: 'quiz',
-        q: 'Why did the care coordination pilot increase the county waitlist?',
-        opts: [
-          'A) The coordinator referred too many ineligible members.',
-          'B) Retained members attended all scheduled sessions, keeping fixed appointment slots occupied longer.',
-          'C) Clinicians worked fewer hours during the pilot.',
-        ],
-        answer: 1,
-        explanation: 'Correct! When retention rises from 68% to 89%, each member utilizes their full treatment course, keeping fixed slots full and reducing intake turnover.',
-      },
-      next: 'p3c1a',
-    },
-
-    // -------------------------------------------------------------
-    // PART III: PROVIDER CAPACITY & MULTIPLIERS
-    // -------------------------------------------------------------
-    {
-      id: 'p3c1a',
-      part: 'Part III · Capacity',
-      chapter: 'Ch 6 · Riverbend Clinic',
-      text: "Let's walk up the hill to Riverbend Community Clinic. How do we resolve the retention paradox? Can a care coordinator schedule more hours into a day?",
-      advantage: false,
-      choices: [
-        { text: "No, only clinicians can provide clinical hours.", next: 'p3c1b_yes' },
-        { text: "Could AI or paperwork reduction solve it completely?", next: 'p3c1b_partial' },
-      ],
-    },
-    {
-      id: 'p3c1b_yes',
-      part: 'Part III · Capacity',
-      chapter: 'Ch 6 · The Binding Constraint',
-      text: "Exactly. The binding constraint in the entire county is clinician appointment hours. If you want high retention and short wait queues, you must expand provider capacity.",
-      advantage: true,
-      advantageText: 'Clinical Reality: Capacity is King',
-      next: 'p3c1c',
-    },
-    {
-      id: 'p3c1b_partial',
-      part: 'Part III · Capacity',
-      chapter: 'Ch 6 · Administrative Limits',
-      text: "Administrative efficiency helps, but if all 20 therapy slots are full, an intake appointment requires a 21st slot. The only mathematical solution is clinician capacity.",
-      advantage: true,
-      advantageText: 'Clinical Reality: Capacity is King',
-      next: 'p3c1c',
-    },
-    {
-      id: 'p3c1c',
-      part: 'Part III · Capacity',
-      chapter: 'Ch 7 · The Capacity Multiplier',
-      text: "Here is the interactive Capacity Multiplier tool. Adjust clinician hours from 0.75x (severe clinician shortage) up to 1.5x (expanded staffing) and watch what happens to the waitlist.",
-      advantage: false,
-      panel: { type: 'capacity' },
-      next: 'p3c1d',
-    },
-    {
-      id: 'p3c1d',
-      part: 'Part III · Capacity',
-      chapter: 'Ch 7 · The Synergistic Golden Mean',
-      text: "Notice the collapse! When capacity hits 1.25x or 1.5x, the week-52 waitlist drops back to single digits, and annual completed treatments hit record highs. Care coordination plus Capacity expansion is the golden combination.",
-      advantage: true,
-      advantageText: 'Policy Insight: Dual Intervention Synergy',
-      next: 'p4c1a',
-    },
-
-    // -------------------------------------------------------------
-    // PART IV: STATUTORY LEDGERS & CLOSED INVARIANTS
-    // -------------------------------------------------------------
-    {
-      id: 'p4c1a',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 8 · County Treasury',
-      text: "Now follow me across the stone bridge to the County Treasury. Let's talk about the money. In Medicaid managed care, accounting rules are statutory, not commercial.",
-      advantage: false,
-      next: 'p4c1b',
-    },
-    {
-      id: 'p4c1b',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 8 · The Upstream Capitation Pool',
-      text: "Here is the statutory ledger. Riverbend MCO receives $2,400,000 in annual capitation from the state. Downstream, the MCO pays Riverbend Clinic $225,000 for visits and pays $28,000 for coordinator salary. Total downstream system cost: $253,000.",
-      advantage: false,
       panel: { type: 'ledger' },
-      next: 'p4c1c',
-    },
-    {
-      id: 'p4c1c',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 9 · The Double-Counting Trap',
-      text: "A careless analyst looking at these figures might add them together: '$2.4M + $253k = $2.65M in total healthcare spending!' What is fundamentally wrong with that addition?",
-      advantage: false,
-      choices: [
-        { text: "It double-counts the money! The $253k came out of the $2.4M capitation pool.", next: 'p4c1d_correct' },
-        { text: "The numbers don't match inflation adjustments.", next: 'p4c1d_incorrect' },
+      furtherReading: [
+        { label: 'Follow the Money Flow', url: './money-flow.html' },
       ],
+      next: 'u5_p2',
     },
     {
-      id: 'p4c1d_correct',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 9 · Closed Ledger Invariant',
-      text: "Brilliant! You avoided the Double-Counting Trap. Capitation is an upstream inter-governmental transfer. System costs are downstream disbursements. Adding them counts the same dollar twice!",
+      id: 'u5_p2',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Double-Counting Trap & 85% MLR Guardrail',
+      text: "Never add $2.4M + $253k together! That is the Double-Counting Trap: capitation is the upstream reservoir; downstream claims are paid out of that reservoir. Furthermore, under federal law (42 CFR § 438.8), the MCO must spend at least 85% of capitation on clinical care and quality improvement. If administrative costs and profit exceed 15%, the plan must issue a refund (remittance) to the state.",
       advantage: true,
-      advantageText: 'Economic Invariant: Closed Ledger Rule',
-      next: 'p4c1e',
-    },
-    {
-      id: 'p4c1d_incorrect',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 9 · Avoiding Accounting Fallacies',
-      text: "Careful! The $2.4M is the pool of funds handed down by the state; the $253k is paid *out* of that pool to providers. Adding them together counts the same taxpayer dollars twice.",
-      advantage: true,
-      advantageText: 'Economic Invariant: Closed Ledger Rule',
-      next: 'p4c1e',
-    },
-    {
-      id: 'p4c1e',
-      part: 'Part IV · Finance',
-      chapter: 'Ch 9 · Knowledge Check: Statutory Ledger',
-      text: "Let's lock in this statutory invariant with a quick check:",
-      advantage: false,
+      advantageText: 'Federal Guardrail: 85% Medical Loss Ratio',
+      citation: {
+        title: 'Federal Medical Loss Ratio (MLR) Requirements',
+        statute: '42 CFR § 438.8 · Medical Loss Ratio Standards for Managed Care',
+        quote: 'Each MCO, PIHP, or PAHP must calculate and report an MLR... each MCO must maintain an MLR of at least 85 percent for the rating period. Remittance to the State is required if the standard is not met.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/index.html',
+        urlLabel: 'Medicaid.gov 42 CFR § 438.8 MLR Rule',
+      },
       panel: {
         type: 'quiz',
-        q: 'In health economics reporting, why must capitation transfers remain separate from service payments?',
+        q: 'What occurs if an MCO spends only 78% of its capitation revenue on clinical care and quality initiatives?',
         opts: [
-          'A) Because capitation is commercial and service payments are private.',
-          'B) Because capitation is an upstream financing transfer from which downstream claims are paid; combining them double-counts the funds.',
-          'C) Because state law forbids tracking both numbers in the same fiscal year.',
+          'A) The MCO keeps the remaining 22% as bonus profit.',
+          'B) The MCO violates the 85% MLR standard and must remit the excess difference back to the State Medicaid agency.',
+          'C) The state immediately cancels all member Medicaid cards.',
         ],
         answer: 1,
-        explanation: 'Correct! Upstream risk-bearing capitation transfers cannot be aggregated with downstream provider disbursements without creating double-counted inflation.',
+        explanation: 'Correct! Under 42 CFR § 438.8, managed care organizations must achieve an 85% Medical Loss Ratio. Failing to meet this threshold triggers mandatory financial remittances back to the commonwealth.',
       },
-      next: 'p5c1a',
+      next: 'u6_p1',
     },
 
     // -------------------------------------------------------------
-    // PART V: THE CLAIMS ADJUDICATION MACHINE
+    // UNIT VI: THE PARITY MIRAGE & SYSTEMIC GAPS
     // -------------------------------------------------------------
     {
-      id: 'p5c1a',
-      part: 'Part V · Claims',
-      chapter: 'Ch 10 · Adjudication Terminal',
-      text: "Let's cross over to the Claims Adjudication Terminal. When Dr. Ramirez finishes a 45-minute psychotherapy session (CPT 90834) with Jordan, what is a claim?",
+      id: 'u6_p1',
+      part: 'Unit VI · Parity Mirage',
+      chapter: 'Ch 13 · MHPAEA: Federal Parity & 2024 Final Rule',
+      text: "Why is behavioral health access so much harder to obtain than physical health care? In 2008, Congress passed the Mental Health Parity and Addiction Equity Act (MHPAEA), reinforced by the landmark 2024 Final Rule. It mandates that mental health benefits cannot have stricter limits than medical/surgical benefits.",
       advantage: false,
+      citation: {
+        title: 'Mental Health Parity and Addiction Equity Act & 2024 Final Rule',
+        statute: '42 U.S.C. § 300gg-26 & 89 FR 77582 · Parity in Mental Health and Substance Use',
+        quote: 'Plans may not design or apply nonquantitative treatment limitations (NQTLs) that impose greater operational burdens or restrictions on access to mental health benefits than to medical/surgical benefits.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity-act',
+        urlLabel: 'CMS Parity Regulations & 2024 Final Rule',
+      },
+      furtherReading: [
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       choices: [
-        { text: "A claim is a check waiting to be cashed automatically.", next: 'p5c1b_check' },
-        { text: "A claim is a formal petition for statutory reimbursement.", next: 'p5c1b_petition' },
+        { text: 'What is a Quantitative Treatment Limitation (QTL)?', next: 'u6_p1_qtl' },
+        { text: 'What is a Non-Quantitative Treatment Limitation (NQTL)?', next: 'u6_p1_nqtl' },
       ],
     },
     {
-      id: 'p5c1b_check',
-      part: 'Part V · Claims',
-      chapter: 'Ch 10 · Claims are Inquiries',
-      text: "In consumer commerce, submitting a bill means getting paid. In Medicaid, a claim is a rigorous question: 'Did an eligible provider deliver a covered service to an eligible member under plan rules?'",
+      id: 'u6_p1_qtl',
+      part: 'Unit VI · Parity Mirage',
+      chapter: 'Ch 13 · Quantitative Treatment Limitations (QTLs)',
+      text: "QTLs are numerical limits: copay dollars, coinsurance percentages, deductible amounts, or annual visit caps. Insurers cannot charge a $50 copay for therapy if an office visit with a medical doctor only requires $25.",
       advantage: true,
-      advantageText: 'Clean Claim: 4-Gate Verification',
-      next: 'p5c1c',
+      advantageText: 'Parity Standard: QTL Equality',
+      next: 'u6_p2',
     },
     {
-      id: 'p5c1b_petition',
-      part: 'Part V · Claims',
-      chapter: 'Ch 10 · The Four Verification Gates',
-      text: "Precisely. A claim is a formal, auditable petition. To pass into payment, it must successfully navigate 4 distinct verification gates.",
+      id: 'u6_p1_nqtl',
+      part: 'Unit VI · Parity Mirage',
+      chapter: 'Ch 13 · Non-Quantitative Treatment Limitations (NQTLs)',
+      text: "NQTLs are where the real barriers hide: prior authorization frequency, concurrent review scrutiny, network credentialing stringency, and reimbursement fee schedules. Insurers often subject psychiatric claims to rigorous review while approving surgical visits without friction.",
       advantage: true,
-      advantageText: 'Clean Claim: 4-Gate Verification',
-      next: 'p5c1c',
+      advantageText: 'Parity Frontier: NQTL Scrutiny',
+      next: 'u6_p2',
     },
     {
-      id: 'p5c1c',
-      part: 'Part V · Claims',
-      chapter: 'Ch 11 · Interactive Adjudication Sandbox',
-      text: "Here is the interactive Claims Adjudication Terminal. Change the 4 parameters below to see the engine's determination in real time:",
-      advantage: false,
-      panel: { type: 'claims' },
-      next: 'p5c1d',
+      id: 'u6_p2',
+      part: 'Unit VI · Parity Mirage',
+      chapter: 'Ch 14 · PA Act 111 & State Parity Enforcement',
+      text: "In 2020, Pennsylvania enacted Act 111 to give the Pennsylvania Insurance Department teeth to enforce parity. Act 111 requires commercial and Medicaid insurers to submit detailed comparative analyses proving their NQTL policies don't discriminate against mental health care.",
+      advantage: true,
+      advantageText: 'State Law: PA Act 111 Parity Audits',
+      citation: {
+        title: 'Pennsylvania Act 111 of 2020 Parity Law',
+        statute: '40 P.S. § 908-111 · Mental Health Parity Compliance Auditing',
+        quote: 'The Insurance Department shall enforce MHPAEA and review insurer comparative analyses of nonquantitative treatment limitations to ensure equal access to behavioral health services across Pennsylvania.',
+        url: 'https://www.insurance.pa.gov/Coverage/MentalHealth/Pages/default.aspx',
+        urlLabel: 'PA Insurance Dept Act 111 Parity Guidelines',
+      },
+      next: 'u6_p3',
     },
     {
-      id: 'p5c1d',
-      part: 'Part V · Claims',
-      chapter: 'Ch 11 · The Adjudication Rules',
-      text: "Notice the determinations:\n1. Ineligible member -> DENIED\n2. Out-of-network provider -> DENIED\n3. Missing prior auth -> PENDING CLINICAL REVIEW\n4. Malformed billing NPI -> PENDING DATA CORRECTION\n5. Clean claim -> APPROVED ($90.00)",
+      id: 'u6_p3',
+      part: 'Unit VI · Parity Mirage',
+      chapter: 'Ch 14 · Provider Capacity Multiplier Bottleneck',
+      text: "Even with parity laws on the books, legal rights cannot fabricate clinical hours if there are simply not enough clinicians staffed in the county. Toggling provider capacity from 0.75x (severe clinician shortage) up to 1.5x (expanded clinic hours) shows how workforce supply controls wait times:",
       advantage: true,
-      advantageText: 'Rule Invariant: Adjudication Determinism',
-      next: 'p6c1a',
+      advantageText: 'Workforce Realities: Capacity Sets the Pace',
+      panel: { type: 'capacity' },
+      next: 'u7_p1',
     },
 
     // -------------------------------------------------------------
-    // PART VI: PYTHON POLICY LAB & POLICY PROVENANCE
+    // UNIT VII: SOLUTIONS, PYTHON WASM & TOWN PASSPORT
     // -------------------------------------------------------------
     {
-      id: 'p6c1a',
-      part: 'Part VI · Simulation',
-      chapter: 'Ch 12 · Bytecode Mill',
-      text: "Now, let's head down to the Bytecode Mill and Archives. Why do we run discrete-event simulations instead of static spreadsheets?",
-      advantage: false,
-      next: 'p6c1b',
-    },
-    {
-      id: 'p6c1b',
-      part: 'Part VI · Simulation',
-      chapter: 'Ch 12 · Why Discrete Events Matter',
-      text: "Because spreadsheets hide variance, queue spikes, and discrete patient arrival distributions. In the real world, human emergencies don't arrive in smooth averages of 0.23 patients per hour.",
+      id: 'u7_p1',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 15 · Collaborative Care Model (CoCM)',
+      text: "How do we solve the national clinician shortage? One proven answer is the Collaborative Care Model (CoCM). Instead of a psychiatrist seeing one patient per hour in private practice, a consulting psychiatrist supervises a care manager embedded in a primary care clinic, managing 50 to 100 patients collaboratively! Medicare and Medicaid now reimburse this under CPT 99492-99494.",
       advantage: true,
-      advantageText: 'Methodology: Discrete-Event Queues',
-      next: 'p6c1c',
+      advantageText: 'Innovation: Collaborative Care Multiplier',
+      citation: {
+        title: 'CMS Behavioral Health Integration & Collaborative Care',
+        statute: 'CMS MLN909432 / CPT 99492–99494 · Psychiatric Collaborative Care Model',
+        quote: 'The Psychiatric Collaborative Care Model delivers evidence-based behavioral health treatment in primary care, utilizing registry tracking, structured care management, and regular psychiatric consultation.',
+        url: 'https://www.cms.gov/medicare/payment/fee-schedules/physician/behavioral-health-integration',
+        urlLabel: 'CMS Behavioral Health Integration Guidelines',
+      },
+      next: 'u7_p2',
     },
     {
-      id: 'p6c1c',
-      part: 'Part VI · Simulation',
-      chapter: 'Ch 13 · In-Browser Python Policy Lab',
-      text: "Look at your console below. This is the live In-Browser Python Policy Lab, powered by Pyodide WebAssembly. You can run actual CPython bytecode right in your browser!",
+      id: 'u7_p2',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 15 · In-Browser Python Policy Lab (Pyodide WASM)',
+      text: "Policy models shouldn't just live in static reports—they should be verifiable code you can test yourself. Look below at the Bytecode Mill. Here runs CPython 3.12 compiled to WebAssembly via Pyodide. Tap 'Run Simulation' to execute Monte Carlo discrete-event queue algorithms right in your browser!",
       advantage: false,
       panel: { type: 'terminal' },
-      next: 'p6c1d',
+      furtherReading: [
+        { label: 'Open Fullscreen Python Lab', url: './live-simulation.html' },
+      ],
+      next: 'u7_p3',
     },
     {
-      id: 'p6c1d',
-      part: 'Part VI · Simulation',
-      chapter: 'Ch 14 · Policy Provenance Protocol',
-      text: "Every parameter in SimSurance is tied to legislative and contractual ground truth: Act 68 (quality & appeals), Act 111, and the PA DHS BHC-MCO HealthChoices contract. Every model carries the hypothetical_scenario provenance tag.",
+      id: 'u7_p3',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 16 · Statutory Policy Provenance Vault',
+      text: "Every parameter in SimSurance is tied to legislative, statutory, and contractual ground truth: PA Act 68, PA Act 111, the PA DHS BHC-MCO agreement, and 42 CFR Part 438. To guarantee mathematical and educational transparency, every stochastic model carries the hypothetical_scenario provenance tag.",
       advantage: true,
-      advantageText: 'Statutory Provenance: Legal Ground Truth',
+      advantageText: 'Policy Provenance: Ground Truth Verified',
       panel: { type: 'provenance' },
-      next: 'p7c1a',
+      furtherReading: [
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+        { label: 'SimSurance Sources Registry', url: '../docs/sources.registry.json' },
+      ],
+      next: 'u7_p4',
     },
-
-    // -------------------------------------------------------------
-    // PART VII: COMMUNITY CROSSROADS & TOWN PASSPORT
-    // -------------------------------------------------------------
     {
-      id: 'p7c1a',
-      part: 'Part VII · Mastery',
-      chapter: 'Ch 15 · Community Crossroads',
-      text: "You have traversed Riverbend County from the front porch to the statutory vault! Here is the Town Hall Crossroads, where all three perspectives converge.",
+      id: 'u7_p4',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 16 · The Community Crossroads: 3 Perspectives',
+      text: "You have traversed Riverbend County from the front porch to the statutory vault! At the Town Crossroads, Jordan (Member), Dr. Ramirez (Clinician), and Marcus (Auditor) share their conclusions. Only when all three perspectives align can sustainable reform occur.",
       advantage: false,
       panel: { type: 'crossroads' },
-      next: 'p7c1b',
+      next: 'u7_p5',
     },
     {
-      id: 'p7c1b',
-      part: 'Part VII · Mastery',
-      chapter: 'Ch 16 · Town Passport & Discovery Seals',
-      text: "Here is your Town Passport. Tap each of the 8 Discovery Seals to verify your mastery of the Riverbend Pixel World. You are now equipped with real managed care literacy!",
+      id: 'u7_p5',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 17 · Town Passport & 8 Discovery Seals',
+      text: "Congratulations! You have completed Glim's Master Insurance Curriculum. Review your Town Passport below. Click on any of the 8 Discovery Seals to visit that landmark chamber, claim your seal, and earn your full Managed Care Literacy certification!",
       advantage: true,
-      advantageText: 'Mastery: Managed Care Literacy Complete',
+      advantageText: 'Curriculum Complete: Master Insurance Scholar',
       panel: { type: 'gallery' },
       isEnd: true,
     },
@@ -1170,6 +1371,46 @@
         badge.textContent = scene.advantageText || 'Policy Insight';
       } else {
         badge.classList.remove('show');
+      }
+    }
+
+    // Glim's Direct Statutory Policy Citation Card
+    const citCard = $('vj-citation-card');
+    if (citCard) {
+      if (scene.citation) {
+        citCard.style.display = 'block';
+        citCard.innerHTML = `
+          <div class="citation-header">
+            <span class="citation-tag">⚖️ STATUTORY GROUND TRUTH</span>
+            <span class="citation-statute">${escapeHtml(scene.citation.statute || '')}</span>
+          </div>
+          <div class="citation-title">${escapeHtml(scene.citation.title || '')}</div>
+          ${scene.citation.quote ? `<div class="citation-quote">&ldquo;${escapeHtml(scene.citation.quote)}&rdquo;</div>` : ''}
+          <div class="citation-links">
+            ${scene.citation.url ? `<a href="${scene.citation.url}" target="_blank" rel="noopener noreferrer" class="citation-pill">&#128279; ${escapeHtml(scene.citation.urlLabel || 'Official Policy Source')} &rarr;</a>` : ''}
+            <a href="./reading-policy.html" target="_blank" class="citation-pill" style="border-color:var(--mint);color:var(--mint);">&#128220; SimSurance Policy Registry</a>
+          </div>
+        `;
+      } else {
+        citCard.style.display = 'none';
+        citCard.innerHTML = '';
+      }
+    }
+
+    // Glim's Curated Further Reading Links on GitHub Pages
+    const readBar = $('vj-further-reading');
+    if (readBar) {
+      if (scene.furtherReading && scene.furtherReading.length > 0) {
+        readBar.style.display = 'flex';
+        readBar.innerHTML = `
+          <span class="further-reading-label">Further Reading:</span>
+          ${scene.furtherReading.map((r) => `
+            <a href="${r.url}" target="_blank" class="further-reading-chip">${escapeHtml(r.label)} &rarr;</a>
+          `).join('')}
+        `;
+      } else {
+        readBar.style.display = 'none';
+        readBar.innerHTML = '';
       }
     }
 
