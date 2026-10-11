@@ -200,14 +200,15 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_member_access_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-10",
-      "scope_note": "Member-facing explanation of access routes, county mental-health offices, BH-MCOs, provider directories and help when access is difficult. Not a full benefit specification or provider contract.",
+      "last_checked": "2026-10-11",
+      "scope_note": "Member-facing explanation of access routes (county mental-health office, BH-MCO assignment by county of residence, member handbook, provider choice within the BH-MCO network), Medicaid application channels (COMPASS, CAO, mail, phone), and crisis help (988). Not a benefit specification, provider contract, rate document, or enrollment record.",
       "supports": [
         "member_access_pathway",
         "provider_search",
         "access_barriers"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/pa-dhs-bhc-service-access-2026-10-11.md"
     },
     {
       "id": "cms-school-based-services",
