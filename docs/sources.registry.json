@@ -165,13 +165,14 @@
       "jurisdiction": "Pennsylvania",
       "program": "Individual and family health insurance marketplace",
       "source_type": "official_marketplace",
-      "status": "document_review_required",
+      "status": "official_page_reviewed",
       "last_checked": "2026-10-10",
-      "scope_note": "Use for current individual-plan shopping and availability; do not infer provider participation from marketplace availability.",
+      "scope_note": "Homepage (pennie.com) verified live 2026-10-10: official state marketplace for health/dental coverage, life-change enrollment check, Medicaid-transition account pathway, 2026 federal-changes notice, certified-assister help channels. Page-level verification only; no plan, rate, or eligibility rule encoded.",
       "supports": [
         "marketplace_plan_discovery"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/pennie-2026-10-10.md"
     },
     {
       "id": "cms-managed-care-rate-guidance",
