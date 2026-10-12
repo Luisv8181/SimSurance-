@@ -581,6 +581,33 @@
         "Explain why the county-to-BH-MCO map is a coverage architecture (which ledger owns the dollar), not a provider network or evidence of access.",
         "Identify what the directory does not establish: any member's plan, provider credentialing, network openness, benefits, or reimbursement."
       ]
+    },
+    {
+      "id": "bhc-providers-view",
+      "title": "The provider's view: 2.7M lives on one eligibles map",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "provider-context",
+        "eligibles-map",
+        "county-contracting",
+        "effective-dates",
+        "coverage-architecture-vs-access"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
+        "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
+        "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
+        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
+      ]
     }
   ]
 }

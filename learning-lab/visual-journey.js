@@ -401,6 +401,37 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Explore Virtual County Lab', url: './county-lab.html' },
       ],
+      next: 'u1_p4_prov',
+    },
+    {
+      id: 'u1_p4_prov',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d: The Provider\u2019s Map \u2014 2.7M Lives',
+      text: "Now flip the map around \u2014 stand where the provider stands. On Pennsylvania DHS's provider page, the sentence that matters most for a modeler reads plainly: the county contracts with the MCO, not the other way around. County mental-health programs are required to ensure high-quality care and timely access, and to coordinate with other needed services. The page's eligibles map counts 2,717,158 lives covered statewide, county by county, zone by zone. It also publishes dated rate schedules \u2014 ASAM addiction-treatment fees effective January 1, 2026 \u2014 and a provider gap-payments ledger. One caution before you touch any of it: the map labels some counties 'MBH' where the directory names Magellan, so reconcile the labels before attributing a county's dollar. And never read this page as a promise that a provider is taking new patients \u2014 directories draw coverage architecture; contracts and claims hold the truth.",
+      advantage: true,
+      advantageText: 'Directories Map Architecture, Not Access',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS \u00b7 provider-facing overview (directory, not a rule)',
+        quote: 'For mental health and drug and alcohol services, each county contracts with a Managed Care Organization (MCO).',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler opens the DHS provider page and sees the eligibles map: 2,717,158 lives covered by county. What can the page safely tell her?',
+        opts: [
+          'A) The per-county BH-MCO assignment and the statewide covered-lives count \u2014 a coverage-architecture snapshot, and nothing more.',
+          'B) That a provider in any listed county is currently accepting new behavioral-health patients.',
+          'C) The exact reimbursement a provider receives for an ASAM 3.7 residential stay.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page is a provider-facing directory: county-to-plan assignment, covered-lives totals by county, and dated fee schedules with a stated effective date. Provider acceptance, network openness, per-case benefits, and actual payment live in contracts and claims \u2014 not on this page. Verify exact product, provider type, county, service, and current contract before applying any of it to a case.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
