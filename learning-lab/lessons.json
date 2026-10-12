@@ -504,32 +504,58 @@
         "Identify what the index page does not establish: any coverage rule, rate, or contract term, which live inside the linked documents that must be opened and read."
       ]
     },
-   {
-    "id": "two-plan-families",
-    "title": "One member, two plan families: physical vs behavioral MCOs",
-    "path": "visual-journey.html",
-    "audience": [
-     "understand",
-     "investigate"
-    ],
-    "status": "source_review_required",
-    "concepts": [
-     "carve-out",
-     "physical-health-mco-directory",
-     "bh-mco-vs-physical-mco",
-     "region-to-plan-mapping",
-     "enhanced-member-supports-unit"
-    ],
-    "policy_claims": true,
-    "source_refs": [
-     "pa-dhs-physical-hc-mco"
-    ],
-    "objectives": [
-     "Distinguish Pennsylvania's physical HealthChoices plan family (5 regions, plan directories with member-services and Enhanced Member Supports Unit numbers) from the county-assigned Behavioral HealthChoices BH-MCO family.",
-     "Name the seven physical plan families listed on the official DHS directory and the five regions used to organize them.",
-     "Explain why a simulation must keep the two plan families in separate ledgers before attributing money flows.",
-     "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
-    ]
-   }
+    {
+      "id": "two-plan-families",
+      "title": "One member, two plan families: physical vs behavioral MCOs",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "carve-out",
+        "physical-health-mco-directory",
+        "bh-mco-vs-physical-mco",
+        "region-to-plan-mapping",
+        "enhanced-member-supports-unit"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "Distinguish Pennsylvania's physical HealthChoices plan family (5 regions, plan directories with member-services and Enhanced Member Supports Unit numbers) from the county-assigned Behavioral HealthChoices BH-MCO family.",
+        "Name the seven physical plan families listed on the official DHS directory and the five regions used to organize them.",
+        "Explain why a simulation must keep the two plan families in separate ledgers before attributing money flows.",
+        "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
+      ]
+    },
+    {
+      "id": "school-based-claiming",
+      "title": "Schools as billing partners: Medicaid administrative claiming",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "administrative-claiming",
+        "state-plan-amendment",
+        "time-study-implementation-plan",
+        "cost-pools"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "Name the three agency layers CMS's SBS resources address (SMA, SEA, LEA) and what each filing type does (SPA, TSIP, Administrative Claiming Plan, cost report).",
+        "Explain why a state's listed SPA example cannot be generalized to another state without opening that state's actual SPA text, version, and effective date.",
+        "Identify what the CMS resource index page does not establish: any coverage rule, rate, or payment methodology, which live inside the linked documents that must be opened and read."
+      ]
+    }
   ]
 }

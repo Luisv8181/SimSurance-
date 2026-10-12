@@ -715,6 +715,37 @@
         answer: 1,
         explanation: 'Correct! Under 42 CFR § 438.8, managed care organizations must achieve an 85% Medical Loss Ratio. Failing to meet this threshold triggers mandatory financial remittances back to the commonwealth.',
       },
+      next: 'u5_p2_sbs',
+    },
+    {
+      id: 'u5_p2_sbs',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · Schools as Billing Partners: Administrative Claiming',
+      text: "Let's follow the money into an unexpected ledger: the schoolhouse. When school staff deliver Medicaid-covered behavioral health services, the dollars do not flow through the county treasury alone — CMS's School-Based Services Technical Assistance Center helps states claim them. States file State Plan Amendments (SPAs), Time Study Implementation Plans (TSIPs), Administrative Claiming Plans, and cost reports to get paid. The cast of characters is three layers deep: the State Medicaid Agency (SMA), the State Education Agency (SEA), and the Local Education Agencies (LEAs) — the schools that run the time studies and build the cost pools.",
+      advantage: true,
+      advantageText: 'Financing Literacy: School Dollars Are Claimed, Not Assumed',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · 2023 Comprehensive Guide to Medicaid Services and Administrative Claiming',
+        quote: 'We have also issued school-based services (SBS) guidance, most notably the 2023 Comprehensive Guide to Medicaid Services and Administrative Claiming.',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'What does the Readiness Checklist Tool help State Medicaid Agencies draft?',
+        opts: [
+          'A) A Behavioral HealthChoices member handbook.',
+          'B) A school-based services State Plan Amendment (SPA).',
+          'C) A Medicaid managed-care waiver for capitation rates.',
+        ],
+        answer: 1,
+        explanation: "Correct! CMS's Readiness Checklist Tool was developed for SMAs to help draft an SBS State Plan Amendment (SPA), adopt the 2023 flexibilities, assess whether the State Plan reflects a compliant payment methodology, prepare documents like a TSIP, and plan with CMS across agencies. The resource index is a doorway — the SPA's actual text, version, and effective date must be opened and read before any rule is encoded.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 
