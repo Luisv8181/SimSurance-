@@ -556,6 +556,31 @@
         "Explain why a state's listed SPA example cannot be generalized to another state without opening that state's actual SPA text, version, and effective date.",
         "Identify what the CMS resource index page does not establish: any coverage rule, rate, or payment methodology, which live inside the linked documents that must be opened and read."
       ]
+    },
+    {
+      "id": "bhc-mco-map",
+      "title": "Who covers your county? The Behavioral Health MCO map",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "county-assignment",
+        "behavioral-health-mco",
+        "carve-out",
+        "coverage-architecture"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "Name the five BH-MCOs in Pennsylvania's HealthChoices program and state that assignment is by county of residence, not member choice.",
+        "Explain why the county-to-BH-MCO map is a coverage architecture (which ledger owns the dollar), not a provider network or evidence of access.",
+        "Identify what the directory does not establish: any member's plan, provider credentialing, network openness, benefits, or reimbursement."
+      ]
     }
   ]
 }

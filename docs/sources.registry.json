@@ -51,8 +51,8 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-10",
-      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-10.md (verified 2026-10-10: covers PA's 67 counties exactly once). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
+      "last_checked": "2026-10-12",
+      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-12.md (re-verified live 2026-10-12: five BH-MCOs — Community Behavioral Health (Philadelphia, 1 county), Community Care Behavioral Health Organization (41 counties), Magellan Behavioral Health of Pennsylvania (7 counties), PerformCare (7 counties), Carelon Health of PA (11 counties) — covering PA's 67 counties exactly once; page structure unchanged since 2026-10-10). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],
@@ -69,7 +69,7 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-11",
       "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-11.md",
-      "scope_note": "Re-verified live 2026-10-11: index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only \u2014 open each linked document and record its version/effective date before encoding anything.",
+      "scope_note": "Re-verified live 2026-10-11: index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only — open each linked document and record its version/effective date before encoding anything.",
       "supports": [
         "source_document_discovery"
       ],

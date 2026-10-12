@@ -375,6 +375,32 @@
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
         { label: 'Follow the Money Flow', url: './money-flow.html' },
       ],
+      next: 'u1_p4_bh',
+    },
+    {
+      id: 'u1_p4_bh',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c: The Behavioral-Health MCO Map',
+      text: "Now the other half of the twin. Behavioral health runs on a county-based map: each of Pennsylvania's 67 counties lands in exactly one Behavioral Health MCO, and consumers are assigned by county of residence. Five organizations hold the whole map — Community Behavioral Health holds Philadelphia alone, Community Care covers 41 counties, PerformCare holds seven, Magellan holds seven, and Carelon holds eleven. Here is the trap for modelers: 'county-based' is a coverage architecture, not a provider list. This map tells you which ledger owns the dollar, not whether a therapist is taking new patients — never let it masquerade as a network.",
+      advantage: true,
+      advantageText: 'Assign the Plan Before Modeling Access',
+      citation: {
+        title: 'Behavioral Health Managed Care Organizations (BH-MCOs)',
+        statute: 'PA DHS · Behavioral HealthChoices BH-MCO county directory (lookup, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos',
+        urlLabel: 'PA DHS BH-MCO County Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE BLURRY MEMBER:\\n- 'The BH-MCO covers the member.'\\n- No named plan, no county anchor — one vague payer label.\\n- A county's waitlist crisis gets attributed to a statewide average.",
+        after: "THE NAMED MAP:\\n- 67 counties, 5 BH-MCOs, one county-to-plan mapping published by PA DHS.\\n- Members are assigned by county of residence, then choose providers inside that plan's network.\\n- Start every access question at the map: which plan owns this county's dollar?",
+        note: "This is a dated county directory (verified 2026-10-12), not evidence of any member's plan, provider network, benefits, or reimbursement.",
+      },
+      furtherReading: [
+        { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Explore Virtual County Lab', url: './county-lab.html' },
+      ],
       next: 'u1_p5',
     },
     {
