@@ -478,6 +478,31 @@
         "Describe the six benefit classifications and the predominant / substantially-all test used for comparison.",
         "Name what the CMS page does not establish: any plan-specific coverage or compliance determination, state-specific parity rules, and Medicaid MCO/CHIP modeling (not encoded)."
       ]
+    },
+    {
+      "id": "bhc-document-vault",
+      "title": "Where do the official rules live? (The BHC publications vault)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "source-provenance",
+        "bhc-publications-index",
+        "program-standards-requirements",
+        "external-quality-review"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "Name the document families in the official PA DHS Behavioral HealthChoices publications index (PSR and appendices, ASAM rates effective January 1 2026, 2026 financial reporting requirements, OMHSAS Member Handbook 2026, annual external quality review technical reports).",
+        "Explain why a policy claim needs the document's version, effective date, and exact passage - the index listing alone is not a rule.",
+        "Identify what the index page does not establish: any coverage rule, rate, or contract term, which live inside the linked documents that must be opened and read."
+      ]
     }
   ]
 }

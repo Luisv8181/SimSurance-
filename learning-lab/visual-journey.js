@@ -813,6 +813,32 @@
       text: "You have traversed Riverbend County from the front porch to the statutory vault! At the Town Crossroads, Jordan (Member), Dr. Ramirez (Clinician), and Marcus (Auditor) share their conclusions. Only when all three perspectives align can sustainable reform occur.",
       advantage: false,
       panel: { type: 'crossroads' },
+      next: 'u7_p4_vault',
+    },
+    {
+      id: 'u7_p4_vault',
+      part: 'Unit VII · Solutions & Mastery',
+      chapter: 'Ch 16 · The Official Document Vault',
+      text: "One last stop before your Town Passport: the document vault where the real rules live. Every claim you have heard today — about rates, standards, handbooks — is only as strong as the document it comes from. The Pennsylvania DHS Publications index is the official library for Behavioral HealthChoices: the Program Standards and Requirements (PSR) and its appendices, the ASAM Provider Rates effective January 1, 2026, the 2026 Financial Reporting Requirements, the OMHSAS Member Handbook 2026, and annual external quality review technical reports for every BH-MCO. Carry this rule into your research life: never cite the rumor — open the vault, read the document's version and effective date, and only then quote the exact passage.",
+      advantage: true,
+      advantageText: 'Research Rule: Rules Live in the Vault, Never in Rumors',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'Balanced Budget Act of 1997 · External Quality Review Requirement',
+        quote: 'The Balanced Budget Act (BBA) of 1997 requires that state agencies contract with an External Quality Review Organization to conduct an annual external quality review of the services provided by contracted Medicaid Managed Care Organizations.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "RUMOR-MILL RESEARCH:\n- 'I heard Medicaid pays $X per therapy session in Pennsylvania.'\n- No document attached. No version, no effective date, no county.\n- An argument built on a rumor collapses the moment someone asks 'says who?'",
+        after: "VAULT RESEARCH:\n- Open the official DHS Publications index.\n- Read the actual document: the Program Standards and Requirements, the ASAM Provider Rates effective January 1, 2026, the 2026 Financial Reporting Requirements, or the OMHSAS Member Handbook 2026.\n- Record version + effective date + exact passage before encoding anything.",
+        note: "This index is a library door, not the rule itself — each linked document must be opened and read before a claim is made. Every citation card you saw today went through this door.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u7_p5',
     },
     {

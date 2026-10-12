@@ -67,8 +67,9 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_document_index",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-10",
-      "scope_note": "Index for PS&R, appendices, financial reporting requirements, ASAM rates and member handbook. Review the linked item and its effective date before encoding anything.",
+      "last_checked": "2026-10-11",
+      "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-11.md",
+      "scope_note": "Re-verified live 2026-10-11: index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only — open each linked document and record its version/effective date before encoding anything.",
       "supports": [
         "source_document_discovery"
       ],
