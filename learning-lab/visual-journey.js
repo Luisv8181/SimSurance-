@@ -459,6 +459,37 @@
         answer: 1,
         explanation: "Correct! Pennsylvania's HealthChoices carve-out was specifically architected to guarantee that dedicated county-level funds could not be diverted away from behavioral health into physical hospital shortfalls.",
       },
+      next: 'u1_p5b_parity',
+    },
+    {
+      id: 'u1_p5b_parity',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 5b: Parity \u2014 The Comparator Rule',
+      text: "One more instrument for the regulator's toolkit before we move on, and you must handle it with precision. The federal parity law \u2014 MHPAEA \u2014 is a comparator, not a mandate: it never forces a plan to cover mental-health or addiction care. (The Affordable Care Act's essential-health-benefits requirement does that work for non-grandfathered individual and small-group plans.) But when a plan does cover MH/SUD care, it cannot make the money rules (copays, coinsurance) or the access rules (visit limits, day limits) harsher than the rules for medical or surgical care \u2014 measured against the predominant requirements applying to substantially all medical/surgical benefits in the same classification: inpatient in-network, outpatient in-network, emergency, prescription drugs, and the rest. Now the part modelers miss: the hidden rules count too. Prior authorization, step therapy, medical management, network-composition standards, even how out-of-network pay is set \u2014 these are non-quantitative treatment limitations. Since the CAA of 2021, plans imposing them must write up comparative analyses of their design and application, hand them over on request, and the 2024 final rules require collecting data and fixing material differences in access. Medicaid MCOs sit under the same duty through the 2016 Medicaid/CHIP parity rule. So parity is not a guarantee you assume \u2014 it is a comparator you test.",
+      advantage: true,
+      advantageText: 'Parity Is a Comparator, Not a Mandate',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS \u00b7 federal parity law overview & 2024 final rules (page-level review)',
+        quote: 'Financial requirements (such as coinsurance and copays) and treatment limitations (such as visit limits) imposed on MH/SUD benefits cannot be more restrictive than the predominant financial requirements and treatment limitations that apply to substantially all medical/surgical benefits in a classification.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Jordan's plan covers 30 physical-therapy visits in outpatient in-network care but caps depression therapy at 12 visits in the same classification. What does the federal parity law say?",
+        opts: [
+          'A) Parity requires MH/SUD visit limits to be no more restrictive than the predominant medical/surgical limit in the same classification \u2014 this is exactly the kind of disparity parity tests.',
+          'B) Parity only governs copays, so visit limits are fine.',
+          'C) Parity forces every plan to offer mental-health benefits, so this plan is violating the mandate.',
+        ],
+        answer: 0,
+        explanation: "Correct! Quantitative treatment limitations \u2014 the numerical ones, like visit or day limits \u2014 cannot be more restrictive than the predominant medical/surgical rule in the same classification. The hidden rules (prior authorization, step therapy, network composition) are non-quantitative treatment limitations, governed by the comparable-and-no-more-stringent test, the 2021 comparative-analysis duty, and the 2024 requirement to collect data and address material differences in access. And parity never forces coverage: the ACA's essential-health-benefits requirement is what obligates non-grandfathered individual and small-group plans to cover MH/SUD services.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 

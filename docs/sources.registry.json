@@ -239,13 +239,13 @@
       "program": "Private health insurance; group and individual markets",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-11",
-      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule.",
+      "last_checked": "2026-10-12",
+      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule. 2024 final rules (HHS/Labor/Treasury, 2024-09-09) and CAA-2021 NQTL comparative-analysis duty noted from page; linked regulations not yet read.",
       "supports": [
         "mh_parity_requirements_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-11.md"
+      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-12.md"
     }
   ]
 }

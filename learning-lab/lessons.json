@@ -608,6 +608,34 @@
         "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
         "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
       ]
+    },
+    {
+      "id": "mh-parity-comparator",
+      "title": "Parity is a comparator, not a mandate: MHPAEA's federal rule",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "parity",
+        "mhpaea",
+        "qtl",
+        "nqtl",
+        "comparative-analysis",
+        "coverage-comparator"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "State the parity comparator: when a plan covers MH/SUD benefits, financial requirements and treatment limitations cannot be more restrictive than the predominant rules applying to substantially all medical/surgical benefits in the same classification.",
+        "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative treatment limitations (prior authorization, step therapy, medical management, network composition, OON reimbursement methodology).",
+        "Explain the CAA-2021 NQTL comparative-analysis duty and the 2024 final rules' data-collection and material-differences-in-access requirement.",
+        "State the non-mandate caveat: MHPAEA does not require MH/SUD coverage; the ACA's essential-health-benefits requirement covers non-grandfathered individual and small-group plans."
+      ]
     }
   ]
 }
