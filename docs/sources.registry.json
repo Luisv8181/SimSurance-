@@ -101,8 +101,9 @@
       "program": "Medicaid physical HealthChoices",
       "source_type": "official_plan_directory",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-10",
-      "scope_note": "Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs.",
+      "last_checked": "2026-10-12",
+      "snapshot": "docs/source-snapshots/physical-hc-mcos-2026-10-12.md",
+      "scope_note": "Re-verified live 2026-10-12: no content change since the 2026-10-10 check. Dated directory of physical HealthChoices plans by region (5 regions, member-services and Enhanced Member Supports Unit numbers per plan). Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs. Consumer shipped 2026-10-12: WORKBOOK scene u1_p4_phys ('One member, two plan families'), lesson two-plan-families, status source_review_required.",
       "supports": [
         "physical_health_mco_directory"
       ],

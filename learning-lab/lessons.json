@@ -503,6 +503,33 @@
         "Explain why a policy claim needs the document's version, effective date, and exact passage - the index listing alone is not a rule.",
         "Identify what the index page does not establish: any coverage rule, rate, or contract term, which live inside the linked documents that must be opened and read."
       ]
-    }
+    },
+   {
+    "id": "two-plan-families",
+    "title": "One member, two plan families: physical vs behavioral MCOs",
+    "path": "visual-journey.html",
+    "audience": [
+     "understand",
+     "investigate"
+    ],
+    "status": "source_review_required",
+    "concepts": [
+     "carve-out",
+     "physical-health-mco-directory",
+     "bh-mco-vs-physical-mco",
+     "region-to-plan-mapping",
+     "enhanced-member-supports-unit"
+    ],
+    "policy_claims": true,
+    "source_refs": [
+     "pa-dhs-physical-hc-mco"
+    ],
+    "objectives": [
+     "Distinguish Pennsylvania's physical HealthChoices plan family (5 regions, plan directories with member-services and Enhanced Member Supports Unit numbers) from the county-assigned Behavioral HealthChoices BH-MCO family.",
+     "Name the seven physical plan families listed on the official DHS directory and the five regions used to organize them.",
+     "Explain why a simulation must keep the two plan families in separate ledgers before attributing money flows.",
+     "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
+    ]
+   }
   ]
 }

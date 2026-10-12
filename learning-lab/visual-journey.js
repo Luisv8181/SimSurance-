@@ -349,6 +349,32 @@
       furtherReading: [
         { label: 'Follow the Money Flow', url: './money-flow.html' },
       ],
+      next: 'u1_p4_phys',
+    },
+    {
+      id: 'u1_p4_phys',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b: The Physical-Health Plan Family',
+      text: "One member, two plan families. The MCO you just met has a twin across the river. Physical health travels in its own managed-care family: UPMC for You, Highmark Wholecare, Geisinger Health Plan, AmeriHealth Caritas, Jefferson Health Plans EverWell, Keystone First, and United Healthcare Community Plan — organized into five regions (Lehigh/Capital, Northeast, Northwest, Southeast, Southwest), each plan publishing member-services and Enhanced Member Supports Unit phone numbers. These physical plans are a separate family from the county-assigned Behavioral Health MCOs. When you model money flows, never collapse them into one vague 'the MCO' — they answer to different contracts, different county footprints, and different rate documents.",
+      advantage: true,
+      advantageText: 'Model Separately: Physical vs Behavioral Plan Families',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Lehigh/Capital Counties in the HealthChoices Program: Adams, Berks, Cumberland, Dauphin, Franklin, Fulton, Huntingdon, Lancaster, Lebanon, Lehigh, Northampton, Perry, York',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "ONE BIG 'THE MCO' BLUR:\n- 'The MCO covers Jordan.'\n- Physical plan, behavioral plan, and county assignment folded into one vague label.\n- A therapy session's money flow ends up priced against a hospital plan's rate sheet.",
+        after: "TWO FAMILIES, TWO LEDGERS:\n- Physical HealthChoices plans organized by five regions, with their own member-services lines.\n- Behavioral HealthChoices BH-MCOs assigned by county of residence.\n- Name the family before you name the flow: region-based physical plans on one side, county-assigned BH-MCOs on the other.",
+        note: "This is a dated plan directory (verified 2026-10-12), not evidence of any member's plan choice, benefit design, or provider network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+        { label: 'Follow the Money Flow', url: './money-flow.html' },
+      ],
       next: 'u1_p5',
     },
     {
