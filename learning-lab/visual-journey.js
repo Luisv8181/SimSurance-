@@ -581,6 +581,38 @@
         { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5d_rates',
+    },
+
+    {
+      id: 'u1_p5d_rates',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5d: The Rate Ledger — Who Sets the Premium You See',
+      text: "Before the Pennie shopper clicks 'enroll,' someone had to set the number on the price tag — and it was not the marketplace. Pennsylvania runs its own rate review for ACA plans, and the department's own page breaks it into two phases. First, insurers send their proposed rates and documentation — future cost estimates, historical data, forecasts — and the department weighs revenues, actual and projected profits, past rate changes, and the impact on Pennsylvania consumers. Then the final decision: the department sends any necessary changes back to the company, and once those are made, the rates for the upcoming plan year are finalized and approved. The 2027 plan-year tables are already posted, and this is the detail that matters for your model: every row carries two numbers, a 'Requested Rate Change %' and an 'Approved Rate Change %. They are not the same thing. Ambetter Health of Pennsylvania asked for 40.90% on the individual market and got 35.13%; Oscar Health Plan of PA asked for 15.39% and got 1.38%. A request is a proposal; the approval is the department's decision — and your simulator must never encode the request as the price. And the standing caution: this page shows percentages and coverage maps only — no premium dollars, no provider networks, no behavioral-health reimbursement figures. A rate filing cannot prove a clinician is in-network. Verify the price, then verify the network, and never conflate the two.",
+      advantage: true,
+      advantageText: 'A Rate Request Is a Proposal; the Approval Is the Decision',
+      citation: {
+        title: 'ACA Health Rate Filings | PA Insurance Department',
+        statute: 'PA Insurance Department · official rate-filing index (index page, not a rule)',
+        quote: 'We consider their future cost estimates, historical data, and forecasts for the coming year. We also look at other factors, such as the insurer\u2019s revenues, actual and projected profits, past rate changes, and the impact on Pennsylvania consumers.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings',
+        urlLabel: 'ACA Health Rate Filings (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim posts the 2027 individual-market filings. Ambetter Health of Pennsylvania requested a 40.90% rate change. What is the approved number on the page?",
+        opts: [
+          'A) 35.13% — the department\u2019s final decision after the two-phase review; the 40.90% was only the request.',
+          'B) 40.90% — the requested change, which becomes the price automatically once filed.',
+          'C) The page does not give a number; it links straight to the dollar premium for each plan.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page posts both numbers, and they diverge: Ambetter asked for 40.90% and the department approved 35.13%. A filing's requested change is the insurer's proposal, not the price — encode the approval, and never encode either as a network or reimbursement fact, since the page carries no provider information at all.",
+      },
+      furtherReading: [
+        { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 
