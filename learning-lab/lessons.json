@@ -400,6 +400,33 @@
       ]
     },
     {
+      "id": "rate-guide-index",
+      "title": "The Rate Guide: where capitation numbers are born",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "capitation",
+        "actuarial-rate-certification",
+        "rate-development-guide",
+        "rating-period",
+        "index-vs-document",
+        "federal-actuarial-soundness"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "State verbatim what the CMS Rate Review and Rate Guides index verifies: the federal requirement that states develop capitation rates in accordance with generally accepted actuarial principles and practices, and the 2026-2027 guide edition (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027).",
+        "Distinguish what the index page does not establish: no rate, no formula, no Pennsylvania-specific number, and no encoded rule \u2014 it is a map to the guides, and the guide document itself must be opened before any rate claim is made.",
+        "Explain why an actuarial rate certification is the 'birth certificate' of a capitation rate and why modelers must record a guide's version, effective period, and exact passage before quoting it."
+      ]
+    },
+    {
       "id": "requesting-services",
       "title": "How to request behavioral-health services in Pennsylvania",
       "path": "index.html#requesting-services",
@@ -606,7 +633,7 @@
         "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
         "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
         "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
-        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement — those live in contracts and claims."
+        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
       ]
     },
     {
@@ -661,7 +688,7 @@
       "objectives": [
         "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
         "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
-        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents — no rule encoded from this source."
+        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents \u2014 no rule encoded from this source."
       ]
     },
     {
@@ -688,7 +715,7 @@
       "objectives": [
         "State the directory contents verbatim from the verified page: nine named CHIP insurers with member phone lines, per-MCO NCQA health-plan accreditation (all nine accredited, grant and next-due dates) and Health Equity accreditation for five MCOs.",
         "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
-        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow — never collapse them into one ledger."
+        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow \u2014 never collapse them into one ledger."
       ]
     },
     {
@@ -714,7 +741,7 @@
       "objectives": [
         "State what the Pennie homepage verifies verbatim: the official state marketplace for health and dental coverage, the life-change enrollment check, the Medicaid-transition account flow, and the certified-assister help channels.",
         "Distinguish what the homepage does not establish: open-enrollment dates, any plan list, any premium or subsidy figure, any eligibility rule, and the linked federal-changes page content.",
-        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it — never encode a rate or eligibility rule from an index page."
+        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it \u2014 never encode a rate or eligibility rule from an index page."
       ]
     }
   ]

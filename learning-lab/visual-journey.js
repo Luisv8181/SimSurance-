@@ -894,6 +894,37 @@
         answer: 1,
         explanation: 'Correct! Under 42 CFR § 438.8, managed care organizations must achieve an 85% Medical Loss Ratio. Failing to meet this threshold triggers mandatory financial remittances back to the commonwealth.',
       },
+      next: 'u5_p2b_rateguide',
+    },
+    {
+      id: 'u5_p2b_rateguide',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Rate Guide: Where Capitation Numbers Are Born',
+      text: "You have seen the reservoir (capitation) and the guardrail (the 85% MLR). Now the question Glim hears most: who decides the capitation number in the first place? Not a market, not a guess — an actuarial rate certification. Federal regulation requires every state to develop its capitation rates in accordance with generally accepted actuarial principles and practices, and CMS publishes a Rate Development Guide that shapes what goes into that certification: the data, the assumptions, the adjustments, the justification. The guide in force today is the 2026-2027 guide, released in February 2026, for rating periods starting July 1, 2026 through June 30, 2027. And here is the discipline move: the page you just read is an index of the guides, not a guide. It proves the rate-setting machinery exists and names the current edition — it gives you no rate, no formula, no Pennsylvania number. Open the actual guide, read its version and effective period, and only then quote a passage. The capitation figure Riverbend County received was born in a document like this one; the index is just the map to it.",
+      advantage: true,
+      advantageText: 'Birth Certificate: Every Capitation Rate Has One',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · 2026-2027 Medicaid Managed Care Rate Development Guide (released February 2026)',
+        quote: 'The managed care regulation requires that states develop valid managed care capitation rates in accordance with generally accepted actuarial principles and practices.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler wants to encode a Pennsylvania BH-MCO capitation rate into the simulator. What does the CMS Rate Review and Rate Guides page actually give them?',
+        opts: [
+          'A) The map to the federal guides — the current 2026-2027 guide edition, the rating-period window it covers, and the certification machinery it shapes — but no rate, no formula, and no Pennsylvania number.',
+          'B) Pennsylvania\'s Behavioral HealthChoices capitation rate table for 2026-2027.',
+          'C) The actuarial formula CMS uses to calculate each state\'s capitation payment.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The page is a guide-to-the-guides: it names the 2026-2027 Rate Development Guide (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027) and states the federal actuarial-soundness requirement. It contains no Pennsylvania rate, no formula, and no payment table — the actual guide document must be opened, and its version, effective period, and exact passage read, before any rate claim is encoded.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {
