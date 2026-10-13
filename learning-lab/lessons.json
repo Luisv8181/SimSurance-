@@ -636,6 +636,33 @@
         "Explain the CAA-2021 NQTL comparative-analysis duty and the 2024 final rules' data-collection and material-differences-in-access requirement.",
         "State the non-mandate caveat: MHPAEA does not require MH/SUD coverage; the ACA's essential-health-benefits requirement covers non-grandfathered individual and small-group plans."
       ]
+    },
+    {
+      "id": "systems-management-plumbing",
+      "title": "The encounter data plumbing: what OMHSAS sees",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "encounter-data",
+        "edi-transactions",
+        "omhsas-systems-management",
+        "encounter-data-validation",
+        "data-plumbing",
+        "synthetic-population-boundary"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-systems-management"
+      ],
+      "objectives": [
+        "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
+        "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
+        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents — no rule encoded from this source."
+      ]
     }
   ]
 }

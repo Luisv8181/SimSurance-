@@ -653,6 +653,37 @@
       furtherReading: [
         { label: 'Interactive Claims Lab', url: './claim-decisions.html' },
       ],
+      next: 'u3_p2_data',
+    },
+    {
+      id: 'u3_p2_data',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 8 · The Encounter Data Plumbing: What OMHSAS Sees',
+      text: "Every claim you just built has a second life. In Pennsylvania's Behavioral HealthChoices, the BH-MCOs are capitated — so what the state watches is not a pile of bills, it is encounter data: EDI 837 encounters, 834 enrollment files, 277 status notices, 999 acknowledgments, error-code extract files. The OMHSAS Division of Systems Management is the office that owns that plumbing. Its objective is access — 'ensure eligible individuals can access behavioral health services covered by Medicaid and County Base-Funded Mental Health' — and it does three things: run the interacting state systems, manage the claim and encounter data, and conduct business intelligence with the behavioral health data received. And here is the discipline the page teaches: the state publishes Encounter Data Validation studies and on-site reviews testing whether each BH-MCO's submissions are actually reliable — because bad data builds bad policy. So when any model, including this one, says 'the numbers show,' ask which encounter file, and validated how. One honest limit, said plainly: this page is written for OMHSAS business partners, and none of these files are ours. They are nonpublic. That is exactly why SimSurance runs its scenarios on synthetic populations and public documents.",
+      advantage: true,
+      advantageText: 'Encounters Before Evidence: The Data Plumbing',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS · Division of Systems Management (official systems page; page-level review — linked study PDFs not read)',
+        quote: 'The management of various interacting state systems operations that ensures an individual can access services, management of the claim and/or encounter data, and conducting business intelligence activities with the behavioral health data received.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Why does SimSurance run its scenarios on synthetic populations instead of real Pennsylvania encounter data?",
+        opts: [
+          'A) The systems-management page shows OMHSAS handling claim/encounter data and business intelligence for HealthChoices — but those files are for the state\u2019s business partners and are nonpublic, so real encounter files are out of bounds for this project.',
+          'B) Encounter Data Validation studies prove encounter data is always perfectly accurate, so models can use it freely.',
+          'C) The state publishes all raw encounter files publicly, but they are too boring for a simulator to use.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page describes OMHSAS managing claim and encounter data and conducting business intelligence — but its stated audience is OMHSAS business partners, and none of the files are public. This project therefore works with synthetic populations and public documents. Note also: the page's Encounter Data Validation studies were read here as index rows only; their actual findings are unknown to this project, and no rule was encoded from any of it.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {
