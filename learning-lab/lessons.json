@@ -606,7 +606,7 @@
         "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
         "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
         "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
-        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
+        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement — those live in contracts and claims."
       ]
     },
     {
@@ -662,6 +662,33 @@
         "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
         "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
         "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents — no rule encoded from this source."
+      ]
+    },
+    {
+      "id": "chip-third-family",
+      "title": "CHIP: the third plan family (kids' coverage)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "chip",
+        "childrens-health-insurance",
+        "plan-families",
+        "insurer-directory",
+        "ncqa-accreditation",
+        "coverage-architecture-vs-access"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-chip-companies"
+      ],
+      "objectives": [
+        "State the directory contents verbatim from the verified page: nine named CHIP insurers with member phone lines, per-MCO NCQA health-plan accreditation (all nine accredited, grant and next-due dates) and Health Equity accreditation for five MCOs.",
+        "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
+        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow — never collapse them into one ledger."
       ]
     }
   ]
