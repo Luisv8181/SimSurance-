@@ -426,6 +426,37 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Explore Virtual County Lab', url: './county-lab.html' },
       ],
+      next: 'u1_p4b_overview',
+    },
+    {
+      id: 'u1_p4b_overview',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c+: The Contract Behind the Map',
+      text: "Before the county map, read the contract sentence that makes the map possible. Behavioral HealthChoices runs mental health and drug and alcohol services differently from the physical-health side of HealthChoices: each county contracts with a managed care organization, and the MCO then sends members a handbook explaining how to access services and what benefits are available. Two guarantees sit on the county's side of the desk: the county is required to ensure high-quality care and timely access to appropriate services, and to coordinate effectively with other needed services. And one rule sits on the member's side: each consumer is assigned a Behavioral Health MCO by county of residence, then chooses behavioral-health providers inside that plan's network. Glim's caution, because this page is only an overview: it names the architecture — who contracts with whom, who guarantees access, how members are assigned — but it carries no provider directory, no benefit list, and no rate. The map says where the dollar is assigned; the contracts and claims say whether a door is open.",
+      advantage: true,
+      advantageText: 'Architecture First: Contract, Then Network',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler asks: "The member has HealthChoices, so any behavioral-health therapist in the state counts as accessible." What does the overview page actually say?',
+        opts: [
+          'A) Nothing that supports it: members are assigned a BH-MCO by county of residence and choose providers within that plan\'s network — provider access lives in the network, not in the program name.',
+          'B) That the member may see any participating provider statewide, as long as the provider is accepting new clients.',
+          'C) That the county publishes a live directory of providers currently accepting patients.',
+        ],
+        answer: 0,
+        explanation: "Correct! The overview assigns each consumer a BH-MCO by county of residence, with provider choice inside the plan's network. Provider acceptance and network openness are not on this page — an overview proves the architecture (contracts, assignment, access duties), never the availability behind any given door.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {

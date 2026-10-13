@@ -17,13 +17,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_program_overview",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-10",
-      "scope_note": "High-level program description and county-assigned BH-MCO context; not a complete rule or rate source.",
+      "last_checked": "2026-10-13",
+      "scope_note": "Re-verified live 2026-10-13: content unchanged since 2026-10-10. Overview states counties contract with an MCO for MH/D&A services; counties must ensure high-quality, timely access and coordination; each consumer is assigned a BH-MCO by county of residence and chooses providers within the BH-MCO network; participating providers accepting new clients are member-accessible. Page states no provider network status, benefits, or rates. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-13.md",
       "supports": [
         "program_structure",
         "behavioral_health_mco_context"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/bhc-overview-2026-10-13.md"
     },
     {
       "id": "pa-dhs-bhc-providers",
@@ -35,7 +36,7 @@
       "source_type": "official_provider_page",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-12",
-      "scope_note": "Re-verified live 2026-10-12. Provider-facing overview: county contracts with MCO; county MH programs ensure quality/timely access; BH-MCO assigned by county of residence; eligibles map shows 2,717,158 lives covered statewide by zone/county/MCO (map uses 'MBH' label where directory says Magellan \u2014 reconcile before use); ASAM rate schedule headed 'Rates Effective January 1, 2026'; HCBS gap payments ledger present. Provider acceptance, per-case benefits, and exact rates NOT established. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-12.md",
+      "scope_note": "Re-verified live 2026-10-12. Provider-facing overview: county contracts with MCO; county MH programs ensure quality/timely access; BH-MCO assigned by county of residence; eligibles map shows 2,717,158 lives covered statewide by zone/county/MCO (map uses 'MBH' label where directory says Magellan — reconcile before use); ASAM rate schedule headed 'Rates Effective January 1, 2026'; HCBS gap payments ledger present. Provider acceptance, per-case benefits, and exact rates NOT established. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-12.md",
       "supports": [
         "provider_context",
         "BH_MCO_context"
@@ -52,7 +53,7 @@
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-12",
-      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-12.md (re-verified live 2026-10-12: five BH-MCOs \u2014 Community Behavioral Health (Philadelphia, 1 county), Community Care Behavioral Health Organization (41 counties), Magellan Behavioral Health of Pennsylvania (7 counties), PerformCare (7 counties), Carelon Health of PA (11 counties) \u2014 covering PA's 67 counties exactly once; page structure unchanged since 2026-10-10). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
+      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-12.md (re-verified live 2026-10-12: five BH-MCOs — Community Behavioral Health (Philadelphia, 1 county), Community Care Behavioral Health Organization (41 counties), Magellan Behavioral Health of Pennsylvania (7 counties), PerformCare (7 counties), Carelon Health of PA (11 counties) — covering PA's 67 counties exactly once; page structure unchanged since 2026-10-10). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],
@@ -69,7 +70,7 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-11",
       "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-11.md",
-      "scope_note": "Re-verified live 2026-10-11: index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only \u2014 open each linked document and record its version/effective date before encoding anything.",
+      "scope_note": "Re-verified live 2026-10-11: index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only — open each linked document and record its version/effective date before encoding anything.",
       "supports": [
         "source_document_discovery"
       ],
