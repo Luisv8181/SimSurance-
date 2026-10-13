@@ -215,7 +215,7 @@ test('glim master curriculum covers all 7 units with statutory citations and com
       assert.ok(scene.citation.url, `Scene ${scene.id} citation must have a url`);
       assert.match(
         scene.citation.url,
-        /^https:\/\/(www\.)?(pa\.gov|medicaid\.gov|cms\.gov|insurance\.pa\.gov|finance\.senate\.gov)/,
+        /^https:\/\/(www\.)?(pa\.gov|medicaid\.gov|cms\.gov|insurance\.pa\.gov|finance\.senate\.gov|pennie\.com)/,
         `Citation URL in ${scene.id} must be an official domain`,
       );
     }

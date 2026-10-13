@@ -515,6 +515,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c_pennie',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE MARKETPLACE (Pennie)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5c_pennie',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c: The Marketplace — Pennie, the Front Door',
+      text: "One more stop before we leave the players behind: the marketplace itself. If you do not have coverage through a job, Medicaid, or CHIP, Pennsylvania does not send you to healthcare.gov — it runs its own exchange, Pennie. The homepage reads as plainly as a door sign: Pennsylvania's official health insurance marketplace, for high-quality health and dental coverage. Two doorways matter for a modeler. First, the life-change check: losing coverage can open a special-enrollment window, and the page nudges you to apply at least a week before your current coverage ends. Second, the Medicaid-exit bridge: if you are coming off Medicaid, the page says an account may already be set up for you — a first-class handoff path, not an afterthought. And when the journey confuses you, certified assisters, brokers, and customer-service reps promise to take you 'from Confused to Covered.' Now the caution, and it is a hard one: this page is a front door, not a price book. It verifies the marketplace exists and shows its doorways — no plan list, no premium, no subsidy or eligibility rule is printed here. Never encode a rate or an eligibility rule from a homepage; the real answers live in the application and the plan data behind the door.",
+      advantage: true,
+      advantageText: 'A Marketplace Is a Front Door, Not a Price Book',
+      citation: {
+        title: 'Pennie | PA’s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'Welcome to Pennsylvania’s Official Health Insurance Marketplace. You’re in the right place for high-quality health and dental coverage.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Mara loses her job-based coverage on October 31 and opens pennie.com. What does the page actually tell her?",
+        opts: [
+          'A) That a special-enrollment doorway may exist for life changes — apply at least a week before her current coverage ends — but no plan list, no premium, and no eligibility rule appear on this page.',
+          'B) The exact monthly premium and subsidy she will pay for a 2027 silver plan in her county.',
+          'C) That her Medicaid enrollment transfers automatically to a Pennie plan with no action on her part.',
+        ],
+        answer: 0,
+        explanation: "Correct! The homepage verifies the official marketplace and its doorways: the life-change enrollment check, the Medicaid-transition account flow, and certified help channels — index-level facts only. Premiums, subsidies, and eligibility rules live in the application and plan data, never on the front door. And the Medicaid bridge is an account-ready handoff path, not an automatic transfer.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 

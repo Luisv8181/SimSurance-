@@ -690,6 +690,32 @@
         "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
         "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow — never collapse them into one ledger."
       ]
+    },
+    {
+      "id": "pennie-marketplace",
+      "title": "Pennie: Pennsylvania's official marketplace (the front door)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "pennie",
+        "health-insurance-marketplace",
+        "special-enrollment",
+        "medicaid-transition",
+        "front-door-vs-price-book"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pennie"
+      ],
+      "objectives": [
+        "State what the Pennie homepage verifies verbatim: the official state marketplace for health and dental coverage, the life-change enrollment check, the Medicaid-transition account flow, and the certified-assister help channels.",
+        "Distinguish what the homepage does not establish: open-enrollment dates, any plan list, any premium or subsidy figure, any eligibility rule, and the linked federal-changes page content.",
+        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it — never encode a rate or eligibility rule from an index page."
+      ]
     }
   ]
 }
