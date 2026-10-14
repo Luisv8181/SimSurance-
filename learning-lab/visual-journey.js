@@ -488,6 +488,37 @@
         { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_access',
+    },
+    {
+      id: 'u1_p4_access',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4f: The Front Door — How a Member Actually Gets In',
+      text: "So far we have mapped the architecture from above — counties, plans, rates. Now stand where the member stands and walk the actual front door. Pennsylvania's own access page lays out the route in order: behavioral healthcare covered through Medicaid is overseen by your county's mental health office. The county personalizes the plan — determining what services and care you qualify for, assessing your need for treatment, and making referrals. Then the county connects you to its behavioral health managed care organization, and you are assigned a BH-MCO based on your county of residence. Choice enters here, and only here: you choose your behavioral-health providers within the BH-MCO's network, and the MCO sends you a handbook outlining how to access services and what benefits are available. The application channels are spelled out too — COMPASS online, the county assistance office in person, by mail, or by phone — and the page carries the 988 crisis line for anyone in crisis. The modeling discipline: this page is a route map, not a destination list. It proves the pathway exists — county, plan assignment, in-network choice, handbook — but it does not name a single provider, benefit schedule, or rate. A simulator that needs a member's door must encode the route, then verify each door against its own source.",
+      advantage: true,
+      advantageText: 'Encode the Route, Then Verify Each Door',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · member-facing access guidance (route map, not a rule)',
+        quote: 'Your county will help determine what services and care you qualify for and will connect you to its behavioral health managed care organization, which coordinates with local behavioral health providers to help you get services and treatment.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS: Request BHChoices Services',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler says: "The access page lists providers I can plug into the simulator\u2019s network." What does the page actually give him?',
+        opts: [
+          'A) A route map: county office oversight, BH-MCO assignment by county of residence, provider choice within the BH-MCO network, a mailed handbook, and the application channels — no provider list, no benefits, no rates.',
+          'B) A statewide provider directory with acceptance status, ready to encode as the network.',
+          'C) The Medicaid application itself, with income and eligibility rules fully specified.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page describes the pathway in order — county assessment and referral, BH-MCO assignment by county of residence, provider choice inside that plan\u2019s network, handbook, and the COMPASS/CAO/mail/phone channels plus 988. It names no providers, schedules no benefits, and states no rates. Encode the route, then verify every door against its own source.",
+      },
+      furtherReading: [
+        { label: 'Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {

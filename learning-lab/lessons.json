@@ -794,6 +794,32 @@
         "Distinguish requested from approved rate changes (e.g., Ambetter Health of PA: requested 40.90%, approved 35.13%; Oscar Health Plan of PA: requested 15.39%, approved 1.38%) \u2014 never encode a request as the price.",
         "State what the page does not establish: no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures \u2014 a rate filing cannot prove a clinician is in-network."
       ]
+    },
+    {
+      "id": "bhc-member-front-door",
+      "title": "Behavioral HealthChoices member access: the front-door route (who opens each door)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "member-access-pathway",
+        "county-mental-health-office",
+        "BH-MCO-assignment",
+        "in-network-choice",
+        "route-map-vs-directory"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-service-access"
+      ],
+      "objectives": [
+        "State verbatim the member-facing access route the PA DHS page establishes: the county mental-health office oversees Behavioral HealthChoices, personalizes the treatment plan (eligibility, assessment, referral), and connects the member to the county's BH-MCO; the member is assigned a BH-MCO by county of residence and chooses providers within that plan's network; the MCO sends a handbook on accessing services and benefits.",
+        "Name the Medicaid application channels the page lists (COMPASS online, county assistance office in person, by mail, by phone) and the 988 crisis line it carries.",
+        "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination \u2014 a route map, not a destination list; never encode a provider, benefit, or rate from this page."
+      ]
     }
   ]
 }
