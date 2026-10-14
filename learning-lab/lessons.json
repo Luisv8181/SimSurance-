@@ -665,6 +665,35 @@
       ]
     },
     {
+      "id": "mh-parity-referee-map",
+      "title": "Every comparator needs a referee: the MHPAEA enforcement map",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "parity",
+        "mhpaea",
+        "enforcement-jurisdiction",
+        "self-funded-vs-insured",
+        "medicaid-parity-carve",
+        "material-differences-in-access"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "Map parity jurisdiction: HHS over public-sector group health plans; DOL/Treasury over private-sector group plans; state insurance departments over purchased insurance only.",
+        "Distinguish insured (issuer-purchased) from self-funded (direct-paid) coverage and explain why the regulator differs.",
+        "State how Medicaid/CHIP enter parity: not as group plans, but through Social Security Act provisions requiring certain MHPAEA compliance for CHIP plans, benchmark plans, and Medicaid managed care plans (2016 final rule).",
+        "State the 2024 rules' data duty: collect and evaluate data, take reasonable action on material differences in access from NQTLs, and never design NQTLs with systematically discriminatory standards.",
+        "Name the complaint channels printed on the page: CMS help line 1-877-267-2323 ext. 6-1565 / phig@cms.hhs.gov and DOL regional benefit advisors."
+      ]
+    },
+    {
       "id": "systems-management-plumbing",
       "title": "The encounter data plumbing: what OMHSAS sees",
       "path": "visual-journey.html",

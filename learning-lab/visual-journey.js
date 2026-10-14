@@ -669,6 +669,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b2_refmap',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b+: THE REFEREE MAP — WHO ENFORCES THE COMPARATOR
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b2_refmap',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b′: The Referee Map — Who Enforces the Comparator',
+      text: "A rule without a referee is a suggestion, so now map who holds the whistle. The page draws the jurisdiction line plainly: HHS has jurisdiction over public sector group health plans, while the Departments of Labor and the Treasury have jurisdiction over private sector group health plans. Then comes the split every modeler must encode: employment-related coverage may be insured — buying a policy from an issuer — or self-funded, paying claims directly without an issuer. Only the purchased kind is regulated by the State's insurance department. If you point a parity complaint at Harrisburg when the plan is self-funded private-sector coverage, you have knocked on the wrong door. Medicaid enters through a side door entirely: Medicare, Medicaid, and CHIP are not group health plans, but provisions of the Social Security Act that govern CHIP plans, Medicaid benchmark plans, and managed care plans contracting with State Medicaid programs require compliance with certain requirements of MHPAEA — the 2016 final rule spells out that application for Medicaid MCOs. Now the part that makes the 2024 rules new muscle, not new paper: plans and issuers must collect and evaluate data and take reasonable action, as necessary, to address material differences in access to MH/SUD benefits as compared to medical/surgical benefits that result from application of NQTLs — and they may not use discriminatory information, evidence, sources, or standards that systematically disfavor MH/SUD access when designing those NQTLs. So parity enforcement has two moves: the comparator you test, and the referee you bring the failure to. The page even prints the whistle: CMS's help line at 1-877-267-2323 extension 6-1565, or phig@cms.hhs.gov, with DOL regional benefit advisors as the second phone number. Your simulator must never model enforcement it has not assigned — jurisdiction is a parameter, not an assumption.",
+      advantage: true,
+      advantageText: 'Every Comparator Needs a Referee',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. 2024 final rules (page-level review)',
+        quote: "The insurance that is purchased, whether by an insured group health plan or in the individual market, is regulated by the State's insurance department.",
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Jordan's coverage is a private-sector group health plan that pays claims directly, without buying insurance from an issuer — self-funded. His plan's prior-authorization process looks stricter for therapy than for comparable medical care. Who is the referee for a parity complaint?",
+        opts: [
+          'A) The U.S. Departments of Labor and the Treasury — they have jurisdiction over private-sector group health plans, and the state insurance department regulates only purchased insurance, which this is not.',
+          'B) The state insurance department — it regulates all health coverage in the state.',
+          'C) The Medicaid/CHIP parity rule and CMS — Medicaid parity covers every group plan.',
+        ],
+        answer: 0,
+        explanation: "Correct! Jurisdiction follows plan type, not geography. The page states that the Departments of Labor and the Treasury have jurisdiction over private-sector group health plans, while the State's insurance department regulates only insurance that is purchased. Jordan's plan is self-funded private-sector coverage, so the state regulator is not the enforcer — and the Medicaid/CHIP parity route applies to public programs through the Social Security Act, not to private group plans. The 2024 rules add real teeth regardless of referee: plans must collect and evaluate data and take reasonable action to address material differences in access from NQTLs, and they may not design NQTLs with standards that systematically disfavor MH/SUD access.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 
