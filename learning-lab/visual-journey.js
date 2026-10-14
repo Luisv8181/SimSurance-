@@ -706,6 +706,41 @@
         { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e_covmap',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE COVERAGE MAP (archived 2026 sales footprint)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e_covmap',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 5e: The Coverage Map \u2014 Where You Could Buy, Not Who Treats You',
+      text: "Last stop in the players' gallery: the coverage map \u2014 and this one is an archive, so read the date before you read the colors. The Insurance Department's 'Coverage Areas for 2026 Individual Market Plans' page pins down where fifteen issuers could sell in 2026: Oscar Health Plan of PA in 13 counties, UPMC Health Options in 52, UPMC Health Plan in just two \u2014 Crawford and Clearfield. The page says the maps show plan coverage for a past year, are updated annually, and for current coverage you go to the ACA Health Rate Filing home page. Now the line that matters most for a modeler, printed right on the page: a coverage-area map is a sales footprint \u2014 the counties where a plan could be purchased \u2014 never a provider directory, never a rate, and never evidence that a clinician in that county is in-network. The discipline holds double for archived pages: 2026 boundaries are history, not the current market. Treat them as dated market availability, and keep them far away from network assumptions.",
+      advantage: true,
+      advantageText: 'A Coverage Map Is a Sales Footprint, Never a Network',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department \u00b7 archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'Important note: These maps only apply to purchasing a plan. They do NOT show limits on your health care coverage or provider network.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "The archived page lists Oscar Health Plan of PA in 13 counties for 2026. What does that establish for your model?",
+        opts: [
+          'A) Oscar could be purchased in those counties in 2026 \u2014 dated market availability. It says nothing about networks, rates, or the current plan year.',
+          'B) Any clinician practicing in those 13 counties was in Oscar\u2019s provider network.',
+          'C) The 2026 county list carries over to 2027 automatically \u2014 no need to check the current filing page.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page is a sales-footprint map with a past-year date: each issuer\u2019s 2026 purchase footprint, updated annually, with current coverage on the ACA Health Rate Filing home page. The page\u2019s own note bars the network reading entirely \u2014 and an archived year never stands in for the current market.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 

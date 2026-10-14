@@ -155,8 +155,9 @@
       "program": "2026 individual commercial insurance market",
       "source_type": "official_historical_market_snapshot",
       "status": "historical_snapshot",
-      "last_checked": "2026-10-10",
-      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory.",
+      "last_checked": "2026-10-14",
+      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed — maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
+      "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
       "supports": [
         "2026_individual_market_plan_area"
       ],

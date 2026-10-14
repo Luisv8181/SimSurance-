@@ -873,6 +873,32 @@
         "Distinguish unit types: a per-diem fee is a bundle, not a visit price, so fees across unit types do not compare naively.",
         "Explain the encoding discipline: quoting any fee into a model requires opening the linked ASAM PDF and confirming applicability to provider type, county, and contract — not done this run — and a dated fee schedule is rate evidence, never a payment rule; BH-MCOs are paid by capitation."
       ]
+    },
+    {
+      "id": "coverage-areas-2026-sales-footprint",
+      "title": "The coverage map shelf: 2026 individual-market coverage areas (a sales footprint, never a network)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "coverage-area",
+        "individual-market",
+        "sales-footprint-vs-network",
+        "archived-market-snapshot",
+        "county-service-area"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-insurance-department-2026-individual-coverage-areas"
+      ],
+      "objectives": [
+        "State what the archived PA Insurance Department coverage-areas page is: a 2026 plan-year purchase footprint (15 issuers, per-issuer county lists plus map images, e.g. Oscar 13 counties, UPMC Health Options 52, UPMC Health Plan 2), updated annually, with current coverage on the ACA Health Rate Filing home page.",
+        "Quote the page's standing scope limit: the maps apply to purchasing a plan only and do NOT show limits on health care coverage or provider networks — a sales footprint, never a network directory, never a rate.",
+        "Explain the encoding discipline: archived market availability is dated history (2026), never the current plan year and never provider-network evidence; review_required_before_encoding stays true and nothing has been promoted to a rule."
+      ]
     }
   ]
 }
