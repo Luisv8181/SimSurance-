@@ -820,6 +820,33 @@
         "Name the Medicaid application channels the page lists (COMPASS online, county assistance office in person, by mail, by phone) and the 988 crisis line it carries.",
         "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination \u2014 a route map, not a destination list; never encode a provider, benefit, or rate from this page."
       ]
+    },
+    {
+      "id": "bhc-publications-accreditation",
+      "title": "BHC publications index: the accreditation shelf (NCQA/URAC, CFR 438.332)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "accreditation",
+        "NCQA",
+        "URAC",
+        "CFR-438.332",
+        "external-oversight",
+        "provenance-vs-network"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State verbatim the accreditation passage the PA DHS publications index carries: as per CFR 438.332, the department posts the certificate of accreditation by a private independent entity, reflecting NCQA and URAC.",
+        "Distinguish what the page does not establish: no per-plan accreditation dates, no per-plan accreditation scope, no provider network fact, no rate, and no outcome claim.",
+        "Explain the provenance discipline: accreditation certificates are evidence of external oversight (a paper trail), never evidence of network access, payment, or quality outcomes \u2014 and no rules are encoded from an index page."
+      ]
     }
   ]
 }

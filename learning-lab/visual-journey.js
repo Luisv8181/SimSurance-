@@ -519,6 +519,37 @@
         { label: 'Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_accred',
+    },
+    {
+      id: 'u1_p4g_accred',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g: The Accreditation Shelf — Who Audits the Plans',
+      text: "One more stop on the plan-family tour — a single shelf in the publications vault, and it is worth reading closely. Pennsylvania DHS posts accreditation certificates on its public index: as per CFR 438.332, the department posts the certificate of accreditation by a private independent entity, and the posted certificates reflect two agencies — the National Committee for Quality Assurance (NCQA) and the Utilization Review Accreditation Commission (URAC). Here is what the page does not say, and it matters: it does not list which plans hold which certificate, it carries no accreditation dates, and it does not claim accreditation proves any therapist is accessible or any claim gets paid. For a modeler, an accreditation shelf is a provenance signal — external oversight leaves a paper trail. It is never a network, a rate, or an outcome. Read the certificate line as what it is: proof that somebody audited the plan.",
+      advantage: true,
+      advantageText: 'Accreditation Is a Paper Trail, Never a Network',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · document index, "NCQA or URAC Certifications" section (index page, not a rule)',
+        quote: 'As per CFR 438.332, the department posts the certificate of accreditation by a Private Independent Entity. The posted certificates reflect the following agencies: the National Committee for Quality Assurance (NCQA) and the Utilization Review Accreditation Commission (URAC).',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The DHS publications page posts accreditation certificates under CFR 438.332. What does the page actually establish?',
+        opts: [
+          'A) That the department posts the accreditation certificate of a private independent entity, reflecting NCQA and URAC — a paper trail of external oversight, not a provider network, rate, or outcome.',
+          'B) That every BH-MCO holds current NCQA and URAC accreditation, with the accreditation dates listed on the page.',
+          'C) That accreditation guarantees a listed therapist is accepting new patients in each county.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page's 'NCQA or URAC Certifications' section names the two agencies whose certificates the department posts under CFR 438.332. It lists no per-plan dates and no network or payment facts — accreditation is evidence that an external body audited the plan, and nothing more.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
