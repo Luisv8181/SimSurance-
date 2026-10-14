@@ -426,6 +426,36 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Explore Virtual County Lab', url: './county-lab.html' },
       ],
+      next: 'u1_p4e_mapdate',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE DATE ON THE MAP (re-verified 2026-10-14)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4e_mapdate',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e: The Date on the Map — A Lookup, Not a Contract',
+      text: "One more shelf in the same gallery, because the map you just saw is a lookup chart with an expiry risk. The DHS page hands you the chart for a specific purpose — and says so on the page. County-to-plan assignments are contracts: when a county's contract is re-bid, the map can move under your feet. So Glim's discipline for every citation of this directory is three beats: read the retrieval date first, quote the assignment as of that date, and re-check the live page before you let a county-plan pair into a model. The October 14 re-check changed nothing — all five organizations, all 67 counties exactly once — and that 'unchanged' is itself the finding. A stale map is worse than no map: it lets last year's contract silently set this year's ledger.",
+      advantage: true,
+      advantageText: 'Date Every Map Citation: Lookup, Then Re-Check',
+      citation: {
+        title: 'Behavioral Health Managed Care Organizations (BH-MCOs)',
+        statute: 'PA DHS · Behavioral HealthChoices BH-MCO county directory (lookup, not a rule; re-verified 2026-10-14)',
+        quote: 'You can use the following chart to determine the BH-MCO that operates in your county and click the corresponding link provided to access their webpage.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos',
+        urlLabel: 'PA DHS BH-MCO County Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE UNDATED MAP:\\n- 'Carelon covers 11 counties.'\\n- No date attached — a contract rebid could quietly invalidate the claim.\\n- A model hard-codes last year's county-plan pairing as this year's fact.",
+        after: "THE DATED LOOKUP:\\n- 'Carelon covers 11 counties, as published 2026-10-14.'\\n- Chart purpose named: find your county's plan, then click through to that plan's own webpage.\\n- Re-check the live page before the pairing enters a model — contracts move, directories follow.",
+        note: "Re-verified 2026-10-14: content unchanged since 2026-10-12. Still page-level verification only — not evidence of any member's plan, provider network, benefits, or rates.",
+      },
+      furtherReading: [
+        { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4b_overview',
     },
     {

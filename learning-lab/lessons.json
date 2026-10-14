@@ -422,7 +422,7 @@
       ],
       "objectives": [
         "State verbatim what the CMS Rate Review and Rate Guides index verifies: the federal requirement that states develop capitation rates in accordance with generally accepted actuarial principles and practices, and the 2026-2027 guide edition (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027).",
-        "Distinguish what the index page does not establish: no rate, no formula, no Pennsylvania-specific number, and no encoded rule — it is a map to the guides, and the guide document itself must be opened before any rate claim is made.",
+        "Distinguish what the index page does not establish: no rate, no formula, no Pennsylvania-specific number, and no encoded rule \u2014 it is a map to the guides, and the guide document itself must be opened before any rate claim is made.",
         "Explain why an actuarial rate certification is the 'birth certificate' of a capitation rate and why modelers must record a guide's version, effective period, and exact passage before quoting it."
       ]
     },
@@ -633,7 +633,7 @@
         "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
         "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
         "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
-        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement — those live in contracts and claims."
+        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
       ]
     },
     {
@@ -688,7 +688,7 @@
       "objectives": [
         "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
         "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
-        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents — no rule encoded from this source."
+        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents \u2014 no rule encoded from this source."
       ]
     },
     {
@@ -715,7 +715,7 @@
       "objectives": [
         "State the directory contents verbatim from the verified page: nine named CHIP insurers with member phone lines, per-MCO NCQA health-plan accreditation (all nine accredited, grant and next-due dates) and Health Equity accreditation for five MCOs.",
         "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
-        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow — never collapse them into one ledger."
+        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow \u2014 never collapse them into one ledger."
       ]
     },
     {
@@ -741,7 +741,7 @@
       "objectives": [
         "State what the Pennie homepage verifies verbatim: the official state marketplace for health and dental coverage, the life-change enrollment check, the Medicaid-transition account flow, and the certified-assister help channels.",
         "Distinguish what the homepage does not establish: open-enrollment dates, any plan list, any premium or subsidy figure, any eligibility rule, and the linked federal-changes page content.",
-        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it — never encode a rate or eligibility rule from an index page."
+        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it \u2014 never encode a rate or eligibility rule from an index page."
       ]
     },
     {
@@ -791,8 +791,8 @@
       ],
       "objectives": [
         "State verbatim what the PA Insurance Department page establishes: a two-phase annual rate review (initial review of cost estimates, historical data, revenues, projected profits, past rate changes, consumer impact; then final decision & approval) and 2027 plan-year tables for 15 individual and 16 small-group companies.",
-        "Distinguish requested from approved rate changes (e.g., Ambetter Health of PA: requested 40.90%, approved 35.13%; Oscar Health Plan of PA: requested 15.39%, approved 1.38%) — never encode a request as the price.",
-        "State what the page does not establish: no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures — a rate filing cannot prove a clinician is in-network."
+        "Distinguish requested from approved rate changes (e.g., Ambetter Health of PA: requested 40.90%, approved 35.13%; Oscar Health Plan of PA: requested 15.39%, approved 1.38%) \u2014 never encode a request as the price.",
+        "State what the page does not establish: no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures \u2014 a rate filing cannot prove a clinician is in-network."
       ]
     },
     {
@@ -818,7 +818,7 @@
       "objectives": [
         "State verbatim the member-facing access route the PA DHS page establishes: the county mental-health office oversees Behavioral HealthChoices, personalizes the treatment plan (eligibility, assessment, referral), and connects the member to the county's BH-MCO; the member is assigned a BH-MCO by county of residence and chooses providers within that plan's network; the MCO sends a handbook on accessing services and benefits.",
         "Name the Medicaid application channels the page lists (COMPASS online, county assistance office in person, by mail, by phone) and the 988 crisis line it carries.",
-        "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination — a route map, not a destination list; never encode a provider, benefit, or rate from this page."
+        "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination \u2014 a route map, not a destination list; never encode a provider, benefit, or rate from this page."
       ]
     },
     {
@@ -845,7 +845,7 @@
       "objectives": [
         "State verbatim the accreditation passage the PA DHS publications index carries: as per CFR 438.332, the department posts the certificate of accreditation by a private independent entity, reflecting NCQA and URAC.",
         "Distinguish what the page does not establish: no per-plan accreditation dates, no per-plan accreditation scope, no provider network fact, no rate, and no outcome claim.",
-        "Explain the provenance discipline: accreditation certificates are evidence of external oversight (a paper trail), never evidence of network access, payment, or quality outcomes — and no rules are encoded from an index page."
+        "Explain the provenance discipline: accreditation certificates are evidence of external oversight (a paper trail), never evidence of network access, payment, or quality outcomes \u2014 and no rules are encoded from an index page."
       ]
     },
     {
@@ -871,7 +871,7 @@
       "objectives": [
         "State verbatim the dated ASAM fee schedule the PA DHS provider page carries: 'Rates Effective January 1, 2026', with per-hour, per-15-minute, and per-diem rate types and dollar fees (e.g., 2.0WM $106.35 per hour; 3.5 $260.65 per diem; 3.7WM $415.24 per diem).",
         "Distinguish unit types: a per-diem fee is a bundle, not a visit price, so fees across unit types do not compare naively.",
-        "Explain the encoding discipline: quoting any fee into a model requires opening the linked ASAM PDF and confirming applicability to provider type, county, and contract — not done this run — and a dated fee schedule is rate evidence, never a payment rule; BH-MCOs are paid by capitation."
+        "Explain the encoding discipline: quoting any fee into a model requires opening the linked ASAM PDF and confirming applicability to provider type, county, and contract \u2014 not done this run \u2014 and a dated fee schedule is rate evidence, never a payment rule; BH-MCOs are paid by capitation."
       ]
     },
     {
@@ -896,8 +896,34 @@
       ],
       "objectives": [
         "State what the archived PA Insurance Department coverage-areas page is: a 2026 plan-year purchase footprint (15 issuers, per-issuer county lists plus map images, e.g. Oscar 13 counties, UPMC Health Options 52, UPMC Health Plan 2), updated annually, with current coverage on the ACA Health Rate Filing home page.",
-        "Quote the page's standing scope limit: the maps apply to purchasing a plan only and do NOT show limits on health care coverage or provider networks — a sales footprint, never a network directory, never a rate.",
+        "Quote the page's standing scope limit: the maps apply to purchasing a plan only and do NOT show limits on health care coverage or provider networks \u2014 a sales footprint, never a network directory, never a rate.",
         "Explain the encoding discipline: archived market availability is dated history (2026), never the current plan year and never provider-network evidence; review_required_before_encoding stays true and nothing has been promoted to a rule."
+      ]
+    },
+    {
+      "id": "bhc-mcos-date-discipline",
+      "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "county-plan-assignment",
+        "lookup-vs-contract",
+        "date-discipline",
+        "contract-rebid-risk",
+        "bh-mco-directory"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "State the directory's stated purpose verbatim: the chart exists to determine the BH-MCO operating in a county and link through to that plan's own webpage \u2014 a lookup, not a contract and not a network.",
+        "Quote the re-verification finding of 2026-10-14: content unchanged since 2026-10-12 (5 organizations, all 67 PA counties assigned exactly once: CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11).",
+        "Explain the encoding discipline: county-to-plan assignments reflect published contracts that can change on re-bid, so cite every county-plan pairing with its retrieval date and re-check the live page before it enters a model; review_required_before_encoding stays true and nothing has been promoted to a rule."
       ]
     }
   ]

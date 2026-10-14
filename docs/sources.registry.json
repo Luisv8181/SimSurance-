@@ -36,7 +36,7 @@
       "source_type": "official_provider_page",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) — 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
+      "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) \u2014 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
       "supports": [
         "provider_context",
         "BH_MCO_context"
@@ -53,12 +53,13 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-12",
-      "scope_note": "Use as a dated county-to-BH-MCO lookup. Dated snapshot of the full county mapping preserved at docs/source-snapshots/bhc-mcos-2026-10-12.md (re-verified live 2026-10-12: five BH-MCOs \u2014 Community Behavioral Health (Philadelphia, 1 county), Community Care Behavioral Health Organization (41 counties), Magellan Behavioral Health of Pennsylvania (7 counties), PerformCare (7 counties), Carelon Health of PA (11 counties) \u2014 covering PA's 67 counties exactly once; page structure unchanged since 2026-10-10). A county mapping alone does not establish provider credentialing, open network status, benefits, or reimbursement.",
+      "last_checked": "2026-10-14",
+      "scope_note": "Re-verified live 2026-10-14: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date \u2014 cite it with the date.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/bhc-mcos-2026-10-14.md"
     },
     {
       "id": "pa-dhs-bhc-publications",
@@ -156,7 +157,7 @@
       "source_type": "official_historical_market_snapshot",
       "status": "historical_snapshot",
       "last_checked": "2026-10-14",
-      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed — maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
+      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed \u2014 maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
       "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
       "supports": [
         "2026_individual_market_plan_area"
