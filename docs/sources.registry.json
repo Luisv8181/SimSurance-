@@ -35,13 +35,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_provider_page",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-12",
-      "scope_note": "Re-verified live 2026-10-12. Provider-facing overview: county contracts with MCO; county MH programs ensure quality/timely access; BH-MCO assigned by county of residence; eligibles map shows 2,717,158 lives covered statewide by zone/county/MCO (map uses 'MBH' label where directory says Magellan \u2014 reconcile before use); ASAM rate schedule headed 'Rates Effective January 1, 2026'; HCBS gap payments ledger present. Provider acceptance, per-case benefits, and exact rates NOT established. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-12.md",
+      "last_checked": "2026-10-14",
+      "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) — 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
       "supports": [
         "provider_context",
         "BH_MCO_context"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/bhc-providers-2026-10-14.md"
     },
     {
       "id": "pa-dhs-bhc-mcos",

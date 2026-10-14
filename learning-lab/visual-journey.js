@@ -488,6 +488,37 @@
         { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_asam',
+    },
+    {
+      id: 'u1_p4_prov_asam',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 4e+: The Fee Schedule Shelf \u2014 Rates With a Date',
+      text: "The provider page has one shelf the overview never touches: a fee schedule with a date on it. The American Society of Addiction Medicine (ASAM) table is headed \"Rates Effective January 1, 2026\" \u2014 levels of care 2.0WM through 3.7WM, with rate types that matter: per hour, per 15 minutes, per diem. 2.0WM runs $106.35 per hour; 3.5 is $260.65 per diem; 3.7WM is $415.24 per diem. A fee schedule with a stated effective date is real rate evidence \u2014 it beats any rumor about what addiction-treatment services cost in Pennsylvania Medicaid. But read the discipline before you reach for it. A per-diem fee is a bundle, not a visit price, so dollars across unit types do not compare naively. The page is a schedule, not a contract \u2014 quoting any fee into a model means opening the linked ASAM PDF and confirming applicability to provider type, county, and contract, which I have not done. And behind the schedule sits the managed-care reality: BH-MCOs are paid by capitation, so fee schedules live inside contract negotiations, not on top of them. The rule for your notebook: a dated fee schedule is evidence of a rate, never a payment rule.",
+      advantage: true,
+      advantageText: 'A Fee Schedule Is Rate Evidence, Never a Payment Rule',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS \u00b7 provider-facing fee schedule, "Rates Effective January 1, 2026" (schedule page, not a payment rule)',
+        quote: 'Rates Effective January 1, 2026. 3.5: Per diem, $260.65. 3.7: Per diem, $321.78. 2.1: Per 15 Minutes, $11.57.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler encodes $260.65 per diem as "the payment for every ASAM 3.5 day" in the simulator. What did she skip?',
+        opts: [
+          'A) Opening the linked ASAM PDF and confirming the fee applies to the modeled provider type, county, and contract \u2014 and treating the dated fee schedule as rate evidence, not a payment rule; BH-MCO capitation is not fee-for-service.',
+          'B) Nothing \u2014 a dated, official fee schedule is a payment rule, so any fee encodes directly into the simulator.',
+          'C) Dividing the per-diem fee by 24 to get the hourly rate, since per-diem fees always convert cleanly to hourly prices.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page publishes a dated fee schedule \u2014 real rate evidence \u2014 but it is a schedule, not a contract. Quoting a fee into a model means opening the linked ASAM PDF and confirming applicability, and per-diem fees are bundles that do not compare naively with hourly or per-15-minute rates. Behind it all, BH-MCOs are paid by capitation, so fee schedules sit inside contract negotiations.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {
