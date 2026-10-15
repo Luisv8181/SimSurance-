@@ -1181,6 +1181,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_doorway',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE FEDERAL DOORWAY (verified 2026-10-15)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b2_doorway',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Doorway, Not the Filing Cabinet: The Federal Managed-Care Landing Page',
+      text: "You have seen where capitation numbers are born. Now zoom out one level: the federal doorway above the machinery. I opened Medicaid.gov's managed-care landing page this morning to check what it actually says — and what it doesn't. It says the delivery-system part: 'Managed Care is a health care delivery system organized to manage cost, utilization, and quality.' It says the payment part: 'Medicaid managed care provides for the delivery of Medicaid health benefits and additional services through contracted arrangements between state Medicaid agencies and managed care organizations (MCOs) that accept a set per member per month (capitation) payment for these services.' That is all it says. No federal authority is named anywhere on the page — no section 1932(a), no 1915(a) or 1915(b) waiver, no 1115 demonstration, and no statement of which authority most programs run under. No enrollment-share number. No 'last updated' date. The sidebar points at 'Managed Care Authorities' and the Social Security Act sections, but the page itself is an index, not the text of the law. And a forensic note: the URL once listed for this page — medicaid/managed-care/index.html — is dead. It 404s. The canonical page moved to medicaid/managed-care. Two discipline moves: an index page is a doorway, never a rule — it cannot establish an authority, a rate, or an enrollment figure, so cite it for the delivery-system definition only. And re-verify every federal URL before you cite it, because federal landing pages move and get redesigned into condensed overviews.",
+      advantage: true,
+      advantageText: 'An Index Page Is a Doorway, Never a Rule',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; verified 2026-10-15)',
+        quote: 'Medicaid managed care provides for the delivery of Medicaid health benefits and additional services through contracted arrangements between state Medicaid agencies and managed care organizations (MCOs) that accept a set per member per month (capitation) payment for these services.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Your model needs the federal authority behind a state’s 1915(b) waiver managed-care program. Can you cite the Medicaid.gov managed-care landing page for it?',
+        opts: [
+          'A) No — the page is an index: it names the delivery system and the capitation mechanism but carries no authority text, no enrollment share, and no date; the authority lives one click away on the "Managed Care Authorities" page the sidebar points to.',
+          'B) Yes — the page states section 1915(b) verbatim in its article body.',
+          'C) Yes — the old medicaid/managed-care/index.html URL still works and holds the full authority text.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-10-15 verification read the page body itself: it gives the delivery-system definition and the PMPM capitation mechanism, and nothing else. No 1932(a), no 1915(a)/(b), no 1115, no enrollment figure, no 'last updated' date — and the old /index.html URL returns a 404. An index page is a doorway, never a rule: cite it for the definition only, and open the authorities page before encoding any authority claim.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {
