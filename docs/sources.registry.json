@@ -87,13 +87,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_systems_page",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-12",
-      "scope_note": "Official OMHSAS systems page re-verified live 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page-level only; study PDFs not read; files nonpublic. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-12.md. Not evidence that nonpublic data are available to this project.",
+      "last_checked": "2026-10-15",
+      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners \u2014 encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-15.md. Not evidence that nonpublic data are available to this project.",
       "supports": [
         "encounter_data_discovery",
         "operational_materials"
       ],
-      "review_required_before_encoding": true
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/bhc-systems-management-2026-10-15.md"
     },
     {
       "id": "pa-dhs-physical-hc-mco",
