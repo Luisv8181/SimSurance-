@@ -1215,6 +1215,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate',
+    },
+    {
+      id: 'u5_p2b3_gate',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Not the Fence: Who Medicaid Can Cover',
+      text: "Before the delivery system and the capitation rates, there is a gate: who is allowed through it. I opened CMS's Eligibility Policy overview this morning — note the URL: medicaid/eligibility 404s, so the canonical page is medicaid/eligibility-policy. This is the second federal URL rot event in two days. The page teaches a federal floor, not a fence around the whole program: 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.' Mandatory groups include low-income families, qualified pregnant women and children, and SSI recipients. Everything beyond the floor is a state choice — individuals receiving home and community-based services, foster-care children not otherwise eligible, and, since 2010, adults: the ACA gave states the option to extend eligibility to adults at or below 133% of the federal poverty level (children are eligible to at least 133% in every state, most higher). 'Most states have chosen to expand coverage to adults, and those that have not yet expanded may choose to do so at any time.' The counting method: MAGI — one set of income rules and a single application across Medicaid, CHIP, and the marketplace. CMS is explicit that the MAGI method 'does not allow for income disregards that vary by state or by eligibility group and does not allow for an asset or resource test.' The exemptions matter for your model: blindness, disability, and age 65 and older still use SSI methodologies — and some 209(b) states use more restrictive criteria. Non-financial rules are plain: state residency, citizenship or qualified non-citizen status, plus age, pregnancy, or parenting limits for some groups. Timing: coverage starts on the application date or the first of the month, can reach back three months retroactively, and 'generally stops at the end of the month in which a person no longer meets the requirements for eligibility.' And the spenddown discipline: thirty-six states plus DC run medically-needy or 209(b) spenddown programs, so a too-high income is not always a closed gate. Two honest limits: the page shows no last-updated date — the 77.9 million figure (Medicaid and CHIP combined, 'the single largest source of health coverage in the United States') carries no date stamp. And no state on this page tells you its own groups or limits: the federal overview is a gate plan, never a state roster. Eligibility rules are state-administered, so the state is the unit — never generalize one state's expansion design to another.",
+      advantage: true,
+      advantageText: 'The Gate Has a Federal Floor and Fifty State Locks',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; verified 2026-10-15)',
+        quote: 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Your scenario needs one national Medicaid income limit for adults. What does the CMS Eligibility Policy overview support?',
+        opts: [
+          'A) Nothing national — adults are an optional state choice at or below 133% FPL; MAGI standardizes the counting method across states, not the limit, so the state is the unit and the state\u2019s own plan must be opened for its actual groups and limits.',
+          'B) A single national limit of 133% FPL applies to adults in every state.',
+          'C) The page is dated and shows the expansion roster per state, so the verified list can be read straight off it.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-10-15 verification read the page itself: the ACA created the opportunity, most states took it, but non-expansion states 'may choose to do so at any time' — there is no national adult limit on this page. MAGI's no-varying-disregards and no-asset-test rules standardize the method, and mandatory groups set the federal floor; everything else is a state decision. Also noted: the page shows no last-updated date, so even the 77.9 million combined-coverage figure carries no timestamp — date discipline applies to overview pages too.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {

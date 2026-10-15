@@ -1003,6 +1003,33 @@
         "Explain why the old /managed-care/index.html URL must not be cited (returns 404; canonical page moved to /managed-care) and why federal URLs must be re-verified before citation.",
         "Apply the index-page discipline: a landing page is a doorway, never a rule — cite it for the delivery-system definition only, and open the authorities page before encoding any authority claim."
       ]
+    },
+    {
+      "id": "medicaid-eligibility-gate",
+      "title": "The gate, not the fence: who Medicaid can cover",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "medicaid-eligibility",
+        "federal-floor",
+        "magi",
+        "state-variation",
+        "index-page-discipline",
+        "source-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-medicaid-eligibility-policy"
+      ],
+      "objectives": [
+        "State what the CMS Eligibility Policy overview verifies (federal mandatory groups; state option groups; ACA 133% FPL expansion option; MAGI counting with no state-varying disregards and no asset test; SSI-methodology exemptions for blindness/disability/age 65+; residency and citizenship rules; application-date coverage with 3-month retroactivity; medically-needy spenddown in 36 states + DC; fair-hearing appeals).",
+        "Explain why the page cannot establish any specific state's eligibility groups, income limits, or expansion status, and why it cannot date its own 77.9-million figure (no last-updated date displayed).",
+        "Apply the state-is-the-unit discipline: never generalize one state's eligibility design to another, and never cite the old /medicaid/eligibility URL (404s; canonical page moved to /eligibility-policy)."
+      ]
     }
   ]
 }

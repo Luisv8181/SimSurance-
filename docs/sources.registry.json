@@ -269,6 +269,23 @@
         "managed_care_delivery_system_definition"
       ],
       "review_required_before_encoding": true
+    },
+    {
+      "id": "cms-medicaid-eligibility-policy",
+      "title": "Eligibility Policy | Medicaid",
+      "issuer": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/eligibility-policy",
+      "jurisdiction": "United States",
+      "program": "Medicaid eligibility (federal policy overview)",
+      "source_type": "official_federal_guidance",
+      "status": "official_page_reviewed",
+      "last_checked": "2026-10-15",
+      "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state — page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
+      "supports": [
+        "medicaid_eligibility_context"
+      ],
+      "review_required_before_encoding": true,
+      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-10-15.md"
     }
   ]
 }
