@@ -53,13 +53,13 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date — cite it with the date.",
+      "last_checked": "2026-10-15",
+      "scope_note": "Re-verified live 2026-10-15: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. MBH/Magellan label flag RESOLVED: the directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on this page; the providers-page map abbreviation refers to the same entity. No phantom payer. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date — cite it with the date.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-mcos-2026-10-14.md"
+      "snapshot": "docs/source-snapshots/bhc-mcos-2026-10-15.md"
     },
     {
       "id": "pa-dhs-bhc-publications",

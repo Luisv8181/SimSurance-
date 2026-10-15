@@ -455,6 +455,36 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Explore Virtual County Lab', url: './county-lab.html' },
       ],
+      next: 'u1_p4e_mbh',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE PHANTOM PAYER (verified 2026-10-15)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4e_mbh',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d+: The Phantom Payer — Read the Label Before Naming the Payer',
+      text: "For three days our own verification notes carried a mystery: the providers page's enrollment map printed 'MBH' while the county directory printed 'Magellan.' Were there six payers on the Pennsylvania map, or five? Today I opened the directory one more time and read the actual row — and the mystery dissolved in one parenthetical. The page itself prints 'Magellan Behavioral Health of Pennsylvania (MBH).' The acronym is defined on the very page that spells out the full name; the providers page simply abbreviates. There is no phantom sixth payer. But linger on the near-miss, because it is the modeler's trap in miniature: two labels that look different do not mean two entities. Had I created a sixth MCO called MBH, every dollar in its seven counties would have landed in a ledger that does not exist. The discipline is embarrassingly simple — read the row, resolve the label on the page, and never let an acronym become a payer until the source says it is one.",
+      advantage: true,
+      advantageText: 'Resolve the Label Before Inventing a Payer',
+      citation: {
+        title: 'Behavioral Health Managed Care Organizations (BH-MCOs)',
+        statute: 'PA DHS · BH-MCO county directory (lookup, not a rule)',
+        quote: 'Magellan Behavioral Health of Pennsylvania (MBH)',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos',
+        urlLabel: 'PA DHS BH-MCO County Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "LABEL DRIFT BECOMES A LEDGER:\n- One map says 'MBH,' another says 'Magellan.'\n- A modeler shrugs and creates a sixth payer.\n- Bedford, Bucks, Cambria, Lehigh, Montgomery, Northampton, and Somerset dollars land in a ledger that does not exist.",
+        after: "READ THE ROW:\n- The directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH).'\n- One entity, two forms of the name — the acronym is defined on the page.\n- Five payers, 67 counties, no phantoms — and the 'unchanged since 2026-10-12' finding stands.",
+        note: "A page-level verification (2026-10-15): resolves the label, not the plan. Nothing about networks, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'PA DHS BH for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+      ],
       next: 'u1_p4e_mapdate',
     },
 

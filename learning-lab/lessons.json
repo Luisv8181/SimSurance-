@@ -1055,6 +1055,33 @@
         "Explain why a simulation must scope a modeled member's plan choice set to the member's region table, and why assigning a region-outside plan is a modeling error.",
         "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
       ]
+    },
+    {
+      "id": "bhc-mcos-mbh-label",
+      "title": "The phantom payer: MBH/Magellan label resolved on the directory page itself (verified 2026-10-15)",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "entity-resolution",
+        "label-discipline",
+        "lookup-vs-contract",
+        "bh-mco-directory",
+        "acronym-as-claim"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos",
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "Quote the directory row verbatim: 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on the same page that spells the full name, so the providers-page map's 'MBH' abbreviation names the same entity.",
+        "Record the resolution of the flag first raised 2026-10-12: no phantom sixth payer; five organizations, 67 counties assigned exactly once, content unchanged since 2026-10-12.",
+        "Teach the encoding discipline: two labels that look different do not mean two entities — resolve every payer label on the page before it enters the model, and review_required_before_encoding stays true; nothing about networks, benefits, or rates is claimed."
+      ]
     }
   ]
 }
