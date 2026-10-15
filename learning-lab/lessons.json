@@ -1030,6 +1030,31 @@
         "Explain why the page cannot establish any specific state's eligibility groups, income limits, or expansion status, and why it cannot date its own 77.9-million figure (no last-updated date displayed).",
         "Apply the state-is-the-unit discipline: never generalize one state's eligibility design to another, and never cite the old /medicaid/eligibility URL (404s; canonical page moved to /eligibility-policy)."
       ]
+    },
+    {
+      "id": "physical-plan-region-menu",
+      "title": "The region is the menu: physical plan options are region-scoped",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "physical-health-mco-directory",
+        "region-to-plan-mapping",
+        "choice-set-discipline",
+        "source-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "State which physical HealthChoices plan labels appear in all five region tables (Geisinger Health Plan, Jefferson Health Plans EverWell, UPMC for You) and which are region-locked (Keystone First and United Healthcare Community Plan: Southeast only; Highmark Wholecare: Lehigh/Capital and Southwest only; AmeriHealth Caritas row label varies by region).",
+        "Explain why a simulation must scope a modeled member's plan choice set to the member's region table, and why assigning a region-outside plan is a modeling error.",
+        "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
+      ]
     }
   ]
 }

@@ -375,6 +375,35 @@
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
         { label: 'Follow the Money Flow', url: './money-flow.html' },
       ],
+      next: 'u1_p4_phys2_menu',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE REGION IS THE MENU (verified 2026-10-15)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys2_menu',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b: The Physical-Health Plan Family',
+      text: "The directory you just read is five tables, not one list — and that matters more than it looks. Only three plan names appear in all five region tables: Geisinger Health Plan, Jefferson Health Plans EverWell, and UPMC for You. The rest are region-locked. Keystone First and United Healthcare Community Plan show up only under Southeast. Highmark Wholecare only under Lehigh/Capital and Southwest. The AmeriHealth Caritas row label even changes by region. So your member's region is their plan menu. When a simulation assigns a plan, never hand a modeled member a choice their region's table doesn't offer — a member in the Southwest enrolled in Keystone First is a modeling error, not a preference.",
+      advantage: true,
+      advantageText: 'Scope the Choice Set: Region Before Plan',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Southeast Counties in the HealthChoices Program: Bucks, Chester, Delaware, Montgomery, Philadelphia',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STATEWIDE PLAN BLUR:\n- 'The member picks a plan.'\n- Every plan label treated as a statewide option.\n- A modeled member in the Southwest walks out enrolled in Keystone First.",
+        after: "THE REGIONAL MENU:\n- Five region tables; only Geisinger, Jefferson EverWell, and UPMC for You appear in all five.\n- Keystone First and United Healthcare Community Plan: Southeast only. Highmark Wholecare: Lehigh/Capital and Southwest only.\n- Read the member's region table before assigning a plan — the menu is the constraint.",
+        note: "A dated plan directory (verified 2026-10-15): shows which plans the page lists per region, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {
