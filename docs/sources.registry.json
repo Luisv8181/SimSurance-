@@ -226,14 +226,14 @@
       "program": "Medicaid school-based services",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-12",
-      "scope_note": "Federal index of school-based-services technical-assistance resources: TAC resources, 2023 Comprehensive Guide and informational bulletins, sample SPAs/TSIPs/cost reports. Page-level verification only; linked documents not reviewed this run. Do not generalize any state's SPA approach to another state.",
+      "last_checked": "2026-10-14",
+      "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) \u2014 do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
       "supports": [
         "school_based_services_context",
         "administrative_claiming_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-12.md"
+      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-14.md"
     },
     {
       "id": "cms-mh-parity",

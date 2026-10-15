@@ -954,6 +954,30 @@
         "Quote the re-verification finding of 2026-10-14: content unchanged since 2026-10-12 (5 organizations, all 67 PA counties assigned exactly once: CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11).",
         "Explain the encoding discipline: county-to-plan assignments reflect published contracts that can change on re-bid, so cite every county-plan pairing with its retrieval date and re-check the live page before it enters a model; review_required_before_encoding stays true and nothing has been promoted to a rule."
       ]
+    },
+    {
+      "id": "school-based-spa-unit",
+      "title": "School-based Medicaid: the state is the unit (fifty SPAs, not one program)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "state-plan-amendment",
+        "payment-methodology"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "Name the four distinct SBS SPA payment designs CMS lists side by side (cost-methodology expanded services; cost-methodology IDEA-only; cost-based rate methodology; fee-schedule rate) and which states exemplify each.",
+        "Explain why one state's SPA parameters cannot be transferred to another state's scenario without opening that state's own SPA text, version, approval date, and payment method.",
+        "State what the CMS resource index does not establish: any coverage rule, rate, or payment methodology, and why its linked state examples are 'for reference only' rather than CMS endorsement."
+      ]
     }
   ]
 }

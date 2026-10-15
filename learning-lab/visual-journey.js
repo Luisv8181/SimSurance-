@@ -1212,6 +1212,37 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_sbs',
+    },
+    {
+      id: 'u5_p2b_sbs',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The State Is the Unit: Fifty SPAs, Not One Program',
+      text: "So the schoolhouse can be a billing partner — but which schoolhouse? The state's own State Plan Amendment decides, and CMS's example wall hangs four different designs side by side: SBS State Plan Amendments (SPAs) using a cost methodology and expanded services beyond IDEA to any Medicaid enrolled child — Arizona, Colorado, Illinois, New Mexico; SBS SPAs using a cost methodology and IDEA services — Utah alone; SBS SPAs using a cost-based rate methodology and opened expanded services for any child enrolled in Medicaid — Oregon; and SBS SPAs paying the regular Medicaid fee-schedule rate for certain services — Nevada for expanded services, Wyoming for IDEA only. Four designs, one federal permission. That is why the register's standing discipline is: never generalize one state's SPA approach to another — a cost parameter calibrated on Arizona's SPA tells you nothing about Wyoming's fee schedule. And the page warns you about itself, too: the linked state examples are third-party sites, for reference only — 'linking to a non-United States Government website does not constitute an endorsement by CMS, HHS, or any of their employees.' So the rule for your simulator is simple: a school-based payment parameter must cite the state's own SPA text, its approval date, and its payment method. Anything else is a different state's rule wearing your state's name.",
+      advantage: true,
+      advantageText: 'The State Is the Unit: One SPA Does Not Travel',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · SBS State Plan Amendment state examples (index page, not a rule)',
+        quote: 'SBS State Plan Amendments (SPAs) using a cost methodology and expanded services beyond IDEA to any Medicaid enrolled child:',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A modeler copies Arizona SPA 21-0006 cost parameters into a Wyoming school-based scenario. What does the CMS page support?',
+        opts: [
+          'A) Nothing about Wyoming — the page groups four different SPA designs side by side (AZ/CO/IL/NM cost-methodology expanded; UT cost-methodology IDEA-only; OR cost-based rate; NV/WY fee-schedule), so one state\u2019s SPA never travels; the state\u2019s own SPA text, approval date, and payment method must be opened and read.',
+          'B) The parameters transfer — CMS lists the SPAs as interchangeable national templates.',
+          'C) Only the random-moment time-study method transfers; payment methods are identical nationwide.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page is an index of state designs, not a national rate book: four SPA designs sit side by side, and the approval dates (Arizona October 2021, Wyoming July 2022) mark them as different state plans. Borrowing one state's cost method for another's scenario is fabrication, not modeling. The page also disclaims itself on the linked state examples — reference only, no CMS endorsement — so even the design label is no substitute for the state's own SPA text, version, and effective date.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 
