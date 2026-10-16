@@ -1,291 +1,291 @@
 {
-  "schema_version": "1.0",
-  "research_snapshot_date": "2026-10-11",
-  "purpose": "Dated navigational registry for source discovery. Listing a source does not mean all rules on that page have been verified or are applicable to every member, provider, county, service, or plan.",
-  "status_legend": {
-    "official_page_reviewed": "An official landing/index page has been opened and checked for the described purpose.",
-    "document_review_required": "The linked document or exact passage must be reviewed before a policy claim is encoded.",
-    "historical_snapshot": "The record describes a prior dated check and must be rechecked for current use."
+ "schema_version": "1.0",
+ "research_snapshot_date": "2026-10-11",
+ "purpose": "Dated navigational registry for source discovery. Listing a source does not mean all rules on that page have been verified or are applicable to every member, provider, county, service, or plan.",
+ "status_legend": {
+  "official_page_reviewed": "An official landing/index page has been opened and checked for the described purpose.",
+  "document_review_required": "The linked document or exact passage must be reviewed before a policy claim is encoded.",
+  "historical_snapshot": "The record describes a prior dated check and must be rechecked for current use."
+ },
+ "sources": [
+  {
+   "id": "pa-dhs-bhc-overview",
+   "title": "Behavioral HealthChoices",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_program_overview",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-16",
+   "scope_note": "Re-verified live 2026-10-16: page text byte-identical to the 2026-10-13/2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO). NEW PAGE-LEVEL OBSERVATION: the page carries no revision date, last-updated stamp, or document version — the only dateable fact is the retrieval date, so \"current\" is unknowable and every claim drawn from it must carry the check date. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-16.md",
+   "supports": [
+    "program_structure",
+    "behavioral_health_mco_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/bhc-overview-2026-10-16.md"
   },
-  "sources": [
-    {
-      "id": "pa-dhs-bhc-overview",
-      "title": "Behavioral HealthChoices",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_program_overview",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page text byte-identical to the 2026-10-13/2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO). NEW PAGE-LEVEL OBSERVATION: the page carries no revision date, last-updated stamp, or document version \u2014 the only dateable fact is the retrieval date, so \"current\" is unknowable and every claim drawn from it must carry the check date. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-16.md",
-      "supports": [
-        "program_structure",
-        "behavioral_health_mco_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-overview-2026-10-16.md"
-    },
-    {
-      "id": "pa-dhs-bhc-providers",
-      "title": "Behavioral HealthChoices: Information for Providers",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_provider_page",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) \u2014 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
-      "supports": [
-        "provider_context",
-        "BH_MCO_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-providers-2026-10-14.md"
-    },
-    {
-      "id": "pa-dhs-bhc-mcos",
-      "title": "Behavioral HealthChoices: Managed Care Organizations",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_county_mapping",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. MBH/Magellan label flag RESOLVED: the directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH)' \u2014 the acronym is defined on this page; the providers-page map abbreviation refers to the same entity. No phantom payer. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date \u2014 cite it with the date.",
-      "supports": [
-        "county_to_BH_MCO_mapping"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-mcos-2026-10-15.md"
-    },
-    {
-      "id": "pa-dhs-bhc-publications",
-      "title": "Behavioral HealthChoices Publications",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_document_index",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-14.md",
-      "scope_note": "Re-verified live 2026-10-14 (unchanged since 2026-10-11): index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332, no per-plan dates listed), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only \u2014 open each linked document and record its version/effective date before encoding anything.",
-      "supports": [
-        "source_document_discovery"
-      ],
-      "review_required_before_encoding": true
-    },
-    {
-      "id": "pa-dhs-bhc-systems-management",
-      "title": "Behavioral HealthChoices Systems Management",
-      "issuer": "Pennsylvania Department of Human Services / OMHSAS",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_systems_page",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners \u2014 encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-15.md. Not evidence that nonpublic data are available to this project.",
-      "supports": [
-        "encounter_data_discovery",
-        "operational_materials"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-systems-management-2026-10-15.md"
-    },
-    {
-      "id": "pa-dhs-physical-hc-mco",
-      "title": "Physical HealthChoices Managed Care Organizations",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid physical HealthChoices",
-      "source_type": "official_plan_directory",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "snapshot": "docs/source-snapshots/physical-hc-mcos-2026-10-15.md",
-      "scope_note": "Re-verified live 2026-10-15: no content change since the 2026-10-12 check. Dated directory of physical HealthChoices plans by region (5 regions, member-services and Enhanced Member Supports Unit numbers per plan). Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs. Footprint note (page-level): only Geisinger Health Plan, Jefferson Health Plans EverWell, and UPMC for You appear in all 5 region tables; Keystone First and United Healthcare Community Plan are Southeast-only; Highmark Wholecare is Lehigh/Capital + Southwest; AmeriHealth Caritas row label varies by region. Consumer shipped 2026-10-12: WORKBOOK scene u1_p4_phys ('One member, two plan families'), lesson two-plan-families, status source_review_required. New consumer 2026-10-15: WORKBOOK scene u1_p4_phys2_menu ('The Region Is the Menu'), lesson physical-plan-region-menu, status source_review_required.",
-      "supports": [
-        "physical_health_mco_directory"
-      ],
-      "review_required_before_encoding": true
-    },
-    {
-      "id": "pa-dhs-chip-companies",
-      "title": "CHIP Insurance Companies",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies",
-      "snapshot": "docs/source-snapshots/chip-companies-2026-10-16.md",
-      "jurisdiction": "Pennsylvania",
-      "program": "Children's Health Insurance Program",
-      "source_type": "official_plan_directory",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page byte-identical to the 2026-10-13 check (same nine companies and phone numbers; same nine-row NCQA accreditation ledger, all 'Accredited'; same five-row Health Equity accreditation ledger). NEW PAGE-LEVEL OBSERVATION: three Health Equity 'Next Due Date' entries on the page now lie in the past relative to this check (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) with no page update to those rows \u2014 the page is a dated record, not proof any accreditation lapsed; a passed due date on an un-updated page is a recheck flag (confirm against NCQA/the MCO) before encoding any 'currently accredited' value. Consumer shipped 2026-10-16: WORKBOOK scene u1_p4_chip2_stale ('The Stale Ledger: When the Due Date Has Passed'), lesson chip-directory-staleness, status source_review_required. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-16.md",
-      "supports": [
-        "CHIP_plan_directory"
-      ],
-      "review_required_before_encoding": true
-    },
-    {
-      "id": "pa-insurance-department-aca-filings",
-      "title": "ACA Health Rate Filings",
-      "issuer": "Pennsylvania Insurance Department",
-      "url": "https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings",
-      "jurisdiction": "Pennsylvania",
-      "program": "Individual and small-group commercial insurance markets",
-      "source_type": "official_rate_and_market_index",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page text-identical to 2026-10-13 (2027 plan-year requested AND approved rate-change tables; 15 individual, 16 small-group companies; two-phase rate review text intact). New page-level observation 2026-10-16: request-to-approved divergence varies in direction — approved below requested (e.g., Ambetter Health of PA individual 40.90% -> 35.13%; Oscar individual 15.39% -> 1.38%), approved above requested (Health Partners Plans individual 15.90% -> 18.35%; Keystone Health Plan East individual 14.68% -> 15.98%; QCC Insurance individual 19.88% -> 21.31%), approved equal to requested (e.g., Independence Assurance small group 8.95% -> 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA). Model discipline: encode the approved figure only; the request is neither a ceiling nor a floor; new-plan 0.00% rows are non-observations. Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-16.md",
-      "supports": [
-        "market_availability",
-        "commercial_market_research"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/aca-rate-filings-2026-10-16.md"
-    },
-    {
-      "id": "pa-insurance-department-2026-individual-coverage-areas",
-      "title": "Coverage Areas for 2026 Individual Market Plans",
-      "issuer": "Pennsylvania Insurance Department",
-      "url": "https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market",
-      "jurisdiction": "Pennsylvania",
-      "program": "2026 individual commercial insurance market",
-      "source_type": "official_historical_market_snapshot",
-      "status": "historical_snapshot",
-      "last_checked": "2026-10-14",
-      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed \u2014 maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
-      "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
-      "supports": [
-        "2026_individual_market_plan_area"
-      ],
-      "review_required_before_encoding": true
-    },
-    {
-      "id": "pennie",
-      "title": "Pennie: Pennsylvania's Official Health Insurance Marketplace",
-      "issuer": "Pennie",
-      "url": "https://pennie.com/",
-      "jurisdiction": "Pennsylvania",
-      "program": "Individual and family health insurance marketplace",
-      "source_type": "official_marketplace",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-13",
-      "scope_note": "Homepage (pennie.com) verified live 2026-10-13: official state marketplace for health/dental coverage, life-change enrollment check, Medicaid-transition account pathway, 2026 federal-changes notice, certified-assister help channels. Content materially unchanged since 2026-10-10. Page-level verification only; no plan, rate, or eligibility rule encoded.",
-      "supports": [
-        "marketplace_plan_discovery"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/pennie-2026-10-13.md"
-    },
-    {
-      "id": "cms-managed-care-rate-guidance",
-      "title": "Medicaid Managed Care Rate Review and Rate Guides",
-      "issuer": "Centers for Medicare & Medicaid Services",
-      "url": "https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides",
-      "jurisdiction": "United States",
-      "program": "Medicaid managed care",
-      "source_type": "official_federal_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-13. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. New detail: index lists addenda to the 2024-2025 and 2016 guides \u2014 guidance editions have a revision channel, so modeled assumptions must check the addendum drawer too. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-10-15.md",
-      "supports": [
-        "managed_care_rate_development_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-rate-guidance-2026-10-15.md"
-    },
-    {
-      "id": "pa-dhs-bhc-service-access",
-      "title": "Request Behavioral HealthChoices Program Services",
-      "issuer": "Pennsylvania Department of Human Services",
-      "url": "https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services",
-      "jurisdiction": "Pennsylvania",
-      "program": "Medicaid Behavioral HealthChoices",
-      "source_type": "official_member_access_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-13",
-      "scope_note": "Re-verified live 2026-10-13: content consistent with 2026-10-11 review. Member-facing access route: county mental-health office oversees Behavioral HealthChoices; county determines eligibility/funding, assesses need, refers to programs; BH-MCO assigned by county of residence, member chooses providers within the BH-MCO network, MCO sends handbook; Medicaid application via COMPASS/CAO/mail/phone (1-866-550-4355); 988 crisis lifeline block present. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-10-13.md",
-      "supports": [
-        "member_access_pathway",
-        "provider_search",
-        "access_barriers"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-service-access-2026-10-13.md"
-    },
-    {
-      "id": "cms-school-based-services",
-      "title": "CMS School-Based Services Resources",
-      "issuer": "Centers for Medicare & Medicaid Services",
-      "url": "https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources",
-      "jurisdiction": "United States",
-      "program": "Medicaid school-based services",
-      "source_type": "official_federal_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) \u2014 do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
-      "supports": [
-        "school_based_services_context",
-        "administrative_claiming_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-14.md"
-    },
-    {
-      "id": "cms-mh-parity",
-      "title": "The Mental Health Parity and Addiction Equity Act (MHPAEA)",
-      "issuer": "Centers for Medicare & Medicaid Services",
-      "url": "https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity",
-      "jurisdiction": "United States",
-      "program": "Private health insurance; group and individual markets",
-      "source_type": "official_federal_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule. 2024 final rules (HHS/Labor/Treasury, 2024-09-09) and CAA-2021 NQTL comparative-analysis duty noted from page; linked regulations not yet read. Re-verified 2026-10-14: page content unchanged since 2026-10-12.",
-      "supports": [
-        "mh_parity_requirements_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-14.md"
-    },
-    {
-      "id": "medicaid-gov-managed-care",
-      "title": "Managed Care | Medicaid",
-      "issuer": "Centers for Medicare & Medicaid Services (CMS)",
-      "url": "https://www.medicaid.gov/medicaid/managed-care",
-      "jurisdiction": "Federal",
-      "program": "Medicaid managed care",
-      "source_type": "official_program_overview",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "snapshot": "docs/source-snapshots/medicaid-managed-care-basics-2026-10-15.md",
-      "scope_note": "Verified live 2026-10-15 via the live browser (direct fetch 403; old /managed-care/index.html URL 404s \u2014 canonical page is now /managed-care). Condensed overview page: managed care as delivery system managing cost/utilization/quality, capitation (PMPM) payments to MCOs. Page carries NO federal-authority text (no 1932(a), 1915(a)/(b), 1115), NO enrollment-share figure, and NO last-updated date. Sidebar links to 'Managed Care Authorities' and SSA sections not followed this run. Consumer shipped 2026-10-15: WORKBOOK scene u5_p2b2_doorway ('The Doorway, Not the Filing Cabinet'), lesson medicaid-managed-care-doorway, status source_review_required.",
-      "supports": [
-        "managed_care_delivery_system_definition"
-      ],
-      "review_required_before_encoding": true
-    },
-    {
-      "id": "cms-medicaid-eligibility-policy",
-      "title": "Eligibility Policy | Medicaid",
-      "issuer": "Centers for Medicare & Medicaid Services",
-      "url": "https://www.medicaid.gov/medicaid/eligibility-policy",
-      "jurisdiction": "United States",
-      "program": "Medicaid eligibility (federal policy overview)",
-      "source_type": "official_federal_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state \u2014 page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
-      "supports": [
-        "medicaid_eligibility_context"
-      ],
-      "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-10-15.md"
-    }
-  ]
+  {
+   "id": "pa-dhs-bhc-providers",
+   "title": "Behavioral HealthChoices: Information for Providers",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_provider_page",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-14",
+   "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) — 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
+   "supports": [
+    "provider_context",
+    "BH_MCO_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/bhc-providers-2026-10-14.md"
+  },
+  {
+   "id": "pa-dhs-bhc-mcos",
+   "title": "Behavioral HealthChoices: Managed Care Organizations",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_county_mapping",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "scope_note": "Re-verified live 2026-10-15: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. MBH/Magellan label flag RESOLVED: the directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on this page; the providers-page map abbreviation refers to the same entity. No phantom payer. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date — cite it with the date.",
+   "supports": [
+    "county_to_BH_MCO_mapping"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/bhc-mcos-2026-10-15.md"
+  },
+  {
+   "id": "pa-dhs-bhc-publications",
+   "title": "Behavioral HealthChoices Publications",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_document_index",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-14",
+   "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-14.md",
+   "scope_note": "Re-verified live 2026-10-14 (unchanged since 2026-10-11): index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332, no per-plan dates listed), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only — open each linked document and record its version/effective date before encoding anything.",
+   "supports": [
+    "source_document_discovery"
+   ],
+   "review_required_before_encoding": true
+  },
+  {
+   "id": "pa-dhs-bhc-systems-management",
+   "title": "Behavioral HealthChoices Systems Management",
+   "issuer": "Pennsylvania Department of Human Services / OMHSAS",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_systems_page",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners — encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-15.md. Not evidence that nonpublic data are available to this project.",
+   "supports": [
+    "encounter_data_discovery",
+    "operational_materials"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/bhc-systems-management-2026-10-15.md"
+  },
+  {
+   "id": "pa-dhs-physical-hc-mco",
+   "title": "Physical HealthChoices Managed Care Organizations",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid physical HealthChoices",
+   "source_type": "official_plan_directory",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "snapshot": "docs/source-snapshots/physical-hc-mcos-2026-10-15.md",
+   "scope_note": "Re-verified live 2026-10-15: no content change since the 2026-10-12 check. Dated directory of physical HealthChoices plans by region (5 regions, member-services and Enhanced Member Supports Unit numbers per plan). Keep physical-health MCOs distinct from Behavioral HealthChoices BH-MCOs. Footprint note (page-level): only Geisinger Health Plan, Jefferson Health Plans EverWell, and UPMC for You appear in all 5 region tables; Keystone First and United Healthcare Community Plan are Southeast-only; Highmark Wholecare is Lehigh/Capital + Southwest; AmeriHealth Caritas row label varies by region. Consumer shipped 2026-10-12: WORKBOOK scene u1_p4_phys ('One member, two plan families'), lesson two-plan-families, status source_review_required. New consumer 2026-10-15: WORKBOOK scene u1_p4_phys2_menu ('The Region Is the Menu'), lesson physical-plan-region-menu, status source_review_required.",
+   "supports": [
+    "physical_health_mco_directory"
+   ],
+   "review_required_before_encoding": true
+  },
+  {
+   "id": "pa-dhs-chip-companies",
+   "title": "CHIP Insurance Companies",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies",
+   "snapshot": "docs/source-snapshots/chip-companies-2026-10-16.md",
+   "jurisdiction": "Pennsylvania",
+   "program": "Children's Health Insurance Program",
+   "source_type": "official_plan_directory",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-16",
+   "scope_note": "Re-verified live 2026-10-16: page byte-identical to the 2026-10-13 check (same nine companies and phone numbers; same nine-row NCQA accreditation ledger, all 'Accredited'; same five-row Health Equity accreditation ledger). NEW PAGE-LEVEL OBSERVATION: three Health Equity 'Next Due Date' entries on the page now lie in the past relative to this check (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) with no page update to those rows — the page is a dated record, not proof any accreditation lapsed; a passed due date on an un-updated page is a recheck flag (confirm against NCQA/the MCO) before encoding any 'currently accredited' value. Consumer shipped 2026-10-16: WORKBOOK scene u1_p4_chip2_stale ('The Stale Ledger: When the Due Date Has Passed'), lesson chip-directory-staleness, status source_review_required. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-16.md",
+   "supports": [
+    "CHIP_plan_directory"
+   ],
+   "review_required_before_encoding": true
+  },
+  {
+   "id": "pa-insurance-department-aca-filings",
+   "title": "ACA Health Rate Filings",
+   "issuer": "Pennsylvania Insurance Department",
+   "url": "https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings",
+   "jurisdiction": "Pennsylvania",
+   "program": "Individual and small-group commercial insurance markets",
+   "source_type": "official_rate_and_market_index",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-16",
+   "scope_note": "Re-verified live 2026-10-16: page text-identical to 2026-10-13 (2027 plan-year requested AND approved rate-change tables; 15 individual, 16 small-group companies; two-phase rate review text intact). New page-level observation 2026-10-16: request-to-approved divergence varies in direction — approved below requested (e.g., Ambetter Health of PA individual 40.90% -> 35.13%; Oscar individual 15.39% -> 1.38%), approved above requested (Health Partners Plans individual 15.90% -> 18.35%; Keystone Health Plan East individual 14.68% -> 15.98%; QCC Insurance individual 19.88% -> 21.31%), approved equal to requested (e.g., Independence Assurance small group 8.95% -> 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA). Model discipline: encode the approved figure only; the request is neither a ceiling nor a floor; new-plan 0.00% rows are non-observations. Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-16.md",
+   "supports": [
+    "market_availability",
+    "commercial_market_research"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/aca-rate-filings-2026-10-16.md"
+  },
+  {
+   "id": "pa-insurance-department-2026-individual-coverage-areas",
+   "title": "Coverage Areas for 2026 Individual Market Plans",
+   "issuer": "Pennsylvania Insurance Department",
+   "url": "https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market",
+   "jurisdiction": "Pennsylvania",
+   "program": "2026 individual commercial insurance market",
+   "source_type": "official_historical_market_snapshot",
+   "status": "historical_snapshot",
+   "last_checked": "2026-10-14",
+   "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed — maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
+   "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
+   "supports": [
+    "2026_individual_market_plan_area"
+   ],
+   "review_required_before_encoding": true
+  },
+  {
+   "id": "pennie",
+   "title": "Pennie: Pennsylvania's Official Health Insurance Marketplace",
+   "issuer": "Pennie",
+   "url": "https://pennie.com/",
+   "jurisdiction": "Pennsylvania",
+   "program": "Individual and family health insurance marketplace",
+   "source_type": "official_marketplace",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-16",
+   "scope_note": "Homepage (pennie.com) re-verified live 2026-10-16: marketing hero copy rotated since 2026-10-13 (new surprise-medical-bills hero; persona vignettes with illustrative monthly Silver prices); Oct-13 hero, life-change enrollment line, and tagline no longer appear. Index facts persist: official PA marketplace, Medicaid-transition account-handoff doorway, 2026 federal-changes notice, certified help channels. Page-level verification only; no plan, rate, or eligibility rule encoded. Snapshot: docs/source-snapshots/pennie-2026-10-16.md.",
+   "supports": [
+    "marketplace_plan_discovery"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/pennie-2026-10-16.md"
+  },
+  {
+   "id": "cms-managed-care-rate-guidance",
+   "title": "Medicaid Managed Care Rate Review and Rate Guides",
+   "issuer": "Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides",
+   "jurisdiction": "United States",
+   "program": "Medicaid managed care",
+   "source_type": "official_federal_guidance",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-13. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. New detail: index lists addenda to the 2024-2025 and 2016 guides — guidance editions have a revision channel, so modeled assumptions must check the addendum drawer too. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-10-15.md",
+   "supports": [
+    "managed_care_rate_development_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/cms-rate-guidance-2026-10-15.md"
+  },
+  {
+   "id": "pa-dhs-bhc-service-access",
+   "title": "Request Behavioral HealthChoices Program Services",
+   "issuer": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services",
+   "jurisdiction": "Pennsylvania",
+   "program": "Medicaid Behavioral HealthChoices",
+   "source_type": "official_member_access_guidance",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-13",
+   "scope_note": "Re-verified live 2026-10-13: content consistent with 2026-10-11 review. Member-facing access route: county mental-health office oversees Behavioral HealthChoices; county determines eligibility/funding, assesses need, refers to programs; BH-MCO assigned by county of residence, member chooses providers within the BH-MCO network, MCO sends handbook; Medicaid application via COMPASS/CAO/mail/phone (1-866-550-4355); 988 crisis lifeline block present. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-10-13.md",
+   "supports": [
+    "member_access_pathway",
+    "provider_search",
+    "access_barriers"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/bhc-service-access-2026-10-13.md"
+  },
+  {
+   "id": "cms-school-based-services",
+   "title": "CMS School-Based Services Resources",
+   "issuer": "Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources",
+   "jurisdiction": "United States",
+   "program": "Medicaid school-based services",
+   "source_type": "official_federal_guidance",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-14",
+   "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) — do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
+   "supports": [
+    "school_based_services_context",
+    "administrative_claiming_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-14.md"
+  },
+  {
+   "id": "cms-mh-parity",
+   "title": "The Mental Health Parity and Addiction Equity Act (MHPAEA)",
+   "issuer": "Centers for Medicare & Medicaid Services",
+   "url": "https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity",
+   "jurisdiction": "United States",
+   "program": "Private health insurance; group and individual markets",
+   "source_type": "official_federal_guidance",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-14",
+   "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule. 2024 final rules (HHS/Labor/Treasury, 2024-09-09) and CAA-2021 NQTL comparative-analysis duty noted from page; linked regulations not yet read. Re-verified 2026-10-14: page content unchanged since 2026-10-12.",
+   "supports": [
+    "mh_parity_requirements_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-14.md"
+  },
+  {
+   "id": "medicaid-gov-managed-care",
+   "title": "Managed Care | Medicaid",
+   "issuer": "Centers for Medicare & Medicaid Services (CMS)",
+   "url": "https://www.medicaid.gov/medicaid/managed-care",
+   "jurisdiction": "Federal",
+   "program": "Medicaid managed care",
+   "source_type": "official_program_overview",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "snapshot": "docs/source-snapshots/medicaid-managed-care-basics-2026-10-15.md",
+   "scope_note": "Verified live 2026-10-15 via the live browser (direct fetch 403; old /managed-care/index.html URL 404s — canonical page is now /managed-care). Condensed overview page: managed care as delivery system managing cost/utilization/quality, capitation (PMPM) payments to MCOs. Page carries NO federal-authority text (no 1932(a), 1915(a)/(b), 1115), NO enrollment-share figure, and NO last-updated date. Sidebar links to 'Managed Care Authorities' and SSA sections not followed this run. Consumer shipped 2026-10-15: WORKBOOK scene u5_p2b2_doorway ('The Doorway, Not the Filing Cabinet'), lesson medicaid-managed-care-doorway, status source_review_required.",
+   "supports": [
+    "managed_care_delivery_system_definition"
+   ],
+   "review_required_before_encoding": true
+  },
+  {
+   "id": "cms-medicaid-eligibility-policy",
+   "title": "Eligibility Policy | Medicaid",
+   "issuer": "Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicaid.gov/medicaid/eligibility-policy",
+   "jurisdiction": "United States",
+   "program": "Medicaid eligibility (federal policy overview)",
+   "source_type": "official_federal_guidance",
+   "status": "official_page_reviewed",
+   "last_checked": "2026-10-15",
+   "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state — page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
+   "supports": [
+    "medicaid_eligibility_context"
+   ],
+   "review_required_before_encoding": true,
+   "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-10-15.md"
+  }
+ ]
 }

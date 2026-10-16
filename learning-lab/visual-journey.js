@@ -854,6 +854,38 @@
         { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c2_pennie_drift',
+    },
+
+    {
+      id: 'u1_p5c2_pennie_drift',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c′: The Repainted Door — The Homepage Moved, the Rule Didn’t',
+      text: "Walk back to the door you photographed on October 13, and you will find it repainted. Three days ago the Pennie homepage welcomed you with a formal greeting and a life-change check that said to apply at least a week before losing coverage. Today the greeting is gone — the hero now warns you about surprise medical bills — and the life-change line and the 'Confused to Covered!' tagline have both vanished. In their place sits a 'Who is Pennie for?' section: three friendly faces, each carrying an example price for a Silver-level plan. That price — say, eighty-some dollars a month — is an advertisement's arithmetic, not a benchmark rate. No modeler may encode it; no county should be benchmarked against a vignette. The doorways that survive the repaint are the index-level facts: this is Pennsylvania's official marketplace, not healthcare.gov; the Medicaid-exit account handoff is still a first-class doorway — 'We already have an account set up for you' — and the federal-changes notice and the certified helpers are still here. The lesson is the repaint itself. A snapshot is evidence of its date. The quote I carried from October 13 is now history: an honest citation names its date, and the next modeler re-checks the page before re-citing it. review_required_before_encoding stays true — front doors are not price books.",
+      advantage: true,
+      advantageText: 'A Passed Snapshot Is Evidence of That Date Only',
+      citation: {
+        title: 'Pennie | PA’s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'Pennie is Pennsylvania’s official Health Insurance Marketplace.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "A modeler copies the workbook's October 13 Pennie quote — the life-change line about applying before coverage ends — into a new proposal as the page's current text, and encodes a marketing persona's monthly price as the county benchmark rate. What went wrong?",
+        opts: [
+          'A) Both are errors: the life-change line no longer appears on the homepage — the October 13 snapshot is evidence of that date only — and a persona price vignette is an advertisement, never an encodable parameter.',
+          'B) Nothing — homepage copy is stable and persona prices are the official benchmark.',
+          'C) Only the quote is stale; the vignette price is fine to encode because it names a real household income.',
+        ],
+        answer: 0,
+        explanation: "Correct! Homepage copy is volatile marketing text: the October 13 hero, life-change line, and tagline are all gone from the October 16 page. An honest citation names its date, and the next modeler re-checks before re-citing. And example prices in marketing vignettes are never encoded — review_required_before_encoding stays true on this whole page.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 
