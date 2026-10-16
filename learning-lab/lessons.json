@@ -1,1140 +1,1167 @@
 {
-  "schema_version": "1.0",
-  "purpose": "Index of Learning Lab lessons. Metadata separates educational examples from source-verified policy content.",
-  "status_legend": {
-    "illustrative": "Invented scenario or example; not an actual Pennsylvania rule or payment rate.",
-    "planned": "Outlined but not yet implemented.",
-    "source_review_required": "Requires source extraction and applicability review before any policy conclusion can be taught as factual.",
-    "source_verified": "May only be used when source version, effective date, section, applicability, and reviewer have been recorded."
+ "schema_version": "1.0",
+ "purpose": "Index of Learning Lab lessons. Metadata separates educational examples from source-verified policy content.",
+ "status_legend": {
+  "illustrative": "Invented scenario or example; not an actual Pennsylvania rule or payment rate.",
+  "planned": "Outlined but not yet implemented.",
+  "source_review_required": "Requires source extraction and applicability review before any policy conclusion can be taught as factual.",
+  "source_verified": "May only be used when source version, effective date, section, applicability, and reviewer have been recorded."
+ },
+ "lessons": [
+  {
+   "id": "care-journey",
+   "title": "Insurance isn't an appointment",
+   "path": "index.html#case-access",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "coverage",
+    "provider-network",
+    "appointment-capacity"
+   ],
+   "policy_claims": false,
+   "source_refs": [],
+   "objectives": [
+    "Separate insurance coverage from actual appointment availability.",
+    "Name missing facts without inventing a policy answer."
+   ]
   },
-  "lessons": [
-    {
-      "id": "care-journey",
-      "title": "Insurance isn't an appointment",
-      "path": "index.html#case-access",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "coverage",
-        "provider-network",
-        "appointment-capacity"
-      ],
-      "policy_claims": false,
-      "source_refs": [],
-      "objectives": [
-        "Separate insurance coverage from actual appointment availability.",
-        "Name missing facts without inventing a policy answer."
-      ]
-    },
-    {
-      "id": "money-flow",
-      "title": "Follow the money",
-      "path": "money-flow.html",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "capitation",
-        "claims",
-        "funding-transfers",
-        "double-counting"
-      ],
-      "policy_claims": false,
-      "source_refs": [],
-      "objectives": [
-        "Distinguish funding transfers, prospective payments, and service claims.",
-        "Explain why accounting boundaries matter before combining totals."
-      ]
-    },
-    {
-      "id": "claim-decisions",
-      "title": "A claim is a question, not a payment",
-      "path": "claim-decisions.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "claim-adjudication",
-        "needs-review",
-        "authorization",
-        "provider-participation"
-      ],
-      "policy_claims": false,
-      "source_refs": [],
-      "objectives": [
-        "Distinguish paid, not-approved, and needs-review toy outcomes.",
-        "Explain why missing information is not proof that care is uncovered."
-      ]
-    },
-    {
-      "id": "insurance-vocabulary",
-      "title": "Insurance words without the jargon",
-      "path": "index.html#glossary",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "eligibility",
-        "benefit",
-        "network",
-        "allowed-amount",
-        "appeal"
-      ],
-      "policy_claims": false,
-      "source_refs": [],
-      "objectives": [
-        "Explain key terms in plain language.",
-        "Recognize that actual meanings depend on governing program and contract documents."
-      ]
-    },
-    {
-      "id": "reading-policy",
-      "title": "How to read a policy source",
-      "path": "reading-policy.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "source-version",
-        "effective-date",
-        "applicability",
-        "provenance"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-bhc-service-access",
-        "pa-dhs-bhc-publications"
-      ],
-      "objectives": [
-        "Locate title, publisher, version, effective date, section, applicability, and exact passage.",
-        "Identify what evidence is still missing before encoding a rule."
-      ]
-    },
-    {
-      "id": "pennsylvania-behavioral-health-financing",
-      "title": "Pennsylvania behavioral-health financing",
-      "path": "../docs/SOURCE_VERIFICATION_2026-10-08.md",
-      "audience": [
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "PA-HealthChoices",
-        "BH-MCO",
-        "PS-R",
-        "financial-reporting"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-overview",
-        "pa-dhs-bhc-publications",
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "Understand the broad program structure.",
-        "Distinguish pages that have been located from detailed payment rules that remain unverified."
-      ]
-    },
-    {
-      "id": "pennsylvania-insurance-landscape",
-      "title": "Who are the insurance plans in Pennsylvania?",
-      "path": "../docs/PA_INSURANCE_LANDSCAPE.md",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "commercial-insurance",
-        "Medicaid-HealthChoices",
-        "BH-MCO",
-        "physical-health-MCO",
-        "CHIP",
-        "Medicare",
-        "network-participation"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-physical-hc-mco",
-        "pa-dhs-chip-companies",
-        "pa-insurance-department-aca-filings",
-        "pennie"
-      ],
-      "objectives": [
-        "Distinguish commercial insurance, Medicaid physical HealthChoices, Behavioral HealthChoices, CHIP, and Medicare.",
-        "Find the official current directory for each coverage lane.",
-        "Explain why a plan's existence does not prove a specific clinician is in network."
-      ]
-    },
-    {
-      "id": "private-practice-payer-decisions",
-      "title": "Why does a private practice accept some plans and not others?",
-      "path": "index.html#practice-payer-decisions",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "client-demand",
-        "net-revenue",
-        "credentialing",
-        "network-participation",
-        "contract-risk",
-        "administrative-burden"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-providers",
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "Explain why reimbursement alone does not determine whether to accept a payer.",
-        "Compare client access, net revenue, credentialing, contract requirements, and administrative burden.",
-        "Identify which facts must be verified before evaluating a real insurer contract."
-      ]
-    },
-    {
-      "id": "payer-evaluation-worksheet",
-      "title": "Evaluate a payer without guessing",
-      "path": "index.html#payer-decision-lab",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "payer-review",
-        "source-provenance",
-        "network-verification",
-        "contract-checklist",
-        "unknowns"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-providers",
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "Capture the exact payer product and coverage lane.",
-        "Separate confirmed facts from assumptions and unknowns.",
-        "Identify contract, network, credentialing, and billing evidence gaps."
-      ]
-    },
-    {
-      "id": "pa-medicaid-access-pathway",
-      "title": "Why can someone have Medicaid and still struggle to find a therapist?",
-      "path": "index.html#pa-access-pathway",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "coverage-vs-access",
-        "county-assignment",
-        "BH-MCO",
-        "provider-network",
-        "appointment-capacity"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-bhc-service-access",
-        "pa-dhs-bhc-providers"
-      ],
-      "objectives": [
-        "Trace the difference between coverage, managed-care assignment, provider participation, and appointment capacity.",
-        "Use official Pennsylvania DHS guidance to identify next steps without assuming the cause of an access barrier.",
-        "Identify the exact facts needed before making a policy or contract conclusion."
-      ]
-    },
-    {
-      "id": "multiple-journeys",
-      "title": "One system, different journeys",
-      "path": "journeys.html",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "coverage-vs-access",
-        "provider-network",
-        "payer-selection",
-        "claim-review",
-        "source-provenance"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-providers",
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "Compare the decisions facing a member, private practice, and claim reviewer.",
-        "Distinguish known facts from missing information and assumptions.",
-        "Choose a defensible next step without claiming more than the evidence supports."
-      ]
-    },
-    {
-      "id": "visual-simulation-journey",
-      "title": "A year of care, in motion",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "coverage-vs-access",
-        "appointment-capacity",
-        "waitlist-dynamics",
-        "capitation",
-        "system-cost"
-      ],
-      "policy_claims": false,
-      "source_refs": [],
-      "objectives": [
-        "Watch fictional weekly waitlist and in-care means change across a 52-week model year.",
-        "Compare pilot and capacity settings without treating simulated changes as real-world predictions.",
-        "Explain why capitation transfers are separate from downstream system costs."
-      ]
-    },
-    {
-      "id": "virtual-county-simulator",
-      "title": "A budget isn't a waiting room: Virtual county & capacity simulator",
-      "path": "county-lab.html",
-      "audience": [
-        "explore",
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "appointment-capacity",
-        "waitlist-dynamics",
-        "care-coordination",
-        "capitation",
-        "system-cost",
-        "common-random-numbers"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-bhc-service-access"
-      ],
-      "objectives": [
-        "Explore how provider slot capacity and waitlist dropout interact over 52 weeks in a fictional county.",
-        "Explain why reducing waitlist dropout can raise average wait times unless appointment capacity also expands.",
-        "Separate upstream capitation transfers from consolidated system service and coordination costs."
-      ]
-    },
-    {
-      "id": "school-based-services",
-      "title": "How Medicaid can pay for school-based services",
-      "path": "index.html#school-based-services",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "school-based-services",
-        "administrative-claiming",
-        "cost-pools",
-        "state-plan-amendment"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-school-based-services"
-      ],
-      "objectives": [
-        "Name the four money concepts behind school-based Medicaid payment: state-plan authority, documented services, administrative claiming, and cost pools.",
-        "Describe what the CMS School-Based Services Resources index lists and what it does not establish.",
-        "Identify what evidence is still missing before any school-based reimbursement rule can be taught as factual."
-      ]
-    },
-    {
-      "id": "managed-care-rates",
-      "title": "How Medicaid managed-care rates are set",
-      "path": "index.html#managed-care-rates",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "capitation",
-        "actuarial-soundness",
-        "rate-development-guide",
-        "rating-period",
-        "rate-certification"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-managed-care-rate-guidance"
-      ],
-      "objectives": [
-        "Describe capitation as a prospective per-person rate and the federal actuarial-soundness standard that applies to it.",
-        "Name the current CMS rate development guide (2026-2027, released February 2026) and the rating periods it covers (starting July 1, 2026 through June 30, 2027).",
-        "Identify what the CMS index page does not establish: any plan-, state-, or provider-specific rate, and any Pennsylvania contract rule."
-      ]
-    },
-    {
-      "id": "rate-guide-index",
-      "title": "The Rate Guide: where capitation numbers are born",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "capitation",
-        "actuarial-rate-certification",
-        "rate-development-guide",
-        "rating-period",
-        "index-vs-document",
-        "federal-actuarial-soundness"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-managed-care-rate-guidance"
-      ],
-      "objectives": [
-        "State verbatim what the CMS Rate Review and Rate Guides index verifies: the federal requirement that states develop capitation rates in accordance with generally accepted actuarial principles and practices, and the 2026-2027 guide edition (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027).",
-        "Distinguish what the index page does not establish: no rate, no formula, no Pennsylvania-specific number, and no encoded rule — it is a map to the guides, and the guide document itself must be opened before any rate claim is made.",
-        "Explain why an actuarial rate certification is the 'birth certificate' of a capitation rate and why modelers must record a guide's version, effective period, and exact passage before quoting it."
-      ]
-    },
-    {
-      "id": "rate-guide-addendum",
-      "title": "The addendum drawer: rate guidance has a correction channel",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "rate-development-guide",
-        "guide-addendum",
-        "versioning-discipline",
-        "rating-period",
-        "index-vs-document",
-        "federal-actuarial-soundness"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-managed-care-rate-guidance"
-      ],
-      "objectives": [
-        "State verbatim what the CMS Rate Review and Rate Guides index verifies on re-check (2026-10-15): the index lineage reaches back to the 2014 consultation guide and lists addenda to the 2024-2025 and 2016 rate development guides, proving guidance is revised and the revisions are listed on the same index.",
-        "Apply the versioning discipline: a modeled rate assumption pinned to a guide edition must also check the addendum drawer — record the guide edition and the latest addendum status, both dated — and never quote the edition without checking whether a correction was issued on top of it.",
-        "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; the guide document itself must be opened before any rate claim is encoded."
-      ]
-    },
-    {
-      "id": "requesting-services",
-      "title": "How to request behavioral-health services in Pennsylvania",
-      "path": "index.html#requesting-services",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "member-access",
-        "county-office",
-        "BH-MCO-assignment",
-        "application-routes"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-service-access"
-      ],
-      "objectives": [
-        "Describe the access route the official page gives: county mental-health office, BH-MCO assignment by county of residence, member handbook, in-network provider choice.",
-        "Name the documented Medicaid application routes (COMPASS, county assistance office, mail, phone) and crisis help (988).",
-        "Identify what the page does not establish: a specific person's enrollment, provider network status, or appointment availability."
-      ]
-    },
-    {
-      "id": "live-python-simulation",
-      "title": "Live In-Browser Python Policy Lab",
-      "path": "live-simulation.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "illustrative",
-      "concepts": [
-        "discrete-event-simulation",
-        "monte-carlo",
-        "webassembly",
-        "pyodide",
-        "ledger-invariants"
-      ],
-      "policy_claims": false,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-bhc-service-access"
-      ],
-      "objectives": [
-        "Execute genuine Python discrete-event simulations in the browser using Pyodide WebAssembly.",
-        "Test parametric sweeps of provider appointment capacity and proactive care coordination.",
-        "Verify statutory ledger invariants directly against simulated transaction streams."
-      ]
-    },
-    {
-      "id": "mental-health-parity",
-      "title": "Does my plan have to cover mental health the same as physical health?",
-      "path": "index.html#mental-health-parity",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "mental-health-parity",
-        "mhpaea",
-        "quantitative-treatment-limitation",
-        "non-quantitative-treatment-limitation",
-        "six-benefit-classifications",
-        "nqtl-comparative-analysis"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-mh-parity"
-      ],
-      "objectives": [
-        "Explain that MHPAEA requires no less favorable benefit limitations on MH/SUD benefits a plan covers, without requiring plans to cover MH/SUD benefits at all.",
-        "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative ones (pre-authorization, step therapy, medical management, network standards).",
-        "Describe the six benefit classifications and the predominant / substantially-all test used for comparison.",
-        "Name what the CMS page does not establish: any plan-specific coverage or compliance determination, state-specific parity rules, and Medicaid MCO/CHIP modeling (not encoded)."
-      ]
-    },
-    {
-      "id": "bhc-document-vault",
-      "title": "Where do the official rules live? (The BHC publications vault)",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "source-provenance",
-        "bhc-publications-index",
-        "program-standards-requirements",
-        "external-quality-review"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-publications"
-      ],
-      "objectives": [
-        "Name the document families in the official PA DHS Behavioral HealthChoices publications index (PSR and appendices, ASAM rates effective January 1 2026, 2026 financial reporting requirements, OMHSAS Member Handbook 2026, annual external quality review technical reports).",
-        "Explain why a policy claim needs the document's version, effective date, and exact passage - the index listing alone is not a rule.",
-        "Identify what the index page does not establish: any coverage rule, rate, or contract term, which live inside the linked documents that must be opened and read."
-      ]
-    },
-    {
-      "id": "two-plan-families",
-      "title": "One member, two plan families: physical vs behavioral MCOs",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "carve-out",
-        "physical-health-mco-directory",
-        "bh-mco-vs-physical-mco",
-        "region-to-plan-mapping",
-        "enhanced-member-supports-unit"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-physical-hc-mco"
-      ],
-      "objectives": [
-        "Distinguish Pennsylvania's physical HealthChoices plan family (5 regions, plan directories with member-services and Enhanced Member Supports Unit numbers) from the county-assigned Behavioral HealthChoices BH-MCO family.",
-        "Name the seven physical plan families listed on the official DHS directory and the five regions used to organize them.",
-        "Explain why a simulation must keep the two plan families in separate ledgers before attributing money flows.",
-        "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
-      ]
-    },
-    {
-      "id": "school-based-claiming",
-      "title": "Schools as billing partners: Medicaid administrative claiming",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "school-based-services",
-        "administrative-claiming",
-        "state-plan-amendment",
-        "time-study-implementation-plan",
-        "cost-pools"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-school-based-services"
-      ],
-      "objectives": [
-        "Name the three agency layers CMS's SBS resources address (SMA, SEA, LEA) and what each filing type does (SPA, TSIP, Administrative Claiming Plan, cost report).",
-        "Explain why a state's listed SPA example cannot be generalized to another state without opening that state's actual SPA text, version, and effective date.",
-        "Identify what the CMS resource index page does not establish: any coverage rule, rate, or payment methodology, which live inside the linked documents that must be opened and read."
-      ]
-    },
-    {
-      "id": "bhc-mco-map",
-      "title": "Who covers your county? The Behavioral Health MCO map",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "county-assignment",
-        "behavioral-health-mco",
-        "carve-out",
-        "coverage-architecture"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "Name the five BH-MCOs in Pennsylvania's HealthChoices program and state that assignment is by county of residence, not member choice.",
-        "Explain why the county-to-BH-MCO map is a coverage architecture (which ledger owns the dollar), not a provider network or evidence of access.",
-        "Identify what the directory does not establish: any member's plan, provider credentialing, network openness, benefits, or reimbursement."
-      ]
-    },
-    {
-      "id": "bhc-providers-view",
-      "title": "The provider's view: 2.7M lives on one eligibles map",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "provider-context",
-        "eligibles-map",
-        "county-contracting",
-        "effective-dates",
-        "coverage-architecture-vs-access"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-providers"
-      ],
-      "objectives": [
-        "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
-        "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
-        "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
-        "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement — those live in contracts and claims."
-      ]
-    },
-    {
-      "id": "mh-parity-comparator",
-      "title": "Parity is a comparator, not a mandate: MHPAEA's federal rule",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "parity",
-        "mhpaea",
-        "qtl",
-        "nqtl",
-        "comparative-analysis",
-        "coverage-comparator"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-mh-parity"
-      ],
-      "objectives": [
-        "State the parity comparator: when a plan covers MH/SUD benefits, financial requirements and treatment limitations cannot be more restrictive than the predominant rules applying to substantially all medical/surgical benefits in the same classification.",
-        "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative treatment limitations (prior authorization, step therapy, medical management, network composition, OON reimbursement methodology).",
-        "Explain the CAA-2021 NQTL comparative-analysis duty and the 2024 final rules' data-collection and material-differences-in-access requirement.",
-        "State the non-mandate caveat: MHPAEA does not require MH/SUD coverage; the ACA's essential-health-benefits requirement covers non-grandfathered individual and small-group plans."
-      ]
-    },
-    {
-      "id": "mh-parity-referee-map",
-      "title": "Every comparator needs a referee: the MHPAEA enforcement map",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "parity",
-        "mhpaea",
-        "enforcement-jurisdiction",
-        "self-funded-vs-insured",
-        "medicaid-parity-carve",
-        "material-differences-in-access"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-mh-parity"
-      ],
-      "objectives": [
-        "Map parity jurisdiction: HHS over public-sector group health plans; DOL/Treasury over private-sector group plans; state insurance departments over purchased insurance only.",
-        "Distinguish insured (issuer-purchased) from self-funded (direct-paid) coverage and explain why the regulator differs.",
-        "State how Medicaid/CHIP enter parity: not as group plans, but through Social Security Act provisions requiring certain MHPAEA compliance for CHIP plans, benchmark plans, and Medicaid managed care plans (2016 final rule).",
-        "State the 2024 rules' data duty: collect and evaluate data, take reasonable action on material differences in access from NQTLs, and never design NQTLs with systematically discriminatory standards.",
-        "Name the complaint channels printed on the page: CMS help line 1-877-267-2323 ext. 6-1565 / phig@cms.hhs.gov and DOL regional benefit advisors."
-      ]
-    },
-    {
-      "id": "systems-management-plumbing",
-      "title": "The encounter data plumbing: what OMHSAS sees",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "encounter-data",
-        "edi-transactions",
-        "omhsas-systems-management",
-        "encounter-data-validation",
-        "data-plumbing",
-        "synthetic-population-boundary"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-systems-management"
-      ],
-      "objectives": [
-        "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
-        "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
-        "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents — no rule encoded from this source."
-      ]
-    },
-    {
-      "id": "chip-third-family",
-      "title": "CHIP: the third plan family (kids' coverage)",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "chip",
-        "childrens-health-insurance",
-        "plan-families",
-        "insurer-directory",
-        "ncqa-accreditation",
-        "coverage-architecture-vs-access"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-chip-companies"
-      ],
-      "objectives": [
-        "State the directory contents verbatim from the verified page: nine named CHIP insurers with member phone lines, per-MCO NCQA health-plan accreditation (all nine accredited, grant and next-due dates) and Health Equity accreditation for five MCOs.",
-        "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
-        "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow — never collapse them into one ledger."
-      ]
-    },
-    {
-      "id": "pennie-marketplace",
-      "title": "Pennie: Pennsylvania's official marketplace (the front door)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "pennie",
-        "health-insurance-marketplace",
-        "special-enrollment",
-        "medicaid-transition",
-        "front-door-vs-price-book"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pennie"
-      ],
-      "objectives": [
-        "State what the Pennie homepage verifies verbatim: the official state marketplace for health and dental coverage, the life-change enrollment check, the Medicaid-transition account flow, and the certified-assister help channels.",
-        "Distinguish what the homepage does not establish: open-enrollment dates, any plan list, any premium or subsidy figure, any eligibility rule, and the linked federal-changes page content.",
-        "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it — never encode a rate or eligibility rule from an index page."
-      ]
-    },
-    {
-      "id": "bhc-overview-contract",
-      "title": "Behavioral HealthChoices: the contract behind the map",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "behavioral-healthchoices",
-        "county-contracting",
-        "BH-MCO-assignment",
-        "network-vs-architecture"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-overview"
-      ],
-      "objectives": [
-        "State what the DHS Behavioral HealthChoices overview page verifies verbatim: county contracts with an MCO for MH/D&A services, the county's quality/timely-access/coordination duties, BH-MCO assignment by county of residence, and provider choice within the plan network.",
-        "Distinguish what the overview page does not establish: any provider network status, any benefit list, any rate, and any member-level enrollment data.",
-        "Explain the architecture-before-access discipline: an overview page proves the contract structure, never the availability behind a given provider's door."
-      ]
-    },
-    {
-      "id": "aca-rate-filings-2027",
-      "title": "ACA rate filings: the 2027 two-phase rate review (the rate ledger)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "aca-rate-filings",
-        "rate-review",
-        "requested-vs-approved",
-        "commercial-market",
-        "price-vs-network"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-insurance-department-aca-filings"
-      ],
-      "objectives": [
-        "State verbatim what the PA Insurance Department page establishes: a two-phase annual rate review (initial review of cost estimates, historical data, revenues, projected profits, past rate changes, consumer impact; then final decision & approval) and 2027 plan-year tables for 15 individual and 16 small-group companies.",
-        "Distinguish requested from approved rate changes (e.g., Ambetter Health of PA: requested 40.90%, approved 35.13%; Oscar Health Plan of PA: requested 15.39%, approved 1.38%) — never encode a request as the price.",
-        "State what the page does not establish: no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures — a rate filing cannot prove a clinician is in-network."
-      ]
-    },
-    {
-      "id": "bhc-member-front-door",
-      "title": "Behavioral HealthChoices member access: the front-door route (who opens each door)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "member-access-pathway",
-        "county-mental-health-office",
-        "BH-MCO-assignment",
-        "in-network-choice",
-        "route-map-vs-directory"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-service-access"
-      ],
-      "objectives": [
-        "State verbatim the member-facing access route the PA DHS page establishes: the county mental-health office oversees Behavioral HealthChoices, personalizes the treatment plan (eligibility, assessment, referral), and connects the member to the county's BH-MCO; the member is assigned a BH-MCO by county of residence and chooses providers within that plan's network; the MCO sends a handbook on accessing services and benefits.",
-        "Name the Medicaid application channels the page lists (COMPASS online, county assistance office in person, by mail, by phone) and the 988 crisis line it carries.",
-        "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination — a route map, not a destination list; never encode a provider, benefit, or rate from this page."
-      ]
-    },
-    {
-      "id": "bhc-publications-accreditation",
-      "title": "BHC publications index: the accreditation shelf (NCQA/URAC, CFR 438.332)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "accreditation",
-        "NCQA",
-        "URAC",
-        "CFR-438.332",
-        "external-oversight",
-        "provenance-vs-network"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-publications"
-      ],
-      "objectives": [
-        "State verbatim the accreditation passage the PA DHS publications index carries: as per CFR 438.332, the department posts the certificate of accreditation by a private independent entity, reflecting NCQA and URAC.",
-        "Distinguish what the page does not establish: no per-plan accreditation dates, no per-plan accreditation scope, no provider network fact, no rate, and no outcome claim.",
-        "Explain the provenance discipline: accreditation certificates are evidence of external oversight (a paper trail), never evidence of network access, payment, or quality outcomes — and no rules are encoded from an index page."
-      ]
-    },
-    {
-      "id": "bhc-providers-asam-fees",
-      "title": "The fee schedule shelf: ASAM rates effective Jan 1, 2026 (rate evidence, not a payment rule)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "fee-schedule",
-        "ASAM-levels-of-care",
-        "rate-evidence-vs-payment-rule",
-        "per-diem-bundling",
-        "capitation-context"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-providers"
-      ],
-      "objectives": [
-        "State verbatim the dated ASAM fee schedule the PA DHS provider page carries: 'Rates Effective January 1, 2026', with per-hour, per-15-minute, and per-diem rate types and dollar fees (e.g., 2.0WM $106.35 per hour; 3.5 $260.65 per diem; 3.7WM $415.24 per diem).",
-        "Distinguish unit types: a per-diem fee is a bundle, not a visit price, so fees across unit types do not compare naively.",
-        "Explain the encoding discipline: quoting any fee into a model requires opening the linked ASAM PDF and confirming applicability to provider type, county, and contract — not done this run — and a dated fee schedule is rate evidence, never a payment rule; BH-MCOs are paid by capitation."
-      ]
-    },
-    {
-      "id": "coverage-areas-2026-sales-footprint",
-      "title": "The coverage map shelf: 2026 individual-market coverage areas (a sales footprint, never a network)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "coverage-area",
-        "individual-market",
-        "sales-footprint-vs-network",
-        "archived-market-snapshot",
-        "county-service-area"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-insurance-department-2026-individual-coverage-areas"
-      ],
-      "objectives": [
-        "State what the archived PA Insurance Department coverage-areas page is: a 2026 plan-year purchase footprint (15 issuers, per-issuer county lists plus map images, e.g. Oscar 13 counties, UPMC Health Options 52, UPMC Health Plan 2), updated annually, with current coverage on the ACA Health Rate Filing home page.",
-        "Quote the page's standing scope limit: the maps apply to purchasing a plan only and do NOT show limits on health care coverage or provider networks — a sales footprint, never a network directory, never a rate.",
-        "Explain the encoding discipline: archived market availability is dated history (2026), never the current plan year and never provider-network evidence; review_required_before_encoding stays true and nothing has been promoted to a rule."
-      ]
-    },
-    {
-      "id": "bhc-mcos-date-discipline",
-      "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "county-plan-assignment",
-        "lookup-vs-contract",
-        "date-discipline",
-        "contract-rebid-risk",
-        "bh-mco-directory"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos"
-      ],
-      "objectives": [
-        "State the directory's stated purpose verbatim: the chart exists to determine the BH-MCO operating in a county and link through to that plan's own webpage — a lookup, not a contract and not a network.",
-        "Quote the re-verification finding of 2026-10-14: content unchanged since 2026-10-12 (5 organizations, all 67 PA counties assigned exactly once: CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11).",
-        "Explain the encoding discipline: county-to-plan assignments reflect published contracts that can change on re-bid, so cite every county-plan pairing with its retrieval date and re-check the live page before it enters a model; review_required_before_encoding stays true and nothing has been promoted to a rule."
-      ]
-    },
-    {
-      "id": "school-based-spa-unit",
-      "title": "School-based Medicaid: the state is the unit (fifty SPAs, not one program)",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "school-based-services",
-        "state-plan-amendment",
-        "payment-methodology"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-school-based-services"
-      ],
-      "objectives": [
-        "Name the four distinct SBS SPA payment designs CMS lists side by side (cost-methodology expanded services; cost-methodology IDEA-only; cost-based rate methodology; fee-schedule rate) and which states exemplify each.",
-        "Explain why one state's SPA parameters cannot be transferred to another state's scenario without opening that state's own SPA text, version, approval date, and payment method.",
-        "State what the CMS resource index does not establish: any coverage rule, rate, or payment methodology, and why its linked state examples are 'for reference only' rather than CMS endorsement."
-      ]
-    },
-    {
-      "id": "medicaid-managed-care-doorway",
-      "title": "The federal managed-care landing page: a doorway, not a filing cabinet",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "managed-care",
-        "federal-authority",
-        "index-page-discipline",
-        "source-verification"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "medicaid-gov-managed-care"
-      ],
-      "objectives": [
-        "State what the Medicaid.gov managed-care landing page verifies (managed care as a delivery system managing cost, utilization, and quality; per-member-per-month capitation payments to MCOs) and what it cannot establish (any federal authority, enrollment share, or date).",
-        "Explain why the old /managed-care/index.html URL must not be cited (returns 404; canonical page moved to /managed-care) and why federal URLs must be re-verified before citation.",
-        "Apply the index-page discipline: a landing page is a doorway, never a rule — cite it for the delivery-system definition only, and open the authorities page before encoding any authority claim."
-      ]
-    },
-    {
-      "id": "medicaid-eligibility-gate",
-      "title": "The gate, not the fence: who Medicaid can cover",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "medicaid-eligibility",
-        "federal-floor",
-        "magi",
-        "state-variation",
-        "index-page-discipline",
-        "source-verification"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "cms-medicaid-eligibility-policy"
-      ],
-      "objectives": [
-        "State what the CMS Eligibility Policy overview verifies (federal mandatory groups; state option groups; ACA 133% FPL expansion option; MAGI counting with no state-varying disregards and no asset test; SSI-methodology exemptions for blindness/disability/age 65+; residency and citizenship rules; application-date coverage with 3-month retroactivity; medically-needy spenddown in 36 states + DC; fair-hearing appeals).",
-        "Explain why the page cannot establish any specific state's eligibility groups, income limits, or expansion status, and why it cannot date its own 77.9-million figure (no last-updated date displayed).",
-        "Apply the state-is-the-unit discipline: never generalize one state's eligibility design to another, and never cite the old /medicaid/eligibility URL (404s; canonical page moved to /eligibility-policy)."
-      ]
-    },
-    {
-      "id": "physical-plan-region-menu",
-      "title": "The region is the menu: physical plan options are region-scoped",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "physical-health-mco-directory",
-        "region-to-plan-mapping",
-        "choice-set-discipline",
-        "source-verification"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-physical-hc-mco"
-      ],
-      "objectives": [
-        "State which physical HealthChoices plan labels appear in all five region tables (Geisinger Health Plan, Jefferson Health Plans EverWell, UPMC for You) and which are region-locked (Keystone First and United Healthcare Community Plan: Southeast only; Highmark Wholecare: Lehigh/Capital and Southwest only; AmeriHealth Caritas row label varies by region).",
-        "Explain why a simulation must scope a modeled member's plan choice set to the member's region table, and why assigning a region-outside plan is a modeling error.",
-        "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
-      ]
-    },
-    {
-      "id": "bhc-mcos-mbh-label",
-      "title": "The phantom payer: MBH/Magellan label resolved on the directory page itself (verified 2026-10-15)",
-      "path": "visual-journey.html",
-      "audience": [
-        "explore",
-        "understand"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "entity-resolution",
-        "label-discipline",
-        "lookup-vs-contract",
-        "bh-mco-directory",
-        "acronym-as-claim"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-bhc-mcos",
-        "pa-dhs-bhc-providers"
-      ],
-      "objectives": [
-        "Quote the directory row verbatim: 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on the same page that spells the full name, so the providers-page map's 'MBH' abbreviation names the same entity.",
-        "Record the resolution of the flag first raised 2026-10-12: no phantom sixth payer; five organizations, 67 counties assigned exactly once, content unchanged since 2026-10-12.",
-        "Teach the encoding discipline: two labels that look different do not mean two entities — resolve every payer label on the page before it enters the model, and review_required_before_encoding stays true; nothing about networks, benefits, or rates is claimed."
-      ]
-    },
-    {
-      "id": "chip-directory-staleness",
-      "title": "CHIP directory re-verified: the stale ledger (recheck flags)",
-      "path": "visual-journey.html",
-      "audience": [
-        "understand",
-        "investigate"
-      ],
-      "status": "source_review_required",
-      "concepts": [
-        "chip",
-        "directory-verification",
-        "recheck-discipline",
-        "ncqa-accreditation",
-        "dated-evidence"
-      ],
-      "policy_claims": true,
-      "source_refs": [
-        "pa-dhs-chip-companies"
-      ],
-      "objectives": [
-        "State the 2026-10-16 re-verification finding verbatim: page unchanged since 2026-10-13 (nine insurers, nine accredited NCQA health-plan rows, five accredited Health Equity rows), but three Health Equity 'Next Due Date' entries (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) now lie in the past with no page update.",
-        "Distinguish a recheck flag from a finding: a passed due date on an un-updated page is NOT evidence that any accreditation lapsed — renewals may simply not be posted — it only triggers confirmation against NCQA or the MCO.",
-        "Teach the date-the-ledger discipline: a dated directory is evidence of what the page said on the check date; never encode a present-tense 'currently accredited' status from a table the publisher has stopped refreshing."
-      ]
-    }
-  ]
+  {
+   "id": "money-flow",
+   "title": "Follow the money",
+   "path": "money-flow.html",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "capitation",
+    "claims",
+    "funding-transfers",
+    "double-counting"
+   ],
+   "policy_claims": false,
+   "source_refs": [],
+   "objectives": [
+    "Distinguish funding transfers, prospective payments, and service claims.",
+    "Explain why accounting boundaries matter before combining totals."
+   ]
+  },
+  {
+   "id": "claim-decisions",
+   "title": "A claim is a question, not a payment",
+   "path": "claim-decisions.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "claim-adjudication",
+    "needs-review",
+    "authorization",
+    "provider-participation"
+   ],
+   "policy_claims": false,
+   "source_refs": [],
+   "objectives": [
+    "Distinguish paid, not-approved, and needs-review toy outcomes.",
+    "Explain why missing information is not proof that care is uncovered."
+   ]
+  },
+  {
+   "id": "insurance-vocabulary",
+   "title": "Insurance words without the jargon",
+   "path": "index.html#glossary",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "eligibility",
+    "benefit",
+    "network",
+    "allowed-amount",
+    "appeal"
+   ],
+   "policy_claims": false,
+   "source_refs": [],
+   "objectives": [
+    "Explain key terms in plain language.",
+    "Recognize that actual meanings depend on governing program and contract documents."
+   ]
+  },
+  {
+   "id": "reading-policy",
+   "title": "How to read a policy source",
+   "path": "reading-policy.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "source-version",
+    "effective-date",
+    "applicability",
+    "provenance"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-bhc-service-access",
+    "pa-dhs-bhc-publications"
+   ],
+   "objectives": [
+    "Locate title, publisher, version, effective date, section, applicability, and exact passage.",
+    "Identify what evidence is still missing before encoding a rule."
+   ]
+  },
+  {
+   "id": "pennsylvania-behavioral-health-financing",
+   "title": "Pennsylvania behavioral-health financing",
+   "path": "../docs/SOURCE_VERIFICATION_2026-10-08.md",
+   "audience": [
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "PA-HealthChoices",
+    "BH-MCO",
+    "PS-R",
+    "financial-reporting"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview",
+    "pa-dhs-bhc-publications",
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "Understand the broad program structure.",
+    "Distinguish pages that have been located from detailed payment rules that remain unverified."
+   ]
+  },
+  {
+   "id": "pennsylvania-insurance-landscape",
+   "title": "Who are the insurance plans in Pennsylvania?",
+   "path": "../docs/PA_INSURANCE_LANDSCAPE.md",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "commercial-insurance",
+    "Medicaid-HealthChoices",
+    "BH-MCO",
+    "physical-health-MCO",
+    "CHIP",
+    "Medicare",
+    "network-participation"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-physical-hc-mco",
+    "pa-dhs-chip-companies",
+    "pa-insurance-department-aca-filings",
+    "pennie"
+   ],
+   "objectives": [
+    "Distinguish commercial insurance, Medicaid physical HealthChoices, Behavioral HealthChoices, CHIP, and Medicare.",
+    "Find the official current directory for each coverage lane.",
+    "Explain why a plan's existence does not prove a specific clinician is in network."
+   ]
+  },
+  {
+   "id": "private-practice-payer-decisions",
+   "title": "Why does a private practice accept some plans and not others?",
+   "path": "index.html#practice-payer-decisions",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "client-demand",
+    "net-revenue",
+    "credentialing",
+    "network-participation",
+    "contract-risk",
+    "administrative-burden"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-providers",
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "Explain why reimbursement alone does not determine whether to accept a payer.",
+    "Compare client access, net revenue, credentialing, contract requirements, and administrative burden.",
+    "Identify which facts must be verified before evaluating a real insurer contract."
+   ]
+  },
+  {
+   "id": "payer-evaluation-worksheet",
+   "title": "Evaluate a payer without guessing",
+   "path": "index.html#payer-decision-lab",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "payer-review",
+    "source-provenance",
+    "network-verification",
+    "contract-checklist",
+    "unknowns"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-providers",
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "Capture the exact payer product and coverage lane.",
+    "Separate confirmed facts from assumptions and unknowns.",
+    "Identify contract, network, credentialing, and billing evidence gaps."
+   ]
+  },
+  {
+   "id": "pa-medicaid-access-pathway",
+   "title": "Why can someone have Medicaid and still struggle to find a therapist?",
+   "path": "index.html#pa-access-pathway",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "coverage-vs-access",
+    "county-assignment",
+    "BH-MCO",
+    "provider-network",
+    "appointment-capacity"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-bhc-service-access",
+    "pa-dhs-bhc-providers"
+   ],
+   "objectives": [
+    "Trace the difference between coverage, managed-care assignment, provider participation, and appointment capacity.",
+    "Use official Pennsylvania DHS guidance to identify next steps without assuming the cause of an access barrier.",
+    "Identify the exact facts needed before making a policy or contract conclusion."
+   ]
+  },
+  {
+   "id": "multiple-journeys",
+   "title": "One system, different journeys",
+   "path": "journeys.html",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "coverage-vs-access",
+    "provider-network",
+    "payer-selection",
+    "claim-review",
+    "source-provenance"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-providers",
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "Compare the decisions facing a member, private practice, and claim reviewer.",
+    "Distinguish known facts from missing information and assumptions.",
+    "Choose a defensible next step without claiming more than the evidence supports."
+   ]
+  },
+  {
+   "id": "visual-simulation-journey",
+   "title": "A year of care, in motion",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "coverage-vs-access",
+    "appointment-capacity",
+    "waitlist-dynamics",
+    "capitation",
+    "system-cost"
+   ],
+   "policy_claims": false,
+   "source_refs": [],
+   "objectives": [
+    "Watch fictional weekly waitlist and in-care means change across a 52-week model year.",
+    "Compare pilot and capacity settings without treating simulated changes as real-world predictions.",
+    "Explain why capitation transfers are separate from downstream system costs."
+   ]
+  },
+  {
+   "id": "virtual-county-simulator",
+   "title": "A budget isn't a waiting room: Virtual county & capacity simulator",
+   "path": "county-lab.html",
+   "audience": [
+    "explore",
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "appointment-capacity",
+    "waitlist-dynamics",
+    "care-coordination",
+    "capitation",
+    "system-cost",
+    "common-random-numbers"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "Explore how provider slot capacity and waitlist dropout interact over 52 weeks in a fictional county.",
+    "Explain why reducing waitlist dropout can raise average wait times unless appointment capacity also expands.",
+    "Separate upstream capitation transfers from consolidated system service and coordination costs."
+   ]
+  },
+  {
+   "id": "school-based-services",
+   "title": "How Medicaid can pay for school-based services",
+   "path": "index.html#school-based-services",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "school-based-services",
+    "administrative-claiming",
+    "cost-pools",
+    "state-plan-amendment"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-school-based-services"
+   ],
+   "objectives": [
+    "Name the four money concepts behind school-based Medicaid payment: state-plan authority, documented services, administrative claiming, and cost pools.",
+    "Describe what the CMS School-Based Services Resources index lists and what it does not establish.",
+    "Identify what evidence is still missing before any school-based reimbursement rule can be taught as factual."
+   ]
+  },
+  {
+   "id": "managed-care-rates",
+   "title": "How Medicaid managed-care rates are set",
+   "path": "index.html#managed-care-rates",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "capitation",
+    "actuarial-soundness",
+    "rate-development-guide",
+    "rating-period",
+    "rate-certification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-managed-care-rate-guidance"
+   ],
+   "objectives": [
+    "Describe capitation as a prospective per-person rate and the federal actuarial-soundness standard that applies to it.",
+    "Name the current CMS rate development guide (2026-2027, released February 2026) and the rating periods it covers (starting July 1, 2026 through June 30, 2027).",
+    "Identify what the CMS index page does not establish: any plan-, state-, or provider-specific rate, and any Pennsylvania contract rule."
+   ]
+  },
+  {
+   "id": "rate-guide-index",
+   "title": "The Rate Guide: where capitation numbers are born",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "capitation",
+    "actuarial-rate-certification",
+    "rate-development-guide",
+    "rating-period",
+    "index-vs-document",
+    "federal-actuarial-soundness"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-managed-care-rate-guidance"
+   ],
+   "objectives": [
+    "State verbatim what the CMS Rate Review and Rate Guides index verifies: the federal requirement that states develop capitation rates in accordance with generally accepted actuarial principles and practices, and the 2026-2027 guide edition (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027).",
+    "Distinguish what the index page does not establish: no rate, no formula, no Pennsylvania-specific number, and no encoded rule \u2014 it is a map to the guides, and the guide document itself must be opened before any rate claim is made.",
+    "Explain why an actuarial rate certification is the 'birth certificate' of a capitation rate and why modelers must record a guide's version, effective period, and exact passage before quoting it."
+   ]
+  },
+  {
+   "id": "rate-guide-addendum",
+   "title": "The addendum drawer: rate guidance has a correction channel",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "rate-development-guide",
+    "guide-addendum",
+    "versioning-discipline",
+    "rating-period",
+    "index-vs-document",
+    "federal-actuarial-soundness"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-managed-care-rate-guidance"
+   ],
+   "objectives": [
+    "State verbatim what the CMS Rate Review and Rate Guides index verifies on re-check (2026-10-15): the index lineage reaches back to the 2014 consultation guide and lists addenda to the 2024-2025 and 2016 rate development guides, proving guidance is revised and the revisions are listed on the same index.",
+    "Apply the versioning discipline: a modeled rate assumption pinned to a guide edition must also check the addendum drawer \u2014 record the guide edition and the latest addendum status, both dated \u2014 and never quote the edition without checking whether a correction was issued on top of it.",
+    "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; the guide document itself must be opened before any rate claim is encoded."
+   ]
+  },
+  {
+   "id": "requesting-services",
+   "title": "How to request behavioral-health services in Pennsylvania",
+   "path": "index.html#requesting-services",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "member-access",
+    "county-office",
+    "BH-MCO-assignment",
+    "application-routes"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "Describe the access route the official page gives: county mental-health office, BH-MCO assignment by county of residence, member handbook, in-network provider choice.",
+    "Name the documented Medicaid application routes (COMPASS, county assistance office, mail, phone) and crisis help (988).",
+    "Identify what the page does not establish: a specific person's enrollment, provider network status, or appointment availability."
+   ]
+  },
+  {
+   "id": "live-python-simulation",
+   "title": "Live In-Browser Python Policy Lab",
+   "path": "live-simulation.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "illustrative",
+   "concepts": [
+    "discrete-event-simulation",
+    "monte-carlo",
+    "webassembly",
+    "pyodide",
+    "ledger-invariants"
+   ],
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "Execute genuine Python discrete-event simulations in the browser using Pyodide WebAssembly.",
+    "Test parametric sweeps of provider appointment capacity and proactive care coordination.",
+    "Verify statutory ledger invariants directly against simulated transaction streams."
+   ]
+  },
+  {
+   "id": "mental-health-parity",
+   "title": "Does my plan have to cover mental health the same as physical health?",
+   "path": "index.html#mental-health-parity",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "mental-health-parity",
+    "mhpaea",
+    "quantitative-treatment-limitation",
+    "non-quantitative-treatment-limitation",
+    "six-benefit-classifications",
+    "nqtl-comparative-analysis"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "Explain that MHPAEA requires no less favorable benefit limitations on MH/SUD benefits a plan covers, without requiring plans to cover MH/SUD benefits at all.",
+    "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative ones (pre-authorization, step therapy, medical management, network standards).",
+    "Describe the six benefit classifications and the predominant / substantially-all test used for comparison.",
+    "Name what the CMS page does not establish: any plan-specific coverage or compliance determination, state-specific parity rules, and Medicaid MCO/CHIP modeling (not encoded)."
+   ]
+  },
+  {
+   "id": "bhc-document-vault",
+   "title": "Where do the official rules live? (The BHC publications vault)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "source-provenance",
+    "bhc-publications-index",
+    "program-standards-requirements",
+    "external-quality-review"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-publications"
+   ],
+   "objectives": [
+    "Name the document families in the official PA DHS Behavioral HealthChoices publications index (PSR and appendices, ASAM rates effective January 1 2026, 2026 financial reporting requirements, OMHSAS Member Handbook 2026, annual external quality review technical reports).",
+    "Explain why a policy claim needs the document's version, effective date, and exact passage - the index listing alone is not a rule.",
+    "Identify what the index page does not establish: any coverage rule, rate, or contract term, which live inside the linked documents that must be opened and read."
+   ]
+  },
+  {
+   "id": "two-plan-families",
+   "title": "One member, two plan families: physical vs behavioral MCOs",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "carve-out",
+    "physical-health-mco-directory",
+    "bh-mco-vs-physical-mco",
+    "region-to-plan-mapping",
+    "enhanced-member-supports-unit"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-physical-hc-mco"
+   ],
+   "objectives": [
+    "Distinguish Pennsylvania's physical HealthChoices plan family (5 regions, plan directories with member-services and Enhanced Member Supports Unit numbers) from the county-assigned Behavioral HealthChoices BH-MCO family.",
+    "Name the seven physical plan families listed on the official DHS directory and the five regions used to organize them.",
+    "Explain why a simulation must keep the two plan families in separate ledgers before attributing money flows.",
+    "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
+   ]
+  },
+  {
+   "id": "school-based-claiming",
+   "title": "Schools as billing partners: Medicaid administrative claiming",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "school-based-services",
+    "administrative-claiming",
+    "state-plan-amendment",
+    "time-study-implementation-plan",
+    "cost-pools"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-school-based-services"
+   ],
+   "objectives": [
+    "Name the three agency layers CMS's SBS resources address (SMA, SEA, LEA) and what each filing type does (SPA, TSIP, Administrative Claiming Plan, cost report).",
+    "Explain why a state's listed SPA example cannot be generalized to another state without opening that state's actual SPA text, version, and effective date.",
+    "Identify what the CMS resource index page does not establish: any coverage rule, rate, or payment methodology, which live inside the linked documents that must be opened and read."
+   ]
+  },
+  {
+   "id": "bhc-mco-map",
+   "title": "Who covers your county? The Behavioral Health MCO map",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "county-assignment",
+    "behavioral-health-mco",
+    "carve-out",
+    "coverage-architecture"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "Name the five BH-MCOs in Pennsylvania's HealthChoices program and state that assignment is by county of residence, not member choice.",
+    "Explain why the county-to-BH-MCO map is a coverage architecture (which ledger owns the dollar), not a provider network or evidence of access.",
+    "Identify what the directory does not establish: any member's plan, provider credentialing, network openness, benefits, or reimbursement."
+   ]
+  },
+  {
+   "id": "bhc-providers-view",
+   "title": "The provider's view: 2.7M lives on one eligibles map",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "provider-context",
+    "eligibles-map",
+    "county-contracting",
+    "effective-dates",
+    "coverage-architecture-vs-access"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-providers"
+   ],
+   "objectives": [
+    "State the provider page's core architecture claims: each county contracts with an MCO; county mental-health programs ensure quality and timely access; BH-MCO assignment is by county of residence.",
+    "Report the eligibles map's statewide covered-lives count (2,717,158) and explain why a covered-lives total is not evidence of access or provider availability.",
+    "Flag the MBH-vs-Magellan label mismatch between the provider map and the BH-MCO directory as an unresolved reconciliation step, not a resolved fact.",
+    "Identify what the page does not establish: provider acceptance, network openness, per-case benefits, or actual reimbursement \u2014 those live in contracts and claims."
+   ]
+  },
+  {
+   "id": "mh-parity-comparator",
+   "title": "Parity is a comparator, not a mandate: MHPAEA's federal rule",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "parity",
+    "mhpaea",
+    "qtl",
+    "nqtl",
+    "comparative-analysis",
+    "coverage-comparator"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "State the parity comparator: when a plan covers MH/SUD benefits, financial requirements and treatment limitations cannot be more restrictive than the predominant rules applying to substantially all medical/surgical benefits in the same classification.",
+    "Distinguish quantitative treatment limitations (visit/day limits) from non-quantitative treatment limitations (prior authorization, step therapy, medical management, network composition, OON reimbursement methodology).",
+    "Explain the CAA-2021 NQTL comparative-analysis duty and the 2024 final rules' data-collection and material-differences-in-access requirement.",
+    "State the non-mandate caveat: MHPAEA does not require MH/SUD coverage; the ACA's essential-health-benefits requirement covers non-grandfathered individual and small-group plans."
+   ]
+  },
+  {
+   "id": "mh-parity-referee-map",
+   "title": "Every comparator needs a referee: the MHPAEA enforcement map",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "parity",
+    "mhpaea",
+    "enforcement-jurisdiction",
+    "self-funded-vs-insured",
+    "medicaid-parity-carve",
+    "material-differences-in-access"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "Map parity jurisdiction: HHS over public-sector group health plans; DOL/Treasury over private-sector group plans; state insurance departments over purchased insurance only.",
+    "Distinguish insured (issuer-purchased) from self-funded (direct-paid) coverage and explain why the regulator differs.",
+    "State how Medicaid/CHIP enter parity: not as group plans, but through Social Security Act provisions requiring certain MHPAEA compliance for CHIP plans, benchmark plans, and Medicaid managed care plans (2016 final rule).",
+    "State the 2024 rules' data duty: collect and evaluate data, take reasonable action on material differences in access from NQTLs, and never design NQTLs with systematically discriminatory standards.",
+    "Name the complaint channels printed on the page: CMS help line 1-877-267-2323 ext. 6-1565 / phig@cms.hhs.gov and DOL regional benefit advisors."
+   ]
+  },
+  {
+   "id": "systems-management-plumbing",
+   "title": "The encounter data plumbing: what OMHSAS sees",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "encounter-data",
+    "edi-transactions",
+    "omhsas-systems-management",
+    "encounter-data-validation",
+    "data-plumbing",
+    "synthetic-population-boundary"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-systems-management"
+   ],
+   "objectives": [
+    "State OMHSAS Division of Systems Management's three jobs: run interacting state systems, manage claim/encounter data, and conduct business intelligence with behavioral health data.",
+    "Name the encounter-data transactions and files the page indexes (837 encounters, 834 enrollment, 277 status, 999 acknowledgments, ESC extracts, provider files) and the Encounter Data Validation studies / on-site reviews the state publishes.",
+    "Explain why real encounter files are out of bounds for this project (page is for business partners; files are nonpublic) and why that boundary forces synthetic populations and public documents \u2014 no rule encoded from this source."
+   ]
+  },
+  {
+   "id": "chip-third-family",
+   "title": "CHIP: the third plan family (kids' coverage)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "chip",
+    "childrens-health-insurance",
+    "plan-families",
+    "insurer-directory",
+    "ncqa-accreditation",
+    "coverage-architecture-vs-access"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-chip-companies"
+   ],
+   "objectives": [
+    "State the directory contents verbatim from the verified page: nine named CHIP insurers with member phone lines, per-MCO NCQA health-plan accreditation (all nine accredited, grant and next-due dates) and Health Equity accreditation for five MCOs.",
+    "Distinguish what the directory does not establish: county availability, benefit design, behavioral-health rules, provider networks, provider acceptance, or reimbursement rates.",
+    "Explain why three named plan families (physical, behavioral, CHIP) replace one vague 'the plan' label when modeling a child's money flow \u2014 never collapse them into one ledger."
+   ]
+  },
+  {
+   "id": "pennie-marketplace",
+   "title": "Pennie: Pennsylvania's official marketplace (the front door)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "pennie",
+    "health-insurance-marketplace",
+    "special-enrollment",
+    "medicaid-transition",
+    "front-door-vs-price-book"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pennie"
+   ],
+   "objectives": [
+    "State what the Pennie homepage verifies verbatim: the official state marketplace for health and dental coverage, the life-change enrollment check, the Medicaid-transition account flow, and the certified-assister help channels.",
+    "Distinguish what the homepage does not establish: open-enrollment dates, any plan list, any premium or subsidy figure, any eligibility rule, and the linked federal-changes page content.",
+    "Explain the front-door-vs-price-book distinction: a marketplace page proves the doorway exists, never the price behind it \u2014 never encode a rate or eligibility rule from an index page."
+   ]
+  },
+  {
+   "id": "bhc-overview-contract",
+   "title": "Behavioral HealthChoices: the contract behind the map",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "behavioral-healthchoices",
+    "county-contracting",
+    "BH-MCO-assignment",
+    "network-vs-architecture"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview"
+   ],
+   "objectives": [
+    "State what the DHS Behavioral HealthChoices overview page verifies verbatim: county contracts with an MCO for MH/D&A services, the county's quality/timely-access/coordination duties, BH-MCO assignment by county of residence, and provider choice within the plan network.",
+    "Distinguish what the overview page does not establish: any provider network status, any benefit list, any rate, and any member-level enrollment data.",
+    "Explain the architecture-before-access discipline: an overview page proves the contract structure, never the availability behind a given provider's door."
+   ]
+  },
+  {
+   "id": "aca-rate-filings-2027",
+   "title": "ACA rate filings: the 2027 two-phase rate review (the rate ledger)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "aca-rate-filings",
+    "rate-review",
+    "requested-vs-approved",
+    "commercial-market",
+    "price-vs-network"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-insurance-department-aca-filings"
+   ],
+   "objectives": [
+    "State verbatim what the PA Insurance Department page establishes: a two-phase annual rate review (initial review of cost estimates, historical data, revenues, projected profits, past rate changes, consumer impact; then final decision & approval) and 2027 plan-year tables for 15 individual and 16 small-group companies.",
+    "Distinguish requested from approved rate changes (e.g., Ambetter Health of PA: requested 40.90%, approved 35.13%; Oscar Health Plan of PA: requested 15.39%, approved 1.38%) \u2014 never encode a request as the price.",
+    "State what the page does not establish: no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures \u2014 a rate filing cannot prove a clinician is in-network."
+   ]
+  },
+  {
+   "id": "bhc-member-front-door",
+   "title": "Behavioral HealthChoices member access: the front-door route (who opens each door)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "member-access-pathway",
+    "county-mental-health-office",
+    "BH-MCO-assignment",
+    "in-network-choice",
+    "route-map-vs-directory"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "State verbatim the member-facing access route the PA DHS page establishes: the county mental-health office oversees Behavioral HealthChoices, personalizes the treatment plan (eligibility, assessment, referral), and connects the member to the county's BH-MCO; the member is assigned a BH-MCO by county of residence and chooses providers within that plan's network; the MCO sends a handbook on accessing services and benefits.",
+    "Name the Medicaid application channels the page lists (COMPASS online, county assistance office in person, by mail, by phone) and the 988 crisis line it carries.",
+    "Distinguish what the page does not establish: no provider list or acceptance status, no benefit schedule, no rate, and no per-member eligibility determination \u2014 a route map, not a destination list; never encode a provider, benefit, or rate from this page."
+   ]
+  },
+  {
+   "id": "bhc-publications-accreditation",
+   "title": "BHC publications index: the accreditation shelf (NCQA/URAC, CFR 438.332)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "accreditation",
+    "NCQA",
+    "URAC",
+    "CFR-438.332",
+    "external-oversight",
+    "provenance-vs-network"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-publications"
+   ],
+   "objectives": [
+    "State verbatim the accreditation passage the PA DHS publications index carries: as per CFR 438.332, the department posts the certificate of accreditation by a private independent entity, reflecting NCQA and URAC.",
+    "Distinguish what the page does not establish: no per-plan accreditation dates, no per-plan accreditation scope, no provider network fact, no rate, and no outcome claim.",
+    "Explain the provenance discipline: accreditation certificates are evidence of external oversight (a paper trail), never evidence of network access, payment, or quality outcomes \u2014 and no rules are encoded from an index page."
+   ]
+  },
+  {
+   "id": "bhc-providers-asam-fees",
+   "title": "The fee schedule shelf: ASAM rates effective Jan 1, 2026 (rate evidence, not a payment rule)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "fee-schedule",
+    "ASAM-levels-of-care",
+    "rate-evidence-vs-payment-rule",
+    "per-diem-bundling",
+    "capitation-context"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-providers"
+   ],
+   "objectives": [
+    "State verbatim the dated ASAM fee schedule the PA DHS provider page carries: 'Rates Effective January 1, 2026', with per-hour, per-15-minute, and per-diem rate types and dollar fees (e.g., 2.0WM $106.35 per hour; 3.5 $260.65 per diem; 3.7WM $415.24 per diem).",
+    "Distinguish unit types: a per-diem fee is a bundle, not a visit price, so fees across unit types do not compare naively.",
+    "Explain the encoding discipline: quoting any fee into a model requires opening the linked ASAM PDF and confirming applicability to provider type, county, and contract \u2014 not done this run \u2014 and a dated fee schedule is rate evidence, never a payment rule; BH-MCOs are paid by capitation."
+   ]
+  },
+  {
+   "id": "coverage-areas-2026-sales-footprint",
+   "title": "The coverage map shelf: 2026 individual-market coverage areas (a sales footprint, never a network)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "coverage-area",
+    "individual-market",
+    "sales-footprint-vs-network",
+    "archived-market-snapshot",
+    "county-service-area"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-insurance-department-2026-individual-coverage-areas"
+   ],
+   "objectives": [
+    "State what the archived PA Insurance Department coverage-areas page is: a 2026 plan-year purchase footprint (15 issuers, per-issuer county lists plus map images, e.g. Oscar 13 counties, UPMC Health Options 52, UPMC Health Plan 2), updated annually, with current coverage on the ACA Health Rate Filing home page.",
+    "Quote the page's standing scope limit: the maps apply to purchasing a plan only and do NOT show limits on health care coverage or provider networks \u2014 a sales footprint, never a network directory, never a rate.",
+    "Explain the encoding discipline: archived market availability is dated history (2026), never the current plan year and never provider-network evidence; review_required_before_encoding stays true and nothing has been promoted to a rule."
+   ]
+  },
+  {
+   "id": "bhc-mcos-date-discipline",
+   "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "county-plan-assignment",
+    "lookup-vs-contract",
+    "date-discipline",
+    "contract-rebid-risk",
+    "bh-mco-directory"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "State the directory's stated purpose verbatim: the chart exists to determine the BH-MCO operating in a county and link through to that plan's own webpage \u2014 a lookup, not a contract and not a network.",
+    "Quote the re-verification finding of 2026-10-14: content unchanged since 2026-10-12 (5 organizations, all 67 PA counties assigned exactly once: CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11).",
+    "Explain the encoding discipline: county-to-plan assignments reflect published contracts that can change on re-bid, so cite every county-plan pairing with its retrieval date and re-check the live page before it enters a model; review_required_before_encoding stays true and nothing has been promoted to a rule."
+   ]
+  },
+  {
+   "id": "school-based-spa-unit",
+   "title": "School-based Medicaid: the state is the unit (fifty SPAs, not one program)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "school-based-services",
+    "state-plan-amendment",
+    "payment-methodology"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-school-based-services"
+   ],
+   "objectives": [
+    "Name the four distinct SBS SPA payment designs CMS lists side by side (cost-methodology expanded services; cost-methodology IDEA-only; cost-based rate methodology; fee-schedule rate) and which states exemplify each.",
+    "Explain why one state's SPA parameters cannot be transferred to another state's scenario without opening that state's own SPA text, version, approval date, and payment method.",
+    "State what the CMS resource index does not establish: any coverage rule, rate, or payment methodology, and why its linked state examples are 'for reference only' rather than CMS endorsement."
+   ]
+  },
+  {
+   "id": "medicaid-managed-care-doorway",
+   "title": "The federal managed-care landing page: a doorway, not a filing cabinet",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "managed-care",
+    "federal-authority",
+    "index-page-discipline",
+    "source-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "medicaid-gov-managed-care"
+   ],
+   "objectives": [
+    "State what the Medicaid.gov managed-care landing page verifies (managed care as a delivery system managing cost, utilization, and quality; per-member-per-month capitation payments to MCOs) and what it cannot establish (any federal authority, enrollment share, or date).",
+    "Explain why the old /managed-care/index.html URL must not be cited (returns 404; canonical page moved to /managed-care) and why federal URLs must be re-verified before citation.",
+    "Apply the index-page discipline: a landing page is a doorway, never a rule \u2014 cite it for the delivery-system definition only, and open the authorities page before encoding any authority claim."
+   ]
+  },
+  {
+   "id": "medicaid-eligibility-gate",
+   "title": "The gate, not the fence: who Medicaid can cover",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "medicaid-eligibility",
+    "federal-floor",
+    "magi",
+    "state-variation",
+    "index-page-discipline",
+    "source-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-medicaid-eligibility-policy"
+   ],
+   "objectives": [
+    "State what the CMS Eligibility Policy overview verifies (federal mandatory groups; state option groups; ACA 133% FPL expansion option; MAGI counting with no state-varying disregards and no asset test; SSI-methodology exemptions for blindness/disability/age 65+; residency and citizenship rules; application-date coverage with 3-month retroactivity; medically-needy spenddown in 36 states + DC; fair-hearing appeals).",
+    "Explain why the page cannot establish any specific state's eligibility groups, income limits, or expansion status, and why it cannot date its own 77.9-million figure (no last-updated date displayed).",
+    "Apply the state-is-the-unit discipline: never generalize one state's eligibility design to another, and never cite the old /medicaid/eligibility URL (404s; canonical page moved to /eligibility-policy)."
+   ]
+  },
+  {
+   "id": "physical-plan-region-menu",
+   "title": "The region is the menu: physical plan options are region-scoped",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "physical-health-mco-directory",
+    "region-to-plan-mapping",
+    "choice-set-discipline",
+    "source-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-physical-hc-mco"
+   ],
+   "objectives": [
+    "State which physical HealthChoices plan labels appear in all five region tables (Geisinger Health Plan, Jefferson Health Plans EverWell, UPMC for You) and which are region-locked (Keystone First and United Healthcare Community Plan: Southeast only; Highmark Wholecare: Lehigh/Capital and Southwest only; AmeriHealth Caritas row label varies by region).",
+    "Explain why a simulation must scope a modeled member's plan choice set to the member's region table, and why assigning a region-outside plan is a modeling error.",
+    "Identify what the directory page does not establish: any member's actual plan, benefit design, contracted provider network, or rate."
+   ]
+  },
+  {
+   "id": "bhc-mcos-mbh-label",
+   "title": "The phantom payer: MBH/Magellan label resolved on the directory page itself (verified 2026-10-15)",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "entity-resolution",
+    "label-discipline",
+    "lookup-vs-contract",
+    "bh-mco-directory",
+    "acronym-as-claim"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos",
+    "pa-dhs-bhc-providers"
+   ],
+   "objectives": [
+    "Quote the directory row verbatim: 'Magellan Behavioral Health of Pennsylvania (MBH)' \u2014 the acronym is defined on the same page that spells the full name, so the providers-page map's 'MBH' abbreviation names the same entity.",
+    "Record the resolution of the flag first raised 2026-10-12: no phantom sixth payer; five organizations, 67 counties assigned exactly once, content unchanged since 2026-10-12.",
+    "Teach the encoding discipline: two labels that look different do not mean two entities \u2014 resolve every payer label on the page before it enters the model, and review_required_before_encoding stays true; nothing about networks, benefits, or rates is claimed."
+   ]
+  },
+  {
+   "id": "chip-directory-staleness",
+   "title": "CHIP directory re-verified: the stale ledger (recheck flags)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "chip",
+    "directory-verification",
+    "recheck-discipline",
+    "ncqa-accreditation",
+    "dated-evidence"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-chip-companies"
+   ],
+   "objectives": [
+    "State the 2026-10-16 re-verification finding verbatim: page unchanged since 2026-10-13 (nine insurers, nine accredited NCQA health-plan rows, five accredited Health Equity rows), but three Health Equity 'Next Due Date' entries (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) now lie in the past with no page update.",
+    "Distinguish a recheck flag from a finding: a passed due date on an un-updated page is NOT evidence that any accreditation lapsed \u2014 renewals may simply not be posted \u2014 it only triggers confirmation against NCQA or the MCO.",
+    "Teach the date-the-ledger discipline: a dated directory is evidence of what the page said on the check date; never encode a present-tense 'currently accredited' status from a table the publisher has stopped refreshing."
+   ]
+  },
+  {
+   "id": "bhc-overview-undated-page",
+   "title": "BHC overview re-verified: the undated page (the check date is the version)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-overview",
+    "source-verification",
+    "date-discipline",
+    "undated-source",
+    "dated-evidence"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview"
+   ],
+   "objectives": [
+    "State the 2026-10-16 re-verification finding verbatim: the DHS Behavioral HealthChoices overview page is text-identical to the 2026-10-13 and 2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO).",
+    "State the new page-level observation: the overview page carries no revision date, last-updated stamp, or document version, so the only dateable fact about it is the retrieval date.",
+    "Distinguish stability from currency: unchanged text across checks is evidence the page is not being revised, not evidence it reflects current program detail; every claim drawn from it must carry the check date.",
+    "Teach the undated-page discipline: rule-shaped claims (benefits, rates, coverage boundaries) from an undated page must be corroborated against a dated document before entering a model."
+   ]
+  }
+ ]
 }

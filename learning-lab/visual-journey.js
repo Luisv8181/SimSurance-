@@ -572,6 +572,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview2_undated',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE (re-verified 2026-10-16)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview2_undated',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Undated Page — The Check Date Is the Version',
+      text: "Two days after Glim first read the DHS Behavioral HealthChoices overview, the page got opened again — and it had not moved. Same paragraphs, same county-contract sentence, same BH-MCO assignment line, down to the letter. Three checks now: October 10, 13, and 16, identical text. But look closer at what the page does not carry: no revision date, no last-updated stamp, no document version anywhere on it. And that is the trap with an undated page — stable can feel current, and it is not. Stability is a claim about the page: it has not been rewritten. 'Current' would be a claim about the program: that this is still how the contracts read. The page gives you the first; it cannot give you the second. So Glim's discipline for undated pages is simple: the only date you can attach to the page is the date of the check, so every claim you draw from it carries that check date — and anything rule-shaped, a benefit or a rate or a coverage boundary, gets corroborated against a dated document before it enters your model. When the page has no date, the check date is the version.",
+      advantage: true,
+      advantageText: 'Date the Undated Page: The Check Date Is the Version',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-10-16, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STABLE-TEXT BLUR:\\n- The overview page reads the same on October 10, 13, and 16.\\n- 'It has not changed, so it must be current.'\\n- Claims get encoded with no date at all — 'current' as an unexamined default.",
+        after: "THE DATED CLAIM:\\n- Three identical checks: 2026-10-10, 2026-10-13, 2026-10-16 — and the page shows no revision date of its own.\\n- 'Unchanged since at least 2026-10-10; undated by its publisher.'\\n- Every line drawn from it carries the check date; rule-bearing claims wait for a dated document.",
+        note: "A page-level re-verification (2026-10-16): this scene teaches dating discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {

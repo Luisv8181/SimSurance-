@@ -17,14 +17,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_program_overview",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-13",
-      "scope_note": "Re-verified live 2026-10-13: content unchanged since 2026-10-10. Overview states counties contract with an MCO for MH/D&A services; counties must ensure high-quality, timely access and coordination; each consumer is assigned a BH-MCO by county of residence and chooses providers within the BH-MCO network; participating providers accepting new clients are member-accessible. Page states no provider network status, benefits, or rates. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-13.md",
+      "last_checked": "2026-10-16",
+      "scope_note": "Re-verified live 2026-10-16: page text byte-identical to the 2026-10-13/2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO). NEW PAGE-LEVEL OBSERVATION: the page carries no revision date, last-updated stamp, or document version \u2014 the only dateable fact is the retrieval date, so \"current\" is unknowable and every claim drawn from it must carry the check date. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-16.md",
       "supports": [
         "program_structure",
         "behavioral_health_mco_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-overview-2026-10-13.md"
+      "snapshot": "docs/source-snapshots/bhc-overview-2026-10-16.md"
     },
     {
       "id": "pa-dhs-bhc-providers",
