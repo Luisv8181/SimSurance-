@@ -427,6 +427,33 @@
       ]
     },
     {
+      "id": "rate-guide-addendum",
+      "title": "The addendum drawer: rate guidance has a correction channel",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "rate-development-guide",
+        "guide-addendum",
+        "versioning-discipline",
+        "rating-period",
+        "index-vs-document",
+        "federal-actuarial-soundness"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "State verbatim what the CMS Rate Review and Rate Guides index verifies on re-check (2026-10-15): the index lineage reaches back to the 2014 consultation guide and lists addenda to the 2024-2025 and 2016 rate development guides, proving guidance is revised and the revisions are listed on the same index.",
+        "Apply the versioning discipline: a modeled rate assumption pinned to a guide edition must also check the addendum drawer — record the guide edition and the latest addendum status, both dated — and never quote the edition without checking whether a correction was issued on top of it.",
+        "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; the guide document itself must be opened before any rate claim is encoded."
+      ]
+    },
+    {
       "id": "requesting-services",
       "title": "How to request behavioral-health services in Pennsylvania",
       "path": "index.html#requesting-services",

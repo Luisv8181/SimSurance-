@@ -1240,6 +1240,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_addendum',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE ADDENDUM DRAWER (verified 2026-10-15)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_addendum',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Addendum Drawer: Rate Guidance Has a Correction Channel',
+      text: "The rate-guide map has one more drawer you must not skip. I re-opened the CMS rate-guidance index this morning — same text as two days ago — and counted its lineage: it reaches all the way back to the 2014 consultation guide. But here is the detail that changes how you model: the index lists not only the guides but their revisions. There is an 'Addendum to 2024-2025 Medicaid Managed Care Rate Development Guide' and an 'Addendum to 2016 Medicaid Managed Care Rate Development Guide.' Guidance is not frozen at release; CMS revises it, and the revisions are listed on the very same index page. So the discipline sharpens: pinning your assumption to a guide edition is only half the citation work. You must also check the addendum drawer — because an assumption pinned to the 2024-2025 guide without its addendum is an assumption pinned to guidance that may already have been corrected. In the simulator, that means two fields, not one: the guide edition and the latest addendum status, both dated. The index page still gives you no rate, no formula, and no Pennsylvania number — but it now teaches you a versioning habit: never quote the edition without checking whether a correction was issued on top of it.",
+      advantage: true,
+      advantageText: 'Versioning Habit: Quote the Edition, Check the Addendum',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-10-15)',
+        quote: 'Addendum to 2024-2025 Medicaid Managed Care Rate Development Guide',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Your scenario document cites assumptions from the 2024-2025 Rate Development Guide. What does the CMS rate-guidance index require you to check before quoting them?',
+        opts: [
+          'A) The addendum drawer — the index lists an "Addendum to 2024-2025 Medicaid Managed Care Rate Development Guide," so CMS revises guidance and the edition alone may already have been corrected; record the guide edition and the latest addendum status, both dated.',
+          'B) Nothing further — a released guide edition is final forever, so the edition citation is complete.',
+          'C) The 2026-2027 guide\u2019s addendum — the page lists a revision to the current edition, so the new guide is the one to worry about.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The 2026-10-15 re-verification read the index lineage back to 2014 and found two addenda listed — for the 2024-2025 and 2016 guides. Guidance has a correction channel, so a modeled assumption needs two dated fields: the guide edition and the latest addendum status. There is no addendum listed for the 2026-2027 guide, and no released guide is final by default — that is what the drawer is for.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
     // -------------------------------------------------------------
