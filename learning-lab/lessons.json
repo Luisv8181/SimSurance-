@@ -1109,6 +1109,32 @@
         "Record the resolution of the flag first raised 2026-10-12: no phantom sixth payer; five organizations, 67 counties assigned exactly once, content unchanged since 2026-10-12.",
         "Teach the encoding discipline: two labels that look different do not mean two entities — resolve every payer label on the page before it enters the model, and review_required_before_encoding stays true; nothing about networks, benefits, or rates is claimed."
       ]
+    },
+    {
+      "id": "chip-directory-staleness",
+      "title": "CHIP directory re-verified: the stale ledger (recheck flags)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "chip",
+        "directory-verification",
+        "recheck-discipline",
+        "ncqa-accreditation",
+        "dated-evidence"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-chip-companies"
+      ],
+      "objectives": [
+        "State the 2026-10-16 re-verification finding verbatim: page unchanged since 2026-10-13 (nine insurers, nine accredited NCQA health-plan rows, five accredited Health Equity rows), but three Health Equity 'Next Due Date' entries (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) now lie in the past with no page update.",
+        "Distinguish a recheck flag from a finding: a passed due date on an un-updated page is NOT evidence that any accreditation lapsed — renewals may simply not be posted — it only triggers confirmation against NCQA or the MCO.",
+        "Teach the date-the-ledger discipline: a dated directory is evidence of what the page said on the check date; never encode a present-tense 'currently accredited' status from a table the publisher has stopped refreshing."
+      ]
     }
   ]
 }

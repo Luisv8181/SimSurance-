@@ -429,6 +429,32 @@
       furtherReading: [
         { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
       ],
+      next: 'u1_p4_chip2_stale',
+    },
+    {
+      id: 'u1_p4_chip2_stale',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Stale Ledger — When the Due Date Has Passed',
+      text: "Three days after we first opened the CHIP directory, Glim went back to the page — and the page had not moved. Same nine insurers, same phone lines, same accreditation tables, down to the letter. But the calendar had moved. Three of the Health Equity accreditation rows now show next-due dates in the past: Aetna Better Health, August 31, 2026; Keystone First-CHIP, June 22, 2026; United Healthcare, May 8, 2026. The page shows no update beside any of them. Now — pause before you conclude anything. This does not mean any accreditation lapsed. Renewals happen quietly; the page may simply be stale. What it means is this: a dated directory is evidence of what the page said on the check date, and a passed due date on an un-updated page is a recheck flag, not a finding. Before your simulator ever writes 'currently accredited' about anyone, confirm the accreditation against NCQA or the MCO itself. Never encode a status from a table the publisher has stopped refreshing.",
+      advantage: true,
+      advantageText: 'Date the Ledger: A Passed Due Date Is a Recheck Flag, Never a Finding',
+      citation: {
+        title: 'CHIP Insurance Companies',
+        statute: 'PA DHS · CHIP insurer directory, re-verified 2026-10-16, page unchanged since 2026-10-13 (directory, not a rule)',
+        quote: 'Aetna Better Health | Accredited | August 31, 2023 | August 31, 2026',
+        url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies',
+        urlLabel: 'PA DHS CHIP Insurance Companies Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STATIC-TABLE BLUR:\\n- The directory was checked once, so it is treated as current forever.\\n- A passed due date on the page is read as a lapsed accreditation.\\n- 'Accredited' gets encoded into the simulator as a present-tense fact.",
+        after: "THE RECHECK DISCIPLINE:\\n- Re-opened 2026-10-16: page unchanged, but three Health Equity due dates (Aug 31, 2026; June 22, 2026; May 8, 2026) now lie in the past with no update.\\n- Passed due date on an un-updated page = recheck flag, not a finding of lapse.\\n- Confirm current accreditation against NCQA or the MCO before encoding anything.",
+        note: "This 2026-10-16 re-verification changed nothing about the directory's contents — nine insurers, nine accredited NCQA rows, five accredited equity rows, all as on 2026-10-13. The new fact is the calendar: a dated record decays, and the modeler must date it.",
+      },
+      furtherReading: [
+        { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_bh',
     },
     {

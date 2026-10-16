@@ -118,13 +118,13 @@
       "title": "CHIP Insurance Companies",
       "issuer": "Pennsylvania Department of Human Services",
       "url": "https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies",
-      "snapshot": "docs/source-snapshots/chip-companies-2026-10-13.md",
+      "snapshot": "docs/source-snapshots/chip-companies-2026-10-16.md",
       "jurisdiction": "Pennsylvania",
       "program": "Children's Health Insurance Program",
       "source_type": "official_plan_directory",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-13",
-      "scope_note": "Re-verified live 2026-10-13. Dated CHIP insurer directory: nine companies with phone numbers (Aetna Better Health Kids, Capital Blue Cross, Geisinger Health Plan, Highmark Choice Company/Highmark Healthy Kids, Jefferson Health Plans CHIP, Keystone First-CHIP, UnitedHealthCare, UPMC for Kids, Wellkids by PA Health & Wellness); NCQA health-plan accreditation ledger per MCO (all nine 'Accredited', dated grant/due dates) and a Health Equity accreditation ledger for five MCOs. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-13.md",
+      "last_checked": "2026-10-16",
+      "scope_note": "Re-verified live 2026-10-16: page byte-identical to the 2026-10-13 check (same nine companies and phone numbers; same nine-row NCQA accreditation ledger, all 'Accredited'; same five-row Health Equity accreditation ledger). NEW PAGE-LEVEL OBSERVATION: three Health Equity 'Next Due Date' entries on the page now lie in the past relative to this check (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) with no page update to those rows \u2014 the page is a dated record, not proof any accreditation lapsed; a passed due date on an un-updated page is a recheck flag (confirm against NCQA/the MCO) before encoding any 'currently accredited' value. Consumer shipped 2026-10-16: WORKBOOK scene u1_p4_chip2_stale ('The Stale Ledger: When the Due Date Has Passed'), lesson chip-directory-staleness, status source_review_required. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-16.md",
       "supports": [
         "CHIP_plan_directory"
       ],
