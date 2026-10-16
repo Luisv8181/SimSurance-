@@ -886,6 +886,41 @@
         { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5d2_direction',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE RATE LEDGER, BOTH DIRECTIONS
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5d2_direction',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5d′: The Rate Ledger, Both Directions — The Request Is Not the Ceiling',
+      text: "The ledger gets a second look — and this time the surprise is the direction of the arrow. Re-checked against the October 13 snapshot, the page is text-identical: the two-phase review prose is intact, and the 2027 tables still carry both columns for all 31 company-market rows. But compare them row by row and a lazy assumption breaks. Approval is not always a haircut. Health Partners Plans, on the individual market, asked for 15.90% and got 18.35% — the department approved more than requested. Keystone Health Plan East went 14.68% to 15.98%; QCC Insurance went 19.88% to 21.31%. Sometimes the review leaves the filing untouched: Independence Assurance Company sits at 8.95% requested, 8.95% approved. And then there is the odd row: Ambetter Health Solutions of Pennsylvania shows 0.00% New Plan in the requested, approved, and market-share columns alike — a first filing has no prior premium to change, so 0.00% there means 'no baseline,' not 'premiums held flat.' Three modeling rules follow. One: encode the approved column, never the request — and the approval can land above the request, below it, or on it, so the request is neither a ceiling nor a floor. Two: a new-plan 0.00% row is a non-observation; never model it as a premium freeze. Three: unchanged since October 13 is itself evidence — the 2027 cycle looks complete and stable, and the check date on the snapshot is what makes that claim dated and honest.",
+      advantage: true,
+      advantageText: 'Encode the Approval — It Can Land Above, Below, or On the Request',
+      citation: {
+        title: 'ACA Health Rate Filings | PA Insurance Department',
+        statute: 'PA Insurance Department · official rate-filing index (index page, not a rule)',
+        quote: 'You can view the insurers’ initial rate requests and the final, approved rates for this upcoming plan year.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings',
+        urlLabel: 'ACA Health Rate Filings (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "The 2027 individual-market table shows Health Partners Plans requested 15.90% and the department approved 18.35%. Your simulator needs a 2027 Health Partners rate-change parameter. Which number do you encode?",
+        opts: [
+          'A) 18.35% — the approved figure is the department’s decision; approvals sometimes exceed the request, so the request is neither ceiling nor floor.',
+          'B) 15.90% — the request is the insurer’s own proposal, so it is the more honest input.',
+          'C) The average, 17.125% — the truth lies between the proposal and the decision.',
+        ],
+        answer: 0,
+        explanation: "Correct! The approved column is the department’s final decision — the page frames its tables as 'initial rate requests and the final, approved rates.' The 2027 data prove the request is not a ceiling: Health Partners (18.35% vs 15.90%), Keystone Health Plan East (15.98% vs 14.68%), and QCC (21.31% vs 19.88%) all came back higher than asked. Averaging invents a number the department never published. And a new-plan 0.00% row is a non-observation — no prior premium exists to change — so never model it as a freeze.",
+      },
+      furtherReading: [
+        { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5e_covmap',
     },
 

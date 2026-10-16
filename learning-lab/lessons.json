@@ -1162,6 +1162,34 @@
     "Distinguish stability from currency: unchanged text across checks is evidence the page is not being revised, not evidence it reflects current program detail; every claim drawn from it must carry the check date.",
     "Teach the undated-page discipline: rule-shaped claims (benefits, rates, coverage boundaries) from an undated page must be corroborated against a dated document before entering a model."
    ]
+  },
+  {
+   "id": "aca-rate-filings-direction",
+   "title": "ACA rate filings: approval can exceed the request (the request is not the ceiling)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "aca-rate-filings",
+    "rate-review",
+    "approved-vs-requested",
+    "commercial-market",
+    "non-observation",
+    "page-level-reverification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-insurance-department-aca-filings"
+   ],
+   "objectives": [
+    "State the 2026-10-16 re-verification finding: the PA Insurance Department ACA rate-filings page is text-identical to the 2026-10-13 check (2027 requested and approved columns intact; review cycle appears complete and stable).",
+    "State the new page-level observation: request-to-approved divergence varies in direction — cuts (e.g., Oscar individual 15.39% to 1.38%), raises (Health Partners Plans individual 15.90% to 18.35%; Keystone Health Plan East individual 14.68% to 15.98%; QCC individual 19.88% to 21.31%), untouched (Independence Assurance small group 8.95% to 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA).",
+    "Teach the encoding discipline: encode the approved column only — never the request, never the average; the request is neither a ceiling nor a floor — and treat new-plan 0.00% rows as non-observations, never as premium freezes.",
+    "State what the page still does not establish: no premium dollar amounts, no provider networks, no behavioral-health reimbursement figures — and never encode a rate or market parameter until a specific filing's document version, effective period, exact passage, and applicability are reviewed."
+   ]
   }
  ]
 }

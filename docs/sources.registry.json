@@ -139,14 +139,14 @@
       "program": "Individual and small-group commercial insurance markets",
       "source_type": "official_rate_and_market_index",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-13",
-      "scope_note": "Re-verified live 2026-10-13: page now populated with 2027 plan-year requested AND approved rate-change tables (15 individual, 16 small-group companies; e.g., Ambetter Health of PA requested 40.90%, approved 35.13%). Page describes the two-phase rate review (initial review of cost estimates, revenues, projected profits, past rate changes, consumer impact; final decision & approval). Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-13.md",
+      "last_checked": "2026-10-16",
+      "scope_note": "Re-verified live 2026-10-16: page text-identical to 2026-10-13 (2027 plan-year requested AND approved rate-change tables; 15 individual, 16 small-group companies; two-phase rate review text intact). New page-level observation 2026-10-16: request-to-approved divergence varies in direction — approved below requested (e.g., Ambetter Health of PA individual 40.90% -> 35.13%; Oscar individual 15.39% -> 1.38%), approved above requested (Health Partners Plans individual 15.90% -> 18.35%; Keystone Health Plan East individual 14.68% -> 15.98%; QCC Insurance individual 19.88% -> 21.31%), approved equal to requested (e.g., Independence Assurance small group 8.95% -> 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA). Model discipline: encode the approved figure only; the request is neither a ceiling nor a floor; new-plan 0.00% rows are non-observations. Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-16.md",
       "supports": [
         "market_availability",
         "commercial_market_research"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/aca-rate-filings-2026-10-13.md"
+      "snapshot": "docs/source-snapshots/aca-rate-filings-2026-10-16.md"
     },
     {
       "id": "pa-insurance-department-2026-individual-coverage-areas",
