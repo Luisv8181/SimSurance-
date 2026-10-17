@@ -757,6 +757,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs2_kids',
+    },
+    {
+      id: 'u1_p4g_pubs2_kids',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Vault Grows a New Shelf — A Dated Children-Services Ledger',
+      text: "Glim checked the publications vault again on 2026-10-17, and the shelf has changed since 2026-10-14. A brand-new section has appeared: 'Mental Health & Behavioral Services for Children in Pennsylvania,' stamped 'Last updated: October 2026.' It is a ledger, not a rulebook — a table of service names against two funding columns, Behavioral Health Fee-For-Service Funded and Behavioral Health Managed Care Funded, with X marks where a service can be funded through that channel. Crisis Walk-In gets two X's. Functional Family Therapy and Parent-Child Interaction Therapy get one each, in the managed-care column. And several rows carry no X at all — Administrative Case Management, the Student Assistance Program, Medication-Assisted Treatment — neither column claims them, and the absence of a mark is itself a fact worth recording. The footnotes are where the modeling discipline lives: 'Availability varies by geographic area and funding source. Please check with the BH-MCO if you're a Medicaid enrollee for availability of services within your area.' And: 'If a family has Private Insurance the Private Insurance must be utilized first as Medicaid is a payer of last resort.' Read an X as a funding mark, never as a promise that a child can get an appointment. And keep the date stamp honest — 'Last updated: October 2026' is the one dateable fact on an index page with no revision history. One caution from this run: the General Publications shelf recorded in the 2026-10-14 check did not appear in the fetched text — either the vault was rearranged or the extract missed a room. Flag it for review, do not conclude it was deleted. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'An X Is a Funding Mark, Not a Promise of Care',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-10-17; NEW "Last updated: October 2026" children\'s-services table since 2026-10-14 (index page, not a rule)',
+        quote: 'Availability varies by geographic area and funding source. Please check with the BH-MCO if you\'re a Medicaid enrollee for availability of services within your area.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The DHS publications index grew a new "Last updated: October 2026" children\'s-services table. How should a careful modeler read its X marks?',
+        opts: [
+          'A) As funding-source availability marks — an X shows where a service can be funded through fee-for-service or managed care; blank rows and the footnotes (availability varies by geography, check the BH-MCO, payer of last resort) bound what the table establishes. Not a covered-benefit schedule, not rates, not a network.',
+          'B) As guaranteed covered benefits — any service with an X in either column should be encoded as a covered benefit for every Medicaid child in Pennsylvania.',
+          'C) As a provider directory — an X in the managed-care column means a participating provider for that service is available in every county.',
+        ],
+        answer: 0,
+        explanation: "Correct! Re-verification on 2026-10-17 found the new 'Last updated: October 2026' children's-services table on the publications index. Its X marks record which funding channel can pay for a service — fee-for-service, managed care, both, or neither — and the footnotes warn that availability varies by geography and funding source. That is an availability map, not a coverage guarantee: a row with no X is information, and nothing in the table establishes a rate, a network, or a child's appointment.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {

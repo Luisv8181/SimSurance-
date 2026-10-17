@@ -1251,6 +1251,39 @@
         "Hold review_required_before_encoding true: no policy parameter may be encoded from this member-guidance page until document version, effective period, exact passage, and reviewed applicability are recorded."
       ],
       "last_verified": "2026-10-16"
+    },
+    {
+      "id": "bhc-publications-kids-ledger",
+      "title": "BHC publications index re-verified (2026-10-17): new dated children's-services ledger; General Publications shelf absent from extract",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-publications",
+        "source-verification",
+        "availability-vs-coverage",
+        "funding-availability-marks",
+        "missing-section-flag"
+      ],
+      "scene": "u1_p4g_pubs2_kids",
+      "source": "pa-dhs-bhc-publications",
+      "summary": "The publications index page changed since 2026-10-14: a new 'Mental Health & Behavioral Services for Children in Pennsylvania' section stamped 'Last updated: October 2026' lists service names against Behavioral Health Fee-For-Service Funded and Behavioral Health Managed Care Funded columns. X marks are funding-availability marks, not coverage guarantees; blank rows (Administrative Case Management, Student Assistance Program, Medication-Assisted Treatment) carry information. Footnotes carry the discipline: Medicaid is payer of last resort; availability varies by geography and funding source; Medicaid enrollees check with the BH-MCO. FLAG: the General Publications section recorded 2026-10-14 did not appear in this run's text extracts — rearranged page or extraction artifact; owner to confirm, do not conclude documents were removed.",
+      "verified": "2026-10-17",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State the 2026-10-17 re-verification finding: the publications index gained a new 'Last updated: October 2026' children's-services availability table since 2026-10-14.",
+        "Teach that an X mark is a funding-availability mark (fee-for-service vs managed care), never a covered-benefit promise — the page itself says availability varies and directs enrollees to the BH-MCO.",
+        "Teach that rows with no X are information too, and that footnotes (payer of last resort, geography/funding variance) bound what the table establishes.",
+        "Flag honestly: the General Publications section recorded 2026-10-14 did not appear in this run's text extracts — treat as rearranged page or extraction artifact, not as evidence the documents were removed.",
+        "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+      ],
+      "last_verified": "2026-10-17"
     }
   ]
 }

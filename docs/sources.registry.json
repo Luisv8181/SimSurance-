@@ -70,9 +70,9 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_document_index",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-14.md",
-      "scope_note": "Re-verified live 2026-10-14 (unchanged since 2026-10-11): index lists General Publications (PSR + appendices, ASAM rates effective Jan 1 2026, 2026 FRR, HealthChoices examination guides, TiPS, OMHSAS Member Handbook 2026), OMHSAS parity/other reports, NCQA/URAC certification note (42 CFR 438.332, no per-plan dates listed), and EQR technical reports (statewide 2015-2023; Carelon/CBH/CCBH/Magellan 2015-2023). Index page only — open each linked document and record its version/effective date before encoding anything.",
+      "last_checked": "2026-10-17",
+      "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-17.md",
+      "scope_note": "Re-verified live 2026-10-17: PAGE CHANGED since 2026-10-14. NEW section 'Mental Health & Behavioral Services for Children in Pennsylvania' stamped 'Last updated: October 2026' — a service-name x funding-source table (Behavioral Health Fee-For-Service Funded vs Behavioral Health Managed Care Funded) with X marks; Crisis Walk-In marked in both columns, FFT/PCIT in the managed-care column only, several rows (Administrative Case Management, Student Assistance Program, Drop-In Center, Medication-Assisted Treatment) with no X in either column. Footnotes: Medicaid is payer of last resort behind private insurance; availability varies by geographic area and funding source — check with the BH-MCO. FLAG: the 'General Publications' section recorded 2026-10-14 (PSR, ASAM rates, FRR, exam guides, TiPS, Member Handbook 2026) did NOT appear in either full text extract this run — page rearranged/moved OR an extraction artifact; do not conclude the documents were removed. X marks are funding-availability marks, not coverage guarantees or rates. Dated snapshot: docs/source-snapshots/pa-dhs-bhc-publications-2026-10-17.md",
       "supports": [
         "source_document_discovery"
       ],
