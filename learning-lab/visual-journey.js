@@ -695,6 +695,37 @@
         { label: 'Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_access2_echo',
+    },
+    {
+      id: 'u1_p4_access2_echo',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4f, Revisit: The Echo in the Extract — A Scrape Can Duplicate, a Page Cannot',
+      text: "Glim checked this front-door page again on 2026-10-16, and the route is unchanged — county office, BH-MCO by county of residence, in-network choice, handbook, 988. But the fetched text tells a small lie about the page's shape: the 988 block appears twice, and a bare phone artifact floats near the apply-by-phone section. The page says its crisis copy once; the extraction echoed it. That distinction is the whole lesson. A scrape is a transcript of a render, and renders duplicate sections for layout reasons. If you count claims by counting blocks in extracted text, you will believe the page made two crisis announcements and carries a mystery phone number. Count claims from the rendered page, not the scrape's line count — and when you quote a source, quote its actual words. The block, once: 'Call or text 988 to receive free and confidential support from a trained counselor 24 hours a day, 7 days a week.' One claim, one line, one lifeline.",
+      advantage: true,
+      advantageText: 'Count Claims From the Rendered Page, Not the Scrape',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · re-verified 2026-10-16; text substantively unchanged since 2026-10-13 (extraction-duplication note)',
+        quote: 'Call or text 988 to receive free and confidential support from a trained counselor 24 hours a day, 7 days a week.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS: Request BHChoices Services',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A text fetch of a source page shows the same passage twice. What should a careful modeler conclude?',
+        opts: [
+          'A) Treat the repetition as a likely extraction/render artifact; verify against the rendered page, and count it as one claim — the page says the crisis copy once.',
+          'B) Encode the passage twice in the source register, since a fetched block appearing twice is evidence of two claims.',
+          'C) Discard the whole source as unreliable, because any duplication in the extract invalidates the page.',
+        ],
+        answer: 0,
+        explanation: "Correct! Re-verification on 2026-10-16 found the 988 block rendered twice in the extracted text and a stray phone artifact nearby — while the rendered page says its crisis copy once. Duplication in a scrape is an artifact of rendering, not a second claim. Quote the verified words once and count claims from the rendered page.",
+      },
+      furtherReading: [
+        { label: 'Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4g_accred',
     },
     {
