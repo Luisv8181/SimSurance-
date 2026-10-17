@@ -664,6 +664,38 @@
         { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_asam2_label',
+    },
+    {
+      id: 'u1_p4_prov_asam2_label',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e+: The Flag That Cleared — Retiring the MBH/Magellan Label Question',
+      text: "Glim opened the provider page a third time in five days — 2026-10-17 — and the page stood still. The eligibles map still counts 2,717,158 lives. Every ASAM fee is identical to the 10-14 reading: 2.0WM at $106.35 an hour, 2.1 at $11.57 per fifteen minutes, 3.5 at $260.65 a day, 3.7WM at $415.24 a day. No silent edits, no rotated copy. But the important thing that happened between checks did not happen on this page at all. Remember the old caution: the map labels some counties 'MBH' where the directory names Magellan, so reconcile the labels before attributing a county's dollar. That caution is now retired, with a dated reason. The MCO directory page — re-verified live on 2026-10-15 — prints its own row as 'Magellan Behavioral Health of Pennsylvania (MBH)'. The acronym is defined by the very source that also prints the full name: same DHS source family, same entity, no phantom payer. This is the re-verification discipline working as designed. A flagged label does not age into a fact; a resolution is recorded between dated checks, and it resolves exactly what it resolves — the label, not networks, not benefits, not rates. And nothing here becomes a payment rule today: the linked ASAM PDF is still unopened, applicability still unchecked, review_required_before_encoding still true. The ledger of what was looked at, and when, is simply one flag cleaner.",
+      advantage: true,
+      advantageText: 'Re-Check, Then Retire the Flag',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS · re-verified live 2026-10-17; third check in five days — fees and totals unchanged (directory page verified 2026-10-15 resolves MBH = Magellan)',
+        quote: 'For mental health and drug and alcohol services, each county contracts with a Managed Care Organization (MCO).',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Three live checks in five days; the MBH/Magellan label flag from 10-12 is now retired. What changed in Glim\u2019s notebook?',
+        opts: [
+          'A) The flag is retired with a dated reason — the MCO directory page (re-verified 2026-10-15) defines "Magellan Behavioral Health of Pennsylvania (MBH)", so MBH abbreviates Magellan; the provider page itself is re-verified 2026-10-17 with fees and totals unchanged. No payment rule was encoded — the ASAM PDF is still unopened and review_required_before_encoding stays true.',
+          'B) The ASAM fees are now payment rules for the simulator, since three identical checks prove the rates apply to every provider contract in Pennsylvania.',
+          'C) The label conflict proves the pages are unreliable, so both sources are removed from the registry and all scenes built on them are withdrawn.',
+        ],
+        answer: 0,
+        explanation: "Correct! Re-verification on 2026-10-17 found the provider page unchanged: 2,717,158 lives, all seven ASAM fees identical to 10-14, no silent edits. Between checks, the 10-15 re-verification of the MCO directory page printed the row as 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on the same official page, so the flag is retired with a date. It resolves the label only; applicability of the ASAM fees is still unchecked and nothing is encoded as a rule.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {

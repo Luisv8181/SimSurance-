@@ -18,7 +18,7 @@
       "source_type": "official_program_overview",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page text byte-identical to the 2026-10-13/2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO). NEW PAGE-LEVEL OBSERVATION: the page carries no revision date, last-updated stamp, or document version — the only dateable fact is the retrieval date, so \"current\" is unknowable and every claim drawn from it must carry the check date. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-16.md",
+      "scope_note": "Re-verified live 2026-10-16: page text byte-identical to the 2026-10-13/2026-10-10 checks (county contracts with MCO; county access/coordination duty; BH-MCO assignment by county of residence; provider choice within network; member handbook from MCO). NEW PAGE-LEVEL OBSERVATION: the page carries no revision date, last-updated stamp, or document version \u2014 the only dateable fact is the retrieval date, so \"current\" is unknowable and every claim drawn from it must carry the check date. Dated snapshot: docs/source-snapshots/bhc-overview-2026-10-16.md",
       "supports": [
         "program_structure",
         "behavioral_health_mco_context"
@@ -35,14 +35,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_provider_page",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: structurally unchanged since 2026-10-12 (map total still 2,717,158 lives, six zones, same MCO labels incl. the unresolved MBH/Magellan flag). ASAM fee schedule headed 'Rates Effective January 1, 2026' with per-hour / per-15-minute / per-diem unit types and dollar fees present; fees recorded this run (2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem) — 10-12 snapshot did not record individual fees, so no fee-by-fee comparison possible. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-14.md",
+      "last_checked": "2026-10-17",
+      "scope_note": "Re-verified live 2026-10-17, third check in five days, substantively identical to 2026-10-14 (eligibles map total still 2,717,158 lives, six zones, county-to-MCO rows match; all seven ASAM fees byte-identical to 10-14: 2.0WM $106.35/hr; 2.1 $11.57/15min; 2.5 $10.74/15min; 3.1 $160.13/diem; 3.5 $260.65/diem; 3.7 $321.78/diem; 3.7WM $415.24/diem). MBH/Magellan label flag (raised 10-12) RESOLVED between checks: the MCO directory page (re-verified 2026-10-15) prints its own row as 'Magellan Behavioral Health of Pennsylvania (MBH)' \u2014 same DHS source family, same entity, no phantom payer. Linked ASAM PDF NOT opened: applicability (provider type, county, contract) unchecked. HCBS gap-payments ledger present. A dated fee schedule is rate evidence, not a payment rule. Dated snapshot: docs/source-snapshots/bhc-providers-2026-10-17.md",
       "supports": [
         "provider_context",
         "BH_MCO_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-providers-2026-10-14.md"
+      "snapshot": "docs/source-snapshots/bhc-providers-2026-10-17.md"
     },
     {
       "id": "pa-dhs-bhc-mcos",
@@ -54,7 +54,7 @@
       "source_type": "official_county_mapping",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. MBH/Magellan label flag RESOLVED: the directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH)' — the acronym is defined on this page; the providers-page map abbreviation refers to the same entity. No phantom payer. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date — cite it with the date.",
+      "scope_note": "Re-verified live 2026-10-15: content unchanged since 2026-10-12. Directory maps all 67 PA counties to one of 5 BH-MCOs (CBH/Philadelphia, CCBHO/41, Magellan/7, PerformCare/7, Carelon/11), assignment by county of residence, each row links to that MCO's own webpage. MBH/Magellan label flag RESOLVED: the directory's own row reads 'Magellan Behavioral Health of Pennsylvania (MBH)' \u2014 the acronym is defined on this page; the providers-page map abbreviation refers to the same entity. No phantom payer. Page-level verification only; linked MCO pages and documents not reviewed this run. County-to-plan mapping reflects the contracts published on that date \u2014 cite it with the date.",
       "supports": [
         "county_to_BH_MCO_mapping"
       ],
@@ -72,7 +72,7 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-17",
       "snapshot": "docs/source-snapshots/pa-dhs-bhc-publications-2026-10-17.md",
-      "scope_note": "Re-verified live 2026-10-17: PAGE CHANGED since 2026-10-14. NEW section 'Mental Health & Behavioral Services for Children in Pennsylvania' stamped 'Last updated: October 2026' — a service-name x funding-source table (Behavioral Health Fee-For-Service Funded vs Behavioral Health Managed Care Funded) with X marks; Crisis Walk-In marked in both columns, FFT/PCIT in the managed-care column only, several rows (Administrative Case Management, Student Assistance Program, Drop-In Center, Medication-Assisted Treatment) with no X in either column. Footnotes: Medicaid is payer of last resort behind private insurance; availability varies by geographic area and funding source — check with the BH-MCO. FLAG: the 'General Publications' section recorded 2026-10-14 (PSR, ASAM rates, FRR, exam guides, TiPS, Member Handbook 2026) did NOT appear in either full text extract this run — page rearranged/moved OR an extraction artifact; do not conclude the documents were removed. X marks are funding-availability marks, not coverage guarantees or rates. Dated snapshot: docs/source-snapshots/pa-dhs-bhc-publications-2026-10-17.md",
+      "scope_note": "Re-verified live 2026-10-17: PAGE CHANGED since 2026-10-14. NEW section 'Mental Health & Behavioral Services for Children in Pennsylvania' stamped 'Last updated: October 2026' \u2014 a service-name x funding-source table (Behavioral Health Fee-For-Service Funded vs Behavioral Health Managed Care Funded) with X marks; Crisis Walk-In marked in both columns, FFT/PCIT in the managed-care column only, several rows (Administrative Case Management, Student Assistance Program, Drop-In Center, Medication-Assisted Treatment) with no X in either column. Footnotes: Medicaid is payer of last resort behind private insurance; availability varies by geographic area and funding source \u2014 check with the BH-MCO. FLAG: the 'General Publications' section recorded 2026-10-14 (PSR, ASAM rates, FRR, exam guides, TiPS, Member Handbook 2026) did NOT appear in either full text extract this run \u2014 page rearranged/moved OR an extraction artifact; do not conclude the documents were removed. X marks are funding-availability marks, not coverage guarantees or rates. Dated snapshot: docs/source-snapshots/pa-dhs-bhc-publications-2026-10-17.md",
       "supports": [
         "source_document_discovery"
       ],
@@ -88,7 +88,7 @@
       "source_type": "official_systems_page",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners — encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-15.md. Not evidence that nonpublic data are available to this project.",
+      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-12: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners \u2014 encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-10-15.md. Not evidence that nonpublic data are available to this project.",
       "supports": [
         "encounter_data_discovery",
         "operational_materials"
@@ -124,7 +124,7 @@
       "source_type": "official_plan_directory",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page byte-identical to the 2026-10-13 check (same nine companies and phone numbers; same nine-row NCQA accreditation ledger, all 'Accredited'; same five-row Health Equity accreditation ledger). NEW PAGE-LEVEL OBSERVATION: three Health Equity 'Next Due Date' entries on the page now lie in the past relative to this check (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) with no page update to those rows — the page is a dated record, not proof any accreditation lapsed; a passed due date on an un-updated page is a recheck flag (confirm against NCQA/the MCO) before encoding any 'currently accredited' value. Consumer shipped 2026-10-16: WORKBOOK scene u1_p4_chip2_stale ('The Stale Ledger: When the Due Date Has Passed'), lesson chip-directory-staleness, status source_review_required. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-16.md",
+      "scope_note": "Re-verified live 2026-10-16: page byte-identical to the 2026-10-13 check (same nine companies and phone numbers; same nine-row NCQA accreditation ledger, all 'Accredited'; same five-row Health Equity accreditation ledger). NEW PAGE-LEVEL OBSERVATION: three Health Equity 'Next Due Date' entries on the page now lie in the past relative to this check (Aetna Better Health Aug 31 2026, Keystone First-CHIP June 22 2026, United Healthcare May 8 2026) with no page update to those rows \u2014 the page is a dated record, not proof any accreditation lapsed; a passed due date on an un-updated page is a recheck flag (confirm against NCQA/the MCO) before encoding any 'currently accredited' value. Consumer shipped 2026-10-16: WORKBOOK scene u1_p4_chip2_stale ('The Stale Ledger: When the Due Date Has Passed'), lesson chip-directory-staleness, status source_review_required. Page states no county availability, benefits, networks, or rates. Dated snapshot: docs/source-snapshots/chip-companies-2026-10-16.md",
       "supports": [
         "CHIP_plan_directory"
       ],
@@ -140,7 +140,7 @@
       "source_type": "official_rate_and_market_index",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page text-identical to 2026-10-13 (2027 plan-year requested AND approved rate-change tables; 15 individual, 16 small-group companies; two-phase rate review text intact). New page-level observation 2026-10-16: request-to-approved divergence varies in direction — approved below requested (e.g., Ambetter Health of PA individual 40.90% -> 35.13%; Oscar individual 15.39% -> 1.38%), approved above requested (Health Partners Plans individual 15.90% -> 18.35%; Keystone Health Plan East individual 14.68% -> 15.98%; QCC Insurance individual 19.88% -> 21.31%), approved equal to requested (e.g., Independence Assurance small group 8.95% -> 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA). Model discipline: encode the approved figure only; the request is neither a ceiling nor a floor; new-plan 0.00% rows are non-observations. Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-16.md",
+      "scope_note": "Re-verified live 2026-10-16: page text-identical to 2026-10-13 (2027 plan-year requested AND approved rate-change tables; 15 individual, 16 small-group companies; two-phase rate review text intact). New page-level observation 2026-10-16: request-to-approved divergence varies in direction \u2014 approved below requested (e.g., Ambetter Health of PA individual 40.90% -> 35.13%; Oscar individual 15.39% -> 1.38%), approved above requested (Health Partners Plans individual 15.90% -> 18.35%; Keystone Health Plan East individual 14.68% -> 15.98%; QCC Insurance individual 19.88% -> 21.31%), approved equal to requested (e.g., Independence Assurance small group 8.95% -> 8.95%), and '0.00% New Plan' rows with no prior premium to change (Ambetter Health Solutions of PA). Model discipline: encode the approved figure only; the request is neither a ceiling nor a floor; new-plan 0.00% rows are non-observations. Rate-change % and coverage-map links only: no premium amounts, no provider networks, no behavioral-health reimbursement figures. Market coverage area and premium filings do not prove a provider's network participation or behavioral-health reimbursement. Dated snapshot: docs/source-snapshots/aca-rate-filings-2026-10-16.md",
       "supports": [
         "market_availability",
         "commercial_market_research"
@@ -158,7 +158,7 @@
       "source_type": "official_historical_market_snapshot",
       "status": "historical_snapshot",
       "last_checked": "2026-10-14",
-      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed — maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
+      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed \u2014 maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
       "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
       "supports": [
         "2026_individual_market_plan_area"
@@ -192,7 +192,7 @@
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-15",
-      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-13. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. New detail: index lists addenda to the 2024-2025 and 2016 guides — guidance editions have a revision channel, so modeled assumptions must check the addendum drawer too. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-10-15.md",
+      "scope_note": "Re-verified live 2026-10-15, content unchanged since 2026-10-13. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. New detail: index lists addenda to the 2024-2025 and 2016 guides \u2014 guidance editions have a revision channel, so modeled assumptions must check the addendum drawer too. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-10-15.md",
       "supports": [
         "managed_care_rate_development_context"
       ],
@@ -209,7 +209,7 @@
       "source_type": "official_member_access_guidance",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-16",
-      "scope_note": "Re-verified live 2026-10-16: page substantively unchanged since 2026-10-13 (county office route, BH-MCO assignment by county of residence, provider choice in-network, mailed handbook, COMPASS/CAO/mail/phone application channels, 988 block). New page-level observation: the 988 block renders twice in the text extract and a stray \"Phone: 18773958930\" tel-link artifact appears — extraction duplication, not a second claim; count claims from the rendered page, not the scrape. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-10-16.md",
+      "scope_note": "Re-verified live 2026-10-16: page substantively unchanged since 2026-10-13 (county office route, BH-MCO assignment by county of residence, provider choice in-network, mailed handbook, COMPASS/CAO/mail/phone application channels, 988 block). New page-level observation: the 988 block renders twice in the text extract and a stray \"Phone: 18773958930\" tel-link artifact appears \u2014 extraction duplication, not a second claim; count claims from the rendered page, not the scrape. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-10-16.md",
       "supports": [
         "member_access_pathway",
         "provider_search",
@@ -228,7 +228,7 @@
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) — do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
+      "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) \u2014 do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
       "supports": [
         "school_based_services_context",
         "administrative_claiming_context"
@@ -264,7 +264,7 @@
       "status": "official_page_reviewed",
       "last_checked": "2026-10-15",
       "snapshot": "docs/source-snapshots/medicaid-managed-care-basics-2026-10-15.md",
-      "scope_note": "Verified live 2026-10-15 via the live browser (direct fetch 403; old /managed-care/index.html URL 404s — canonical page is now /managed-care). Condensed overview page: managed care as delivery system managing cost/utilization/quality, capitation (PMPM) payments to MCOs. Page carries NO federal-authority text (no 1932(a), 1915(a)/(b), 1115), NO enrollment-share figure, and NO last-updated date. Sidebar links to 'Managed Care Authorities' and SSA sections not followed this run. Consumer shipped 2026-10-15: WORKBOOK scene u5_p2b2_doorway ('The Doorway, Not the Filing Cabinet'), lesson medicaid-managed-care-doorway, status source_review_required.",
+      "scope_note": "Verified live 2026-10-15 via the live browser (direct fetch 403; old /managed-care/index.html URL 404s \u2014 canonical page is now /managed-care). Condensed overview page: managed care as delivery system managing cost/utilization/quality, capitation (PMPM) payments to MCOs. Page carries NO federal-authority text (no 1932(a), 1915(a)/(b), 1115), NO enrollment-share figure, and NO last-updated date. Sidebar links to 'Managed Care Authorities' and SSA sections not followed this run. Consumer shipped 2026-10-15: WORKBOOK scene u5_p2b2_doorway ('The Doorway, Not the Filing Cabinet'), lesson medicaid-managed-care-doorway, status source_review_required.",
       "supports": [
         "managed_care_delivery_system_definition"
       ],
@@ -280,7 +280,7 @@
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
       "last_checked": "2026-10-15",
-      "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state — page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
+      "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state \u2014 page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
       "supports": [
         "medicaid_eligibility_context"
       ],
