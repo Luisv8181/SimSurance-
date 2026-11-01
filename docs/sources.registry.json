@@ -227,14 +227,14 @@
       "program": "Medicaid school-based services",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Re-verified live 2026-10-14: page byte-identical to the 2026-10-12 check (106 lines; same TAC resources, guidance list, state SPA example groupings, and non-endorsement disclaimer). Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) \u2014 do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-10-14.md",
+      "last_checked": "2026-11-01",
+      "scope_note": "Re-verified live 2026-11-01 via the live browser (plain text fetch too old to use): page substantively unchanged since 2026-10-14 \u2014 same title, intro text, 7 TAC resources, 6 guidance items, 8 state SPA examples in the same four groupings, Utah TSIP guide, three cost-report examples, and non-endorsement disclaimer; no last-updated stamp visible. CONFLICT FLAG (unresolved): today's live read reports Wyoming SPA 22-0001 approved July 18, 2022, but the 2026-10-14 snapshot recorded 2022-01-06; the workbook's own u5_p2b_sbs explanation already said 'Wyoming July 2022', agreeing with today's read, not the snapshot \u2014 neither date is promoted; the Wyoming SPA document itself must be opened before either date is quoted. Minor observations: an additional 'Medicaid SBS Resources' link appears under the SBS 101 Quick Guide description (possibly previously unrecorded, not necessarily a change); Utah visible text '21-0009' vs link label 'UT-21-0019' is a label artifact. Four distinct state SPA payment designs listed side by side (AZ/CO/IL/NM cost-methodology expanded services; UT cost-methodology IDEA-only; OR cost-based rate methodology; NV/WY fee-schedule rate) \u2014 do not generalize one state's SPA approach to another. Page-level verification only; linked documents not reviewed this run. Dated snapshot: docs/source-snapshots/cms-school-based-services-2026-11-01.md",
       "supports": [
         "school_based_services_context",
         "administrative_claiming_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-10-14.md"
+      "snapshot": "docs/source-snapshots/cms-school-based-services-2026-11-01.md"
     },
     {
       "id": "cms-mh-parity",

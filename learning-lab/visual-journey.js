@@ -1653,6 +1653,37 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2c_sbs_date',
+    },
+    {
+      id: 'u5_p2c_sbs_date',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Date That Argues With Itself: Index Dates Need the Document',
+      text: "Hold on — the same page just argued with itself, and that argument is the lesson. When this workbook was re-verified on November 1, 2026, the CMS school-based services index was substantively unchanged since October 14: same guidance, same seven technical-assistance resources, same eight state examples in the same four designs. But one date did not survive the comparison. The October 14 snapshot recorded Wyoming SPA 22-0001 as approved January 6, 2022; the November 1 live read reports July 18, 2022. And this workbook's own earlier scene already said 'Wyoming July 2022' — so today's read agrees with the workbook and disagrees with the snapshot. Nobody gets to pick the winner by vote or by recency: an index page is not the approval document. Until Wyoming's own SPA approval document is opened and read, neither date is quoted, neither date enters a model, and the conflict stays flagged in the register where the next reader can see it. A second, smaller warning rides along: the page's visible text reads 'Utah SPA 21-0009' while its link label reads 'UT-21-0019' — a label artifact, not a second SPA, and another reason to cite the document, never the link text alone.",
+      advantage: true,
+      advantageText: 'Date Discipline: A Conflict Is a Finding, Not a Choice',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · SBS State Plan Amendment state examples (index page, not a rule)',
+        quote: 'SBS SPAs paying the regular Medicaid fee-schedule rate for certain services:',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two dated records of the same CMS index page disagree on Wyoming SPA 22-0001: January 6, 2022 in the October 14 snapshot, July 18, 2022 in the November 1 live read. What does the register discipline require?',
+        opts: [
+          'A) Quote July 18, 2022 — the newer check always wins.',
+          'B) Quote neither date until the Wyoming SPA approval document itself is opened and read; keep the conflict flagged in the register, since an index page is not the approval document and recency does not resolve a contradiction.',
+          'C) Average the two dates, or cite the workbook text, which already said July 2022, as the tiebreaker.',
+        ],
+        answer: 1,
+        explanation: "Correct! A newer read does not outvote an older snapshot when both claim to transcribe the same page — one of them is wrong, and only the underlying document can say which. The November 1 re-verification therefore records the conflict and promotes neither date: Wyoming's SPA approval document must be opened before either date is quoted or modeled. The same caution covers the Utah link-label artifact (visible '21-0009' vs label 'UT-21-0019'): cite the document, never the link text alone.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 

@@ -1035,6 +1035,32 @@
       ]
     },
     {
+      "id": "sbs-date-conflict",
+      "title": "The date that argues with itself: index-page dates need the document behind them",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "state-plan-amendment",
+        "source-verification",
+        "date-conflict"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "State the unresolved conflict found on the 2026-11-01 re-verification: Wyoming SPA 22-0001 is recorded as approved January 6, 2022 in the 2026-10-14 snapshot but July 18, 2022 in the 2026-11-01 live read, while the workbook's own u5_p2b_sbs explanation already said July 2022.",
+        "State what the 2026-11-01 check confirmed as unchanged since 2026-10-14 (title, intro text, 7 TAC resources, 6 guidance items, 8 state SPA examples in four groupings, Utah TSIP guide, three cost-report examples, non-endorsement disclaimer; no last-updated stamp visible).",
+        "Explain why neither date is promoted or quoted until the Wyoming SPA approval document itself is opened and read, and why recency alone never resolves a transcription conflict.",
+        "Name the Utah link-label artifact (visible text 21-0009 vs link label UT-21-0019) as a reason to cite the document, never link text alone, and state what the page does not establish: any coverage rule, rate, or payment methodology."
+      ]
+    },
+    {
       "id": "medicaid-managed-care-doorway",
       "title": "The federal managed-care landing page: a doorway, not a filing cabinet",
       "path": "visual-journey.html",
