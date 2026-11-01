@@ -913,6 +913,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b3_sixboxes',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b'': SIX BOXES, ONE WALLET — THE CLASSIFICATION TEST
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b3_sixboxes',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b″: Six Boxes, One Wallet — The Classification Test',
+      text: "The comparator you just learned does not run once — it runs six times, once per classification, and that is where careless models fail. The 2013 regulation applies the substantially-all and predominant test separately to six classifications: inpatient in-network, inpatient out-of-network, outpatient in-network, outpatient out-of-network, emergency, and prescription drugs. Office visits may be sub-classified apart from other outpatient services, and plans using multiple tiers of in-network providers may sub-classify those too — but a pass in one box never covers a failure in another. Two more rules ride inside those boxes. First, if a plan covers mental-health or substance-use benefits at all, it must provide them in all classifications in which medical or surgical benefits are provided — it cannot offer therapy only where it is convenient and nowhere else. Second, the wallet is shared: all cumulative financial requirements in a classification, including deductibles and out-of-pocket limits, must combine medical/surgical and MH/SUD benefits together. A separate mental-health-only deductible is not a clever design; it is a separate requirement the page forbids. And the scope rules count as well: every plan standard that limits the scope or duration of benefits — geographic limits, facility-type limits, network adequacy — is subject to the non-quantitative treatment limitation test. So your simulator must never carry a single global parity flag. It carries six boxes, one shared wallet per box, and a scope check in each.",
+      advantage: true,
+      advantageText: 'Six Tests, One Shared Wallet',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview & 2013 MHPAEA regulation (page-level review)',
+        quote: 'The substantially all/predominant test outlined in the statute must be applied separately to six classifications of benefits: inpatient in-network; inpatient out-of-network; outpatient in-network; outpatient out-of-network; emergency; and prescription drug.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Jordan's plan has a $1,000 deductible for medical care and a separate $500 deductible that applies only to mental-health care, both in outpatient in-network care. What does the CMS parity page say about that design?",
+        opts: [
+          'A) Cumulative financial requirements in a classification, including deductibles and out-of-pocket limits, must combine medical/surgical and MH/SUD benefits — a separate MH/SUD-only deductible breaks the shared-wallet rule.',
+          'B) Separate deductibles are fine as long as the mental-health deductible is smaller than the medical one.',
+          'C) Parity only tests visit limits, so deductibles are outside the rule.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page states that all cumulative financial requirements in a classification, including deductibles and out-of-pocket limits, must combine both medical/surgical and MH/SUD benefits in that classification — and that MHPAEA prohibits separate financial requirements that apply only to MH/SUD benefits. The test is also per-classification: the substantially-all/predominant test is applied separately to the six classifications, so a compliant outpatient box cannot rescue a non-compliant inpatient box.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 

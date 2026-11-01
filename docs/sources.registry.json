@@ -245,13 +245,13 @@
       "program": "Private health insurance; group and individual markets",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-14",
-      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule. 2024 final rules (HHS/Labor/Treasury, 2024-09-09) and CAA-2021 NQTL comparative-analysis duty noted from page; linked regulations not yet read. Re-verified 2026-10-14: page content unchanged since 2026-10-12.",
+      "last_checked": "2026-11-01",
+      "scope_note": "Federal parity requirements; confirm applicability (plan type, market, state law) before modeling any rule. 2024 final rules (HHS/Labor/Treasury, 2024-09-09) and CAA-2021 NQTL comparative-analysis duty noted from page; linked regulations not yet read. Re-verified 2026-11-01: page content unchanged since 2026-10-14 (and 2026-10-12) — same 145-line text, same seven section headers, Fact Sheets & FAQs and Regulations and Guidance still empty. NEW page-level observation: the per-classification mechanics not covered by the earlier workbook scenes — the substantially-all/predominant test applied separately to six classifications, MH/SUD benefits required in all classifications where medical/surgical benefits are provided, cumulative financial requirements (deductibles, out-of-pocket limits) combining both benefit types within a classification, and scope/duration standards (geographic limits, facility-type limits, network adequacy) subject to NQTL parity. Consumer shipped 2026-11-01: WORKBOOK scene u1_p5b3_sixboxes ('Six Boxes, One Wallet'), lesson mh-parity-six-boxes, status source_review_required. Dated snapshot: docs/source-snapshots/cms-mh-parity-2026-11-01.md",
       "supports": [
         "mh_parity_requirements_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-10-14.md"
+      "snapshot": "docs/source-snapshots/cms-mh-parity-2026-11-01.md"
     },
     {
       "id": "medicaid-gov-managed-care",

@@ -721,6 +721,34 @@
       ]
     },
     {
+      "id": "mh-parity-six-boxes",
+      "title": "Six boxes, one wallet: the classification test behind parity",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "parity",
+        "mhpaea",
+        "six-benefit-classifications",
+        "cumulative-financial-requirements",
+        "nqtl-scope-duration"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "Apply the substantially-all/predominant test separately to each of the six benefit classifications: inpatient in-network, inpatient out-of-network, outpatient in-network, outpatient out-of-network, emergency, and prescription drug.",
+        "State the all-classifications consequence: a plan that covers MH/SUD benefits must provide them in all classifications in which medical/surgical benefits are provided.",
+        "State the shared-wallet rule: cumulative financial requirements in a classification, including deductibles and out-of-pocket limits, must combine medical/surgical and MH/SUD benefits; separate MH/SUD-only requirements are prohibited.",
+        "Name scope/duration standards subject to NQTL parity: geographic limits, facility-type limits, and network adequacy.",
+        "Name what the CMS overview page does not establish: any plan-specific coverage or compliance determination, or the linked 2013/2024/2016 regulation texts themselves (not read this run)."
+      ]
+    },
+    {
       "id": "systems-management-plumbing",
       "title": "The encounter data plumbing: what OMHSAS sees",
       "path": "visual-journey.html",
