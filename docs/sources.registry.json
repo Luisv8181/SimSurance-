@@ -157,9 +157,9 @@
       "program": "2026 individual commercial insurance market",
       "source_type": "official_historical_market_snapshot",
       "status": "historical_snapshot",
-      "last_checked": "2026-10-14",
-      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed \u2014 maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks.",
-      "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-10-14.md",
+      "last_checked": "2026-11-01",
+      "scope_note": "Historical plan-availability snapshot for 2026, not the current or future plan year and not a provider network directory. First dated snapshot stored 2026-10-14 (docs/source-snapshots/coverage-areas-individual-2026-10-14.md): 15 issuer sections, each a 2026 county list + coverage-map image (footprints from 2 to 52 counties); page's standing disclaimers confirmed \u2014 maps show plan coverage for a past year, updated annually (current coverage on the ACA Health Rate Filing home page), and maps apply to purchasing a plan only, not coverage limits or provider networks. Re-verified 2026-11-01 (docs/source-snapshots/coverage-areas-individual-2026-11-01.md): page substantively unchanged (same 125 text lines, 15 issuers, same disclaimers; spot checks agree \u2014 UPMC Health Plan still Crawford + Clearfield only, Oscar still 13 counties). COUNT FLAG unresolved: a hand count of today\u2019s live UPMC Health Options list yields 51 counties vs the workbook\u2019s standing claim of 52 (scene u1_p5e_covmap, lesson coverage-areas-2026-sales-footprint); the 2026-10-14 snapshot never enumerated that list, so neither number is promoted until the list is recounted against the map image.",
+      "snapshot": "docs/source-snapshots/coverage-areas-individual-2026-11-01.md",
       "supports": [
         "2026_individual_market_plan_area"
       ],

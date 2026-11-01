@@ -1117,6 +1117,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e2_covcount',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE COUNT THAT DOESN'T ADD UP (coverage-map recount flag)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e2_covcount',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5e, Continued: The Count That Doesn\u2019t Add Up',
+      text: "Before we leave the map room, count with me — because the map just caught this workbook in an unverified number. Re-verified November 1, 2026, the Insurance Department page is substantively unchanged since October 14: same title, same two disclaimers, same fifteen issuer sections, and the spot checks agree — UPMC Health Plan still covers only Crawford and Clearfield, Oscar still lists thirteen counties. But count today's live UPMC Health Options list by hand and you get fifty-one county names, while the scene you just read says fifty-two. The October 14 snapshot never wrote that list out, so the record cannot tell you whether a county left the page or the earlier count was simply off by one. So neither number is quoted here. Not the newer count, not the workbook's own older claim — recency does not outvote a contradiction, and a number you did not recount is a claim you borrowed, not a fact you verified. Until the text list is recounted against the linked map image, the footprint for UPMC Health Options stays flagged, and the flag stays visible where the next reader can see it. That is the discipline: a borrowed number earns its place by being re-counted, not by being repeated.",
+      advantage: true,
+      advantageText: 'Count Discipline: A Borrowed Number Is Not a Verified One',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department · archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'The coverage maps show plan coverage for a past year. The information is updated annually. For current plan coverage visit the ACA Health Rate Filing home page.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'This workbook says UPMC Health Options covers 52 counties in 2026; a hand count of today\u2019s live list gives 51; and the October 14 snapshot never enumerated that list. What does the register discipline require?',
+        opts: [
+          'A) Quote 52 — the workbook already said it, so it stands.',
+          'B) Quote 51 — the newer count always wins.',
+          'C) Quote neither until the text list is recounted against the linked map image, and keep the discrepancy flagged — recency does not resolve a contradiction, and a borrowed number is not a verified one.',
+        ],
+        answer: 2,
+        explanation: "Correct! The October 14 snapshot recorded only a range, never the UPMC Health Options list itself, so nothing in the record can say whether a county dropped or the earlier count was off by one. The November 1 re-verification therefore promotes neither number: the list must be recounted against the map image, and the workbook's standing '52' claim stays flagged as unverified until then.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 

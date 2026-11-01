@@ -985,6 +985,31 @@
       ]
     },
     {
+      "id": "coverage-areas-count-flag",
+      "title": "The count that doesn't add up: recounting a coverage-map footprint before quoting it",
+      "path": "visual-journey.html",
+      "audience": [
+        "explore",
+        "understand"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "count-discipline",
+        "archived-market-snapshot",
+        "sales-footprint-vs-network",
+        "borrowed-number-vs-verified-number"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-insurance-department-2026-individual-coverage-areas"
+      ],
+      "objectives": [
+        "State the 2026-11-01 re-verification result: the archived PA Insurance Department coverage-areas page is substantively unchanged since 2026-10-14 (same 125 text lines, 15 issuers, same disclaimers; spot checks agree \u2014 UPMC Health Plan still Crawford + Clearfield only, Oscar still 13 counties).",
+        "State the unresolved count flag: a hand count of the live UPMC Health Options list yields 51 counties vs the workbook's standing claim of 52 (scene u1_p5e_covmap, lesson coverage-areas-2026-sales-footprint), and the 2026-10-14 snapshot never enumerated that list, so neither number is promoted.",
+        "Explain the discipline: recency does not resolve a contradiction \u2014 the text list must be recounted against the linked map image, and the workbook's standing '52' stays flagged as unverified until then; review_required_before_encoding stays true and nothing has been promoted to a rule."
+      ]
+    },
+    {
       "id": "bhc-mcos-date-discipline",
       "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
       "path": "visual-journey.html",
