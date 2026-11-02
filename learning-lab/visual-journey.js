@@ -1413,6 +1413,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck',
+    },
+    {
+      id: 'u3_p2_data_recheck',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 The Encounter Data Plumbing, Re-Checked: Eighteen Days Later',
+      text: "Eighteen days after the last check, I opened the systems-management page again \u2014 and this time the plumbing stood still. The fetch came back at the same length as October 15, 253 lines, and every element of that snapshot is still in place, in the same order and wording: the Division's objective sentence, the business-partners audience line, the systems-notices table with OMHSAS-2026-001 of June 9, 2026 still the newest and three rows still marked Reserved in the main table, the encounter-documents index from the 837 encounters and 834 enrollment files through the 277 status notices, 999 acknowledgments, BES layouts, ESC extracts, and PRV435 and PRV720 provider files, the CCRI notices, the 2023 Encounter Data Validation studies and the 2023 and 2019 on-site reviews for all five BH-MCOs, and the Provider Type 07 capitation forms. Nothing new was added and nothing was taken away \u2014 at least, nothing this page-level check can see. And that last clause is the lesson. An unchanged page is a real finding, but only as strong as the check behind it: I compared section by section against the October snapshot, which enumerated every table, instead of skimming the top and calling it done. The boundary holds exactly where it held in October: the page is written for OMHSAS business partners, the encounter files and study findings are nonpublic, and nothing here becomes a simulator parameter. So the recheck changes one thing only \u2014 the date on the check \u2014 and that is the point: a source stays trustworthy by being re-read, not by being remembered.",
+      advantage: true,
+      advantageText: 'A Source Stays Trustworthy by Being Re-Read',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-02 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'Information contained on this page is intended for the use of OMHSAS Behavioral Health business partners operating within HealthChoices and the County Mental Health Base Programs.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The systems-management page on 2026-11-02 matches the 2026-10-15 snapshot: same 253 lines, newest notice still OMHSAS-2026-001 (June 9, 2026), EDV studies still 2023. What does this recheck establish?',
+        opts: [
+          'A) That the page is unchanged section by section since October 15, the business-partner boundary and nonpublic status of the encounter files still hold, the check date advances to 2026-11-02, and nothing here is encoded as a rule.',
+          'B) That the Encounter Data Validation study findings are now known to this project, since the index rows were re-read.',
+          'C) That the encounter files are now public and available for the simulator to model with directly.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 2 re-verification is section by section against the October 15 snapshot: same 253-line fetch, same newest systems notice (OMHSAS-2026-001, June 9, 2026), same three Reserved rows in the main notices table, same 2023 EDV studies and 2023/2019 on-site reviews, same Type 07 capitation forms. The page-level boundary is unchanged \u2014 the page is addressed to OMHSAS business partners, the files are nonpublic, and the EDV-study PDFs themselves were still not read, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {

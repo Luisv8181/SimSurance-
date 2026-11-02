@@ -1525,6 +1525,37 @@
         "Hold review_required_before_encoding true: the page remains a directory and rate evidence, never a payment rule, and the ASAM PDF applicability check is still undone."
       ],
       "last_verified": "2026-11-02"
+    },
+    {
+      "id": "systems-management-recheck",
+      "title": "PA DHS BH systems-management page re-verified (2026-11-02): unchanged since 2026-10-15",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "encounter-data",
+        "omhsas-systems-management",
+        "source-verification",
+        "snapshot-discipline",
+        "synthetic-population-boundary"
+      ],
+      "scene": "u3_p2_data_recheck",
+      "source": "pa-dhs-bhc-systems-management",
+      "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-02; page text fetched from the official URL, 253 lines, same count as 2026-10-15). Page UNCHANGED section by section: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), three Reserved rows in the main notices table, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same Provider Type 07 capitation forms. Comparison is section-by-section against the 2026-10-15 snapshot enumeration, not a byte-level diff (raw page text was not stored). review_required_before_encoding stays true; linked EDV-study PDFs not read, findings unknown; no rule encoded.",
+      "verified": "2026-11-02",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-systems-management"
+      ],
+      "objectives": [
+        "State the 2026-11-02 finding: the systems-management page is unchanged since 2026-10-15 (same 253-line fetch, same newest notice, same EDV/on-site review years).",
+        "Teach that an unchanged finding is only as strong as the check behind it: section-by-section comparison against an enumerated snapshot, not a skim.",
+        "Hold the evidence boundary: the page is for OMHSAS business partners, encounter files and study findings are nonpublic, and nothing here becomes a simulator parameter."
+      ],
+      "last_verified": "2026-11-02"
     }
   ]
 }
