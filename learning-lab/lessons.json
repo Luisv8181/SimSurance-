@@ -1493,6 +1493,38 @@
         "Hold review_required_before_encoding true: the directory remains a lookup, never a rule, and no county-plan pair enters a model without a dated re-check."
       ],
       "last_verified": "2026-11-02"
+    },
+    {
+      "id": "bhc-providers-total-recheck",
+      "title": "PA DHS BH providers page re-verified (2026-11-02): eligibles total moved to 2,764,063 while ASAM fees unchanged",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "behavioral-health-mco-mapping",
+        "source-verification",
+        "snapshot-discipline",
+        "covered-lives",
+        "fee-schedule-limits"
+      ],
+      "scene": "u1_p4_prov_recheck",
+      "source": "pa-dhs-bhc-providers",
+      "summary": "Re-verification of the PA DHS Behavioral HealthChoices providers page (2026-11-02; page text fetched from the official URL, 1,175 lines, same count as 2026-10-17). The page MOVED in one section and stood still in another: the eligibles-map total rose from 2,717,158 to 2,764,063 (+46,905), hand-summed from all 67 county rows to exactly the new total; Philadelphia fell 621,641 to 618,549 while Lehigh rose 88,048 to 88,053; the map heading dropped the zone grouping. All seven ASAM fees are byte-identical to 2026-10-17 under 'Rates Effective January 1, 2026'. Watch item: Montgomery and Northampton both print 112,070 while the sum still reconciles \u2014 flagged, not corrected. review_required_before_encoding stays true; no rule encoded; linked ASAM PDF not opened; October total now stale and must not be quoted without its date.",
+      "verified": "2026-11-02",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "State the 2026-11-02 finding: the eligibles total moved to 2,764,063 (hand-reconciled over 67 rows) while all ASAM fees are unchanged since 2026-10-17.",
+        "Teach section-by-section dating: one page updates on two clocks, so 'the page is unchanged' is not a finding until every cited section is checked.",
+        "Retire the October total: 2,717,158 is now stale and must not be quoted without its 2026-10-17 date.",
+        "Hold review_required_before_encoding true: the page remains a directory and rate evidence, never a payment rule, and the ASAM PDF applicability check is still undone."
+      ],
+      "last_verified": "2026-11-02"
     }
   ]
 }

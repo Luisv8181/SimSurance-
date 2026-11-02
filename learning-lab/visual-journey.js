@@ -731,6 +731,38 @@
         { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_recheck',
+    },
+    {
+      id: 'u1_p4_prov_recheck',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 4e, Continued: The Map That Moved \u2014 A Total That Changed',
+      text: "Sixteen days after the last check, I opened the provider page again expecting the usual stillness — and this time the page moved. The framing sentences are word-for-word the same: each county contracts with an MCO, each consumer is assigned a BH-MCO by county of residence. Every ASAM fee is identical to October 17: 2.0WM still $106.35 an hour, 3.5 still $260.65 a day, 3.7WM still $415.24 a day. But the eligibles map total is not the number I quoted last time. It reads 2,764,063 lives now, up from 2,717,158 — and I did not take that on faith, I added all sixty-seven county rows by hand, and they sum to exactly 2,764,063. The new total is consistent with its own table. The movement is not uniform, either: Philadelphia fell from 621,641 to 618,549 even as the statewide total rose, while Lehigh ticked up from 88,048 to 88,053. And one thing to carry forward with a question mark, not an answer: Montgomery and Northampton both print 112,070, identical figures for two counties, while the sum still reconciles — so I flag it for the next check instead of correcting a page I do not own. Two lessons in one recheck. First, a total quoted without a date is now a stale claim: anyone still citing 2,717,158 is citing October. Second, one page updates on two clocks — the fee schedule stood still while the map moved — so 'the page is unchanged' is never a finding until you have checked every section you intend to cite.",
+      advantage: true,
+      advantageText: 'A Total Without a Date Is a Stale Claim',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS \u00b7 provider-facing overview (directory, not a rule; re-verified 2026-11-02 — eligibles total changed since 2026-10-17, ASAM fees unchanged)',
+        quote: 'For mental health and drug and alcohol services, each county contracts with a Managed Care Organization (MCO).',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The provider page on 2026-11-02 shows an eligibles total of 2,764,063, up from 2,717,158 on 2026-10-17, while all seven ASAM fees are identical. What does this recheck establish?',
+        opts: [
+          'A) That the whole page changed, so the ASAM fees and the October total must both be discarded.',
+          'B) That the map section moved (new total, hand-summed from all 67 county rows to exactly 2,764,063) while the fee schedule stood still — so each section carries its own check date, the October total is now stale, and nothing here is encoded as a rule.',
+          'C) That the identical Montgomery and Northampton figures prove the table is fabricated and the page should be removed from the registry.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 2 re-verification is section-by-section: the eligibles total rose by 46,905 and reconciles exactly against the hand-summed 67 county rows, Philadelphia fell while the total rose, and all seven ASAM fees are unchanged since October 17. One page, two clocks — so cite each section with its own date, retire the October total, and keep review_required_before_encoding true: the identical Montgomery/Northampton figures are flagged for the next check, not corrected here, and the ASAM PDF is still unopened.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {
