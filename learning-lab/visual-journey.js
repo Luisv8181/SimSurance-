@@ -1657,6 +1657,37 @@
         { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate_recheck',
+    },
+    {
+      id: 'u5_p2b3_gate_recheck',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Re-Read: Eighteen Days Later',
+      text: "I came back to the gate eighteen days later: CMS's Eligibility Policy overview, re-read in full on November 2 against the October 15 snapshot. The gate has not moved. Every sentence I quoted then is still there, word for word: 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.' The MAGI sentence is intact too: 'The MAGI-based methodology does not allow for income disregards that vary by state or by eligibility group and does not allow for an asset or resource test.' The 133% FPL expansion option, the 'most states have chosen to expand' line, the blindness-disability-age exemptions, the residency and citizenship rules, the three-month retroactivity, the end-of-month stop rule, and the thirty-six-states-plus-DC spenddown count — all still present, all still undated, because the page still shows no last-updated date anywhere. The 77.9 million combined-coverage figure is still there, still carrying no timestamp. So far, a clean re-verification. But here is the catch, and it is about my own evidence, not the page. Today's full read shows something the October snapshot never quoted: the Appeals section carries a whole Informational Bulletin appendix on coordination between the HHS Appeals Entity and Medicaid and CHIP agencies for assessment states — three scenarios for treating HHS decisions as assessments, three more for treating them as final determinations. Did the page grow an appendix, or did the October snapshot simply summarize appeals as the fair-hearing rule and stop? The snapshot alone cannot tell you. So I am not claiming a page change. I am recording an evidence gap, the same discipline as the managed-care recheck: a snapshot's silence is not evidence of absence, and the appendix is quoted only as today's read, never as a dated change, never as a rule — it is coordination guidance for assessment states in general terms, not any state's appeals procedure. Two disciplines ride along: re-read the whole page, not your last snapshot of it; and a re-verification that only re-checks the sentences you already quoted is not a full-page diff. The gate is still a federal floor with fifty state locks, and the overview is still a gate plan, never a state roster.",
+      advantage: true,
+      advantageText: 'A Re-Read Checks the Whole Page, Not Just Your Quotes',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; re-verified 2026-11-02)',
+        quote: 'The MAGI-based methodology does not allow for income disregards that vary by state or by eligibility group and does not allow for an asset or resource test.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The October 15 snapshot summarized appeals as the fair-hearing rule only; today’s full read shows a CIB appendix on HHS Appeals Entity coordination for assessment states. What may you claim?',
+        opts: [
+          'A) The page changed between October 15 and November 2: the new appendix proves it.',
+          'B) Only that today’s read contains the appendix and the October 15 snapshot did not quote it: a snapshot’s silence is not evidence of absence, so no page-change claim stands until a full-page capture is diffed, and the appendix is coordination guidance, never an eligibility rule or a state’s appeals procedure.',
+          'C) The appendix now authorizes encoding appeals-delegation rules for assessment states in the model.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 2 re-verification confirms the October 15 body verbatim — mandatory groups, MAGI’s no-varying-disregards and no-asset-test rules, 133% FPL expansion option, three-month retroactivity, 36-states-plus-DC spenddown, fair hearings — and still no last-updated date, so the 77.9 million figure stays undated. But the CIB appendix is new to the notes, not proven new to the page: the October snapshot summarized appeals without quoting it, so the honest record is an evidence gap, not a change. Overview language about coordination is never a rule, and no state’s appeals procedure can be read off a federal overview.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {

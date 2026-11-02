@@ -279,13 +279,13 @@
       "program": "Medicaid eligibility (federal policy overview)",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-10-15",
-      "scope_note": "Federal eligibility overview: mandatory vs optional eligibility groups; ACA expansion option (133% FPL); MAGI financial methodology (no asset test) with SSI-methodology exemptions for blindness/disability/age 65+ and 209(b) states; non-financial criteria (residency, citizenship/qualified non-citizen); coverage effective-date and 3-month retroactivity; medically needy spenddown (36 states + DC); fair-hearing appeals. No last-updated date displayed on page. Rules are state-administered and vary by state \u2014 page cannot establish any state's groups, limits, or expansion status. URL rot confirmed: /medicaid/eligibility 404s; /eligibility-policy is the canonical overview.",
+      "last_checked": "2026-11-02",
+      "scope_note": "Re-verified live 2026-11-02, substantively unchanged since 2026-10-15: every sentence quoted in the 2026-10-15 snapshot still present verbatim (mandatory groups; MAGI no-varying-disregards and no-asset-test; ACA 133% FPL expansion option; SSI-methodology exemptions for blindness/disability/age 65+; residency and citizenship/qualified-non-citizen rules; application-date coverage with 3-month retroactivity; 36 states + DC spenddown; fair-hearing appeals); still no last-updated date displayed, so the 77.9-million combined Medicaid+CHIP figure remains undated. NEW TO THE NOTES (not claimed as a page change): today's full read surfaces a CIB appendix on HHS Appeals Entity coordination for assessment states (three scenarios each for assessment vs determination treatment) that the 2026-10-15 snapshot did not quote - recorded as an evidence gap, not a change, pending a full-page diff; the appendix is coordination guidance, not an eligibility rule. Dated snapshot docs/source-snapshots/medicaid-eligibility-policy-2026-11-02.md. Page-level verification only; no rules encoded.",
       "supports": [
         "medicaid_eligibility_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-10-15.md"
+      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-11-02.md"
     }
   ]
 }

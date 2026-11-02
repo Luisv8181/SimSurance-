@@ -1416,7 +1416,7 @@
       ],
       "scene": "u5_p2b2_recheck",
       "source": "medicaid-gov-managed-care",
-      "summary": "Re-verification of the CMS managed-care landing page (2026-11-01; text fetch of the official URL, copy crawled 2026-11-02 00:12 UTC, ~3h before the run, not a live-browser render — read-method caveat recorded in the snapshot). Paragraph-1 definition and PMPM capitation sentences match the 2026-10-15 snapshot verbatim; still NO federal-authority text, NO enrollment-share figure, NO last-updated date. UNRESOLVED DIFFERENCE, no page-change claim: today's full read shows two further paragraphs (states reducing costs and managing utilization; state coordination/integration initiatives for chronic and complex populations, payment incentives aligned with performance goals, accountability for high-quality care) that the 2026-10-15 snapshot never quoted — either the page grew or the snapshot under-quoted; only a full-page diff can settle it. The initiatives paragraph is overview language, never a rule. review_required_before_encoding stays true; no rule encoded.",
+      "summary": "Re-verification of the CMS managed-care landing page (2026-11-01; text fetch of the official URL, copy crawled 2026-11-02 00:12 UTC, ~3h before the run, not a live-browser render \u2014 read-method caveat recorded in the snapshot). Paragraph-1 definition and PMPM capitation sentences match the 2026-10-15 snapshot verbatim; still NO federal-authority text, NO enrollment-share figure, NO last-updated date. UNRESOLVED DIFFERENCE, no page-change claim: today's full read shows two further paragraphs (states reducing costs and managing utilization; state coordination/integration initiatives for chronic and complex populations, payment incentives aligned with performance goals, accountability for high-quality care) that the 2026-10-15 snapshot never quoted \u2014 either the page grew or the snapshot under-quoted; only a full-page diff can settle it. The initiatives paragraph is overview language, never a rule. review_required_before_encoding stays true; no rule encoded.",
       "verified": "2026-11-01",
       "policy_claims": false,
       "source_refs": [
@@ -1429,6 +1429,38 @@
         "Hold review_required_before_encoding true: the landing page remains a doorway, not a rule book, and the old /managed-care/index.html URL remains dead and uncitable."
       ],
       "last_verified": "2026-11-01"
+    },
+    {
+      "id": "eligibility-gate-recheck",
+      "title": "CMS Eligibility Policy overview re-verified (2026-11-02): body unchanged since 2026-10-15; appeals CIB appendix surfaces as a snapshot gap, not a claimed page change",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "medicaid-eligibility",
+        "source-verification",
+        "snapshot-discipline",
+        "index-page-limits",
+        "unresolved-difference"
+      ],
+      "scene": "u5_p2b3_gate_recheck",
+      "source": "cms-medicaid-eligibility-policy",
+      "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-02; text fetch of the official URL, copy crawled 2026-11-02 06:26 UTC, ~30 min before the run, not a live-browser render - read-method caveat recorded in the snapshot). Every sentence quoted in the 2026-10-15 snapshot still present verbatim: mandatory groups, MAGI no-varying-disregards and no-asset-test, ACA 133% FPL expansion option, SSI-methodology exemptions, residency and citizenship rules, 3-month retroactivity, end-of-month stop rule, 36 states + DC spenddown, fair-hearing appeals; still no last-updated date, so the 77.9-million combined figure stays undated. UNRESOLVED DIFFERENCE, no page-change claim: today's full read shows a CIB appendix on HHS Appeals Entity coordination for assessment states (three scenarios each for assessment vs determination treatment) that the 2026-10-15 snapshot did not quote - either the page grew or the snapshot under-quoted; only a full-page diff can settle it. The appendix is coordination guidance, never an eligibility rule. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-02",
+      "policy_claims": false,
+      "source_refs": [
+        "cms-medicaid-eligibility-policy"
+      ],
+      "objectives": [
+        "State the 2026-11-02 re-verification finding: the October 15 body is unchanged verbatim, and the date absence still holds, so the 77.9-million figure remains undated.",
+        "Teach snapshot discipline: a snapshot that summarizes one part of a section is not proof the section held nothing else, so a snapshot-vs-read mismatch is recorded as an unresolved difference, never claimed as a page change.",
+        "Teach the scope of overview language: the CIB appendix describes assessment-state coordination flows in general terms and authorizes no eligibility rule or state appeals procedure.",
+        "Hold review_required_before_encoding true: the overview remains a gate plan, never a state roster, and the old /medicaid/eligibility URL remains dead and uncitable."
+      ],
+      "last_verified": "2026-11-02"
     }
   ]
 }
