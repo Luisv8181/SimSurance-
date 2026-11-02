@@ -404,6 +404,35 @@
       furtherReading: [
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
       ],
+      next: 'u1_p4_phys3_typos',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE TYPOS THAT DIDN'T MOVE (re-verified 2026-11-02)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys3_typos',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b Addendum: The Typos That Didn\'t Move — A Directory, Re-Read',
+      text: "Eighteen days later, Glim went back to the physical-plan directory — and the page had not moved. Same five region tables, same plan labels, same county lists. Glim counted them again, county by county: 13 in Lehigh/Capital, 22 in the Northeast, 13 in the Northwest, 5 in the Southeast, 14 in the Southwest — 67 counties, each appearing exactly once, the same total Pennsylvania has. And here is the tell that the page itself had not been refreshed: its little mistakes were still there too. The Northeast header still reads 'Northast.' The Southwest table still closes a parenthesis that never opened. The Southwest row still spells it 'UPMC for you, Inc.' with a lowercase y. None of that changes a plan listing — but all of it proves the page was not re-edited between checks. So this recheck is not a fresh endorsement; it is a dated confirmation. Quote the directory with its date, and if a plan, a phone number, or a county list matters to a real decision, confirm it against the plan or DHS directly before you act on it.",
+      advantage: true,
+      advantageText: 'Date the Directory: Unchanged Is Not the Same as Current',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Northast Counties in the HealthChoices Program: Bradford, Carbon, Centre, Clinton, Columbia, Juniata, Lackawanna, Luzerne, Lycoming, Mifflin, Monroe, Montour, Northumberland, Pike, Schuylkill, Snyder, Sullivan, Susquehanna, Tioga, Union, Wayne, Wyoming',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE FRESH-LOOKING TABLE:\n- 'The page lists it, so it must be current.'\n- An unchanged directory read as a live fact.\n- A phone number or plan listing quoted with no date attached.",
+        after: "THE DATED DIRECTORY:\n- Five tables re-read 2026-11-02, unchanged since 2026-10-15, counties hand-recounted to 67.\n- Persisting typos ('Northast', the unmatched parenthesis) read as evidence the page was not refreshed.\n- Every directory claim carries its check date — and anything decision-critical gets confirmed at the source.",
+        note: "A dated plan directory (re-verified 2026-11-02): shows which plans the page lists per region on that date, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {

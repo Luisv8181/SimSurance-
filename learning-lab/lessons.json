@@ -1163,6 +1163,30 @@
       ]
     },
     {
+      "id": "physical-directory-recheck-typos",
+      "title": "The typos that didn't move: re-verifying a plan directory (2026-11-02)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "physical-health-mco-directory",
+        "source-verification",
+        "dated-directory-discipline"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "State the 2026-11-02 recheck result for the physical HealthChoices directory: five region tables unchanged since 2026-10-15, with county lists hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 counties, each appearing exactly once.",
+        "Explain why persisting cosmetic defects (the 'Northast' header, the unmatched parenthesis in the Southwest table, 'UPMC for you, Inc.' with a lowercase y) count as evidence the page was not re-edited between checks, not as findings about any plan.",
+        "Apply the dated-directory discipline: quote directory claims with their check date, and confirm any decision-critical plan, phone number, or county list against the plan or DHS directly."
+      ]
+    },
+    {
       "id": "bhc-mcos-mbh-label",
       "title": "The phantom payer: MBH/Magellan label resolved on the directory page itself (verified 2026-10-15)",
       "path": "visual-journey.html",
