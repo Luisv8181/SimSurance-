@@ -541,6 +541,41 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4e2_maprecheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE MAP, RE-COUNTED (re-verified 2026-11-02)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4e2_maprecheck',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 4e, Continued: The Map, Re-Counted \u2014 Eighteen Days Later',
+      text: "Eighteen days after the last check, I opened the county directory again — and this time I did not spot-check it, I re-counted it. The page came back whole, all twenty-seven lines, and every list matched the October 15 snapshot exactly, in the same order. Community Behavioral Health still holds Philadelphia alone. Community Care still holds forty-one counties, from Adams to York, and I counted every name. Magellan still holds seven, PerformCare still holds seven, Carelon still holds eleven. One plus forty-one plus seven plus seven plus eleven is sixty-seven, and Pennsylvania has sixty-seven counties, so the map still covers the state exactly once, with no county in two ledgers and none missing. The Magellan row still defines its own acronym on the page — 'Magellan Behavioral Health of Pennsylvania (MBH)' — so the phantom-payer question stays answered. And here is what makes this recheck different from the last two: there is no gap to carry forward. The October snapshot wrote out every county list in full, so today's full-page read could be compared against all of it, not just the sentences someone chose to quote. An unchanged finding is only as strong as the snapshot it is checked against, and this one was strong enough to check completely. The discipline stands exactly as before: cite the map with its date, re-check the live page before a county-plan pair enters a model, and remember that a directory tells you which ledger owns the dollar, never whether a therapist is taking new patients.",
+      advantage: true,
+      advantageText: 'A Full Snapshot Makes an Unchanged Finding Checkable',
+      citation: {
+        title: 'Behavioral Health Managed Care Organizations (BH-MCOs)',
+        statute: 'PA DHS \u00b7 Behavioral HealthChoices BH-MCO county directory (lookup, not a rule; re-verified 2026-11-02)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos',
+        urlLabel: 'PA DHS BH-MCO County Directory',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The October 15 snapshot enumerated all five county lists in full, and today\u2019s complete page read matches every list in the same order, recounting to exactly 67 counties. What does this re-verification establish?',
+        opts: [
+          'A) That every member\u2019s actual plan, provider network, and benefits are now verified.',
+          'B) Only that the directory page is unchanged since October 15 and still maps 67 counties to five BH-MCOs exactly once, as of November 2 \u2014 a page-level finding, not evidence of any member\u2019s plan, network, benefits, or rates.',
+          'C) That the directory can now be encoded as a simulation rule without further review.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 2 re-verification is a full-page comparison: all five rows, all county lists in the same order, hand-recounted to 1 + 41 + 7 + 7 + 11 = 67, and the MBH label still defined on the page itself. It proves the directory is unchanged, not that any member is assigned to a plan, that any provider is in a network, or that any benefit or rate holds \u2014 and review_required_before_encoding stays true, so no rule is encoded from it.",
+      },
+      furtherReading: [
+        { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4b_overview',
     },
     {
