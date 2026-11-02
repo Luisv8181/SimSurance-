@@ -1397,6 +1397,38 @@
         "Teach the re-verification discipline: unchanged pages earn a one-line clean record; no news is also a finding."
       ],
       "last_verified": "2026-10-17"
+    },
+    {
+      "id": "medicaid-managed-care-recheck",
+      "title": "Medicaid.gov managed-care landing page re-verified (2026-11-01): definition sentences unchanged; initiatives paragraph surfaces as a snapshot gap, not a claimed page change",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "medicaid-managed-care",
+        "source-verification",
+        "snapshot-discipline",
+        "index-page-limits",
+        "unresolved-difference"
+      ],
+      "scene": "u5_p2b2_recheck",
+      "source": "medicaid-gov-managed-care",
+      "summary": "Re-verification of the CMS managed-care landing page (2026-11-01; text fetch of the official URL, copy crawled 2026-11-02 00:12 UTC, ~3h before the run, not a live-browser render — read-method caveat recorded in the snapshot). Paragraph-1 definition and PMPM capitation sentences match the 2026-10-15 snapshot verbatim; still NO federal-authority text, NO enrollment-share figure, NO last-updated date. UNRESOLVED DIFFERENCE, no page-change claim: today's full read shows two further paragraphs (states reducing costs and managing utilization; state coordination/integration initiatives for chronic and complex populations, payment incentives aligned with performance goals, accountability for high-quality care) that the 2026-10-15 snapshot never quoted — either the page grew or the snapshot under-quoted; only a full-page diff can settle it. The initiatives paragraph is overview language, never a rule. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-01",
+      "policy_claims": false,
+      "source_refs": [
+        "medicaid-gov-managed-care"
+      ],
+      "objectives": [
+        "State the 2026-11-01 re-verification finding: the definition and capitation sentences are unchanged verbatim from 2026-10-15, and the authority, enrollment-share, and date absences still hold.",
+        "Teach snapshot discipline: a snapshot that quotes one paragraph is not proof the page held only one paragraph, so a snapshot-vs-read mismatch is recorded as an unresolved difference, never claimed as a page change.",
+        "Teach the scope of overview language: the initiatives paragraph describes state coordination efforts in general terms and authorizes no authority, rate, enrollment figure, or applicability finding.",
+        "Hold review_required_before_encoding true: the landing page remains a doorway, not a rule book, and the old /managed-care/index.html URL remains dead and uncitable."
+      ],
+      "last_verified": "2026-11-01"
     }
   ]
 }

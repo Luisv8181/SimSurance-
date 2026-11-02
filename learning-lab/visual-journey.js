@@ -1595,6 +1595,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck',
+    },
+    {
+      id: 'u5_p2b2_recheck',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Doorway, Revisited: What the Snapshot Did Not Quote',
+      text: "I came back to the federal doorway seventeen days later: Medicaid.gov's managed-care landing page, the one I first mapped on October 15. The doorway is still a doorway. The two sentences I quoted then are still there, word for word: 'Managed Care is a health care delivery system organized to manage cost, utilization, and quality.' And the payment sentence: state Medicaid agencies contract with managed care organizations 'that accept a set per member per month (capitation) payment for these services.' What is still missing has not changed either: no federal authority is named anywhere on the page, no enrollment-share figure, no 'last updated' date. But here is the catch, and it is about my own evidence, not the page. Today's full read shows a third paragraph the October 15 snapshot never quoted: states are 'implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,' focused on 'populations with chronic and complex conditions,' 'aligning payment incentives with performance goals,' and 'building in accountability for high quality care.' Did the page grow, or did the October snapshot simply under-quote it? The snapshot alone cannot tell you: it quoted one paragraph and summarized the rest as delivery system and capitation only. So I am not claiming a page change. I am recording an evidence gap: a snapshot that quotes one paragraph is not proof the page holds only one paragraph. Until someone diffs a full-page capture against today's full text, the initiatives paragraph is quoted only as today's read, never as a dated change, and never as a rule: it is overview language, not an authority, a rate, or an enrollment figure. Two disciplines ride along: re-read the whole page, not your last snapshot of it; and a missing paragraph in your notes is your gap, not the page's change.",
+      advantage: true,
+      advantageText: 'A Snapshot Quotes; Only a Full Re-Read Compares',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-01)',
+        quote: 'Managed Care is a health care delivery system organized to manage cost, utilization, and quality.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The October 15 snapshot quoted only the definition and capitation sentences; today’s full read shows a third paragraph on state care-coordination initiatives. What may you claim?',
+        opts: [
+          'A) The page changed between October 15 and November 1: the new paragraph proves it.',
+          'B) Only that today’s read contains the paragraph and the October 15 snapshot did not quote it: a snapshot’s silence is not evidence of absence, so no page-change claim stands until a full-page capture is diffed, and the paragraph is overview language, never a rule.',
+          'C) The initiatives paragraph now authorizes encoding care-coordination payment rules in the model.',
+        ],
+        answer: 1,
+        explanation: "Correct! A snapshot is a selection, not a census: quoting one paragraph never proves the page held only one. The November 1 re-verification therefore records an unresolved difference, not a change: the definition and capitation sentences match October 15 verbatim, the authority/enrollment/date absences still hold, and the initiatives paragraph is quoted only as today's read. Overview language about coordinating care is not an authority, a rate, or an enrollment figure, so nothing here enters the model as a rule.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {
