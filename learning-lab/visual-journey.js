@@ -484,6 +484,31 @@
         { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_chip3_renewed',
+    },
+    {
+      id: 'u1_p4_chip3_renewed',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 4c Addendum II: The Ledger Moves \u2014 Renewals Posted, One Row Gone',
+      text: "Eighteen days after the stale ledger, Glim went back to the CHIP directory \u2014 and this time the page had moved. The nine insurers and their phone lines are exactly where they were. But the accreditation tables are not. Aetna Better Health's Health Equity row now reads granted August 19, 2026, next due August 19, 2029; United Healthcare's reads April 21, 2026 to April 21, 2029. Those are two of the stale due dates from October, replaced by posted renewals. Keystone First-CHIP's Health Equity row is gone entirely \u2014 not marked lapsed, not explained, just absent \u2014 while its NCQA health-plan row carries a fresh October 6, 2026 grant. So the October lesson is now proven by the page itself: a passed due date on an un-updated page was a recheck flag, never a finding of lapse. And the new discipline writes itself: when a row disappears, record the absence exactly. Do not upgrade silence into a verdict \u2014 about Keystone, or about anyone. A directory tells you what the publisher posted, on the date you checked. Nothing more, and nothing less.",
+      advantage: true,
+      advantageText: 'A Missing Row Is an Absence, Not a Verdict',
+      citation: {
+        title: 'CHIP Insurance Companies',
+        statute: 'PA DHS \u00b7 CHIP insurer directory, re-verified 2026-11-03, page updated since 2026-10-16 (directory, not a rule)',
+        quote: 'Aetna Better Health | Accredited | August 19, 2026 | August 19, 2029',
+        url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies',
+        urlLabel: 'PA DHS CHIP Insurance Companies Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STALE-TABLE READ:\\n- Three Health Equity due dates in the past, no update beside any of them.\\n- The temptation: read the passed dates as lapsed accreditations.\\n- The discipline held: recheck flag, not a finding.",
+        after: "THE MOVED-LEDGER READ (2026-11-03):\\n- Aetna and United Health Equity rows renewed on the page (Aug 19, 2026; Apr 21, 2026 grants) \u2014 the flag was right, the lapse reading would have been wrong.\\n- Keystone's Health Equity row is absent, unexplained \u2014 recorded as an absence, never upgraded to a verdict.\\n- Keystone's NCQA row carries a fresh Oct 6, 2026 grant.",
+        note: "This 2026-11-03 re-verification changed the directory's contents: nine insurers unchanged, NCQA still nine accredited rows, Health Equity now four rows, not five. The page gives no reason for Keystone's missing row.",
+      },
+      furtherReading: [
+        { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
+      ],
       next: 'u1_p4_bh',
     },
     {

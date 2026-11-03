@@ -1267,6 +1267,32 @@
       ]
     },
     {
+      "id": "chip-directory-renewed",
+      "title": "CHIP directory re-verified: the ledger moves (renewals posted, one row gone)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "chip",
+        "directory-verification",
+        "recheck-discipline",
+        "ncqa-accreditation",
+        "dated-evidence"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-chip-companies"
+      ],
+      "objectives": [
+        "State the 2026-11-03 re-verification finding verbatim: nine insurers and phones unchanged, NCQA table still nine accredited rows (Keystone First-CHIP now October 6, 2026 to October 6, 2029), but the Health Equity table now has four rows, not five \u2014 Aetna Better Health renewed August 19, 2026 to August 19, 2029 and United Healthcare renewed April 21, 2026 to April 21, 2029.",
+        "Record Keystone First-CHIP's absent Health Equity row as an absence only: the page marks nothing lapsed and gives no reason, so its equity status is unknown-from-this-page, never a lapse finding.",
+        "Teach the proven discipline: the October recheck flag was vindicated by the page's own movement \u2014 a passed due date on an un-updated page is a flag, and a missing row is an absence; neither upgrades into a verdict without confirmation against NCQA or the MCO, and review_required_before_encoding stays true."
+      ]
+    },
+    {
       "id": "bhc-overview-undated-page",
       "title": "BHC overview re-verified: the undated page (the check date is the version)",
       "path": "visual-journey.html",
