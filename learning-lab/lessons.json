@@ -1348,6 +1348,34 @@
       ]
     },
     {
+      "id": "aca-rate-filings-market-share",
+      "title": "ACA rate filings: the 2026 market-share column \u2014 concentration is a footprint, not a price",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "aca-rate-filings",
+        "market-share",
+        "market-concentration",
+        "commercial-market",
+        "dated-evidence",
+        "page-level-reverification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-insurance-department-aca-filings"
+      ],
+      "objectives": [
+        "State the 2026-11-03 re-verification finding: the PA Insurance Department ACA rate-filings page is substantively unchanged since 2026-10-16 (two-phase review prose intact; 15 individual and 16 small-group rows; every October spot-check figure agrees), the third identical check in a row.",
+        "State the new page-level observation: the 2026 Market Share column shows individual-market concentration (Keystone Health Plan East 21.06% + UPMC Health Network 20.69% = 41.75%) and sharper small-group concentration (Independence Assurance 22.95% + UPMC Health Network 22.63% + Keystone Health Plan East/AmeriHealth HMO 20.52% = 66.10%), with both columns summing to ~100% (99.99% / 100.01%, rounding only) as an integrity check.",
+        "Teach the date discipline: the share column is explicitly 2026 share beside 2027 rate columns \u2014 a backward-looking footprint, not a 2027 fact \u2014 and share never substitutes for a premium dollar amount, a provider-network fact, or a behavioral-health reimbursement figure, none of which the page carries.",
+        "State what the page still does not establish: no premium dollar amounts, no provider networks, no behavioral-health reimbursement figures \u2014 and never encode a rate or market parameter until a specific filing's document version, effective period, exact passage, and applicability are reviewed."
+      ]
+    },
+    {
       "id": "pennie-homepage-marketing-rotation",
       "title": "Pennie homepage re-verified: marketing copy rotates; example prices are never encoded; snapshots are evidence of their date",
       "path": "visual-journey.html",

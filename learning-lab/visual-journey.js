@@ -1233,6 +1233,41 @@
         { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5d3_share',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE SHARE COLUMN (2026 market share)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5d3_share',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 5d\u2033: The Share Column \u2014 Concentration Is a Footprint, Not a Price',
+      text: "The rate ledger has a third column, and nobody reads it \u2014 so today Glim does. Re-checked on November 3, the department's page is substantively unchanged for the third time running: same two-phase review prose, same 15 individual and 16 small-group rows, every October figure still in place. But the '2026 Market Share' column tells a story the rate columns cannot. On the individual market, Keystone Health Plan East holds 21.06% and UPMC Health Network 20.69% \u2014 two carriers, 41.75% of the market between them. On the small-group market the concentration is sharper: Independence Assurance at 22.95%, UPMC Health Network at 22.63%, and Keystone Health Plan East/AmeriHealth HMO at 20.52% \u2014 three carriers, 66.10% of the market. And a quiet integrity check: each column sums to essentially 100% (99.99% individual, 100.01% small group, rounding only), so the table is internally whole. Now the warning label, printed in the column's own name: this is 2026 share sitting next to 2027 rates. Share is a backward-looking footprint \u2014 who held the market last year \u2014 not a price, not a network, and not a promise about next year. A carrier can hold a fifth of the market and still not include your clinician; a concentrated market can still post a small approved increase. Read the share column for what it is: the shape of the market you are modeling, dated honestly, and never a substitute for a rate or network fact.",
+      advantage: true,
+      advantageText: 'Market Share Is a Footprint, Not a Price',
+      citation: {
+        title: 'ACA Health Rate Filings | PA Insurance Department',
+        statute: 'PA Insurance Department \u00b7 official rate-filing index (index page, not a rule)',
+        quote: 'This list includes all individual and small group plans under the Affordable Care Act available in Pennsylvania this year.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings',
+        urlLabel: 'ACA Health Rate Filings (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "The 2027 filing page's 2026 Market Share column shows the top three small-group carriers holding 66.10% combined. What does that establish for your model?",
+        opts: [
+          'A) A dated concentration footprint: three carriers held two-thirds of the 2026 small-group market. It says nothing about 2027 premiums, networks, or behavioral-health reimbursement.',
+          'B) The three carriers will charge the lowest 2027 premiums, since market share proves pricing power in the shopper\u2019s favor.',
+          'C) Any clinician in Pennsylvania is in-network with at least one of the three, since together they cover two-thirds of the market.',
+        ],
+        answer: 0,
+        explanation: "Correct! Share is a backward-looking footprint: Independence Assurance (22.95%), UPMC Health Network (22.63%), and Keystone Health Plan East/AmeriHealth HMO (20.52%) sum to 66.10% of the 2026 small-group market, and both share columns sum to ~100%, so the table is internally whole. But share is not a price, not a network, and not a 2027 fact \u2014 the column is explicitly 2026 share beside 2027 rates, and the page carries no premium dollars, provider directories, or behavioral-health reimbursement figures at all.",
+      },
+      furtherReading: [
+        { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5e_covmap',
     },
 
