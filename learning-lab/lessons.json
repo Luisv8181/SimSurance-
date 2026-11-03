@@ -476,7 +476,7 @@
       ],
       "objectives": [
         "State verbatim what the CMS Rate Review and Rate Guides index verifies on live re-check (2026-11-02): the current guide is still the 2026-2027 guide (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027), the previous-years list is still fifteen entries in the same order, and the addendum drawer still holds only the 2024-2025 and 2016 revisions.",
-        "Apply the re-verification discipline: an unchanged page is a real finding only as strong as the re-read behind it — the current-guide passage, the regulation sentence, and the full list in order were all checked, not skimmed — because a new addendum could appear on the index without announcement.",
+        "Apply the re-verification discipline: an unchanged page is a real finding only as strong as the re-read behind it \u2014 the current-guide passage, the regulation sentence, and the full list in order were all checked, not skimmed \u2014 because a new addendum could appear on the index without announcement.",
         "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
       ]
     },
@@ -1607,6 +1607,38 @@
         "Hold the evidence boundary: the page is for OMHSAS business partners, encounter files and study findings are nonpublic, and nothing here becomes a simulator parameter."
       ],
       "last_verified": "2026-11-02"
+    },
+    {
+      "id": "bhc-overview-recheck",
+      "title": "PA DHS Behavioral HealthChoices overview re-verified (2026-11-03): unchanged since 2026-10-10, still undated",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "behavioral-health-mco-mapping",
+        "source-verification",
+        "snapshot-discipline",
+        "undated-source",
+        "county-assignment"
+      ],
+      "scene": "u1_p4b_overview3_recheck",
+      "source": "pa-dhs-bhc-overview",
+      "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-03; page text fetched from the official URL, copy crawled 2026-11-03 06:55 UTC, less than a minute before the read). Full-page read (12 lines) matches the 2026-10-16 snapshot sentence for sentence in the same order, including the county-contract, access-duty, and BH-MCO-assignment passages. Still no revision date, last-updated stamp, or document version on the page. Stability streak now four identical checks (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03) over 24 days \u2014 stability of the page, not proof the program is current. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-03",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-overview"
+      ],
+      "objectives": [
+        "State the 2026-11-03 finding: the Behavioral HealthChoices overview is unchanged since 2026-10-16, with a four-check identical-text streak back to 2026-10-10.",
+        "Teach why a streak is not a guarantee: an undated page can be stable and stale at once, so the check date is the version.",
+        "Hold the scope boundary: the overview names contracting architecture, county access duties, and county-of-residence BH-MCO assignment \u2014 and proves nothing about benefits, rates, networks, or any member's plan.",
+        "Hold review_required_before_encoding true: rule-shaped claims still wait for a dated document before entering any model."
+      ],
+      "last_verified": "2026-11-03"
     }
   ]
 }

@@ -666,6 +666,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview3_recheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE, RE-READ (re-verified 2026-11-03)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview3_recheck',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 4c Addendum: The Undated Page, Re-Read \u2014 Eighteen Days Later',
+      text: "Eighteen days after the last check, Glim opened the Behavioral HealthChoices overview again \u2014 and the page had not moved. Same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Four checks now: October 10, 13, and 16, and today, November 3 \u2014 twenty-four days of identical text. And still, look for what the page does not carry: no revision date, no last-updated stamp, no document version anywhere on it. A streak of identical reads can start to feel like a guarantee, and it is not one. Every check so far says the same thing about the page \u2014 it has not been rewritten \u2014 and none of them says anything about the program behind it. So the discipline from the last visit holds, word for word: the check date is the version. Quote the overview with November 3, 2026 attached, and anything rule-shaped \u2014 a benefit, a rate, a coverage boundary \u2014 still waits for a dated document before it enters your model.",
+      advantage: true,
+      advantageText: 'Date the Undated Page Again: A Streak Is Not a Guarantee',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS \u00b7 program overview, re-verified 2026-11-03, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STREAK BLUR:\n- The overview page reads the same on October 10, 13, 16, and now November 3.\n- 'Four identical checks \u2014 it must be settled.'\n- Stability quietly upgraded into currency, and the check date dropped from the claim.",
+        after: "THE DATED STREAK:\n- Four identical checks over twenty-four days, and the page still shows no revision date of its own.\n- 'Unchanged since at least 2026-10-10; undated by its publisher; re-verified 2026-11-03.'\n- Every line drawn from it carries the latest check date; rule-bearing claims still wait for a dated document.",
+        note: "A page-level re-verification (2026-11-03): this scene teaches dating discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {
