@@ -535,6 +535,32 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Explore Virtual County Lab', url: './county-lab.html' },
       ],
+      next: 'u1_p4_access3_steady',
+    },
+    {
+      id: 'u1_p4_access3_steady',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d Addendum: The Front Door, Still Standing — The Service-Access Page, Third Check',
+      text: "The map says which plan owns your county's dollar. The next page says how a person actually walks in the door — and on November 3, Glim re-read it for the third time, and it had not moved. The county mental health office still oversees the care, still helps determine what services a person qualifies for, and still connects them to the county's BH-MCO. The assignment rule is still the county of residence. The member still chooses providers inside the plan's network, and the plan still mails a handbook explaining how to access services and what benefits are available. The application doors are still four: COMPASS online, the county assistance office in person, a paper application by mail, or the Consumer Service Center by phone. If you are not on Medicaid and cannot pay, the county office may still be able to help — the page says 'may,' and Glim keeps that word, because a maybe is not a promise. And here is the quiet finding of a third unchanged check: the page carries no revision date, no last-updated stamp, no version number anywhere on it. 'Current' is therefore unknowable from the page alone — the only dateable fact is the check date, November 3, 2026. The two scrape artifacts from October are still there too, the 988 block rendered twice and the stray phone string beside it, and they are still artifacts, not claims. A member page maps the doorway. It is not a benefit schedule, not a provider directory, not an eligibility rule — and a page that never changes its text still ages, one check at a time.",
+      advantage: true,
+      advantageText: 'A Member Page Maps the Doorway, Not the Benefit',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · member access guidance, re-verified 2026-11-03, substantively unchanged since 2026-10-13 (guidance, not a rule)',
+        quote: 'Each county in Pennsylvania contracts with a behavioral health managed care organization (BH-MCO) for mental health and drug and alcohol services. You will be assigned a Behavioral Health Managed Care Organization (BH-MCO) based on your county of residence.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS Request Behavioral HealthChoices Services',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE DOORWAY BLUR:\\n- 'The page says BH-MCOs exist, so the benefit must be settled.'\\n- The application channels get read as an eligibility decision.\\n- 'May be able to help' gets upgraded into a guarantee.",
+        after: "THE THIRD-CHECK READ (2026-11-03):\\n- County office route, BH-MCO assignment by residence, in-network choice, mailed handbook, four application channels — all unchanged since 2026-10-13.\\n- No revision date on the page: the check date IS the version; cite it with the date.\\n- The doubled 988 block and stray phone string persist as scrape artifacts, not second claims.\\n- 'May be able to help' stays a maybe. A doorway is not a benefit.",
+        note: "This 2026-11-03 re-verification changed nothing about the page's contents — the third consecutive unchanged check. The new fact is the streak itself: an undated page that never moves still needs its check date, because silence about updates is not proof of currency.",
+      },
+      furtherReading: [
+        { label: 'PA DHS Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4e_mbh',
     },
 
