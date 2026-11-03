@@ -1688,6 +1688,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_recheck',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK (verified 2026-11-02)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Index, Re-Read: Eighteen Days Later, Nothing Moved',
+      text: "Eighteen days after the last check, I opened the CMS rate-guidance index again — live, not from memory — and counted it the same way. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions: the addendum to the 2024-2025 guide and the addendum to the 2016 guide. No addendum for the 2026-2027 guide has appeared. Nothing new was added and nothing was taken away — at least, nothing this page-level check can see. And that last clause is the lesson, again. An unchanged index is a real finding, but only as strong as the re-read behind it: I checked the current-guide passage, the regulation sentence, and the full fifteen-entry list in order, instead of skimming the top and calling it done. A new addendum could appear on this page without any announcement, and the only way to catch it is to come back and count. The boundary holds exactly where it held in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. So the recheck changes one thing only — the date on the check — and that is the point: a source stays trustworthy by being re-read, not by being remembered.",
+      advantage: true,
+      advantageText: 'A Source Stays Trustworthy by Being Re-Read',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified live 2026-11-02 — unchanged since 2026-10-15)',
+        quote: 'In February 2026, CMS released the 2026-2027 Medicaid Managed Care Rate Development Guide for states to use when setting capitation rates with respect to any managed care program subject to federal actuarial soundness requirements during rating periods starting between July 1, 2026, and June 30, 2027.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS rate-guidance index on 2026-11-02 matches the 2026-10-15 snapshot: same current guide, same rating-period window, same fifteen-entry list in order, same two addenda. What does this recheck establish?',
+        opts: [
+          'A) That the index is unchanged entry by entry since October 15, the addendum drawer still holds only the 2024-2025 and 2016 revisions, the check date advances to 2026-11-02, and nothing here is encoded as a rule.',
+          'B) That the contents of the 2026-2027 guide and its addenda are now known to this project, since the index was re-read.',
+          'C) That Pennsylvania capitation rates for 2026-2027 are now established and can be encoded into the simulator.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 2 live re-verification checked the index entry by entry against the October 15 snapshot: same 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda and none for the current guide. No guide PDF was opened, so no guide contents are known, and no Pennsylvania rate appears anywhere on the index — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
     // -------------------------------------------------------------

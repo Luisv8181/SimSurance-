@@ -454,6 +454,33 @@
       ]
     },
     {
+      "id": "rate-guide-recheck",
+      "title": "The index, re-read: eighteen days later, nothing moved",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "rate-development-guide",
+        "guide-addendum",
+        "versioning-discipline",
+        "rating-period",
+        "index-vs-document",
+        "re-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "State verbatim what the CMS Rate Review and Rate Guides index verifies on live re-check (2026-11-02): the current guide is still the 2026-2027 guide (released February 2026, for rating periods starting July 1, 2026 through June 30, 2027), the previous-years list is still fifteen entries in the same order, and the addendum drawer still holds only the 2024-2025 and 2016 revisions.",
+        "Apply the re-verification discipline: an unchanged page is a real finding only as strong as the re-read behind it — the current-guide passage, the regulation sentence, and the full list in order were all checked, not skimmed — because a new addendum could appear on the index without announcement.",
+        "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
+      ]
+    },
+    {
       "id": "requesting-services",
       "title": "How to request behavioral-health services in Pennsylvania",
       "path": "index.html#requesting-services",
