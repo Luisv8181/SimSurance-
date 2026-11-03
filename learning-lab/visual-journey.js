@@ -1166,10 +1166,42 @@
         { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c3_pennie_open',
+    },
+
+        {
+      id: 'u1_p5c3_pennie_open',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c″: The Door in Open Enrollment — The Hero Changes With the Season',
+      text: "Walk back to the door a third time, and the paint has changed with the calendar. On October 13 it greeted you formally; on October 16 it warned you about surprise medical bills. Today, November 3, it says: \u201cNow\u2019s the time to find your best health coverage\u201d \u2014 \u201cOpen Enrollment is here!\u201d The season has arrived, and the homepage dresses for it. The \u2018What\u2019s new\u2019 notice has rolled its year forward, 2026 to 2027, while its sentence about recent federal changes affecting health coverage in Pennsylvania stays word for word. A new \u2018Find Quick Fixes\u2019 corner offers help with password resets, paying a bill, enrollment status, and claiming an account. And the doorways that matter survive again: \u2018Coming from Medicaid? Welcome to Pennie! We already have an account set up for you\u2019 \u2014 the handoff, same wording \u2014 and the three friendly faces with their example Silver prices, still advertisements, never benchmarks. Here is the discipline this rotation teaches, and it cuts both ways. First, date every quote: the October 16 hero is already history, and today\u2019s hero will rotate again when the season ends. Second, notice what the hero does not carry: the captured page text states no open-enrollment start or end date. \u2018Open Enrollment is here!\u2019 announces a season; it does not print its calendar. A modeler who needs the dates goes to a dated source that actually states them, and never infers them from a banner. The front door tells you the season has opened. It does not tell you when it closes.",
+      advantage: true,
+      advantageText: 'A Hero Announces a Season; It Does Not Print Its Calendar',
+      citation: {
+        title: 'Pennie | PA\u2019s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'Pennie is Pennsylvania\u2019s official Health Insurance Marketplace. If you don\u2019t get health insurance through your job, Pennie is the best place to find the coverage that\u2019s right for you.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks pennie.com on November 3. The hero now reads \u2018Open Enrollment is here!\u2019 What may a modeler safely take from that, and what must they still go find elsewhere?",
+        opts: [
+          'A) The season has opened and the doorways persist \u2014 official marketplace, Medicaid-exit handoff, certified helpers \u2014 but no start or end date appears in the captured page text, so the dates must come from a dated source that states them; the persona prices stay advertisements, never benchmarks.',
+          'B) The exact open-enrollment deadline, which the hero prints beside the headline, plus the benchmark Silver premium from Jalen\u2019s vignette.',
+          'C) That the October 16 surprise-bills hero is still the page\u2019s current text, since homepage copy rarely changes.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 3 hero announces the season, and the index facts persist: official marketplace, Medicaid-exit account handoff, certified help channels. But the captured page text states no open-enrollment dates \u2014 a banner is not a calendar \u2014 and the persona prices are marketing examples, never encodable parameters. And the October 16 hero is already history: the third rotation in this streak, so every quote from this page carries its check date.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 
-    {
+{
       id: 'u1_p5d_rates',
       part: 'Unit I · The 5 Players',
       chapter: 'Ch 3 · Player 5d: The Rate Ledger — Who Sets the Premium You See',

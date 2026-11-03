@@ -1693,6 +1693,37 @@
         "Hold review_required_before_encoding true: rule-shaped claims still wait for a dated document before entering any model."
       ],
       "last_verified": "2026-11-03"
+    },
+    {
+      "id": "pennie-open-enrollment-hero",
+      "title": "Pennie re-verified: the hero changes with the season (open enrollment)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "marketplace",
+        "homepage-rotation",
+        "dated-evidence",
+        "open-enrollment",
+        "page-level-reverification"
+      ],
+      "scene": "u1_p5c3_pennie_open",
+      "source": "pennie",
+      "summary": "Re-verification of the Pennie homepage (2026-11-03; page text fetched from the official URL, copy crawled 2026-11-03 18:56 UTC, less than a minute before the read). Third homepage rotation in the streak: hero now “Now’s the time to find your best health coverage / Open Enrollment is here!”, “What’s new” rolled 2026 -> 2027, new “Find Quick Fixes” section; Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, and certified help channels persist. The captured page text states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-03",
+      "policy_claims": true,
+      "source_refs": [
+        "pennie"
+      ],
+      "objectives": [
+        "State the 2026-11-03 finding: the Pennie homepage rotated a third time — open-enrollment hero, “What’s new” rolled to 2027 with the federal-changes sentence unchanged, “Find Quick Fixes” section added — while the Medicaid-exit account-handoff doorway, the marketplace identity sentence, the persona vignettes, and the certified help channels persist.",
+        "Teach the banner-is-not-a-calendar discipline: the captured page text states no open-enrollment start or end date, so dates must come from a dated source that actually states them, never inferred from a hero.",
+        "Hold the price gap honestly: no vignette price-change claim is made, because the 2026-10-16 snapshot recorded only an unattributed “~$82/mo” example; today’s vignette prices (Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver) remain illustrative marketing figures, never encodable parameters, and review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-03"
     }
   ]
 }
