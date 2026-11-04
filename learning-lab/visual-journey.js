@@ -2094,6 +2094,37 @@
         { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate_recheck2',
+    },
+    {
+      id: 'u5_p2b3_gate_recheck2',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Third Reading: A Count Goes Missing',
+      text: "I came back to the gate a third time, two days after the second reading — and this time the page taught me something by what it did not say. First, the confirmations, all re-read live on November 4: the gate still opens with 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.' The 77.9 million combined Medicaid-and-CHIP figure is still there, still dateless, because the page still shows no last-updated stamp anywhere. The 133% FPL expansion option is intact, 'most states have chosen to expand' is intact, MAGI still counts income with one set of rules and a single application, still with a five percent disregard that makes the limit 138% of poverty for most adults, and still with no asset or resource test for MAGI-based methods. Retroactivity is still three months, coverage still generally stops at the end of the month eligibility ends, and fair hearings are still required when a claim is denied or not acted upon with reasonable promptness. Now the missing count. The November 2 snapshot quoted thirty-six states plus DC running medically-needy or 209(b) spenddown programs. Today's read of the medically-needy section says only that states have the option to establish such a program, and describes the spenddown mechanism — no count anywhere in the section. Do I now report that the page changed? No. The November 2 read was a text fetch; today's was a live browser read, and two different extraction methods disagreeing is not proof of an edit. So the count is recorded exactly as it stands: quoted November 2, not re-surfaced November 4, quoted as current by nobody. The same discipline covers two smaller wording differences — the retroactivity sentence now reads 'Medicaid coverage may start retroactively for up to 3 months before the month of application,' and the MAGI sentence about disregards varying by state was not re-surfaced either. A simulator that carries a stale count forward as today's fact, or that promotes one uncorroborated read into a change claim, fails the same way: it mistakes its own notes for the page. The gate is still a federal floor with fifty state locks — and a count you cannot re-find is a count you stop quoting until a second independent read finds it again.",
+      advantage: true,
+      advantageText: 'A Count You Cannot Re-Find Is a Count You Stop Quoting',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; re-verified 2026-11-04)',
+        quote: 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Today’s live read of the medically-needy section finds no state count, but the November 2 snapshot quoted thirty-six states plus DC. The two reads used different extraction methods. What may you record?',
+        opts: [
+          'A) That the page changed: the count was removed between November 2 and November 4.',
+          'B) Only that the count was quoted November 2 and not re-surfaced November 4 — a flagged discrepancy, not a confirmed change, and the count is quoted as current by nobody until a second independent read corroborates either version.',
+          'C) The November 2 count as current anyway, since the mechanism description is unchanged.',
+        ],
+        answer: 1,
+        explanation: "Correct! Different extraction methods disagreeing is not proof of an edit: the honest record is 'quoted November 2, not re-surfaced November 4,' with the count suspended, not carried forward and not declared removed. Everything else re-checked today — 77.9 million undated, 133% FPL option, MAGI five-percent disregard to 138%, no MAGI asset test, three-month retroactivity, end-of-month stop, fair hearings — is confirmed present, and the page still shows no last-updated date.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {

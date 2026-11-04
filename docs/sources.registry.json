@@ -279,13 +279,13 @@
       "program": "Medicaid eligibility (federal policy overview)",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-11-02",
-      "scope_note": "Re-verified live 2026-11-02, substantively unchanged since 2026-10-15: every sentence quoted in the 2026-10-15 snapshot still present verbatim (mandatory groups; MAGI no-varying-disregards and no-asset-test; ACA 133% FPL expansion option; SSI-methodology exemptions for blindness/disability/age 65+; residency and citizenship/qualified-non-citizen rules; application-date coverage with 3-month retroactivity; 36 states + DC spenddown; fair-hearing appeals); still no last-updated date displayed, so the 77.9-million combined Medicaid+CHIP figure remains undated. NEW TO THE NOTES (not claimed as a page change): today's full read surfaces a CIB appendix on HHS Appeals Entity coordination for assessment states (three scenarios each for assessment vs determination treatment) that the 2026-10-15 snapshot did not quote - recorded as an evidence gap, not a change, pending a full-page diff; the appendix is coordination guidance, not an eligibility rule. Dated snapshot docs/source-snapshots/medicaid-eligibility-policy-2026-11-02.md. Page-level verification only; no rules encoded.",
+      "last_checked": "2026-11-04",
+      "scope_note": "Re-verified live 2026-11-04 (browser read, after an initial Access Denied block cleared on environment replacement): substantively unchanged on every re-checked item since 2026-11-02 (mandatory groups verbatim; 77.9-million combined Medicaid+CHIP figure still undated; ACA 133% FPL expansion option; MAGI 5% disregard to 138% FPL and no MAGI asset/resource test; 3-month retroactivity; end-of-month stop; fair hearings; still no last-updated date). FLAGGED, NOT CLAIMED AS PAGE CHANGES: (1) the 36-states-plus-DC spenddown count quoted 2026-11-02 was not re-surfaced in today's medically-needy section, which states only that states have the option to establish such programs - extraction methods differed (text fetch vs browser read), so the count is suspended, not carried forward and not declared removed, pending a second corroborating read; (2) retroactivity wording differs between reads and the MAGI 'disregards that vary by state' half-sentence was not re-surfaced - same extraction-method caveat. The 2026-11-02 CIB appendix note stands, not re-examined today. Dated snapshot docs/source-snapshots/medicaid-eligibility-policy-2026-11-04.md. Page-level verification only; no rules encoded.",
       "supports": [
         "medicaid_eligibility_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-11-02.md"
+      "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-11-04.md"
     }
   ]
 }

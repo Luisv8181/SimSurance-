@@ -1872,6 +1872,35 @@
         "State what stays unresolved: Wyoming SPA 22-0001 July 18, 2022 appears in both November 4 loads but still does not resolve the October 14 snapshot's January 6, 2022 date until the SPA approval document itself is opened; the Utah link-label mismatch is load-dependent, not a stable artifact.",
         "Name what the page does not establish: any coverage rule, rate, or payment methodology, and the content of linked documents (not opened this run)."
       ]
+    },
+    {
+      "id": "medicaid-eligibility-gate-recheck2",
+      "title": "Medicaid eligibility overview re-verified (2026-11-04): unchanged on re-checked items, spenddown count not re-surfaced and flagged, not promoted",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "medicaid-eligibility",
+        "gate-floor",
+        "magi",
+        "retroactivity",
+        "spenddown-count-flag",
+        "extraction-method-discipline",
+        "version-corroboration"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-medicaid-eligibility-policy"
+      ],
+      "objectives": [
+        "State the 2026-11-04 finding: the CMS eligibility overview re-read live confirms the mandatory-groups sentence verbatim, the undated 77.9-million combined figure, the 133% FPL expansion option, MAGI's 5% disregard to 138% FPL and no MAGI asset/resource test, 3-month retroactivity, end-of-month stop, and fair hearings, with still no page last-updated date.",
+        "Explain the flagged spenddown discrepancy: the 36-states-plus-DC count quoted 2026-11-02 was not re-surfaced in today's medically-needy section, which states only that states have the option to establish such programs; because extraction methods differed (text fetch vs browser read), this is a flagged discrepancy, not a confirmed page change, and the count is quoted as current by nobody pending a second corroborating read.",
+        "State the two smaller wording differences under the same discipline: retroactivity now reads as 'Medicaid coverage may start retroactively for up to 3 months before the month of application,' and the MAGI 'disregards that vary by state' half-sentence was not re-surfaced; neither is claimed as an edit.",
+        "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; any current medically-needy state count; or any rule - page-level verification only, no rules encoded."
+      ]
     }
   ]
 }
