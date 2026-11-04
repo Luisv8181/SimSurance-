@@ -1156,6 +1156,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b4_nomandate',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b''': THE COVERAGE THE LAW DOES NOT REQUIRE — PARITY AS COMPARATOR, NOT MANDATE
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b4_nomandate',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b‴: The Coverage the Law Does Not Require — Parity as Comparator, Not Mandate',
+      text: "Here is the trap every parity model must avoid: parity is a comparator, not a mandate. Re-checked on November 4, the CMS page is unchanged for the fourth straight check — same 145 lines, same seven headers, same empty Fact Sheets and Regulations sections — and it still prints the sentence in capitals: MHPAEA does NOT require group health plans or health insurance issuers to cover MH/SUD benefits. If a plan covers no mental-health benefits at all, parity has nothing to compare, and the law does not force the coverage into existence. So where does coverage come from? For many plans, from a different law wearing parity's coat: the Affordable Care Act requires coverage of mental health and substance use disorder services as one of ten essential health benefit categories in non-grandfathered individual and small group plans. And note the small-group twist the page states plainly: MHPAEA does not apply directly to small group health plans, although its requirements are applied indirectly in connection with the EHB requirements. Small employer generally means 1 to 50 employees, with the option for states to expand the definition to 1 to 100 — so the same 60-person firm can sit on different sides of the line depending on its state's definition. The page also warns that some states may have parity requirements stricter than federal requirements, which this page does not enumerate — never model a state's parity law from this federal overview alone. Your simulator must therefore carry two separate switches, never one: does the plan cover MH/SUD benefits at all, and if so, are the limits on them no more restrictive than the medical/surgical comparator in the same classification. A model with only the second switch silently assumes the first answer is yes — and that assumption is exactly how a parity model invents coverage that no law requires.",
+      advantage: true,
+      advantageText: 'Two Switches, Never One: Coverage First, Comparator Second',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. 2024 final rules (page-level review)',
+        quote: 'MHPAEA does NOT require group health plans or health insurance issuers to cover MH/SUD benefits.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "A non-grandfathered small-group plan covers no mental-health or substance-use benefits at all. Jordan asks whether MHPAEA forces it to add that coverage. What does the CMS parity page say?",
+        opts: [
+          'A) MHPAEA by itself does not require the coverage — but the ACA requires MH/SUD services as one of ten essential health benefit categories in non-grandfathered individual and small group plans, so the coverage duty arrives through the EHB route, not through MHPAEA alone.',
+          'B) MHPAEA forces every plan to cover MH/SUD benefits, so the plan is already in violation for offering none.',
+          'C) Small-group plans are entirely outside every parity-related requirement, so neither MHPAEA nor the EHB route touches them.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page states it in capitals: MHPAEA does NOT require group health plans or health insurance issuers to cover MH/SUD benefits — parity compares limits on benefits a plan already covers. The coverage backstop is the ACA, which requires MH/SUD services as one of ten essential health benefit categories in non-grandfathered individual and small group plans. And small-group plans are not exempt from the whole picture: MHPAEA does not apply directly to them, but its requirements are applied indirectly through the EHB requirements. Small employer generally means 1-50 employees, with states able to expand it to 1-100 — and some states may be stricter than federal law, which this page does not enumerate.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 

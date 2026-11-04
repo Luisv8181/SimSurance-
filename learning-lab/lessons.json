@@ -1789,6 +1789,34 @@
         "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
       ],
       "last_verified": "2026-11-03"
+    },
+    {
+      "id": "mh-parity-no-mandate",
+      "title": "Parity is a comparator, not a mandate: the coverage the law does not require",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "parity",
+        "mhpaea",
+        "non-mandate",
+        "essential-health-benefits",
+        "small-group-applicability",
+        "coverage-comparator"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "State the non-mandate rule verbatim from the CMS page: MHPAEA does NOT require group health plans or health insurance issuers to cover MH/SUD benefits.",
+        "Explain the ACA backstop: MH/SUD services are one of ten essential health benefit categories required in non-grandfathered individual and small group plans.",
+        "State the small-group twist: MHPAEA does not apply directly to small group health plans, but its requirements are applied indirectly through the EHB requirements; small employer generally means 1-50 employees, with states able to expand to 1-100.",
+        "Name what the page does not establish: any state parity requirement stricter than federal law, any plan-specific coverage or compliance determination, and the content of the linked Federal Register rules (not read this run)."
+      ]
     }
   ]
 }
