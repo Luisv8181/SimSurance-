@@ -1817,6 +1817,33 @@
         "State the small-group twist: MHPAEA does not apply directly to small group health plans, but its requirements are applied indirectly through the EHB requirements; small employer generally means 1-50 employees, with states able to expand to 1-100.",
         "Name what the page does not establish: any state parity requirement stricter than federal law, any plan-specific coverage or compliance determination, and the content of the linked Federal Register rules (not read this run)."
       ]
+    },
+    {
+      "id": "medicaid-managed-care-recheck2",
+      "title": "Managed care doorway re-verified (2026-11-04): two full reads agree; overview language is still not a rule",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "managed-care",
+        "capitation",
+        "care-coordination-initiatives",
+        "evidence-discipline",
+        "full-page-diff"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "medicaid-gov-managed-care"
+      ],
+      "objectives": [
+        "State the 2026-11-04 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-01 full read verbatim and in order (definition plus per-member-per-month capitation; costs/utilization/quality objectives; state care-coordination initiatives).",
+        "Explain what two consecutive full reads upgrade and what they do not: the initiatives paragraph graduates from today's-read-only to confirmed page content, but remains overview language, never an authority, a rate, or an enrollment figure.",
+        "State what stays unresolvable: whether the page changed between 2026-10-15 and 2026-11-01, because the October 15 snapshot quoted only the first paragraph and no full-page October capture exists to diff.",
+        "Name what the page still does not establish: any federal managed-care authority text, any enrollment-share figure, any last-updated date, and the content of sidebar links and linked documents (not followed this run)."
+      ]
     }
   ]
 }

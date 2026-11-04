@@ -2001,6 +2001,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck2',
+    },
+    {
+      id: 'u5_p2b2_recheck2',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Doorway, Confirmed Twice',
+      text: "I came back to the federal doorway a third time, three days after the last full read: Medicaid.gov's managed-care landing page, re-read in full on November 4 against the November 1 full read. This time the comparison is clean, because both reads are full-page captures, not one paragraph plus a summary. All three paragraphs match, word for word and in the same order. The definition is still there: 'Managed Care is a health care delivery system organized to manage cost, utilization, and quality,' delivered through state agencies contracting with managed care organizations 'that accept a set per member per month (capitation) payment for these services.' The second paragraph is still there too: states contracting with MCOs 'can reduce Medicaid program costs and better manage utilization of health services,' with 'improvement in health plan performance, health care quality, and outcomes' as key objectives. And the paragraph that made the November 1 recheck an evidence gap is now confirmed, not just read once: 'Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,' focused on 'populations with chronic and complex conditions,' 'aligning payment incentives with performance goals,' and 'building in accountability for high quality care.' Two consecutive full reads now agree on it, so it graduates from today's-read-only to confirmed page content. What it does not graduate into is a rule: it is still overview language, naming no authority, no rate, no enrollment figure, and no state. And the October question stays unanswered forever: the October 15 snapshot quoted only the first paragraph, and no full-page October capture exists to diff, so whether the page grew between October 15 and November 1 can never be settled from these records. That is the discipline in one line: a second full read confirms what is there now; it cannot retroactively certify what was there then. The doorway is still undated, still authority-free, still share-free — and now twice confirmed, which is a stronger statement about today and no statement at all about October.",
+      advantage: true,
+      advantageText: 'A Second Full Read Confirms Today; It Cannot Certify October',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-04)',
+        quote: 'Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 1 and November 4 full reads of the CMS managed-care page agree paragraph for paragraph, including the care-coordination initiatives paragraph. What may you claim?',
+        opts: [
+          'A) The page has never changed since October 15: two matching reads prove the October snapshot was complete.',
+          'B) Only that the three paragraphs are confirmed page content as of November 4, across two consecutive full reads — the initiatives paragraph is still overview language, never an authority, rate, or enrollment figure, and the October under-quote question stays unresolvable because no full-page October capture exists.',
+          'C) The initiatives paragraph now authorizes encoding care-coordination payment rules for chronic and complex populations in the model.',
+        ],
+        answer: 1,
+        explanation: "Correct! Two full reads agreeing is a strong statement about today: the definition, the capitation sentence, the costs/utilization objectives paragraph, and the initiatives paragraph are all confirmed November 4 content. It is no statement about October, because the October 15 snapshot quoted one paragraph and summarized the rest — its silence cannot prove absence then, and no October capture exists to diff now. Overview language about state initiatives names no authority and no rate, so nothing here enters the model as a rule, and the page still shows no last-updated date, so the check date remains the version.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {
