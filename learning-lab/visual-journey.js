@@ -1462,6 +1462,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e3_covrecount',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE RECOUNT (coverage-map text list enumerated, 2026-11-04)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e3_covrecount',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5e, Continued Again: The Recount',
+      text: "Three days later I came back to the map room and did the thing the last scene promised: I counted again — and this time I wrote every name down. Re-verified November 4, 2026, the Insurance Department page is substantively unchanged since November 1: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. Then the UPMC Health Options list, enumerated name by name rather than tallied by eye: Adams, Allegheny, Armstrong, Beaver, Bedford, Berks, Blair, Bradford, Butler, Cambria, Cameron, Carbon, Centre, Clarion, Clinton, Columbia, Cumberland, Dauphin, Elk, Erie, Fayette, Forest, Greene, Huntingdon, Indiana, Jefferson, Lackawanna, Lancaster, Lawrence, Lebanon, Lehigh, Luzerne, Lycoming, McKean, Mercer, Northampton, Northumberland, Perry, Potter, Schuylkill, Snyder, Somerset, Sullivan, Tioga, Union, Venango, Warren, Washington, Westmoreland, Wyoming, York. Fifty-one names, fifty-one unique, in alphabetical order, no duplicates — exactly matching the November 1 hand count. So the text-list count is now confirmed twice, and the workbook's earlier fifty-two is contradicted by the page's own text list, counted twice. What is still NOT done: nobody has counted the linked map image itself, so the text-versus-map reconciliation stays open, and this workbook does not silently rewrite its earlier scene — the correction and the map-image check are the owner's call, and the flag stays visible until then. Notice the shape of the discipline: enumerate, don't estimate; confirm, don't replace; and keep the contradiction in the open where the next reader can see it.",
+      advantage: true,
+      advantageText: 'Enumerate, Don\u2019t Estimate: A Count You Can Audit',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department · archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'Important note: These maps only apply to purchasing a plan. They do NOT show limits on your health care coverage or provider network.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 4 recount enumerates the live UPMC Health Options text list as 51 unique county names, matching the November 1 hand count, while the workbook\u2019s earlier scene says 52 and the linked map image has not been counted. What is the honest status?',
+        opts: [
+          'A) The footprint is settled at 51 — two text-list counts agree, so the map image no longer matters.',
+          'B) The footprint stays flagged: the text-list count of 51 is twice-confirmed, but the map image is uncounted, so the earlier 52 is contradicted by the text list yet not silently corrected — correction and the map-image check are the owner\u2019s call.',
+          'C) The footprint reverts to 52 — the workbook said it first, so it outranks both counts.',
+        ],
+        answer: 1,
+        explanation: "Correct! Two independent counts of the page's own text list agree on 51 unique names in alphabetical order, so the text-list fact is solid — but the flag's original condition was reconciliation against the linked map image, which nobody has counted yet. The honest status is therefore split: text list 51 (twice-confirmed), map image unchecked, earlier 52 contradicted but left visible for the owner to correct rather than quietly rewritten.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 
