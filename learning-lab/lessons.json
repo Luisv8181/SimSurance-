@@ -1844,6 +1844,34 @@
         "State what stays unresolvable: whether the page changed between 2026-10-15 and 2026-11-01, because the October 15 snapshot quoted only the first paragraph and no full-page October capture exists to diff.",
         "Name what the page still does not establish: any federal managed-care authority text, any enrollment-share figure, any last-updated date, and the content of sidebar links and linked documents (not followed this run)."
       ]
+    },
+    {
+      "id": "cms-sbs-two-loads",
+      "title": "School-based services index re-verified (2026-11-04): unchanged since November 1, with a same-day load anomaly flagged, not promoted",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "index-page-discipline",
+        "version-corroboration",
+        "load-anomaly",
+        "wyoming-spa-date-conflict"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "State the 2026-11-04 finding: on the confirming reload the CMS school-based services index matches the 2026-11-01 snapshot exactly (7 TAC resources, 6 guidance items, 8 state SPA examples in four groupings, Utah TSIP guide, three cost-report examples, non-endorsement disclaimer, no last-updated stamp).",
+        "Explain the load anomaly and its handling: a first live load the same day showed different SPA numbers/dates and a different guidance list, but a fresh reload reproduced the November 1 values and the October 8 cached copy independently matches them, so the divergent load is flagged as unconfirmed with its cause undetermined, never promoted as page content.",
+        "State why matching counts settle nothing: both loads showed 7 TAC resources, 6 guidance items, and 8 SPAs while differing on the items themselves.",
+        "State what stays unresolved: Wyoming SPA 22-0001 July 18, 2022 appears in both November 4 loads but still does not resolve the October 14 snapshot's January 6, 2022 date until the SPA approval document itself is opened; the Utah link-label mismatch is load-dependent, not a stable artifact.",
+        "Name what the page does not establish: any coverage rule, rate, or payment methodology, and the content of linked documents (not opened this run)."
+      ]
     }
   ]
 }

@@ -2187,6 +2187,38 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2d_sbs_versions',
+    },
+
+    {
+      id: 'u5_p2d_sbs_versions',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · Two Loads, Two Pages: Version Discipline',
+      text: "Now the page itself teaches the hardest lesson in this workbook — because on November 4, 2026, it showed two faces. One live load of this very index returned different SPA numbers and dates (Arizona 22-0004, Colorado 22-0029, Illinois 23-0003) and a different guidance list (2023 and 2024 bulletins, a 2024 webinar) than the November 1 snapshot. A fresh reload the same day reproduced the November 1 values exactly — and an October 8 cached copy, captured before either load, matches the November 1 version item for item. So the divergent load is flagged, not promoted: two independent captures plus a confirming reload outweigh one uncorroborated load, and no cause (cache variant, rendering variant, misread) is asserted because the page alone cannot say. Notice what did NOT settle anything: the counts matched in both loads — 7 TAC resources, 6 guidance items, 8 SPAs — so counting sections never verifies content. And notice the one date both loads agreed on, Wyoming July 18, 2022: even agreement across loads does not resolve the October 14 snapshot's January 6, 2022, because only Wyoming's own SPA approval document can do that. The rule for your simulator is therefore: cite the load and the version you read, never quote an index page from a single load when loads disagree, and never let a tally of reads vote a document's date into truth.",
+      advantage: true,
+      advantageText: 'Version Discipline: Corroboration Settles, Repetition Does Not',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · Third-party link disclaimer (index page, not a rule)',
+        quote: 'linking to a non-United States Government website does not constitute an endorsement by CMS, HHS, or any of their employees',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two live loads of the same CMS index page on one day disagree on SPA numbers and guidance items, while a fresh reload matches the November 1 snapshot exactly and an October 8 cached copy matches it too. What may you record?',
+        opts: [
+          'A) The first load’s newer values — a same-day load always outranks an older snapshot.',
+          'B) The November 1 values as the page’s content, with the divergent load flagged as an unconfirmed anomaly whose cause is undetermined — because two independent captures (the November 1 snapshot and the October 8 cache) plus the confirming reload corroborate them, while the divergent load stands alone; and Wyoming’s July 18, 2022 date, though present in both loads, still does not resolve the October 14 conflict until the SPA document itself is opened.',
+          'C) That the page changed twice in one day, and both versions are equally quotable.',
+        ],
+        answer: 1,
+        explanation: "Correct! Corroboration, not recency, settles an index page: the November 1 snapshot, the October 8 cache, and the confirming reload all agree, so those values are what gets recorded, and the lone divergent load is flagged with its cause left undetermined rather than promoted or explained away. Matching counts (7 TAC, 6 guidance, 8 SPAs) prove nothing about content. And Wyoming is the trap inside the lesson: appearing in both loads still does not outvote the October 14 snapshot’s January 6, 2022 — only the SPA approval document resolves that conflict.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 
