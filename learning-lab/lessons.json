@@ -1756,6 +1756,39 @@
         "Hold the doorway-vs-benefit line: 'may be able to help' for people not on Medicaid stays a maybe, never a guarantee; the page is member guidance, not a benefit schedule, provider directory, rate document, or eligibility rule — review_required_before_encoding stays true."
       ],
       "last_verified": "2026-11-03"
+    },
+    {
+      "id": "bhc-publications-row-unit",
+      "title": "BHC publications index re-verified (2026-11-03): page unchanged; PCIT appears twice with different marks; General Publications shelf still absent",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-publications",
+        "source-verification",
+        "row-level-records",
+        "funding-availability-marks",
+        "missing-section-flag"
+      ],
+      "scene": "u1_p4g_pubs3_twice",
+      "source": "pa-dhs-bhc-publications",
+      "summary": "Full-page re-verification (274 lines) finds the publications index substantively unchanged since 2026-10-17: same OMHSAS shelves, same CFR 438.332 paragraph, same EQR reports ending 2023, children's-services table still stamped 'Last updated: October 2026'. Full 55-row hand count (31 both-X, 20 managed-care-only, 4 blank) surfaces a row-level trap: Parent-Child Interaction Therapy appears twice with different marks \u2014 outpatient row X in both columns, IBHS row managed-care only \u2014 so the row (category + name + spelling) is the unit of record, never the service name; Partial Hospitalization's duplicate rows agree, ruling out a duplication artifact. FLAG, now second consecutive absence: the General Publications shelf recorded 2026-10-14 still does not appear \u2014 owner to confirm whether it moved, do not conclude deletion.",
+      "verified": "2026-11-03",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State the 2026-11-03 re-verification finding: the publications index is substantively unchanged since 2026-10-17, with the children's-services table still stamped 'Last updated: October 2026' and EQR reports still ending 2023.",
+        "Teach row-level recording: PCIT's two rows carry different funding marks (outpatient both columns, IBHS managed-care only), so collapsing by service name would invent a fact the page does not state.",
+        "Teach the contrast check: Partial Hospitalization's duplicate rows agree, which is what distinguishes a real split from a duplication artifact.",
+        "Flag honestly: the General Publications shelf recorded 2026-10-14 is absent for a second consecutive full-page check \u2014 treat as possibly moved, not as evidence the documents were removed.",
+        "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+      ],
+      "last_verified": "2026-11-03"
     }
   ]
 }

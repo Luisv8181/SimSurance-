@@ -997,6 +997,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs3_twice',
+    },
+    {
+      id: 'u1_p4g_pubs3_twice',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Same Name, Twice — The Row Is the Unit',
+      text: "Glim re-checked the publications vault on 2026-11-03, and almost everything stood still: the same OMHSAS shelves, the same accreditation paragraph, the same quality-review reports ending in 2023, and the children's-services table still stamped 'Last updated: October 2026.' But a full count of the table — 55 rows, tallied by hand: 31 with X in both funding columns, 20 managed-care-only, 4 with no X at all — turned up a trap for anyone who files by service name. Parent-Child Interaction Therapy appears TWICE, with different marks. The outpatient row, spelled 'Parent Child Interaction Therapy,' carries X in both columns. The IBHS row, spelled 'Parent-Child Interaction Therapy (PCIT),' carries X in the managed-care column only. Collapse those rows into one 'PCIT' fact and you invent something the page never states. Note the contrast: Partial Hospitalization also appears twice, but both rows agree — X in both columns — so the PCIT split is not a copying glitch. The row — category, name, and spelling together — is the unit of record. And one flag carries over, now stronger: the General Publications shelf recorded in the 2026-10-14 check is still missing from a complete 274-line read, the second straight check without it. Do not conclude the documents were deleted; the shelf may have moved to another page, and that is a question for the owner, not an inference for the model. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'The Row Is the Unit, Not the Name',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-11-03; children\'s-services table still stamped "Last updated: October 2026" (index page, not a rule)',
+        quote: 'If a family has Private Insurance the Private Insurance must be utilized first as Medicaid is a payer of last resort.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The children\'s-services table lists Parent-Child Interaction Therapy twice with different funding marks. How should a careful modeler record it?',
+        opts: [
+          'A) As two separate rows — the outpatient row (both columns marked) and the IBHS row (managed-care only) — because the row, category plus name plus spelling, is the unit of record; collapsing by service name would invent a single PCIT funding fact the page does not state.',
+          'B) As one PCIT fact with both columns marked — the more generous row wins, and the managed-care-only row is a duplicate to discard.',
+          'C) As a covered benefit for every Medicaid child — an X in either column means the service is available everywhere.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-11-03 re-verification counted all 55 table rows and found PCIT twice with different marks: the outpatient row carries X in both funding columns, the IBHS row managed-care only. Partial Hospitalization's duplicate rows agree, so the PCIT split is real, not a glitch. Record rows, not names — and remember the footnotes: availability varies by geography and funding source, Medicaid is payer of last resort, and an X is a funding mark, never a promise of an appointment.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
