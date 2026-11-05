@@ -1788,6 +1788,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck2',
+    },
+    {
+      id: 'u3_p2_data_recheck2',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 The Reserved Rows: Four Numbers, No Documents',
+      text: "Three days after the last check, I opened the systems-management page again \u2014 and the plumbing stood still a second time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice \u2014 OMHSAS-2026-001, June 9, 2026, now nearly five months old \u2014 same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Three identical checks now: October 15, November 2, November 5. But this read surfaced something the earlier scenes only mentioned in passing. Look at the notices tables. Four document numbers on the page read \u201cReserved\u201d \u2014 three in the main Systems Notices table, OMHSAS 2021-003, 2021-007, and 2021-008, and one in the CCRI table, CCRI 2022\u2013001. A number, no title, no date. A Reserved row is a promise the page makes to itself: a slot was set aside and never filled. So here is the discipline: count it as nothing. Do not count four reserved rows as four notices. Do not fill them in with a guess about what they were meant to be. And do not read the gap as a missing rule \u2014 the page never says a document belongs there, only that the number is held. The same restraint applies to the validation evidence: the newest EDV studies on the page are from 2023, now two years old, and their PDFs are still unopened, so their findings are still unknown to us. Nothing here becomes a simulator parameter. What the third check changes is only the date \u2014 and the count of empty slots we refuse to fill.",
+      advantage: true,
+      advantageText: 'Reserved Is Not a Document: Count Only What Exists',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-05 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'The Division of Systems Management objective is to ensure eligible individuals can access behavioral health services covered by Medicaid and County Base-Funded Mental Health.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-05 the systems-management page holds four document numbers marked "Reserved" (2021-003, 2021-007, 2021-008, CCRI 2022\u2013001). How should a researcher treat them?',
+        opts: [
+          'A) As placeholders \u2014 numbers with no title and no date behind them: not notices, not documents, not evidence of a missing rule; never fill them in with a guess.',
+          'B) As four notices that exist but are temporarily hidden, so their contents can be inferred from the neighboring rows.',
+          'C) As proof that four required documents are missing from the system, which the simulator should model as gaps.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 5 re-verification is section by section against the 2026-11-02 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews \u2014 the third identical check (2026-10-15, 2026-11-02, 2026-11-05). The four Reserved rows carry no title and no date; the three main-table ones were Reserved in the November 2 snapshot too. A reserved number is a held slot, not a document, so it is counted as nothing, never filled in, and never read as a missing rule. The EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {

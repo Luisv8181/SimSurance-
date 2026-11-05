@@ -87,14 +87,14 @@
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_systems_page",
       "status": "official_page_reviewed",
-      "last_checked": "2026-11-02",
-      "scope_note": "Re-verified live 2026-11-02, content unchanged since 2026-10-15: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners \u2014 encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-11-02.md (prior snapshot 2026-10-15). Not evidence that nonpublic data are available to this project.",
+      "last_checked": "2026-11-05",
+      "scope_note": "Re-verified live 2026-11-02, content unchanged since 2026-10-15: Systems Management owns state systems operations, claim/encounter-data management, and behavioral-health business intelligence; page indexes systems notices (newest OMHSAS-2026-001, 2026-06-09), EDI companion guides/file layouts (837, 834, 277, 999, BES, ESC, PRV435/PRV720), per-BH-MCO EDV studies (2023) and on-site reviews (2023, 2019), and Provider Type 07 capitation enrollment forms. Page explicitly addressed to OMHSAS business partners \u2014 encounter files, EDV-study findings, and BI outputs nonpublic. Page-level only; study PDFs not read. Dated snapshot docs/source-snapshots/bhc-systems-management-2026-11-02.md (prior snapshot 2026-10-15). Not evidence that nonpublic data are available to this project. Re-verified live 2026-11-05: page UNCHANGED since 2026-11-02 \u2014 same 253-line fetch (copy crawled 2026-11-05 14:55 UTC, <1 min before the read), same objective and business-partner audience sentences, same newest notice OMHSAS-2026-001 (June 9, 2026), same encounter-documents index, same 2023 EDV studies and 2023/2019 on-site reviews, same Type 07 capitation forms. Third identical check (2026-10-15, 2026-11-02, 2026-11-05), 21-day streak. NEW page-level observation: the page holds FOUR Reserved document numbers with no title and no date \u2014 2021-003, 2021-007, 2021-008 in the main notices table (Reserved in the 2026-11-02 snapshot too) and CCRI 2022\u2013001 in the CCRI table \u2014 placeholders, not documents; not counted as notices and not read as a missing rule. The newest validation evidence on the page (2023 EDV studies) is now two years old. Consumer shipped 2026-11-05: WORKBOOK scene u3_p2_data_recheck2 ('The Reserved Rows'), lesson systems-management-recheck2, status source_review_required. Dated snapshot: docs/source-snapshots/bhc-systems-management-2026-11-05.md",
       "supports": [
         "encounter_data_discovery",
         "operational_materials"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-systems-management-2026-11-02.md"
+      "snapshot": "docs/source-snapshots/bhc-systems-management-2026-11-05.md"
     },
     {
       "id": "pa-dhs-physical-hc-mco",
