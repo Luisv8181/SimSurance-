@@ -433,6 +433,35 @@
       furtherReading: [
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
       ],
+      next: 'u1_p4_phys4_phones',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE NUMBERS THAT FINALLY AGREE (re-verified 2026-11-05)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys4_phones',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b Addendum: The Numbers That Finally Agree — A Directory\'s Phone Lines, Diffed for the First Time',
+      text: "Three days later, Glim went back to the physical-plan directory a third time — and this check could do something the last one could not. On November 2, the directory's phone numbers were written down for the first time, and that run was honest about the limit: with no earlier snapshot recording them, there was nothing to compare them against. Today there is. Every member-services and Enhanced Member Supports Unit number on the page was compared against the November 2 record — Geisinger 855-227-1302 and 855-214-8100 in all five tables, UPMC for You 800-286-4242 and 866-463-1462 in all five, Jefferson EverWell, Highmark Wholecare, AmeriHealth Caritas, Keystone First, United Healthcare Community Plan — and every one agrees. The counties still hand-count to 67, the typos still sit where they sat, and the page still carries no revision date. One small quirk surfaced in today's read: three rows drop the colon after TTY while the same numbers carry it elsewhere — the numbers agree, the punctuation wobbles, and since the last snapshot never recorded TTY punctuation, Glim records the wobble and claims nothing about it. That is the discipline: a number that survives a dated recheck is a dated fact you can quote. A number never rechecked is a guess with a dial tone.",
+      advantage: true,
+      advantageText: 'Diff the Numbers, Not Just the Names',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Southwest Counties in the HealthChoices Program: Allegheny, Armstrong, Beaver, Bedford, Blair, Butler, Cambria, Fayette, Greene, Indiana, Lawrence, Somerset, Washington, Westmoreland',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE NUMBER NEVER CHECKED:\n- 'The directory lists a phone number, so dial it.'\n- A number quoted from a single read, with no earlier record to compare it against.\n- A typo in a number would sail straight into a model's contact field.",
+        after: "THE NUMBER, DIFFED:\n- Every member-services and EMSU number re-read 2026-11-05 against the first recording on 2026-11-02 — all agree, across all five region tables.\n- The three statewide plans repeat identical numbers in every table; the counties still count to 67.\n- A TTY punctuation wobble in three rows is recorded as a load-level quirk, not claimed as a page change — because the last snapshot never recorded TTY punctuation.",
+        note: "A dated plan directory (re-verified 2026-11-05): phone numbers are directory facts with a check date, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {

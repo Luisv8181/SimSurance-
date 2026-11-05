@@ -2044,6 +2044,33 @@
         "State the sharper caveat: the page carries no revision date, last-updated stamp, or document version, so the streak proves the page has not moved, not that it is current — stability and currency are different claims, and the check date is the version.",
         "Name what the page does not establish: any member's actual plan assignment, provider credentialing, network openness, covered benefits, or reimbursement rates; the linked MCO webpages were not reviewed."
       ]
+    },
+    {
+      "id": "physical-directory-phones-diff",
+      "title": "The numbers that finally agree: diffing a directory's phone lines (re-verified 2026-11-05)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "physical-health-mco-directory",
+        "source-verification",
+        "phone-number-diff",
+        "dated-directory-discipline",
+        "extraction-artifact"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "State the 2026-11-05 recheck result for the physical HealthChoices directory: five region tables unchanged since 2026-11-02, county lists hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 counties exactly once, and the same three persisting typos ('Northast', the unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y).",
+        "Explain why this run is the first phone-number diff: the 2026-11-02 snapshot recorded member-services and EMSU numbers for the first time and was explicit they could not be diffed against 2026-10-15, so 2026-11-05 is the first recheck with a prior recording to compare against - and every number agrees across all five region tables.",
+        "Distinguish a load-level observation from a page change: three rows in the 2026-11-05 fetch drop the colon after TTY while the same numbers carry 'TTY:' elsewhere, but the 2026-11-02 snapshot never recorded TTY punctuation, so the wobble is recorded and watched, not claimed as a change.",
+        "Apply the dated-directory discipline: a phone number that survives a dated recheck is a dated fact that can be quoted with its check date; a number never rechecked is a guess with a dial tone - and no number on this page is evidence of any member's actual plan, benefits, or network."
+      ]
     }
   ]
 }
