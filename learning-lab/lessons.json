@@ -1982,6 +1982,35 @@
         "Apply the boundary-date rule: the rating-period window is a switch — a period starting June 30, 2026 falls under the 2025-2026 guide, one starting July 1, 2026 under the 2026-2027 guide — so a modeler must record the rating period's start date alongside the guide edition, because that date selects the governing document.",
         "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
       ]
+    },
+    {
+      "id": "bhc-mcos-recheck3",
+      "title": "The partition, audited a third time: six identical reads, stability is not currency",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-mco-directory",
+        "county-partition",
+        "full-enumeration",
+        "stability-vs-currency",
+        "undated-page",
+        "re-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-mcos"
+      ],
+      "objectives": [
+        "State the 2026-11-05 finding: the PA DHS BH-MCO county directory is unchanged since 2026-11-02 — full 27-line page read matches the snapshot exactly, same five rows in the same order, county lists recounted by hand to 1 + 41 + 7 + 7 + 11 = 67, exactly once.",
+        "State the stability streak: six identical checks (2026-10-10, 2026-10-12, 2026-10-14, 2026-10-15, 2026-11-02, 2026-11-05), 26 days, the last three full-page comparisons against a fully enumerated snapshot, so the streak is checkable, not asserted.",
+        "Explain the partition frame: the directory partitions all 67 counties across five BH-MCOs exactly once, so a recheck is an audit of that exactness — a county in two rows would fork a model join, a missing county would leave it ledgerless.",
+        "State the sharper caveat: the page carries no revision date, last-updated stamp, or document version, so the streak proves the page has not moved, not that it is current — stability and currency are different claims, and the check date is the version.",
+        "Name what the page does not establish: any member's actual plan assignment, provider credentialing, network openness, covered benefits, or reimbursement rates; the linked MCO webpages were not reviewed."
+      ]
     }
   ]
 }
