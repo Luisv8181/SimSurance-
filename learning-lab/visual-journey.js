@@ -810,6 +810,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview4_recheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE, RE-READ — TWO DAYS LATER (re-verified 2026-11-05)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview4_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Undated Page, Re-Read — Two Days Later',
+      text: "Two days after the last check — the shortest gap between checks yet — Glim opened the Behavioral HealthChoices overview again, and the page had not moved. Same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Five checks now: October 10, 13, and 16, November 3, and today, November 5 — twenty-six days of identical text, and still no revision date, no last-updated stamp, no document version anywhere on it. But this re-read caught something the earlier checks did not, and it was not a page change — it was a cut in my own snapshots. The county-duty sentence, as the snapshots quoted it, begins 'counties are required to ensure high-quality care...' Today's full crawl shows the sentence with its lead-in clause intact: 'Under the behavioral health component of the HealthChoices program, counties are required...' The quote was an exact substring of the live paragraph, so the page never changed; my scissors trimmed it. That is the lesson this fifth check exists to teach: a quote is a cut, and only a full-page re-read catches what the scissors trimmed. A streak of identical checks does not audit your own notes. So the discipline holds, and it gets one line sharper: re-read the whole page, not your last excerpt of it — and quote the overview with November 5, 2026 attached, because the check date is still the only version this page has.",
+      advantage: true,
+      advantageText: 'Re-Read the Whole Page: A Quote Is a Cut',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-05, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE QUOTE BLUR:\n- The county-duty sentence is quoted in the snapshots starting at 'counties are required...'\n- Five identical checks feel like the text is settled, quotes and all.\n- Nobody re-reads the full paragraph, because the excerpt has been 'verified' four times.",
+        after: "THE FULL-PAGE RE-READ:\n- Today's crawl shows the sentence with its lead-in: 'Under the behavioral health component of the HealthChoices program, counties are required...'\n- The quote was an exact substring — the page never changed; the snapshots trimmed it.\n- A streak audits the page, not your notes: re-read the whole page, and the check date (2026-11-05) is still the version.",
+        note: "A page-level re-verification (2026-11-05): this scene teaches excerpt discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {
