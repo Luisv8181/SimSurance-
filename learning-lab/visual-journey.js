@@ -873,6 +873,38 @@
         { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_recheck2_pairs',
+    },
+    {
+      id: 'u1_p4_prov_recheck2_pairs',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e, Revisit: The Second Pair — Enumerate, Don\u2019t Sample',
+      text: "Two days after the last check, I opened the provider page again, and this time nothing moved. The total is still 2,764,063 lives, the framing sentences are word-for-word the same, and all seven ASAM fees are identical for the third check running — 2.0WM still $106.35 an hour, 3.7WM still $415.24 a day. But this recheck did something the last one did not: instead of spot-checking rows, I listed all sixty-seven counties by name, and I added them by hand, and they sum to exactly 2,764,063. Sixty-seven counties, sixty-seven unique names, no gaps. That full enumeration is what surfaced the second pair. Montgomery and Northampton still both print 112,070 — the flag from November 2 persists into a second check, and the total still reconciles, so I still do not correct a page I do not own. And now Indiana and Lawrence both print 16,168, both assigned to Carelon. I am not calling that a change: the November 2 snapshot recorded only spot rows, so it cannot say whether the pair was already there — it is newly noticed, not newly arrived. Two identical pairs in one table, with the total still reconciling, is exactly why you quote a directory with its check date and never silently fix it. And it is why a recheck that samples can miss what a recheck that enumerates catches: the November 2 run summed all sixty-seven rows too, but it recorded only spot values, and the second pair hid in the unrecorded middle. Enumerate the table you are citing, or say plainly that you sampled it.",
+      advantage: true,
+      advantageText: 'Enumerate the Table You Cite',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS · provider-facing overview (directory, not a rule; re-verified 2026-11-04 — total unchanged, ASAM fees unchanged, second identical pair newly noticed)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-04 the provider page is unchanged, but a full 67-row enumeration finds Indiana and Lawrence both at 16,168 alongside the persisting Montgomery/Northampton 112,070 pair, while the total still reconciles to 2,764,063. How should this be handled?',
+        opts: [
+          'A) Correct one county in each pair to a different figure so the table has no duplicates, then quote the corrected total.',
+          'B) Flag both pairs for the owner, quote the table only with its 2026-11-04 check date, and record the Indiana/Lawrence pair as newly noticed — not newly arrived — since the 2026-11-02 snapshot recorded only spot rows and cannot date it; nothing here is encoded as a rule.',
+          'C) Discard the whole page from the registry, since any duplicate figure proves the directory is unreliable.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 4 re-verification enumerates all 67 counties by name — 67 unique names, hand sum exactly 2,764,063 — and the total, framing sentences, and all seven ASAM fees are unchanged since November 2. Montgomery/Northampton 112,070 persists from the earlier flag, and Indiana/Lawrence 16,168 (both Carelon) is newly noticed on this full enumeration, not claimed as a change, because the November 2 snapshot never listed those rows. Duplicates that reconcile with the total are a flag for the source owner, never a silent correction — and a recheck that samples can miss what a recheck that enumerates catches.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {

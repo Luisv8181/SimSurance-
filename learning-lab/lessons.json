@@ -1926,6 +1926,35 @@
         "State the two smaller wording differences under the same discipline: retroactivity now reads as 'Medicaid coverage may start retroactively for up to 3 months before the month of application,' and the MAGI 'disregards that vary by state' half-sentence was not re-surfaced; neither is claimed as an edit.",
         "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; any current medically-needy state count; or any rule - page-level verification only, no rules encoded."
       ]
+    },
+    {
+      "id": "bhc-providers-twin-counts",
+      "title": "BHC providers page re-verified (2026-11-04): unchanged, with a second identical county pair newly noticed on full enumeration",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-providers",
+        "eligibles-map",
+        "duplicate-values",
+        "full-enumeration",
+        "dated-directory"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "State the 2026-11-04 finding: the PA DHS Behavioral HealthChoices providers page is unchanged since 2026-11-02 — same 1,175-line text, same framing sentences, same map heading, same eligibles total 2,764,063, all seven ASAM fees identical for a third consecutive check.",
+        "State the enumeration result: all 67 county rows listed by name (67 unique names, no gaps) hand-sum to exactly 2,764,063, matching the page's stated total.",
+        "State the two duplicate-value pairs: Montgomery and Northampton both 112,070 (flag persisting from 2026-11-02) and Indiana and Lawrence both 16,168 (both Carelon), newly noticed on this full enumeration.",
+        "Explain why the second pair is NOT claimed as a page change: the 2026-11-02 snapshot recorded only spot rows, so it cannot date the pair's appearance — newly noticed is not newly arrived.",
+        "State the handling discipline: both pairs are flagged for the owner, never silently corrected; the table is quoted only with its check date; and a recheck that samples can miss what a recheck that enumerates catches.",
+        "Name what the page does not establish: any payment rule (the ASAM PDF is still unopened, applicability unchecked), provider acceptance, or per-case benefits or payment."
+      ]
     }
   ]
 }
