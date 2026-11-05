@@ -2003,6 +2003,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_recheck2',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK, SECOND READING (verified 2026-11-05)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck2',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Window Decides the Guide: Three Reads, Same Index, One Boundary Date',
+      text: "Three days after the last check, I opened the CMS rate-guidance index a third time — and it is the same page again. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions, and still none for the 2026-2027 guide. Three reads over twenty-one days, no movement — and this time the re-read taught me something new about the page itself. Read the window again: 'rating periods starting between July 1, 2026, and June 30, 2027.' That window is not a label, it is a switch. A rating period starting June 30, 2026 falls under the 2025-2026 guide; a period starting one day later, July 1, 2026, falls under the 2026-2027 guide. One day at the boundary changes the governing document — and with it, which edition's expectations shape the actuarial certification behind the capitation number. So a modeler who records only the guide's name has recorded half the citation. The other half is the start date of the rating period being modeled, because that date is what selects the guide. The boundary holds exactly where it held in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide's contents are known; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. The recheck changes one thing only — the date on the check — and the boundary date changes one thing only — which guide governs. Both are worth writing down.",
+      advantage: true,
+      advantageText: 'The Boundary Date Selects the Guide',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-11-05 — unchanged since 2026-10-15)',
+        quote: 'In February 2026, CMS released the 2026-2027 Medicaid Managed Care Rate Development Guide for states to use when setting capitation rates with respect to any managed care program subject to federal actuarial soundness requirements during rating periods starting between July 1, 2026, and June 30, 2027.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'A state sets capitation rates for a rating period starting July 1, 2026. Which guide governs that rating period, according to the CMS rate-guidance index?',
+        opts: [
+          'A) The 2026-2027 Medicaid Managed Care Rate Development Guide — the index says it covers rating periods starting between July 1, 2026 and June 30, 2027, so the period start date is the switch between guide editions.',
+          'B) The 2025-2026 guide — the previous edition always governs the first year of a new rating period.',
+          'C) The addendum to the 2024-2025 guide — the most recent revision on the index governs all later rating periods.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The index states the 2026-2027 guide (released February 2026) applies to rating periods starting between July 1, 2026 and June 30, 2027 — so a period starting July 1, 2026 is governed by the 2026-2027 guide, while one starting June 30, 2026 would fall under the 2025-2026 guide. The 2026-11-05 re-read found the page unchanged for the third consecutive check (2026-10-15, 2026-11-02, 2026-11-05), with the same fifteen-entry list and the same two addenda. The index still gives no rate, no formula, and no Pennsylvania number — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
     // -------------------------------------------------------------

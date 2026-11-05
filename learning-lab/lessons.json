@@ -1955,6 +1955,33 @@
         "State the handling discipline: both pairs are flagged for the owner, never silently corrected; the table is quoted only with its check date; and a recheck that samples can miss what a recheck that enumerates catches.",
         "Name what the page does not establish: any payment rule (the ASAM PDF is still unopened, applicability unchecked), provider acceptance, or per-case benefits or payment."
       ]
+    },
+    {
+      "id": "rate-guide-recheck2",
+      "title": "The window decides the guide: three reads, same index, one boundary date",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "rate-development-guide",
+        "guide-addendum",
+        "versioning-discipline",
+        "rating-period",
+        "index-vs-document",
+        "re-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "State the 2026-11-05 finding: the CMS rate-guidance index is unchanged for the third consecutive check (2026-10-15, 2026-11-02, 2026-11-05; 21-day streak) — same current 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda, still none for the 2026-2027 guide.",
+        "Apply the boundary-date rule: the rating-period window is a switch — a period starting June 30, 2026 falls under the 2025-2026 guide, one starting July 1, 2026 under the 2026-2027 guide — so a modeler must record the rating period's start date alongside the guide edition, because that date selects the governing document.",
+        "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
+      ]
     }
   ]
 }

@@ -191,13 +191,13 @@
       "program": "Medicaid managed care",
       "source_type": "official_federal_guidance",
       "status": "official_page_reviewed",
-      "last_checked": "2026-11-02",
-      "scope_note": "Re-verified live 2026-11-02, content unchanged since 2026-10-15. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. Previous-years list still 15 entries in the same order (2025-2026 first, 2014 last); both addenda still listed (2024-2025 and 2016), no addendum for the 2026-2027 guide. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-11-02.md",
+      "last_checked": "2026-11-05",
+      "scope_note": "Re-verified live 2026-11-02, content unchanged since 2026-10-15. Current guide is the 2026-2027 Medicaid Managed Care Rate Development Guide (released Feb 2026) for rating periods starting July 1, 2026 - June 30, 2027; page is the index of federal guides, not the guides themselves and not a PA rate/rule source. Previous-years list still 15 entries in the same order (2025-2026 first, 2014 last); both addenda still listed (2024-2025 and 2016), no addendum for the 2026-2027 guide. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-11-02.md Re-verified 2026-11-05 (text fetch of the official URL, copy crawled 2026-11-05 04:54 UTC, ~2h before the read): page UNCHANGED for the third consecutive check (2026-10-15, 2026-11-02, 2026-11-05; 21-day streak) \u2014 same regulation sentence, same 2026-2027 guide (released Feb 2026, rating periods starting July 1, 2026 - June 30, 2027), same 15-entry previous-years list in the same order, same two addenda, still none for the 2026-2027 guide. NEW page-level observation: the rating-period window is a switch \u2014 a period starting June 30, 2026 falls under the 2025-2026 guide, one starting July 1, 2026 under the 2026-2027 guide, so the boundary date decides the governing document. Consumer shipped 2026-11-05: WORKBOOK scene u5_p2b_rateguide_recheck2 ('The Window Decides the Guide'), lesson rate-guide-recheck2, status source_review_required. Dated snapshot: docs/source-snapshots/cms-rate-guidance-2026-11-05.md",
       "supports": [
         "managed_care_rate_development_context"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/cms-rate-guidance-2026-11-02.md"
+      "snapshot": "docs/source-snapshots/cms-rate-guidance-2026-11-05.md"
     },
     {
       "id": "pa-dhs-bhc-service-access",
