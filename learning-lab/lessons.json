@@ -1849,6 +1849,39 @@
       "last_verified": "2026-11-03"
     },
     {
+      "id": "bhc-publications-recheck2",
+      "title": "BHC publications index re-verified (2026-11-05): unchanged for the second straight check; table recount agrees exactly; General Publications shelf absent a third time",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-publications",
+        "source-verification",
+        "independent-recount",
+        "funding-availability-marks",
+        "missing-section-flag"
+      ],
+      "scene": "u1_p4g_pubs4_still",
+      "source": "pa-dhs-bhc-publications",
+      "summary": "Full-page re-verification (274 lines) finds the publications index substantively unchanged since 2026-11-03 — the second straight check with no movement: same OMHSAS shelves, same CFR 438.332 paragraph, same EQR reports ending 2023 (still no 2024 report), children's-services table still stamped 'Last updated: October 2026'. A fresh hand recount of the 55-row table reproduces the 2026-11-03 tally exactly (31 both-X, 20 managed-care-only, 4 blank), with the PCIT split and the blank rows unchanged — the recount is the check that the check happened, ruling out re-dated old notes. FLAG, now third consecutive absence: the General Publications shelf recorded 2026-10-14 still does not appear — owner to confirm whether it moved, and if it has not reappeared by the next check the owner question should be asked outright rather than carried as a standing note.",
+      "verified": "2026-11-05",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State the 2026-11-05 re-verification finding: the publications index is substantively unchanged since 2026-11-03, with the children's-services table still stamped 'Last updated: October 2026' and EQR reports still ending 2023.",
+        "Teach recount discipline: a fresh hand count that reproduces the old tally exactly (55 rows: 31 both-X, 20 managed-care-only, 4 blank) is evidence the table is stable, not merely unread — it rules out re-dating old notes without a real re-read.",
+        "Teach that the PCIT split and the blank rows persist unchanged, so the row-level recording rule from the last check still holds.",
+        "Flag honestly: the General Publications shelf recorded 2026-10-14 is absent for a third consecutive full-page check — treat as possibly moved, not as evidence the documents were removed, and escalate the owner question by the next check if it has not reappeared.",
+        "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+      ],
+      "last_verified": "2026-11-05"
+    },
+    {
       "id": "mh-parity-no-mandate",
       "title": "Parity is a comparator, not a mandate: the coverage the law does not require",
       "path": "visual-journey.html",

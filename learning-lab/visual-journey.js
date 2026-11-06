@@ -1153,6 +1153,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs4_still',
+    },
+    {
+      id: 'u1_p4g_pubs4_still',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Same Count, Twice — A Recount That Agrees',
+      text: "Glim re-checked the publications vault on 2026-11-05 — two days after the last visit — and the page had not moved. Same OMHSAS shelves, same accreditation paragraph, same quality-review reports ending in 2023 with still no 2024 report, and the children's-services table still stamped 'Last updated: October 2026.' That is the second straight check with no movement, and this time Glim did something the last visit did not: counted the table again, by hand, row by row, without looking at the old tally first. Fifty-five rows. Thirty-one with X in both funding columns, twenty managed-care-only, four with no X at all — the exact same numbers as November 3. The PCIT split is still there, the Partial Hospitalization duplicates still agree, the blank rows are still blank. Here is why a recount that agrees matters more than it sounds: an unchanged page can be a page nobody actually re-read, the old notes copied forward with fresh dates. Counting again from scratch is the check that the check happened. The same hand, counting the same rows, got the same answer — that is evidence the table is stable, not merely unread. One flag carries over, and it is now three checks old: the General Publications shelf recorded on 2026-10-14 still does not appear in a complete 274-line read. Do not conclude the documents were deleted — the shelf may have moved — but the flag has earned a deadline: if it has not reappeared by the next check, the question goes to the owner outright instead of riding along as a standing note. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'A Recount That Agrees Is Evidence, Not Repetition',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-11-05; children\'s-services table still stamped "Last updated: October 2026" (index page, not a rule)',
+        quote: 'The Balanced Budget Act (BBA) of 1997 requires that state agencies contract with an External Quality Review Organization to conduct an annual external quality review of the services provided by contracted Medicaid Managed Care Organizations.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two days after the last check, Glim re-counted the children\'s-services table by hand and got the exact same tally: 55 rows, 31 both-X, 20 managed-care-only, 4 blank. What does the agreeing recount establish?',
+        opts: [
+          'A) That the table is stable, not merely unread — counting again from scratch, without the old tally in front of you, is the check that the check happened; an unchanged page can otherwise be old notes copied forward with fresh dates.',
+          'B) That the table is now a verified covered-benefit schedule — a second identical count upgrades the funding marks into coverage guarantees.',
+          'C) That the General Publications shelf must have been deleted — three checks without it proves the documents are gone.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-11-05 re-verification re-counted all 55 table rows by hand and reproduced the 2026-11-03 tally exactly (31 both-X, 20 managed-care-only, 4 blank), with the PCIT split and the blank rows unchanged. A recount that agrees is evidence the table is stable — it rules out the failure mode where old notes get re-dated without a real re-read. The General Publications shelf is still absent for a third straight check, but that proves nothing about deletion: the shelf may have moved, and the owner question is now due by the next check.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
