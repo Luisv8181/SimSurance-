@@ -1816,6 +1816,38 @@
       "last_verified": "2026-11-03"
     },
     {
+      "id": "bhc-service-access-fourth-check",
+      "title": "BH service-access page re-verified (2026-11-06): the front door, still standing — fourth unchanged check, shortest gap yet",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-service-access",
+        "member-access-pathway",
+        "undated-page",
+        "extraction-artifacts",
+        "dated-evidence"
+      ],
+      "scene": "u1_p4_access4_steady",
+      "source": "pa-dhs-bhc-service-access",
+      "summary": "Re-verification of the PA DHS Request Behavioral HealthChoices Program Services page (2026-11-06; official page text fetched, copy crawled 2026-11-06 06:55 UTC). Fourth consecutive unchanged check since 2026-10-13, shortest gap yet (three days): county-office route, BH-MCO assignment by county of residence, in-network provider choice, mailed handbook, COMPASS/CAO/mail/phone application channels, service-center hours, 988 block all persist. The page carries no revision date, last-updated stamp, or version number — the check date is the version. The October extraction artifacts persist verbatim (988 block rendered twice, stray phone string) and remain artifacts, not claims. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-06",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-service-access"
+      ],
+      "objectives": [
+        "State the 2026-11-06 re-verification finding: the service-access page is substantively unchanged since 2026-10-13 — county mental-health-office route, BH-MCO assignment by county of residence, in-network provider choice, mailed handbook, four application channels (COMPASS, CAO in person, mail, Consumer Service Center phone), 988 block, service-center hours.",
+        "Teach the steady-page-ages discipline: four identical checks in 24 days is a streak, not proof of currency — with no revision date, last-updated stamp, or version number on the page, the check date (2026-11-06) is the only dateable fact, and every claim drawn from it must carry that date.",
+        "Teach extraction discipline again: the doubled 988 block and stray phone string persist as scrape artifacts, not second claims; the page's crisis copy counts once.",
+        "Hold the doorway-vs-benefit line: 'may be able to help' for people not on Medicaid stays a maybe, never a guarantee; the page is member guidance, not a benefit schedule, provider directory, rate document, or eligibility rule — review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-06"
+    },
+    {
       "id": "bhc-publications-row-unit",
       "title": "BHC publications index re-verified (2026-11-03): page unchanged; PCIT appears twice with different marks; General Publications shelf still absent",
       "path": "visual-journey.html",

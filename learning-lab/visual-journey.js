@@ -590,6 +590,32 @@
         { label: 'PA DHS Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_access4_steady',
+    },
+    {
+      id: 'u1_p4_access4_steady',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d Addendum: The Front Door, Still Standing — The Service-Access Page, Fourth Check',
+      text: "Three days after the last reading, Glim opened the same door again — and it had not moved a hinge. The county mental health office still oversees the care, still helps determine what services a person qualifies for, and still connects them to the county's BH-MCO. The assignment rule is still the county of residence. The member still chooses providers inside the plan's network, and the plan still mails a handbook explaining how to access services and what benefits are available. The four application doors are still COMPASS online, the county assistance office in person, a paper application by mail, or the Consumer Service Center by phone. The hours are still Monday through Friday, 8:00 a.m. to 4:30 p.m. The 988 block is still there — twice in the scrape, once on the page — and the stray phone string beside it is still an artifact, not a second number. This is the fourth identical check in twenty-four days, the shortest gap yet, and the finding is no longer just 'unchanged.' A page that never moves its text still ages: every silent day is a day its currency goes unverified, because the page carries no revision date, no last-updated stamp, no version number — the only dateable fact remains the check date, November 6, 2026. The discipline holds: cite the page with its check date, keep 'may be able to help' a maybe, and never let a steady doorway pretend to be a benefit schedule.",
+      advantage: true,
+      advantageText: 'A Steady Page Still Ages: Cite the Check Date',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · member access guidance, re-verified 2026-11-06, substantively unchanged since 2026-10-13 (guidance, not a rule)',
+        quote: 'Each county in Pennsylvania contracts with a behavioral health managed care organization (BH-MCO) for mental health and drug and alcohol services. You will be assigned a Behavioral Health Managed Care Organization (BH-MCO) based on your county of residence.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS Request Behavioral HealthChoices Services',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STEADY-PAGE TRAP:\\n- 'It has not changed in a month, so it must be current.'\\n- The check date gets dropped because the text feels settled.\\n- 'May be able to help' quietly hardens into a promise in the model.",
+        after: "THE FOURTH-CHECK READ (2026-11-06):\\n- County office route, BH-MCO assignment by residence, in-network choice, mailed handbook, four application channels, 988 block — all unchanged since 2026-10-13.\\n- Four identical checks in 24 days, shortest gap yet (three days) — the streak itself is the new fact.\\n- Still no revision date on the page: the check date IS the version; cite it with the date.\\n- The doubled 988 block and stray phone string persist as scrape artifacts, not second claims.",
+        note: "This 2026-11-06 re-verification changed nothing about the page's contents — the fourth consecutive unchanged check. Silence about updates is not proof of currency: an undated page needs its check date precisely because it never announces a change.",
+      },
+      furtherReading: [
+        { label: 'PA DHS Request Behavioral HealthChoices Services (Official)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4e_mbh',
     },
 
