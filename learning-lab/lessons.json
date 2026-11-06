@@ -1318,6 +1318,32 @@
       ]
     },
     {
+      "id": "chip-directory-still-absent",
+      "title": "CHIP directory re-verified: the row that stayed gone (durable absence)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "chip",
+        "directory-verification",
+        "recheck-discipline",
+        "ncqa-accreditation",
+        "dated-evidence"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-chip-companies"
+      ],
+      "objectives": [
+        "State the 2026-11-06 re-verification finding verbatim: page unchanged since 2026-11-03 (full 63-line read; nine insurers and phones, nine accredited NCQA rows, four accredited Health Equity rows, every date identical), and Keystone First-CHIP still absent from the Health Equity table with no explanation on the page — a second consecutive absence.",
+        "Distinguish a durable absence from a verdict: an absence that survives a recheck is a durable absence, not a one-day glitch, and still not evidence of a lapse — Keystone's NCQA row carries a fresh October 6, 2026 grant, and its equity status stays unknown-from-this-page until NCQA or the MCO confirms it.",
+        "Teach the closing discipline: every Next Due Date in both tables now lies in the future, so the October staleness flags are closed except this one open owner question; quote the four-row ledger as of November 6, 2026, and review_required_before_encoding stays true."
+      ]
+    },
+    {
       "id": "bhc-overview-undated-page",
       "title": "BHC overview re-verified: the undated page (the check date is the version)",
       "path": "visual-journey.html",
