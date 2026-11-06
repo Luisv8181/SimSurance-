@@ -2624,6 +2624,39 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2e_sbs_wyoming',
+    },
+
+    {
+      id: 'u5_p2e_sbs_wyoming',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Document Answers: Wyoming SPA 22-0001, Opened and Read',
+      text: "So I did the thing the last two scenes promised: I opened the document itself. On November 6, 2026, the CMS school-based services index was re-verified and is unchanged since November 4 — same seven technical-assistance resources, same six guidance items, same eight state SPA examples, Wyoming still listed as approved July 18, 2022, still no last-updated stamp. Then I followed the Wyoming link to the approval package itself, and the letter inside settles the argument the index could not. Dated July 18, 2022, signed by James G. Scott, Director of the Division of Program Operations, it says: “Wyoming Medicaid SPA 22-0001 was approved on July 18, 2022, with an effective date of July 1, 2022.” So July 18, 2022 is the approval date and July 1, 2022 the effective date — and the October 14 snapshot's January 6, 2022 is now shown to be a transcription error, corrected in the register with its history preserved rather than quietly overwritten. The package adds real content, not just a date: the amendment lets Wyoming Medicaid reimburse local education agencies for health-related services to Medicaid-eligible students in a school-based setting, paid on a fixed fee schedule — the same rates for governmental and private providers, the rate set as of January 1, 2021 — covering physical therapy, occupational therapy, speech therapy, language disorders and audiology, nursing, and psychological services. Notice the trap inside the correction: that January 1, 2021 fee-schedule date sits in the same package, a different date on a different page, and it is recorded only as a candidate confusion for the October error, never as its asserted cause. And notice what this run did not do: no second load was taken, so the November 4 load anomaly stands untested, and the other seven state SPA documents were not opened. The discipline worked as designed — the conflict was flagged, neither date was quoted or modeled while it stood, and only the underlying document resolved it. A tally of reads never votes a document's date into truth; opening the document does.",
+      advantage: true,
+      advantageText: 'The Document Settles It: Open the Source, Not the Tally',
+      citation: {
+        title: 'Wyoming SPA 22-0001 Approval Package',
+        statute: 'CMS · Wyoming State Plan Amendment 22-0001, approval letter (July 18, 2022)',
+        quote: 'Wyoming Medicaid SPA 22-0001 was approved on July 18, 2022, with an effective date of July 1, 2022.',
+        url: 'https://www.medicaid.gov/medicaid/spa/downloads/WY-22-0001.pdf',
+        urlLabel: 'Wyoming SPA 22-0001 Approval Package (Official PDF)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The October 14 snapshot said Wyoming SPA 22-0001 was approved January 6, 2022; four later reads said July 18, 2022. What settles the conflict?',
+        opts: [
+          'A) Opening the Wyoming SPA approval package itself: its letter, dated July 18, 2022, states the SPA “was approved on July 18, 2022, with an effective date of July 1, 2022” — the document settles it, and the October 14 date is corrected in the register as a transcription error with its history preserved.',
+          'B) The tally: four reads for July 18, 2022 outvote one snapshot for January 6, 2022, so the majority date wins without opening anything.',
+          'C) The index page alone, since it lists July 18, 2022 — an index entry is the approval document.',
+        ],
+        answer: 0,
+        explanation: "Correct! Only the underlying document resolves a transcription conflict: the approval letter is dated July 18, 2022 and states approval on that date with a July 1, 2022 effective date, so July 18, 2022 is established and the October 14 'January 6, 2022' is a transcription error — corrected, not silently overwritten. A tally of reads never votes a date into truth, and an index page is not the approval document.",
+      },
+      furtherReading: [
+        { label: 'Wyoming SPA 22-0001 Approval Package (Official PDF)', url: 'https://www.medicaid.gov/medicaid/spa/downloads/WY-22-0001.pdf' },
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 

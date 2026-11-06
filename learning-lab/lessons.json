@@ -2083,6 +2083,40 @@
       ]
     },
     {
+      "id": "cms-sbs-wyoming-spa-resolved",
+      "title": "Wyoming SPA 22-0001 resolved (2026-11-06): approval document opened — approved July 18, 2022, effective July 1, 2022; October 14 date was a transcription error",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "wyoming-spa-date-conflict",
+        "document-level-resolution",
+        "transcription-error",
+        "fee-schedule-methodology",
+        "index-page-discipline"
+      ],
+      "scene": "u5_p2e_sbs_wyoming",
+      "source": "cms-school-based-services",
+      "summary": "Re-verification of the CMS school-based services index (2026-11-06; page text fetched from the official URL, copy crawled 2026-11-06 22:55 UTC, less than a minute before the read) finds the index UNCHANGED vs 2026-11-04 — same 7 TAC resources, 6 guidance items, 8 state SPA examples, Wyoming still listed as approved July 18, 2022, no last-updated stamp. The standing Wyoming date conflict is RESOLVED this run: the approval package itself was opened and read (medicaid.gov/medicaid/spa/downloads/WY-22-0001.pdf) and its letter, dated July 18, 2022, states verbatim 'Wyoming Medicaid SPA 22-0001 was approved on July 18, 2022, with an effective date of July 1, 2022.' The 2026-10-14 snapshot's 2022-01-06 is a transcription error, corrected in the register with its history preserved. Document-level facts read, not modeled: the amendment lets Wyoming Medicaid reimburse LEAs for health-related services to Medicaid-eligible students in school settings on a fixed fee schedule, same rates for governmental and private providers, rate set as of January 1, 2021; services are physical therapy, occupational therapy, speech/language/audiology, nursing (RN, LPN, APRN), and psychological services. The January 1, 2021 fee-schedule date is recorded as a candidate confusion for the October error, not an asserted cause. No second load was taken, so the 2026-11-04 load anomaly stands untested; the other seven state SPA documents were not opened. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-06",
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "State the 2026-11-06 finding: the CMS school-based services index is UNCHANGED vs 2026-11-04 (7 TAC resources, 6 guidance items, 8 state SPA examples in four groupings, Utah TSIP guide, three cost-report examples, non-endorsement disclaimer, no last-updated stamp).",
+        "State the resolution: the Wyoming SPA approval package was opened and read, and its letter dated July 18, 2022 states verbatim that SPA 22-0001 'was approved on July 18, 2022, with an effective date of July 1, 2022' — July 18, 2022 approved / July 1, 2022 effective is now established.",
+        "Explain the correction discipline: the 2026-10-14 snapshot's 2022-01-06 is a transcription error (no such date appears in the package) and is corrected in the register with its history preserved, not silently overwritten — and a tally of reads never votes a document's date into truth.",
+        "State the document-level facts read, not modeled: Wyoming Medicaid reimburses LEAs for health-related services to Medicaid-eligible students in school settings on a fixed fee schedule, same rates for governmental and private providers, rate set as of January 1, 2021, covering physical therapy, occupational therapy, speech/language/audiology, nursing, and psychological services.",
+        "Name what stays open: the January 1, 2021 fee-schedule date is a candidate confusion for the October error, not an asserted cause; no second load was taken, so the 2026-11-04 load anomaly stands untested; the other seven state SPA documents were not opened; review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-06"
+    },
+    {
       "id": "medicaid-eligibility-gate-recheck2",
       "title": "Medicaid eligibility overview re-verified (2026-11-04): unchanged on re-checked items, spenddown count not re-surfaced and flagged, not promoted",
       "path": "visual-journey.html",
