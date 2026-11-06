@@ -1599,6 +1599,41 @@
         { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5d4_pennieflag',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE PENNIE COLUMN (marketplace availability flag)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5d4_pennieflag',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5d‴: The Pennie Column — A Marketplace Flag Is Not a Sales Fact',
+      text: "One column left on the rate ledger, and it is the easiest to misread — so read it slowly. Re-checked on November 6, the department's page is unchanged for the fourth time running: same two-phase review prose, same 15 individual and 16 small-group rows, every November 3 figure still in place. Now the 'Available on Pennie® Marketplace' column. On the individual market, thirteen of fifteen rows read Yes — the two No rows are Ambetter Health Solutions of Pennsylvania, the brand-new plan with no prior premium to change, and Keystone Health Plan Central. On the small-group market, all sixteen rows read No. Not one small-group plan is listed as available on Pennie. The flag marks whether that row's plan is listed for sale on Pennie's marketplace — a doorway fact, not a sales fact. A No does not mean the plan cannot be bought in Pennsylvania: small-group plans are sold through employers and brokers, off the individual marketplace, and the new Ambetter plan may simply not be listed yet. And a Yes says nothing at all about premiums in dollars, provider networks, or behavioral-health reimbursement — the page carries none of those, for any row. So the discipline is the same as the share column's: read the flag for what it marks — which doorway a plan is sold through — and never let it stand in for a network or rate fact the page does not carry.",
+      advantage: true,
+      advantageText: 'A Marketplace Flag Is Not a Sales Fact',
+      citation: {
+        title: 'ACA Health Rate Filings | PA Insurance Department',
+        statute: 'PA Insurance Department · official rate-filing index (index page, not a rule)',
+        quote: 'This list includes all individual and small group plans under the Affordable Care Act available in Pennsylvania this year.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings',
+        urlLabel: 'ACA Health Rate Filings (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "The filing page's 'Available on Pennie® Marketplace' column shows 13 Yes and 2 No on the individual market, and 16 No on the small-group market. What does that establish for your model?",
+        opts: [
+          'A) A doorway fact: which rows are listed for sale on Pennie. A small-group No does not mean the plan cannot be bought, and a Yes says nothing about premiums, networks, or behavioral-health reimbursement.',
+          'B) The two individual-market No rows are not sold in Pennsylvania at all, and no small-group plan is available to any Pennsylvania employer.',
+          'C) Plans marked Yes on Pennie have verified provider networks and approved premium dollar amounts — the flag is a coverage guarantee.',
+        ],
+        answer: 0,
+        explanation: "Correct! The flag marks the sales doorway, nothing more: individual 13 Yes / 2 No (Ambetter Health Solutions, the new plan, and Keystone Health Plan Central), small-group 16 of 16 No, because small-group plans are sold through employers and brokers, off the individual marketplace. The page carries no premium dollars, no provider directories, and no behavioral-health reimbursement figures — so the flag can never stand in for a network or rate fact.",
+      },
+      furtherReading: [
+        { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5e_covmap',
     },
 
