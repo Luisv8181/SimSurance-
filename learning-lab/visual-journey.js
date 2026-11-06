@@ -1497,6 +1497,38 @@
         { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c4_pennie_steady',
+    },
+
+    {
+      id: 'u1_p5c4_pennie_steady',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c‴: The Door Holds — The First Unchanged Check',
+      text: "Walk back to the door a fourth time, three days later, and for the first time in this streak nothing has moved. The same 99 lines, in the same order. The hero still says: \u201cNow\u2019s the time to find your best health coverage\u201d \u2014 \u201cOpen Enrollment is here!\u201d The \u2018What\u2019s new\u2019 notice is still framed for 2027. The \u2018Find Quick Fixes\u2019 corner is still there. The Medicaid doorway still reads \u2018Coming from Medicaid? Welcome to Pennie! We already have an account set up for you.\u2019 And the three friendly faces still carry the same example Silver prices \u2014 Jalen $85 a month, Gary & Barb $553, the Riveras $595 \u2014 still advertisements, never benchmarks. Here is the discipline this check teaches, and it cuts both ways. First, an unchanged check is still dated evidence: the season framing persists, the doorway wording is stable, the example prices hold \u2014 a \u2018same\u2019 recorded carefully is worth more than a \u2018same\u2019 assumed. Second, stability is not permanence. This same page wore three different heroes in three weeks \u2014 a formal greeting, a warning about surprise bills, an open-enrollment announcement \u2014 and the next check may rotate again when the season ends. So keep dating the quote. The November 3 lines are accurate evidence of November 3 and of November 6. They are not a promise about November 7.",
+      advantage: true,
+      advantageText: 'An Unchanged Check Is Still Dated Evidence',
+      citation: {
+        title: 'Pennie | PA\u2019s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'Pennie is Pennsylvania\u2019s official Health Insurance Marketplace. If you don\u2019t get health insurance through your job, Pennie is the best place to find the coverage that\u2019s right for you.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks pennie.com on November 6. The full 99-line read matches the November 3 snapshot line for line. What may a modeler safely take from that, and what must they still remember?",
+        opts: [
+          'A) The season framing, the Medicaid-exit doorway, and the example prices all persist \u2014 a dated \u2018unchanged\u2019 is real evidence \u2014 but the check date still matters, because this page has already rotated three times in three weeks and may rotate again when the season ends; the persona prices stay advertisements, never benchmarks.',
+          'B) The hero rotated again and now prints the exact open-enrollment deadline, so the dates can be cited from the banner.',
+          'C) That the page is now permanent and no further re-checks are needed, since an unchanged page has proven it will not change.',
+        ],
+        answer: 0,
+        explanation: "Correct! A full-page \u2018same\u2019 is a finding: the open-enrollment hero was not a one-day banner, the doorway wording is stable, and the vignette prices hold at $85 / $553 / $595. But stability is not permanence \u2014 three heroes in three weeks \u2014 so every quote from this page still carries its check date, and the persona prices remain marketing examples, never encodable parameters.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 

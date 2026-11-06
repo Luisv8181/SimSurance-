@@ -1838,6 +1838,38 @@
       "last_verified": "2026-11-03"
     },
     {
+      "id": "pennie-first-unchanged-check",
+      "title": "Pennie re-verified: the open-enrollment hero holds — first unchanged check",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "marketplace",
+        "homepage-rotation",
+        "dated-evidence",
+        "open-enrollment",
+        "page-level-reverification",
+        "stability-as-evidence"
+      ],
+      "scene": "u1_p5c4_pennie_steady",
+      "source": "pennie",
+      "summary": "Re-verification of the Pennie homepage (2026-11-06; page text fetched from the official URL, copy crawled 2026-11-06 18:55 UTC, less than a minute before the read). UNCHANGED vs 2026-11-03 — first unchanged check in the streak: full 99-line read matches the 2026-11-03 snapshot line for line; open-enrollment hero, “What’s new” framed for 2027, “Find Quick Fixes” section, Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, and certified help channels all persist. Vignette prices hold at Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver — illustrative marketing figures, never encodable parameters. The captured page text states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-06",
+      "policy_claims": true,
+      "source_refs": [
+        "pennie"
+      ],
+      "objectives": [
+        "State the 2026-11-06 finding: the Pennie homepage is UNCHANGED vs 2026-11-03 — the first unchanged check in the streak — with the open-enrollment hero, “What’s new” framed for 2027, “Find Quick Fixes”, the Medicaid-exit account-handoff doorway, the marketplace identity sentence, the persona vignettes, and the certified help channels all persisting.",
+        "Teach the two-sided stability discipline: a dated “unchanged” check is real evidence (season framing, doorway wording, and example prices persist), and it is also provisional evidence, because this page has already worn three different heroes in three weeks and may rotate again when the season ends.",
+        "Hold the price and calendar gaps honestly: the vignette prices are identical to 2026-11-03 ($85 / $553 / $595) so no price movement is observed, and the captured page text still states no open-enrollment start or end date, so dates must come from a dated source that actually states them; review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-06"
+    },
+    {
       "id": "bhc-service-access-third-check",
       "title": "BH service-access page re-verified (2026-11-03): the front door, still standing — third unchanged check",
       "path": "visual-journey.html",
