@@ -2200,6 +2200,39 @@
       "last_verified": "2026-11-06"
     },
     {
+      "id": "cms-sbs-second-load",
+      "title": "Second load, November 7, 2026: the November 4 anomaly does not reproduce; the Utah link mismatch reappears — load-dependent",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "load-anomaly",
+        "two-load-verification",
+        "link-target-mismatch",
+        "load-dependent-artifact",
+        "index-page-discipline"
+      ],
+      "scene": "u5_p2f_sbs_secondload",
+      "source": "cms-school-based-services",
+      "summary": "Re-verification of the CMS school-based services index (2026-11-07) with TWO independent loads this run (text fetch, copy crawled 2026-11-07 22:55 UTC, less than a minute before the read; live-browser rendered read 22:56-22:58 UTC) finds the index UNCHANGED vs 2026-11-06 — same 7 TAC resources, 6 guidance items, 8 state SPA examples, Wyoming still listed as approved July 18, 2022, no last-updated stamp on either load. The 2026-11-04 load anomaly is TESTED and does not reproduce: two agreeing loads in one run is the test the 2026-11-06 snapshot left open, now taken; the divergent version stands as a single unreproduced event, cause still undetermined, values still not recorded as page content. The Utah link-target mismatch REAPPEARS on the live-browser load: the link text reads 'Utah SPA 21-0009' but its href is UT-21-0019.pdf, and the link's own description reads UT-21-0019; present on the Nov 4 first load, absent on the Nov 4 confirming reload and Nov 6, present again today — load-dependent, twice each way across four observations, not a stable artifact. Neither the 0009 nor the 0019 file was opened, so no claim is made about which is the correct Utah document; resolving it is the owner's call. The other seven state SPA documents were NOT opened. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-07",
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "State the 2026-11-07 finding: two independent loads (text fetch 22:55 UTC; live browser 22:56-22:58 UTC) agree exactly — the CMS school-based services index is UNCHANGED vs 2026-11-06 (7 TAC resources, 6 guidance items, 8 state SPA examples in four groupings, Utah TSIP guide, three cost-report examples, non-endorsement disclaimer, no last-updated stamp on either load; Wyoming still July 18, 2022).",
+        "State the anomaly test result: the 2026-11-04 divergent first load does NOT reproduce — the divergent version has now failed to reproduce on every confirming load since (Nov 4 reload, Nov 6, both Nov 7 loads) and stands as a single unreproduced event, cause still undetermined, its values still not recorded as page content.",
+        "State the Utah mismatch finding and its limit: on the live-browser load the 'Utah SPA 21-0009' link text points to UT-21-0019.pdf (href and link description both read UT-21-0019); present on two of four observations, so load-dependent, not a stable artifact; neither file was opened, so no claim is made about which file is the correct Utah document and the link must not be followed by its label alone.",
+        "Name what stays open: resolving which Utah file is authoritative is the owner's call; the other seven state SPA documents were not opened; review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-07"
+    },
+    {
       "id": "medicaid-eligibility-gate-recheck2",
       "title": "Medicaid eligibility overview re-verified (2026-11-04): unchanged on re-checked items, spenddown count not re-surfaced and flagged, not promoted",
       "path": "visual-journey.html",

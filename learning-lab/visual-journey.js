@@ -2821,6 +2821,41 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2f_sbs_secondload',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE SECOND LOAD (anomaly tested, Utah link re-checked, 2026-11-07)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2f_sbs_secondload',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Second Load: The Anomaly, Tested',
+      text: "Yesterday's scene ended with a loose thread I promised to pull: the November 4 load anomaly — two loads of this same index, minutes apart, showing different SPA numbers and different guidance. Today I pulled it, with two independent loads of my own. Load one: a text fetch, crawled 10:55 PM UTC, less than a minute before I read it. Load two: the rendered page in a live browser, 10:56 to 10:58 PM. They agree on everything: same seven technical-assistance resources, same six guidance items, same eight state SPAs in the same four groupings — Arizona 21-0006, Colorado 19-0021, Illinois 21-0008, New Mexico 22-0004, Utah 21-0009, Oregon 19-0011, Nevada 19-0005, Wyoming 22-0001, all with the same approval dates — same Utah time-study guide, same three cost reports, same disclaimer, and still no last-updated stamp on either load. The divergent version from November 4 has now failed to reproduce on every confirming load since: the November 4 reload, November 6, and both loads today. So the anomaly stands as a single unreproduced event, its cause still undetermined, its values still not recorded as page content. That is what two agreeing loads buy you — not certainty about what happened on November 4, but a tested answer to the question the last scene left open. But the second load also surfaced something the first could not see. A text fetch does not expose link targets, and the live browser does: the link that reads “Utah SPA 21-0009” points to a file named UT-21-0019.pdf, and the link's own description reads UT-21-0019 too. The mismatch was there on the November 4 first load, gone on the November 4 confirming reload and on November 6, and back again today — twice each way across four observations. So it is load-dependent, not a stable artifact, and neither file has been opened, so this workbook claims nothing about which file is the correct Utah document. Do not follow a link by its label alone. A page can be unchanged in every word you can read and still hand you a different destination than its label promises — and the only way to know is to look at the target, not the text.",
+      advantage: true,
+      advantageText: 'Two Loads, One Answer: Test the Anomaly, Read the Target',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · Medicaid school-based services index (official page, page-level check only)',
+        quote: 'linking to a non-United States Government website does not constitute an endorsement by CMS, HHS, or any of their employees of the sponsors or the information and/or any products presented on the website.',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two independent loads of the CMS school-based services index today agree on every SPA number and date, yet the live-browser load shows the “Utah SPA 21-0009” link pointing to UT-21-0019.pdf. What does that establish?',
+        opts: [
+          'A) The page changed today — the two loads disagree, so the November 4 anomaly is confirmed as a real page change.',
+          'B) The index content is stable across two independent loads, so the November 4 divergent version stands as a single unreproduced event; but the Utah link mismatch is load-dependent — present on two of four observations — and since neither the 0009 nor the 0019 file was opened, nothing is claimed about which file is correct.',
+          'C) The Utah link proves the page lists the wrong SPA number, so the workbook should correct Utah to 21-0019.',
+        ],
+        answer: 1,
+        explanation: "Correct! Two agreeing loads test the anomaly — it does not reproduce — while the Utah href mismatch reappearing on the live load shows a page can be unchanged in its readable words and still hand you a different destination than its label promises. The mismatch is load-dependent, twice each way, and neither file was opened, so no claim is made about which Utah document is correct.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
 
