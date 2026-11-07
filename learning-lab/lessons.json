@@ -2084,6 +2084,33 @@
       ]
     },
     {
+      "id": "medicaid-managed-care-recheck3",
+      "title": "Managed care doorway re-verified (2026-11-07): three full reads agree; a streak confirms today, not October",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "managed-care",
+        "capitation",
+        "care-coordination-initiatives",
+        "evidence-discipline",
+        "full-page-diff"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "medicaid-gov-managed-care"
+      ],
+      "objectives": [
+        "State the 2026-11-07 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-04 full read verbatim and in order (definition plus per-member-per-month capitation; costs/utilization/quality objectives; state care-coordination initiatives).",
+        "Explain what three consecutive full reads upgrade and what they do not: the initiatives paragraph is now confirmed across three full reads over six days, the strongest statement this page's verification record can make about current content, but it remains overview language, never an authority, a rate, or an enrollment figure.",
+        "State what stays unresolvable: whether the page changed between 2026-10-15 and 2026-11-01, because the October 15 snapshot quoted only the first paragraph and no full-page October capture exists to diff.",
+        "Name what the page still does not establish: any federal managed-care authority text, any enrollment-share figure, any last-updated date, and the content of sidebar links and linked documents (not followed this run); a fourth check could still find a change on the seventh day."
+      ]
+    },
+    {
       "id": "cms-sbs-two-loads",
       "title": "School-based services index re-verified (2026-11-04): unchanged since November 1, with a same-day load anomaly flagged, not promoted",
       "path": "visual-journey.html",
