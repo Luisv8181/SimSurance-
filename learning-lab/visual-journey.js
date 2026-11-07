@@ -1049,6 +1049,38 @@
         { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_recheck3_still',
+    },
+    {
+      id: 'u1_p4_prov_recheck3_still',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e, Third Recheck: Still — Five Days Without a Move',
+      text: "Three days after the last check, I opened the provider page again, and for the second check in a row, nothing moved. The text is still 1,175 lines, the framing sentences are word-for-word the same — each county contracts with an MCO, each consumer is assigned a BH-MCO by county of residence — and the eligibles map still totals 2,764,063 lives. I listed all sixty-seven counties by name again and added them by hand a second time: they sum to exactly 2,764,063, so the total is consistent with its own table on two independent enumerations now. Both duplicate pairs persist: Montgomery and Northampton still both print 112,070, a flag now three checks old, and Indiana and Lawrence still both print 16,168, both Carelon. The fee schedule has now stood still across four checks — October 17, November 2, November 4, November 7 — 2.0WM still $106.35 an hour, 3.7WM still $415.24 a day, still headed 'Rates Effective January 1, 2026.' The long HCBS gap-payments table is still there, same shape, ending at the same 'FAQs - Behavioral Health Workforce Gap Payment' heading. The map moved once, on November 2, and has held for five days since — but hold on the page, not on the program: this page carries no revision date, no last-updated stamp, no version, so the streak proves the page has not moved, not that it is current. A directory you quote is a directory you date, and this one is dated November 7, 2026.",
+      advantage: true,
+      advantageText: 'Stability Is Not Currency',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS · provider-facing overview (directory, not a rule; re-verified 2026-11-07 — unchanged, second consecutive still check; total and ASAM fees unchanged)',
+        quote: 'Once you are enrolled with the MCO, you continue to have choices as to who provides your services.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-07 the provider page is unchanged for the second consecutive check — same 1,175-line text, same total 2,764,063 hand-summed from all 67 rows a second time, both duplicate pairs persisting, all seven ASAM fees identical for a fourth consecutive check. What does this establish?',
+        opts: [
+          'A) That the page is now current and the figures can be encoded as rules without further review.',
+          'B) That the page has not moved since 2026-11-02 — the map total held for five days, the fee schedule for four checks — but the page carries no revision date, so stability is not currency: quote it only with the 2026-11-07 check date, keep both duplicate pairs flagged for the owner, and keep review_required_before_encoding true.',
+          'C) That the duplicate pairs must now be corrected, since a third check confirms they are errors.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 7 re-verification is a full-page read (1,175 lines, crawled under a minute before the read) matching the November 4 snapshot: same framing sentences, same map heading, same total 2,764,063 hand-summed from all 67 county rows a second time to exactly the stated total, and all seven ASAM fees identical for a fourth consecutive check. Montgomery/Northampton 112,070 persists into a third check and Indiana/Lawrence 16,168 (both Carelon) into a second, with the total still reconciling — so both pairs stay flagged for the owner, never silently corrected. And the streak proves the page has not moved, not that it is current: with no revision date anywhere on the page, the check date is the version, and nothing here is encoded as a rule.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {

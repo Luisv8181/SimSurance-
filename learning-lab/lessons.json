@@ -2265,6 +2265,41 @@
       ]
     },
     {
+      "id": "bhc-providers-five-day-still",
+      "title": "BHC providers page re-verified (2026-11-07): unchanged a second straight check, map held five days, fees steady four checks",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-providers",
+        "eligibles-map",
+        "duplicate-values",
+        "full-enumeration",
+        "dated-directory",
+        "stability-vs-currency",
+        "re-verification"
+      ],
+      "scene": "u1_p4_prov_recheck3_still",
+      "source": "pa-dhs-bhc-providers",
+      "summary": "Re-verification of the PA DHS Behavioral HealthChoices providers page (2026-11-07; page text fetched from the official URL, copy crawled 2026-11-07 14:55 UTC, less than a minute before the read). Full-page read (1,175 lines) matches the 2026-11-04 snapshot: same framing sentences, same map heading, same eligibles total 2,764,063, hand-summed a second time from all 67 county rows to exactly the stated total. Both duplicate pairs persist - Montgomery/Northampton 112,070 (third check) and Indiana/Lawrence 16,168, both Carelon (second check) - flagged for the owner, never corrected here. All seven ASAM fees identical for a fourth consecutive check (2026-10-17, 2026-11-02, 2026-11-04, 2026-11-07). HCBS gap-payments ledger still present, same structure, ending at the 'FAQs - Behavioral Health Workforce Gap Payment' heading. Map has now held five days since it moved 2026-11-02; page still carries no revision date, last-updated stamp, or document version, so stability is not currency and the check date is the version. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-07",
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-providers"
+      ],
+      "objectives": [
+        "State the 2026-11-07 finding: the PA DHS Behavioral HealthChoices providers page is unchanged since 2026-11-04 - same 1,175-line text, same framing sentences, same map heading, same eligibles total 2,764,063, all seven ASAM fees identical for a fourth consecutive check.",
+        "State the enumeration result: all 67 county rows listed by name a second time (67 unique names, no gaps) hand-sum to exactly 2,764,063, matching the page's stated total on two independent enumerations.",
+        "State the two duplicate-value pairs and their persistence: Montgomery and Northampton both 112,070 (flag now three checks old) and Indiana and Lawrence both 16,168 (both Carelon, second check), with the total still reconciling - flagged for the owner, never silently corrected.",
+        "Teach stability vs currency: the map moved once on 2026-11-02 and has held five days since, but the page carries no revision date, last-updated stamp, or document version, so the streak proves the page has not moved, not that it is current - the check date is the version.",
+        "Name what the page does not establish: any payment rule (the ASAM PDF is still unopened, applicability unchecked), provider acceptance, or per-case benefits or payment."
+      ],
+      "last_verified": "2026-11-07"
+    },
+    {
       "id": "rate-guide-recheck2",
       "title": "The window decides the guide: three reads, same index, one boundary date",
       "path": "visual-journey.html",
