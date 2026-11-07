@@ -1398,6 +1398,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b5_parity_timeline',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b'''': FROM DOLLAR LIMITS TO THE FULL COMPARATOR — HOW PARITY LAW GREW
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b5_parity_timeline',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b⁗: From Dollar Limits to the Full Comparator — How Parity Law Grew',
+      text: "Parity did not arrive all at once — it grew in layers, and a model that only knows the 2008 law will misdate everything before it. Start in 1996: the Mental Health Parity Act provided that large group health plans cannot impose annual or lifetime dollar limits on mental health benefits that are less favorable than any such limits imposed on medical/surgical benefits. Dollar caps only — no copays, no visit limits, no substance-use coverage at all. Then 2008: the Paul Wellstone and Pete Domenici Mental Health Parity and Addiction Equity Act preserves those protections and adds significant new ones, extending parity to substance use disorders and to financial requirements like coinsurance and copays and treatment limitations like visit limits. The rulebook followed in two steps: an interim final regulation in February 2010, then a final regulation published November 13, 2013, effective January 13, 2014, generally applying to plan years beginning on or after July 1, 2014. And the enforcement muscle is the newest layer: the Consolidated Appropriations Act of 2021 requires plans imposing non-quantitative treatment limitations to perform and document comparative analyses — and beginning 45 days after enactment, to make those analyses available to the Departments or applicable State authorities upon request. So when your simulator dates a parity rule, ask which layer it belongs to: a 1997 dollar-cap case is a 1996-law case, a visit-limit case is a 2008-law case, and a hidden-rule case is a 2021 comparative-analysis case. Laws have birthdays, and models that ignore them invent rules that did not exist yet.",
+      advantage: true,
+      advantageText: 'Laws Have Birthdays: Date the Rule Before You Model It',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. MHPA 1996 history & 2013 regulation (page-level review)',
+        quote: 'Prior to the passage of MHPAEA, the Mental Health Parity Act of 1996 (MHPA) provided that large group health plans cannot impose annual or lifetime dollar limits on mental health benefits that are less favorable than any such limits imposed on medical/surgical benefits.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "A large group plan in 1997 capped lifetime mental-health dollars well below its medical/surgical lifetime cap, and charged higher copays for therapy than for office visits. Which law governed that dispute, and what did it actually cover?",
+        opts: [
+          'A) The Mental Health Parity Act of 1996 — it barred less favorable annual or lifetime dollar limits on mental-health benefits in large group plans, but it did not reach copays, visit limits, or substance-use benefits; those came with MHPAEA in 2008.',
+          'B) MHPAEA of 2008 — it applied retroactively to 1996 and already covered copays, visit limits, and substance-use benefits.',
+          'C) The Consolidated Appropriations Act of 2021 — it created the dollar-limit rule and required comparative analyses of non-quantitative treatment limitations.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page states the 1996 act covered only annual or lifetime dollar limits for large group health plans. MHPAEA (2008) preserved those protections and added significant new ones — extending parity to substance use disorders and to financial requirements and treatment limitations. The comparative-analysis duty is the newest layer, added by the CAA of 2021, which requires plans to make their analyses available to the Departments or applicable State authorities upon request beginning 45 days after enactment. And the regulation dates matter too: the final regulation was published November 13, 2013, effective January 13, 2014, generally applying to plan years beginning on or after July 1, 2014.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 
