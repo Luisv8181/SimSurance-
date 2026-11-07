@@ -2146,6 +2146,40 @@
       ]
     },
     {
+      "id": "medicaid-eligibility-gate-recheck3",
+      "title": "Medicaid eligibility overview re-verified (2026-11-06): two independent reads resolve both 2026-11-04 flags as extraction differences; the 5% disregard sentence is newly suspended",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "medicaid-eligibility",
+        "gate-floor",
+        "magi",
+        "retroactivity",
+        "spenddown-count-restored",
+        "five-percent-disregard-suspended",
+        "extraction-method-discipline",
+        "version-corroboration",
+        "two-reader-rule"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-medicaid-eligibility-policy"
+      ],
+      "scene": "u5_p2b3_gate_recheck3",
+      "source": "cms-medicaid-eligibility-policy",
+      "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-06; two independent reads minutes apart - text fetch, copy crawled 2026-11-07 02:55 UTC, and live browser read 02:56-02:57 UTC - agreeing on every item). BOTH 2026-11-04 flags resolved as extraction differences, page unchanged: the 36-states-plus-DC spenddown count is present verbatim in both reads, so the suspension is lifted and the count is quotable again dated 2026-11-06; retroactivity is the 2026-11-02 wording and the MAGI no-varying-disregards half-sentence is back in full. NEW SUSPENSION in the other direction: the 5% MAGI disregard / 138% FPL sentence quoted 2026-11-04 appears in neither of today's reads and was never in the 2026-11-02 text fetch - one read claims it, three cannot find it, so it is quoted 2026-11-04 only and quoted as current by nobody until a second independent read finds it; not declared removed. The 2026-11-04 scene's 5%/138% line stands as shipped history; the correction lives in this lesson and the 2026-11-06 snapshot. Still no last-updated date; 77.9-million figure still undated; CIB appendix still present.",
+      "objectives": [
+        "State the 2026-11-06 finding: two independent reads (text fetch and live browser read) agree the spenddown count is present verbatim, retroactivity is the 2026-11-02 wording, and the MAGI no-varying-disregards half-sentence is back in full - both 2026-11-04 flags were extraction differences, not page changes, and the count suspension is lifted.",
+        "Explain the new suspension: the 5% MAGI disregard / 138% FPL sentence quoted 2026-11-04 appears in neither of today's reads and was never in the 2026-11-02 text fetch, so it is quoted 2026-11-04 only and quoted as current by nobody until a second independent read finds it; it is not declared removed, and the 133% FPL expansion option and the no-asset-test rule are untouched.",
+        "Apply the two-reader rule: a single reader can drop a sentence and surface a sentence no other reader finds in the same sitting, so two agreeing reads settle a flag and one read never does; a snapshot's silence is not evidence of absence.",
+        "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; the 77.9-million figure's currency; the MAGI 5% disregard / 138% FPL formulation as of today; or any rule - page-level verification only, no rules encoded."
+      ]
+    },
+    {
       "id": "bhc-providers-twin-counts",
       "title": "BHC providers page re-verified (2026-11-04): unchanged, with a second identical county pair newly noticed on full enumeration",
       "path": "visual-journey.html",

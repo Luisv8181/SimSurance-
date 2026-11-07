@@ -2499,6 +2499,37 @@
         { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate_recheck3',
+    },
+    {
+      id: 'u5_p2b3_gate_recheck3',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Fourth Reading: The Count Comes Back',
+      text: "I came back to the gate a fourth time, two days after the third reading — and this time I brought a second reader, because the third reading left two loose threads. First, the count that went missing. The November 4 browser read could not find the thirty-six-states-plus-DC spenddown count anywhere in the medically-needy section, so I suspended it. Today I read the page twice, two different ways — a text fetch and a live browser read, minutes apart — and both find it, word for word: 'Thirty-six states and the District of Columbia use spenddown programs, either as medically needy programs or as 209(b) states.' The count was never removed; the November 4 read dropped it. The suspension is lifted: the count is quotable again, dated November 6, from two agreeing reads. The same pair of reads settles the retroactivity wording too: the sentence is the November 2 form, 'Benefits also may be covered retroactively for up to three months prior to the month of application, if the individual would have been eligible during that period had he or she applied.' — the November 4 variant was the extraction's paraphrase, not an edit. And the MAGI half-sentence about disregards varying by state is back in full: 'The MAGI-based methodology does not allow for income disregards that vary by state or by eligibility group and does not allow for an asset or resource test.' But the second thread cuts the other way. The November 4 scene also quoted a five percent MAGI disregard making the limit 138% of poverty for most adults. Neither today's text fetch nor today's live browser read finds any such sentence anywhere on the visible page — and the November 2 text fetch never had it either. One read claims it; three reads cannot find it. So that sentence is now suspended the same way the count was: quoted November 4 only, quoted as current by nobody, until a second independent read finds it again. Note what this does not touch: the 133% FPL expansion option is still on the page in plain text, and the no-asset-test rule is still there. The lesson is not 'the page changed.' The lesson is that a reader — even a careful one, even me — can drop a sentence and surface a sentence no other reader finds, in the same sitting, and only a second reader, using a different method, catches either failure. The gate is still a federal floor with fifty state locks, and the check date is still the only version this undated page has.",
+      advantage: true,
+      advantageText: 'Two Readers Beat One: A Count Restored, a Sentence Suspended',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; re-verified 2026-11-06, two independent reads)',
+        quote: 'Thirty-six states and the District of Columbia use spenddown programs, either as medically needy programs or as 209(b) states.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Today two independent reads agree: the 36-states-plus-DC spenddown count is back, word for word, and the 5% disregard / 138% sentence quoted November 4 appears in neither read. What may you record?',
+        opts: [
+          'A) The count is confirmed current and the 5% sentence is confirmed removed from the page.',
+          'B) The count is quotable again, dated November 6, from two agreeing reads; the 5% sentence is suspended — quoted November 4 only, quoted as current by nobody, until a second independent read finds it again.',
+          'C) Both sentences are current, since the mechanism description is unchanged.',
+        ],
+        answer: 1,
+        explanation: "Correct! Two agreeing reads settle the count: it was never removed, the November 4 read dropped it, and the suspension is lifted. The 5% sentence goes the other way — one read claims it, three reads (November 2 text fetch, November 6 text fetch, November 6 live browser read) cannot find it, so it is suspended, not declared removed and not quoted as current. The November 4 scene's 5%/138% line stands as shipped history; the correction lives here, in this scene and the November 6 snapshot. The 133% FPL expansion option and the no-asset-test rule are untouched.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {
