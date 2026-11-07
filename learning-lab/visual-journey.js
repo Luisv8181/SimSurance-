@@ -1807,6 +1807,41 @@
     },
 
     // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE CENSUS (all fifteen footprints counted, 2026-11-07)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e4_covcensus',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 5e, Continued Once More: The Census',
+      text: "Three days after the recount I came back to the map room a third time — and this time I counted everything, not just the one list that was in dispute. Re-verified November 7, 2026, the Insurance Department page is substantively unchanged since November 4: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. Then the census, every issuer's text list counted from today's live page: Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2. No list repeats a county name inside itself. Thirteen of the fifteen lists run in alphabetical order; the two exceptions — Capital Advantage and Keystone Health Plan Central — share the same non-alphabetical order, because the two lists are identical. And four pairs of issuers list exactly the same county set: Geisinger Health Plan and Geisinger Quality Options at 44, Capital Advantage and Keystone Central at 21, Health Partners and Partners at 9, Keystone East and QCC at 5. That is a fact about the page's text lists — it is not evidence the paired plans are the same product, the same filing, or the same network, and this workbook claims none of that. UPMC Health Options now counts 51 for the third consecutive check, November 1 by hand, November 4 and November 7 name by name. Footprints run from two counties to fifty-one. What is still NOT done: the linked map images have not been counted, so the text-versus-map reconciliation stays open, and the workbook's earlier fifty-two is contradicted three times over and still left visible for the owner to correct, not quietly rewritten. A census does not close a flag — it makes the flag precise.",
+      advantage: true,
+      advantageText: 'Census Discipline: Count Everything, Claim Only the Text',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department \u00b7 archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'The coverage maps show plan coverage for a past year. The information is updated annually. For current plan coverage visit the ACA Health Rate Filing home page.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 7 census counts all fifteen issuers\u2019 text lists on the archived 2026 coverage page. Four pairs of issuers list exactly the same counties, and UPMC Health Options counts 51 for the third consecutive check. What does that establish?',
+        opts: [
+          'A) The four identical pairs are the same plan under two names — the workbook can merge them.',
+          'B) The text-list census is auditable — every count checkable against the page — and 51 is thrice-confirmed for UPMC Health Options; but identical lists are a fact about the page\u2019s text, not proof the plans are the same product, and the map images are still uncounted, so the earlier 52 stays flagged for the owner.',
+          'C) The census settles the footprint question completely — no further check is needed.',
+        ],
+        answer: 1,
+        explanation: "Correct! The census is a text-list count, and every number in it can be re-derived from the page — that is what makes it auditable. Identical county sets under two issuer names say nothing about whether the plans, filings, or networks are the same, and the flag's original condition — reconciliation against the map images — is still unmet, so the workbook's earlier 52 stays flagged for the owner rather than silently corrected.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
+      next: 'u2_p1',
+    },
+
+    // -------------------------------------------------------------
     // UNIT I EXTENSION: THE RECOUNT (coverage-map text list enumerated, 2026-11-04)
     // -------------------------------------------------------------
     {
@@ -1838,7 +1873,7 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
-      next: 'u2_p1',
+      next: 'u1_p5e4_covcensus',
     },
 
     // -------------------------------------------------------------
