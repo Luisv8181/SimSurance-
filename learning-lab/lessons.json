@@ -1802,6 +1802,40 @@
       "last_verified": "2026-11-05"
     },
     {
+      "id": "systems-management-recheck3",
+      "title": "The quiet page: four reads, twenty-four days, one check date (systems-management re-verified 2026-11-08)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "encounter-data",
+        "omhsas-systems-management",
+        "source-verification",
+        "snapshot-discipline",
+        "reserved-placeholder",
+        "undated-page-discipline",
+        "synthetic-population-boundary"
+      ],
+      "scene": "u3_p2_data_recheck3",
+      "source": "pa-dhs-bhc-systems-management",
+      "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-08; page text fetched from the official URL, 253 lines, copy crawled 2026-11-08 22:55 UTC, <1 min before the read). Page UNCHANGED section by section since 2026-11-05: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), now five months old, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same four Reserved rows (2021-003, 2021-007, 2021-008, CCRI 2022–001), same Provider Type 07 capitation forms. Fourth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08), 24-day streak. NEW page-level observation: the full read shows no revision date, last-updated stamp, or document version anywhere on the page — like the CMS rate-guidance index, the check date is the only version the citation has. The page's own typo 'Sub-Capitation Paymen' survives a fourth read, a fingerprint the page has not been touched. The newest validation evidence on the page (2023 EDV studies) is now two years old; linked EDV-study PDFs not read, findings unknown. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-08",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-systems-management"
+      ],
+      "objectives": [
+        "State the 2026-11-08 finding: the systems-management page is unchanged since 2026-11-05 (same 253-line fetch, same newest notice OMHSAS-2026-001, June 9, 2026, same EDV/on-site review years) — the fourth identical check in a 24-day streak.",
+        "Apply the undated-page discipline: the full read shows no revision date, last-updated stamp, or version anywhere on the page, so the check date is the only version the citation has — cite as 'current as of the 2026-11-08 re-read.'",
+        "Teach the fingerprint check: the surviving typo 'Sub-Capitation Paymen' across four reads is evidence the page has not been touched between reads.",
+        "Hold the standing limits: the four Reserved rows are still counted as nothing, the 2023 EDV-study PDFs remain unopened so their findings are unknown, and nothing here becomes a simulator parameter."
+      ],
+      "last_verified": "2026-11-08"
+    },
+    {
       "id": "bhc-overview-recheck",
       "title": "PA DHS Behavioral HealthChoices overview re-verified (2026-11-03): unchanged since 2026-10-10, still undated",
       "path": "visual-journey.html",

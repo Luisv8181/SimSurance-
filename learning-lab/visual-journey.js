@@ -2256,6 +2256,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck3',
+    },
+    {
+      id: 'u3_p2_data_recheck3',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 The Quiet Page: Four Reads, Twenty-Four Days',
+      text: "Three days after the last check, I opened the systems-management page again \u2014 and nothing had moved a fourth time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice \u2014 OMHSAS-2026-001, June 9, 2026, now five months old \u2014 same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Four identical checks now: October 15, November 2, November 5, November 8 \u2014 a twenty-four-day streak. The page even keeps the same small typo, \u201cSub-Capitation Paymen,\u201d which is useful: a typo that survives four reads is a fingerprint that the page truly has not been touched. And here is the second discipline this page teaches. Look for a revision date, a last-updated stamp, a version number \u2014 the full read has none. Like the CMS rate-guidance index, this page carries no date of its own, so the check date is the only version the citation has: current as of the November 8 re-read, and nothing more. The four Reserved rows are still there, still counted as nothing. The newest validation evidence is still the 2023 EDV studies, and their PDFs are still unopened, so their findings are still unknown. A page that never moves is not proof the program is current \u2014 it is only proof the page is still. Nothing here becomes a simulator parameter. What the fourth check changes is only the date \u2014 and the length of the silence.",
+      advantage: true,
+      advantageText: 'The Check Date Is the Version: Cite an Undated Page by Its Re-Read',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-08 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'The Division of Systems Management objective is to ensure eligible individuals can access behavioral health services covered by Medicaid and County Base-Funded Mental Health.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-08 the systems-management page is unchanged for the fourth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08), and the full 253-line read shows no revision date, last-updated stamp, or version anywhere on the page. How should a researcher cite it?',
+        opts: [
+          'A) As "current as of the 2026-11-08 re-read" \u2014 the check date is the only version the citation has, since the page carries no date of its own.',
+          'B) As current as of June 9, 2026, the date of the newest systems notice, because that is the page\u2019s latest date.',
+          'C) As undated and therefore unusable \u2014 an undated page can never be cited.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 8 re-verification is section by section against the 2026-11-05 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews \u2014 the fourth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08). The page carries no revision date, last-updated stamp, or version, so the check date is the version; the June 9 notice date is the date of one document, not of the page. The surviving typo \u201cSub-Capitation Paymen\u201d is a fingerprint the page has not been touched. The four Reserved rows are still counted as nothing, the EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {
