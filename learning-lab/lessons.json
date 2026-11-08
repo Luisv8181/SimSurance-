@@ -2027,6 +2027,40 @@
       "last_verified": "2026-11-05"
     },
     {
+      "id": "bhc-publications-recheck3",
+      "title": "BHC publications index re-verified (2026-11-08): unchanged for the third straight check; table count agrees a third time; General Publications shelf absent a fourth time — owner question now due",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-publications",
+        "source-verification",
+        "independent-recount",
+        "funding-availability-marks",
+        "missing-section-flag",
+        "owner-question"
+      ],
+      "scene": "u1_p4g_pubs5_ownerq",
+      "source": "pa-dhs-bhc-publications",
+      "summary": "Full-page re-verification (274 lines) finds the publications index substantively unchanged since 2026-11-05 — the third straight check with no movement: same OMHSAS shelves, same CFR 438.332 paragraph, same EQR reports ending 2023 (still no 2024 report), children's-services table still stamped 'Last updated: October 2026'. A third fresh hand count of the 55-row table reproduces the 2026-11-03 and 2026-11-05 tallies exactly (31 both-X, 20 managed-care-only, 4 blank), with the PCIT split and the blank rows unchanged. OWNER QUESTION NOW DUE: the General Publications shelf recorded 2026-10-14 is absent for a fourth consecutive full-page check (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08) — the 2026-11-05 snapshot set the deadline that the question goes to the owner outright at this check. Do not conclude the documents were removed; the shelf may have moved. Until the owner answers, the 2026-10-14 shelf contents (ASAM rates, 2026 FRR, PSR, 2026 Member Handbook) are treated as unverified from this index.",
+      "verified": "2026-11-08",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State the 2026-11-08 re-verification finding: the publications index is substantively unchanged since 2026-11-05, with the children's-services table still stamped 'Last updated: October 2026' and EQR reports still ending 2023.",
+        "Teach recount discipline: a third fresh hand count reproducing the same tally exactly (55 rows: 31 both-X, 20 managed-care-only, 4 blank) is the strongest evidence yet the table is stable, not merely unread.",
+        "Teach that a flag with a deadline is a promise: the 2026-11-05 snapshot set the escalation deadline in writing, and this check — the fourth consecutive absence — is the day it comes due, so the owner question goes out outright rather than riding along as a standing note.",
+        "Flag honestly: the General Publications shelf recorded 2026-10-14 is absent for a fourth consecutive full-page check — treat as possibly moved, not as evidence the documents were removed, and treat the shelf contents as unverified from this index until the owner answers.",
+        "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+      ],
+      "last_verified": "2026-11-08"
+    },
+    {
       "id": "mh-parity-no-mandate",
       "title": "Parity is a comparator, not a mandate: the coverage the law does not require",
       "path": "visual-journey.html",

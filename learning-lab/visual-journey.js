@@ -1331,6 +1331,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs5_ownerq',
+    },
+    {
+      id: 'u1_p4g_pubs5_ownerq',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Fourth Absence — The Question Goes to the Owner',
+      text: "Glim re-checked the publications vault on 2026-11-08 — three days after the last visit — and the page had not moved. Same OMHSAS shelves, same accreditation paragraph, same quality-review reports ending in 2023 with still no 2024 report, and the children's-services table still stamped 'Last updated: October 2026.' That is the third straight check with no movement, and the table was counted a third time, by hand, row by row: fifty-five rows, thirty-one with X in both funding columns, twenty managed-care-only, four with no X at all — the exact same numbers as November 3 and November 5. Three counts on three different days, one answer. The PCIT split is still there, the Partial Hospitalization duplicates still agree, the blank rows are still blank. But today the story is not the table. It is the shelf that is not there. The General Publications section recorded on 2026-10-14 — the ASAM rates, the 2026 Financial Reporting Requirements, the PSR and its appendices, the 2026 Member Handbook — has now failed to appear in four consecutive complete reads: October 17, November 3, November 5, and today. The last check set the rule in writing: if the shelf had not reappeared by this check, the question goes to the owner outright instead of riding along as a standing note. That day is today. So here is the discipline this scene teaches: a flag with a deadline is a promise, and a promise kept is what separates a notebook from a rumor mill. Do not conclude the documents were deleted — the vault may have been rearranged, the shelf moved to another page, or the section may render outside the extract. But do not keep carrying the absence silently either. The owner question is now open: open the live page and check whether General Publications lives elsewhere, and whether those documents are still reachable from a DHS index, before citing any of them from this one. Until the owner answers, the 2026-10-14 shelf contents are treated as unverified from this index. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'A Flag With a Deadline Is a Promise — And This One Came Due',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-11-08; children\'s-services table still stamped "Last updated: October 2026" (index page, not a rule)',
+        quote: 'Availability varies by geographic area and funding source. Please check with the BH-MCO if you’re a Medicaid enrollee for availability of services within your area.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The General Publications shelf recorded 2026-10-14 is now absent from a fourth consecutive complete read of the DHS publications index, and the last check set a deadline: if it had not reappeared by this check, the question goes to the owner. What is the correct move now?',
+        opts: [
+          'A) Ask the owner outright: open the live page and check whether General Publications moved to another page, and treat the 2026-10-14 shelf contents as unverified from this index until answered — do not conclude the documents were deleted.',
+          'B) Conclude the documents were deleted — four absences is proof — and remove every citation to the ASAM rates, 2026 FRR, PSR, and 2026 Member Handbook from the registry.',
+          'C) Keep carrying the absence as a standing note for another few checks — the shelf will probably reappear on its own, and asking the owner now would waste his time.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-11-08 re-verification is the fourth consecutive complete read (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08) without the General Publications shelf, and the 2026-11-05 snapshot set the deadline in writing: the owner question goes out at this check. Absence from an extract proves nothing about deletion — the shelf may have moved — so the right move is an explicit owner question, with the 2026-10-14 shelf contents treated as unverified from this index until answered. A flag with a deadline is a promise; keeping it is what separates a notebook from a rumor mill.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
