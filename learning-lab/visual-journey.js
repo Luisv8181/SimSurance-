@@ -1145,6 +1145,38 @@
         { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_asam_pdf',
+    },
+    {
+      id: 'u1_p4_prov_asam_pdf',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e, The Document Behind the Link: Opening the ASAM PDF',
+      text: "Three days after the last check, I opened the provider page again \u2014 and for the third check in a row, nothing moved. Same 1,175 lines, same framing sentences, same eligibles total of 2,764,063. The spot rows agree \u2014 Philadelphia 618,549, Lehigh 88,053 \u2014 and both duplicate pairs persist: Montgomery and Northampton still both print 112,070, a flag now four checks old, and Indiana and Lawrence still both print 16,168, both Carelon. Say it plainly: I did not hand-sum all sixty-seven rows this run, so this is a spot-checked stillness, not a third enumeration; the last full hand-sum stays November 7. But this run did something no earlier run had done. Every snapshot since October has carried the same open step: open the linked ASAM PDF and check applicability. So I followed the link. The document is ten lines long. It is titled \u201cHealthChoices Behavioral Health,\u201d headed \u201cRates Effective January 1, 2026,\u201d and it lists the same seven fees the page has printed all along \u2014 2.0WM at $106.35 an hour, 2.1 at $11.57 per fifteen minutes, 2.5 at $10.74, 3.1 at $160.13 a day, 3.5 at $260.65, 3.7 at $321.78, 3.7WM at $415.24 \u2014 every figure agreeing exactly with the page table, the fifth consecutive agreement, and the first against the document itself. And then the document ends. It states no provider type, no county, no contract scope, no service definitions beyond the level codes, no end date \u2014 no applicability language of any kind. So the check the earlier scenes promised is now done as far as this document allows, and the document gives nothing to check applicability against. The question does not close; it moves. If the fees apply to some providers and not others, that answer lives in the BH-MCO contracts or other program documents, not in this PDF. Two small fidelities to carry: the PDF\u2019s own heading spells it \u201cAmerican Society of Addicition Medicine\u201d \u2014 a typo in the source, recorded as printed, never silently corrected \u2014 and its file name carries a January 21, 2026 stamp, which is a file-name fact, not an asserted publication date. The discipline holds: a fee schedule is rate evidence with an effective date, never a payment rule, and review_required_before_encoding stays true.",
+      advantage: true,
+      advantageText: 'Open the Document, Then Read What It Does Not Say',
+      citation: {
+        title: 'HealthChoices Behavioral Health ASAM Rates Effective January 1, 2026',
+        statute: 'PA DHS · linked ASAM rate PDF (bare rate table; opened 2026-11-08 — all seven fees agree with the page table; no applicability language in the document)',
+        quote: 'Rates Effective January 1, 2026',
+        url: 'https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/2026-01-21-asam-provider-rates-effective-january-1-2026.pdf',
+        urlLabel: 'PA DHS ASAM Rates PDF (Jan 1, 2026)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-08 the ASAM PDF behind the provider page was opened for the first time. All seven fees agree exactly with the page table, but the ten-line document states no provider type, no county, no contract scope, and no service definitions. What does that establish?',
+        opts: [
+          'A) That the fees are now payment rules — the PDF confirms them, so they can be encoded directly into the simulator.',
+          'B) That the page-table fees are confirmed against the underlying document, and that the applicability question cannot be answered from this PDF at all — it is a bare rate table, so applicability must be checked against the BH-MCO contracts or other program documents, and review_required_before_encoding stays true.',
+          'C) That the PDF contradicts the page table, so the fee schedule must be discarded.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 8 run opened the ASAM PDF for the first time: ten lines, headed 'Rates Effective January 1, 2026,' all seven fees agreeing exactly with the page table (2.0WM $106.35 an hour through 3.7WM $415.24 a day) — the fifth consecutive agreement and the first against the document itself. But the document states no provider type, county, contract scope, service definitions, or end date, so the applicability check is done as far as this PDF allows and the question moves to the BH-MCO contracts or other program documents. A fee schedule stays rate evidence, never a payment rule, and review_required_before_encoding stays true. The provider page itself was re-verified the same day and stood still for a third consecutive check — total 2,764,063, spot rows agreeing, both duplicate pairs persisting — with no full hand-sum this run, so that stillness is spot-checked, not enumerated.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'ASAM Rates PDF, Effective Jan 1, 2026 (Official)', url: 'https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/2026-01-21-asam-provider-rates-effective-january-1-2026.pdf' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {
