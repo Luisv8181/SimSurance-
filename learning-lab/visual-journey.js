@@ -2539,10 +2539,42 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
-      next: 'u5_p2b2_doorway',
+      next: 'u5_p2b_rateguide_recheck3',
     },
     // -------------------------------------------------------------
-    // UNIT V EXTENSION: THE FEDERAL DOORWAY (verified 2026-10-15)
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK, THIRD READING (verified 2026-11-08)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck3',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Undated Index: Four Reads, Twenty-Four Days, One Check Date',
+      text: "Three days after the last check, I opened the CMS rate-guidance index a fourth time — and it is the same page again. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions, and still none for the 2026-2027 guide. Four reads over twenty-four days, no movement — and this time the re-read taught me something new about the page itself. Read the whole page, top to bottom, and look for a date: there is none. No revision date, no 'last updated' stamp, no document version anywhere on it. The only dateable fact about this page is the date I opened it. That is the same discipline the Pennsylvania Behavioral HealthChoices overview already forced on us — an undated page's check date is its version — and now it applies to the federal index too. Four reads agreeing with each other is real evidence of stability, but stability is not a version stamp. So a citation that says only 'the current guide is the 2026-2027 edition' is undated unless the check date travels with it: 'current as of the 2026-11-08 re-read.' The boundary holds exactly where it held in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide's contents are known; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. The recheck changes one thing only — the date on the check — and on an undated page, that date is the version.",
+      advantage: true,
+      advantageText: 'On an Undated Page, the Check Date Is the Version',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-11-08 — unchanged since 2026-10-15)',
+        quote: 'In February 2026, CMS released the 2026-2027 Medicaid Managed Care Rate Development Guide for states to use when setting capitation rates with respect to any managed care program subject to federal actuarial soundness requirements during rating periods starting between July 1, 2026, and June 30, 2027.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS rate-guidance index on 2026-11-08 matches the 2026-10-15 snapshot: same current guide, same rating-period window, same fifteen-entry list in order, same two addenda. The full read also shows the page carries no revision date, last-updated stamp, or document version. How should a modeler cite the current guide?',
+        opts: [
+          'A) With the check date attached — "current as of the 2026-11-08 re-read" — because the page itself carries no date, so the retrieval date is the only version the citation has; and the citation still gives no rate, no formula, and no Pennsylvania number.',
+          'B) As a dated edition — the page prints its own last-updated stamp, so the check date is redundant.',
+          'C) As the contents of the 2026-2027 guide — four identical reads of the index now establish what the guide itself says.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 8 live re-verification checked the index entry by entry against the October 15 snapshot and found it unchanged for the fourth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08; 24-day streak), with the same fifteen-entry list and the same two addenda. The full 42-line read shows no revision date, last-updated stamp, or document version anywhere on the page, so the check date is the version. No guide PDF was opened, so no guide contents are known, and no Pennsylvania rate appears anywhere on the index — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
+      next: 'u5_p2b2_doorway',
+    },
     // -------------------------------------------------------------
     {
       id: 'u5_p2b2_doorway',
