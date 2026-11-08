@@ -2477,6 +2477,40 @@
       "last_verified": "2026-11-05"
     },
     {
+      "id": "bhc-overview-recheck3",
+      "title": "PA DHS Behavioral HealthChoices overview re-verified (2026-11-08): unchanged since 2026-10-10, still undated — six checks, twenty-nine days, and the excerpt discipline holds",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "behavioral-health-mco-mapping",
+        "source-verification",
+        "snapshot-discipline",
+        "undated-source",
+        "county-assignment",
+        "excerpt-discipline"
+      ],
+      "scene": "u1_p4b_overview5_recheck",
+      "source": "pa-dhs-bhc-overview",
+      "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-08; page text fetched from the official URL, copy crawled 2026-11-08 06:55 UTC, less than a minute before the read). Full-page read (12 lines) matches the 2026-11-05 snapshot sentence for sentence in the same order, including the county-duty sentence with its lead-in clause ('Under the behavioral health component of the HealthChoices program, counties are required...') that the 2026-11-05 check caught the earlier snapshots trimming — the lead-in is intact here too, so the excerpt discipline from that run holds: the full paragraph was re-read, not the last excerpt. Still no revision date, last-updated stamp, or document version on the page. Stability streak now six identical checks (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03, 2026-11-05, 2026-11-08) over 29 days — stability of the page, not proof the program is current. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-08",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-overview"
+      ],
+      "objectives": [
+        "State the 2026-11-08 finding: the Behavioral HealthChoices overview is unchanged since 2026-11-05, with a six-check identical-text streak back to 2026-10-10 over 29 days.",
+        "Teach excerpt discipline, second pass: the county-duty sentence's lead-in clause — recovered by the 2026-11-05 check after the earlier snapshots trimmed it — is intact again, so the full paragraph was re-read, not the last excerpt; a streak audits the page, not your notes, unless you re-read the whole page every time.",
+        "Teach why a streak is not a guarantee: an undated page can be stable and stale at once, so the check date is the version.",
+        "Hold the scope boundary: the overview names contracting architecture, county access duties, and county-of-residence BH-MCO assignment — and proves nothing about benefits, rates, networks, or any member's plan.",
+        "Hold review_required_before_encoding true: rule-shaped claims still wait for a dated document before entering any model."
+      ],
+      "last_verified": "2026-11-08"
+    },
+    {
       "id": "bhc-mcos-recheck4",
       "title": "The partition, audited a fourth time: seven identical reads, stability is not currency",
       "path": "visual-journey.html",

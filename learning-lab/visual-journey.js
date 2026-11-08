@@ -925,6 +925,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview5_recheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE, RE-READ — THREE DAYS LATER (re-verified 2026-11-08)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview5_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Undated Page, Re-Read — Three Days Later',
+      text: "Three days after the last check, Glim opened the Behavioral HealthChoices overview again, and the page had not moved. Same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Six checks now: October 10, 13, and 16, November 3, 5, and today, November 8 — twenty-nine days of identical text, and still no revision date, no last-updated stamp, no document version anywhere on it. This re-read had one job the last one invented: to prove the excerpt discipline from the November 5 check actually stuck. That check caught the snapshots trimming the county-duty sentence's lead-in clause — 'Under the behavioral health component of the HealthChoices program, counties are required...' — and today's full-page re-read shows the lead-in intact, the whole paragraph read, not the last excerpt of it. The page never changed; the notes got sharper, and this time they stayed sharp. So the discipline holds, and it gets one line sharper still: a streak audits the page, not your notes — and it audits your notes only if you re-read the whole page every time. Quote the overview with November 8, 2026 attached, because the check date is still the only version this page has.",
+      advantage: true,
+      advantageText: 'The Sixth Read: The Full Paragraph, Not the Excerpt',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-08, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE EXCERPT BLUR:\n- The county-duty sentence is quoted starting at 'counties are required...'\n- Six identical checks feel like the text is settled, quotes and all.\n- Nobody re-reads the full paragraph, because the excerpt has been 'verified' five times.",
+        after: "THE FULL-PAGE RE-READ:\n- Today's crawl shows the sentence with its lead-in: 'Under the behavioral health component of the HealthChoices program, counties are required...'\n- The lead-in the November 5 check recovered is intact again — the notes stayed sharp this time.\n- A streak audits the page, not your notes — unless you re-read the whole page every time; the check date (2026-11-08) is still the version.",
+        note: "A page-level re-verification (2026-11-08): this scene teaches excerpt discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {
