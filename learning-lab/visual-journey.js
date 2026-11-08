@@ -770,6 +770,40 @@
         { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4e4_maprecheck4',
+    },
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE PARTITION, AUDITED A FOURTH TIME (re-verified 2026-11-07)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4e4_maprecheck4',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e, Continued: The Partition, Audited a Fourth Time',
+      text: "Two days after the last check, Glim opened the county directory a fourth time — and it is the same page again. All twenty-seven lines, the same five rows in the same order, the same county lists, recounted by hand one more time: Philadelphia alone under Community Behavioral Health, forty-one under Community Care, seven under Magellan, seven under PerformCare, eleven under Carelon. One plus forty-one plus seven plus seven plus eleven is sixty-seven, and Pennsylvania has sixty-seven counties. Seven checks over twenty-eight days now read identically, and the last four were full-page comparisons against a snapshot that wrote out every list, so the streak is checkable, not asserted. The partition still holds: every county appears exactly once, none appears twice, none is missing — and a recheck of a partition is an audit of that exactness, not a skim of the headings. If a county ever appeared in two rows, the county-to-plan join in a model would fork; if one vanished, a county would have no ledger at all. Neither has happened. Nothing about the caveat has moved either: this directory still carries no revision date, no last-updated stamp, no document version anywhere on it. Stability proves the page has not moved. Currency is a different claim, and nothing on the page can support it — and a page that never changes is the page most likely to be stale without anyone noticing, so the shorter the gap between checks, the less the stillness surprises. The recheck changes one thing only, the date on the check — and the discipline stays exactly as before: cite the map with its date, re-check the live page before a county-plan pair enters a model, and remember that a directory tells you which ledger owns the dollar, never whether a therapist is taking new patients.",
+      advantage: true,
+      advantageText: 'The Fourth Audit: Still a Partition, Still Undated',
+      citation: {
+        title: 'Behavioral Health Managed Care Organizations (BH-MCOs)',
+        statute: 'PA DHS · Behavioral HealthChoices BH-MCO county directory (lookup, not a rule; re-verified 2026-11-07)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos',
+        urlLabel: 'PA DHS BH-MCO County Directory',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The BH-MCO directory has now read identically on seven checks over twenty-eight days, the last four full-page comparisons, recounting to 1 + 41 + 7 + 7 + 11 = 67 counties exactly once. What does this fourth re-verification establish?',
+        opts: [
+          'A) That the directory page is unchanged since October 15, still partitions all 67 counties across five BH-MCOs exactly once as of November 7 — and that the streak proves the page has not moved, not that it is current, since the page carries no revision date.',
+          'B) That the directory is now proven current, since a page unchanged for twenty-eight days must be up to date.',
+          'C) That the county-to-MCO mapping can now be encoded as a simulation rule without further review.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 7 re-verification is a fourth full-page comparison: same five rows in the same order, all county lists recounted by hand to exactly 67, no county in two rows and none missing — the partition still holds. But the page carries no revision date, last-updated stamp, or document version, so the streak establishes stability, not currency; the check date is the version. And review_required_before_encoding stays true, so no rule is encoded from it.',
+      },
+      furtherReading: [
+        { label: 'Behavioral Health MCO County Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4b_overview',
     },
     {
