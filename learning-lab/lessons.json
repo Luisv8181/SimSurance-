@@ -1508,6 +1508,34 @@
       ]
     },
     {
+      "id": "aca-rate-filings-fifth-recheck",
+      "title": "ACA rate filings: the fifth identical reading — the check date is the version",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "aca-rate-filings",
+        "pennie",
+        "marketplace-availability",
+        "commercial-market",
+        "dated-evidence",
+        "page-level-reverification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-insurance-department-aca-filings"
+      ],
+      "objectives": [
+        "State the 2026-11-09 re-verification finding: the PA Insurance Department ACA rate-filings page is unchanged since 2026-11-06 (two-phase review prose intact; 15 individual and 16 small-group rows; every November 6 spot-check figure agrees; Pennie column still 13 Yes / 2 No individual, 16 of 16 No small-group), the fifth identical check in a row (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06, 2026-11-09).",
+        "Teach the version discipline for an undated page: the page carries no revision date or document version, so the check date — November 9 — is the only version this reading can honestly carry.",
+        "Teach what five identical checks do and do not establish: they establish the 2027 tables have not moved since at least October 13 and the review cycle looks complete and stable; they do not establish the page will never change, and they do not upgrade the page into a rule-bearing source.",
+        "State what the page still does not establish: no premium dollar amounts, no provider networks, no behavioral-health reimbursement figures — and never encode a rate or market parameter until a specific filing's document version, effective period, exact passage, and applicability are reviewed."
+      ]
+    },
+    {
       "id": "pennie-homepage-marketing-rotation",
       "title": "Pennie homepage re-verified: marketing copy rotates; example prices are never encoded; snapshots are evidence of their date",
       "path": "visual-journey.html",

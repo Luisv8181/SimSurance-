@@ -1980,6 +1980,37 @@
         { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5d5_filings_recheck',
+    },
+    {
+      id: 'u1_p5d5_filings_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5d⁗: The Fifth Identical Reading — The Check Date Is the Version',
+      text: "Back to the rate ledger for a fifth reading — November 9, three days after the fourth — and the page has not moved a single figure. Full read, 134 lines, both tables captured: same two-phase review prose, same fifteen individual and sixteen small-group rows, and every spot-check figure agrees with November 6 — Ambetter Health of Pennsylvania still 40.90% requested to 35.13% approved, Oscar still 15.39% to 1.38%, Health Partners still 15.90% to 18.35%, Keystone East still 14.68% to 15.98%, QCC still 19.88% to 21.31%, Independence small group still 8.95% to 8.95%, Ambetter Solutions still '0.00% New Plan'. The share column agrees on every spot value, and the Pennie column still reads thirteen Yes and two No on the individual market, sixteen No on the small group. Five identical checks now, over twenty-seven days, back to October 13. That is what a finished review cycle looks like from the outside: the 2027 numbers are settled, and the page has gone quiet. But here is the discipline the quiet teaches. This page carries no revision date and no document version — nothing on it says when it was last touched. So the check date is the version: November 9 is the only date this reading can honestly carry. Five identical checks establish that the tables have not moved since at least October 13. They do not establish that the page will never change — a 2028 cycle, a correction, or a redesign can still arrive — and they do not upgrade the page into a rule-bearing source. It still carries no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures. A settled table is still just a table. Read each column for what it marks, and never let stability stand in for a network or payment fact the page does not carry.",
+      advantage: true,
+      advantageText: 'The Check Date Is the Version',
+      citation: {
+        title: 'ACA Health Rate Filings | PA Insurance Department',
+        statute: 'PA Insurance Department · official rate-filing index (index page, not a rule; re-verified 2026-11-09)',
+        quote: 'There are two main phases in the rate review process each year:',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings',
+        urlLabel: 'ACA Health Rate Filings (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Five reads over 27 days now agree on every figure on the PA Insurance Department ACA rate-filings page — 15 individual and 16 small-group rows, every spot-check figure in place, Pennie column still 13 Yes / 2 No individual and 16 No small-group. The page carries no revision date. What may you record?',
+        opts: [
+          'A) The 2027 tables have not moved since at least October 13, the review cycle looks complete and stable, and the check date — November 9 — is the version; the page still carries no premium dollars, no networks, and no behavioral-health reimbursement, so no rule may be encoded from it.',
+          'B) The rates are final forever and the page will never change, so the approved figures can now be encoded as model rules.',
+          'C) The five identical checks prove the page is a rule-bearing source, and the 2027 approved rates are now verified parameters.',
+        ],
+        answer: 0,
+        explanation: "Correct! Five identical checks establish stability, not permanence: the 2027 tables have not moved since at least October 13, and with no revision date on the page the check date is the only version this reading can carry. The page still carries no premium dollar amounts, no provider-network directory, and no behavioral-health reimbursement figures — a settled table is still just a table, and no rate or market parameter may be encoded from it until a specific filing's version, effective period, exact passage, and applicability are reviewed.",
+      },
+      furtherReading: [
+        { label: 'ACA Health Rate Filings (Official)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5e_covmap',
     },
 
