@@ -1752,6 +1752,39 @@
         { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c5_pennie_incident',
+    },
+
+    {
+      id: 'u1_p5c5_pennie_incident',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c⁗: The Notice at the Foot of the Door — The Page Moves by Disclosure',
+      text: "Walk back to the door a fifth time, three days later, and the hold has broken — but not the way the last three rotations taught you to expect. The hero has not changed. It still says: \u201cNow\u2019s the time to find your best health coverage\u201d \u2014 \u201cOpen Enrollment is here!\u201d The \u2018What\u2019s new\u2019 notice is still framed for 2027. The \u2018Find Quick Fixes\u2019 corner is still there. The Medicaid doorway still reads \u2018Coming from Medicaid? Welcome to Pennie! We already have an account set up for you.\u2019 The three friendly faces still carry the same example Silver prices \u2014 Jalen $85 a month, Gary & Barb $553, the Riveras $595 \u2014 still advertisements, never benchmarks. What moved is the foot of the page: two new lines, and they read: \u201cA data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.\u201d Here is the discipline this check teaches, and it cuts three ways. First, an unchanged streak ends the way it always does on a live page: with a change — and the change here is the kind a re-check exists to catch, a new public fact, not a rewording. Second, read the notice, not just the headline. The homepage line names no vendor and no data; the linked notice does. It names Zelenkofske Axelrod, LLC, a CPA firm that provides financial audit services to Pennie; it says the firm found suspicious activity around January 25, 2026, and that Pennie was notified on October 27, 2026; it lists what was in the impacted files \u2014 name, date of birth, zip code, enrollment and exchange IDs, plan and plan level, plan dates, premium amount \u2014 and what was not: no Social Security Number, no contact information, no income information, no password or login, no financial or credit card information. A one-line summary is not the evidence; the linked document is. Third, keep the dates separate. The incident was discovered in January, Pennie learned of it in October, and the notice first appeared on the homepage in November \u2014 three different dates, and conflating any two misstates the record. And the standing caution: this is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact. Nothing in it changes a marketplace parameter. The door still opens. It now also tells you what happened to the people who walked through it.",
+      advantage: true,
+      advantageText: 'Read the Notice, Not Just the Headline — and Date Every Layer of It',
+      citation: {
+        title: 'Pennie | PA\u2019s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'A data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks pennie.com on November 9. The hero, the doorway, and the vignette prices are all unchanged — but two new lines at the foot of the page disclose a data security incident at a vendor. What may a modeler safely take from that, and what must they still do?",
+        opts: [
+          'A) The disclosure is a new dated fact: the homepage notice first appears November 9, 2026, and the linked notice names the vendor (Zelenkofske Axelrod, LLC), the discovery (around January 25, 2026), Pennie\u2019s notification (October 27, 2026), the fields involved, and the fields explicitly not involved — quote that scope exactly, keep the three dates separate, and treat it as a trust and governance fact, not a plan, rate, or eligibility fact.',
+          'B) The incident happened on November 9, 2026, since that is when the notice appeared on the homepage, and the marketplace\u2019s plans and rates are now suspect.',
+          'C) The hero is unchanged, so nothing on the page changed and the November 6 snapshot can be re-cited as current.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page moved by disclosure, not by rotation: the hero, doorway, and vignette prices all persist, but the foot of the page now carries a two-line incident notice that was absent on November 6. The linked PDF — not the homepage line — supplies the vendor, the discovery date, Pennie\u2019s notification date, the fields involved, and the fields explicitly not involved. Those are three different dates (January discovery, October notification, November homepage appearance), and the disclosure is a trust and governance fact: it changes no plan, rate, eligibility, or subsidy parameter, and the vignette prices stay advertisements, never benchmarks.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Pennie Notice of Security Incident (PDF)', url: 'https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 

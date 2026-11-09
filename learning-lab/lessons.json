@@ -1931,6 +1931,39 @@
       "last_verified": "2026-11-06"
     },
     {
+      "id": "pennie-security-incident-notice",
+      "title": "Pennie re-verified: the page moves by disclosure — vendor security-incident notice at the foot of the homepage",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "marketplace",
+        "homepage-rotation",
+        "dated-evidence",
+        "open-enrollment",
+        "page-level-reverification",
+        "vendor-incident-disclosure",
+        "trust-and-governance"
+      ],
+      "scene": "u1_p5c5_pennie_incident",
+      "source": "pennie",
+      "summary": "Re-verification of the Pennie homepage (2026-11-09; page text fetched from the official URL, copy crawled 2026-11-09 06:56 UTC, less than a minute before the read). MOVED vs 2026-11-06 — first movement since the open-enrollment hero arrived 2026-11-03, ending the three-day hold: full 102-line read matches the 2026-11-06 snapshot on every section (hero, “What’s new” framed for 2027, “Find Quick Fixes”, Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, help channels) EXCEPT two new lines at the foot disclosing a data security incident at a vendor. THE LINKED NOTICE WAS OPENED AND READ (https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf): contractor Zelenkofske Axelrod, LLC, a CPA firm providing financial audit services to Pennie; suspicious activity discovered around January 25, 2026; Pennie notified October 27, 2026; enrollee fields in the impacted files limited to name, date of birth, zip code, enrollment ID, enrollee ID, exchange ID, insurance plan, plan ID, insurance type, plan level, plan start and end date, premium amount; NOT included: Social Security Number, contact information, income information, password, login information, financial or credit card information. Vignette prices still hold at Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver — illustrative marketing figures, never encodable parameters. The captured page text states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-09",
+      "policy_claims": true,
+      "source_refs": [
+        "pennie"
+      ],
+      "objectives": [
+        "State the 2026-11-09 finding: the Pennie homepage MOVED vs 2026-11-06 — the hero, doorway, vignettes, and help channels all persist, but a new two-line data-security-incident notice now appears at the foot of the page, linking to Pennie’s November 2026 notice PDF.",
+        "Teach the read-the-notice discipline: the homepage line names no vendor and no data — only the linked notice states the contractor (Zelenkofske Axelrod, LLC), what was involved, and what was explicitly not involved — and teach the three-date separation: incident discovery (January 2026), Pennie’s notification (October 27, 2026), and the homepage notice’s first appearance (November 9, 2026) must not be conflated.",
+        "Hold the scope honestly: the disclosure is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact, and nothing in it changes any marketplace parameter; the vignette prices remain illustrative marketing figures, never encodable parameters, and review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-09"
+    },
+    {
       "id": "bhc-service-access-third-check",
       "title": "BH service-access page re-verified (2026-11-03): the front door, still standing — third unchanged check",
       "path": "visual-journey.html",
