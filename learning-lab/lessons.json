@@ -2664,6 +2664,37 @@
         "Apply the undated-page discipline: the full 42-line read shows no revision date, last-updated stamp, or document version anywhere on the index, so the check date is the only version the citation has — cite the current guide as 'current as of the 2026-11-08 re-read.'",
         "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
       ]
+    },
+    {
+      "id": "physical-directory-phones-diff2",
+      "title": "The second diff: a directory's phone lines, checked twice — and the wobble that stayed put (re-verified 2026-11-08)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "physical-health-mco-directory",
+        "source-verification",
+        "phone-number-diff",
+        "dated-directory-discipline",
+        "extraction-artifact"
+      ],
+      "scene": "u1_p4_phys5_phones2",
+      "source": "pa-dhs-physical-hc-mco",
+      "summary": "Re-verification of the PA DHS Physical HealthChoices MCO directory (2026-11-08; page text fetched from the official URL, copy crawled 2026-11-09 02:55 UTC, less than a minute before the read). Full-page read (94 lines) matches the 2026-11-05 snapshot exactly. Second phone-number diff: every member-services and EMSU number agrees again across all five region tables (Geisinger 855-227-1302 / 855-214-8100 and UPMC for You 800-286-4242 / 866-463-1462 identical in all five). TTY punctuation wobble now diffable for the first time and unchanged: the same three rows (Northeast Jefferson, Northeast UPMC, Southwest UPMC) drop the colon after TTY in the same places, reading as a stable rendering quirk rather than a page edit. Counties hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 exactly once; same three persisting typos ('Northast', unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y). Page still carries no revision date. Stability streak now four identical checks (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08), 24 days. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-08",
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "State the 2026-11-08 recheck result for the physical HealthChoices directory: five region tables unchanged since 2026-11-05, county lists hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 counties exactly once, and the same three persisting typos ('Northast', the unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y).",
+        "Explain why this run is the second phone-number diff: the 2026-11-05 check was the first comparison against the 2026-11-02 recording, so 2026-11-08 is the second comparison — and every member-services and EMSU number agrees again across all five region tables.",
+        "Explain the new diffable observation: the TTY colon wobble was first recorded on 2026-11-05, so 2026-11-08 is the first recheck where the punctuation itself can be compared — the same three rows drop the colon in the same places, which reads as a stable rendering quirk, not a page edit.",
+        "Apply the dated-directory discipline: a number checked twice is a dated fact that can be quoted with its check dates; four identical reads over 24 days prove the page has not moved, not that it is current — the page still carries no revision date, and no number on it is evidence of any member's actual plan, benefits, or network."
+      ]
     }
   ]
 }

@@ -462,6 +462,35 @@
       furtherReading: [
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
       ],
+      next: 'u1_p4_phys5_phones2',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE SECOND DIFF (re-verified 2026-11-08)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys5_phones2',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b Addendum: The Second Diff — A Directory\'s Phone Lines, Checked Twice',
+      text: "Three days later, Glim went back to the physical-plan directory a fourth time — and this check could do something even the last one could not. On November 5, every phone number on the page was compared against its first recording and every one agreed. Today is the second comparison, and every number agrees again: Geisinger 855-227-1302 and 855-214-8100 in all five tables, UPMC for You 800-286-4242 and 866-463-1462 in all five, Jefferson EverWell, Highmark Wholecare, AmeriHealth Caritas, Keystone First, United Healthcare Community Plan — the whole directory, twice diffed, zero movement. And the little wobble from the last read got its own second look. Three rows drop the colon after TTY while the same numbers carry it elsewhere — and today is the first time that punctuation itself could be compared, because the November 5 snapshot was the first to write it down. The same three rows drop it in the same places: Northeast Jefferson, Northeast UPMC, Southwest UPMC. The wobble did not move either. So now two things are dated facts instead of single-read impressions: the numbers, checked twice, and the quirk, checked twice. The counties still hand-count to 67, the typos still sit where they sat, and the page still carries no revision date — four identical reads over twenty-four days. That is the whole point of coming back: a directory that has not moved in a month is not automatically current, but it is a directory you can quote with a date, and defend.",
+      advantage: true,
+      advantageText: 'Check Twice: A Second Diff Turns a Reading Into a Record',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Lehigh/Capital Counties in the HealthChoices Program: Adams, Berks, Cumberland, Dauphin, Franklin, Fulton, Huntingdon, Lancaster, Lebanon, Lehigh, Northampton, Perry, York',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE NUMBER, CHECKED ONCE:\n- 'It agreed last time, so it is settled.'\n- One comparison treated as proof, and a punctuation wobble recorded once but never re-tested.\n- A single diff quoted as if it were a guarantee.",
+        after: "THE NUMBER, CHECKED TWICE:\n- Every member-services and EMSU number re-read 2026-11-08 against the 2026-11-05 diff — all agree, across all five region tables, second time running.\n- The TTY colon wobble is now itself diffable: the same three rows drop the colon in the same places, so it reads as a stable rendering quirk, not a page edit.\n- Four identical reads over 24 days, counties still 67, typos still in place, still no revision date on the page.",
+        note: "A dated plan directory (re-verified 2026-11-08): phone numbers are directory facts with a check date, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {
