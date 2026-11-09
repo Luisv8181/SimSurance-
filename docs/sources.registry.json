@@ -5,7 +5,8 @@
   "status_legend": {
     "official_page_reviewed": "An official landing/index page has been opened and checked for the described purpose.",
     "document_review_required": "The linked document or exact passage must be reviewed before a policy claim is encoded.",
-    "historical_snapshot": "The record describes a prior dated check and must be rechecked for current use."
+    "historical_snapshot": "The record describes a prior dated check and must be rechecked for current use.",
+    "official_page_unavailable": "The registered URL was checked live and no longer serves the page (e.g. HTTP 404, no redirect); the content may survive elsewhere, but this address is dead."
   },
   "sources": [
     {
@@ -207,16 +208,16 @@
       "jurisdiction": "Pennsylvania",
       "program": "Medicaid Behavioral HealthChoices",
       "source_type": "official_member_access_guidance",
-      "status": "official_page_reviewed",
-      "last_checked": "2026-11-06",
-      "scope_note": "Re-verified live 2026-11-03: page substantively unchanged since 2026-10-16 and 2026-10-13 (county office route, BH-MCO assignment by county of residence, provider choice in-network, mailed handbook, COMPASS/CAO/mail/phone application channels, 988 block). The 2026-10-16 extraction artifacts persist verbatim: the 988 block renders twice in the text extract and a stray \"Phone: 18773958930\" tel-link artifact appears — extraction duplication, not a second claim; count claims from the rendered page, not the scrape. Third consecutive unchanged check. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-11-03.md Re-verified live 2026-11-06: page UNCHANGED since 2026-11-03 — full-page read (126 lines, copy crawled 2026-11-06 06:55 UTC, <1 min before the read) matches the 2026-11-03 snapshot sentence for sentence in the same order, including both quoted passages; still no revision date, last-updated stamp, or document version anywhere on the page. Stability streak now four identical checks (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06), 24 days, shortest gap yet (three days). The two extraction artifacts persist verbatim (988 block rendered twice, stray 'Phone: 18773958930' tel-link artifact) and remain scrape duplication, not second claims. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-11-06.md. Consumer shipped 2026-11-06: WORKBOOK scene u1_p4_access4_steady ('The Front Door, Still Standing — The Service-Access Page, Fourth Check'), lesson bhc-service-access-fourth-check, status source_review_required.",
+      "status": "official_page_unavailable",
+      "last_checked": "2026-11-09",
+      "scope_note": "Re-verified live 2026-11-03: page substantively unchanged since 2026-10-16 and 2026-10-13 (county office route, BH-MCO assignment by county of residence, provider choice in-network, mailed handbook, COMPASS/CAO/mail/phone application channels, 988 block). The 2026-10-16 extraction artifacts persist verbatim: the 988 block renders twice in the text extract and a stray \"Phone: 18773958930\" tel-link artifact appears — extraction duplication, not a second claim; count claims from the rendered page, not the scrape. Third consecutive unchanged check. Not a benefit schedule, provider directory, rate document, or eligibility record. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-11-03.md Re-verified live 2026-11-06: page UNCHANGED since 2026-11-03 — full-page read (126 lines, copy crawled 2026-11-06 06:55 UTC, <1 min before the read) matches the 2026-11-03 snapshot sentence for sentence in the same order, including both quoted passages; still no revision date, last-updated stamp, or document version anywhere on the page. Stability streak now four identical checks (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06), 24 days, shortest gap yet (three days). The two extraction artifacts persist verbatim (988 block rendered twice, stray 'Phone: 18773958930' tel-link artifact) and remain scrape duplication, not second claims. Dated snapshot: docs/source-snapshots/bhc-service-access-2026-11-06.md. Consumer shipped 2026-11-06: WORKBOOK scene u1_p4_access4_steady ('The Front Door, Still Standing — The Service-Access Page, Fourth Check'), lesson bhc-service-access-fourth-check, status source_review_required. Re-verified live 2026-11-09: MOVED — the registered URL now returns HTTP 404 (text fetch AND live browser load, no redirect; pa.gov 'Page not found'). This ends the four-check unchanged streak (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06). The search index still lists the page at the same URL (crawled ~2 days earlier) with content matching the 2026-11-06 snapshot, but that is stale indexed evidence, not a live page. The substance survives on two live official pages read 2026-11-09: the DHS Behavioral Health program page (https://www.pa.gov/agencies/dhs/programs-services/behavioral-health) and the BHC overview (https://www.pa.gov/agencies/dhs/resources/medicaid/bhc), which the program page links to as 'Behavioral HealthChoices'. No replacement service-page URL found; a corrected URL is an owner decision. Consumer shipped 2026-11-09: WORKBOOK scene u1_p4_access5_404 ('The Door That Moved — The Service-Access Page Returns 404'), lesson bhc-service-access-page-404, status source_review_required.",
       "supports": [
         "member_access_pathway",
         "provider_search",
         "access_barriers"
       ],
       "review_required_before_encoding": true,
-      "snapshot": "docs/source-snapshots/bhc-service-access-2026-11-06.md"
+      "snapshot": "docs/source-snapshots/bhc-service-access-2026-11-09.md"
     },
     {
       "id": "cms-school-based-services",

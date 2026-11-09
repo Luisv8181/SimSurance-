@@ -1931,6 +1931,38 @@
       "last_verified": "2026-11-06"
     },
     {
+      "id": "bhc-service-access-page-404",
+      "title": "BH service-access page re-verified (2026-11-09): the door that moved — registered URL now returns 404, content survives on two live DHS pages",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-service-access",
+        "member-access-pathway",
+        "dead-url",
+        "stale-index-evidence",
+        "dated-evidence"
+      ],
+      "scene": "u1_p4_access5_404",
+      "source": "pa-dhs-bhc-service-access",
+      "summary": "Re-verification of the PA DHS Request Behavioral HealthChoices Program Services page (2026-11-09; text fetch AND live browser load of the registered URL, no redirect). MOVED — the URL now returns HTTP 404 (pa.gov 'Page not found'), ending the four-check unchanged streak (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06). The search index still lists the page at the same URL (crawled ~2 days earlier) with content matching the 2026-11-06 snapshot, but that is stale indexed evidence, not a live page. The substance survives on two official pages read live 2026-11-09: the DHS Behavioral Health program page (county-office route, 988, Behavioral HealthChoices assignment) and the BHC overview ('Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence'; the MCO mails a handbook). No replacement service-page URL found; a corrected URL is an owner decision. Registry status is now official_page_unavailable; review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-09",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-service-access"
+      ],
+      "objectives": [
+        "State the 2026-11-09 re-verification finding: the registered service-access URL returns HTTP 404 on two independent reads with no redirect — the page did not change its text, it left its address, ending a 24-day unchanged streak.",
+        "Teach the stale-index discipline: a search-index excerpt crawled ~2 days earlier that matches the 2026-11-06 snapshot is stale evidence, not a live page, and must not be cited as current.",
+        "Teach the dead-URL record discipline: keep the dead URL in the registry as the address that was checked, cite the surviving guidance only from the two live pages actually read today (DHS Behavioral Health program page and BHC overview), and leave a corrected service-page URL as the owner's decision — never silently swap in a different page's address.",
+        "Hold the scope honestly: the 404 is a page-availability fact, not a benefit, eligibility, or rate fact; the surviving pages are member guidance, not a benefit schedule, provider directory, or eligibility rule — review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-09"
+    },
+    {
       "id": "pennie-security-incident-notice",
       "title": "Pennie re-verified: the page moves by disclosure — vendor security-incident notice at the foot of the homepage",
       "path": "visual-journey.html",
