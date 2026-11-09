@@ -2973,6 +2973,37 @@
         { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate_recheck4',
+    },
+    {
+      id: 'u5_p2b3_gate_recheck4',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Fifth Reading: Still Standing',
+      text: "I came back to the gate a fifth time, three days after the fourth reading — and this time the page taught me something by standing still. First, the confirmations, all re-read live on November 9 by two independent readers, a text fetch and a live browser read minutes apart, agreeing on every item: the gate still opens with 'To participate in Medicaid, federal law requires states to cover certain groups of individuals.' The 77.9 million combined Medicaid-and-CHIP figure is still there, still dateless, because the page still shows no last-updated stamp anywhere — the browser read searched for 'Last updated', '202', '2024', '2025' and found nothing; the only 'Updated' on the page is a Related Resources link title, not a date for this page. The 133% FPL expansion option is intact, MAGI still counts income with one set of rules and a single application, still with no disregards that vary by state or by eligibility group and still with no asset or resource test. The thirty-six-states-plus-DC spenddown count is intact, word for word. Retroactivity is still three months in the November 2 form. The CIB appendix on HHS Appeals Entity coordination is still there, three scenarios under each appendix. Now the sentence that is still not there. The five percent MAGI disregard making the limit 138% of poverty, quoted by the November 4 read alone, appears in neither of today's reads — and the browser read went further than before, searching 'five percent', '5 percent', '138%', '138', and 'percent': the word 'percent' does not occur anywhere on the visible page; percentages appear only as '%', and the only FPL percentage is 133%. The suspension now stands five reads to one. One read claims the sentence; five cannot find it. So it stays suspended — quoted November 4 only, quoted as current by nobody — and it is still not declared removed, because a sentence can live in a section a render does not surface. One more thing the fifth reading taught me: the live browser read first hit an Akamai 'Access Denied' block, the same wall the November 4 check met, and cleared it the same way, by moving to a fresh browser. A blocked first attempt is evidence of nothing about the page — medicaid.gov intermittently blocks this browser's first knock, and the recovery is routine now. The gate is still a federal floor with fifty state locks, the check date is still the only version this undated page has, and a fifth reading that finds nothing new is still a reading: it is what 'unchanged' costs.",
+      advantage: true,
+      advantageText: 'Five Reads to One: A Suspension That Holds',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; re-verified 2026-11-09, two independent reads)',
+        quote: 'Thirty-six states and the District of Columbia use spenddown programs, either as medically needy programs or as 209(b) states.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Today two independent reads agree the page is unchanged since November 6, and the 5% disregard / 138% sentence quoted November 4 appears in neither read — the browser read searched "five percent", "5 percent", "138%", "138", and "percent", and the word "percent" does not occur on the visible page at all. What may you record?',
+        opts: [
+          'A) The 5% sentence is confirmed removed from the page, and the page is now safe to cite as current.',
+          'B) The page is unchanged since November 6 on every re-checked item, and the 5% sentence stays suspended — quoted November 4 only, quoted as current by nobody — now five reads to one; it is not declared removed, and the 133% FPL expansion option and the no-asset-test rule are untouched.',
+          'C) The 5% sentence is current after all, since the mechanism description is unchanged.',
+        ],
+        answer: 1,
+        explanation: "Correct! Two agreeing reads settle the page as unchanged, and the suspension now rests on five reads to one — the November 4 read alone claims the 5% / 138% sentence, and five reads (November 2, both November 6 reads, both November 9 reads) cannot find it, with today's browser read confirming the word 'percent' does not occur on the visible page at all. Suspended is not removed: the sentence is quoted November 4 only and quoted as current by nobody until a second independent read finds it. The November 4 scene's 5%/138% line stands as shipped history; the correction lives here, in this scene and the November 9 snapshot. The Akamai block on the first browser attempt is an access artifact, not page evidence — it cleared on a fresh browser, the same recovery as November 4.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {
