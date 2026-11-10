@@ -3262,12 +3262,43 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
-      next: 'u6_p1',
+      next: 'u5_p2f_sbs_thirdload',
     },
 
     // -------------------------------------------------------------
-    // UNIT VI: THE PARITY MIRAGE & SYSTEMIC GAPS
+    // UNIT V EXTENSION: THE THIRD LOAD (two live loads disagree, Utah flicker, 2026-11-10)
     // -------------------------------------------------------------
+    {
+      id: 'u5_p2f_sbs_thirdload',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Third Load: When Two Live Loads Disagree',
+      text: "The last scene ended with the Utah link mismatch present on two of four observations, and a promise to keep watching it. Tonight I watched it twice — and the page handed me something stranger than a mismatch. Load one, a live browser at 1:55 AM: the intro opens 'In 2023, CMS published extensive guidance on School-Based Services,' the guidance list runs through State Medicaid Director Letter #23-005 and two State Health Official letters, and the technical-assistance list carries eight renamed items. Load two, a fresh live browser four minutes later: the intro opens 'We have also issued school-based services guidance,' the guidance list is the familiar May 2023 and August 2022 bulletins with the 2014 State Medicaid Director Letter #14-006, and the same eight state SPAs sit underneath with the same approval dates. Two live loads of one page, minutes apart, disagreeing about the introduction and the guidance list — while agreeing exactly on the eight SPAs. That is the second divergent live variant this index has produced; the first was November 4, and it also failed to reproduce. So the divergent values are recorded as a load variant, never as page content. The confirming load also settled a smaller argument: the technical-assistance list is seven description bullets holding eight linked titles — 'Medicaid SBS 101 Quick Guide' and 'Medicaid SBS Resources' share one bullet — so the earlier count of seven was a bullet count, not a page change. And it added a new flicker: on the first auto view after expanding the state-examples accordion, Utah showed '(approved October 14, 2021)'; three re-reads in the same load showed '(approved August 15, 2022)'. One flicker inside one load, against five steady reads of August 15 — flagged, not promoted. But the Utah link itself is no longer flickering: the label still reads 'Utah SPA 21-0009' and the target still points to UT-21-0019.pdf, present on the last three live loads in a row. A page can be stable in the part you lean on and unstable in the part you quote — and the only way to know which part is which is to load it twice and write down both answers.",
+      advantage: true,
+      advantageText: 'Load It Twice: The Stable Part and the Flickering Part',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · Medicaid school-based services index (official page, page-level check only)',
+        quote: 'Utah SPA 21-0009. (approved August 15, 2022)',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two fresh live loads of the CMS school-based services index, minutes apart, disagree on the intro and the guidance list but agree exactly on the eight state SPAs. A third read in the same load first shows Utah approved October 14, 2021, then August 15, 2022 three times. What is the correct handling?',
+        opts: [
+          'A) The page changed between the two loads, so record the first load as the old version and the second as the new version, and correct Utah to October 14, 2021 since it appeared first.',
+          'B) Treat the first load as a divergent load variant — the second divergent variant after November 4 — and record neither load\'s guidance list as page content; the eight SPAs are the stable part, agreed across all loads; the Utah October 14 date is a single in-load flicker against five steady reads of August 15, 2022, so it is flagged, not promoted; and the Utah link mismatch (label 21-0009, target UT-21-0019.pdf) is now present on three consecutive live loads.',
+          'C) Average the two loads: the guidance list is half the first load and half the second, and Utah was approved midway between the two dates.',
+        ],
+        answer: 1,
+        explanation: "Correct! When two loads of one page disagree, neither load's contested section is recorded as page content — the divergent variant is flagged like November 4's. The SPAs agree across every load, so they are the stable part. A single flicker inside one load does not outvote five steady reads, and a mismatch present on three straight live loads is a standing observation, not a one-off — while neither Utah PDF has been opened, so no claim is made about which file is correct.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
+      next: 'u6_p1',
+    },
     {
       id: 'u6_p1',
       part: 'Unit VI · Parity Mirage',
