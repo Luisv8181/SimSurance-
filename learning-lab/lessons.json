@@ -2298,6 +2298,40 @@
       ]
     },
     {
+      "id": "mh-parity-hidden-rules",
+      "title": "The hidden rules test: comparable, and no more stringent",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "parity",
+        "mhpaea",
+        "nqtl",
+        "qtl",
+        "comparability-standard",
+        "clinical-standards-exception",
+        "prior-authorization"
+      ],
+      "scene": "u1_p5b6_hidden_rules",
+      "source": "cms-mh-parity",
+      "summary": "Sixth consecutive unchanged check of the CMS MHPAEA overview page (2026-11-10): same 145-line text, same seven section headers, Fact Sheets & FAQs and Regulations and Guidance still empty, still no last-updated stamp, so the check date remains the version. New page-level angle shipped as a workbook scene: the NQTL comparability test — a plan cannot impose a nonquantitative treatment limitation on MH/SUD benefits unless the processes, strategies, evidentiary standards, or other factors are comparable to, and applied no more stringently than, those for medical/surgical benefits in the same classification, as written and in operation. QTLs are numerical (visit/day limits); NQTLs include medical management, step therapy, and pre-authorization. The 2013 regulation eliminated the exception that allowed different NQTLs 'to the extent that recognized clinically appropriate standards of care may permit a difference.' No plan-specific compliance determination is made; review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-10",
+      "policy_claims": true,
+      "source_refs": [
+        "cms-mh-parity"
+      ],
+      "objectives": [
+        "State the NQTL comparability test verbatim from the CMS page: processes, strategies, evidentiary standards, or other factors for MH/SUD benefits must be comparable to, and applied no more stringently than, those for medical/surgical benefits in the same classification, as written and in operation.",
+        "Distinguish quantitative treatment limitations (numerical: visit limits and day limits) from non-quantitative treatment limitations (medical management, step therapy, pre-authorization).",
+        "State the eliminated exception: the 2013 final regulation eliminated the exception that allowed different NQTLs 'to the extent that recognized clinically appropriate standards of care may permit a difference.'",
+        "Name what the page does not establish: any plan-specific coverage or compliance determination, and the content of the linked Federal Register rules (not read this run)."
+      ],
+      "last_verified": "2026-11-10"
+    },
+    {
       "id": "medicaid-managed-care-recheck2",
       "title": "Managed care doorway re-verified (2026-11-04): two full reads agree; overview language is still not a rule",
       "path": "visual-journey.html",

@@ -1713,6 +1713,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b6_hidden_rules',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b′′′′′: THE HIDDEN RULES TEST — COMPARABLE, AND NO MORE STRINGENT
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b6_hidden_rules',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b′′′′′: The Hidden Rules Test — Comparable, and No More Stringent',
+      text: "The numbers are the easy part of parity — visit limits and copays you can count. The hard part is the hidden rules, and the page gives those rules their own test. The 2013 regulation draws the line first: quantitative treatment limitations are numerical, such as visit limits and day limits. Nonquantitative treatment limitations include but are not limited to medical management, step therapy and pre-authorization — the processes that decide whether you get in the door at all. A plan cannot impose one of those hidden limits on mental-health or substance-use benefits in any classification unless, under the terms of the plan as written and in operation, the processes, strategies, evidentiary standards, or other factors used for MH/SUD benefits are comparable to, and applied no more stringently than, the ones used for medical/surgical benefits in the same classification. Read that twice: comparable in design, no more stringent in operation — the test looks at the rule on paper and at how it actually runs. And here is the sentence that closes a loophole: the final regulation eliminated an exception that allowed for different nonquantitative treatment limitations 'to the extent that recognized clinically appropriate standards of care may permit a difference.' Clinical judgment can no longer excuse a double standard — if the process is stricter for therapy than for the comparable medical service, the process itself is the violation. For your simulator, that means the access barrier is not a number in a table; it is a comparison of two workflows, as written and as run. A model that only counts visit limits will call a plan compliant while its prior-authorization queue quietly rations care.",
+      advantage: true,
+      advantageText: 'The Hidden Rules Have a Test Too: Comparable, and No More Stringent',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. 2013 regulation NQTL test (page-level review)',
+        quote: 'A group health plan or coverage cannot impose a nonquantitative treatment limitation with respect to MH/SUD benefits in any classification unless, under the terms of the plan (or coverage) as written and in operation, any processes, strategies, evidentiary standards, or other factors used in applying the nonquantitative treatment limitation to MH/SUD benefits in the classification are comparable to, and are applied no more stringently than, the processes, strategies, evidentiary standards, or other factors used in applying the limitation with respect to medical surgical/benefits in the classification.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Rhea's plan requires prior authorization for every outpatient therapy visit, but comparable medical outpatient visits need no prior authorization at all. The plan says its therapy standard is clinically appropriate. What does the 2013 parity rule say?",
+        opts: [
+          'A) The hidden-rules test compares the process as written and in operation: it must be comparable to, and applied no more stringently than, the process for medical/surgical benefits in the same classification — and the regulation eliminated the exception that let clinical standards excuse a difference.',
+          'B) Prior authorization is a quantitative treatment limitation, so only the visit count matters and the authorization process is outside parity.',
+          'C) Clinical appropriateness is still an exception to the rule, so a clinically appropriate therapy standard is compliant even when it is stricter.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page states the NQTL test in full: processes, strategies, evidentiary standards, or other factors for MH/SUD benefits must be comparable to, and applied no more stringently than, those for medical/surgical benefits in the same classification — as written and in operation. Prior authorization is a non-quantitative treatment limitation, not a numerical one; quantitative limitations are visit limits and day limits. And the clinical-standards excuse is gone: the final regulation eliminated the exception that allowed different NQTLs 'to the extent that recognized clinically appropriate standards of care may permit a difference.' Since the CAA of 2021, plans imposing NQTLs must also document comparative analyses and make them available on request — but no plan-specific compliance determination is made here; this page verifies the rule, not any plan's behavior.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 
