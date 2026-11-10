@@ -2910,6 +2910,36 @@
       ]
     },
     {
+      "id": "rate-guide-recheck4",
+      "title": "The fifth identical reading: a second method confirms the undated page",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "rate-development-guide",
+        "guide-addendum",
+        "versioning-discipline",
+        "rating-period",
+        "index-vs-document",
+        "re-verification",
+        "undated-page-discipline",
+        "capture-method"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "cms-managed-care-rate-guidance"
+      ],
+      "objectives": [
+        "State the 2026-11-10 finding: the CMS rate-guidance index is unchanged for the fifth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10; 26-day streak) — same current 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda, still none for the 2026-2027 guide.",
+        "Explain the method switch: the plain-text fetch returned no copy fresh enough to use, so this check rests on a live-browser rendered read (22:55-22:56 UTC, first attempt, no access block) — a stale cache is a reason to switch methods, not to skip the check.",
+        "Apply the undated-page discipline by a second method: the rendered read searched the full page for \u201cUpdated\u201d, \u201cLast\u201d, \u201cRevised\u201d, and \u201cVersion\u201d and found none anywhere, so the text extract and the rendered read now agree the page carries no date of its own — cite the current guide as \u201ccurrent as of the 2026-11-10 re-read.\u201d",
+        "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
+      ]
+    },
+    {
       "id": "physical-directory-phones-diff2",
       "title": "The second diff: a directory's phone lines, checked twice — and the wobble that stayed put (re-verified 2026-11-08)",
       "path": "visual-journey.html",
