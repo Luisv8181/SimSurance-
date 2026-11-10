@@ -2150,6 +2150,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e5_covfifth',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE FIFTH IDENTICAL READING (coverage census re-counted, 2026-11-10)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e5_covfifth',
+      part: 'Unit I \u00b7 The 5 Players',
+      chapter: 'Ch 3 \u00b7 Player 5e, Continued Yet Again: The Fifth Identical Reading',
+      text: "Three days after the census I came back to the map room a fourth time — and the page had not moved a single county. Re-verified November 10, 2026, the Insurance Department page is substantively unchanged since November 7: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, same fifteen map images, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. That is the fifth identical reading — October 14, November 1, November 4, November 7, November 10 — twenty-seven days without a single change. Then I re-counted the whole census from today's live page, and every one of the fifteen counts agrees exactly with November 7: Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2 — three hundred and thirty-five county mentions in total, and the four identical pairs still hold as a fact about the page's text lists only. UPMC Health Options now counts 51 for the fourth consecutive check. Now the sentence this whole chain has been building toward: five identical readings prove the page has not moved. They do not prove it is current. The page still carries no revision date, no last-updated stamp, no document version — so the check date is the version, and stability is not permanence. And the map images are still uncounted, so the text-versus-map reconciliation stays open and the workbook's earlier fifty-two stays flagged for the owner to correct, contradicted four times over and still not quietly rewritten. That is the whole discipline in one room: count everything, claim only the text, and never let a quiet page talk you into calling it a current one.",
+      advantage: true,
+      advantageText: 'Stability Is Not Permanence: The Check Date Is the Version',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department \u00b7 archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'Important note: These maps only apply to purchasing a plan. They do NOT show limits on your health care coverage or provider network.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 10 re-verification is the fifth identical reading of the archived 2026 coverage page in 27 days, and the full census re-count agrees with November 7 on all fifteen issuers, with UPMC Health Options at 51 for the fourth consecutive check. What does that establish?',
+        opts: [
+          'A) The page is permanently current — five identical readings mean no future check is needed.',
+          'B) Stability, not permanence: the page has not moved in 27 days, but with no revision date the check date is the only version — and the 51-versus-52 flag still stands because the map images are uncounted, so the earlier 52 stays flagged for the owner.',
+          'C) The four identical county pairs prove those issuers sell the same plan under two names.',
+        ],
+        answer: 1,
+        explanation: "Correct! Five identical readings establish that the page has not moved — nothing more. With no revision date, last-updated stamp, or document version on the page, the check date is the only version this reading can carry, and a page that has not moved is not the same as a page that is current. The flag's original condition — counting the linked map images — is still unmet, so the workbook's earlier 52 stays flagged for the owner rather than silently corrected, and identical text lists say nothing about whether the plans are the same product.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 
