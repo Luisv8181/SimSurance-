@@ -2984,6 +2984,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck4',
+    },
+    {
+      id: 'u5_p2b2_recheck4',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Doorway, Confirmed Four Times',
+      text: "I came back to the federal doorway a fifth time, three days after the last full read: Medicaid.gov’s managed-care landing page, re-read in full on November 10 against the November 7 full read. The plain-text fetch gave me only a stale copy this time, so the verification rests on a live rendered read — and the read is clean. All three paragraphs match, word for word and in the same order — again. The definition is still there: ‘Managed Care is a health care delivery system organized to manage cost, utilization, and quality,’ delivered through state agencies contracting with managed care organizations ‘that accept a set per member per month (capitation) payment for these services.’ The second paragraph is still there too: states contracting with MCOs ‘can reduce Medicaid program costs and better manage utilization of health services,’ with ‘improvement in health plan performance, health care quality, and outcomes’ as key objectives. And the initiatives paragraph is now confirmed four times running over nine days: ‘Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,’ focused on ‘populations with chronic and complex conditions,’ ‘aligning payment incentives with performance goals,’ and ‘building in accountability for high quality care.’ Four agreeing full reads is the strongest statement this page’s record can make — and still only a statement about today. But this read caught something the body-paragraph checks never saw, and it is about my own evidence, not the page. The rendered page carries a Related Resources section that names ‘1915 of the Social Security Act,’ ‘1932(a) of the Social Security Act,’ and ‘Title 42, Part 438 of the Code of Federal Regulations,’ plus a navigation link titled ‘Managed Care Authorities.’ Every earlier snapshot said this page carries no federal-authority text — and that claim was always a body-paragraph claim, because the text-fetch captures were twelve lines, body only. The body still carries no authority text: no ‘1915(a)/(b)’ subdivision, no ‘1115’ anywhere. But the page does name authorities in its resource links, and whether those links were there in October is unresolvable, because the October snapshot never enumerated the sidebar. So the claim is qualified, not reversed, and the lesson is the discipline itself: a re-verification that only re-checks the paragraphs you already quoted is not a full-page diff. The sidebar counts too. The linked authority documents were not opened this run — a link title is a doorway, not a rule — and the page still shows no enrollment-share figure and no last-updated date, so the check date remains the version.",
+      advantage: true,
+      advantageText: 'Four Full Reads Confirm Today; The Sidebar Counts Too',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-10)',
+        quote: '1932(a) of the Social Security Act',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The three body paragraphs of the CMS managed-care page are unchanged for a fourth consecutive full read, but the rendered page names 1915, 1932(a), and 42 CFR Part 438 in its Related Resources links. What may you claim?',
+        opts: [
+          'A) The page changed: the authority links are new, so the earlier no-authority finding was wrong.',
+          'B) Only that the body paragraphs are confirmed page content as of November 10 across four full reads over nine days, and that the page names authorities in its Related Resources link titles — link titles, not authority text in the body; whether the links were there in October is unresolvable because no snapshot enumerated the sidebar, and nothing here enters the model as a rule.',
+          'C) The 1932(a) link now authorizes encoding managed-care authority rules in the model.',
+        ],
+        answer: 1,
+        explanation: "Correct! Four full reads agreeing is the strongest statement this page’s record can make about today — and the new observation sharpens rather than overturns the old finding. The earlier ‘no federal-authority text’ claim was always drawn from the three body paragraphs, which still carry none; the Related Resources links name authority documents without stating any rule. A link title is a doorway, not a rule, and the October snapshot never enumerated the sidebar, so no change claim stands. The linked documents were not opened, the page still shows no enrollment figure and no last-updated date, so the check date remains the version.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {

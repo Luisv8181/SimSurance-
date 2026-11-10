@@ -2974,6 +2974,38 @@
         "Name what stays open: resolving which Utah file is authoritative is the owner's call; the other seven state SPA documents were not opened; review_required_before_encoding stays true."
       ],
       "last_verified": "2026-11-10"
+    },
+    {
+      "id": "medicaid-managed-care-recheck4",
+      "title": "Managed care doorway re-verified (2026-11-10): four full reads agree; the sidebar names authorities the body does not",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "managed-care",
+        "capitation",
+        "care-coordination-initiatives",
+        "evidence-discipline",
+        "full-page-diff",
+        "related-resources",
+        "authority-link-titles"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "medicaid-gov-managed-care"
+      ],
+      "scene": "u5_p2b2_recheck4",
+      "source": "medicaid-gov-managed-care",
+      "objectives": [
+        "State the 2026-11-10 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-07 full read verbatim and in order (definition plus per-member-per-month capitation; costs/utilization/quality objectives; state care-coordination initiatives).",
+        "Explain what four consecutive full reads upgrade and what they do not: the initiatives paragraph is now confirmed across four full reads over nine days, the strongest statement this page's verification record can make about current content, but it remains overview language, never an authority, a rate, or an enrollment figure.",
+        "Record the new page-level observation without promoting it to a change finding: the rendered page's Related Resources section lists '1915 of the Social Security Act', '1932(a) of the Social Security Act', and 'Title 42, Part 438 of the Code of Federal Regulations', with a 'Managed Care Authorities' navigation link; these are link titles, not authority text in the body, and whether they were present in October is unresolvable because no snapshot enumerated the sidebar.",
+        "State what stays unresolvable and what the page still does not establish: whether the page changed between 2026-10-15 and 2026-11-01; any federal managed-care authority text in the body paragraphs (no '1915(a)/(b)' subdivision, no '1115'), any enrollment-share figure, any last-updated date, and the content of the linked authority documents (not opened this run); a fifth check could still find a change on the tenth day."
+      ],
+      "summary": "Re-verification of the CMS managed-care landing page (2026-11-10) via a live-browser rendered read (the plain-text fetch returned only a stale copy older than 30 minutes). All three main-body paragraphs match the 2026-11-07 full read verbatim and in order — fourth consecutive full read (2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10), nine days. NEW page-level observation, recorded NOT as a page change: the rendered page's Related Resources section lists '1915 of the Social Security Act', '1932(a) of the Social Security Act', and 'Title 42, Part 438 of the Code of Federal Regulations', and a navigation link titled 'Managed Care Authorities' appears under 'Policy and Program Topics'. The earlier 'no federal-authority text' claim is QUALIFIED, not reversed: it was always a body-paragraph claim (text-fetch captures were 12 lines, body only), and the 2026-10-15 snapshot never enumerated the sidebar, so whether the links were present in October is unresolvable. The linked authority documents were NOT opened. Still NO enrollment-share figure (no 'percent' and no '%' anywhere in the rendered text) and NO last-updated date — the check date remains the version."
     }
   ]
 }
