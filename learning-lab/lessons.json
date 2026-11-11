@@ -2882,6 +2882,38 @@
       ]
     },
     {
+      "id": "bhc-providers-recheck4-fullsum",
+      "title": "The third hand-sum: provider page still, total re-enumerated, duplicates census-complete",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-providers",
+        "eligibles-map",
+        "hand-sum",
+        "duplicate-flags",
+        "asam-fee-schedule",
+        "stability-vs-currency",
+        "re-verification"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-providers"
+      ],
+      "scene": "u1_p4_prov_recheck4_fullsum",
+      "source": "pa-dhs-bhc-providers",
+      "objectives": [
+        "State the 2026-11-10 finding: the PA DHS Behavioral HealthChoices providers page is unchanged since 2026-11-08 — same 1,175-line text, same framing sentences, same map heading, same total 2,764,063 — for a fourth consecutive still check.",
+        "State the enumeration finding: all 67 county rows were listed by name and hand-summed a third time to exactly 2,764,063, matching the page total, so the November 8 spot-checked stillness is now enumeration-backed again and the last full hand-sum moves to 2026-11-10.",
+        "State the duplicate census: a full-table scan confirms Montgomery/Northampton 112,070 (fifth check) and Indiana/Lawrence 16,168, both Carelon (fourth check) are the ONLY duplicate values in the 67-row table; both reconcile with the total, so both stay flagged for the owner, never corrected here.",
+        "State the fee finding: all seven ASAM fees identical for a sixth consecutive check (2.0WM $106.35/hr, 2.1 $11.57/15min, 2.5 $10.74/15min, 3.1 $160.13/diem, 3.5 $260.65/diem, 3.7 $321.78/diem, 3.7WM $415.24/diem), still headed Rates Effective January 1, 2026; the ASAM PDF was not re-opened and the 2026-11-08 reading stands.",
+        "Keep the discipline: the page carries no revision date, so the check date (2026-11-10) is the version; a dated fee schedule is rate evidence, never a payment rule; review_required_before_encoding stays true and nothing here is encoded as a rule."
+      ]
+    },
+    {
       "id": "rate-guide-recheck3",
       "title": "The undated index: four reads, twenty-four days, one check date",
       "path": "visual-journey.html",
@@ -2935,7 +2967,7 @@
       "objectives": [
         "State the 2026-11-10 finding: the CMS rate-guidance index is unchanged for the fifth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10; 26-day streak) — same current 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda, still none for the 2026-2027 guide.",
         "Explain the method switch: the plain-text fetch returned no copy fresh enough to use, so this check rests on a live-browser rendered read (22:55-22:56 UTC, first attempt, no access block) — a stale cache is a reason to switch methods, not to skip the check.",
-        "Apply the undated-page discipline by a second method: the rendered read searched the full page for \u201cUpdated\u201d, \u201cLast\u201d, \u201cRevised\u201d, and \u201cVersion\u201d and found none anywhere, so the text extract and the rendered read now agree the page carries no date of its own — cite the current guide as \u201ccurrent as of the 2026-11-10 re-read.\u201d",
+        "Apply the undated-page discipline by a second method: the rendered read searched the full page for “Updated”, “Last”, “Revised”, and “Version” and found none anywhere, so the text extract and the rendered read now agree the page carries no date of its own — cite the current guide as “current as of the 2026-11-10 re-read.”",
         "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
       ]
     },
