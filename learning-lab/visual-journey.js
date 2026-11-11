@@ -1577,6 +1577,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs6_fifth',
+    },
+    {
+      id: 'u1_p4g_pubs6_fifth',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Fifth Absence — An Unanswered Question Stays Open',
+      text: "Glim re-checked the publications vault on 2026-11-11 — three days after the last visit — and the page had not moved. Same OMHSAS shelves, same accreditation paragraph, same quality-review reports ending in 2023 with still no 2024 report, and the children's-services table still stamped 'Last updated: October 2026.' That is the fourth straight check with no movement, and the table was counted a fourth time, by hand, row by row: fifty-five rows, thirty-one with X in both funding columns, twenty managed-care-only, four with no X at all — the exact same numbers as November 3, November 5, and November 8. Four counts on four different days, one answer. The PCIT split is still there, the Partial Hospitalization duplicates still agree, the blank rows are still blank. But today the story is still the shelf that is not there. The General Publications section recorded on 2026-10-14 has now failed to appear in five consecutive complete reads: October 17, November 3, November 5, November 8, and today. The question went to the owner at the last check, as promised, and no answer has come back yet. So this scene teaches the discipline that follows a question asked: an unanswered question is not a resolved question. The shelf stays unverified from this index, the question stays open, and the rotation keeps checking — because silence from the page is data, and silence from the owner is a wait, not a verdict. Do not conclude the documents were deleted; do not quietly close the flag either. One honest limit to carry with the tally: all four counts were made the same way, by the same hand, from the same extract — a second independent counter would be the next strengthening step, and that is the owner's call, not this run's. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'An Unanswered Question Is Not a Resolved One',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-11-11; children\'s-services table still stamped "Last updated: October 2026" (index page, not a rule)',
+        quote: 'As per CFR 438.332, the department posts the certificate of accreditation by a Private Independent Entity.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The General Publications shelf is now absent from a fifth consecutive complete read, and the owner question sent at the last check is still unanswered. What is the correct discipline now?',
+        opts: [
+          'A) Keep the flag open and the shelf unverified from this index, keep checking, and do not treat the owner\'s silence as an answer — an unanswered question is not a resolved question, and absence from an extract is not proof of deletion.',
+          'B) Close the flag — five absences and no owner reply means the documents must be gone, so remove the 2026-10-14 shelf contents from the registry.',
+          'C) Stop re-checking the page — four identical counts prove nothing more can be learned, and the table is now verified as a covered-benefit schedule.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-11-11 re-verification is the fifth consecutive complete read (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11) without the General Publications shelf, and the owner question sent at the last check is still unanswered. Silence is a wait, not a verdict: the flag stays open, the 2026-10-14 shelf contents stay unverified from this index, and the rotation keeps checking. And the table is a funding-availability map, not a covered-benefit schedule — an X is a funding mark, never a promise of an appointment. One limit to carry: all four identical counts came from the same hand and the same method, so a second independent counter would strengthen the tally.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {

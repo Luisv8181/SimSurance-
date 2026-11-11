@@ -3101,6 +3101,41 @@
       ],
       "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-11) via a text fetch of the official URL (copy crawled 2026-11-11 06:55 UTC, less than a minute before the read). Page UNCHANGED for a seventh consecutive check — same 12 lines, same four paragraphs in the same order, thirty-two days from the first check (2026-10-10), a full month. The county-duty sentence's lead-in clause is intact a second time, confirming the excerpt discipline from the 2026-11-05 check held: the full paragraph was re-read, not the last excerpt. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. Streak limit recorded honestly: seven checks cover seven days only; a change between checks, or a program change underneath an unchanged page, would not show in the streak. Page-level verification only; review_required_before_encoding stays true.",
       "last_verified": "2026-11-11"
+    },
+    {
+      "id": "bhc-publications-recheck4",
+      "title": "BHC publications index re-verified (2026-11-11): unchanged for the fourth straight check; table count agrees a fourth time; General Publications shelf absent a fifth time \u2014 owner question still open",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "bhc-publications",
+        "source-verification",
+        "independent-recount",
+        "funding-availability-marks",
+        "missing-section-flag",
+        "owner-question",
+        "unanswered-question"
+      ],
+      "scene": "u1_p4g_pubs6_fifth",
+      "source": "pa-dhs-bhc-publications",
+      "summary": "Full-page re-verification (274 lines) finds the publications index substantively unchanged since 2026-11-08 \u2014 the fourth straight check with no movement: same OMHSAS shelves, same CFR 438.332 paragraph, same EQR reports ending 2023 (still no 2024 report), children's-services table still stamped 'Last updated: October 2026'. A fourth fresh hand count of the 55-row table reproduces the 2026-11-03, 2026-11-05, and 2026-11-08 tallies exactly (31 both-X, 20 managed-care-only, 4 blank), with the PCIT split and the blank rows unchanged. OWNER QUESTION STILL OPEN: the General Publications shelf recorded 2026-10-14 is absent for a fifth consecutive full-page check (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11); the question went to the owner at the 2026-11-08 check and was carried in the 2026-11-10 morning digest, and no answer has come back yet. Do not conclude the documents were removed; the shelf may have moved. Until the owner answers, the 2026-10-14 shelf contents (ASAM rates, 2026 FRR, PSR, 2026 Member Handbook) are treated as unverified from this index. Honest limit: all four counts used the same hand and method \u2014 a second independent counter would strengthen the tally.",
+      "verified": "2026-11-11",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-publications"
+      ],
+      "objectives": [
+        "State the 2026-11-11 re-verification finding: the publications index is substantively unchanged since 2026-11-08, with the children's-services table still stamped 'Last updated: October 2026' and EQR reports still ending 2023.",
+        "Teach recount discipline: a fourth fresh hand count reproducing the same tally exactly (55 rows: 31 both-X, 20 managed-care-only, 4 blank) is the strongest evidence yet the table is stable, not merely unread \u2014 and record the limit that all four counts used the same hand and method.",
+        "Teach the discipline after a question is asked: an unanswered question is not a resolved question \u2014 the General Publications shelf stays unverified from this index, the flag stays open, and the rotation keeps checking; silence from the owner is a wait, not a verdict.",
+        "Flag honestly: the General Publications shelf recorded 2026-10-14 is absent for a fifth consecutive full-page check \u2014 treat as possibly moved, not as evidence the documents were removed.",
+        "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+      ],
+      "last_verified": "2026-11-11"
     }
   ]
 }
