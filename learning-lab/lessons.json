@@ -3037,6 +3037,37 @@
       ]
     },
     {
+      "id": "physical-directory-phones-diff3",
+      "title": "The third diff: a directory's phone lines, checked a third time — and the wobble that stayed put twice (re-verified 2026-11-11)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "physical-health-mco-directory",
+        "source-verification",
+        "phone-number-diff",
+        "dated-directory-discipline",
+        "extraction-artifact"
+      ],
+      "scene": "u1_p4_phys6_phones3",
+      "source": "pa-dhs-physical-hc-mco",
+      "summary": "Re-verification of the PA DHS Physical HealthChoices MCO directory (2026-11-11; page text fetched from the official URL, copy crawled 2026-11-11 22:55 UTC, less than a minute before the read). Full-page read (94 lines) matches the 2026-11-08 snapshot exactly. Third phone-number diff: every member-services and EMSU number agrees again across all five region tables (Geisinger 855-227-1302 / 855-214-8100 and UPMC for You 800-286-4242 / 866-463-1462 identical in all five). TTY punctuation wobble now diffed a second time and unchanged: the same three rows (Northeast Jefferson, Northeast UPMC, Southwest UPMC) drop the colon after TTY in the same places, reading as a stable rendering quirk rather than a page edit. Counties hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 exactly once; same three persisting typos ('Northast', unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y). Page still carries no revision date. Stability streak now five identical checks (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11), 27 days. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-11",
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-physical-hc-mco"
+      ],
+      "objectives": [
+        "State the 2026-11-11 recheck result for the physical HealthChoices directory: five region tables unchanged since 2026-11-08, county lists hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 counties exactly once, and the same three persisting typos ('Northast', the unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y).",
+        "Explain why this run is the third phone-number diff: the 2026-11-05 check was the first comparison against the 2026-11-02 recording and 2026-11-08 the second, so 2026-11-11 is the third comparison — and every member-services and EMSU number agrees again across all five region tables.",
+        "Explain the new diffable observation: the TTY colon wobble was first recorded on 2026-11-05 and first compared on 2026-11-08, so 2026-11-11 is the second recheck where the punctuation itself can be compared — the same three rows drop the colon in the same places, which reads as a stable rendering quirk, not a page edit.",
+        "Apply the dated-directory discipline: a number checked three times is a dated fact that can be quoted with its check dates; five identical reads over 27 days prove the page has not moved, not that it is current — the page still carries no revision date, and no number on it is evidence of any member's actual plan, benefits, or network."
+      ]
+    },
+    {
       "id": "cms-sbs-third-load",
       "title": "Third load, November 10, 2026: two live loads disagree; the Utah mismatch is present a third time running; a Utah date flickers inside one load",
       "path": "visual-journey.html",
