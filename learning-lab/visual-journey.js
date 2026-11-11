@@ -2635,6 +2635,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck4',
+    },
+    {
+      id: 'u3_p2_data_recheck4',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 A Second Fingerprint: Five Reads, Twenty-Seven Days',
+      text: "Three days after the last check, I opened the systems-management page again \u2014 and nothing had moved a fifth time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice \u2014 OMHSAS-2026-001, June 9, 2026, now five months old \u2014 same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Five identical checks now: October 15, November 2, November 5, November 8, November 11 \u2014 a twenty-seven-day streak. This read added a second fingerprint. The page keeps the typo \u201cSub-Capitation Paymen,\u201d and the HealthChoices Reports table keeps a second one: the studies are described as an \u201cEncounter Data Valdiation Study.\u201d Two independent slips surviving five reads is stronger evidence the page has not been re-edited between checks than one typo alone \u2014 but it is still only evidence about the page, not about the program. A page that never moves is not proof the program is current; it is only proof the page is still. I also counted the Systems Notices table for the first time: 41 rows, one from 2026, twelve from 2020, nine from 2021, three from 2022, seven from 2023, five from 2024, four from 2025. That count is a baseline for the next read, not a change \u2014 no earlier snapshot counted the table, so nothing is claimed from it yet. The four Reserved rows are still there, still counted as nothing. The newest validation evidence is still the 2023 EDV studies, and their PDFs are still unopened, so their findings are still unknown. Nothing here becomes a simulator parameter. What the fifth check changes is only the date \u2014 and the number of fingerprints that say the page has not been touched.",
+      advantage: true,
+      advantageText: 'Two Typos, One Story: A Page Untouched Is Not a Program Current',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-11 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'The Division of Systems Management objective is to ensure eligible individuals can access behavioral health services covered by Medicaid and County Base-Funded Mental Health.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-11 the systems-management page is unchanged for the fifth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11), and a second typo, "Encounter Data Valdiation Study," now joins "Sub-Capitation Paymen" as a surviving slip. What do two surviving typos tell a researcher?',
+        opts: [
+          'A) They are fingerprints that the page has not been re-edited between checks \u2014 two independent slips surviving five reads is stronger evidence of no edit than one \u2014 but only about the page, not the program: a still page is not proof the program is current.',
+          'B) They prove the page\u2019s contents are wrong, so the whole page must be discarded as a source.',
+          'C) They mean the page was just updated, since new typos appear only in fresh edits.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 11 re-verification is section by section against the 2026-11-08 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews \u2014 the fifth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11). The second fingerprint typo, \u201cEncounter Data Valdiation Study,\u201d survives alongside \u201cSub-Capitation Paymen.\u201d Two surviving slips strengthen the no-edit evidence, but they say nothing about whether the program itself is current. The Systems Notices table was counted for the first time at 41 rows \u2014 a baseline for the next read, not a change claim. The four Reserved rows are still counted as nothing, the EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {

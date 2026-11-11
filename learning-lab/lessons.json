@@ -1917,6 +1917,40 @@
       "last_verified": "2026-11-08"
     },
     {
+      "id": "systems-management-recheck4",
+      "title": "A second fingerprint: five reads, twenty-seven days, one check date (systems-management re-verified 2026-11-11)",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "encounter-data",
+        "omhsas-systems-management",
+        "source-verification",
+        "snapshot-discipline",
+        "reserved-placeholder",
+        "undated-page-discipline",
+        "synthetic-population-boundary"
+      ],
+      "scene": "u3_p2_data_recheck4",
+      "source": "pa-dhs-bhc-systems-management",
+      "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-11; page text fetched from the official URL, 253 lines, copy crawled 2026-11-11 14:55 UTC, <1 min before the read). Page UNCHANGED section by section since 2026-11-08: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), now five months old, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same four Reserved rows (2021-003, 2021-007, 2021-008, CCRI 2022–001), same Provider Type 07 capitation forms. Fifth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11), 27-day streak. NEW page-level observations: a second fingerprint typo survives alongside 'Sub-Capitation Paymen' — 'Encounter Data Valdiation Study' in the HealthChoices Reports table — and the Systems Notices table is counted for the first time at 41 rows (1 from 2026, 12 from 2020, 9 from 2021, 3 from 2022, 7 from 2023, 5 from 2024, 4 from 2025), a baseline for future diffs, not a change claim. Page still carries no revision date, last-updated stamp, or version, so the check date is the version. The newest validation evidence on the page (2023 EDV studies) is now two years old; linked EDV-study PDFs not read, findings unknown. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-11",
+      "policy_claims": false,
+      "source_refs": [
+        "pa-dhs-bhc-systems-management"
+      ],
+      "objectives": [
+        "State the 2026-11-11 finding: the systems-management page is unchanged since 2026-11-08 (same 253-line fetch, same newest notice OMHSAS-2026-001, June 9, 2026, same EDV/on-site review years) — the fifth identical check in a 27-day streak.",
+        "Teach the fingerprint check with two data points: 'Sub-Capitation Paymen' and 'Encounter Data Valdiation Study' both surviving five reads is stronger no-edit evidence than one typo alone — and still only evidence about the page, not the program.",
+        "Teach the baseline discipline: the Systems Notices table counted for the first time at 41 rows is a baseline for the next read, not a change claim, since no earlier snapshot counted it.",
+        "Hold the standing limits: the four Reserved rows are still counted as nothing, the 2023 EDV-study PDFs remain unopened so their findings are unknown, and nothing here becomes a simulator parameter."
+      ],
+      "last_verified": "2026-11-11"
+    },
+    {
       "id": "bhc-overview-recheck",
       "title": "PA DHS Behavioral HealthChoices overview re-verified (2026-11-03): unchanged since 2026-10-10, still undated",
       "path": "visual-journey.html",
