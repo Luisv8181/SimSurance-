@@ -3557,6 +3557,37 @@
         { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2f_sbs_fourthload',
+    },
+    {
+      id: 'u5_p2f_sbs_fourthload',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Fourth Load: Three Intros, One Page',
+      text: "Yesterday's scene ended with a promise to keep watching the Utah link, and a warning that this index hands different readers different pages. Today I loaded it twice, three minutes apart — and the page proved the warning twice over. Load one opens 'Welcome to the CMS School-Based Services Resource page!' and its guidance list runs the Comprehensive Guide without a year, the Guide for School Administrators, State Medicaid Director Letter #23-005, a fact sheet, and two FAQ entries. Load two, three minutes later, opens 'We have also issued school-based services guidance, most notably the 2023 Comprehensive Guide...' and its guidance list is the familiar May 2023 and August 2022 bulletins with the 2014 letter #14-006. Two live loads, one morning, disagreeing about the introduction and the guidance list — and neither one matches the divergent variant from November 10, which opened 'In 2023, CMS published extensive guidance.' That makes three different intros served for one URL across two days, and three different guidance lists; even inside the cached variant, the tail of the list wobbles between runs. So the intro and the guidance list are load-variant by definition now: no single load's version is recorded as page content, and no one may quote a guidance title from one load as if it were the page. What did not move, across both of today's loads and every load before them: the same eight state SPAs in the same four groupings with the same approval dates, Wyoming still July 18, 2022, the Utah time-study guide, the three cost reports, the non-endorsement disclaimer, and no last-updated stamp anywhere. And the Utah link mismatch is now present on four consecutive live loads — the label still reads 'Utah SPA 21-0009' and the target still points to UT-21-0019.pdf — four present against two absent across six observations. The mismatch is the standing observation now; agreement is the exception. One thing that did not repeat: the Utah date flicker from November 10. August 15, 2022 held steady on both loads today, so the flicker stands as a single unreproduced event — flagged, not promoted.",
+      advantage: true,
+      advantageText: 'Three Intros, One URL: Quote Only the Stable Part',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS · Medicaid school-based services index (official page, page-level check only)',
+        quote: 'Utah SPA 21-0009. (approved August 15, 2022)',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Two fresh live loads of the CMS school-based services index, three minutes apart, show different intros and different guidance lists, and neither matches the divergent variant from November 10. Both loads agree exactly on the eight state SPAs, the Utah link mismatch, and the Utah approval date. What is the correct handling?',
+        opts: [
+          'A) The page changed between the two loads, so record the first load as the old version and the second as the new version, and quote the guidance titles from whichever load you opened last.',
+          'B) Treat the intro and guidance list as load-variant — three different intros served for one URL across two days — and record neither load\'s version as page content; the eight SPAs, the Utah mismatch (label 21-0009, target UT-21-0019.pdf, now present on four consecutive live loads), and the August 15, 2022 Utah date are the stable part, agreed across both loads.',
+          'C) Average the two loads: the intro is half of each version, and the guidance list is the union of both lists.',
+        ],
+        answer: 1,
+        explanation: "Correct! When two loads minutes apart disagree, the contested sections are load-variant, not page content — and a third intro across two days makes the point three times over. The stable part is what every load agrees on: the eight SPAs, the Utah mismatch now standing at four consecutive live loads, and the August 15, 2022 date. A mismatch present four times running is a standing observation; agreement is the exception — while neither Utah PDF has been opened, so no claim is made about which file is correct.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
     {

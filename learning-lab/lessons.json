@@ -3072,6 +3072,40 @@
       "last_verified": "2026-11-10"
     },
     {
+      "id": "cms-sbs-fourth-load",
+      "title": "Fourth load, November 11, 2026: two live loads disagree again — a third intro variant; the Utah mismatch is present a fourth time running",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "school-based-services",
+        "load-anomaly",
+        "two-load-verification",
+        "link-target-mismatch",
+        "third-variant",
+        "stable-part",
+        "index-page-discipline"
+      ],
+      "scene": "u5_p2f_sbs_fourthload",
+      "source": "cms-school-based-services",
+      "summary": "Re-verification of the CMS school-based services index (2026-11-11) with TWO live loads, three minutes apart (18:56-18:57 and 18:59-19:00 UTC), and they do NOT agree on the intro or the guidance list. Load 1 is a THIRD intro variant for one URL across two days — it opens 'Welcome to the CMS School-Based Services (SBS) Resource page!...' with a guidance list running the Comprehensive Guide without a year, the Guide for School Administrators, SMD Letter #23-005, a fact sheet, and two FAQ entries; neither matches the 2026-11-10 divergent variant ('In 2023, CMS published extensive guidance...') nor the cached variant. Load 2 matches the cached variant on the intro ('We have also issued school-based services (SBS) guidance...') and guidance items 1-3 (May 2023 / Aug 2022 bulletins, SMD #14-006), but its items 4-6 ('2022 School-based Health Services – HHS Resources', NPI application) differ from the 2026-11-10 Load 2's items 4-6 — the variant zone covers the tail of the list too, even within the cached variant. The intro and guidance list are now load-variant by definition; no single load's version is recorded as page content. STABLE ACROSS BOTH LOADS: same 8 state SPAs in the same four groupings with the same approval dates (Wyoming still July 18, 2022), same Utah TSIP guide, same three cost-report examples, same non-endorsement disclaimer, TAC 7 bullets / 8 linked titles confirmed again, still no last-updated stamp. UTAH MISMATCH: link text 'Utah SPA 21-0009' still points to UT-21-0019.pdf on BOTH live loads — present on the last FOUR live loads in a row, tally now 4 present / 2 absent across six observations; the mismatch is the standing observation, agreement the exception; neither PDF opened, no claim about which file is correct. NO UTAH DATE FLICKER this run: August 15, 2022 steady on both loads; the 2026-11-10 flicker does not reproduce and stands as a single unreproduced event. The other seven state SPA documents were NOT opened. review_required_before_encoding stays true; no rule encoded.",
+      "verified": "2026-11-11",
+      "policy_claims": true,
+      "source_refs": [
+        "cms-school-based-services"
+      ],
+      "objectives": [
+        "State the 2026-11-11 finding: two live loads three minutes apart disagree on the intro and the guidance list — Load 1 is a third intro variant for one URL across two days ('Welcome to the CMS School-Based Services (SBS) Resource page!...') with a third guidance list, and Load 2 matches the cached variant on the intro and items 1-3 but differs on items 4-6 from the 2026-11-10 Load 2; no single load's version is recorded as page content.",
+        "State what is stable across both loads: the same 8 state SPA examples in the same four groupings with the same approval dates (Wyoming still July 18, 2022), same Utah TSIP guide, same three cost-report examples, same non-endorsement disclaimer, TAC 7 bullets / 8 linked titles confirmed again, still no last-updated stamp on either load.",
+        "State the Utah findings and their limits: the link mismatch (label 21-0009, target UT-21-0019.pdf) is present on BOTH live loads, four consecutive live loads in a row, tally 4 present / 2 absent across six observations — the mismatch is the standing observation, agreement the exception; the Utah '(approved October 14, 2021)' flicker from 2026-11-10 does not reproduce (August 15, 2022 steady on both loads) and stands as a single unreproduced event; neither Utah PDF was opened, so no claim is made about which file is correct.",
+        "Name what stays open: resolving which Utah file is authoritative is the owner's call; the other seven state SPA documents were not opened; review_required_before_encoding stays true."
+      ],
+      "last_verified": "2026-11-11"
+    },
+    {
       "id": "medicaid-managed-care-recheck4",
       "title": "Managed care doorway re-verified (2026-11-10): four full reads agree; the sidebar names authorities the body does not",
       "path": "visual-journey.html",
