@@ -1076,6 +1076,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview6_recheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE, RE-READ — A FULL MONTH (re-verified 2026-11-11)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview6_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Undated Page, Re-Read — A Full Month',
+      text: "Three days after the last check, Glim opened the Behavioral HealthChoices overview again, and the page had not moved. Same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Seven checks now: October 10, 13, and 16, November 3, 5, 8, and today, November 11 — thirty-two days of identical text, a full month, and still no revision date, no last-updated stamp, no document version anywhere on it. This re-read had one job, and it was not to find a change — it was to test whether the excerpt discipline from the November 5 check had survived a second full re-read. That check caught the snapshots trimming the county-duty sentence's lead-in clause — 'Under the behavioral health component of the HealthChoices program, counties are required...' — and today's crawl shows the lead-in intact again, the whole paragraph read, not the last excerpt of it. The notes stayed sharp twice in a row now. But a month of identical checks buys less than it feels like it buys. Seven checks are seven snapshots on seven days; between them the page could have moved and moved back, and no streak would show it. The streak proves the page reads the same whenever we look — nothing about what it will read tomorrow, and nothing about whether the program it describes has changed underneath it. So the discipline holds, and it gets one line sharper still: quote the overview with November 11, 2026 attached, because the check date is still the only version this page has — and schedule the next check, because the eighth read is the only one that can speak for the eighth day.",
+      advantage: true,
+      advantageText: 'A Month of Identical Reads: What a Streak Buys, and What It Does Not',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-11, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Each HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE MONTH-LONG BLUR:\n- The overview page reads the same on October 10, 13, 16, November 3, 5, 8, and now 11.\n- 'Seven identical checks over a full month — it must be settled by now.'\n- Stability quietly upgraded into currency, and the gaps between checks dropped from the claim.",
+        after: "THE DATED STREAK:\n- Seven identical checks over thirty-two days, and the page still shows no revision date of its own.\n- 'Unchanged on every day we looked; undated by its publisher; re-verified 2026-11-11.'\n- The lead-in the November 5 check recovered is intact a second time — the notes stayed sharp. But the streak only covers the days we looked; the eighth read is the only one that can speak for the eighth day.",
+        note: "A page-level re-verification (2026-11-11): this scene teaches streak discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {

@@ -3068,6 +3068,39 @@
         "State what stays unresolvable and what the page still does not establish: whether the page changed between 2026-10-15 and 2026-11-01; any federal managed-care authority text in the body paragraphs (no '1915(a)/(b)' subdivision, no '1115'), any enrollment-share figure, any last-updated date, and the content of the linked authority documents (not opened this run); a fifth check could still find a change on the tenth day."
       ],
       "summary": "Re-verification of the CMS managed-care landing page (2026-11-10) via a live-browser rendered read (the plain-text fetch returned only a stale copy older than 30 minutes). All three main-body paragraphs match the 2026-11-07 full read verbatim and in order — fourth consecutive full read (2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10), nine days. NEW page-level observation, recorded NOT as a page change: the rendered page's Related Resources section lists '1915 of the Social Security Act', '1932(a) of the Social Security Act', and 'Title 42, Part 438 of the Code of Federal Regulations', and a navigation link titled 'Managed Care Authorities' appears under 'Policy and Program Topics'. The earlier 'no federal-authority text' claim is QUALIFIED, not reversed: it was always a body-paragraph claim (text-fetch captures were 12 lines, body only), and the 2026-10-15 snapshot never enumerated the sidebar, so whether the links were present in October is unresolvable. The linked authority documents were NOT opened. Still NO enrollment-share figure (no 'percent' and no '%' anywhere in the rendered text) and NO last-updated date — the check date remains the version."
+    },
+    {
+      "id": "bhc-overview-recheck4",
+      "title": "Behavioral HealthChoices overview re-verified (2026-11-11): seven identical checks, thirty-two days, still undated",
+      "path": "visual-journey.html",
+      "audience": [
+        "understand",
+        "investigate"
+      ],
+      "status": "source_review_required",
+      "concepts": [
+        "behavioral-healthchoices",
+        "bh-mco-assignment",
+        "evidence-discipline",
+        "full-page-diff",
+        "excerpt-discipline",
+        "streak-limits",
+        "undated-page"
+      ],
+      "policy_claims": true,
+      "source_refs": [
+        "pa-dhs-bhc-overview"
+      ],
+      "scene": "u1_p4b_overview6_recheck",
+      "source": "pa-dhs-bhc-overview",
+      "objectives": [
+        "State the 2026-11-11 finding: the full 12-line page matches the 2026-11-08 snapshot sentence for sentence in the same order — seventh identical check (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11), thirty-two days, a full month.",
+        "Explain what the excerpt discipline check proves this run: the county-duty sentence's lead-in clause ('Under the behavioral health component of the HealthChoices program, counties are required...') is intact a second time, so the full paragraph was re-read, not the last excerpt — the notes stayed sharp twice in a row.",
+        "Explain what a streak buys and what it does not: seven checks are seven snapshots on seven days; between them the page could have moved and moved back and no streak would show it, and the streak says nothing about whether the program the page describes has changed underneath it.",
+        "State what stays open: the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-11) is still the only version the citation has; no coverage, benefit, or payment rule is encoded from this overview page."
+      ],
+      "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-11) via a text fetch of the official URL (copy crawled 2026-11-11 06:55 UTC, less than a minute before the read). Page UNCHANGED for a seventh consecutive check — same 12 lines, same four paragraphs in the same order, thirty-two days from the first check (2026-10-10), a full month. The county-duty sentence's lead-in clause is intact a second time, confirming the excerpt discipline from the 2026-11-05 check held: the full paragraph was re-read, not the last excerpt. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. Streak limit recorded honestly: seven checks cover seven days only; a change between checks, or a program change underneath an unchanged page, would not show in the streak. Page-level verification only; review_required_before_encoding stays true.",
+      "last_verified": "2026-11-11"
     }
   ]
 }
