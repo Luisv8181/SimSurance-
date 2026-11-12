@@ -1424,6 +1424,32 @@
    ]
   },
   {
+   "id": "chip-directory-fourth-absence",
+   "title": "CHIP directory re-verified: the row that stayed gone, a fourth time (nine days of stillness)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "chip",
+    "directory-verification",
+    "recheck-discipline",
+    "ncqa-accreditation",
+    "dated-evidence"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-chip-companies"
+   ],
+   "objectives": [
+    "State the 2026-11-12 re-verification finding verbatim: page unchanged since 2026-11-09 (full 63-line read; nine insurers and phones, nine accredited NCQA rows, four accredited Health Equity rows, every date identical), and Keystone First-CHIP still absent from the Health Equity table with no explanation on the page — a fourth consecutive absence, nine days since the absence was first spotted.",
+    "Distinguish the record from the answer: an absence that survives four reads over nine days is the page's steady state and the record itself, and still not evidence of a lapse — Keystone's NCQA row carries a fresh October 6, 2026 grant, and its equity status stays unknown-from-this-page until NCQA or the MCO confirms it.",
+    "Teach the closing discipline: the owner question is now nine days old and has been carried in two morning digests with no answer, and an unanswered question is not a resolved question; quote the four-row ledger as of November 12, 2026, and review_required_before_encoding stays true."
+   ]
+  },
+  {
    "id": "bhc-overview-undated-page",
    "title": "BHC overview re-verified: the undated page (the check date is the version)",
    "path": "visual-journey.html",
