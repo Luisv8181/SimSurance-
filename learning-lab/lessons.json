@@ -2886,6 +2886,35 @@
    ]
   },
   {
+   "id": "bhc-mcos-recheck6",
+   "title": "The partition, audited a sixth time: nine identical reads, quiet on a three-day gap",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-mco-directory",
+    "county-partition",
+    "full-enumeration",
+    "stability-vs-currency",
+    "undated-page",
+    "re-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-mcos"
+   ],
+   "objectives": [
+    "State the 2026-11-12 finding: the PA DHS BH-MCO county directory is unchanged since 2026-11-09 — full 27-line page read matches the snapshot exactly, same five rows in the same order, county lists recounted by hand to 1 + 41 + 7 + 7 + 11 = 67, exactly once.",
+    "State the stability streak: nine identical checks (2026-10-10, 2026-10-12, 2026-10-14, 2026-10-15, 2026-11-02, 2026-11-05, 2026-11-07, 2026-11-09, 2026-11-12), 33 days, the last six full-page comparisons against a fully enumerated snapshot, so the streak is checkable, not asserted.",
+    "Explain the partition frame: the directory partitions all 67 counties across five BH-MCOs exactly once, so a recheck is an audit of that exactness — a county in two rows would fork a model join, a missing county would leave it ledgerless.",
+    "State the sharper caveat: the page carries no revision date, last-updated stamp, or document version, so the streak proves the page has not moved, not that it is current — stability and currency are different claims, and the check date is the version.",
+    "Name what the page does not establish: any member's actual plan assignment, provider credentialing, network openness, covered benefits, or reimbursement rates; the linked MCO webpages were not reviewed."
+   ]
+  },
+  {
    "id": "bhc-providers-asam-pdf",
    "title": "The ASAM PDF, opened at last: seven fees confirmed, applicability still unanswerable from the document",
    "path": "visual-journey.html",
