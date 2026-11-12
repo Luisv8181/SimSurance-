@@ -757,6 +757,38 @@
         { label: 'Behavioral HealthChoices Overview (Official, live)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_access6_returned',
+    },
+    {
+      id: 'u1_p4_access6_returned',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d Addendum: The Door That Came Back — The Service-Access Page Returns, Word for Word',
+      text: "Three days after the page left its address, Glim knocked again \u2014 and the door was back. The same address that answered \u201cPage not found\u201d on November 9 now serves the full page, no redirect, the same title, the same sections in the same order. Two independent reads agree, text fetch and live browser, minutes apart: the Overview still opens, \u201cIf you receive Medicaid health coverage and need support for mental health care or substance use disorder, Behavioral HealthChoices can help.\u201d The county-office route, the BH-MCO assigned by county of residence, the mailed handbook, COMPASS and the Consumer Service Center at 1-866-550-4355, the 988 block \u2014 all of it, word for word the same as the November 6 snapshot, 126 lines then and 126 lines now. Even the two scrape artifacts are back exactly as they were: the 988 block rendered twice, the stray \u201cPhone: 18773958930\u201d string at the foot. The page did not come back changed. It came back identical, as if the three-day absence had never happened. That is the second half of the lesson the 404 taught. A dead address is not always a dead page: a site can unpublish and republish the same text, and a three-day 404 is a three-day fact, not a permanent one. So the record now carries both dates \u2014 unavailable November 9, live again November 12, content unchanged from November 6 \u2014 and the status flips back to reviewed, with the 404 kept in the history rather than erased. What the page still does not do is date itself: no revision stamp, no version, no last-updated line anywhere on it, so the check date is still the version, and nothing on it is a benefit schedule, a directory, or a rate. The door is back. The discipline is to record that it left, that it returned, and that nothing about its words changed in between.",
+      advantage: true,
+      advantageText: 'A Dead Address Is Not Always a Dead Page — Record the Absence and the Return',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · member access guidance, live again 2026-11-12 after HTTP 404 on 2026-11-09 (guidance, not a rule)',
+        quote: 'If you receive Medicaid health coverage and need support for mental health care or substance use disorder, Behavioral HealthChoices can help.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS Request Behavioral HealthChoices Services (live 2026-11-12)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks the service-access page on November 12. The address that returned 404 on November 9 now serves the full page, word for word the same as the November 6 snapshot \u2014 same 126 lines, same claims, same scrape artifacts. What is the honest record?",
+        opts: [
+          'A) Record the page as live again as of November 12, 2026 \u2014 two independent reads, no redirect \u2014 content identical to the 2026-11-06 snapshot, flip the status back to reviewed, and keep the November 9 404 in the record history; no corrected URL was ever needed, and the check date remains the version because the page still carries no revision date.',
+          'B) The page is back, so delete the November 9 404 from the record \u2014 it must have been a mistake.',
+          'C) The page was gone for three days, so treat the restored copy as a new, different page and discard the November 6 snapshot.',
+        ],
+        answer: 0,
+        explanation: "Correct! Two independent reads minutes apart agree the page is live at its registered URL with no redirect, and the 126-line read matches the November 6 snapshot line for line \u2014 including the two scrape artifacts, which is itself evidence the restored page is the same page, not a rewritten one. A three-day 404 is a three-day fact, not a permanent one, so it stays in the history rather than being erased; the status flips back to reviewed and no corrected URL is needed, because the original address works again. The page still carries no revision date, so the check date remains the version, and nothing on it is a benefit schedule, a directory, or a rate.",
+      },
+      furtherReading: [
+        { label: 'PA DHS Request Behavioral HealthChoices Services (Official, live 2026-11-12)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Behavioral HealthChoices Overview (Official, live)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4e_mbh',
     },
 

@@ -2078,6 +2078,38 @@
    "last_verified": "2026-11-09"
   },
   {
+   "id": "bhc-service-access-page-returned",
+   "title": "BH service-access page re-verified (2026-11-12): the door that came back — 404 reversed, page live again, content identical to 2026-11-06",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-service-access",
+    "member-access-pathway",
+    "dead-url",
+    "stale-index-evidence",
+    "dated-evidence"
+   ],
+   "scene": "u1_p4_access6_returned",
+   "source": "pa-dhs-bhc-service-access",
+   "summary": "Re-verification of the PA DHS Request Behavioral HealthChoices Program Services page (2026-11-12; text fetch AND live browser load of the registered URL, minutes apart, no redirect). RETURNED — the HTTP 404 recorded 2026-11-09 is reversed: the page is live again at its registered URL. Full 126-line read matches the 2026-11-06 snapshot line for line in the same order (county-office route, BH-MCO assignment by county of residence, mailed handbook, COMPASS/CAO/mail/phone channels incl. Consumer Service Center 1-866-550-4355, 988 block, service-center hours); both extraction artifacts persist verbatim (988 block rendered twice, stray 'Phone: 18773958930'), which is itself evidence the restored page is the same page, not a rewritten one. Still no revision date, so the check date is the version. The 2026-11-09 404 stays in the record history, not erased: a three-day outage is a three-day fact. Registry status flips back to official_page_reviewed; review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-12",
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "State the 2026-11-12 re-verification finding: the registered service-access URL is live again after the November 9 404 — two independent reads, no redirect — with content identical to the 2026-11-06 snapshot, 126 lines then and 126 lines now.",
+    "Teach the return discipline: a dead address is not always a dead page — a site can unpublish and republish the same text — so the record must carry both the absence and the return, and the 404 stays in the history rather than being erased.",
+    "Teach the identity check: the restored page is the same page, not a rewritten one, because the read matches the November 6 snapshot line for line, including the two scrape artifacts (doubled 988 block, stray phone string).",
+    "Hold the scope honestly: the page still carries no revision date, so the check date remains the version, and it is member guidance, not a benefit schedule, provider directory, or eligibility rule — review_required_before_encoding stays true."
+   ],
+   "last_verified": "2026-11-12"
+  },
+  {
    "id": "pennie-security-incident-notice",
    "title": "Pennie re-verified: the page moves by disclosure — vendor security-incident notice at the foot of the homepage",
    "path": "visual-journey.html",
