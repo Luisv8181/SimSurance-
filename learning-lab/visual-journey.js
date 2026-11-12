@@ -2125,6 +2125,39 @@
         { label: 'Pennie Notice of Security Incident (PDF)', url: 'https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c6_pennie_disclosure_stays',
+    },
+
+    {
+      id: 'u1_p5c6_pennie_disclosure_stays',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c: The Disclosure Stays Up — The Notice, Three Days On',
+      text: "Walk back to the door a sixth time, three days later, and the page has not moved — but this time the stillness itself is the finding. The hero still says: \u201cNow\u2019s the time to find your best health coverage\u201d \u2014 \u201cOpen Enrollment is here!\u201d The \u2018What\u2019s new\u2019 notice is still framed for 2027. The \u2018Find Quick Fixes\u2019 corner is still there. The Medicaid doorway still reads \u2018Coming from Medicaid? Welcome to Pennie! We already have an account set up for you.\u2019 The three friendly faces still carry the same example Silver prices \u2014 Jalen $85 a month, Gary & Barb $553, the Riveras $595 \u2014 still advertisements, never benchmarks, now holding for a fourth consecutive check. And the foot of the page still carries the two lines that arrived on November 9: \u201cA data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.\u201d The disclosure has not rotated away, not been reworded, not been buried deeper. Here is the discipline this check teaches, and it cuts two ways. First, a disclosure that stays up is a different fact from a disclosure that appears: the notice is now a standing public fact about the marketplace as of November 12, and the November 9 lines remain accurate evidence of November 9 and of November 12. Second, the notice standing still tells you nothing about the incident behind it. The homepage does not report investigation progress, and the only evidence about misuse in the record is the notice\u2019s own sentence \u2014 the contractor \u201cdoes not have any evidence that your information has been misused.\u201d A homepage that does not change is not a finding that nothing is happening. Do not read resolution into stillness. And the standing cautions hold: this is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact, and the hero still gives no open-enrollment dates \u2014 \u201cOpen Enrollment is here!\u201d is a season, not a deadline.",
+      advantage: true,
+      advantageText: 'A Disclosure That Persists Is a Standing Fact — and Stillness Is Not Resolution',
+      citation: {
+        title: 'Pennie | PA\u2019s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'A data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks pennie.com on November 12. The full 102-line read matches the November 9 snapshot line for line — hero, doorway, vignette prices, and the two-line incident notice at the foot, all unchanged. What may a modeler safely take from that, and what must they still remember?",
+        opts: [
+          'A) The disclosure is now a standing fact: the notice persists verbatim three days after its first appearance, so the November 9 lines are accurate evidence of November 9 and of November 12 — but its persistence says nothing about the investigation behind it, the only misuse evidence is the notice\u2019s own sentence, the three dates (January discovery, October notification, November homepage appearance) stay separate, and the vignette prices stay advertisements, never benchmarks.',
+          'B) The notice is still there, so the incident must be resolved — a marketplace would take the disclosure down once the problem was fixed, and the November 9 snapshot can now be re-cited as current without a new check date.',
+          'C) The hero is unchanged, so the incident notice must have been a one-day banner and the page has returned to its November 6 state.',
+        ],
+        answer: 0,
+        explanation: "Correct! A full-page \u2018same\u2019 three days after a disclosure arrived is a finding in its own right: the notice persists verbatim, so it is a standing public fact as of November 12, and the vignette prices hold a fourth consecutive check at $85 / $553 / $595. But persistence is not resolution — the homepage reports no investigation progress, and the only misuse evidence in the record is the notice\u2019s own sentence. The three dates stay separate, and the disclosure remains a trust and governance fact, not a plan, rate, or eligibility fact.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Pennie Notice of Security Incident (PDF)', url: 'https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 

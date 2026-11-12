@@ -2169,6 +2169,39 @@
    "last_verified": "2026-11-09"
   },
   {
+   "id": "pennie-disclosure-stays",
+   "title": "Pennie re-verified: the disclosure stays up — incident notice persists verbatim three days after its first appearance",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "marketplace",
+    "homepage-rotation",
+    "dated-evidence",
+    "open-enrollment",
+    "page-level-reverification",
+    "vendor-incident-disclosure",
+    "trust-and-governance"
+   ],
+   "scene": "u1_p5c6_pennie_disclosure_stays",
+   "source": "pennie",
+   "summary": "Re-verification of the Pennie homepage (2026-11-12; page text fetched from the official URL, copy crawled 2026-11-12 18:55 UTC, less than a minute before the read). UNCHANGED vs 2026-11-09 — first unchanged check since the page moved by disclosure: full 102-line read matches the 2026-11-09 snapshot line for line in the same order (hero, “What’s new” framed for 2027, “Find Quick Fixes”, Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, help channels), including the two-line data-security-incident notice at the foot of the page, still verbatim three days after its first appearance. The linked notice PDF was NOT re-opened this run; the 2026-11-09 reading stands (contractor Zelenkofske Axelrod, LLC; suspicious activity around January 25, 2026; Pennie notified October 27, 2026; limited enrollee fields involved; no SSN, contact, income, password, or financial data). Vignette prices hold a fourth consecutive check at Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver — illustrative marketing figures, never encodable parameters. The captured page text still states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-12",
+   "policy_claims": false,
+   "source_refs": [
+    "pennie"
+   ],
+   "objectives": [
+    "State the 2026-11-12 finding: the Pennie homepage is UNCHANGED vs 2026-11-09 — the hero, doorway, vignettes, and help channels all persist, and the two-line data-security-incident notice at the foot persists verbatim three days after its first appearance.",
+    "Teach the persistence discipline: a disclosure that stays up is a standing public fact about the marketplace as of the check date, and stillness is not resolution — the homepage reports no investigation progress, and the only misuse evidence in the record is the notice PDF’s own sentence, so the three dates (January discovery, October notification, November homepage appearance) stay separate.",
+    "Hold the scope honestly: the disclosure is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact, and nothing in it changes any marketplace parameter; the vignette prices remain illustrative marketing figures, never encodable parameters, the hero still gives no open-enrollment dates, and review_required_before_encoding stays true."
+   ],
+   "last_verified": "2026-11-12"
+  },
+  {
    "id": "bhc-service-access-third-check",
    "title": "BH service-access page re-verified (2026-11-03): the front door, still standing — third unchanged check",
    "path": "visual-journey.html",
