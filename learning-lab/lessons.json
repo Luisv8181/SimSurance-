@@ -2704,6 +2704,41 @@
    ]
   },
   {
+   "id": "medicaid-eligibility-gate-recheck5",
+   "title": "Medicaid eligibility overview re-verified (2026-11-12): unchanged on every item; the 5% disregard suspension now stands seven reads to one",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "medicaid-eligibility",
+    "gate-floor",
+    "magi",
+    "retroactivity",
+    "spenddown-count-confirmed",
+    "five-percent-disregard-suspended",
+    "extraction-method-discipline",
+    "version-corroboration",
+    "two-reader-rule",
+    "access-block-recovery"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-medicaid-eligibility-policy"
+   ],
+   "scene": "u5_p2b3_gate_recheck5",
+   "source": "cms-medicaid-eligibility-policy",
+   "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-12; two independent reads minutes apart - text fetch, copy crawled 2026-11-12 23:02 UTC, and live browser read 23:06-23:07 UTC - agreeing on every item). Page UNCHANGED vs 2026-11-09 on every re-checked item: mandatory groups verbatim, 77.9-million combined figure still undated, 133% FPL expansion option, MAGI no-varying-disregards and no-asset-test sentences, 36-states-plus-DC spenddown count verbatim, 3-month retroactivity in the 2026-11-02 wording, CIB appendix still present. The 5% MAGI disregard / 138% FPL suspension from 2026-11-06 HOLDS and is now seven reads to one: neither of today's reads finds any such sentence, and the live browser read searched 'five percent', '5 percent', '138%', '138', and 'percent' - the word 'percent' does not occur at all on the visible page; the only FPL percentage is 133%, twice. Still no last-updated date (confirmed by both reads). Access note: the live browser read loaded on the FIRST attempt today, no Akamai block - the block tally across live-browser attempts is now two blocked (2026-11-04, 2026-11-09) and two clean first loads (2026-11-06, 2026-11-12): intermittent, no trend, and still evidence of nothing about the page.",
+   "objectives": [
+    "State the 2026-11-12 finding: two independent reads (text fetch and live browser read) agree the page is unchanged since 2026-11-09 on every re-checked item - mandatory groups, 77.9 million undated, 133% FPL option, MAGI no-varying-disregards and no-asset-test, 36-states-plus-DC spenddown count, three-month retroactivity, CIB appendix - and the page still shows no last-updated date.",
+    "Explain the suspension's new standing: the 5% MAGI disregard / 138% FPL sentence quoted 2026-11-04 appears in neither of today's reads, and the live browser read searched 'five percent', '5 percent', '138%', '138', and 'percent' with the word 'percent' not occurring at all, so the suspension now stands seven reads to one; it is quoted 2026-11-04 only and quoted as current by nobody until a second independent read finds it, and it is not declared removed.",
+    "Apply the two-reader rule and the access-block discipline: two agreeing reads settle a flag and one read never does; the live browser read loaded on the first attempt today, so the Akamai block is intermittent - two blocked, two clean across four attempts - an access artifact, not page evidence, and the fresh-browser recovery stays the routine response.",
+    "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; the 77.9-million figure's currency; the MAGI 5% disregard / 138% FPL formulation as of today; or any rule - page-level verification only, no rules encoded."
+   ]
+  },
+  {
    "id": "bhc-providers-twin-counts",
    "title": "BHC providers page re-verified (2026-11-04): unchanged, with a second identical county pair newly noticed on full enumeration",
    "path": "visual-journey.html",
