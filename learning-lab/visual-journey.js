@@ -3268,6 +3268,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_recheck5',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK, FIFTH READING (verified 2026-11-13)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck5',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Sixth Identical Reading — The Fresh Copy Returns',
+      text: "Three days after the last check, I opened the CMS rate-guidance index a sixth time — and it is the same page again. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions, and still none for the 2026-2027 guide. Six reads over twenty-nine days, no movement — and this time the check itself swung back to its first method. On November 10 the cached text copy was too stale to use, so the verification rode on a live rendered read. Today the copy was fresh, crawled less than a minute before I read it, so the text extract carries the check again. That matters more than it sounds. The two methods now confirm each other in both directions: the rendered read independently confirmed the text extract's finding that the page is undated, and today the fresh text extract confirms the rendered read's content, entry by entry, in the same order. A stale cache was a one-run condition, not a property of the page — the method switches with the freshness of the copy, and the finding survives the switch either way. The undated-page discipline still holds: the full 42-line read carries no revision date, no last-updated stamp, no document version anywhere, so the check date remains the only version the citation has. The boundary is exactly where it was in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide's contents are known; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. The recheck changes one thing only — the date on the check — and on an undated page, that date is the version.",
+      advantage: true,
+      advantageText: 'A Stale Cache Is a One-Run Condition, Not a Property of the Page',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-11-13 — unchanged since 2026-10-15)',
+        quote: 'The managed care regulation requires that states develop valid managed care capitation rates in accordance with generally accepted actuarial principles and practices.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS rate-guidance index on 2026-11-13 matches the 2026-11-10 snapshot: same current guide, same rating-period window, same fifteen-entry list in order, same two addenda. This time the cached text copy was fresh (crawled <1 min before the read), after the 2026-11-10 check had to switch to a rendered read because the cache was stale. What does the sixth reading establish?',
+        opts: [
+          'A) The page is unchanged for the sixth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13; 29-day streak) — and the two capture methods now confirm each other in both directions, so the undated-page finding stands either way; a stale cache was a one-run condition, not a property of the page. No guide PDF was opened, so no guide contents are known.',
+          'B) The fresh copy proves the page was edited between November 10 and November 13 — a fresh crawl means new content.',
+          'C) The text extract now establishes the contents of the 2026-2027 guide itself, so its rate rules can be encoded.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 13 fresh text fetch checked the index entry by entry against the November 10 snapshot and found it unchanged for the sixth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13), with the same fifteen-entry list and the same two addenda. The method swung back because the copy was fresh again — and the two methods now agree in both directions: the rendered read confirmed the undated finding on November 10, the fresh extract confirms the rendered read\'s content today. No guide PDF was opened, so no guide contents are known, and no Pennsylvania rate appears anywhere on the index — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
 

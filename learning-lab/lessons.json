@@ -3193,6 +3193,36 @@
    ]
   },
   {
+   "id": "rate-guide-recheck5",
+   "title": "The sixth identical reading: the fresh copy returns",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "rate-development-guide",
+    "guide-addendum",
+    "versioning-discipline",
+    "rating-period",
+    "index-vs-document",
+    "re-verification",
+    "undated-page-discipline",
+    "capture-method"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-managed-care-rate-guidance"
+   ],
+   "objectives": [
+    "State the 2026-11-13 finding: the CMS rate-guidance index is unchanged for the sixth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13; 29-day streak) — same current 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda, still none for the 2026-2027 guide.",
+    "Explain the method swing: the cached text copy was fresh again this run (crawled 2026-11-13 15:55 UTC, <1 min before the read), so the check rides on the text extract after the 2026-11-10 check had to switch to a rendered read — a stale cache is a one-run condition, not a property of the page, and the finding survives the switch either way.",
+    "Apply the two-direction confirmation: the rendered read independently confirmed the text extract's undated-page finding on 2026-11-10, and the fresh 42-line text extract confirms the rendered read's content today — cite the current guide as “current as of the 2026-11-13 re-read.”",
+    "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
+   ]
+  },
+  {
    "id": "physical-directory-phones-diff2",
    "title": "The second diff: a directory's phone lines, checked twice — and the wobble that stayed put (re-verified 2026-11-08)",
    "path": "visual-journey.html",
