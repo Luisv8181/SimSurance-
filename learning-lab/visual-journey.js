@@ -2564,6 +2564,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e6_covsixth',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE SIXTH IDENTICAL READING (coverage census re-counted, 2026-11-13)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e6_covsixth',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5e, Continued Once More: The Sixth Identical Reading',
+      text: "Three days after the fifth reading I came back to the map room a fifth time — and the page had not moved a single county. Re-verified November 13, 2026, the Insurance Department page is substantively unchanged since November 10: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, same fifteen map images, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. That is the sixth identical reading — October 14, November 1, November 4, November 7, November 10, November 13 — thirty days without a single change. Then I re-counted the whole census from today's live page, and every one of the fifteen counts agrees exactly with November 7: Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2 — three hundred and thirty-five county mentions in total, and the four identical pairs still hold as a fact about the page's text lists only. UPMC Health Options now counts 51 for the fifth consecutive check. One honest limit from this reading, written down so the next reader does not overclaim it: the fifteen map images are the same files in the same order, but their timestamp query parameters were recorded in today's fetch only and not compared against an earlier snapshot, which never recorded them — so the image check is same-filenames-only, not byte-identical. And the sentence this whole chain keeps earning: six identical readings prove the page has not moved. They do not prove it is current. The page still carries no revision date, no last-updated stamp, no document version — so the check date is the version, and stability is not permanence. And the map images are still uncounted, so the text-versus-map reconciliation stays open and the workbook's earlier fifty-two stays flagged for the owner to correct, contradicted five times over and still not quietly rewritten. That is the whole discipline in one room: count everything, claim only the text, and never let a quiet page talk you into calling it a current one.",
+      advantage: true,
+      advantageText: 'Thirty Days Still: Stability Is Not Permanence',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department · archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'Important note: These maps only apply to purchasing a plan. They do NOT show limits on your health care coverage or provider network.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 13 re-verification is the sixth identical reading of the archived 2026 coverage page in 30 days, and the full census re-count agrees with November 7 on all fifteen issuers, with UPMC Health Options at 51 for the fifth consecutive check. What does that establish — and what is the honest limit on the map-image check this run?',
+        opts: [
+          'A) The page is permanently current — six identical readings mean no future check is needed, and the map images are byte-identical.',
+          'B) Stability, not permanence: the page has not moved in 30 days, but with no revision date the check date is the only version — and the 51-versus-52 flag still stands because the map images are uncounted; the image check this run is same-filenames-only, since the timestamp parameters were recorded today and never compared against an earlier snapshot.',
+          'C) The four identical county pairs prove those issuers sell the same plan under two names.',
+        ],
+        answer: 1,
+        explanation: "Correct! Six identical readings establish that the page has not moved — nothing more. With no revision date, last-updated stamp, or document version on the page, the check date is the only version this reading can carry, and a page that has not moved is not the same as a page that is current. The flag's original condition — counting the linked map images — is still unmet, so the workbook's earlier 52 stays flagged for the owner rather than silently corrected. And the image check this run is deliberately limited: same fifteen files in the same order, with timestamp parameters recorded today only, so it is not a byte-identical claim.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 

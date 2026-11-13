@@ -1116,6 +1116,34 @@
    ]
   },
   {
+   "id": "coverage-areas-sixth-reading",
+   "title": "The sixth identical reading: thirty days still",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "count-discipline",
+    "archived-market-snapshot",
+    "sales-footprint-vs-network",
+    "enumeration-vs-estimation",
+    "duplicate-footprints",
+    "date-discipline"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-insurance-department-2026-individual-coverage-areas"
+   ],
+   "objectives": [
+    "State the 2026-11-13 re-verification result: the sixth identical reading of the archived PA Insurance Department coverage-areas page (2026-10-14, 2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10, 2026-11-13), 30 days without a change — same 125 text lines, 15 issuers in the same order, same disclaimers, same 15 map images; spot checks agree (UPMC Health Plan still Crawford + Clearfield only, Oscar still 13 counties).",
+    "State the census re-count: all fifteen text-list counts agree exactly with the 2026-11-07 census (Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2), 335 county mentions in total; UPMC Health Options 51 is now fifth-confirmed and the four identical pairs still hold as a fact about the page's text lists only.",
+    "State the honest limit on the image check: the 15 linked map images are the same scene7 files in the same order, but their timestamp query parameters were recorded in today's fetch only and not compared against an earlier snapshot, which never recorded them — so the image check is same-filenames-only, not byte-identical.",
+    "State what remains open: the page carries no revision date, so the check date is the version — six identical readings prove the page has not moved, not that it is current; the linked map images have not been counted, so text-vs-map reconciliation is incomplete and the workbook's standing '52' claim (scene u1_p5e_covmap) is contradicted five times over but NOT silently corrected — correction and the map-image check remain the owner's call; review_required_before_encoding stays true and nothing has been promoted to a rule."
+   ]
+  },
+  {
    "id": "bhc-mcos-date-discipline",
    "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
    "path": "visual-journey.html",
