@@ -3425,6 +3425,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck5',
+    },
+    {
+      id: 'u5_p2b2_recheck5',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Sidebar, Counted in Full',
+      text: "I came back to the federal doorway a sixth time, three days after the last full read — and this time I finished the job the last read left open. The three body paragraphs are unchanged again, word for word and in the same order: the definition, with states contracting with managed care organizations ‘that accept a set per member per month (capitation) payment for these services’; the second paragraph, states that ‘can reduce Medicaid program costs and better manage utilization of health services’; and the initiatives paragraph, ‘Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,’ now confirmed across five consecutive full-page reads over twelve days. That is the strongest statement this page’s record can make — and still only a statement about today. But the new work this run is the sidebar, which the November 10 read flagged and never finished: a re-verification that only re-checks the paragraphs you already quoted is not a full-page diff. So the rendered page was read in full, sidebar and all, and the sidebar is now enumerated for the first time. Related Resources is four items, not three: the three named authorities — ‘1915 of the Social Security Act,’ ‘1932(a) of the Social Security Act,’ ‘Title 42, Part 438 of the Code of Federal Regulations’ — plus a fourth, ‘Managed Care Organization HIEPolicy,’ rendered with no space before ‘Policy.’ Policy and Program Topics is seven items, with ‘Managed Care Authorities’ first. And here is the discipline, applied to my own notes: the November 10 read named three items without ever claiming the list was complete, so whether the fourth item was there on November 10 is unresolvable from these records. I am not claiming a page change. The HIEPolicy label is recorded exactly as rendered; it may be a site rendering artifact, not a change at all. The linked authority documents were not opened — a link title is a doorway, not a rule. The page still shows no last-updated date anywhere, and no enrollment-share figure: searches for ‘percent’ and ‘%’ return nothing, and neither does ‘2026.’ So the check date remains the version, and review before encoding stays true.",
+      advantage: true,
+      advantageText: 'Five Full Reads Confirm Today; The Sidebar Counts Too',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-13)',
+        quote: 'Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS managed-care page is unchanged for a sixth consecutive check, and a full rendered read now enumerates the sidebar for the first time: Related Resources is four items, not the three named on November 10. What may you claim?',
+        opts: [
+          'A) The page changed: a fourth Related Resources item appeared, so the earlier three-item list was wrong.',
+          'B) Only that the three body paragraphs are confirmed page content as of November 13 across five full reads over twelve days, and that the sidebar as rendered today lists four Related Resources items and seven Policy and Program Topics; whether the fourth item was present on November 10 is unresolvable because that read never claimed its three-item list was complete, and nothing here enters the model as a rule.',
+          'C) The "Managed Care Organization HIEPolicy" link now authorizes encoding managed-care authority rules in the model.',
+        ],
+        answer: 1,
+        explanation: "Correct! Five full reads agreeing is the strongest statement this page’s record can make about today — and the sidebar enumeration sharpens rather than overturns the old finding. The November 10 read named three Related Resources items without claiming the list was complete, so no change claim stands for the fourth item, and the HIEPolicy label is recorded exactly as rendered — it may be a rendering artifact, not a change at all. A link title is a doorway, not a rule: the linked authority documents were not opened, the page still shows no enrollment figure and no last-updated date, so the check date remains the version.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {

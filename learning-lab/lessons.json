@@ -3356,6 +3356,40 @@
    "summary": "Re-verification of the CMS managed-care landing page (2026-11-10) via a live-browser rendered read (the plain-text fetch returned only a stale copy older than 30 minutes). All three main-body paragraphs match the 2026-11-07 full read verbatim and in order — fourth consecutive full read (2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10), nine days. NEW page-level observation, recorded NOT as a page change: the rendered page's Related Resources section lists '1915 of the Social Security Act', '1932(a) of the Social Security Act', and 'Title 42, Part 438 of the Code of Federal Regulations', and a navigation link titled 'Managed Care Authorities' appears under 'Policy and Program Topics'. The earlier 'no federal-authority text' claim is QUALIFIED, not reversed: it was always a body-paragraph claim (text-fetch captures were 12 lines, body only), and the 2026-10-15 snapshot never enumerated the sidebar, so whether the links were present in October is unresolvable. The linked authority documents were NOT opened. Still NO enrollment-share figure (no 'percent' and no '%' anywhere in the rendered text) and NO last-updated date — the check date remains the version."
   },
   {
+   "id": "medicaid-managed-care-recheck5",
+   "title": "Managed care doorway re-verified (2026-11-13): five full reads agree; the sidebar enumerated in full for the first time",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "managed-care",
+    "capitation",
+    "care-coordination-initiatives",
+    "evidence-discipline",
+    "full-page-diff",
+    "related-resources",
+    "sidebar-enumeration",
+    "rendering-artifact"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "medicaid-gov-managed-care"
+   ],
+   "scene": "u5_p2b2_recheck5",
+   "source": "medicaid-gov-managed-care",
+   "objectives": [
+    "State the 2026-11-13 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-10 full read verbatim and in order — sixth consecutive unchanged check (2026-10-15, 2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10, 2026-11-13); the initiatives paragraph is now confirmed across five consecutive full-page reads over twelve days.",
+    "Record the sidebar enumeration without promoting it to a change finding: the rendered page's Related Resources list is four items — '1915 of the Social Security Act', '1932(a) of the Social Security Act', 'Title 42, Part 438 of the Code of Federal Regulations', and 'Managed Care Organization HIEPolicy' (rendered with no space before 'Policy') — and 'Policy and Program Topics' is seven items with 'Managed Care Authorities' first.",
+    "Explain why no change claim stands: the 2026-11-10 read named three Related Resources items without claiming the list was complete, so whether the fourth item was present on 2026-11-10 is unresolvable from these records; the HIEPolicy label is recorded exactly as rendered and may be a site rendering artifact, not a page change.",
+    "State what stays open: the page still shows no last-updated date (searches for 'Updated', 'Last', 'Revision', '2026' return nothing) and no enrollment-share figure (no 'percent', no '%'); the linked authority documents were not opened; review_required_before_encoding stays true."
+   ],
+   "summary": "Re-verification of the CMS managed-care landing page (2026-11-13) via a text fetch (copy crawled 2026-11-13 11:55 UTC, <1 min before the read) plus a live-browser rendered read (11:55-11:56 UTC). All three main-body paragraphs match the 2026-11-10 full read verbatim and in order — sixth consecutive unchanged check, and the initiatives paragraph is now confirmed across FIVE consecutive full-page reads (2026-11-01 through 2026-11-13), twelve days. NEW page-level work, recorded NOT as a page change: the sidebar was enumerated in full for the first time, completing the full-page diff the 2026-11-10 note demanded — Related Resources is four items (the three named authorities plus 'Managed Care Organization HIEPolicy', rendered with no space before 'Policy'), and 'Policy and Program Topics' is seven items with 'Managed Care Authorities' first. No change claim: the 2026-11-10 read never claimed its three-item list was complete, so whether the fourth item was present then is unresolvable — the same evidence-gap discipline as the October under-quote question. The HIEPolicy label may be a rendering artifact. Still NO last-updated date and NO enrollment-share figure; the linked authority documents were NOT opened.",
+   "last_verified": "2026-11-13"
+  },
+  {
    "id": "bhc-overview-recheck4",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-11): seven identical checks, thirty-two days, still undated",
    "path": "visual-journey.html",
