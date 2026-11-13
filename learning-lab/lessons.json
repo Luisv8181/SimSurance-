@@ -3103,6 +3103,38 @@
    ]
   },
   {
+   "id": "bhc-providers-recheck5-fullsum",
+   "title": "The fourth hand-sum: provider page still, total re-enumerated, duplicates census-complete",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-providers",
+    "eligibles-map",
+    "hand-sum",
+    "duplicate-flags",
+    "asam-fee-schedule",
+    "stability-vs-currency",
+    "re-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-providers"
+   ],
+   "scene": "u1_p4_prov_recheck5_fullsum",
+   "source": "pa-dhs-bhc-providers",
+   "objectives": [
+    "State the 2026-11-13 finding: the PA DHS Behavioral HealthChoices providers page is unchanged since 2026-11-10 — same 1,175-line text, same framing sentences, same map heading, same total 2,764,063 — for a fifth consecutive still check since the map moved 2026-11-02.",
+    "State the enumeration finding: all 67 county rows were listed by name and hand-summed a fourth time to exactly 2,764,063, matching the page total, so the November 10 stillness is now enumeration-backed again and the last full hand-sum moves to 2026-11-13.",
+    "State the duplicate census: a full-table scan confirms Montgomery/Northampton 112,070 (sixth check) and Indiana/Lawrence 16,168, both Carelon (fifth check) are the ONLY duplicate values in the 67-row table; both reconcile with the total, so both stay flagged for the owner, never corrected here.",
+    "State the fee finding: all seven ASAM fees identical for a seventh consecutive check (2.0WM $106.35/hr, 2.1 $11.57/15min, 2.5 $10.74/15min, 3.1 $160.13/diem, 3.5 $260.65/diem, 3.7 $321.78/diem, 3.7WM $415.24/diem), still headed Rates Effective January 1, 2026; the ASAM PDF was not re-opened and the 2026-11-08 reading stands.",
+    "Keep the discipline: the page carries no revision date, so the check date (2026-11-13) is the version; a dated fee schedule is rate evidence, never a payment rule; review_required_before_encoding stays true and nothing here is encoded as a rule."
+   ]
+  },
+  {
    "id": "rate-guide-recheck3",
    "title": "The undated index: four reads, twenty-four days, one check date",
    "path": "visual-journey.html",
