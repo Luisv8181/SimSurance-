@@ -1961,6 +1961,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b7_2024_data_duty',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b′′′′′′: THE 2024 RULES ASK FOR THE RECEIPTS — DATA, NOT PROMISES
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b7_2024_data_duty',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b′′′′′′: The 2024 Rules Ask for the Receipts — Data, Not Promises',
+      text: "The hidden-rules test tells you what the rule is. The 2024 rules ask for the receipts. On September 9, 2024, the U.S. Departments of Health and Human Services (HHS), Labor, and the Treasury released new final rules implementing MHPAEA — the newest layer of this story, and the page's summary of them is the angle for today. The rules do not just restate the comparability test; they add a data duty. Plans and issuers must collect and evaluate data and take reasonable action, as necessary, to address material differences in access to MH/SUD benefits as compared to medical/surgical benefits that result from application of NQTLs, where the relevant data suggest that the NQTL contributes to material differences in access. Read that as a loop, not a slogan: measure the gap, decide whether your hidden rule caused it, and act on what you find. The same rules prohibit plans and issuers from using discriminatory information, evidence, sources, or standards that systematically disfavor or are specifically designed to disfavor access to MH/SUD benefits when designing NQTLs — the design itself cannot be rigged. And they implement the sunset provision for self-funded non-Federal governmental plan elections to opt out of compliance with MHPAEA: that exit door is closing. Two honest limits, as always. First, this page is a summary, not the regulation text — the linked Federal Register documents were not opened this run, so no rule is encoded here. Second, the page itself has now sat unchanged through seven consecutive checks, from October 12 to today, with its Fact Sheets & FAQs and Regulations and Guidance sections still empty — so the newest guidance this page carries is still the September 2024 summary, and the check date is still the only version stamp it has. For your simulator, the lesson is the loop: a parity model that never measures outcomes cannot see the gap the 2024 rules ask plans to close.",
+      advantage: true,
+      advantageText: 'The 2024 Rules Ask for the Receipts: Measure the Gap, Then Act on It',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. 2024 final rules data duty (page-level review)',
+        quote: 'Require plans and issuers to collect and evaluate data and take reasonable action, as necessary, to address material differences in access to MH/SUD benefits as compared to medical/surgical benefits that result from application of NQTLs, where the relevant data suggest that the NQTL contributes to material differences in access.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "A plan's own data show members seeking therapy wait weeks longer for authorization than members seeking comparable medical care, and the plan's prior-authorization rule is the cause. The plan says its written policy treats both the same. What do the 2024 parity rules add beyond the 2013 comparability test?",
+        opts: [
+          'A) The data duty: plans and issuers must collect and evaluate data and take reasonable action, as necessary, to address material differences in access to MH/SUD benefits that result from application of NQTLs, where the data suggest the NQTL contributes to the difference — a written policy that treats both the same does not excuse a measured gap.',
+          'B) Nothing — the 2024 rules only restate the 2013 test, and a plan needs only to show its written policies are comparable.',
+          'C) The plan may elect to opt out of MHPAEA entirely if it is a self-funded non-Federal governmental plan, so the measured gap does not matter.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page states the 2024 data duty verbatim: collect and evaluate data, and take reasonable action on material differences in access where the relevant data suggest the NQTL contributes to the difference. The comparability test is about the rule as written and in operation; the data duty is about the outcome the rule produces. The opt-out answer is backwards: the 2024 rules implement the sunset provision for self-funded non-Federal governmental plan elections to opt out of compliance with MHPAEA. And the discriminatory-standards ban means the NQTL design itself cannot be rigged against MH/SUD access. No plan-specific compliance determination is made here — this page verifies the rule, not any plan's behavior.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 

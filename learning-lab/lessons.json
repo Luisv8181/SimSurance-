@@ -3423,6 +3423,40 @@
     "State what the page still does not establish: no premium dollar amounts, no provider networks, no behavioral-health reimbursement figures — and never encode a rate or market parameter until a specific filing's document version, effective period, exact passage, and applicability are reviewed."
    ],
    "last_verified": "2026-11-11"
+  },
+  {
+   "id": "mh-parity-2024-data-duty",
+   "title": "The 2024 rules ask for the receipts: data duty and the opt-out sunset",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "parity",
+    "mhpaea",
+    "2024-final-rules",
+    "nqtl-data-duty",
+    "material-differences-in-access",
+    "discriminatory-standards",
+    "opt-out-sunset"
+   ],
+   "scene": "u1_p5b7_2024_data_duty",
+   "source": "cms-mh-parity",
+   "summary": "Seventh consecutive unchanged check of the CMS MHPAEA overview page (2026-11-12; 31-day streak): same 145-line text, same seven section headers, Fact Sheets & FAQs and Regulations and Guidance still empty, still no last-updated stamp, so the check date remains the version. New page-level angle shipped as a workbook scene: the September 9, 2024 final rules' data duty — plans and issuers must collect and evaluate data and take reasonable action on material differences in access to MH/SUD benefits that result from application of NQTLs, where the relevant data suggest the NQTL contributes to the difference — plus the ban on discriminatory standards in NQTL design and the sunset of self-funded non-Federal governmental plan opt-out elections. No plan-specific compliance determination is made; review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-12",
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "State the 2024 data duty verbatim from the CMS page: plans and issuers must collect and evaluate data and take reasonable action, as necessary, to address material differences in access to MH/SUD benefits that result from application of NQTLs, where the relevant data suggest the NQTL contributes to material differences in access.",
+    "State the discriminatory-standards ban: plans and issuers may not use discriminatory information, evidence, sources, or standards that systematically disfavor or are specifically designed to disfavor access to MH/SUD benefits when designing NQTLs.",
+    "State the opt-out sunset: the 2024 rules implement the sunset provision for self-funded non-Federal governmental plan elections to opt out of compliance with MHPAEA.",
+    "Name what the page does not establish: any plan-specific coverage or compliance determination, and the content of the linked Federal Register rules (not read this run)."
+   ],
+   "last_verified": "2026-11-12"
   }
  ]
 }
