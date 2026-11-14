@@ -3516,6 +3516,41 @@
    "last_verified": "2026-11-11"
   },
   {
+   "id": "bhc-publications-recheck5",
+   "title": "BHC publications index re-verified (2026-11-13): unchanged for the fifth straight check; table count agrees a fifth time; General Publications shelf absent a sixth time — owner question still open after thirty days",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-publications",
+    "source-verification",
+    "independent-recount",
+    "funding-availability-marks",
+    "missing-section-flag",
+    "owner-question",
+    "unanswered-question"
+   ],
+   "scene": "u1_p4g_pubs7_sixth",
+   "source": "pa-dhs-bhc-publications",
+   "summary": "Full-page re-verification (274 lines, copy crawled 2026-11-14 03:55 UTC) finds the publications index substantively unchanged since 2026-11-11 — the fifth straight check with no movement: same OMHSAS shelves, same CFR 438.332 paragraph, same EQR reports ending 2023 (still no 2024 report), children's-services table still stamped 'Last updated: October 2026'. A fifth fresh hand count of the 55-row table reproduces the 2026-11-03, 2026-11-05, 2026-11-08, and 2026-11-11 tallies exactly (31 both-X, 20 managed-care-only, 4 blank), with the PCIT split and the blank rows unchanged. OWNER QUESTION STILL OPEN: the General Publications shelf recorded 2026-10-14 is absent for a sixth consecutive full-page check (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-13) — thirty days since last seen; the question went to the owner at the 2026-11-08 check and was carried in the 2026-11-10 morning digest, and no answer has come back yet. Do not conclude the documents were removed; the shelf may have moved. Until the owner answers, the 2026-10-14 shelf contents (ASAM rates, 2026 FRR, PSR, 2026 Member Handbook) are treated as unverified from this index. Honest limit: all five counts used the same hand and method — a second independent counter would strengthen the tally.",
+   "verified": "2026-11-13",
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-publications"
+   ],
+   "objectives": [
+    "State the 2026-11-13 re-verification finding: the publications index is substantively unchanged since 2026-11-11, with the children's-services table still stamped 'Last updated: October 2026' and EQR reports still ending 2023.",
+    "Teach recount discipline: a fifth fresh hand count reproducing the same tally exactly (55 rows: 31 both-X, 20 managed-care-only, 4 blank) is the strongest evidence yet the table is stable, not merely unread — and record the limit that all five counts used the same hand and method.",
+    "Teach the discipline after a question is asked and the wait gets long: an unanswered question is not a resolved question — a thirty-day wait does not quietly turn into an answer; the General Publications shelf stays unverified from this index, the flag stays open, and the rotation keeps checking.",
+    "Flag honestly: the General Publications shelf recorded 2026-10-14 is absent for a sixth consecutive full-page check — treat as possibly moved, not as evidence the documents were removed.",
+    "Hold review_required_before_encoding true: no policy parameter may be encoded from this index page until the linked documents are opened and their version/effective date reviewed."
+   ],
+   "last_verified": "2026-11-13"
+  },
+  {
    "id": "aca-rate-filings-sixth-recheck",
    "title": "ACA rate filings: the sixth identical reading — quiet on a two-day cadence",
    "path": "visual-journey.html",
