@@ -3684,6 +3684,40 @@
    ],
    "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-14; page text fetched from the official URL, 253 lines, copy crawled 2026-11-14 07:55 UTC, <1 min before the read). Page UNCHANGED section by section since 2026-11-11: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), now five months and five days old, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same four Reserved rows (2021-003, 2021-007, 2021-008, CCRI 2022–001), same Provider Type 07 capitation forms. Sixth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14), 30-day streak. NEW page-level observations: the Systems Notices year split is corrected by document-number recount to 13 from 2020 and 8 from 2021 (2021-006 has no row), total still 41 — the page did not change, the 2026-11-11 split was miscounted; and the CCRI notices table is counted for the first time at 11 rows. Both fingerprint typos survive a sixth read. Page still carries no revision date, last-updated stamp, or version, so the check date is the version. The newest validation evidence on the page (2023 EDV studies) is still dated 2023; linked EDV-study PDFs not read, findings unknown. review_required_before_encoding stays true.",
    "last_verified": "2026-11-14"
+  },
+  {
+   "id": "cms-sbs-utah-docs",
+   "title": "The Utah files, opened at last (2026-11-14): the label was wrong, the target was right, the date belongs to 21-0019",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "school-based-services",
+    "link-target-mismatch",
+    "spa-approval-document",
+    "cite-the-document",
+    "cost-methodology",
+    "idea-services",
+    "iep-requirement"
+   ],
+   "scene": "u5_p2f_sbs_utahdocs",
+   "source": "cms-school-based-services",
+   "summary": "Follow-up on the Utah link-target mismatch left open since 2026-11-04: BOTH Utah PDFs were opened and read this run (2026-11-14). UT-21-0009.pdf is Utah SPA 21-0009, 'Rehabilitative Mental Health Services' (42 CFR 440.130), approved May 26, 2022, effective July 1, 2021 — a full-text search for 'school' across all 1,769 lines finds zero matches; it is NOT a school-based SPA. UT-21-0019.pdf is Utah SPA 21-0019, 'School-Based Payments and Services', approved August 15, 2022, effective October 1, 2021: 'This SPA for school-based payments amends the current payment methodology to a cost-based payment model and services'; its approved pages cover EPSDT services furnished in the school setting and require a valid IEP ('Medicaid eligible individuals up to the age of 21, receiving covered services in a school setting, must have a valid IEP'). RESOLUTION: the index label is wrong, the link target is right, and the date August 15, 2022 belongs to 21-0019 — the index line 'Utah SPA 21-0009 (approved August 15, 2022)' conflates two SPAs. A reader who follows the link lands on the correct document; a reader who cites the label quotes the wrong SPA number. The index's grouping (cost methodology + IDEA services) is CORRECT for the actual document 21-0019. The index page itself was re-fetched fresh this run (copy crawled 2026-11-14 11:56 UTC): cached-copy variant on intro and guidance list; same 8 state SPAs in the same four groupings with the same approval dates; no Utah date flicker; still no last-updated stamp. The 2026-11-10 '(approved October 14, 2021)' flicker appears in neither PDF and stays a single unreproduced event. The other seven state SPA documents were NOT opened. review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-14",
+   "policy_claims": true,
+   "source_refs": [
+    "cms-school-based-services"
+   ],
+   "objectives": [
+    "State the resolution: UT-21-0009.pdf is Utah SPA 21-0009, 'Rehabilitative Mental Health Services', approved May 26, 2022, effective July 1, 2021, with zero mentions of 'school' in 1,769 lines — not a school-based SPA; UT-21-0019.pdf is Utah SPA 21-0019, 'School-Based Payments and Services', approved August 15, 2022, effective October 1, 2021, a cost-based payment model whose school-setting EPSDT services require a valid IEP.",
+    "State the three-way verdict: the index label is wrong (21-0009 is the wrong number), the link target is right (the served file is the school-based SPA), and the date August 15, 2022 belongs to 21-0019 — the index line conflates two SPAs, so cite the document (21-0019), never the link text alone.",
+    "State what the resolution confirms rather than overturns: the index's grouping of Utah under cost methodology + IDEA services is correct for the actual document 21-0019, and the index page re-fetched fresh this run is unchanged on the stable part (same 8 SPAs, same groupings and dates, no date flicker, no last-updated stamp).",
+    "Name what stays open: the other seven state SPA documents were not opened; the 2026-11-10 '(approved October 14, 2021)' flicker appears in neither Utah PDF and stays a single unreproduced event; review_required_before_encoding stays true."
+   ],
+   "last_verified": "2026-11-14"
   }
  ]
 }
