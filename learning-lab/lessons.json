@@ -3581,6 +3581,39 @@
     "Name what the page does not establish: any plan-specific coverage or compliance determination, and the content of the linked Federal Register rules (not read this run)."
    ],
    "last_verified": "2026-11-12"
+  },
+  {
+   "id": "bhc-overview-recheck5",
+   "title": "Behavioral HealthChoices overview re-verified (2026-11-13): eight identical checks, thirty-four days, still undated — the eighth read speaks for the eighth day",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "behavioral-healthchoices",
+    "bh-mco-assignment",
+    "evidence-discipline",
+    "full-page-diff",
+    "excerpt-discipline",
+    "streak-limits",
+    "undated-page"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview"
+   ],
+   "scene": "u1_p4b_overview7_recheck",
+   "source": "pa-dhs-bhc-overview",
+   "objectives": [
+    "State the 2026-11-13 finding: the full 12-line page matches the 2026-11-11 snapshot sentence for sentence in the same order — eighth identical check (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-13), thirty-four days.",
+    "Explain what the excerpt discipline check proves this run: the county-duty sentence's lead-in clause ('Under the behavioral health component of the HealthChoices program, counties are required...') is intact a third time, so the full paragraph was re-read, not the last excerpt — the notes stayed sharp three times in a row.",
+    "Explain what a streak buys and what it does not: the eighth check kept the promise the seventh scene made — that the eighth read is the only one that can speak for the eighth day — and that is a schedule kept, not a program verified; between checks the page could have moved and moved back, and the streak says nothing about whether the program underneath has changed.",
+    "State what stays open: the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-13) is still the only version the citation has; no coverage, benefit, or payment rule is encoded from this overview page."
+   ],
+   "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-13) via a text fetch of the official URL (copy crawled 2026-11-13 23:56 UTC, less than a minute before the read). Page UNCHANGED for an eighth consecutive check — same 12 lines, same four paragraphs in the same order, thirty-four days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a third time, confirming the excerpt discipline from the 2026-11-05 check held again: the full paragraph was re-read, not the last excerpt. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. Streak limit recorded honestly: eight checks cover eight days only; a change between checks, or a program change underneath an unchanged page, would not show in the streak. Page-level verification only; review_required_before_encoding stays true.",
+   "last_verified": "2026-11-13"
   }
  ]
 }

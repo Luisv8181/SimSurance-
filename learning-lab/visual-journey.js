@@ -1226,6 +1226,32 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview7_recheck',
+    },
+    {
+      id: 'u1_p4b_overview7_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Eighth Read Speaks for the Eighth Day',
+      text: "Two days after the last check, Glim opened the Behavioral HealthChoices overview again — because the last scene ended on a promise: the eighth read is the only one that can speak for the eighth day. Today is that read, and the page had not moved. Same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Eight checks now: October 10, 13, and 16, November 3, 5, 8, 11, and today, November 13 — thirty-four days of identical text, and still no revision date, no last-updated stamp, no document version anywhere on it. This re-read had one job, and it was the same job as the last two: to prove the excerpt discipline from the November 5 check had survived a third full re-read. That check caught the snapshots trimming the county-duty sentence's lead-in clause — 'Under the behavioral health component of the HealthChoices program, counties are required...' — and today's crawl shows the lead-in intact a third time, the whole paragraph read, not the last excerpt of it. The notes stayed sharp three times in a row now. And here is the honest part, the part a streak is for: the eighth check did not make the page more current. It made the promise the seventh scene made, and kept it — nothing more, nothing less. A streak is a schedule kept, not a program verified. So the discipline holds, and it gets one line sharper still: quote the overview with November 13, 2026 attached, because the check date is still the only version this page has — and schedule the ninth check, because the ninth read is the only one that can speak for the ninth day.",
+      advantage: true,
+      advantageText: 'The Eighth Read: A Promise Kept, Not a Program Verified',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-13, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Under the behavioral health component of the HealthChoices program, counties are required to ensure high-quality care and timely access to appropriate mental health and drug and alcohol services, and to facilitate effective coordination with other needed services.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE STREAK AS PROOF:\n- Eight identical checks over thirty-four days, and the county-duty lead-in intact a third time.\n- 'The page has not moved in over a month — the program must be settled by now.'\n- The kept schedule quietly upgraded into a currency claim.",
+        after: "THE STREAK AS SCHEDULE:\n- Eight identical checks over thirty-four days, and the page still shows no revision date of its own.\n- 'Unchanged on every day we looked; undated by its publisher; re-verified 2026-11-13.'\n- The lead-in the November 5 check recovered is intact a third time — the notes stayed sharp. But the eighth read speaks only for the eighth day; the ninth read is the only one that can speak for the ninth.",
+        note: "A page-level re-verification (2026-11-13): this scene teaches streak discipline, not program content. Nothing about contracts, benefits, or rates changes.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {
