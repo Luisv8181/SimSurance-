@@ -3649,6 +3649,41 @@
    ],
    "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-13) via a text fetch of the official URL (copy crawled 2026-11-13 23:56 UTC, less than a minute before the read). Page UNCHANGED for an eighth consecutive check — same 12 lines, same four paragraphs in the same order, thirty-four days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a third time, confirming the excerpt discipline from the 2026-11-05 check held again: the full paragraph was re-read, not the last excerpt. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. Streak limit recorded honestly: eight checks cover eight days only; a change between checks, or a program change underneath an unchanged page, would not show in the streak. Page-level verification only; review_required_before_encoding stays true.",
    "last_verified": "2026-11-13"
+  },
+  {
+   "id": "systems-management-recheck5",
+   "title": "The corrected count: six reads, thirty days (systems-management re-verified 2026-11-14)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "encounter-data",
+    "omhsas-systems-management",
+    "source-verification",
+    "snapshot-discipline",
+    "reserved-placeholder",
+    "undated-page-discipline",
+    "synthetic-population-boundary",
+    "baseline-correction"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-systems-management"
+   ],
+   "scene": "u3_p2_data_recheck5",
+   "source": "pa-dhs-bhc-systems-management",
+   "objectives": [
+    "State the 2026-11-14 finding: the full 253-line page matches the 2026-11-11 snapshot section by section in the same order — sixth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14), thirty days.",
+    "Explain the corrected count: recounting the Systems Notices table by document number gives 13 rows from 2020 (OMHSAS 2020-001 through 2020-013) and 8 from 2021 (2021-006 has no row), not the 12/9 split recorded 2026-11-11; the total is still 41, so the page did not change — the earlier split was miscounted and the correction is recorded openly.",
+    "Explain what a baseline demands: a count is only as good as its counting method, and a baseline that cannot be reproduced from the document numbers is not a baseline.",
+    "State the new first-time count: the CCRI-Specific System Notices table holds 11 rows (newest CCRI-2025-001, March 25, 2025), a baseline for future diffs, not a change claim.",
+    "State what stays open: both fingerprint typos survive a sixth read ('Sub-Capitation Paymen', 'Encounter Data Valdiation Study'); the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-14) is still the only version the citation has; the four Reserved rows are still counted as nothing; the EDV-study PDFs are still unopened, so their findings are still unknown; no coverage, benefit, or payment rule is encoded from this systems page."
+   ],
+   "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-14; page text fetched from the official URL, 253 lines, copy crawled 2026-11-14 07:55 UTC, <1 min before the read). Page UNCHANGED section by section since 2026-11-11: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), now five months and five days old, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same four Reserved rows (2021-003, 2021-007, 2021-008, CCRI 2022–001), same Provider Type 07 capitation forms. Sixth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14), 30-day streak. NEW page-level observations: the Systems Notices year split is corrected by document-number recount to 13 from 2020 and 8 from 2021 (2021-006 has no row), total still 41 — the page did not change, the 2026-11-11 split was miscounted; and the CCRI notices table is counted for the first time at 11 rows. Both fingerprint typos survive a sixth read. Page still carries no revision date, last-updated stamp, or version, so the check date is the version. The newest validation evidence on the page (2023 EDV studies) is still dated 2023; linked EDV-study PDFs not read, findings unknown. review_required_before_encoding stays true.",
+   "last_verified": "2026-11-14"
   }
  ]
 }

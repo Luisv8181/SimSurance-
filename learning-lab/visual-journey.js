@@ -3009,6 +3009,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck5',
+    },
+    {
+      id: 'u3_p2_data_recheck5',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 The Corrected Count: Six Reads, Thirty Days',
+      text: "Three days after the last check, I opened the systems-management page again \u2014 and nothing had moved a sixth time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice \u2014 OMHSAS-2026-001, June 9, 2026, now five months and five days old \u2014 same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Six identical checks now: October 15, November 2, November 5, November 8, November 11, November 14 \u2014 a thirty-day streak. Both fingerprint typos survive a sixth read: \u201cSub-Capitation Paymen\u201d in the notices table and \u201cEncounter Data Valdiation Study\u201d in the reports table. But this read did move one thing \u2014 my own count. The November 11 snapshot recorded the Systems Notices table as 41 rows split 12 from 2020 and 9 from 2021. Recounting by document number, the split is 13 from 2020 \u2014 001 through 013 \u2014 and 8 from 2021, with 2021-006 having no row at all. The total is still 41, so nothing about the page changed; the earlier split was simply miscounted, and the correction is recorded here rather than carried forward silently. That is the discipline a baseline demands: a count is only as good as its counting method, and a baseline you cannot reproduce is not a baseline. I also counted the CCRI notices table for the first time: 11 rows, newest CCRI-2025-001 of March 25, 2025, one row still Reserved. The four Reserved rows are still there, still counted as nothing. The newest validation evidence is still the 2023 EDV studies, and their PDFs are still unopened, so their findings are still unknown. Nothing here becomes a simulator parameter. What the sixth check changes is only the date \u2014 and one corrected number in my own notes.",
+      advantage: true,
+      advantageText: 'A Baseline You Cannot Reproduce Is Not a Baseline',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-14 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'OMHSAS Sub-Capitation Paymen Supplemental File Reporting Requirements',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-14 the systems-management page is unchanged for the sixth consecutive check, but a recount of the Systems Notices table changes the year split from 12 from 2020 / 9 from 2021 to 13 from 2020 / 8 from 2021, with the total still 41. What does that correction mean?',
+        opts: [
+          'A) Nothing about the page changed: the total is still 41, so the earlier split was miscounted, and the correction is recorded openly rather than carried forward silently \u2014 a baseline is only as good as its counting method.',
+          'B) The page changed between checks \u2014 the table gained a 2020 row and lost a 2021 row.',
+          'C) The 2021 table now has a missing document, 2021-006, which the simulator should model as a gap.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 14 re-verification is section by section against the 2026-11-11 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews \u2014 the sixth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14). Recounting by document number gives 13 rows from 2020 (OMHSAS 2020-001 through 2020-013) and 8 from 2021, with 2021-006 having no row; the total is still 41, so the page did not change and the 2026-11-11 split (12/9) was simply miscounted. The CCRI notices table was counted for the first time at 11 rows. The four Reserved rows are still counted as nothing, the EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {
