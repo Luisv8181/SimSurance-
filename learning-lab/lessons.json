@@ -3615,6 +3615,39 @@
    "last_verified": "2026-11-11"
   },
   {
+   "id": "aca-rate-filings-seventh-recheck",
+   "title": "ACA rate filings: the seventh identical reading — thirty-two days of quiet",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "aca-rate-filings",
+    "pennie",
+    "marketplace-availability",
+    "commercial-market",
+    "dated-evidence",
+    "page-level-reverification"
+   ],
+   "scene": "u1_p5d7_filings_recheck",
+   "source": "pa-insurance-department-aca-filings",
+   "summary": "Full-page re-verification (134 lines, copy crawled 2026-11-14 19:56 UTC) finds the PA Insurance Department ACA rate-filings page unchanged since 2026-11-11 — the seventh identical check in a row (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-14), 32 days: same two-phase review prose, same 15 individual and 16 small-group rows, every spot-check figure agrees (Ambetter PA 40.90% to 35.13%, Oscar 15.39% to 1.38%, Health Partners 15.90% to 18.35%, Keystone East 14.68% to 15.98%, QCC 19.88% to 21.31%, Independence small group 8.95% to 8.95%, Ambetter Solutions still '0.00% New Plan'); Pennie column still 13 Yes / 2 No individual, 16 of 16 No small-group. The three-day gap since the sixth check returns to the streak's usual cadence. The page still carries no revision date or document version, so the check date — November 14 — is the version. Seven identical checks establish stability, not permanence, and do not upgrade the page into a rule-bearing source.",
+   "verified": "2026-11-14",
+   "policy_claims": false,
+   "source_refs": [
+    "pa-insurance-department-aca-filings"
+   ],
+   "objectives": [
+    "State the 2026-11-14 re-verification finding: the PA Insurance Department ACA rate-filings page is unchanged since 2026-11-11 (two-phase review prose intact; 15 individual and 16 small-group rows; every November 11 spot-check figure agrees; Pennie column still 13 Yes / 2 No individual, 16 of 16 No small-group), the seventh identical check in a row (2026-10-13, 2026-10-16, 2026-11-03, 2026-11-06, 2026-11-09, 2026-11-11, 2026-11-14).",
+    "Teach the version discipline for an undated page: the page carries no revision date or document version, so the check date — November 14 — is the only version this reading can honestly carry.",
+    "Teach what seven identical checks do and do not establish: they establish the 2027 tables have not moved since at least October 13 and the review cycle looks complete and stable; they do not establish the page will never change, and they do not upgrade the page into a rule-bearing source.",
+    "State what the page still does not establish: no premium dollar amounts, no provider networks, no behavioral-health reimbursement figures — and never encode a rate or market parameter until a specific filing's document version, effective period, exact passage, and applicability are reviewed."
+   ],
+   "last_verified": "2026-11-14"
+  },
+  {
    "id": "mh-parity-2024-data-duty",
    "title": "The 2024 rules ask for the receipts: data duty and the opt-out sunset",
    "path": "visual-journey.html",
