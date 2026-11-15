@@ -868,6 +868,38 @@
         { label: 'Behavioral HealthChoices Overview (Official, live)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_access7_still',
+    },
+    {
+      id: 'u1_p4_access7_still',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d Addendum: The Door, Still Open — Three Days After the Return',
+      text: "Three days after the door came back, Glim knocked again — because a return is not proven by the morning it happens. It is proven by the morning after. The address that answered “Page not found” on November 9 and served the full page again on November 12 still serves it today, November 15, no redirect, and the text is unchanged: 126 lines, same order, same Overview opening — “If you receive Medicaid health coverage and need support for mental health care or substance use disorder, Behavioral HealthChoices can help.” The county-office route, the BH-MCO assigned by county of residence, the mailed handbook, COMPASS and the Consumer Service Center at 1-866-550-4355, the 988 block — all of it, word for word the same as the November 12 snapshot, which was itself word for word the same as November 6. Even the two scrape artifacts are still there, exactly as before: the 988 block rendered twice, the stray “Phone: 18773958930” at the foot. That is the point of this check. A page that vanished for three days and came back identical could have been a one-day reprieve — a cached copy served by mistake, a page on its way out again. Three days of stillness says it was a restoration, not a reprieve. And here is the honest accounting: the content has now been the same for thirty-three days, October 13 to November 15, with a three-day hole in the middle where the address answered nothing at all. Availability broke; content never did. Those are two different facts, and the record keeps them separate — the outage stays in the history, the unchanged text keeps its own streak, and the page still carries no revision date, so the check date is still the version. The door is open. This time, we know it stayed open.",
+      advantage: true,
+      advantageText: 'A Return Is Proven by Its Second Morning — Check Again After a Page Comes Back',
+      citation: {
+        title: 'Request Behavioral HealthChoices Program Services',
+        statute: 'PA DHS · member access guidance, live again 2026-11-12 after HTTP 404 on 2026-11-09; unchanged 2026-11-15 (guidance, not a rule)',
+        quote: 'You will be assigned a Behavioral Health Managed Care Organization (BH-MCO) based on your county of residence.',
+        url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services',
+        urlLabel: 'PA DHS Request Behavioral HealthChoices Services (live 2026-11-15)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "The service-access page returned from its November 9 404 on November 12, content identical to November 6. Glim re-checks on November 15: still live, still 126 lines, still identical, scrape artifacts and all. What does this third check establish?",
+        opts: [
+          'A) That the return was a restoration, not a one-day reprieve — the page is live at its registered URL three days after coming back, and its content has now been the same for 33 days (October 13 to November 15) apart from the three-day availability gap, which stays in the record history as its own fact; the page still carries no revision date, so the check date remains the version, and nothing on it is a benefit schedule, a directory, or a rate.',
+          'B) That the November 9 404 can now be deleted from the record — the page is back, so the outage never happened.',
+          'C) That the page is now safe to encode as a simulation rule, since it has been checked seven times.',
+        ],
+        answer: 0,
+        explanation: "Correct! One live read is not enough to prove a return: the November 15 check — three days after the page came back, 126 lines matching the November 12 snapshot line for line, including the two scrape artifacts — is what turns a return into a restoration. The content streak (33 days, October 13 to November 15) and the availability gap (three days, November 9 to 12) are separate facts and both stay in the record. The page still carries no revision date, so the check date remains the version, and it is member guidance, not a rule — review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'PA DHS Request Behavioral HealthChoices Services (Official, live 2026-11-15)', url: 'https://www.pa.gov/services/dhs/request-behavioral-healthchoices-program-services' },
+        { label: 'Behavioral HealthChoices Overview (Official, live)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4e_mbh',
     },
 

@@ -2190,6 +2190,38 @@
    "last_verified": "2026-11-12"
   },
   {
+   "id": "bhc-service-access-page-still",
+   "title": "BH service-access page re-verified (2026-11-15): the door, still open — return holds three days on, content unchanged",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-service-access",
+    "member-access-pathway",
+    "dead-url",
+    "dated-evidence",
+    "page-level-reverification"
+   ],
+   "scene": "u1_p4_access7_still",
+   "source": "pa-dhs-bhc-service-access",
+   "summary": "Re-verification of the PA DHS Request Behavioral HealthChoices Program Services page (2026-11-15; text fetch, copy crawled 2026-11-15 16:56 UTC, <1 min before the read). UNCHANGED — the return holds, three days on: the page is live at its registered URL, HTTP 200, no redirect, and the full 126-line read matches the 2026-11-12 snapshot line for line in the same order (county-office route, BH-MCO assignment by county of residence, mailed handbook, COMPASS/CAO/mail/phone channels incl. Consumer Service Center 1-866-550-4355, service-center hours, 988 block), which was itself identical to the 2026-11-06 snapshot. Both extraction artifacts persist verbatim (988 block rendered twice, stray 'Phone: 18773958930'), which is itself evidence the restored page is the same page, still, not a rewritten one. Content has now been the same for 33 days (2026-10-13 to 2026-11-15) with a three-day availability gap (2026-11-09 to 2026-11-12) in the middle — availability broke, content never did, and the two facts are recorded separately. Still no revision date, so the check date is the version. Registry status stays official_page_reviewed; review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-15",
+   "policy_claims": false,
+   "source_refs": [
+    "pa-dhs-bhc-service-access"
+   ],
+   "objectives": [
+    "State the 2026-11-15 re-verification finding: the service-access page is still live at its registered URL three days after its November 12 return, HTTP 200, no redirect, with content identical to the 2026-11-12 snapshot (itself identical to 2026-11-06), 126 lines then and 126 lines now.",
+    "Teach the post-return discipline: a return is not proven by the morning it happens but by the morning after — the next check is what turns a return into a restoration rather than a one-day reprieve.",
+    "Teach the two-fact accounting: the 33-day content stability (2026-10-13 to 2026-11-15) and the three-day availability gap (2026-11-09 to 2026-11-12) are separate facts — availability broke, content never did — and both stay in the record.",
+    "Hold the scope honestly: the page still carries no revision date, so the check date remains the version, and it is member guidance, not a benefit schedule, provider directory, or eligibility rule — review_required_before_encoding stays true."
+   ],
+   "last_verified": "2026-11-15"
+  },
+  {
    "id": "pennie-security-incident-notice",
    "title": "Pennie re-verified: the page moves by disclosure — vendor security-incident notice at the foot of the homepage",
    "path": "visual-journey.html",
