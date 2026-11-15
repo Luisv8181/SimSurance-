@@ -2173,6 +2173,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b8_parity_jurisdiction',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b′′′′′′′′: WHO WATCHES THE PARITY LAW — THREE REGULATORS, ONE MAP
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b8_parity_jurisdiction',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b′′′′′′′′: Who Watches the Parity Law — Three Regulators, One Map',
+      text: "We know what the parity rule says. Today, one more question from the same page, and it is the question every modeler asks first when something goes wrong: who do you call? The page answers with a map, not a single door. HHS has jurisdiction over public sector group health plans — the non-Federal governmental plans — while the Departments of Labor and the Treasury have jurisdiction over private sector group health plans. Then the map splits by how the plan pays for care. Employment-related group health plans may be insured or self-funded, and the regulator follows the money: the insurance that is purchased, whether by an insured group health plan or in the individual market, is regulated by the State's insurance department — so a Pennsylvania worker's insured plan answers to the Pennsylvania Insurance Department — while group health plans that pay for coverage directly, without purchasing health insurance from an issuer, are called self-funded group health plans, and private employment-based self-funded plans are regulated by the Department of Labor. Non-Federal governmental plans are regulated by HHS. And here is the boundary that matters most for our simulator: Medicare, Medicaid, and the Children's Health Insurance Program (CHIP) are not group health plans or issuers of health insurance — they are public health plans — yet provisions of the Social Security Act that govern CHIP plans, Medicaid benchmark benefit plans, and managed care plans that contract with State Medicaid programs to provide services require compliance with certain requirements of MHPAEA, with the 2016 Medicaid/CHIP parity final rule linked on the page. So a Behavioral HealthChoices MCO is not inside MHPAEA the way an employer plan is; it is inside through a different door, the Medicaid parity rule, and a model that treats the two doors as one will mis-assign every accountability line. The page even prints where to knock: the CMS parity help line at 1-877-267-2323 extension 6-1565 or phig@cms.hhs.gov, and the Department of Labor's benefit advisors at askebsa.dol.gov or 1-866-444-3272. Two honest limits, as always. First, this is the eighth consecutive unchanged check of this page — October 12 to today, a 34-day streak, same 145 lines, same seven headers, Fact Sheets & FAQs and Regulations and Guidance still empty — so the check date is still the only version stamp the page carries. Second, the map tells you who regulates what; it does not tell you whether any particular plan complies, and the linked 2016 rule was not opened this run, so no rule is encoded here.",
+      advantage: true,
+      advantageText: 'Parity Has Three Regulators, and the Door Depends on How the Plan Pays',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. applicability and jurisdiction (page-level review)',
+        quote: 'HHS has jurisdiction over public sector group health plans (referred to as "non-Federal governmental plans"), while the Departments of Labor and the Treasury have jurisdiction over private sector group health plans.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Two coworkers compare plans. Ana's employer buys insurance from an issuer; Ben's employer pays claims directly from company funds. A third person, Carla, is covered through a Medicaid managed care plan. Who regulates each plan's parity duties, according to the CMS page?",
+        opts: [
+          'A) Ana’s insured plan is regulated by the State’s insurance department; Ben’s self-funded private employment-based plan is regulated by the Department of Labor; Carla’s Medicaid plan is not a group health plan at all, but Social Security Act provisions and the 2016 Medicaid/CHIP parity rule require its managed care plan to comply with certain MHPAEA requirements.',
+          'B) All three are regulated by HHS, because HHS has jurisdiction over every health plan that covers mental-health benefits.',
+          'C) Ana and Ben are both regulated by their State insurance department, and Medicaid plans are exempt from parity entirely because they are not group health plans.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page draws the map by plan type and payment: the insurance purchased by an insured group health plan or in the individual market is regulated by the State's insurance department, while self-funded private employment-based group health plans are regulated by the Department of Labor, and non-Federal governmental plans by HHS. Medicare, Medicaid, and CHIP are not group health plans or issuers of health insurance — but the page states that Social Security Act provisions governing CHIP plans, Medicaid benchmark benefit plans, and managed care plans contracting with State Medicaid programs require compliance with certain MHPAEA requirements, with the 2016 final rule linked. HHS regulates public-sector group plans, not every plan, and Medicaid is not exempt — it enters parity through a different door. No plan-specific compliance determination is made here; this page verifies the map, not any plan's behavior.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 

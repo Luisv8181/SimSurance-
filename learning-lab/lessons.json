@@ -3771,6 +3771,43 @@
    "last_verified": "2026-11-12"
   },
   {
+   "id": "mh-parity-jurisdiction-map",
+   "title": "Who watches the parity law: HHS, Labor, the state regulator, and Medicaid's different door",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "parity",
+    "mhpaea",
+    "jurisdiction",
+    "hhs",
+    "department-of-labor",
+    "state-insurance-department",
+    "self-funded",
+    "insured",
+    "medicaid-parity",
+    "2016-medicaid-chip-parity-rule"
+   ],
+   "scene": "u1_p5b8_parity_jurisdiction",
+   "source": "cms-mh-parity",
+   "summary": "Eighth consecutive unchanged check of the CMS MHPAEA overview page (2026-11-15; 34-day streak): same 145-line text, same seven section headers, Fact Sheets & FAQs and Regulations and Guidance still empty, still no last-updated stamp, so the check date remains the version. New page-level angle shipped as a workbook scene: the jurisdiction map — HHS over non-Federal governmental plans, Labor and Treasury over private-sector group plans, the State insurance department over purchased insurance (insured plans and the individual market), the Department of Labor over private self-funded plans — plus the Medicaid/CHIP boundary: Medicare, Medicaid, and CHIP are not group health plans, but Social Security Act provisions and the 2016 Medicaid/CHIP parity final rule require certain MHPAEA compliance from CHIP plans, Medicaid benchmark plans, and Medicaid managed care plans. Includes the page's contact routes (CMS help line 1-877-267-2323 x6-1565, phig@cms.hhs.gov; DOL benefit advisors at askebsa.dol.gov / 1-866-444-3272). No plan-specific compliance determination is made; review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-15",
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "State the jurisdiction map verbatim from the CMS page: HHS has jurisdiction over public sector group health plans (non-Federal governmental plans), while the Departments of Labor and the Treasury have jurisdiction over private sector group health plans.",
+    "Distinguish insured from self-funded plans by regulator: insurance purchased by an insured group plan or in the individual market is regulated by the State's insurance department; private employment-based self-funded plans are regulated by the Department of Labor; non-Federal governmental plans are regulated by HHS.",
+    "State the Medicaid/CHIP boundary: Medicare, Medicaid, and CHIP are not group health plans or issuers of health insurance, yet Social Security Act provisions require CHIP plans, Medicaid benchmark benefit plans, and Medicaid managed care plans to comply with certain MHPAEA requirements, with the 2016 final rule linked on the page.",
+    "Name what the page does not establish: whether any particular plan complies, the content of the linked 2016 rule (not read this run), and any state parity requirement stricter than federal law."
+   ],
+   "last_verified": "2026-11-15"
+  },
+  {
    "id": "bhc-overview-recheck5",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-13): eight identical checks, thirty-four days, still undated — the eighth read speaks for the eighth day",
    "path": "visual-journey.html",
