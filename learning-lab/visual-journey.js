@@ -700,6 +700,31 @@
       furtherReading: [
         { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
       ],
+      next: 'u1_p4_chip7_still',
+    },
+    {
+      id: 'u1_p4_chip7_still',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum VI: The Row That Stayed Gone, a Fifth Time — Eleven Days of Stillness',
+      text: "Two days after the fourth check, Glim went back to the CHIP directory a fifth time — and the page stood still again. Same nine insurers, same phone lines, same nine NCQA rows with every date exactly where it was, same four Health Equity rows with every date exactly where it was. The stray 'Phone: 8005437105' line still sits at the bottom of the extract, a scrape artifact, not a claim. And Keystone First-CHIP is still missing from the Health Equity table — the fifth straight check with the row gone and no explanation on the page, eleven days since the absence was first spotted. Here is what eleven days of stillness does and does not do. It does not resolve the question: the page still says nothing about why the row left, and Keystone's NCQA row still carries its fresh October 6, 2026 grant. It does change what the record is for: with five reads over eleven days, the four-row ledger is no longer a snapshot that might be catching the page mid-update — it is the standing record of this page, and the standing record now has to be quoted as such, with the absence named beside it every time. The owner question is eleven days old, carried in two morning digests, and still no answer has come back from NCQA or the MCO — an unanswered question is not a resolved question, and the row stays recorded as an absence, never a verdict. Every next-due date in both tables still lies in the future, so the October flags stay closed except this one open question.",
+      advantage: true,
+      advantageText: 'Five Reads Make the Absence the Standing Record',
+      citation: {
+        title: 'CHIP Insurance Companies',
+        statute: 'PA DHS · CHIP insurer directory, re-verified 2026-11-14, page unchanged since 2026-11-03 (directory, not a rule)',
+        quote: 'Keystone First-CHIP | Accredited | October 6, 2026 | October 6, 2029',
+        url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies',
+        urlLabel: 'PA DHS CHIP Insurance Companies Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE FOUR-READ ABSENCE:\\n- Keystone's Health Equity row missing on four reads, 2026-11-03, 2026-11-06, 2026-11-09, and 2026-11-12.\\n- The owner question (confirm against NCQA or the MCO) nine days old, carried in two morning digests.\\n- Four reads made the absence the record — and still not the answer.",
+        after: "THE FIVE-READ ABSENCE (2026-11-14):\\n- Full 63-line re-read: nine insurers, nine NCQA rows, four Health Equity rows — every date identical to 2026-11-12.\\n- Keystone's Health Equity row absent a fifth straight time, still unexplained; its NCQA row still carries the fresh Oct 6, 2026 grant.\\n- No stale due dates anywhere on the page; the owner question is now eleven days old, still unanswered, and the four-row ledger is the standing record until the page says otherwise.",
+        note: "This 2026-11-14 re-verification changed nothing on the page. The new fact is the age of the open question: eleven days, two digests, no answer — the absence is the standing record, the answer still has to come from outside this page, and Keystone's equity status remains unknown-from-this-page, not lapsed.",
+      },
+      furtherReading: [
+        { label: 'PA DHS CHIP Insurance Companies (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/chip/chip-insurance-companies' },
+      ],
       next: 'u1_p4_bh',
     },
     {
