@@ -2336,6 +2336,39 @@
         { label: 'Pennie Notice of Security Incident (PDF)', url: 'https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5c7_pennie_disclosure_still',
+    },
+
+    {
+      id: 'u1_p5c7_pennie_disclosure_still',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5c: The Disclosure, Still Standing — Five Days On',
+      text: "Walk back to the door a seventh time, two days later, and the page has not moved again — but this time the stillness has a new edge. The hero still says: \u201cNow\u2019s the time to find your best health coverage\u201d \u2014 \u201cOpen Enrollment is here!\u201d The \u2018What\u2019s new\u2019 notice is still framed for 2027. The \u2018Find Quick Fixes\u2019 corner is still there. The Medicaid doorway still reads \u2018Coming from Medicaid? Welcome to Pennie! We already have an account set up for you.\u2019 The three friendly faces still carry the same example Silver prices \u2014 Jalen $85 a month, Gary & Barb $553, the Riveras $595 \u2014 still advertisements, never benchmarks, now holding for a fifth consecutive check. And the foot of the page still carries the two lines that arrived on November 9: \u201cA data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.\u201d Five days now, Monday to Saturday, a full work week — the point at which a disclosure stops looking like a banner and starts looking like standing page furniture. Here is the discipline this check teaches. The November 9 lines are still accurate evidence of November 9, but they are no longer the page\u2019s current text. The current text is the November 14 read, and any citation of the disclosure must now carry the November 14 check date. Do not re-cite the November 9 snapshot as current after this rotation. And the two-sided lesson from the last check still holds: the notice standing still tells you nothing about the incident behind it. The homepage reports no investigation progress, and the only evidence about misuse in the record is the notice\u2019s own sentence \u2014 the contractor \u201cdoes not have any evidence that your information has been misused.\u201d A homepage that does not change is not a finding that nothing is happening. Re-cite with the newest date, and do not read resolution into stillness.",
+      advantage: true,
+      advantageText: 'A Standing Disclosure Must Be Re-Cited With the Newest Check Date',
+      citation: {
+        title: 'Pennie | PA\u2019s Official Health Insurance Marketplace',
+        statute: 'Pennie · official state marketplace homepage (index page, not a rule)',
+        quote: 'A data security incident at one of our vendors included some limited Pennie enrollee information. The data incident did not involve any of Pennie\u2019s systems or websites.',
+        url: 'https://pennie.com/',
+        urlLabel: 'Pennie Homepage (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "Glim re-checks pennie.com on November 14. The full 102-line read matches the November 12 snapshot line for line — hero, doorway, vignette prices, and the two-line incident notice at the foot, all unchanged, five days after the notice first appeared. What must a modeler do now, and what must they still remember?",
+        opts: [
+          'A) Re-cite the disclosure with the November 14 check date — the November 9 lines are accurate evidence of November 9, but the current text is the November 14 read, and the notice has now stood a full work week; and still remember that persistence is not resolution, the homepage reports no investigation progress, the only misuse evidence is the notice\u2019s own sentence, the three dates stay separate, and the vignette prices stay advertisements, never benchmarks.',
+          'B) Keep citing the November 9 snapshot as the page\u2019s current text — the page has not changed, so the November 9 read is still current, and five days of standing means the incident is now resolved.',
+          'C) Treat the notice as page furniture and drop it from the record — a disclosure that stays up for five days has served its purpose, and the vignette prices can now be used as benchmarks since they have held five checks in a row.',
+        ],
+        answer: 0,
+        explanation: "Correct! An unchanged page still needs a fresh citation date: the November 9 lines prove November 9, and only the November 14 read proves November 14 — a disclosure that has stood Monday to Saturday is standing page furniture, not a banner. And persistence is still not resolution: the homepage reports no investigation progress, the only misuse evidence in the record is the notice\u2019s own sentence, the three dates (January discovery, October notification, November homepage appearance) stay separate, and the vignette prices hold a fifth consecutive check at $85 / $553 / $595 as advertisements, never benchmarks.",
+      },
+      furtherReading: [
+        { label: 'Pennie Homepage (Official)', url: 'https://pennie.com/' },
+        { label: 'Pennie Notice of Security Incident (PDF)', url: 'https://agency.pennie.com/wp-content/uploads/2026/11/Email-Notice-of-Security-Incident.pdf' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5d_rates',
     },
 
