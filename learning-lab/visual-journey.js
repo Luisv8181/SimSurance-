@@ -3864,6 +3864,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck6',
+    },
+    {
+      id: 'u5_p2b2_recheck6',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Space That Wasn\'t There',
+      text: "I came back to the federal doorway a seventh time, two days after the last full read — and this time the page taught me something about my own tools, not about Medicaid. The three body paragraphs are unchanged again, word for word and in the same order: the definition, with states contracting with managed care organizations ‘that accept a set per member per month (capitation) payment for these services’; the second paragraph, states that ‘can reduce Medicaid program costs and better manage utilization of health services’; and the initiatives paragraph, ‘Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,’ now confirmed across six consecutive full-page reads over fourteen days. That is the strongest statement this page’s record can make — and still only a statement about today. Both sidebar lists were re-diffed in full: Related Resources is still four items in the same order, and Policy and Program Topics is still seven, with ‘Managed Care Authorities’ first — though I am now recording that the seven topics render visually in two columns, items one through four on the left and five through seven on the right, while the reading order is unchanged. And here is the new observation, recorded as a rendering difference, not a page change: the fourth Related Resources item reads ‘Managed Care Organization HIEPolicy,’ with no space before ‘Policy,’ in the browser’s structured link listing — exactly as it did on November 13. But the plain-text extraction and the enlarged screenshot of the very same page show it as ‘HIE Policy,’ with a visible space. Two views of the same rendered page disagree on one space. So the space is not a page fact; it is an extraction fact. The November 13 caution — that the label ‘may be a site rendering artifact, not a page change’ — turns out to have been the right framing, and this run confirms it. The footer is recorded for the first time too: the CMS address, ‘7500 Security Boulevard Baltimore, MD 21244,’ with no date. Searches for ‘Updated,’ ‘Last,’ ‘Revision,’ ‘202,’ and ‘2026’ return nothing anywhere on the rendered page, header through footer. So the check date remains the version, the linked authority documents were not opened, and review before encoding stays true.",
+      advantage: true,
+      advantageText: 'Six Full Reads Confirm Today; The Space Is an Extraction Fact',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-15)',
+        quote: 'Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS managed-care page is unchanged for a seventh consecutive check. The fourth Related Resources item reads "HIEPolicy" in the browser’s structured link listing but "HIE Policy" in the plain-text extraction of the same page. What may you claim?',
+        opts: [
+          'A) The page changed: a space appeared in the link title, so the November 13 record was wrong.',
+          'B) Only that the three body paragraphs are confirmed page content as of November 15 across six full reads over fourteen days, that both sidebar lists match the November 13 enumeration in full, and that the space in "HIEPolicy" is an extraction/rendering difference between two views of the same page — not a page fact and not a change — and nothing here enters the model as a rule.',
+          'C) The "HIE Policy" spacing now authorizes quoting the link title as the page’s authority text.',
+        ],
+        answer: 1,
+        explanation: "Correct! Six full reads agreeing is the strongest statement this page’s record can make about today — and the space discrepancy sharpens the method, not the finding. Two views of the same rendered page disagree on one space, so the spacing is an extraction fact, not a page fact; the structured listing still reads 'HIEPolicy' exactly as on November 13, so no change claim stands. A link title is a doorway, not a rule: the linked authority documents were not opened, the page still shows no enrollment figure and no last-updated date anywhere, so the check date remains the version.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {

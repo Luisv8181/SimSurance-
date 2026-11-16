@@ -3632,6 +3632,41 @@
    "last_verified": "2026-11-13"
   },
   {
+   "id": "medicaid-managed-care-recheck6",
+   "title": "Managed care doorway re-verified (2026-11-15): seven unchanged checks; the space in 'HIEPolicy' is an extraction fact, not a page change",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "managed-care",
+    "capitation",
+    "care-coordination-initiatives",
+    "evidence-discipline",
+    "full-page-diff",
+    "related-resources",
+    "sidebar-enumeration",
+    "rendering-artifact",
+    "extraction-difference"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "medicaid-gov-managed-care"
+   ],
+   "scene": "u5_p2b2_recheck6",
+   "source": "medicaid-gov-managed-care",
+   "objectives": [
+    "State the 2026-11-15 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-13 full read verbatim and in order — seventh consecutive unchanged check (2026-10-15, 2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10, 2026-11-13, 2026-11-15); the initiatives paragraph is now confirmed across six consecutive full-page reads over fourteen days.",
+    "Record the full sidebar re-diff without promoting it to a change finding: Related Resources is still four items in the same order and 'Policy and Program Topics' is still seven items with 'Managed Care Authorities' first; the seven topics render visually in two columns (items 1-4 left, 5-7 right) while the reading order is unchanged.",
+    "Explain the new rendering observation: the fourth Related Resources item reads 'HIEPolicy' (no space) in the browser's structured link listing, exactly as on 2026-11-13, but 'HIE Policy' (with a space) in the plain-text extraction and enlarged screenshot of the same page — two views of one page disagree on one space, so the spacing is an extraction/rendering difference, not a page fact and not a change; do not quote the spacing either way as a page fact.",
+    "State what stays open: the page still shows no last-updated date (searches for 'Updated', 'Last', 'Revision', '202', '2026' return nothing anywhere on the rendered page, header through footer) and no enrollment-share figure (no 'percent', no '%'); the footer address '7500 Security Boulevard Baltimore, MD 21244' is recorded for the first time, with no date; the linked authority documents were not opened; review_required_before_encoding stays true."
+   ],
+   "summary": "Re-verification of the CMS managed-care landing page (2026-11-15) via a text fetch (copy crawled 2026-11-16 04:55 UTC, <1 min before the read) plus a live-browser rendered read (04:56-04:57 UTC). All three main-body paragraphs match the 2026-11-13 full read verbatim and in order — seventh consecutive unchanged check, and the initiatives paragraph is now confirmed across SIX consecutive full-page reads (2026-11-01 through 2026-11-15), fourteen days. Both sidebar lists re-diffed in full against the 2026-11-13 enumeration: Related Resources still four items, Policy and Program Topics still seven, reading order unchanged. NEW rendering observation, recorded NOT as a page change: 'HIEPolicy' (no space) in the structured link listing versus 'HIE Policy' (with a space) in the plain-text extraction and screenshot of the same page — the 2026-11-13 rendering-artifact caution is confirmed as the right framing. Footer recorded for the first time (CMS address, no date). Still NO last-updated date and NO enrollment-share figure; the linked authority documents were NOT opened.",
+   "last_verified": "2026-11-15"
+  },
+  {
    "id": "bhc-overview-recheck4",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-11): seven identical checks, thirty-two days, still undated",
    "path": "visual-journey.html",
