@@ -3737,6 +3737,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_recheck6',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK, SIXTH READING (verified 2026-11-16)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck6',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Seventh Identical Reading — The Render Finds Nothing New',
+      text: "Three days after the last check, I opened the CMS rate-guidance index a seventh time — and it is the same page again. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions, and still none for the 2026-2027 guide. Seven reads over thirty-two days, no movement — and this time the check ran on both methods at once. The cached text copy was fresh, crawled less than a minute before I read it, so the 42-line extract carries the check. Minutes later a live rendered read walked the same page and agreed on every item. Here is the part worth pausing on: the rendered read found nothing new. No extra intro line, no hidden section, no sidebar — nothing beyond site chrome. That sounds like a nonevent, and it is not. This morning, on the BHC overview page, the rendered read found an intro line and a How to Apply section the text extraction had never shown in eight reads — the extraction had been under-reading that page all along. So a rendered read that finds nothing is still evidence: it rules out the same under-reading here. The two methods now agree on the content and on the absence of a date — the rendered read searched the whole page, header and footer included, for Updated and Last reviewed and found neither, so the undated-page finding holds over the full rendered surface, not just the extracted article. The boundary is exactly where it was in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide's contents are known; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. The recheck changes one thing only — the date on the check — and on an undated page, that date is the version.",
+      advantage: true,
+      advantageText: 'A Render That Finds Nothing New Is Still Evidence',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-11-16 — unchanged since 2026-10-15)',
+        quote: 'The managed care regulation requires that states develop valid managed care capitation rates in accordance with generally accepted actuarial principles and practices.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS rate-guidance index on 2026-11-16 matches the 2026-11-13 snapshot: same current guide, same rating-period window, same fifteen-entry list in order, same two addenda. This time both capture methods ran minutes apart — a fresh 42-line text extract and a live rendered read — and the rendered read surfaced no content the extraction missed. What does the seventh reading establish?',
+        opts: [
+          'A) The page is unchanged for the seventh consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13, 2026-11-16; 32-day streak) — and a rendered read that finds nothing new is still evidence, because it rules out the under-reading the BHC overview check exposed the same day; the undated-page finding now holds over the whole rendered surface, header and footer included. No guide PDF was opened, so no guide contents are known.',
+          'B) The rendered read proves the page was edited between November 13 and November 16 — a second capture method means new content.',
+          'C) The two methods now establish the contents of the 2026-2027 guide itself, so its rate rules can be encoded.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 16 fresh text fetch and the live rendered read minutes apart checked the index entry by entry against the November 13 snapshot and found it unchanged for the seventh consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13, 2026-11-16), with the same fifteen-entry list and the same two addenda. The rendered read found no extra content beyond site chrome — no sidebar, no hidden section — which rules out the under-reading the BHC overview check exposed the same morning, and its full-page search for Updated and Last reviewed found neither, so the undated-page finding now holds over the whole rendered surface. No guide PDF was opened, so no guide contents are known, and no Pennsylvania rate appears anywhere on the index — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
 
