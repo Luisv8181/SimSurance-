@@ -2968,6 +2968,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e7_covseventh',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE SEVENTH IDENTICAL READING (coverage census re-counted + map Image 13 counted, 2026-11-16)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e7_covseventh',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5e, Continued Further: The Seventh Identical Reading — The Map Gets Counted',
+      text: "Three days after the sixth reading I came back to the map room a sixth time — and the page had not moved a single county. Re-verified November 16, 2026, the Insurance Department page is substantively unchanged since November 13: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, same fifteen map images, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. That is the seventh identical reading — October 14, November 1, November 4, November 7, November 10, November 13, November 16 — thirty-three days without a single change. Then I re-counted the whole census from today's live page, and every one of the fifteen counts agrees exactly with November 7: Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2 — three hundred and thirty-five county mentions in total, and the four identical pairs still hold as a fact about the page's text lists only. UPMC Health Options now counts 51 for the sixth consecutive check. And this time I finally did the thing the flag has required since November 1: I counted the map. I downloaded the UPMC Health Options map image itself, classified every one of Pennsylvania's sixty-seven counties by sampling the pixels around its label, and resolved the three borderline counties against enlarged crops — Perry is shaded, Adams is white, and one early Susquehanna reading was my own coordinate error, corrected against the crop. The map shades thirty-nine counties, and every one of them is inside the text list. Twelve counties the text lists are white on the map: Adams, Berks, Centre, Columbia, Lancaster, Lehigh, Northampton, Northumberland, Schuylkill, Snyder, Union, York. No county is shaded on the map but missing from the text. And the legend's light blue — the color for counties newly available in 2026 — appears nowhere in the image at all: zero light-blue pixels. So the reconciliation is now a measured disagreement, not an open question: the text says fifty-one, the map says thirty-nine, and the workbook's earlier fifty-two is contradicted by both of the page's own artifacts. I am not silently rewriting that fifty-two — the correction stays the owner's call, and so does the question of why the two disagree. What I will say plainly is the discipline this chain keeps earning: seven identical readings prove the page has not moved. They do not prove it is current. The page still carries no revision date, no last-updated stamp, no document version — so the check date is the version, and stability is not permanence. Count everything, claim only what you counted, and when the text and the picture disagree, put both numbers on the table where the next reader can see them.",
+      advantage: true,
+      advantageText: 'The Map Gets Counted: Text 51, Map 39',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department · archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'Counties in purple mean the plan was available in 2025 and will also be available in 2026. Counties in light blue mean the plan is newly available for the upcoming 2026 plan year.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 16 re-verification is the seventh identical reading of the archived 2026 coverage page in 33 days, the full census re-count agrees with November 7 on all fifteen issuers, and the UPMC Health Options map image (Image 13) has now been counted for the first time: it shades 39 counties, all inside the 51-county text list, with 12 text-list counties white on the map and zero light-blue pixels. What does that establish?',
+        opts: [
+          'A) The workbook\u2019s earlier 52 is confirmed — the text and the map agree, and seven identical readings mean the page is permanently current.',
+          'B) A measured disagreement, not an open question: text 51 (sixth confirmation) versus map 39 (first count), with 12 text-list counties unshaded and no map-only counties — and the earlier 52 stays flagged for the owner rather than silently corrected, since the page still carries no revision date and the other fourteen map images are uncounted.',
+          'C) The map proves the footprint is 39, so the text list is wrong and the workbook should be rewritten to 39 without asking the owner.',
+        ],
+        answer: 1,
+        explanation: "Correct! The seventh reading establishes that the page has not moved in 33 days — nothing more — and the first-ever map count turns the old flag into a measured disagreement: the text list counts 51 for the sixth consecutive check while the map image shades 39, all inside the text list, with Adams, Berks, Centre, Columbia, Lancaster, Lehigh, Northampton, Northumberland, Schuylkill, Snyder, Union, and York white on the map and zero light-blue pixels despite the legend describing light blue for newly-available-2026 counties. The workbook's earlier 52 is now contradicted by both of the page's own artifacts, but it stays flagged for the owner to correct rather than quietly rewritten, and the other fourteen map images are still uncounted.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 
