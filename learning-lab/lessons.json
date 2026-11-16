@@ -3975,6 +3975,40 @@
    "last_verified": "2026-11-13"
   },
   {
+   "id": "bhc-overview-recheck6",
+   "title": "Behavioral HealthChoices overview re-verified (2026-11-16): nine identical checks, thirty-seven days — and the rendered page is wider than the extraction",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "behavioral-healthchoices",
+    "bh-mco-assignment",
+    "evidence-discipline",
+    "full-page-diff",
+    "excerpt-discipline",
+    "streak-limits",
+    "undated-page",
+    "extraction-vs-render"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview"
+   ],
+   "scene": "u1_p4b_overview8_recheck",
+   "source": "pa-dhs-bhc-overview",
+   "objectives": [
+    "State the 2026-11-16 finding: the full 12-line text fetch matches the 2026-11-13 snapshot sentence for sentence in the same order — ninth identical check (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-16), thirty-seven days.",
+    "Explain what the excerpt discipline check proves this run: the county-duty sentence's lead-in clause ('Under the behavioral health component of the HealthChoices program, counties are required...') is intact a fourth time, so the full paragraph was re-read, not the last excerpt — the notes stayed sharp four times in a row.",
+    "Explain the new extraction-vs-render observation, honestly framed as NOT a page change: a second independent live-browser rendered read the same day agrees on all four paragraphs but surfaces an intro line and a How to Apply section the text extraction never showed; no earlier snapshot recorded either item, so no change claim is made — the extraction has been under-reading this page all along, and the 'full-page read' claim in the eight prior snapshots is now known to be a full-extraction read.",
+    "State what stays open: the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-16) is still the only version the citation has; the How to Apply section's first appearance date is unknown; the How to Apply sentence is page text only and its enrollment pathway was not checked against any other source; no coverage, benefit, or payment rule is encoded from this overview page."
+   ],
+   "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-16) via two independent reads of the official URL: a text fetch (copy crawled 2026-11-16 14:56 UTC, <1 min before the read) and a live-browser rendered read (14:56-14:58 UTC). Page UNCHANGED for a ninth consecutive check on every item the text fetch covers — same 12 lines, same four paragraphs in the same order, thirty-seven days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a fourth time, confirming the excerpt discipline from the 2026-11-05 check held again. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. NEW observation, not a page change: the rendered read surfaces two items the extraction never showed — an intro line ('Connecting people who receive Medicaid benefits with mental health and drug/alcohol services.') and a How to Apply section ('If you are enrolled in Medicaid then you can be automatically enrolled in the HealthChoices-Behavorial Health program in the county of your residence.', page's own 'Behavorial' spelling preserved) — so the eight prior 'full-page read' claims were full-extraction reads, and future checks should diff the rendered text. Page-level verification only; review_required_before_encoding stays true.",
+   "last_verified": "2026-11-16"
+  },
+  {
    "id": "systems-management-recheck5",
    "title": "The corrected count: six reads, thirty days (systems-management re-verified 2026-11-14)",
    "path": "visual-journey.html",

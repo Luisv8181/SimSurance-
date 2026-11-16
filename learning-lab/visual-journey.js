@@ -1372,6 +1372,36 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview8_recheck',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE UNDATED PAGE, RE-READ — THE RENDER SEES MORE (re-verified 2026-11-16)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4b_overview8_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Ninth Read — The Render Sees More',
+      text: "Three days after the last check, Glim opened the Behavioral HealthChoices overview again — and this time with two eyes instead of one. The text fetch came back first, crawled less than a minute before the read: same four paragraphs, same county-contract sentence, same BH-MCO assignment line, in the same order, down to the letter. Nine checks now: October 10, 13, and 16, November 3, 5, 8, 11, 13, and today, November 16 — thirty-seven days of identical text, and still no revision date, no last-updated stamp, no document version anywhere on it. The county-duty lead-in the November 5 check recovered — 'Under the behavioral health component of the HealthChoices program, counties are required...' — is intact a fourth time, the whole paragraph read, not the last excerpt. Then the second eye opened: a live-browser read of the rendered page, same day, same paragraphs word for word — and two things the text fetch had never shown. An intro line under the heading, and a How to Apply section saying Medicaid enrollees can be automatically enrolled in the county program — spelled 'Behavorial' on the page, and that spelling is the page's own, kept as printed. This is not a page change; no earlier snapshot ever recorded either item, so there is nothing to diff them against. The honest reading is sharper and less flattering: the extraction has been under-reading this page all along, and every 'full-page read' in the eight prior snapshots was a full-extraction read. The streak still holds — nine checks agree on the four paragraphs the extraction covers — but the page was always bigger than the notes. So the discipline holds, and it gets one line sharper still: quote the overview with November 16, 2026 attached, because the check date is still the only version this page has — and diff the rendered page next time, because a streak that only checks the extraction is auditing the copy, not the page.",
+      advantage: true,
+      advantageText: 'The Ninth Read: Two Eyes, One Page, More Page',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-16, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Under the behavioral health component of the HealthChoices program, counties are required to ensure high-quality care and timely access to appropriate mental health and drug and alcohol services, and to facilitate effective coordination with other needed services.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE EXTRACTION BLUR:\n- Nine identical checks over thirty-seven days, and the county-duty lead-in intact a fourth time.\n- 'Twelve lines, four paragraphs — the whole page, verified nine times.'\n- The extraction quietly stood in for the page, and nobody asked what the render showed.",
+        after: "THE RENDERED PAGE:\n- Nine identical checks over thirty-seven days on the four paragraphs the extraction covers — and the rendered read adds an intro line and a How to Apply section the extraction never surfaced.\n- 'Unchanged on every day we looked; undated by its publisher; re-verified 2026-11-16 — and wider than the extraction showed.'\n- The lead-in the November 5 check recovered is intact a fourth time — the notes stayed sharp. But a streak that only checks the extraction audits the copy, not the page; the How to Apply section is now on the record as of today, spelling and all.",
+        note: "A page-level re-verification (2026-11-16): this scene teaches extraction discipline, not program content. Nothing about contracts, benefits, or rates changes. The How to Apply sentence is page text only; the enrollment pathway was not checked against any other source.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {
