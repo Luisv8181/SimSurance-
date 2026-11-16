@@ -1969,6 +1969,37 @@
         { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4g_pubs7_seventh',
+    },
+    {
+      id: 'u1_p4g_pubs7_seventh',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4g, Revisit: The Seventh Absence — Thirty-Three Days Since the Shelf Was Seen',
+      text: "Glim re-checked the publications vault on 2026-11-16 — three days after the last visit — and the page had not moved. Same OMHSAS shelves, same accreditation paragraph, same quality-review reports ending in 2023 with still no 2024 report, and the children's-services table still stamped 'Last updated: October 2026.' That is the sixth straight check with no movement, and the table was counted a sixth time, by hand, row by row: fifty-five rows, thirty-one with X in both funding columns, twenty managed-care-only, four with no X at all — the exact same numbers as November 3, November 5, November 8, November 11, and November 13. Six counts on six different days, one answer. The PCIT split is still there, the Partial Hospitalization duplicates still agree, the blank rows are still blank. But today the story is still the shelf that is not there, and the calendar has kept counting. The General Publications section recorded on 2026-10-14 has now failed to appear in seven consecutive complete reads: October 17, November 3, November 5, November 8, November 11, November 13, and today. Thirty-three days have passed since the shelf was last seen. The question went to the owner at the fourth absence, as promised, and was carried in the morning digest — and no answer has come back yet. So this scene teaches the discipline that follows a question asked, once the waiting itself gets long and then longer: an unanswered question is not a resolved question, a long wait does not quietly turn into an answer, and a longer wait does not either. The shelf stays unverified from this index, the question stays open, and the rotation keeps checking — because silence from the page is data, and silence from the owner is a wait, not a verdict. Do not conclude the documents were deleted; do not quietly close the flag either. One honest limit to carry with the tally: all six counts were made the same way, by the same hand, from the same extract — a second independent counter would be the next strengthening step, and that is the owner's call, not this run's. The vault is an index of documents; open the documents before you encode anything.",
+      advantage: true,
+      advantageText: 'A Longer Wait Still Is Not an Answer',
+      citation: {
+        title: 'Behavioral HealthChoices Publications',
+        statute: 'PA DHS · re-verified 2026-11-16; children\'s-services table still stamped "Last updated: October 2026" (index page, not a rule)',
+        quote: 'The Balanced Budget Act (BBA) of 1997 requires that state agencies contract with an External Quality Review Organization to conduct an annual external quality review of the services provided by contracted Medicaid Managed Care Organizations.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications',
+        urlLabel: 'PA DHS BHC Publications Index',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The General Publications shelf is now absent from a seventh consecutive complete read, thirty-three days since it was last seen, and the owner question sent at the fourth absence is still unanswered. What is the correct discipline now?',
+        opts: [
+          'A) Keep the flag open and the shelf unverified from this index, keep checking, and do not treat a longer wait as an answer — an unanswered question is not a resolved question, and absence from an extract is not proof of deletion.',
+          'B) Close the flag — seven absences over thirty-three days and no owner reply means the documents must be gone, so remove the 2026-10-14 shelf contents from the registry.',
+          'C) Stop re-checking the page — six identical counts prove nothing more can be learned, and the table is now verified as a covered-benefit schedule.',
+        ],
+        answer: 0,
+        explanation: "Correct! The 2026-11-16 re-verification is the seventh consecutive complete read (2026-10-17, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-16) without the General Publications shelf, thirty-three days since it was last seen, and the owner question sent at the 2026-11-08 check is still unanswered. A longer wait is still a wait, not a verdict: the flag stays open, the 2026-10-14 shelf contents stay unverified from this index, and the rotation keeps checking. And the table is a funding-availability map, not a covered-benefit schedule — an X is a funding mark, never a promise of an appointment. One limit to carry: all six identical counts came from the same hand and the same method, so a second independent counter would strengthen the tally.",
+      },
+      furtherReading: [
+        { label: 'The Publications Vault (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-publications' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5',
     },
     {
