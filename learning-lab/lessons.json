@@ -4105,6 +4105,39 @@
    "last_verified": "2026-11-14"
   },
   {
+   "id": "systems-management-recheck6",
+   "title": "The correction holds: seven reads, thirty-three days (systems-management re-verified 2026-11-17)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "encounter-data",
+    "omhsas-systems-management",
+    "source-verification",
+    "snapshot-discipline",
+    "reserved-placeholder",
+    "undated-page-discipline",
+    "synthetic-population-boundary",
+    "baseline-correction"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-systems-management"
+   ],
+   "scene": "u3_p2_data_recheck6",
+   "source": "pa-dhs-bhc-systems-management",
+   "objectives": [
+    "State the 2026-11-17 finding: the full 253-line page matches the 2026-11-14 snapshot section by section in the same order — seventh identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14, 2026-11-17), thirty-three days.",
+    "Explain the confirmed correction: a fresh document-number recount on today's fetch confirms the corrected Systems Notices year split (13 rows from 2020, 8 from 2021; 2021-006 has no row; total still 41) and re-confirms the 11-row CCRI table count — a correction recorded once is a claim, a correction re-counted on a fresh load is a baseline that reproduces.",
+    "State what stays open: both fingerprint typos survive a seventh read ('Sub-Capitation Paymen', 'Encounter Data Valdiation Study'); the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-17) is still the only version the citation has; the four Reserved rows are still counted as nothing; the EDV-study PDFs are still unopened, so their findings are still unknown; no coverage, benefit, or payment rule is encoded from this systems page."
+   ],
+   "summary": "Re-verification of the PA DHS OMHSAS Division of Systems Management page (2026-11-17; page text fetched from the official URL, 253 lines, copy crawled 2026-11-17 06:56 UTC, <1 min before the read). Page UNCHANGED section by section since 2026-11-14: same objective and business-partner audience sentences, newest systems notice still OMHSAS-2026-001 (June 9, 2026), now five months and eight days old, same encounter-documents index (837, 834, 277, 999, BES, ESC, PRV435/PRV720), same 2023 EDV studies and 2023/2019 on-site reviews for all five BH-MCOs, same four Reserved rows (2021-003, 2021-007, 2021-008, CCRI 2022–001), same Provider Type 07 capitation forms. Seventh identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14, 2026-11-17), 33-day streak. NEW page-level observation: the corrected Systems Notices year split (13 from 2020, 8 from 2021) is CONFIRMED by a fresh document-number recount on today's fetch, and the 11-row CCRI table count is re-confirmed by a second count. Both fingerprint typos survive a seventh read. Page still carries no revision date, last-updated stamp, or version, so the check date is the version. The newest validation evidence on the page (2023 EDV studies) is still dated 2023; linked EDV-study PDFs not read, findings unknown. review_required_before_encoding stays true.",
+   "last_verified": "2026-11-17"
+  },
+  {
    "id": "cms-sbs-utah-docs",
    "title": "The Utah files, opened at last (2026-11-14): the label was wrong, the target was right, the date belongs to 21-0019",
    "path": "visual-journey.html",

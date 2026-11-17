@@ -3387,6 +3387,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck6',
+    },
+    {
+      id: 'u3_p2_data_recheck6',
+      part: 'Unit III \u00b7 Provider Realities',
+      chapter: 'Ch 8 \u00b7 The Correction Holds: Seven Reads, Thirty-Three Days',
+      text: "Three days after the last check, I opened the systems-management page again \u2014 and nothing had moved a seventh time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice \u2014 OMHSAS-2026-001, June 9, 2026, now five months and eight days old \u2014 same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Seven identical checks now: October 15, November 2, November 5, November 8, November 11, November 14, November 17 \u2014 a thirty-three-day streak. Both fingerprint typos survive a seventh read: \u201cSub-Capitation Paymen\u201d in the notices table and \u201cEncounter Data Valdiation Study\u201d in the reports table. But this read did move one thing \u2014 my own confidence in the last correction. The November 14 snapshot corrected the Systems Notices year split to 13 from 2020 and 8 from 2021, with 2021-006 having no row at all. Today I counted the table again by document number on a fresh fetch, and the corrected split holds: 13 and 8, total still 41. The 11-row CCRI table count holds too. A correction recorded once is a claim; a correction re-counted on a fresh load is a baseline that reproduces. The four Reserved rows are still there, still counted as nothing. The newest validation evidence is still the 2023 EDV studies, and their PDFs are still unopened, so their findings are still unknown. The page still carries no revision date, so the check date is still the only version the citation has. Nothing here becomes a simulator parameter. What the seventh check changes is only the date \u2014 and one corrected number, now witnessed twice.",
+      advantage: true,
+      advantageText: 'A Correction Re-Counted Is a Baseline That Reproduces',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS \u00b7 Division of Systems Management (official systems page; re-verified 2026-11-17 \u2014 unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'Information contained on this page is intended for the use of OMHSAS Behavioral Health business partners operating within HealthChoices and the County Mental Health Base Programs.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-17 the systems-management page is unchanged for the seventh consecutive check, and the corrected Systems Notices year split (13 from 2020, 8 from 2021) is confirmed by a fresh document-number recount on today\u2019s fetch. What does re-counting a correction on a fresh load do?',
+        opts: [
+          'A) It turns a recorded correction into a baseline that reproduces: the corrected split now holds across two independent counts, so the count itself is trustworthy even though nothing on the page changed \u2014 and the page is still undated, so the check date remains the only version the citation has.',
+          'B) It proves the page was edited between checks, since the count changed.',
+          'C) It means the 2021-006 gap is now a missing document the simulator should model as a rule.',
+        ],
+        answer: 0,
+        explanation: "Correct! The November 17 re-verification is section by section against the 2026-11-14 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews \u2014 the seventh identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14, 2026-11-17). A fresh document-number recount on today\u2019s fetch confirms the corrected split (13 from 2020, 8 from 2021; 2021-006 has no row; total still 41) and re-confirms the 11-row CCRI table count. Both fingerprint typos survive a seventh read. The four Reserved rows are still counted as nothing, the EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {
