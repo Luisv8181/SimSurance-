@@ -4139,6 +4139,38 @@
    "last_verified": "2026-11-14"
   },
   {
+   "id": "cms-sbs-fifth-load",
+   "title": "The label is still wrong (2026-11-16): two loads agree the page is unchanged, and the Utah mismatch is live for a sixth straight load",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "school-based-services",
+    "link-target-mismatch",
+    "cite-the-document",
+    "unchanged-page",
+    "load-variant"
+   ],
+   "scene": "u5_p2f_sbs_fifthload",
+   "source": "cms-school-based-services",
+   "summary": "Re-verified live 2026-11-16 (docs/source-snapshots/cms-school-based-services-2026-11-16.md): TWO loads this run agree exactly on every item checked - fresh text fetch (copy crawled 2026-11-17 02:55 UTC, <1 min before read) and live-browser rendered read (02:56 UTC). Page UNCHANGED vs 2026-11-14: same intro, same six guidance items, same 8 state SPAs in the same four groupings with the same approval dates, same Utah TSIP guide, same three cost-report examples, same non-endorsement disclaimer, still no last-updated stamp (rendered read searched the full page for 'Last Updated' and 'Updated', none found). UTAH MISMATCH RE-CONFIRMED LIVE: link text still 'Utah SPA 21-0009', href still UT-21-0019.pdf, date still August 15, 2022 - sixth consecutive live load showing the mismatch. NEW NEGATIVE FINDING: two days after the 2026-11-14 resolution (label wrong, target right, date belongs to 21-0019), the index still prints the wrong number - a resolved discrepancy does not fix the source; a reader citing the index line today still quotes the wrong SPA number, while a reader following the link lands on the correct document. No linked PDFs opened this run. review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-16",
+   "policy_claims": true,
+   "source_refs": [
+    "cms-school-based-services"
+   ],
+   "objectives": [
+    "State the two-load agreement: a fresh text fetch and a live rendered read minutes apart agree exactly on every item checked, so the page is unchanged versus 2026-11-14 on intro, guidance list, all 8 SPAs and dates, TSIP guide, cost-report examples, disclaimer, and the absence of a last-updated stamp.",
+    "State the live href confirmation: the rendered read shows the Utah link text still reads 'Utah SPA 21-0009' while its href is still UT-21-0019.pdf - the mismatch is present on a sixth consecutive live load.",
+    "State the negative finding: two days after both PDFs were opened and the conflation was established, the index still prints the wrong number - a resolved discrepancy does not fix the source, so cite the document (21-0019), never the link text alone.",
+    "Name what stays open: no linked PDFs were opened this run; the other seven state SPA documents were not opened; review_required_before_encoding stays true."
+   ],
+   "last_verified": "2026-11-16"
+  },
+  {
    "id": "medicaid-eligibility-gate-recheck6",
    "title": "Medicaid eligibility overview re-verified (2026-11-15): unchanged on every item; the 5% disregard suspension now stands nine reads to one",
    "path": "visual-journey.html",
