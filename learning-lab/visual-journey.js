@@ -549,6 +549,35 @@
       furtherReading: [
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
       ],
+      next: 'u1_p4_phys8_phones5',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE FIFTH DIFF (re-verified 2026-11-17)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys8_phones5',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b Addendum: The Fifth Diff — A Directory\'s Phone Lines, Checked a Fifth Time — and the Wobble That Stayed Put Four Times',
+      text: "Three days later, Glim went back to the physical-plan directory a seventh time — and this check could do something even the last one could not. On November 14, every phone number on the page was compared against its first recording for the fourth time, and every one agreed. Today is the fifth comparison, and every number agrees again: Geisinger 855-227-1302 and 855-214-8100 in all five tables, UPMC for You 800-286-4242 and 866-463-1462 in all five, Jefferson EverWell, Highmark Wholecare, AmeriHealth Caritas, Keystone First, United Healthcare Community Plan — the whole directory, five times diffed, zero movement. And the little wobble got its own fourth look. Three rows drop the colon after TTY while the same numbers carry it elsewhere — and today is the fourth time that punctuation itself could be compared, because the November 5 snapshot was the first to write it down. The same three rows drop it in the same places: Northeast Jefferson, Northeast UPMC, Southwest UPMC. The wobble did not move either. One new detail is worth naming honestly: the region map image URL now carries a timestamp parameter, the first time that has been recorded for this page. The map itself is unchanged, and a cache-busting timestamp on an image delivery is a load-level detail, not a page edit — so it is recorded, not promoted. The counties still hand-count to 67, the typos still sit where they sat, and the page still carries no revision date — seven identical reads over thirty-three days. A month of stillness is not the same as a guarantee. It is a directory you can quote with a date, and defend.",
+      advantage: true,
+      advantageText: 'Check Five Times: A Fifth Diff Turns a Reading Into a Habit of Record',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Southwest Counties in the HealthChoices Program: Allegheny, Armstrong, Beaver, Bedford, Blair, Butler, Cambria, Fayette, Greene, Indiana, Lawrence, Somerset, Washington, Westmoreland',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE NUMBER, CHECKED FOUR TIMES:\n- 'It agreed four times, so it is settled.'\n- Four comparisons treated as proof, and a punctuation wobble compared three times but never re-tested.\n- A fourth diff quoted as if it were a guarantee.",
+        after: "THE NUMBER, CHECKED FIVE TIMES:\n- Every member-services and EMSU number re-read 2026-11-17 against the 2026-11-14 diff — all agree, across all five region tables, fifth time running.\n- The TTY colon wobble is now itself diffed four times: the same three rows drop the colon in the same places, so it reads as a stable rendering quirk, not a page edit.\n- Seven identical reads over 33 days, counties still 67, typos still in place, still no revision date on the page. New load-level detail only: the map image URL now carries a timestamp parameter (ts=1779821172735), recorded for the next run to compare.",
+        note: "A dated plan directory (re-verified 2026-11-17): phone numbers are directory facts with a check date, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {
