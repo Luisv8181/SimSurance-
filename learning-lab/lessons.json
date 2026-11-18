@@ -4127,6 +4127,42 @@
    "last_verified": "2026-11-15"
   },
   {
+   "id": "mh-parity-comparative-analysis",
+   "title": "Show your work: the CAA 2021 comparative-analysis duty for NQTLs",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "parity",
+    "mhpaea",
+    "nqtl",
+    "comparative-analysis",
+    "caa-2021",
+    "2024-final-rules",
+    "network-composition",
+    "prior-authorization",
+    "out-of-network-reimbursement"
+   ],
+   "scene": "u1_p5b9_parity_showyourwork",
+   "source": "cms-mh-parity",
+   "summary": "Ninth consecutive unchanged check of the CMS MHPAEA overview page (2026-11-18; 37-day streak): same 145-line text, same seven section headers, Fact Sheets & FAQs and Regulations and Guidance still empty, still no last-updated stamp, so the check date remains the version. New page-level angle shipped as a workbook scene: the CAA 2021 comparative-analysis duty — plans and issuers imposing NQTLs on MH/SUD benefits must perform and document comparative analyses of the design and application of those NQTLs and make them available to the Departments or applicable State authorities upon request beginning 45 days after enactment — plus the 2024 final rules' content requirements and response timeframes and their codified requirement that the analyses measure NQTL impact, including evaluating network composition, out-of-network reimbursement rates, and medical management and prior authorization NQTLs. The page states content requirements and timeframes exist but does not print the actual timeframes, so no deadline is claimed. No plan-specific compliance determination is made; review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-18",
+   "policy_claims": true,
+   "source_refs": [
+    "cms-mh-parity"
+   ],
+   "objectives": [
+    "State the CAA 2021 comparative-analysis duty verbatim from the CMS page: plans and issuers imposing NQTLs on MH/SUD benefits must perform and document their comparative analyses of the design and application of NQTLs, and make them available to the Departments or applicable State authorities upon request beginning 45 days after enactment.",
+    "State what the 2024 final rules add: content requirements and timeframes for responding to requests for NQTL comparative analyses, and a codified duty to conduct analyses that measure the impact of NQTLs, including evaluating network composition, out-of-network reimbursement rates, and medical management and prior authorization NQTLs.",
+    "Distinguish the duty from what the page does not state: no annual filing or publication duty, no printed response timeframe on this page, and no finding about any particular plan's compliance.",
+    "Name what the page does not establish: the content of the linked Federal Register rules (not read this run), any plan-specific coverage or compliance determination, and any state parity requirement stricter than federal law."
+   ],
+   "last_verified": "2026-11-18"
+  },
+  {
    "id": "bhc-overview-recheck5",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-13): eight identical checks, thirty-four days, still undated — the eighth read speaks for the eighth day",
    "path": "visual-journey.html",

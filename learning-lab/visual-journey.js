@@ -2419,6 +2419,41 @@
         { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5b9_parity_showyourwork',
+    },
+
+    // -------------------------------------------------------------
+    // PLAYER 5b′′′′′′′′′: SHOW YOUR WORK — THE COMPARATIVE ANALYSIS DUTY
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5b9_parity_showyourwork',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5b′′′′′′′′′: Show Your Work — The Comparative Analysis Duty',
+      text: "We have the rule, the six boxes, the hidden-rules test, the 2024 data duty, and the map of who watches. One page-level piece is still missing, and it is the piece that turns parity from a promise into paperwork a regulator can actually read. In December 2020, Section 203 of Title II of Division BB of the Consolidated Appropriations Act, 2021 amended MHPAEA, in part, by expressly requiring group health plans and health insurance issuers offering group or individual health insurance coverage that offer both medical/surgical benefits and MH/SUD benefits and that impose non-quantitative treatment limitations (NQTLs) on MH/SUD benefits to perform and document their comparative analyses of the design and application of NQTLs. Read that slowly, because every word does work. The duty attaches only to plans that impose an NQTL on MH/SUD benefits — prior authorization, step therapy, a network-composition standard — and it is a show-your-work duty: perform the analysis, and document it. Then the second half: beginning 45 days after the date of enactment of the CAA, 2021, these plans and issuers must make their comparative analyses available to the Departments or applicable State authorities, upon request. Not published to the world, not filed every year on a schedule the page states — available, on request, to the regulators on the map from the last scene. The September 9, 2024 final rules then gave the duty its teeth and its shape: they add new regulations to set forth content requirements and timeframes for responding to requests for NQTL comparative analyses required under MHPAEA, as amended by the CAA, 2021, and they codify the requirement that health plans and issuers conduct comparative analyses to measure the impact of NQTLs — including evaluating standards related to network composition, out-of-network reimbursement rates, and medical management and prior authorization NQTLs. So the analysis is not a paragraph saying 'we thought about it.' It must measure impact, and it must cover the standards where access is actually won or lost: who is in the network, what out-of-network care pays, and how the gatekeeping works. Two honest limits, as always. First, the page states that content requirements and timeframes exist; it does not print the actual timeframes on this page, so no deadline is claimed here — a modeler who needs the response window goes to the 2024 final rules themselves, which were not opened this run. Second, this is the ninth consecutive unchanged check of this page — October 12 to today, a 37-day streak, same 145 lines, same seven headers, Fact Sheets & FAQs and Regulations and Guidance still empty — so the check date is still the only version stamp the page carries. And remember what the duty is not: it is not a finding that any particular plan's NQTL is compliant or noncompliant. It is the paper trail that lets a regulator ask the question.",
+      advantage: true,
+      advantageText: 'Parity Is a Paper Trail: The Plan Must Show Its Work on Request',
+      citation: {
+        title: 'The Mental Health Parity and Addiction Equity Act (MHPAEA)',
+        statute: 'CMS · federal parity law overview incl. CAA 2021 comparative-analysis duty and 2024 final rules (page-level review)',
+        quote: 'expressly requiring group health plans and health insurance issuers offering group or individual health insurance coverage that offer both medical/surgical benefits and MH/SUD benefits and that impose non-quantitative treatment limitations (NQTLs) on MH/SUD benefits to perform and document their comparative analyses of the design and application of NQTLs.',
+        url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity',
+        urlLabel: 'CMS MHPAEA Overview (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "A group health plan requires prior authorization for intensive outpatient mental-health care but not for comparable medical/surgical care. Under the CAA, 2021 duty and the 2024 final rules as stated on the CMS page, what must the plan do?",
+        opts: [
+          'A) Perform and document a comparative analysis of the design and application of that NQTL, make it available to the Departments or applicable State authorities upon request, and conduct the analysis to measure the impact of the NQTL — including evaluating standards related to network composition, out-of-network reimbursement rates, and medical management and prior authorization NQTLs — under content requirements and timeframes set by the 2024 final rules.',
+          'B) Nothing in writing: parity only limits numerical limits like visit caps, and a plan may keep its reasoning for a nonquantitative limit private.',
+          'C) File the analysis with CMS once a year on a fixed schedule and publish it on the plan website, whether or not any regulator asks for it.',
+        ],
+        answer: 0,
+        explanation: "Correct! The CAA, 2021 expressly requires plans and issuers that impose NQTLs on MH/SUD benefits to perform and document their comparative analyses of the design and application of those NQTLs, and to make them available to the Departments or applicable State authorities upon request beginning 45 days after enactment. The 2024 final rules set content requirements and timeframes for responding to such requests and codify that the analyses must measure the impact of NQTLs, including network composition, out-of-network reimbursement, and medical management and prior authorization standards. Option B is wrong because the duty is expressly a perform-and-document duty, not silence. Option C invents a duty the page never states: the page says 'upon request,' not an annual filing or publication, and it does not print the actual response timeframes — no deadline is claimed here. No plan-specific compliance determination is made; this page verifies the duty, not any plan's behavior.",
+      },
+      furtherReading: [
+        { label: 'CMS MHPAEA Overview (Official)', url: 'https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p5c_pennie',
     },
 
