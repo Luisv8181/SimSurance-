@@ -4394,6 +4394,42 @@
     "Hold the scope honestly: the disclosure is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact, and nothing in it changes any marketplace parameter; the vignette prices remain illustrative marketing figures, never encodable parameters, the hero still gives no open-enrollment dates, and review_required_before_encoding stays true."
    ],
    "last_verified": "2026-11-17"
+  },
+  {
+   "id": "medicaid-eligibility-gate-recheck7",
+   "title": "Medicaid eligibility overview re-verified (2026-11-18): unchanged on every item; the 5% disregard suspension now stands ten reads to one; new angle: the fair-hearing right",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "medicaid-eligibility",
+    "gate-floor",
+    "magi",
+    "retroactivity",
+    "spenddown-count-confirmed",
+    "five-percent-disregard-suspended",
+    "fair-hearing-right",
+    "appeals-delegation",
+    "extraction-method-discipline",
+    "version-corroboration"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-medicaid-eligibility-policy"
+   ],
+   "scene": "u5_p2b3_gate_recheck7",
+   "source": "cms-medicaid-eligibility-policy",
+   "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-18; text fetch, copy crawled 2026-11-18 06:55 UTC, <1 min before the read). Page UNCHANGED vs 2026-11-15 on every re-checked item: mandatory groups verbatim, 77.9-million combined figure still undated, 133% FPL expansion option, MAGI no-varying-disregards and no-asset-test sentences, 36-states-plus-DC spenddown count verbatim, 3-month retroactivity in the 2026-11-02 wording, CIB appendix still present, fair-hearing sentence intact. The 5% MAGI disregard / 138% FPL suspension from 2026-11-06 HOLDS and is now ten reads to one: a find for '138' returns zero matches in the 122-line text and the only FPL percentage is 133%, twice; the only 'five' on the page is the five-year asset-transfer look-back. Still no last-updated date. NEW angle shipped as consumer: the fair-hearing right \u2014 states must provide the opportunity to request a fair hearing on a denial, an action the person believes was erroneous, or the state not acting with reasonable promptness; the hearing may be conducted by the Medicaid agency, delegated to the Exchange or Exchange Appeals Entity (MAGI denials), or delegated to another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968. The page states no hearing deadline, no promptness timeframe, and no hearing procedure.",
+   "objectives": [
+    "State the 2026-11-18 finding: one text fetch agrees the page is unchanged since 2026-11-15 on every re-checked item - mandatory groups, 77.9 million undated, 133% FPL option, MAGI no-varying-disregards and no-asset-test, 36-states-plus-DC spenddown count, three-month retroactivity, CIB appendix, fair-hearing sentence - and the page still shows no last-updated date.",
+    "Explain the suspension's new standing: the 5% MAGI disregard / 138% FPL sentence quoted 2026-11-04 appears in no read since, a find for '138' returns zero matches today, and the only 'five' on the page is the five-year asset-transfer look-back, so the suspension now stands ten reads to one; it is quoted 2026-11-04 only and quoted as current by nobody until a second independent read finds it, and it is not declared removed.",
+    "State the fair-hearing right from the page's own words: three triggers (denial, erroneous action, failure to act with reasonable promptness) and three hearing routes (Medicaid agency, Exchange or Exchange Appeals Entity for MAGI denials, another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968); and name what the page does not give - no hearing deadline, no promptness timeframe, no hearing procedure - so a simulator must not invent one.",
+    "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; the 77.9-million figure's currency; the MAGI 5% disregard / 138% FPL formulation as of today; any fair-hearing deadline or procedure; or any rule - page-level verification only, no rules encoded."
+   ]
   }
+
  ]
 }

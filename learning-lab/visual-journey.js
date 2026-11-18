@@ -4427,6 +4427,41 @@
         { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b3_gate_recheck7',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT V: THE GATE, EIGHTH READING — THE HEARING THE LAW PROMISES
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b3_gate_recheck7',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Gate, Eighth Reading: The Hearing the Law Promises',
+      text: "I came back to the gate an eighth time, three days after the seventh reading, and the page was unchanged again — the same 122 lines, the same section order, every re-checked item intact: the mandatory-groups sentence, the 77.9 million combined figure still dateless, the 133% FPL expansion option, MAGI with one set of rules and no asset test, the thirty-six-states-plus-DC spenddown count word for word, three-month retroactivity, the CIB appendix still there. And the sentence that is still not there: a find for '138' returns zero matches, so the five percent MAGI disregard making the limit 138% of poverty stays suspended — ten reads to one now, quoted November 4 only, quoted as current by nobody, still not declared removed. But standing still is not the same as having nothing left to teach. The page has a section I had walked past seven times without giving it its own scene: Appeals. Here is what it actually promises. 'States must provide individuals the opportunity to request a fair hearing regarding a denial, an action taken by the state agency that he or she believes was erroneous, or if the state has not acted with reasonable promptness.' Three triggers, and notice the third one: it is not only a wrong decision that earns you a hearing — it is the state not acting at all, not acting fast enough. A denial you can appeal. An error you can challenge. A silence you can answer. And the page tells you who may hold the hearing: the Medicaid agency itself, or the Exchange or Exchange Appeals Entity for denials of eligibility where income is determined by MAGI, or another state agency — but only if the state obtains approval from CMS under the Intergovernmental Cooperation Act of 1968. The hearing is a right the page states plainly. What it does not state is just as plain: no deadline for asking, no number of days that counts as 'reasonable promptness', no procedure for the hearing itself. Those live in state rules, not on this overview page — and a simulator that invents a deadline where the page gives none has stopped modeling and started writing law. The gate, then, is not only a floor on who must be covered. It is a door that has to open twice: once when you apply, and once when the answer is wrong, or late, or never comes at all.",
+      advantage: true,
+      advantageText: 'Due Process at the Gate: Denial, Error, or Silence — All Three Earn a Hearing',
+      citation: {
+        title: 'Eligibility Policy | Medicaid',
+        statute: 'CMS · federal eligibility overview (overview page, not a rule; re-verified 2026-11-18, text fetch)',
+        quote: 'States must provide individuals the opportunity to request a fair hearing regarding a denial, an action taken by the state agency that he or she believes was erroneous, or if the state has not acted with reasonable promptness.',
+        url: 'https://www.medicaid.gov/medicaid/eligibility-policy',
+        urlLabel: 'Medicaid.gov Eligibility Policy (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Today the page is unchanged for the eighth straight check, and the 5% disregard / 138% sentence still does not appear — a find for "138" returns zero matches, so the suspension now stands ten reads to one. The Appeals section promises a fair hearing on three triggers. Which three does the page name?',
+        opts: [
+          'A) A denial, an action the person believes was erroneous, or the state not acting with reasonable promptness — and the hearing may be run by the Medicaid agency, delegated to the Exchange or Exchange Appeals Entity for MAGI denials, or delegated to another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968.',
+          'B) A denial, a missed premium payment, or a change of address — and the hearing must be requested within 30 days, the deadline the page states.',
+          'C) A denial only — the page gives no hearing right for errors or delays, and no delegation options.',
+        ],
+        answer: 0,
+        explanation: "Correct! The page's Appeals sentence names exactly three triggers — a denial, an action the person believes was erroneous, and the state not acting with reasonable promptness — and it names the three hearing routes: the Medicaid agency, the Exchange or Exchange Appeals Entity for MAGI-based denials, or another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968. The page states no 30-day deadline and no promptness timeframe, so B invents a number the page never gives, and C drops two of the three triggers. The 5% / 138% sentence stays suspended at ten reads to one: quoted November 4 only, quoted as current by nobody, not declared removed.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Eligibility Policy (Official)', url: 'https://www.medicaid.gov/medicaid/eligibility-policy' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2_sbs',
     },
     {
