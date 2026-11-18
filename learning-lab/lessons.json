@@ -3881,6 +3881,43 @@
    "last_verified": "2026-11-15"
   },
   {
+   "id": "medicaid-managed-care-recheck7",
+   "title": "Managed care doorway re-verified (2026-11-18): eight unchanged checks; a sentence surfaces that the text fetch never shows",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "managed-care",
+    "capitation",
+    "care-coordination-initiatives",
+    "evidence-discipline",
+    "full-page-diff",
+    "related-resources",
+    "sidebar-enumeration",
+    "rendering-artifact",
+    "extraction-difference",
+    "newly-surfaced",
+    "evidence-gap"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "medicaid-gov-managed-care"
+   ],
+   "scene": "u5_p2b2_recheck7",
+   "source": "medicaid-gov-managed-care",
+   "objectives": [
+    "State the 2026-11-18 finding: all three paragraphs of the CMS managed-care landing page match the 2026-11-15 full read verbatim and in order — eighth consecutive unchanged check (2026-10-15, 2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10, 2026-11-13, 2026-11-15, 2026-11-18); the initiatives paragraph is now confirmed across seven consecutive full-page reads over seventeen days.",
+    "Record the newly surfaced sentence WITHOUT claiming a page change: the rendered read shows the initiatives paragraph continuing 'For more information on managed care, see the links below.' followed by three feature links (Final Rule; Managed Care Quality; Mental Health Parity). The three links were already on record since 2026-11-13; only the sentence is new to the record, and it appears in no prior snapshot. Either the page gained a sentence since 2026-11-15 or the earlier rendered reads missed it — the text-fetch extraction still ends the paragraph at 'high quality care' today, exactly as on 2026-11-15, so the sentence is invisible to that view and the change-vs-omission question is unresolvable from these records.",
+    "Record the full sidebar re-diff: Related Resources is still four items in the same order and 'Policy and Program Topics' is still seven items with 'Managed Care Authorities' first, rendering in two columns (1-4 left, 5-7 right); today's rendered read shows the fourth item as 'HIE Policy' (with a space), matching the plain-text view — the structured listing's 'HIEPolicy' form was not re-tested today, so the spacing stays an extraction/rendering difference, not a page fact.",
+    "State what stays open: the page still shows no last-updated date (searches for '2026', '2025', 'Updated', 'Last', 'Revision' return nothing anywhere on the rendered page, header through footer) and no enrollment-share figure (no 'percent', no '%'); the footer now also records the line 'A federal government managed website by the Centers for Medicare & Medicaid Services.' above the same Baltimore address, with no date; the linked authority documents were not opened; review_required_before_encoding stays true."
+   ],
+   "summary": "Re-verification of the CMS managed-care landing page (2026-11-18) via a text fetch (copy crawled 2026-11-18 22:55 UTC, <1 min before the read) plus a live-browser rendered read (22:56-22:57 UTC). All three main-body paragraphs match the 2026-11-15 full read verbatim and in order — eighth consecutive unchanged check, and the initiatives paragraph is now confirmed across SEVEN consecutive full-page reads (2026-11-01 through 2026-11-18), seventeen days. NEWLY SURFACED, recorded NOT as a confirmed page change: the rendered read shows the initiatives paragraph continuing 'For more information on managed care, see the links below.' followed by three feature links (Final Rule; Managed Care Quality; Mental Health Parity) — the links were already on record since 2026-11-13, only the sentence is new to the record, and a grep of all snapshots finds it nowhere earlier; whether it was added since 2026-11-15 or missed by the earlier rendered reads is unresolvable, since the text-fetch extraction still ends the paragraph at 'high quality care'. Both sidebar lists re-diffed in full: Related Resources still four items, Policy and Program Topics still seven, reading order unchanged; the fourth item reads 'HIE Policy' (with a space) in today's rendered read, matching the plain-text view. Footer gains the 'federal government managed website' line, still no date. Still NO last-updated date and NO enrollment-share figure; the linked authority documents were NOT opened.",
+   "last_verified": "2026-11-18"
+  },
+  {
    "id": "bhc-overview-recheck4",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-11): seven identical checks, thirty-two days, still undated",
    "path": "visual-journey.html",

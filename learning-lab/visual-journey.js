@@ -4307,6 +4307,37 @@
         { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b2_recheck7',
+    },
+    {
+      id: 'u5_p2b2_recheck7',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Sentence the Text Fetch Couldn\'t See',
+      text: "I came back to the federal doorway an eighth time, three days after the last full read — and the page did something new, or rather, my tools did. The three body paragraphs are unchanged again, word for word and in the same order: the definition, with states contracting with managed care organizations ‘that accept a set per member per month (capitation) payment for these services’; the second paragraph, states that ‘can reduce Medicaid program costs and better manage utilization of health services’; and the initiatives paragraph, ‘Some states are implementing a range of initiatives to coordinate and integrate care beyond traditional managed care,’ now confirmed across seven consecutive full-page reads over seventeen days. That is the strongest statement this page’s record can make — and still only a statement about today. But the rendered read showed me something no snapshot has ever recorded: the initiatives paragraph keeps going past ‘high quality care’ with a sentence the text fetch never shows — ‘For more information on managed care, see the links below.’ — followed by three links: Final Rule, Managed Care Quality, Mental Health Parity. Now, the three links are not new; they have been on record since November 13 as feature links below the main text. Only the sentence is new to the record. And here is the discipline: I cannot call it a page change. The text-fetch extraction still ends the paragraph at ‘high quality care’ today, exactly as on November 15 — the sentence is invisible to that view. So either the page gained a sentence in three days, or the November 13 and November 15 rendered reads missed one that was always there. The record cannot settle which, and I will not pretend otherwise: it is recorded as newly surfaced, not as a confirmed change. Both sidebar lists re-diffed in full again — Related Resources still four items in the same order, Policy and Program Topics still seven with ‘Managed Care Authorities’ first, the seven still rendering in two columns. Today’s rendered read shows the fourth Related Resources item as ‘HIE Policy,’ with a space, which matches the plain-text view; the structured listing’s ‘HIEPolicy’ was not re-tested today, so the space stays an extraction fact, not a page fact. The footer gains one more recorded line — ‘A federal government managed website by the Centers for Medicare & Medicaid Services.’ — above the same Baltimore address, still with no date. Searches for ‘2026,’ ‘2025,’ ‘Updated,’ ‘Last,’ and ‘Revision’ return nothing anywhere on the page. So the check date remains the version, the linked authority documents were not opened, and review before encoding stays true.",
+      advantage: true,
+      advantageText: 'Seven Full Reads Confirm Today; A New Sentence Is Surfaced, Not Declared a Change',
+      citation: {
+        title: 'Managed Care | Medicaid',
+        statute: 'CMS · federal managed-care landing page (index page, not a rule; re-verified 2026-11-18)',
+        quote: 'For more information on managed care, see the links below.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care',
+        urlLabel: 'Medicaid.gov Managed Care (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The rendered read of the CMS managed-care page surfaces a sentence no prior snapshot records — "For more information on managed care, see the links below." — while the text-fetch extraction still ends the paragraph at "high quality care," as on November 15. The three links the sentence points to have been on record since November 13. What may you claim?',
+        opts: [
+          'A) The page changed on November 18: a sentence was added, so the November 15 record was wrong and the page must be treated as revised.',
+          'B) Only that the sentence is recorded for the first time today, that the three links it points to were already on record since November 13, and that whether the sentence was added since November 15 or missed by the earlier rendered reads is unresolvable from these records — it is newly surfaced, not a confirmed change — and nothing here enters the model as a rule.',
+          'C) The sentence now authorizes encoding the three linked documents as verified rules, since the page explicitly points to them.',
+        ],
+        answer: 1,
+        explanation: "Correct! A sentence invisible to one view and absent from every earlier record is a finding about the record, not yet a finding about the page. The text fetch omits it today exactly as on November 15, so the earlier rendered reads may have missed it; the three links it points to were already recorded on November 13, so nothing new is linked. Seven full reads agreeing on the three core paragraphs is the strongest statement the record can make about today — and the sentence adds no rule content, the linked authority documents were not opened, and the page still shows no last-updated date anywhere, so the check date remains the version.",
+      },
+      furtherReading: [
+        { label: 'Medicaid.gov Managed Care (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b3_gate',
     },
     {
