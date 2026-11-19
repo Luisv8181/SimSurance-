@@ -3586,6 +3586,38 @@
    ]
   },
   {
+   "id": "rate-guide-recheck7",
+   "title": "The eighth identical reading: the render that quoted what wasn't there",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "rate-development-guide",
+    "guide-addendum",
+    "versioning-discipline",
+    "rating-period",
+    "index-vs-document",
+    "re-verification",
+    "undated-page-discipline",
+    "capture-method",
+    "rendered-read",
+    "verbatim-quotation"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "cms-managed-care-rate-guidance"
+   ],
+   "objectives": [
+    "State the 2026-11-18 finding: the CMS rate-guidance index is unchanged for the eighth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13, 2026-11-16, 2026-11-18; 34-day streak) — same current 2026-2027 guide (released February 2026, rating periods starting July 1, 2026 through June 30, 2027), same fifteen-entry previous-years list in order, same two addenda, still none for the 2026-2027 guide.",
+    "Explain the method correction: the first rendered read (02:56 UTC) reported four items the fresh text extract did not show (a second opening sentence, a 42 CFR 438.4 citation, a “must use this guide” sentence, a reworded contact line); a verbatim re-read two minutes later corrected all four, and the corrected quotes match the 42-line extract exactly — a paraphrase presented as quotation is not evidence.",
+    "Apply the discipline: demand character-for-character quotation from rendered reads, use a second independent read as the correction when the first drifts, and cite the current guide as “current as of the 2026-11-18 re-read.”",
+    "Repeat the standing limit: the index gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide contents are known; nothing here is encoded as a rule."
+   ]
+  },
+  {
    "id": "physical-directory-phones-diff2",
    "title": "The second diff: a directory's phone lines, checked twice — and the wobble that stayed put (re-verified 2026-11-08)",
    "path": "visual-journey.html",

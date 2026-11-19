@@ -4088,6 +4088,40 @@
         { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2b_rateguide_recheck7',
+    },
+    // -------------------------------------------------------------
+    // UNIT V EXTENSION: THE RATE-GUIDE RECHECK, SEVENTH READING (verified 2026-11-18)
+    // -------------------------------------------------------------
+    {
+      id: 'u5_p2b_rateguide_recheck7',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Eighth Identical Reading — The Render That Quoted What Wasn\'t There',
+      text: "Two days after the last check, I opened the CMS rate-guidance index an eighth time — and it is the same page again. The current guide is still the 2026-2027 guide, released in February 2026, for rating periods starting between July 1, 2026 and June 30, 2027. The previous-years list is still fifteen entries in the same order, 2025-2026 first and the 2014 consultation guide last. The addendum drawer still holds exactly two revisions, and still none for the 2026-2027 guide. Eight reads over thirty-four days, no movement — and this time the story is not the page, it is the check itself. The fresh text extract, crawled less than a minute before I read it, matched the November 16 snapshot entry by entry. Minutes later a live rendered read reported something else: a second sentence in the opening paragraph, a citation to 42 CFR 438.4, a sentence saying rating periods must use this guide, a reworded contact line. None of those strings appears anywhere in this project's record — not in any snapshot, not in any earlier scene. So I asked for the same page again, quoted character for character, and two minutes later the render corrected itself: the opening paragraph is one sentence only, the guide paragraph names no CFR section, the rating window sits inside the first sentence, and the contact line is exactly as the text extract has always shown it. The page never changed; the first report paraphrased and dressed the paraphrase as quotation. That is the discipline this reading teaches: a rendered read is evidence only when it quotes verbatim, and a second independent read is the correction when the first one drifts. The two methods agree — but only when the quote is character for character. The undated-page finding stands as well: the rendered read searched the whole page for Last reviewed and updated and found neither, so the check date remains the only version the citation has. The boundary is exactly where it was in October: the index is a map, not a guide; it gives no rate, no formula, and no Pennsylvania number; no guide PDF was opened, so no guide's contents are known; and nothing here becomes a simulator parameter until the actual guide document is opened and its version, effective period, and exact passage are read. The recheck changes one thing only — the date on the check — and on an undated page, that date is the version.",
+      advantage: true,
+      advantageText: 'A Paraphrase in Quotes Is Not Evidence',
+      citation: {
+        title: 'CMS Medicaid Managed Care Rate Review and Rate Guides',
+        statute: 'CMS · rate-guidance index page (index of guides and addenda, not a rule; re-verified 2026-11-18 — unchanged since 2026-10-15)',
+        quote: 'The managed care regulation requires that states develop valid managed care capitation rates in accordance with generally accepted actuarial principles and practices.',
+        url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides',
+        urlLabel: 'CMS Rate Review & Rate Guides (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The CMS rate-guidance index on 2026-11-18 matches the 2026-11-16 snapshot: same current guide, same rating-period window, same fifteen-entry list in order, same two addenda. But the first live rendered read reported extra content — a second opening sentence, a 42 CFR 438.4 citation, a "must use this guide" sentence — that the fresh text extract did not show. A verbatim re-read two minutes later corrected all four items. What does the eighth reading establish?',
+        opts: [
+          'A) The page is unchanged for the eighth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13, 2026-11-16, 2026-11-18; 34-day streak) — and the first rendered report paraphrased and dressed the paraphrase as quotation, so a rendered read is evidence only when it quotes verbatim, with a second independent read as the correction. No guide PDF was opened, so no guide contents are known.',
+          'B) The page was edited between the text fetch and the rendered read, adding a second opening sentence and a 42 CFR 438.4 citation — the render proves a same-day page change.',
+          'C) The verbatim re-read proves the text extraction has been under-reading the page for eight checks, so the extra sentences are real page content the extract always missed.',
+        ],
+        answer: 0,
+        explanation: 'Correct! The November 18 fresh text fetch (crawled 2026-11-19 02:55 UTC, <1 min before the read) matched the November 16 snapshot entry by entry, and the verbatim re-read at 02:58 UTC quoted the opening paragraph (one sentence) and the guide paragraph (three sentences) character for character, matching the extract exactly — so the page is unchanged for the eighth consecutive check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-10, 2026-11-13, 2026-11-16, 2026-11-18). The first rendered report\'s extra sentences appear nowhere in the project\'s record and were corrected by the re-read, which is the method lesson: demand verbatim quotation, and let a second read correct the first. The undated-page finding holds too — the rendered read searched the whole page for Last reviewed and updated and found neither. No guide PDF was opened, so no guide contents are known, and no Pennsylvania rate appears anywhere on the index — review_required_before_encoding stays true.',
+      },
+      furtherReading: [
+        { label: 'CMS Rate Review & Rate Guides (Official)', url: 'https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u5_p2b2_doorway',
     },
 
