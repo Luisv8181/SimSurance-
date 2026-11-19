@@ -1554,6 +1554,32 @@
         { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4b_overview9_recheck',
+    },
+    {
+      id: 'u1_p4b_overview9_recheck',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4c Addendum: The Tenth Read — The Render, Diffed Twice',
+      text: "Three days after the render first showed more than the extraction, Glim read the Behavioral HealthChoices overview a tenth time — and this time both eyes did the diffing. The text fetch came back first, crawled less than a minute before the read: same twelve lines, same four paragraphs, same order, down to the letter. Ten checks now — October 10, 13, and 16, November 3, 5, 8, 11, 13, 16, and today, November 19 — forty days of identical text, and still no revision date, no last-updated stamp, no document version anywhere on it; the footer carries only a 2026 copyright line, which is a copyright line, not a version. The county-duty lead-in the November 5 check recovered — 'Under the behavioral health component of the HealthChoices program, counties are required...' — is intact a fifth time, the whole paragraph read, not the last excerpt. Then the rendered read, diffed for the second time: the intro line is still there, word for word, and the How to Apply sentence is still there too — 'Behavorial' spelling, missing comma and all, exactly as printed on November 16. One small thing the November 16 rendered read did not note is now on the record, and it is not a change: the How to Apply section also carries a link to 'Contact your County Mental Health/Intellectual Disabilities (MH/ID) Program Offices' — no earlier snapshot recorded the section's links, so there is nothing to diff it against, only a fuller baseline for the next read. That is what the tenth read teaches. The first nine reads proved the text does not move. The render, read twice now, proves the page the text fetch cannot see does not move either. A streak that checks only the extraction audits the copy; a streak that diffs the render audits the page — and after forty days, this page has passed both.",
+      advantage: true,
+      advantageText: 'The Tenth Read: Diff the Render, Not Just the Extraction',
+      citation: {
+        title: 'Behavioral HealthChoices',
+        statute: 'PA DHS · program overview, re-verified 2026-11-19, page text unchanged since 2026-10-10; the page carries no revision date (architecture, not a rule)',
+        quote: 'Under the behavioral health component of the HealthChoices program, counties are required to ensure high-quality care and timely access to appropriate mental health and drug and alcohol services, and to facilitate effective coordination with other needed services.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc',
+        urlLabel: 'PA DHS Behavioral HealthChoices Overview',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE EXTRACTION-ONLY STREAK:\n- Ten identical checks over forty days, and the county-duty lead-in intact a fifth time.\n- 'Twelve lines, four paragraphs — the whole page, verified ten times.'\n- The extraction still quietly stands in for the page, and the rendered sections are checked only when someone remembers.",
+        after: "THE RENDER, DIFFED TWICE:\n- Ten identical checks over forty days on the four paragraphs the extraction covers — and the rendered read, diffed a second time, confirms the intro line and the How to Apply sentence word for word, 'Behavorial' spelling included.\n- 'Unchanged on every day we looked; undated by its publisher; re-verified 2026-11-19 — and the render agrees with itself now, not just with the extraction.'\n- One new item on the record, honestly framed: the How to Apply section's county MH/ID offices link, recorded today as a fuller baseline, not claimed as a change.",
+        note: "A page-level re-verification (2026-11-19): this scene teaches extraction discipline, not program content. Nothing about contracts, benefits, or rates changes. The How to Apply sentence is page text only; the enrollment pathway was not checked against any other source.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices Overview (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_prov',
     },
     {

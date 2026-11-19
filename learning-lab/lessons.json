@@ -4360,6 +4360,41 @@
    "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-16) via two independent reads of the official URL: a text fetch (copy crawled 2026-11-16 14:56 UTC, <1 min before the read) and a live-browser rendered read (14:56-14:58 UTC). Page UNCHANGED for a ninth consecutive check on every item the text fetch covers — same 12 lines, same four paragraphs in the same order, thirty-seven days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a fourth time, confirming the excerpt discipline from the 2026-11-05 check held again. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. NEW observation, not a page change: the rendered read surfaces two items the extraction never showed — an intro line ('Connecting people who receive Medicaid benefits with mental health and drug/alcohol services.') and a How to Apply section ('If you are enrolled in Medicaid then you can be automatically enrolled in the HealthChoices-Behavorial Health program in the county of your residence.', page's own 'Behavorial' spelling preserved) — so the eight prior 'full-page read' claims were full-extraction reads, and future checks should diff the rendered text. Page-level verification only; review_required_before_encoding stays true.",
    "last_verified": "2026-11-16"
   },
+ {
+   "id": "bhc-overview-recheck7",
+   "title": "Behavioral HealthChoices overview re-verified (2026-11-19): ten identical checks, forty days — and the rendered page, diffed twice, does not move either",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "behavioral-healthchoices",
+    "bh-mco-assignment",
+    "evidence-discipline",
+    "full-page-diff",
+    "excerpt-discipline",
+    "streak-limits",
+    "undated-page",
+    "extraction-vs-render",
+    "rendered-baseline"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-overview"
+   ],
+   "scene": "u1_p4b_overview9_recheck",
+   "source": "pa-dhs-bhc-overview",
+   "objectives": [
+    "State the 2026-11-19 finding: the full 12-line text fetch matches the 2026-11-16 snapshot sentence for sentence in the same order — tenth identical check (2026-10-10, 2026-10-13, 2026-10-16, 2026-11-03, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-16, 2026-11-19), forty days.",
+    "Explain what the excerpt discipline check proves this run: the county-duty sentence's lead-in clause ('Under the behavioral health component of the HealthChoices program, counties are required...') is intact a fifth time, so the full paragraph was re-read, not the last excerpt — the notes stayed sharp five times in a row.",
+    "Explain the rendered diff, honestly framed: a second live-browser rendered read agrees on all four paragraphs word for word and confirms both rendered-only items from 2026-11-16 (intro line; How to Apply sentence with the page's own 'Behavorial' spelling, no comma after 'Medicaid') — the render now agrees with itself, not just with the extraction.",
+    "State what stays open: the page still carries no revision date, last-updated stamp, or document version, so the check date (2026-11-19) is still the only version the citation has; the How to Apply section's county MH/ID offices link is recorded today as a fuller rendered baseline, not claimed as a change; the How to Apply sentence is page text only and its enrollment pathway was not checked against any other source; no coverage, benefit, or payment rule is encoded from this overview page."
+   ],
+   "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-19) via two independent reads of the official URL: a text fetch (copy crawled 2026-11-19 14:55 UTC, <1 min before the read) and a live-browser rendered read (14:56-14:58 UTC). Page UNCHANGED for a tenth consecutive check on every item both reads cover — same 12 lines, same four paragraphs in the same order, forty days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a fifth time, confirming the excerpt discipline from the 2026-11-05 check held again. The rendered read, diffed a second time, confirms the intro line and the How to Apply sentence word for word, spelling and punctuation included. Still no revision date, last-updated stamp, or document version anywhere on the page — text searches for 'updated' and 'Revised' returned no matches, and the footer copyright line is not a revision stamp. NEW observation, not a page change: the rendered read records the How to Apply section's 'Contact your County Mental Health/Intellectual Disabilities (MH/ID) Program Offices' button/link, which the 2026-11-16 rendered read did not mention — recorded as a fuller rendered baseline for future diffs. Page-level verification only; review_required_before_encoding stays true.",
+   "last_verified": "2026-11-19"
+  },
   {
    "id": "systems-management-recheck5",
    "title": "The corrected count: six reads, thirty days (systems-management re-verified 2026-11-14)",
