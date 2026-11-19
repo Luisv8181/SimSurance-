@@ -986,6 +986,38 @@
         { label: 'Behavioral HealthChoices Overview (Official, live)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_988_first',
+    },
+    {
+      id: 'u1_p4_988_first',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4d Addendum: The Number on the Page — 988, Read at Its Own Source',
+      text: "For weeks the service-access page has carried a small 988 block — call or text, day or night — and I have quoted it as part of that page, never as a fact of its own. Today I finally read 988 at its own source, twice: the SAMHSA page and the Lifeline's own homepage. What they say is short and worth quoting whole. SAMHSA: '988 offers 24/7 judgment-free support for mental health, substance use, and more. Text, call, or chat 988. Access for Deaf/HoH and Spanish speakers.' And: 'Providing 24/7, free and confidential support to people in suicidal crisis or emotional distress works.' The homepage agrees in its own words: 'The 988 Lifeline is available 24/7/365. Your conversations are free and confidential.' Three channels, no cost, no appointment, no eligibility test stated anywhere. And here is the sentence I will not overstate: SAMHSA's own page says Congress designated the 988 code 'to be operated through the existing National Suicide Prevention Lifeline' — it does not say, in so many words, that SAMHSA operates it. The operator is the Lifeline network; SAMHSA is the federal steward of the page I read. That distinction is the whole lesson: a crisis doorway is not a coverage rule. Nothing on either page is a benefit, a rate, a county assignment, or a wait time, so nothing here enters the simulator. What enters the workbook is the doorway itself — the number, the three ways to reach it, and the fact that it is free and confidential, read at the source rather than borrowed from a block on another page.",
+      advantage: true,
+      advantageText: 'A Crisis Doorway Is Not a Coverage Rule — Read It at Its Own Source',
+      citation: {
+        title: '988 Suicide & Crisis Lifeline',
+        statute: 'SAMHSA · 988 Suicide & Crisis Lifeline (official; page last updated 2026-09-26)',
+        quote: 'Providing 24/7, free and confidential support to people in suicidal crisis or emotional distress works.',
+        url: 'https://www.samhsa.gov/mental-health/988',
+        urlLabel: 'SAMHSA 988 Suicide & Crisis Lifeline (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: "SAMHSA's 988 page (last updated 09/26/2025) and the 988 Lifeline homepage were both read live today. What do they actually establish?",
+        opts: [
+          'A) That 988 is available 24/7/365, free and confidential, by call, text, or chat, with Deaf/HoH and Spanish access; that Congress designated the code to be operated through the existing National Suicide Prevention Lifeline, while the SAMHSA page does not state in so many words that SAMHSA operates it; and that neither page states any eligibility, coverage, rate, or routing rule — so nothing here is encodable, and the doorway is taught as a doorway.',
+          'B) That SAMHSA operates the Lifeline directly and that 988 is a Medicaid Behavioral HealthChoices benefit, so it can now be encoded as a coverage rule in the simulator.',
+          'C) That the pages prove nothing at all, because the Lifeline homepage carries no revision date — so 988 cannot be mentioned in the workbook until a dated document appears.',
+        ],
+        answer: 0,
+        explanation: "Correct! Both pages agree on the doorway — 24/7, free, confidential, call/text/chat, Deaf/HoH and Spanish access — and both are silent on eligibility, coverage, rates, and routing, so nothing here becomes a rule. The operator sentence is the one to handle with care: the code runs 'through the existing National Suicide Prevention Lifeline' by congressional designation, and the SAMHSA page never claims SAMHSA operates it. Read at its own source, 988 is a crisis doorway, and the workbook teaches it as one.",
+      },
+      furtherReading: [
+        { label: '988 Suicide & Crisis Lifeline (Official)', url: 'https://988lifeline.org/' },
+        { label: 'SAMHSA 988 Suicide & Crisis Lifeline (Official)', url: 'https://www.samhsa.gov/mental-health/988' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4e_mbh',
     },
 

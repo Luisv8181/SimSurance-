@@ -287,6 +287,24 @@
    ],
    "review_required_before_encoding": true,
    "snapshot": "docs/source-snapshots/medicaid-eligibility-policy-2026-11-18.md"
-  }
+  },
+ {
+  "id": "samhsa-988-lifeline",
+  "title": "988 Suicide & Crisis Lifeline",
+  "issuer": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+  "url": "https://www.samhsa.gov/mental-health/988",
+  "jurisdiction": "United States",
+  "program": "988 Suicide & Crisis Lifeline",
+  "source_type": "official_crisis_line_page",
+  "status": "official_page_reviewed",
+  "last_checked": "2026-11-19",
+  "scope_note": "First verification 2026-11-19 (live rendered read; page last updated 09/26/2025; older address https://www.samhsa.gov/find-help/988 redirects to this canonical page). Page states: 988 offers 24/7 judgment-free support for mental health, substance use, and more; text, call, or chat 988; access for Deaf/HoH and Spanish speakers; 'Providing 24/7, free and confidential support to people in suicidal crisis or emotional distress works.' Companion homepage https://988lifeline.org/ read the same run (live text fetch, 38 lines): 'The 988 Lifeline is available 24/7/365. Your conversations are free and confidential.' and 'Call, text, or chat with a 988 Lifeline counselor for help during difficult moments anytime, day or night.' LIMITS: the SAMHSA page does NOT state in so many words that SAMHSA operates the Lifeline — Congress designated the 988 code 'to be operated through the existing National Suicide Prevention Lifeline.' Neither page states any eligibility rule, coverage rule, benefit, rate, county routing, or call-volume figure; nothing here is a Medicaid rule or a simulation parameter. Dated snapshot: docs/source-snapshots/samhsa-988-lifeline-2026-11-19.md. Consumer shipped 2026-11-19: WORKBOOK scene u1_p4_988_first ('The Number on the Page — 988, Read at Its Own Source'), lesson samhsa-988-lifeline, status source_review_required.",
+  "supports": [
+   "crisis_access",
+   "member_support"
+  ],
+  "review_required_before_encoding": true,
+  "snapshot": "docs/source-snapshots/samhsa-988-lifeline-2026-11-19.md"
+ }
  ]
 }

@@ -4628,7 +4628,37 @@
     "State the fair-hearing right from the page's own words: three triggers (denial, erroneous action, failure to act with reasonable promptness) and three hearing routes (Medicaid agency, Exchange or Exchange Appeals Entity for MAGI denials, another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968); and name what the page does not give - no hearing deadline, no promptness timeframe, no hearing procedure - so a simulator must not invent one.",
     "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; the 77.9-million figure's currency; the MAGI 5% disregard / 138% FPL formulation as of today; any fair-hearing deadline or procedure; or any rule - page-level verification only, no rules encoded."
    ]
-  }
+  },
+ {
+   "id": "samhsa-988-lifeline",
+   "title": "988 Suicide & Crisis Lifeline verified at its own source (2026-11-19): a crisis doorway, not a coverage rule",
+   "path": "visual-journey.html",
+   "audience": [
+     "understand",
+     "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+     "crisis-access",
+     "988-lifeline",
+     "free-confidential-support",
+     "call-text-chat",
+     "deaf-hoh-spanish-access",
+     "operator-vs-steward",
+     "extraction-method-discipline"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+     "samhsa-988-lifeline"
+   ],
+   "scene": "u1_p4_988_first",
+   "source": "samhsa-988-lifeline",
+   "summary": "First verification of the federal 988 Suicide & Crisis Lifeline at its own sources (2026-11-19): SAMHSA page (last updated 09/26/2025) and the 988 Lifeline homepage, both read live. Both agree 988 is available 24/7, free and confidential, by call, text, or chat, with Deaf/HoH and Spanish access. The SAMHSA page does not state in so many words that SAMHSA operates the Lifeline — Congress designated the code to be operated through the existing National Suicide Prevention Lifeline. Neither page states any eligibility, coverage, rate, or routing rule; nothing here is encodable.",
+   "objectives": [
+     "State what 988 offers from the official pages: 24/7, free and confidential support by call, text, or chat, with Deaf/HoH and Spanish access.",
+     "Name what the pages do not establish: who operates the Lifeline in SAMHSA's own words, any eligibility or coverage rule, any rate, any county routing, or any wait-time figure — so a simulator must not invent one."
+   ]
+ }
 
  ]
 }
