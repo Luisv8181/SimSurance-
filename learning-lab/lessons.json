@@ -1173,6 +1173,36 @@
    ]
   },
   {
+   "id": "coverage-areas-eighth-reading",
+   "title": "The eighth identical reading: the small map agrees — text 2, map 2",
+   "path": "visual-journey.html",
+   "audience": [
+    "explore",
+    "understand"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "count-discipline",
+    "archived-market-snapshot",
+    "sales-footprint-vs-network",
+    "enumeration-vs-estimation",
+    "duplicate-footprints",
+    "date-discipline",
+    "text-vs-map-reconciliation"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-insurance-department-2026-individual-coverage-areas"
+   ],
+   "objectives": [
+    "State the 2026-11-19 re-verification result: the eighth identical reading of the archived PA Insurance Department coverage-areas page (2026-10-14, 2026-11-01, 2026-11-04, 2026-11-07, 2026-11-10, 2026-11-13, 2026-11-16, 2026-11-19), 36 days without a change — same 125 text lines, 15 issuers in the same order, same disclaimers, same 15 map images, with all fifteen image timestamp parameters identical to the values recorded 2026-11-16 (compared for the first time); spot checks agree (UPMC Health Plan still Crawford + Clearfield only, Oscar still 13 counties).",
+    "State the census re-count, done by script this run: all fifteen text-list counts agree exactly with the 2026-11-07 census (Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2), 335 county mentions in total; UPMC Health Options 51 is now seventh-confirmed and the four identical pairs still hold as a fact about the page's text lists only.",
+    "State the Image 14 count: the UPMC Health Plan map image was downloaded and read three ways — a fill-color scan of every pixel (21,839 light-blue fill pixels in exactly two clusters, western 10,395 and central 11,444, zero elsewhere), disk samples around the county labels (Crawford 0.96, Clearfield 0.83, Erie and Warren controls 0.00), and a direct visual read — and all three agree the map shades exactly Crawford and Clearfield: text 2 vs map 2, overlap 2, text-only 0, map-only 0, the first agreement in the reconciliation series, in contrast to Image 13 (text 51 vs map 39).",
+    "State the color fact and its limit: the Image 14 fill is light blue throughout with zero purple pixels anywhere, and per the page's own legend light blue means newly available for the upcoming 2026 plan year, while Image 13 used purple with zero light-blue pixels — no cause is claimed for why one issuer's map uses one legend color and the other's uses the other.",
+    "State what remains open: the page carries no revision date, so the check date is the version — eight identical readings prove the page has not moved, not that it is current; text-vs-map reconciliation is now DONE for UPMC Health Plan (agreement) and UPMC Health Options (measured disagreement) and still open for the other thirteen map images; the workbook's standing '52' claim (scene u1_p5e_covmap) is now contradicted by the text list seven times and by the Image 13 map once but is NOT silently corrected — correction remains the owner's call; review_required_before_encoding stays true and nothing has been promoted to a rule."
+   ]
+  },
+  {
    "id": "bhc-mcos-date-discipline",
    "title": "The date on the map: county-to-plan lookup with a retrieval date (re-verified 2026-10-14)",
    "path": "visual-journey.html",
@@ -4395,7 +4425,7 @@
    "summary": "Re-verification of the PA DHS Behavioral HealthChoices overview (2026-11-16) via two independent reads of the official URL: a text fetch (copy crawled 2026-11-16 14:56 UTC, <1 min before the read) and a live-browser rendered read (14:56-14:58 UTC). Page UNCHANGED for a ninth consecutive check on every item the text fetch covers — same 12 lines, same four paragraphs in the same order, thirty-seven days from the first check (2026-10-10). The county-duty sentence's lead-in clause is intact a fourth time, confirming the excerpt discipline from the 2026-11-05 check held again. Still no revision date, last-updated stamp, or document version anywhere on the page — the check date remains the version. NEW observation, not a page change: the rendered read surfaces two items the extraction never showed — an intro line ('Connecting people who receive Medicaid benefits with mental health and drug/alcohol services.') and a How to Apply section ('If you are enrolled in Medicaid then you can be automatically enrolled in the HealthChoices-Behavorial Health program in the county of your residence.', page's own 'Behavorial' spelling preserved) — so the eight prior 'full-page read' claims were full-extraction reads, and future checks should diff the rendered text. Page-level verification only; review_required_before_encoding stays true.",
    "last_verified": "2026-11-16"
   },
- {
+  {
    "id": "bhc-overview-recheck7",
    "title": "Behavioral HealthChoices overview re-verified (2026-11-19): ten identical checks, forty days — and the rendered page, diffed twice, does not move either",
    "path": "visual-journey.html",
@@ -4633,7 +4663,7 @@
   },
   {
    "id": "pennie-disclosure-eight-days",
-   "title": "Pennie re-verified: the disclosure, eight days on \u2014 incident notice persists verbatim through a second Monday",
+   "title": "Pennie re-verified: the disclosure, eight days on — incident notice persists verbatim through a second Monday",
    "path": "visual-journey.html",
    "audience": [
     "understand",
@@ -4651,15 +4681,15 @@
    ],
    "scene": "u1_p5c8_pennie_disclosure_eight",
    "source": "pennie",
-   "summary": "Re-verification of the Pennie homepage (2026-11-17; page text fetched from the official URL, copy crawled 2026-11-17 18:56 UTC, less than a minute before the read). UNCHANGED vs 2026-11-14 \u2014 third unchanged check since the page moved by disclosure: full 102-line read matches the 2026-11-14 snapshot line for line in the same order (hero, \u201cWhat\u2019s new\u201d framed for 2027, \u201cFind Quick Fixes\u201d, Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, help channels), including the two-line data-security-incident notice at the foot of the page, still verbatim eight days after its first appearance (2026-11-09), standing through a second Monday. The linked notice PDF was NOT re-opened this run; the 2026-11-09 reading stands (contractor Zelenkofske Axelrod, LLC; suspicious activity around January 25, 2026; Pennie notified October 27, 2026; limited enrollee fields involved; no SSN, contact, income, password, or financial data). Vignette prices hold a sixth consecutive check at Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver \u2014 illustrative marketing figures, never encodable parameters. The captured page text still states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
+   "summary": "Re-verification of the Pennie homepage (2026-11-17; page text fetched from the official URL, copy crawled 2026-11-17 18:56 UTC, less than a minute before the read). UNCHANGED vs 2026-11-14 — third unchanged check since the page moved by disclosure: full 102-line read matches the 2026-11-14 snapshot line for line in the same order (hero, “What’s new” framed for 2027, “Find Quick Fixes”, Medicaid-exit account-handoff doorway, marketplace identity sentence, persona vignettes, help channels), including the two-line data-security-incident notice at the foot of the page, still verbatim eight days after its first appearance (2026-11-09), standing through a second Monday. The linked notice PDF was NOT re-opened this run; the 2026-11-09 reading stands (contractor Zelenkofske Axelrod, LLC; suspicious activity around January 25, 2026; Pennie notified October 27, 2026; limited enrollee fields involved; no SSN, contact, income, password, or financial data). Vignette prices hold a sixth consecutive check at Jalen $85/mo, Gary & Barb $553/mo, Riveras $595/mo Silver — illustrative marketing figures, never encodable parameters. The captured page text still states no open-enrollment start or end date. review_required_before_encoding stays true; no rule encoded.",
    "verified": "2026-11-17",
    "policy_claims": false,
    "source_refs": [
     "pennie"
    ],
    "objectives": [
-    "State the 2026-11-17 finding: the Pennie homepage is UNCHANGED vs 2026-11-14 \u2014 the hero, doorway, vignettes, and help channels all persist, and the two-line data-security-incident notice at the foot persists verbatim eight days after its first appearance, standing through a second Monday.",
-    "Teach the re-dating discipline: the November 14 lines are accurate evidence of November 14, but the current text is the November 17 read \u2014 a standing disclosure must be re-cited with the newest check date at every check, and stillness compounds without ever becoming resolution, since the homepage reports no investigation progress and the only misuse evidence in the record is the notice PDF\u2019s own sentence, so the three dates (January discovery, October notification, November homepage appearance) stay separate.",
+    "State the 2026-11-17 finding: the Pennie homepage is UNCHANGED vs 2026-11-14 — the hero, doorway, vignettes, and help channels all persist, and the two-line data-security-incident notice at the foot persists verbatim eight days after its first appearance, standing through a second Monday.",
+    "Teach the re-dating discipline: the November 14 lines are accurate evidence of November 14, but the current text is the November 17 read — a standing disclosure must be re-cited with the newest check date at every check, and stillness compounds without ever becoming resolution, since the homepage reports no investigation progress and the only misuse evidence in the record is the notice PDF’s own sentence, so the three dates (January discovery, October notification, November homepage appearance) stay separate.",
     "Hold the scope honestly: the disclosure is a trust and governance fact about the marketplace, not a plan, rate, eligibility, or subsidy fact, and nothing in it changes any marketplace parameter; the vignette prices remain illustrative marketing figures, never encodable parameters, the hero still gives no open-enrollment dates, and review_required_before_encoding stays true."
    ],
    "last_verified": "2026-11-17"
@@ -4691,7 +4721,7 @@
    ],
    "scene": "u5_p2b3_gate_recheck7",
    "source": "cms-medicaid-eligibility-policy",
-   "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-18; text fetch, copy crawled 2026-11-18 06:55 UTC, <1 min before the read). Page UNCHANGED vs 2026-11-15 on every re-checked item: mandatory groups verbatim, 77.9-million combined figure still undated, 133% FPL expansion option, MAGI no-varying-disregards and no-asset-test sentences, 36-states-plus-DC spenddown count verbatim, 3-month retroactivity in the 2026-11-02 wording, CIB appendix still present, fair-hearing sentence intact. The 5% MAGI disregard / 138% FPL suspension from 2026-11-06 HOLDS and is now ten reads to one: a find for '138' returns zero matches in the 122-line text and the only FPL percentage is 133%, twice; the only 'five' on the page is the five-year asset-transfer look-back. Still no last-updated date. NEW angle shipped as consumer: the fair-hearing right \u2014 states must provide the opportunity to request a fair hearing on a denial, an action the person believes was erroneous, or the state not acting with reasonable promptness; the hearing may be conducted by the Medicaid agency, delegated to the Exchange or Exchange Appeals Entity (MAGI denials), or delegated to another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968. The page states no hearing deadline, no promptness timeframe, and no hearing procedure.",
+   "summary": "Re-verification of the CMS Eligibility Policy overview (2026-11-18; text fetch, copy crawled 2026-11-18 06:55 UTC, <1 min before the read). Page UNCHANGED vs 2026-11-15 on every re-checked item: mandatory groups verbatim, 77.9-million combined figure still undated, 133% FPL expansion option, MAGI no-varying-disregards and no-asset-test sentences, 36-states-plus-DC spenddown count verbatim, 3-month retroactivity in the 2026-11-02 wording, CIB appendix still present, fair-hearing sentence intact. The 5% MAGI disregard / 138% FPL suspension from 2026-11-06 HOLDS and is now ten reads to one: a find for '138' returns zero matches in the 122-line text and the only FPL percentage is 133%, twice; the only 'five' on the page is the five-year asset-transfer look-back. Still no last-updated date. NEW angle shipped as consumer: the fair-hearing right — states must provide the opportunity to request a fair hearing on a denial, an action the person believes was erroneous, or the state not acting with reasonable promptness; the hearing may be conducted by the Medicaid agency, delegated to the Exchange or Exchange Appeals Entity (MAGI denials), or delegated to another state agency with CMS approval under the Intergovernmental Cooperation Act of 1968. The page states no hearing deadline, no promptness timeframe, and no hearing procedure.",
    "objectives": [
     "State the 2026-11-18 finding: one text fetch agrees the page is unchanged since 2026-11-15 on every re-checked item - mandatory groups, 77.9 million undated, 133% FPL option, MAGI no-varying-disregards and no-asset-test, 36-states-plus-DC spenddown count, three-month retroactivity, CIB appendix, fair-hearing sentence - and the page still shows no last-updated date.",
     "Explain the suspension's new standing: the 5% MAGI disregard / 138% FPL sentence quoted 2026-11-04 appears in no read since, a find for '138' returns zero matches today, and the only 'five' on the page is the five-year asset-transfer look-back, so the suspension now stands ten reads to one; it is quoted 2026-11-04 only and quoted as current by nobody until a second independent read finds it, and it is not declared removed.",
@@ -4699,36 +4729,35 @@
     "Name what the page does not establish: any state's eligibility groups, limits, or expansion status; any page publication date; the 77.9-million figure's currency; the MAGI 5% disregard / 138% FPL formulation as of today; any fair-hearing deadline or procedure; or any rule - page-level verification only, no rules encoded."
    ]
   },
- {
+  {
    "id": "samhsa-988-lifeline",
    "title": "988 Suicide & Crisis Lifeline verified at its own source (2026-11-19): a crisis doorway, not a coverage rule",
    "path": "visual-journey.html",
    "audience": [
-     "understand",
-     "investigate"
+    "understand",
+    "investigate"
    ],
    "status": "source_review_required",
    "concepts": [
-     "crisis-access",
-     "988-lifeline",
-     "free-confidential-support",
-     "call-text-chat",
-     "deaf-hoh-spanish-access",
-     "operator-vs-steward",
-     "extraction-method-discipline"
+    "crisis-access",
+    "988-lifeline",
+    "free-confidential-support",
+    "call-text-chat",
+    "deaf-hoh-spanish-access",
+    "operator-vs-steward",
+    "extraction-method-discipline"
    ],
    "policy_claims": true,
    "source_refs": [
-     "samhsa-988-lifeline"
+    "samhsa-988-lifeline"
    ],
    "scene": "u1_p4_988_first",
    "source": "samhsa-988-lifeline",
    "summary": "First verification of the federal 988 Suicide & Crisis Lifeline at its own sources (2026-11-19): SAMHSA page (last updated 09/26/2025) and the 988 Lifeline homepage, both read live. Both agree 988 is available 24/7, free and confidential, by call, text, or chat, with Deaf/HoH and Spanish access. The SAMHSA page does not state in so many words that SAMHSA operates the Lifeline — Congress designated the code to be operated through the existing National Suicide Prevention Lifeline. Neither page states any eligibility, coverage, rate, or routing rule; nothing here is encodable.",
    "objectives": [
-     "State what 988 offers from the official pages: 24/7, free and confidential support by call, text, or chat, with Deaf/HoH and Spanish access.",
-     "Name what the pages do not establish: who operates the Lifeline in SAMHSA's own words, any eligibility or coverage rule, any rate, any county routing, or any wait-time figure — so a simulator must not invent one."
+    "State what 988 offers from the official pages: 24/7, free and confidential support by call, text, or chat, with Deaf/HoH and Spanish access.",
+    "Name what the pages do not establish: who operates the Lifeline in SAMHSA's own words, any eligibility or coverage rule, any rate, any county routing, or any wait-time figure — so a simulator must not invent one."
    ]
- }
-
+  }
  ]
 }

@@ -3343,6 +3343,41 @@
         { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p5e8_coveighth',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE EIGHTH IDENTICAL READING (coverage census re-counted programmatically + map Image 14 counted, 2026-11-19)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p5e8_coveighth',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 5e, Continued Once More: The Eighth Identical Reading — The Small Map Agrees',
+      text: "Three days after the seventh reading I came back to the map room a seventh time — and the page had not moved a single county. Re-verified November 19, 2026, the Insurance Department page is substantively unchanged since November 16: same 125 text lines, same fifteen issuer sections in the same order, same two disclaimers, same fifteen map images, and the spot checks still agree — UPMC Health Plan still only Crawford and Clearfield, Oscar still thirteen counties. That is the eighth identical reading — October 14, November 1, November 4, November 7, November 10, November 13, November 16, November 19 — thirty-six days without a single change. This time the census was counted by script, not by hand: every one of the fifteen lists, run against today's live page, agrees exactly with the November 7 census — Ambetter 39, Capital Advantage 21, Geisinger Health Plan 44, Geisinger Quality Options 44, Health Partners Plans 9, Highmark Inc. 49, Highmark Benefits Group 18, Highmark Coverage Advantage 5, Keystone Health Plan Central 21, Keystone Health Plan East 5, Oscar 13, Partners Insurance Company 9, QCC 5, UPMC Health Options 51, UPMC Health Plan 2 — three hundred and thirty-five county mentions in total, and the four identical pairs still hold as a fact about the page's text lists only. UPMC Health Options now counts 51 for the seventh consecutive check. And this time I counted the smallest map on the page: Image 14, UPMC Health Plan, the two-county list the spot checks keep confirming. I downloaded the image itself and read it three ways — a fill-color scan of every pixel, disk samples around the county labels, and a direct look at the rendered map — and all three agree. The map shades exactly two counties, Crawford and Clearfield, and nothing else. Text two, map two, overlap two, nothing left over on either side. That is the first agreement in this series: the big map disagreed with its text, fifty-one against thirty-nine, and the small map matches its text exactly. One color fact, because the legend gives it a meaning: the fill on this map is light blue throughout, with zero purple pixels anywhere — and the legend says light blue means newly available for the upcoming 2026 plan year — while the big map's thirty-nine shaded counties were purple, with zero light-blue pixels. I am not claiming why one issuer's map uses one color and another's uses the other. What I will say plainly is the discipline this chain keeps earning: eight identical readings prove the page has not moved. They do not prove it is current. The page still carries no revision date, no last-updated stamp, no document version — so the check date is the version, and stability is not permanence. Count everything, claim only what you counted, and when the text and the picture disagree, put both numbers on the table — and when they agree, say that too, because an agreement you measured is worth exactly as much as a disagreement you measured.",
+      advantage: true,
+      advantageText: 'The Small Map Agrees: Text 2, Map 2',
+      citation: {
+        title: 'Coverage Areas for 2026 Individual Market Plans',
+        statute: 'PA Insurance Department · archived 2026 individual-market coverage page (market snapshot, not a rule)',
+        quote: 'UPMC Health Plan, Inc. covers Crawford County and Clearfield County in 2026.',
+        url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market',
+        urlLabel: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'The November 19 re-verification is the eighth identical reading of the archived 2026 coverage page in 36 days, the full census re-counted by script agrees with November 7 on all fifteen issuers, and the UPMC Health Plan map image (Image 14) has now been counted for the first time: it shades exactly 2 counties, Crawford and Clearfield, matching the text list exactly. What does that establish?',
+        opts: [
+          'A) The workbook\u2019s earlier 52 is confirmed — the text and the map agree on UPMC Health Plan, so the UPMC Health Options count must be 52 after all, and eight identical readings mean the page is permanently current.',
+          'B) An agreement for one issuer, measured three ways: text 2 versus map 2, overlap 2, nothing left over — the first agreement in the reconciliation series, standing next to Image 13\u2019s measured disagreement (text 51 versus map 39) — and the earlier 52 stays flagged for the owner rather than silently corrected, since the page still carries no revision date and thirteen map images are uncounted.',
+          'C) The light-blue fill proves UPMC Health Plan is a new issuer in 2026, and the purple fill on the other map proves UPMC Health Options was available in 2025.',
+        ],
+        answer: 1,
+        explanation: "Correct! The eighth reading establishes that the page has not moved in 36 days — nothing more — and the first-ever count of Image 14 is a measured agreement: the map shades exactly Crawford and Clearfield, the same two counties the text list names, confirmed by a fill-color scan of every pixel, disk samples around the labels, and a direct visual read. That agreement sits next to Image 13's measured disagreement (text 51 versus map 39), not instead of it — each issuer's reconciliation is its own fact. The workbook's earlier 52 is now contradicted by the text list seven times and by the Image 13 map once, but it stays flagged for the owner to correct rather than quietly rewritten, and thirteen map images are still uncounted. And the color is a recorded fact, not a conclusion: Image 14's fill is light blue throughout with zero purple pixels, and the legend says light blue means newly available for 2026 — why one map uses one legend color and the other uses the other is not established by this check.",
+      },
+      furtherReading: [
+        { label: 'Coverage Areas for 2026 Individual Market Plans (Official, Archived)', url: 'https://www.pa.gov/agencies/insurance/posted-filings-reports-company-orders/posted-product-and-rate-filings/aca-health-rate-filings/archived-health-insurance-rate-filings/2026-health-rate-filings/2026-coverage-areas-individual-market' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u2_p1',
     },
 
