@@ -4952,6 +4952,38 @@
         { label: 'Utah SPA 21-0019 approval package (PDF)', url: 'https://www.medicaid.gov/medicaid/spa/downloads/UT-21-0019.pdf' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u5_p2f_sbs_sixthload',
+    },
+    {
+      id: 'u5_p2f_sbs_sixthload',
+      part: 'Unit V · Statutory Ledgers',
+      chapter: 'Ch 12 · The Label Is Still Wrong — Five Days On',
+      text: "Five days ago I opened both Utah files and settled the mismatch three ways at once: the label is wrong, the target is right, and the date belongs to 21-0019. Three days ago I came back and found the page had not learned anything — the error was still printed, and I wrote that a resolved discrepancy does not fix the source. Today I came back a third time, and the lesson has grown a second half. Two loads, minutes apart, agree on every item I checked: a fresh text fetch and a live rendered read show the same intro, the same six guidance items, the same eight state SPAs in the same four groupings with the same approval dates, the same Utah time-study guide, the same three cost-report examples, the same disclaimer, and still no last-updated stamp anywhere on the page — the rendered read searched the whole page for the words 'Last Updated' and 'Updated' and found neither word at all. The page is unchanged. And the rendered read confirms the href directly: the link text still reads 'Utah SPA 21-0009' and it still points to UT-21-0019.pdf — the seventh consecutive live load showing the mismatch. Five days is long enough for a correction to have arrived and short enough to prove the point: a resolved discrepancy does not fix the source, and the passage of time does not fix it either. The workbook keeps the corrected citation — 21-0019, approved August 15, 2022 — and the index keeps its error, and both facts have to be carried forward together, because the next reader will meet the page first and the correction only if they look for it.",
+      advantage: true,
+      advantageText: 'Time Does Not Fix the Source Either',
+      citation: {
+        title: 'CMS School-Based Services Resources',
+        statute: 'CMS School-Based Services Resources index page (official)',
+        quote: 'We have also issued school-based services (SBS) guidance, most notably the 2023 Comprehensive Guide to Medicaid Services and Administrative Claiming.',
+        url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources',
+        urlLabel: 'CMS School-Based Services Resources (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'Five days after both Utah PDFs were opened and the index line was shown to conflate two SPAs, the page still prints "Utah SPA 21-0009 (approved August 15, 2022)" while linking to UT-21-0019.pdf — the seventh consecutive live load showing the mismatch. What is the correct handling?',
+        opts: [
+          'A) Enough time has passed that the page must have been corrected by now — go back to citing the index line as printed, 21-0009 approved August 15, 2022.',
+          'B) Carry both facts forward: the page is unchanged and still prints the wrong number, so cite the document (21-0019, approved August 15, 2022), never the link text alone — a resolved discrepancy does not fix the source, and time does not fix it either.',
+          'C) The mismatch has now appeared seven times, so it must be the intended citation after all: update the workbook to say 21-0009 is the school-based SPA.',
+        ],
+        answer: 1,
+        explanation: "Correct! Five days of stillness does not overturn the resolution — it sharpens it. The PDFs established which SPA is which; the page simply has not been corrected, and waiting longer is not a correction method. The workbook keeps the document citation (21-0019), and the index's error has to be carried alongside it, because the next reader meets the page first.",
+      },
+      furtherReading: [
+        { label: 'CMS School-Based Services Resources (Official)', url: 'https://www.medicaid.gov/resources-for-states/medicaid-state-technical-assistance/medicaid-and-school-based-services/school-based-services-resources' },
+        { label: 'Utah SPA 21-0019 approval package (PDF)', url: 'https://www.medicaid.gov/medicaid/spa/downloads/UT-21-0019.pdf' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u6_p1',
     },
     {
