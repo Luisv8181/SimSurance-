@@ -578,6 +578,35 @@
       furtherReading: [
         { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
       ],
+      next: 'u1_p4_phys9_mapts',
+    },
+
+    // -------------------------------------------------------------
+    // UNIT I EXTENSION: THE SIXTH DIFF (re-verified 2026-11-20)
+    // -------------------------------------------------------------
+    {
+      id: 'u1_p4_phys9_mapts',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4b Addendum: The Sixth Diff — A Directory\'s Phone Lines, Checked a Sixth Time — and the Timestamp That Didn\'t Move',
+      text: "Three days later, Glim went back to the physical-plan directory an eighth time — and this check could do something even the last one could not. On November 17, every phone number on the page was compared against its first recording for the fifth time, and every one agreed. Today is the sixth comparison, and every number agrees again: Geisinger 855-227-1302 and 855-214-8100 in all five tables, UPMC for You 800-286-4242 and 866-463-1462 in all five, Jefferson EverWell, Highmark Wholecare, AmeriHealth Caritas, Keystone First, United Healthcare Community Plan — the whole directory, six times diffed, zero movement. And the little wobble got its own fifth look. Three rows drop the colon after TTY while the same numbers carry it elsewhere — and today is the fifth time that punctuation itself could be compared, because the November 5 snapshot was the first to write it down. The same three rows drop it in the same places: Northeast Jefferson, Northeast UPMC, Southwest UPMC. The wobble did not move either. But the real news this run is a number that looked like a clock and turned out to be a stamp. On November 17 the region map image arrived carrying a timestamp parameter, ts=1779821172735, recorded as a load-level detail to compare next time. Today it is byte-identical — three days later, the same thirteen digits. A per-load cache-buster would be expected to change between loads; this one did not, so it now reads as a fixed version stamp on the image delivery, not a clock. That is the discipline in one line: write the odd detail down the first time you see it, and the next check can tell you what kind of thing it is. The counties still hand-count to 67, the typos still sit where they sat, and the page still carries no revision date — eight identical reads over thirty-six days. A month of stillness is not the same as a guarantee. It is a directory you can quote with a date, and defend.",
+      advantage: true,
+      advantageText: 'Check Six Times: A Sixth Diff, and a Timestamp That Proves It Is a Stamp',
+      citation: {
+        title: 'Managed Care Organizations (MCO) — Physical HealthChoices',
+        statute: 'PA DHS · Physical HealthChoices MCO directory (plan listing, not a rule)',
+        quote: 'Lehigh/Capital Counties in the HealthChoices Program: Adams, Berks, Cumberland, Dauphin, Franklin, Fulton, Huntingdon, Lancaster, Lebanon, Lehigh, Northampton, Perry, York',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco',
+        urlLabel: 'PA DHS Physical HealthChoices MCO Directory',
+      },
+      panel: {
+        type: 'beforeafter',
+        before: "THE NUMBER, CHECKED FIVE TIMES:\n- 'It agreed five times, so it is settled.'\n- Five comparisons treated as proof, and a punctuation wobble compared four times but never re-tested.\n- A fifth diff quoted as if it were a guarantee, and a new timestamp parameter recorded but unclassified.",
+        after: "THE NUMBER, CHECKED SIX TIMES:\n- Every member-services and EMSU number re-read 2026-11-20 against the 2026-11-17 diff — all agree, across all five region tables, sixth time running.\n- The TTY colon wobble is now itself diffed five times: the same three rows drop the colon in the same places, so it reads as a stable rendering quirk, not a page edit.\n- Eight identical reads over 36 days, counties still 67, typos still in place, still no revision date on the page. The map image timestamp parameter is byte-identical to 2026-11-17 (ts=1779821172735) — a fixed version stamp, not a per-load clock.",
+        note: "A dated plan directory (re-verified 2026-11-20): phone numbers are directory facts with a check date, not any member's actual plan, benefits, or network.",
+      },
+      furtherReading: [
+        { label: 'Physical HealthChoices MCO Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco' },
+      ],
       next: 'u1_p4_chip',
     },
     {

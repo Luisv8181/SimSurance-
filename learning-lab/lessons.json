@@ -3773,6 +3773,38 @@
    ]
   },
   {
+   "id": "physical-directory-phones-diff6",
+   "title": "The sixth diff: a directory's phone lines, checked a sixth time — and the timestamp that didn't move (re-verified 2026-11-20)",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "physical-health-mco-directory",
+    "source-verification",
+    "phone-number-diff",
+    "dated-directory-discipline",
+    "extraction-artifact"
+   ],
+   "scene": "u1_p4_phys9_mapts",
+   "source": "pa-dhs-physical-hc-mco",
+   "summary": "Re-verification of the PA DHS Physical HealthChoices MCO directory (2026-11-20; page text fetched from the official URL, copy crawled 2026-11-20 14:56 UTC, less than a minute before the read). Full-page read (94 lines) matches the 2026-11-17 snapshot exactly. Sixth phone-number diff: every member-services and EMSU number agrees again across all five region tables (Geisinger 855-227-1302 / 855-214-8100 and UPMC for You 800-286-4242 / 866-463-1462 identical in all five). TTY punctuation wobble now diffed a fifth time and unchanged: the same three rows (Northeast Jefferson, Northeast UPMC, Southwest UPMC) drop the colon after TTY in the same places, reading as a stable rendering quirk rather than a page edit. Counties hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 exactly once; same three persisting typos ('Northast', unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y). Page still carries no revision date. NEW: the map image timestamp parameter is byte-identical to 2026-11-17 (ts=1779821172735) — compared for the first time, it did not move, so it reads as a fixed version stamp on the image delivery rather than a per-load cache-buster; no claim is made about the map's own revision. Stability streak now eight identical checks (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14, 2026-11-17, 2026-11-20), 36 days. review_required_before_encoding stays true; no rule encoded.",
+   "verified": "2026-11-20",
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-physical-hc-mco"
+   ],
+   "objectives": [
+    "State the 2026-11-20 recheck result for the physical HealthChoices directory: five region tables unchanged since 2026-11-17, county lists hand-recounted to 13 + 22 + 13 + 5 + 14 = 67 counties exactly once, and the same three persisting typos ('Northast', the unmatched parenthesis in the Southwest header, 'UPMC for you, Inc.' lowercase y).",
+    "Explain why this run is the sixth phone-number diff: the 2026-11-05 check was the first comparison against the 2026-11-02 recording, 2026-11-08 the second, 2026-11-11 the third, 2026-11-14 the fourth and 2026-11-17 the fifth, so 2026-11-20 is the sixth comparison — and every member-services and EMSU number agrees again across all five region tables.",
+    "Explain the new diffable observation: the TTY colon wobble was first recorded on 2026-11-05 and first compared on 2026-11-08, so 2026-11-20 is the fifth recheck where the punctuation itself can be compared — the same three rows drop the colon in the same places, which reads as a stable rendering quirk, not a page edit.",
+    "Classify the map image timestamp parameter from its first comparison: ts=1779821172735 is byte-identical to the 2026-11-17 recording, so it reads as a fixed version stamp on the image delivery rather than a per-load cache-buster — and no claim is made about the map's own revision, which still carries no date on the page.",
+    "Apply the dated-directory discipline: a number checked six times is a dated fact that can be quoted with its check dates; eight identical reads over 36 days prove the page has not moved, not that it is current — the page still carries no revision date, and no number on it is evidence of any member's actual plan, benefits, or network."
+   ]
+  },
+  {
    "id": "cms-sbs-third-load",
    "title": "Third load, November 10, 2026: two live loads disagree; the Utah mismatch is present a third time running; a Utah date flickers inside one load",
    "path": "visual-journey.html",
