@@ -3858,6 +3858,37 @@
         { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u3_p2_data_recheck7',
+    },
+    {
+      id: 'u3_p2_data_recheck7',
+      part: 'Unit III · Provider Realities',
+      chapter: 'Ch 8 · The Correction, Witnessed a Third Time: Eight Reads, Thirty-Six Days',
+      text: "Three days after the last check, I opened the systems-management page again — and nothing had moved an eighth time. Same 253-line fetch, same objective sentence, same business-partners audience line, same newest notice — OMHSAS-2026-001, June 9, 2026, now five months and eleven days old — same encounter-documents index, same 2023 Encounter Data Validation studies and 2023 and 2019 on-site reviews. Eight identical checks now: October 15, November 2, November 5, November 8, November 11, November 14, November 17, November 20 — a thirty-six-day streak. Both fingerprint typos survive an eighth read: “Sub-Capitation Paymen” in the notices table and “Encounter Data Valdiation Study” in the reports table. What this read does add is a third witness to the corrected counts: the Systems Notices table is still 41 rows, still 13 from 2020 and 8 from 2021 with 2021-006 having no row, and the CCRI table is still 11 rows — and all three counts now agree across three independent fresh loads. A correction counted once is a claim; counted three times, it is a baseline you can stand on. And here is what a thirty-six-day streak is actually for. Stillness this precise is a tripwire: the next change, when it comes — a new notice, a moved row, a fixed typo — will be unmistakable against eight identical reads. Until then the silence says nothing about the program, only about the page. The four Reserved rows are still there, still counted as nothing. The newest validation evidence is still the 2023 EDV studies, and their PDFs are still unopened, so their findings are still unknown. The page still carries no revision date, so the check date is still the only version the citation has. Nothing here becomes a simulator parameter. What the eighth check changes is only the date — and the sensitivity of the tripwire.",
+      advantage: true,
+      advantageText: 'A Correction Counted Three Times Is a Baseline You Can Stand On',
+      citation: {
+        title: 'Behavioral HealthChoices Systems Management',
+        statute: 'PA DHS / OMHSAS · Division of Systems Management (official systems page; re-verified 2026-11-20 — unchanged since 2026-10-15; page-level review, linked study PDFs not read)',
+        quote: 'The Division of Systems Management objective is to ensure eligible individuals can access behavioral health services covered by Medicaid and County Base-Funded Mental Health.',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management',
+        urlLabel: 'PA DHS OMHSAS Systems Management (Official)',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-20 the systems-management page is unchanged for the eighth consecutive check, the corrected Systems Notices year split (13 from 2020, 8 from 2021; total 41) now holds across three independent counts on three fresh loads, and the CCRI table count (11 rows) is confirmed a third time. What does a thirty-six-day streak of identical reads actually give a researcher?',
+        opts: [
+          'A) Proof the program is current: eight unchanged reads mean the underlying data flows have not changed either.',
+          'B) A tripwire: a baseline this precise makes the next change unmistakable — a new notice, a moved row, or a fixed typo will stand out against eight identical reads — while the silence itself says nothing about the program, only about the page.',
+          'C) A reason to stop checking: after eight identical reads the page can be treated as permanently verified and encoded as a rule.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 20 re-verification is section by section against the 2026-11-17 snapshot: same 253-line fetch, same newest notice OMHSAS-2026-001 (June 9, 2026), same 2023 EDV studies and 2023/2019 on-site reviews — the eighth identical check (2026-10-15, 2026-11-02, 2026-11-05, 2026-11-08, 2026-11-11, 2026-11-14, 2026-11-17, 2026-11-20), a 36-day streak. A fresh document-number recount confirms the corrected split (13 from 2020, 8 from 2021; 2021-006 has no row; total still 41) for a third consecutive count, and the 11-row CCRI table count is confirmed a third time. Both fingerprint typos survive an eighth read. The four Reserved rows are still counted as nothing, the EDV-study PDFs are still unopened, so their findings remain unknown and review_required_before_encoding stays true. And the streak proves the page has not moved, not that the program is current: with no revision date anywhere on the page, the check date is the version, and nothing here is encoded as a rule.",
+      },
+      furtherReading: [
+        { label: 'OMHSAS Systems Management (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-systems-management' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u3_p3',
     },
     {
