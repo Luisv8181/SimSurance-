@@ -4791,6 +4791,39 @@
     "State what 988 offers from the official pages: 24/7, free and confidential support by call, text, or chat, with Deaf/HoH and Spanish access.",
     "Name what the pages do not establish: who operates the Lifeline in SAMHSA's own words, any eligibility or coverage rule, any rate, any county routing, or any wait-time figure — so a simulator must not invent one."
    ]
+  },
+  {
+   "id": "bhc-providers-recheck8-fullsum",
+   "title": "The seventh hand-sum: provider page still, total re-enumerated, duplicates census-complete",
+   "path": "visual-journey.html",
+   "audience": [
+    "understand",
+    "investigate"
+   ],
+   "status": "source_review_required",
+   "concepts": [
+    "bhc-providers",
+    "eligibles-map",
+    "hand-sum",
+    "duplicate-flags",
+    "asam-fee-schedule",
+    "stability-vs-currency",
+    "re-verification"
+   ],
+   "policy_claims": true,
+   "source_refs": [
+    "pa-dhs-bhc-providers"
+   ],
+   "scene": "u1_p4_prov_recheck8_fullsum",
+   "source": "pa-dhs-bhc-providers",
+   "objectives": [
+    "State the 2026-11-20 finding: the PA DHS Behavioral HealthChoices providers page is unchanged since 2026-11-17 \u2014 same 1,175-line text, same framing sentences, same map heading, same total 2,764,063 \u2014 for an eighth consecutive still check since the map moved 2026-11-02.",
+    "State the enumeration finding: all 67 county rows were listed by name and hand-summed a seventh time to exactly 2,764,063, matching the page total, so the November 17 stillness is now enumeration-backed again and the last full hand-sum moves to 2026-11-20.",
+    "State the duplicate census: a full-table scan confirms Montgomery/Northampton 112,070 (ninth check) and Indiana/Lawrence 16,168, both Carelon (eighth check) are the ONLY duplicate values in the 67-row table; both reconcile with the total, so both stay flagged for the owner, never corrected here.",
+    "State the fee finding: all seven ASAM fees identical for a tenth consecutive check (2.0WM $106.35/hr, 2.1 $11.57/15min, 2.5 $10.74/15min, 3.1 $160.13/diem, 3.5 $260.65/diem, 3.7 $321.78/diem, 3.7WM $415.24/diem), still headed Rates Effective January 1, 2026; the ASAM PDF was not re-opened and the 2026-11-08 reading stands.",
+    "Record the load-level comparison honestly: the map image timestamp parameter (ts=1793308800037) is unchanged from 2026-11-17 \u2014 stable, not drifting \u2014 a load-level observation, not a page change, and no claim is made about the map's own revision.",
+    "Keep the discipline: the page carries no revision date, so the check date (2026-11-20) is the version; a dated fee schedule is rate evidence, never a payment rule; review_required_before_encoding stays true and nothing here is encoded as a rule."
+   ]
   }
  ]
 }

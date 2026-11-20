@@ -1930,6 +1930,38 @@
         { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
         { label: 'Read Policy Sources', url: './reading-policy.html' },
       ],
+      next: 'u1_p4_prov_recheck8_fullsum',
+    },
+    {
+      id: 'u1_p4_prov_recheck8_fullsum',
+      part: 'Unit I · The 5 Players',
+      chapter: 'Ch 3 · Player 4e, Eighth Recheck: The Seventh Hand-Sum',
+      text: "Three days after the last check, I opened the provider page again, and for the eighth check in a row since the map moved on November 2, nothing moved. Same 1,175 lines, same framing sentences \u2014 \u201cFor mental health and drug and alcohol services, each county contracts with a Managed Care Organization (MCO),\u201d and \u201cEach HealthChoices consumer is assigned a Behavioral Health Managed Care Organization (BH-MCO) based on his or her county of residence\u201d \u2014 same map heading, same total of 2,764,063 lives. And once again I did the slow work instead of the quick glance: I listed all sixty-seven counties by name and added them by hand a seventh time, and the sum is exactly 2,764,063. Seven independent enumerations now \u2014 November 2, November 7, November 10, November 13, November 15, November 17, and today \u2014 each landing on the printed total. The hand-sum did its second job too, scanning the whole table for duplicates, and the census holds: Montgomery and Northampton still both print 112,070, a flag now nine checks old, and Indiana and Lawrence still both print 16,168, both Carelon, eight checks old. Those two pairs are the only duplicates in the table, and both reconcile with the total, so both stay flagged for the owner, never silently corrected. The fee schedule has stood still across ten checks \u2014 2.0WM still $106.35 an hour, 3.7WM still $415.24 a day, still headed \u201cRates Effective January 1, 2026.\u201d The long HCBS gap-payments table is still there, same shape, ending at the same \u201cFAQs - Behavioral Health Workforce Gap Payment\u201d heading, its tail rows agreeing. One small comparison closes a loop from the last visit: the map image URL still carries the same timestamp parameter the November 17 check recorded, unchanged, so the parameter is stable across this check, not drifting \u2014 still a load-level observation, not a page change. The map moved once, on November 2, and has held for eighteen days since \u2014 but hold on the page, not on the program: this page carries no revision date, no last-updated stamp, no version, so the streak proves the page has not moved, not that it is current. A directory you quote is a directory you date, and this one is dated November 20, 2026.",
+      advantage: true,
+      advantageText: 'Stillness, Counted a Seventh Time',
+      citation: {
+        title: 'Behavioral HealthChoices: Information for Providers',
+        statute: 'PA DHS · provider-facing overview (directory, not a rule; re-verified 2026-11-20 — unchanged, eighth consecutive still check; total hand-summed a seventh time)',
+        quote: 'For mental health and drug and alcohol services, each county contracts with a Managed Care Organization (MCO).',
+        url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers',
+        urlLabel: 'PA DHS Behavioral HealthChoices for Providers',
+      },
+      panel: {
+        type: 'quiz',
+        q: 'On 2026-11-20 the provider page is unchanged for the eighth consecutive check since the map moved on 2026-11-02 — same 1,175-line text, same total 2,764,063, all seven ASAM fees identical for a tenth consecutive check. This run hand-summed all 67 county rows a seventh time and scanned the whole table for duplicates. What does this establish?',
+        opts: [
+          'A) That the page is now current and the figures can be encoded as rules without further review.',
+          'B) That the page has not moved since 2026-11-02 — the total is consistent with its own table on seven independent enumerations, and the two duplicate pairs (Montgomery/Northampton 112,070; Indiana/Lawrence 16,168, both Carelon) are the only duplicates in the table — but the page carries no revision date, so stability is not currency: quote it only with the 2026-11-20 check date, keep both pairs flagged for the owner, and keep review_required_before_encoding true.',
+          'C) That the duplicate pairs must now be corrected, since a ninth check confirms they are errors.',
+        ],
+        answer: 1,
+        explanation: "Correct! The November 20 re-verification is a full-page read (1,175 lines, crawled under a minute before the read) matching the November 17 snapshot: same framing sentences, same map heading, same total 2,764,063 hand-summed from all 67 county rows a seventh time to exactly the stated total, and all seven ASAM fees identical for a tenth consecutive check. The full-table scan confirms Montgomery/Northampton 112,070 (ninth check) and Indiana/Lawrence 16,168, both Carelon (eighth check) are the only two duplicate values in the table — both reconcile with the total, so both stay flagged for the owner, never silently corrected. The map image timestamp parameter is unchanged from November 17, so it is stable across this check, not drifting. And the streak proves the page has not moved, not that it is current: with no revision date anywhere on the page, the check date is the version, and nothing here is encoded as a rule.",
+      },
+      furtherReading: [
+        { label: 'Behavioral HealthChoices for Providers (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-providers' },
+        { label: 'BHC Managed Care Organizations Directory (Official)', url: 'https://www.pa.gov/agencies/dhs/resources/medicaid/bhc/bhc-mcos' },
+        { label: 'Read Policy Sources', url: './reading-policy.html' },
+      ],
       next: 'u1_p4_access',
     },
     {
